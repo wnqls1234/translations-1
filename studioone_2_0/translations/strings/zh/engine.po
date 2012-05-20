@@ -1,0 +1,2266 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]\"%(1)\" is already automated"
+msgstr "\"%(1)\"已经自动化处理"
+
+#: .\engine\music\musicclip.cpp
+msgid "[MusicClip]%(1) beats"
+msgstr "%(1) 节拍"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]%(1) dB (Diff: %(2) dB)"
+msgstr "%(1) dB (相差: %(2) dB)"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]%(1) files are missing."
+msgstr "%(1)文件丢失."
+
+#: .\engine\music\musicclip.cpp
+msgid "[MusicClip]%(1) notes"
+msgstr "%(1) 记录"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]%(2) files were found in %(1)"
+msgstr "%(2)文件位于%(1)中"
+
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit](Enter Part)"
+msgstr "(输入部分)"
+
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit](Leave Part)"
+msgstr "(空白部分)"
+
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit](Shared Copy)"
+msgstr "(共享复制)"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles](not used)"
+msgstr "(尚未使用)"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes](not used)"
+msgstr "(尚未使用)"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]1 file is missing."
+msgstr "1个文件丢失."
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]1 file was found in %(1)"
+msgstr "1个文件位于%(1)中"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[EditGroups]A Group with this name already exists."
+msgstr "此名称组已存在。"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Activate Layer"
+msgstr "启用层"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Activate Layer"
+msgstr "启用层"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Layer"
+msgstr "启用层"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Add / Remove..."
+msgstr "添加/移除..."
+
+#: .\engine\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Add Automation"
+msgstr "添加自动控制"
+
+#: .\engine\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add Bus Channel"
+msgstr "添加总线通道1"
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add FX on %(1):"
+msgstr "添加效果器-%(1):"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Add Layer"
+msgstr "添加布局"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Add Layer"
+msgstr "添加布局"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Add Layer"
+msgstr "添加布局"
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Send:"
+msgstr "添加发送:"
+
+#: .\engine\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Add Track"
+msgstr "添加音轨"
+
+#: .\engine\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Add..."
+msgstr "添加..."
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Already in Pool:"
+msgstr "已在媒体池中:"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]An invalid signal occured during export. Do you want to abort the export?"
+msgstr "导出时出现异常, 是否终止导出?"
+
+#: .\engine\audio\audioeventtheme.cpp
+msgid "[Engine]Analyzing..."
+msgstr "分析中..."
+
+#: .\engine\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Apply Audio Bend"
+msgstr "应用音频弯曲"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "[PoolNodes]是否删除此剪辑的所有效果?\n\n此动作无法挽回。"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Arm"
+msgstr "支杆"
+
+#: .\engine\base\media\mediaattachment.cpp
+msgid "[MediaPool]Attachment"
+msgstr "附件"
+
+#: .\engine\base\media\mediaattachment.cpp
+msgid "[MediaPool]Attachments"
+msgstr "附件"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio"
+msgstr "音频"
+
+#: .\engine\application\audioedit\audiobendaddin.cpp
+msgid "[EditAddIn]Audio Bend"
+msgstr "音频弯曲"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Bend"
+msgstr "音频弯曲"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Audio Export"
+msgstr "导出音频"
+
+#: .\engine\editing\monitorfollower.cpp
+msgid "[Command]Audio Input follows Selection"
+msgstr "音频输入遵循选项的设置"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Parts"
+msgstr "音频部分"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Processing"
+msgstr "音频进行中"
+
+#: .\engine\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Automation"
+msgstr "自动控制"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Automation"
+msgstr "自动控制"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Beats"
+msgstr "节拍"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Beats"
+msgstr "节拍"
+
+#: .\engine\application\musicedit\musicbouncedialog.cpp
+msgid "[MusicBounceDialog]Bounce Instrument Parts"
+msgstr "内部混缩乐器片段"
+
+#: .\engine\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]Bounce Selection"
+msgstr "内部混缩选择"
+
+#: .\engine\application\musicedit\musicbouncetask.cpp
+msgid "[MusicPartEdit]Bounce Selection"
+msgstr "内部混缩选择"
+
+#: .\engine\audio\audioeventtheme.cpp
+msgid "[Engine]Building Preview..."
+msgstr "创建预览..."
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Event Order"
+msgstr "改变事件顺序"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Event Time Format"
+msgstr "改变事件时间格式"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Play Mode"
+msgstr "改变播放模式"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Timestretch/Pitchshift Method"
+msgstr "改变变速/变调算法"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Track Time Format"
+msgstr "改变音轨时间格式"
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Channel \"%(1)\""
+msgstr "通道 \"%(1)\""
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer]Channels"
+msgstr "通道"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Click+Drag Parameter"
+msgstr "点击并拖拉参数"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Clipping has occured during export. The signal was %float(1:2) dB over. Do you want to abort the export?"
+msgstr "导出时出现异常, 浮点信号%float(1:2)过载. 是否终止导出?"
+
+#: .\engine\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Colorize Automation"
+msgstr "自动配色"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Colorize Event"
+msgstr "事件配色"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Colorize Events"
+msgstr "事件配色"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Console"
+msgstr "控制台"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[Command]Convert Files"
+msgstr "转换文件"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Convert Files..."
+msgstr "转换文件..."
+
+#: .\engine\application\musicloop\loopextension.cpp
+msgid "[Browser]Convert to Audioloop"
+msgstr "转换为音频循环"
+
+#: .\engine\application\musicloop\loopextension.cpp
+msgid "[Browser]Convert to Wave File"
+msgstr "转换为wava文件"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Converting Files"
+msgstr "转换文件"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Copy"
+msgstr "复制"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event"
+msgstr "复制事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events"
+msgstr "复制事件"
+
+#: .\engine\pool\mediapoolcomponent.cpp
+msgid "[Command]Copy External Files"
+msgstr "复制外部文件"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Copy External Files..."
+msgstr "复制外部文件..."
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Copying external files"
+msgstr "复制外部文件"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Song]Could not import file!"
+msgstr "无法导入文件!"
+
+#: .\engine\base\documentrenamer.cpp
+msgid "[Documents]Could not rename %(1)!\n\nThe file is in use."
+msgstr "无法重命名%(1)!\n\n文件正在使用."
+
+#: .\engine\base\documentrenamer.cpp
+msgid "[Documents]Could not rename the folder %(1)!\n\nA file in this folder is in use."
+msgstr "无法重命名文件夹%(1)!\n\n该文件夹下有文件正在使用."
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Create \"%(1)\" Automation\non %(2)"
+msgstr "创建\"%(1)\"自动控制 - %(2)"
+
+#: .\engine\musicediting\partautomationdraghandler.cpp
+msgid "[Automation]Create \"%(1)\" Part Automation"
+msgstr "创建\"%(1)\"片段的自动控制"
+
+#: .\engine\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Create Autofades"
+msgstr "创建自动推子"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Create Automation"
+msgstr "创建自动控制"
+
+#: .\engine\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Create Crossfades"
+msgstr "创建交叉淡化"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Create Ranges"
+msgstr "创建范围"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Create Ranges on Tracks"
+msgstr "创建音轨范围"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Date"
+msgstr "日期"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Video]Default Size"
+msgstr "默认大小"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Delete"
+msgstr "删除"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Delete Attachments"
+msgstr "删除附件"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Delete Bend Marker"
+msgstr "删除弯曲标记"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Delete Event"
+msgstr "删除事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Delete Events"
+msgstr "删除事件"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Delete File permanently"
+msgstr "永久性删除文件"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Marker]Delete Marker"
+msgstr "删除标记"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Delete Time"
+msgstr "删除时间"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Delete Time"
+msgstr "删除时间"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Deleting recorded files"
+msgstr "删除录音文件"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Deselect All on Tracks"
+msgstr "删除音轨中的全部内容"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Detect Transients"
+msgstr "检测瞬变"
+
+#: .\engine\automationediting\automationdialog.cpp
+msgid "[Automation]Device"
+msgstr "设备"
+
+#: .\engine\song\songdocument.cpp
+msgid "[Engine]Devices"
+msgstr "设备"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Display: Off"
+msgstr "显示:关"
+
+#: .\engine\application\audioedit\audioparttasks.cpp
+msgid "[AudioEdit]Dissolve Audio Part"
+msgstr "溶解音频部分"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Dissolve Group"
+msgstr "溶解组"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[Command]Dissolve Group"
+msgstr "解除编组"
+
+#: .\engine\song\publisherselector.cpp
+msgid "[Engine]Do not publish"
+msgstr "不发布"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to copy all external files to the Media Folder?"
+msgstr "是否将所有外部文件复制到媒体文件夹下?"
+
+#: .\engine\audio\audiocache.cpp
+msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
+msgstr "是否删除缓存区内的所有未使用的临时音频文件?"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
+msgstr "是否删除最后一次保存之前所创建或录制的文件?"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Video]Do you want to extract the audio to a new track?"
+msgstr "是否将音频提取到新音轨中?"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Do you want to remove all occurrences of these clips?"
+msgstr "是否移除剪贴中的所有内容?"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
+msgstr "是否移除剪贴中的所有内容?"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove all unused files?"
+msgstr "是否移除所有未使用的文件?"
+
+#: .\engine\musicediting\musicenvelopedialog.cpp
+msgid "[Automation]Do you want to remove these parameters from all parts?"
+msgstr "是否移除所有片段中的这些参数?"
+
+#: .\engine\musicediting\musicenvelopedialog.cpp
+msgid "[Automation]Do you want to remove this parameter from all parts?"
+msgstr "是否移除所有片段中的此参数?"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?\n\nClick 'Yes' to replace the instrument or click 'No' to add a new instrument."
+msgstr "是否替换乐器%(1)?\n\n点击[是]替换, 点击[不]添加新乐器."
+
+#: .\engine\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Don't follow"
+msgstr "不跟随"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Video]Double Size"
+msgstr "两倍大小"
+
+#: .\engine\web\webeventpainter.cpp
+msgid "[Engine]Download finished"
+msgstr "下载完毕"
+
+#: .\engine\web\webeventpainter.cpp
+msgid "[Engine]Downloading..."
+msgstr "下载中..."
+
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]Dropouts occured during record. The harddrive might not be fast enough. Please consult the operating manual for advice on disc performance."
+msgstr "录音时出现异常, 也许硬件出现问题. 请参见产品说明书中的有关内容. "
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Duplicate"
+msgstr "副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Layer"
+msgstr "布局副本"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Duplicate Layer"
+msgstr "布局副本"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Duplicate Layer"
+msgstr "布局副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Layers"
+msgstr "层副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Track"
+msgstr "音轨副本"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Duplicate Track"
+msgstr "音轨副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Track with Events"
+msgstr "包含事件的音轨副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Tracks"
+msgstr "音轨副本"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Duplicate Tracks"
+msgstr "音轨副本"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Tracks with Events"
+msgstr "包含事件的音轨副本"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Duplicate with Events"
+msgstr "包含事件的副本"
+
+#: .\engine\audioediting\audiobendeditlayer.cpp
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Edit"
+msgstr "编辑"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Length"
+msgstr "编辑淡化长度"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Length & Type"
+msgstr "编辑淡化长度和类型"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Type"
+msgstr "编辑淡化类型"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Level"
+msgstr "编辑电平"
+
+#: .\engine\editing\markereditlayer.cpp
+msgid "[Edit]Edit Name"
+msgstr "编辑名称"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Edit Track"
+msgstr "编辑音轨"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Automation]Edit Value"
+msgstr "编辑音量"
+
+#: .\engine\base\model\markertrack.cpp
+msgid "[Marker]End"
+msgstr "结束"
+
+#: .\engine\base\envelopes\enveloperegion.cpp
+msgid "[Engine]Envelopes"
+msgstr "包络线"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]Event"
+msgstr "事件"
+
+#: .\engine\editing\eventinspector.cpp
+msgid "[EventInspector]Event Color"
+msgstr "事件颜色"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Expand Envelopes"
+msgstr "扩展包络线"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Command]Expand Envelopes"
+msgstr "扩展包络线"
+
+#: .\engine\editing\foldertrackcomponent.cpp
+msgid "[Track]Expand Folder Track"
+msgstr "扩展文件夹轨道"
+
+#: .\engine\editing\foldertrackcomponent.cpp
+msgid "[Command]Expand Folder Track"
+msgstr "扩展文件夹轨道"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Expand Layers"
+msgstr "扩展层"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Command]Expand Layers"
+msgstr "扩展层"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Exponential"
+msgstr "指数"
+
+#: .\engine\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Export Audioloop"
+msgstr "导出音频循环"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Export Mixdown"
+msgstr "导出混音"
+
+#: .\engine\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Export Musicloop"
+msgstr "导出音乐循环"
+
+#: .\engine\application\musicedit\musicexporttask.cpp
+msgid "[MusicPartEdit]Export Parts to MIDI File"
+msgstr "将部分导出为MIDI文件"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Export Stems"
+msgstr "导出音尾"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Exporting..."
+msgstr "导出..."
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer]Exporting:"
+msgstr "导出:"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Extract Audio"
+msgstr "提取音频"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Extract Audio to %(1):"
+msgstr "将音频提取到%(1):"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Video]Extracted Audio Track"
+msgstr "提取音频轨"
+
+#: .\engine\videoediting\audioextractor.cpp
+msgid "[Video]Extracting Audio"
+msgstr "提取音频"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fade-in"
+msgstr "淡入"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fade-out"
+msgstr "淡出"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Failed to export audio file."
+msgstr "音频文件导出失败."
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer]Failed to export audio file."
+msgstr "音频文件导出失败."
+
+#: .\engine\audio\audioeventtheme.cpp
+msgid "[Engine]File not found!"
+msgstr "未找到文件!"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fine"
+msgstr "精细"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]First Event"
+msgstr "首事件"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]First Event Extend"
+msgstr "首事件扩展"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]First Track"
+msgstr "首音轨"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]First Track Extend"
+msgstr "首音轨扩展"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Fit Timeline to Contents"
+msgstr "时间线匹配内容"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Fit Timeline to Contents"
+msgstr "时间线匹配内容"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Flat"
+msgstr "平板"
+
+#: .\engine\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Follow"
+msgstr "跟随"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Format"
+msgstr "格式"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]General operations for events"
+msgstr "为事件应用一般操作"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Goto Next Marker"
+msgstr "跳转到下一个标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Goto Previous Marker"
+msgstr "跳转到上一个标记"
+
+#: .\engine\base\model\editgroups.cpp
+msgid "[EditGroups]Group"
+msgstr "编组"
+
+#: .\engine\editing\tracklistinspector.cpp
+msgid "[Engine]Group"
+msgstr "编组"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Group Selected Tracks"
+msgstr "编组所选音轨"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[Command]Group Selected Tracks"
+msgstr "编组所选音轨"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Group Tracks"
+msgstr "编组音轨"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Video]Half Size"
+msgstr "一半大小"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Command]Hide"
+msgstr "隐藏"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Hide \"%(1)\""
+msgstr "隐藏 \"%(1)\""
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Hide Layer"
+msgstr "隐藏层"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Hide Track"
+msgstr "隐藏音轨"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Image"
+msgstr "图像"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Import File"
+msgstr "导入文件"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Import File"
+msgstr "导入文件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Import Files"
+msgstr "导入文件"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Import Files into Pool:"
+msgstr "文件导入媒体池:"
+
+#: .\engine\video\videofunctions.cpp
+msgid "[Video]Import Video"
+msgstr "导入视频"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Import Video"
+msgstr "导入视频"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video"
+msgstr "导入视频"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video and extract Audio"
+msgstr "导入视频并提取音频"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video and extract Audio to %(1):"
+msgstr "视频和音频导入到%(1):"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video:"
+msgstr "导入视频:"
+
+#: .\engine\pool\poolimportextension.cpp
+msgid "[Browser]Import to Pool"
+msgstr "导入媒体池"
+
+#: .\engine\audio\audiocliphandler.cpp
+msgid "[AudioClipImporter]Importing..."
+msgstr "导入中..."
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Input Quantize"
+msgstr "输入量化"
+
+#: .\engine\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Insert"
+msgstr "插入"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Insert"
+msgstr "插入"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Insert Bend Marker"
+msgstr "插入弯曲标记"
+
+#: .\engine\audioediting\audiobendeditlayer.cpp
+msgid "[Command]Insert Bend Marker"
+msgstr "插入弯曲标记"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Insert Instrument on %(1):"
+msgstr "将乐器插入%(1):"
+
+#: .\engine\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Insert Marker"
+msgstr "插入标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Marker]Insert Marker"
+msgstr "插入标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Insert Named"
+msgstr "插入指定的"
+
+#: .\engine\editing\tracklisteditmodel2.cpp
+msgid "[Events]Insert Points"
+msgstr "插入节点"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Insert Silence"
+msgstr "插入静默"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Silence"
+msgstr "插入静默"
+
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Track"
+msgstr "插入轨道"
+
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Tracks"
+msgstr "插入轨道"
+
+#: .\engine\editing\monitorfollower.cpp
+msgid "[Command]Instrument Input follows Selection"
+msgstr "乐器输入遵循选择设置"
+
+#: .\engine\musicediting\musicparttask.cpp
+msgid "[MusicPartEdit]Instrument Parts"
+msgstr "乐器部分"
+
+#: .\engine\application\musicloop\musicloopdraghandler.cpp
+msgid "[MusicLoopDragHandler]Instrument: %(1)"
+msgstr "乐器: %(1)"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Large"
+msgstr "较大"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Last Event"
+msgstr "尾事件"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Last Event Extend"
+msgstr "尾事件扩展"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Last Track"
+msgstr "尾音轨"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Last Track Extend"
+msgstr "尾音轨扩展"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Latch"
+msgstr "碰锁"
+
+#: .\engine\base\model\eventlayer.cpp
+msgid "[Engine]Layer"
+msgstr "层"
+
+#: .\engine\base\model\eventlayer.cpp
+msgid "[Engine]Layers"
+msgstr "层"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Length"
+msgstr "长度"
+
+#: .\engine\editing\eventedithandler.cpp
+msgid "[EventEditHandler]Length: %(1)"
+msgstr "长度: %(1)"
+
+#: .\engine\editing\eventedithandler.cpp
+msgid "[EventEditHandler]Length: %(1)  Speedup: %(2)"
+msgstr "长度: %(1)  加速: %(2)"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Linear"
+msgstr "线性"
+
+#: .\engine\music\musicclip.cpp
+msgid "[MusicClip]Loading Performance: %(1)"
+msgstr "加载参数设置: %(1)"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[Command]Locate File"
+msgstr "定位文件"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Locate File..."
+msgstr "定位文件..."
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Locate File..."
+msgstr "定位文件..."
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Locate Missing Devices"
+msgstr "定位丢失的设备"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Locate Missing Files"
+msgstr "定位丢失的文件"
+
+#: .\engine\pool\mediapoolcomponent.cpp
+msgid "[Command]Locate Missing Files"
+msgstr "定位丢失的文件"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Locate Missing Files..."
+msgstr "定位丢失的文件..."
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Locate file \"%(1)\""
+msgstr "定位文件\"%(1)\""
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Located %(1) files"
+msgstr "定位文件%(1)"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Located file: %(1)"
+msgstr "定位文件: %(1)"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Location"
+msgstr "位置"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Logarithmic"
+msgstr "对数"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Mix"
+msgstr "循环录音混合"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Mix"
+msgstr "循环录音混合"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Note Erase"
+msgstr "消除循环录音记录"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Note Erase"
+msgstr "消除循环录音记录"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Note Repeat"
+msgstr "重复循环录音记录"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Note Repeat"
+msgstr "重复循环录音记录"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Takes"
+msgstr "循环录音音块"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Takes"
+msgstr "循环录音音块"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Manage Parameters"
+msgstr "参数管理"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Map"
+msgstr "映射"
+
+#: .\engine\base\media\mediamarker.cpp
+msgid "[Engine:MediaMarker]Marker"
+msgstr "标记"
+
+#: .\engine\base\model\markertrack.cpp
+msgid "[Marker]Marker"
+msgstr "标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Marker"
+msgstr "标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Marker]Marker %(1)"
+msgstr "标记 %(1)"
+
+#: .\engine\pool\mediapoolcomponent.cpp .\engine\pool\mediapoolnodes.cpp
+msgid "[Command]Media"
+msgstr "媒体"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Medium"
+msgstr "中等"
+
+#: .\engine\application\musicedit\musicmergetask.cpp
+msgid "[MusicPartEdit]Merge Events"
+msgstr "整合事件"
+
+#: .\engine\application\audioedit\audioparttasks.cpp
+msgid "[AudioEdit]Merge to Audio Part"
+msgstr "整合至音频部分"
+
+#: .\engine\application\musicloop\loopextension.cpp
+msgid "[Browser]Merge to Stereo File"
+msgstr "整合为立体声文件"
+
+#: .\engine\song\songsetup.cpp
+msgid "[SongSetup]Meta Information"
+msgstr "元素属性"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Minimal"
+msgstr "最小值"
+
+#: .\engine\application\musicloop\musicloopdraghandler.cpp
+msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
+msgstr "缺失乐器: %(1)"
+
+#: .\engine\automationediting\automationdialog.cpp
+msgid "[Automation]Mode"
+msgstr "模式"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Modify Marker Threshold"
+msgstr "修改标记阀门"
+
+#: .\engine\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Speed"
+msgstr "修正速率"
+
+#: .\engine\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Tempo"
+msgstr "修正速度"
+
+#: .\engine\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Tune"
+msgstr "修正音高"
+
+#: .\engine\music\musicpartactions.cpp
+msgid "[Engine:MusicActions]Modify Velocity"
+msgstr "修改力度"
+
+#: .\engine\video\videofunctions.cpp
+msgid "[Video]Modify Video Offset"
+msgstr "修正视频偏移"
+
+#: .\engine\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Volume Curve"
+msgstr "修正音量包络"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Monitor"
+msgstr "监视器"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Move \"%(1)\" Automation"
+msgstr "移动\"%(1)\"的自动控制"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "移动\"%(1)\"的自动控制\n从%(3)到%(2)"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
+msgstr "移动\"%(1)\"的自动控制\n到%(2)"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Move Bend Marker"
+msgstr "移除弯曲标记"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Event"
+msgstr "移动事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Events"
+msgstr "移动事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Layer"
+msgstr "移动布局"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Layers"
+msgstr "移动布局"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track"
+msgstr "移动音轨"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track into Folder"
+msgstr "移动音轨至文件夹"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track into Folder %(1)"
+msgstr "移动音轨至文件夹 %(1)"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track out of Folder"
+msgstr "将音轨从文件夹内移出"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Tracks"
+msgstr "移动音轨"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Move to Origin"
+msgstr "移至源点"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Move to Origin"
+msgstr "移至源点"
+
+#: .\engine\application\musicloop\musicloop.cpp
+msgid "[FileType]Musicloop"
+msgstr "音池"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Mute"
+msgstr "静音"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Mute Event"
+msgstr "事件静音"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Mute Events"
+msgstr "事件静音"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Name"
+msgstr "名称"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Marker]Name"
+msgstr "名称"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Navigation"
+msgstr "导航"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Next Event"
+msgstr "下一个事件"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Next Event Extend"
+msgstr "延长下一个事件"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Next Mode"
+msgstr "下一个模式"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Next Parameter"
+msgstr "下一个参数"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Next Scene"
+msgstr "下一个场景"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Next Track"
+msgstr "下一个轨道"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Next Track Extend"
+msgstr "延长下一个轨道"
+
+#: .\engine\song\songmaster.cpp
+msgid "[SongMaster]No"
+msgstr "否"
+
+#: .\engine\application\musicloop\loopextension.cpp
+msgid "[Browser]No audio files with a name that ends in .L or .R found."
+msgstr "未找到以.L或.R结尾的音频文件"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]No files are missing."
+msgstr "文件无丢失."
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]No files are unused."
+msgstr "无未使用的文件."
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]No files to convert."
+msgstr "文件无转换. "
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]No matching files were found in %(1)"
+msgstr "%(1)下没有找到匹配的文件"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]None"
+msgstr "无"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[EditGroups]None"
+msgstr "无"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Normal"
+msgstr "标准"
+
+#: .\engine\base\model\markertrack.cpp
+msgid "[Marker]Normal"
+msgstr "标准"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Normal"
+msgstr "标准"
+
+#: .\engine\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Normalize"
+msgstr "标准化"
+
+#: .\engine\application\audioedit\audionormalizetask.cpp
+msgid "[AudioEdit]Normalize Audio"
+msgstr "音频标准化"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Not Recorded"
+msgstr "尚无录音"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Not Set"
+msgstr "不设置"
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
+msgstr "没有导出任何数据，请选择一条或多条音轨并设置循环或标记."
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
+msgstr "没有导出任何数据. 请首先设置循环或标记."
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]Nudge"
+msgstr "微调"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Off"
+msgstr "关"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Only clicked event"
+msgstr "仅点击的事件"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Only extract Audio"
+msgstr "仅提取音频"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Operations specific to audio events"
+msgstr "只对音频事件进行操作"
+
+#: .\engine\musicediting\musicparttask.cpp
+msgid "[MusicPartEdit]Operations specific to instrument parts"
+msgstr "只对乐器部分进行操作"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Overlaps"
+msgstr "重叠"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Overview"
+msgstr "概述"
+
+#: .\engine\automationediting\automationdialog.cpp
+msgid "[Automation]Parameter"
+msgstr "参数"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Paste"
+msgstr "黏贴"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Path"
+msgstr "路径"
+
+#: .\engine\audioediting\audioeditor.cpp
+#: .\engine\audioediting\audioscaleview.cpp
+msgid "[AudioScale]Percent"
+msgstr "百分比"
+
+#: .\engine\song\songdocument.cpp
+msgid "[Engine]Pool"
+msgstr "媒体池"
+
+#: .\engine\audio\audioeventtheme.cpp
+msgid "[Engine]Preview creation failed!"
+msgstr "创建预设失败!"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Previous Event"
+msgstr "上一个事件"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Previous Event Extend"
+msgstr "延长上一个事件"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Previous Mode"
+msgstr "上一个模式"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Previous Parameter"
+msgstr "上一个参数"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Previous Scene"
+msgstr "上一个场景"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Previous Track"
+msgstr "上一个轨道"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Command]Previous Track Extend"
+msgstr "延长上一个轨道"
+
+#: .\engine\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Quantize"
+msgstr "量化"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Quantize"
+msgstr "量化"
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]Quantize"
+msgstr "量化"
+
+#: .\engine\editing\quantizepanel.cpp
+msgid "[EditAddIn]Quantize"
+msgstr "量化"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Quantize 50%"
+msgstr "量化 50%"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Read"
+msgstr "读取"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 1"
+msgstr "召回标记 1"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 2"
+msgstr "召回标记 2"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 3"
+msgstr "召回标记 3"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 4"
+msgstr "召回标记 4"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 5"
+msgstr "召回标记 5"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 6"
+msgstr "召回标记 6"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 7"
+msgstr "召回标记 7"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 8"
+msgstr "召回标记 8"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Recall Marker 9"
+msgstr "召回标记 9"
+
+#: .\engine\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Reconnect Automation"
+msgstr "重新自动化"
+
+#: .\engine\audio\audiotrackrecorder.cpp .\engine\music\musictrackrecorder.cpp
+msgid "[Record]Record"
+msgstr "录音"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Functions"
+msgstr "录音功能"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode"
+msgstr "录音模式"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Record Mode Overdub"
+msgstr "覆盖式录音模式"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode Overdub"
+msgstr "覆盖式录音模式"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Record Mode Replace"
+msgstr "替换式录音模式"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode Replace"
+msgstr "替换式录音模式"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Record Take"
+msgstr "录音音块"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Takes to Layers"
+msgstr "录音至布局"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Command]Remove"
+msgstr "移除"
+
+#: .\engine\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Remove"
+msgstr "移除"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Remove \"%(1)\""
+msgstr "移除 \"%(1)\""
+
+#: .\engine\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Remove Automation"
+msgstr "移除自动控制"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Remove Bend Markers"
+msgstr "移除弯曲标记"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Remove Clip from Pool"
+msgstr "移除媒体池中的剪贴"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Layer"
+msgstr "移除布局"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Remove Layer"
+msgstr "移除布局"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Remove Layer"
+msgstr "移除布局"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Selected Tracks"
+msgstr "移除所选音轨"
+
+#: .\engine\application\musicedit\musictrackcomponent.cpp
+msgid "[TrackEdit]Remove Selected Tracks and Instruments"
+msgstr "移除已选择的音轨和乐器"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Track"
+msgstr "移除音轨"
+
+#: .\engine\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Remove Track"
+msgstr "移除音轨"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Remove Track"
+msgstr "移除音轨"
+
+#: .\engine\application\musicedit\musictrackcomponent.cpp
+msgid "[TrackEdit]Remove Track and Instrument"
+msgstr "移除音轨和乐器"
+
+#: .\engine\application\musicedit\musictrackcomponent.cpp
+msgid "[Command]Remove Track and Instrument"
+msgstr "移除音轨和乐器"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files"
+msgstr "移除未使用的文件"
+
+#: .\engine\pool\mediapoolcomponent.cpp
+msgid "[Command]Remove Unused Files"
+msgstr "移除未使用的文件"
+
+#: .\engine\video\videofunctions.cpp
+msgid "[Video]Remove Video"
+msgstr "移除视频"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Remove Video"
+msgstr "移除视频"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Remove from Pool"
+msgstr "从媒体池中移除"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Event"
+msgstr "事件重命名"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Events"
+msgstr "事件重命名"
+
+#: .\engine\pool\mediaclipoperations.cpp
+msgid "[MediaClipOperations]Rename Events"
+msgstr "事件重命名"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Rename Group"
+msgstr "组重命名"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[Command]Rename Group"
+msgstr "组重命名"
+
+#: .\engine\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Rename Group..."
+msgstr "组重命名..."
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Layer"
+msgstr "布局重命名"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Rename Layer"
+msgstr "布局重命名"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Rename Layer..."
+msgstr "布局重命名..."
+
+#: .\engine\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Render Event FX"
+msgstr "渲染事件FX"
+
+#: .\engine\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Render Event FX"
+msgstr "渲染事件FX"
+
+#: .\engine\music\musicrender.cpp
+msgid "[MusicRenderer]Rendering Envelope: %(1)"
+msgstr "渲染包络: %(1)"
+
+#: .\engine\base\model\mediabouncer.cpp
+msgid "[Engine]Rendering Files"
+msgstr "渲染文件"
+
+#: .\engine\music\musicrender.cpp
+msgid "[MusicRenderer]Rendering Note Events"
+msgstr "渲染音符事件"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset All"
+msgstr "全部重置"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Reset Bend Marker"
+msgstr "重置弯曲标记"
+
+#: .\engine\audioediting\audiobendeditlayer.cpp
+msgid "[Command]Reset Bend Marker"
+msgstr "重置弯曲标记"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset Fade Length"
+msgstr "重置淡化长度"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset Level"
+msgstr "重置电平"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Resize Event"
+msgstr "重置事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Resize Events"
+msgstr "重置事件"
+
+#: .\engine\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Restore Event FX"
+msgstr "存储事件FX"
+
+#: .\engine\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Restore Event FX"
+msgstr "存储事件FX"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Restore Timing"
+msgstr "存储时间"
+
+#: .\engine\application\audioedit\audioreversetask.cpp
+msgid "[AudioEdit]Reverse Audio"
+msgstr "音频反转"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Scanning folder: "
+msgstr "扫描文件夹: "
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Search was canceled. "
+msgstr "搜索已取消. "
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Seconds"
+msgstr "秒"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Seconds"
+msgstr "秒"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Select All on Tracks"
+msgstr "全选-音轨"
+
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Select Events in Range"
+msgstr "在范围内选择事件"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 1"
+msgstr "选择场景 1"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 2"
+msgstr "选择场景 2"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 3"
+msgstr "选择场景 3"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 4"
+msgstr "选择场景 4"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 5"
+msgstr "选择场景 5"
+
+#: .\engine\editing\takelist.cpp
+msgid "[Edit]Select Take"
+msgstr "选择音块"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Select a search folder."
+msgstr "选择搜索文件夹."
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Select on Track"
+msgstr "音轨中选择"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Select on Track"
+msgstr "音轨中选择"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[Command]Select on Track"
+msgstr "音轨中选择"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Edit Group"
+msgstr "设置编辑编组"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Marker Type"
+msgstr "选择标记类别"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Marker]Set Markers"
+msgstr "设置标记"
+
+#: .\engine\song\songmarker.cpp
+msgid "[Command]Set Start and End to Selection"
+msgstr "为选择设置起止点"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Track Delay"
+msgstr "设置音轨延迟"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Set Video Offset"
+msgstr "设置视频偏移"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Show \"%(1)\""
+msgstr "显示 \"%(1)\""
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Show / Hide"
+msgstr "显示/隐藏"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Show / Hide Automation"
+msgstr "显示/隐藏自动控制"
+
+#: .\engine\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Show Bend Marker"
+msgstr "显示弯曲标记"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Show Channel Editor"
+msgstr "显示通道编辑器"
+
+#: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Show Device"
+msgstr "显示设备"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Show Envelopes"
+msgstr "显示包括"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Show Media Folder in Explorer"
+msgstr "资源管理器中显示媒体文件夹"
+
+#: .\engine\pool\mediapoolcomponent.cpp
+msgid "[Command]Show Media Folder in Explorer/Finder"
+msgstr "在浏览器/搜索器中显示媒体文件夹"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Show Media Folder in Finder"
+msgstr "搜索器中显示媒体文件夹"
+
+#: .\engine\editing\trackcontroller.cpp
+msgid "[Track]Show in Console"
+msgstr "在控台中显示"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Show in Console"
+msgstr "在控台中显示"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Show the \"%(1)\" Automation on this track"
+msgstr "显示此音轨的\"%(1)\"自动控制"
+
+#: .\engine\musicediting\partautomationdraghandler.cpp
+msgid "[Automation]Show the \"%(1)\" Part Automation"
+msgstr "显示\"%(1)\"片段的自动控制"
+
+#: .\engine\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Slice"
+msgstr "切片"
+
+#: .\engine\pool\mediafilenodes.cpp
+msgid "[MediaFileNode]Slice %(1)"
+msgstr "切片 %(1)"
+
+#: .\engine\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Slices"
+msgstr "分割"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Small"
+msgstr "较小"
+
+#: .\engine\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Event Hotspots"
+msgstr "对齐至事件热点"
+
+#: .\engine\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Events"
+msgstr "对齐至事件"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Solo"
+msgstr "独奏"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Solo Layer"
+msgstr "布局独奏"
+
+#: .\engine\editing\tracklayercomponent.cpp
+msgid "[Command]Solo Layer"
+msgstr "布局独奏"
+
+#: .\engine\editing\monitorfollower.cpp
+msgid "[Command]Solo follows Selection"
+msgstr "独奏按照选择设置"
+
+#: .\engine\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Some files could not be exported."
+msgstr "一些文件未能被扩展"
+
+#: .\engine\application\musicedit\musictrackcomponent.cpp
+#: .\engine\song\songcontroller.cpp .\engine\song\songmaster.cpp
+msgid "[Command]Song"
+msgstr "乐曲"
+
+#: .\engine\song\songdocument.cpp
+msgid "[Engine]Song"
+msgstr "乐曲"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Song]Song Setup"
+msgstr "乐曲设置"
+
+#: .\engine\song\songcontroller.cpp
+msgid "[Command]Song Setup"
+msgstr "乐曲设置"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Split Event"
+msgstr "分割事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Split Events"
+msgstr "分割事件"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Split Loop"
+msgstr "分割循环"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Split Loop"
+msgstr "分割循环"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Split Range"
+msgstr "分割范围"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Edit]Split Range"
+msgstr "分割范围"
+
+#: .\engine\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Split at Bend Markers"
+msgstr "在弯曲标记点分割"
+
+#: .\engine\application\musicloop\loopextension.cpp
+msgid "[Browser]Split to Mono Files"
+msgstr "分割只单声道文件"
+
+#: .\engine\base\model\markertrack.cpp
+msgid "[Marker]Start"
+msgstr "开始"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Status"
+msgstr "状态"
+
+#: .\engine\base\model\markertrack.cpp
+msgid "[Marker]Stop"
+msgstr "停止"
+
+#: .\engine\application\audioedit\stripsilencetask.cpp
+msgid "[EditAddIn]Strip Silence"
+msgstr "拉伸静音"
+
+#: .\engine\application\audioedit\stripsilencetask.cpp
+msgid "[AudioEdit]Strip Silence"
+msgstr "拉伸静音"
+
+#: .\engine\song\songdocument.cpp
+msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+msgstr "此乐曲包含版权素材, 未经许可, 不得使用这些素材!"
+
+#: .\engine\base\media\mediamarker.cpp
+msgid "[Engine:MediaMarker]Take"
+msgstr "音块"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Take #%(1:3) (%(2))"
+msgstr "音块 #%(1:3) (%(2))"
+
+#: .\engine\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
+msgstr "速度: %(1)  长度: %(2)"
+
+#: .\engine\base\media\mediapool.cpp
+msgid "[MediaPool]The format of this file is not supported."
+msgstr "不支持此文件格式."
+
+#: .\engine\song\songmaster.cpp
+msgid "[SongMaster]The mastering file of this song is up-to-date."
+msgstr "此乐曲的主线文件已更新."
+
+#: .\engine\base\rootsetup.cpp
+msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "采样率不匹配音频设备.\n\n所设置的采样率: %(1)\n音频设备采样率: %(2)"
+
+#: .\engine\song\songmaster.cpp
+msgid "[SongMaster]The song will be saved first.\n"
+msgstr "乐曲将被首次保存.\n"
+
+#: .\engine\music\musictrackinfo.cpp
+msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
+msgstr "轨道 \"%(1)\" 未连接至乐器软件."
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]There are no external files."
+msgstr "无外部文件."
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]These clips are still used."
+msgstr "剪贴依然被使用."
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]These files could not be imported:"
+msgstr "无法导入这些文件:"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]This clip is still used."
+msgstr "剪贴依然被使用."
+
+#: .\engine\editing\eventeditmodel.cpp
+msgid "[Events]This file could not be imported:"
+msgstr "无法导入此文件:"
+
+#: .\engine\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Timestretch"
+msgstr "变速"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]Tiny"
+msgstr "极小"
+
+#: .\engine\editing\trackeditor.cpp
+msgid "[Command]Toggle Detached Editor"
+msgstr "切换独立式编辑器"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Toggle Read"
+msgstr "切换读取"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Touch"
+msgstr "轻触"
+
+#: .\engine\application\audioedit\audiotracktransformtask.cpp
+#: .\engine\application\musicedit\musictracktransformtask.cpp
+#: .\engine\editing\editgroupscomponent.cpp
+#: .\engine\editing\foldertrackcomponent.cpp
+#: .\engine\editing\monitorfollower.cpp .\engine\editing\trackcontroller.cpp
+#: .\engine\editing\tracklayercomponent.cpp
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\tracklistfilter.cpp .\engine\song\songcontroller.cpp
+msgid "[Command]Track"
+msgstr "音轨"
+
+#: .\engine\base\model\rootevent.cpp .\engine\editing\tracklisteditmodel.cpp
+#: .\engine\editing\tracklistinspector.cpp
+msgid "[Engine]Track"
+msgstr "音轨"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Track"
+msgstr "音轨"
+
+#: .\engine\editing\targettrackindicator.cpp
+msgid "[TrackIndicator]Track \"%(1)\""
+msgstr "音轨\"%(1)\""
+
+#: .\engine\editing\tracklist.cpp
+msgid "[Command]Track Height %(1)"
+msgstr "音轨高度 %(1)"
+
+#: .\engine\editing\tracklistfilter.cpp
+msgid "[TrackList]Track Scenes"
+msgstr "音轨场景"
+
+#: .\engine\song\songdocumentinfo.cpp
+msgid "[SongInfo]Tracks"
+msgstr "音轨"
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer]Tracks"
+msgstr "音轨"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]Transfer Automation"
+msgstr "走带自动控制"
+
+#: .\engine\application\musicedit\musictracktransformtask.cpp
+msgid "[TrackEdit]Transform to Audio Track"
+msgstr "转换至音频轨道"
+
+#: .\engine\application\musicedit\musictracktransformtask.cpp
+msgid "[Command]Transform to Audio Track"
+msgstr "转换至音频轨道"
+
+#: .\engine\application\musicedit\musictracktransformtask.cpp
+msgid "[TrackEdit]Transform to Instrument Track"
+msgstr "转换至乐器轨道"
+
+#: .\engine\application\musicedit\musictracktransformtask.cpp
+msgid "[Command]Transform to Instrument Track"
+msgstr "转换至乐器轨道"
+
+#: .\engine\application\audioedit\audiotracktransformtask.cpp
+msgid "[TrackEdit]Transform to Realtime Audio"
+msgstr "转换至实时音频"
+
+#: .\engine\application\audioedit\audiotracktransformtask.cpp
+msgid "[Command]Transform to Realtime Audio"
+msgstr "转换至实时音频"
+
+#: .\engine\application\audioedit\audiotracktransformtask.cpp
+msgid "[TrackEdit]Transform to Rendered Audio"
+msgstr "转换至已渲染音频"
+
+#: .\engine\application\audioedit\audiotracktransformtask.cpp
+msgid "[Command]Transform to Rendered Audio"
+msgstr "转换至已渲染音频"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Transpose Event"
+msgstr "调换事件"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Transpose Events"
+msgstr "调换事件"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Type"
+msgstr "类型"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Undo"
+msgstr "撤销"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Undo All"
+msgstr "撤销所有"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Undo Last Loop"
+msgstr "撤销上一次loop"
+
+#: .\engine\audio\audioclip.cpp
+msgid "[AudioClip]Unknown Format!"
+msgstr "未知格式!"
+
+#: .\engine\video\videoclip.cpp
+msgid "[VideoClip]Unknown Format!"
+msgstr "未知格式!"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unmute Event"
+msgstr "取消事件静音"
+
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unmute Events"
+msgstr "取消事件静音"
+
+#: .\engine\editing\takelist.cpp
+msgid "[Edit]Unpack Takes"
+msgstr "还原所取"
+
+#: .\engine\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to Tracks"
+msgstr "还原所取至音轨"
+
+#: .\engine\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to existing Layers"
+msgstr "还原所取至存在布局"
+
+#: .\engine\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to new Layers"
+msgstr "还原所取至新布局"
+
+#: .\engine\song\songmaster.cpp
+msgid "[Command]Update Mastering File"
+msgstr "更新混缩文件"
+
+#: .\engine\song\songmaster.cpp
+msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+msgstr "更新此歌曲的混缩文件:\n%(6)\n输出: %(1)\n时长: %(3)\n分辨率: %(4)\n实时进度: %(5)\n包含主效果: %(7)\n文件名: %(2)"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Used"
+msgstr "已使用"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Used by: "
+msgstr "使用者:"
+
+#: .\engine\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Velocity"
+msgstr "力度"
+
+#: .\engine\video\videotrack.cpp
+msgid "[Video]Video"
+msgstr "视频"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Video"
+msgstr "视频"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Video Size Default"
+msgstr "视频默认大小"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Video Size Double"
+msgstr "视频双倍大小"
+
+#: .\engine\videoediting\songvideo.cpp
+msgid "[Command]Video Size Half"
+msgstr "视频一半大小"
+
+#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent - Copy
+#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]View"
+msgstr "视图"
+
+#: .\engine\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Volume Envelope"
+msgstr "音量包络"
+
+#: .\engine\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Write"
+msgstr "写入"
+
+#: .\engine\automation\automationwriter.cpp
+msgid "[AutomationWriter]Write Automation"
+msgstr "写入自动控制"
+
+#: .\engine\editing\tracklist.cpp
+msgid "[TrackHeights]X-Large"
+msgstr "X-巨大"
+
+#: .\engine\song\songmaster.cpp
+msgid "[SongMaster]Yes"
+msgstr "是"
+
+#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent - Copy
+#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Zoom"
+msgstr "缩放"
+
+#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\tracklistcomponent.cpp
+msgid "[Command]Zoom Selected Track"
+msgstr "缩放已选音轨"
+
+#: .\engine\audioediting\audioeditor.cpp
+#: .\engine\audioediting\audioscaleview.cpp
+msgid "[AudioScale]dB"
+msgstr "dB"
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]new Audio Track"
+msgstr "新建音频轨"
+
+#: .\engine\automationediting\paramdraghandler.cpp
+msgid "[Automation]new Automation Track"
+msgstr "新建自动控制音轨"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]new Instrument Track"
+msgstr "新建乐器轨"
+
+#: .\engine\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]new Track"
+msgstr "新建音轨"
+
+#: .\engine\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]used %(1) times"
+msgstr "已使用%(1)次"
+
+#: .\engine\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]used %(1) times"
+msgstr "已使用%(1)次"
+
