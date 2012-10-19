@@ -84,6 +84,8 @@ print: Copying tables...
 @copyTable
 #define: $(table)=studioonemacros
 @copyTable
+#define: $(table)=nimbit
+@copyTable
 
 ; Windows only
 #define: $(table)=asioservice
