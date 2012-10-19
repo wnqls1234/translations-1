@@ -223,8 +223,8 @@ msgid "[Command]Locate Selection End"
 msgstr "定位区域结尾"
 
 #: .\timeedit\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values"
-msgstr "锁定数值"
+msgid "[Events]Lock Values / Time"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
@@ -342,10 +342,6 @@ msgstr "延长下一事件"
 msgid "[Command]Nudge"
 msgstr "微调"
 
-#: .\timeedit\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Nudge"
-msgstr "微调"
-
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "向后微调"
@@ -357,6 +353,22 @@ msgstr "微调小节"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "向后微调小节"
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down Fine"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up Fine"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
@@ -409,6 +421,10 @@ msgstr "量化"
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
 msgstr "量化"
+
+#: .\timeedit\quantize\quantizegrid.cpp
+msgid "[FileType]Quantize Settings"
+msgstr ""
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quintole"
@@ -593,6 +609,10 @@ msgstr "拉伸"
 #: .\timeedit\tempo\tempoeditcomponent.cpp
 msgid "[Command]Tempo"
 msgstr "速度"
+
+#: .\timeedit\envelopes\envelopeedithandler.cpp
+msgid "[Events]Time Locked"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"

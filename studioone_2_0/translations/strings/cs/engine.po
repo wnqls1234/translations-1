@@ -3,11 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\engine\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
@@ -91,6 +86,10 @@ msgid "[Engine]Add Bus Channel"
 msgstr "Přidat kanál sběrnice"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Event FX"
+msgstr ""
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
 msgstr "Přidat efektový na %(1):"
 
@@ -122,10 +121,6 @@ msgstr "Přidat..."
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "Je již v prostředcích:"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]An invalid signal occured during export. Do you want to abort the export?"
-msgstr "Během exportu došlo k poškození signálu. Přejete si export zrušit?"
-
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "Analyzuji..."
@@ -135,16 +130,9 @@ msgid "[Engine]Apply Audio Bend"
 msgstr "Použít ohybu zvuku"
 
 #: .\engine\pool\mediapoolnodes.cpp
-msgid ""
-"[PoolNodes]Are you sure you want to delete all attachments of this clip?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Opravdu si přejete smazat všechny přílohy tohoto klipu? \n"
-"\n"
-"Tuto akci nelze vzít zpět."
+msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "Opravdu si přejete smazat všechny přílohy tohoto klipu? \n\nTuto akci nelze vzít zpět."
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
 msgstr "Připravit pro záznam"
@@ -227,6 +215,10 @@ msgid "[ActionDescriptions]Change Event Time Format"
 msgstr "Změnit formát času události"
 
 #: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Layers Follow"
+msgstr ""
+
+#: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
 msgstr "Změnit režim přehrávání"
 
@@ -250,10 +242,6 @@ msgstr "Kanály"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Kliknout+posunout parametr"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]Clipping has occured during export. The signal was %float(1:2) dB over. Do you want to abort the export?"
-msgstr "Během exportu došlo k přebuzení zvuku. Signál překročil o %float(1:2) dB. Přejete si export přerušit?"
-
 #: .\engine\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Obarvit automatizaci"
@@ -266,7 +254,6 @@ msgstr "Obarvit událost"
 msgid "[ActionDescriptions]Colorize Events"
 msgstr "Obarvit události"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Console"
 msgstr "Konzole"
@@ -320,32 +307,16 @@ msgid "[Song]Could not import file!"
 msgstr "Soubor nelze načíst!"
 
 #: .\engine\base\documentrenamer.cpp
-msgid ""
-"[Documents]Could not rename %(1)!\n"
-"\n"
-"The file is in use."
-msgstr ""
-"Soubor %(1) nelze přejmenovat!\n"
-"\n"
-"Soubor se používá"
+msgid "[Documents]Could not rename %(1)!\n\nThe file is in use."
+msgstr "Soubor %(1) nelze přejmenovat!\n\nSoubor se používá"
 
 #: .\engine\base\documentrenamer.cpp
-msgid ""
-"[Documents]Could not rename the folder %(1)!\n"
-"\n"
-"A file in this folder is in use."
-msgstr ""
-"Složku %(1) nelze přejmenovat! \n"
-"\n"
-"Soubor z této složky se používá."
+msgid "[Documents]Could not rename the folder %(1)!\n\nA file in this folder is in use."
+msgstr "Složku %(1) nelze přejmenovat! \n\nSoubor z této složky se používá."
 
 #: .\engine\automationediting\paramdraghandler.cpp
-msgid ""
-"[Automation]Create \"%(1)\" Automation\n"
-"on %(2)"
-msgstr ""
-"Vytvořit \"%(1)\" automatizaci \n"
-"v %(2)"
+msgid "[Automation]Create \"%(1)\" Automation\non %(2)"
+msgstr "Vytvořit \"%(1)\" automatizaci \nv %(2)"
 
 #: .\engine\musicediting\partautomationdraghandler.cpp
 msgid "[Automation]Create \"%(1)\" Part Automation"
@@ -363,12 +334,10 @@ msgstr "Vytvořit automatizaci"
 msgid "[AudioEdit]Create Crossfades"
 msgstr "Vytvořit automatické prolnutí"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges"
 msgstr "Vytvořit oblast výběru"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges on Tracks"
 msgstr "Vytvořit oblast výběru ve stopách"
@@ -409,12 +378,7 @@ msgstr "Smazat soubor trvale"
 msgid "[Marker]Delete Marker"
 msgstr "Smazat značku"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Delete Time"
-msgstr "Smazat čas"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Delete Time"
 msgstr "Smazat čas"
@@ -423,7 +387,6 @@ msgstr "Smazat čas"
 msgid "[MediaPoolFunctions]Deleting recorded files"
 msgstr "Mazání nahraných souborů"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Deselect All on Tracks"
 msgstr "Odznačit vše ze stop"
@@ -461,12 +424,20 @@ msgid "[Engine]Do not publish"
 msgstr "Nepublikovat"
 
 #: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to copy all external files to the Media Folder?"
-msgstr "Přejete si okopírovat všechny externí soubory do složky Média?"
+msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
+msgstr ""
 
 #: .\engine\audio\audiocache.cpp
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "Přejete si smazat všechny dočasné nepoužívané zvukové soubory ze složky vyrovnávací paměti?"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported file?"
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported files?"
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
@@ -484,27 +455,21 @@ msgstr "Přejete si smazat všechny výskyty těchto klipů?"
 msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
 msgstr "Přejete si odstranit všechny výskyty tohoto klipu?"
 
-#: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to remove all unused files?"
-msgstr "Přejete si odstranit všechny nepoužívané soubory?"
-
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove these parameters from all parts?"
 msgstr "Přejte si odstranit tyto parametry ze všech částí?"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
+msgstr ""
 
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove this parameter from all parts?"
 msgstr "Přejete si odstranit tento parametr ze všech částí?"
 
 #: .\engine\musicediting\synthdraghandler.cpp
-msgid ""
-"[SynthDrag]Do you want to replace the instrument %(1)?\n"
-"\n"
-"Click 'Yes' to replace the instrument or click 'No' to add a new instrument."
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
 msgstr ""
-"Přejete si nahradit nástroj %(1)?\n"
-"\n"
-"Pro nahrazení nástroje, klikněte na 'Ano'. Pokud chcete přidat nový nástroj, klikněte na 'Ne'."
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -522,9 +487,13 @@ msgstr "Stažení dokončeno"
 msgid "[Engine]Downloading..."
 msgstr "Stahování..."
 
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]Drive full"
+msgstr ""
+
 #: .\engine\audio\audiotrackrecorder.cpp
-msgid "[Record]Dropouts occured during record. The harddrive might not be fast enough. Please consult the operating manual for advice on disc performance."
-msgstr "Během záznamu se objevily výpadky. Pevný disk nemusí být dostatečně rychlý. Pro informace o tom, jak zvýšit výkon pevného disku, prosím nahlédněte do manuálu."
+msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough. Please consult the operating manual for advice on disc performance."
+msgstr ""
 
 #: .\engine\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -550,7 +519,6 @@ msgstr "Duplikovat vrstvy"
 msgid "[ActionDescriptions]Duplicate Track"
 msgstr "Duplikovat stopu"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Track"
 msgstr "Duplikovat stopu"
@@ -563,7 +531,6 @@ msgstr "Duplikovat stopu včetně událostí"
 msgid "[ActionDescriptions]Duplicate Tracks"
 msgstr "Duplikovat stopy"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Tracks"
 msgstr "Duplikovat stopy"
@@ -577,7 +544,6 @@ msgid "[Command]Duplicate with Events"
 msgstr "Duplikovat včetně událostí"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Edit"
 msgstr "Upravit"
@@ -742,7 +708,6 @@ msgstr "Rozšířit výběr až k první stopě"
 msgid "[ActionDescriptions]Fit Timeline to Contents"
 msgstr "Přizpůsobit časovou osu obsahu"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Fit Timeline to Contents"
 msgstr "Přizpůsobit časovou osu obsahu"
@@ -903,12 +868,7 @@ msgstr "Vložit značku s názvem"
 msgid "[Events]Insert Points"
 msgstr "Vložit body"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Insert Silence"
-msgstr "Vložit ticho"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Insert Silence"
 msgstr "Vložit ticho"
@@ -921,6 +881,10 @@ msgstr "Vložit stopu"
 msgid "[Edit]Insert Tracks"
 msgstr "Vložit stopu"
 
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Insert on Same Track"
+msgstr ""
+
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
 msgstr "Vstup nástroje následující výběr"
@@ -932,6 +896,10 @@ msgstr "Nástrojové části"
 #: .\engine\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Instrument: %(1)"
 msgstr "Nástroj: %(1)"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Keep"
+msgstr ""
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Large"
@@ -1046,15 +1014,7 @@ msgid "[RecordMode]Loop Record Note Erase"
 msgstr "Mazat notu během záznamu do smyčky"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Erase"
-msgstr "Mazat notu během záznamu do smyčky"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "Během záznamu do smyčky, opakovat notu, podle nastavené mřížky"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Repeat"
 msgstr "Během záznamu do smyčky, opakovat notu, podle nastavené mřížky"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1064,6 +1024,10 @@ msgstr "Vytvářet oddělené náběry během záznamu do smyčky"
 #: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Takes"
 msgstr "Vytvářet oddělené náběry během záznamu do smyčky"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]MIDI"
+msgstr "MIDI"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
 #: .\engine\automationediting\automationtracklistcomponent.cpp
@@ -1154,7 +1118,6 @@ msgstr "Změnit video kompenzaci"
 msgid "[Engine:AudioActions]Modify Volume Curve"
 msgstr "Změnit křivku hlasitosti"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Monitor"
 msgstr "Sledovat"
@@ -1164,20 +1127,12 @@ msgid "[Automation]Move \"%(1)\" Automation"
 msgstr "Přesunout \"%(1)\" automatizaci"
 
 #: .\engine\automationediting\paramdraghandler.cpp
-msgid ""
-"[Automation]Move \"%(1)\" Automation\n"
-"from %(3) to %(2)"
-msgstr ""
-"Přesunout \"%(1)\" automatizaci\n"
-"z %(3) na %(2)"
+msgid "[Automation]Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "Přesunout \"%(1)\" automatizaci\nz %(3) na %(2)"
 
 #: .\engine\automationediting\paramdraghandler.cpp
-msgid ""
-"[Automation]Move \"%(1)\" Automation\n"
-"to %(2)"
-msgstr ""
-"Přesunout \"%(1)\" automatizaci\n"
-"na %(2)"
+msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
+msgstr "Přesunout \"%(1)\" automatizaci\nna %(2)"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1219,12 +1174,10 @@ msgstr "Přesunout stopu ze složky"
 msgid "[ActionDescriptions]Move Tracks"
 msgstr "Přesunout stopy"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Move to Origin"
 msgstr "Přesunout na výchozí"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Move to Origin"
 msgstr "Přesunout na výchozí místo"
@@ -1233,7 +1186,6 @@ msgstr "Přesunout na výchozí místo"
 msgid "[FileType]Musicloop"
 msgstr "Hudební smyčka"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Mute"
 msgstr "Umlčet"
@@ -1346,6 +1298,14 @@ msgstr "Nezaznamenáno"
 msgid "[TempoFormatter]Not Set"
 msgstr "Nevybráno"
 
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Erase"
+msgstr "Mazat notu"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Repeat"
+msgstr "Repetice noty"
+
 #: .\engine\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "Není co exportovat. Vyberte prosím jednu nebo více stop a vyberte smyčku nebo značky."
@@ -1401,6 +1361,10 @@ msgstr "Cesta"
 #: .\engine\audioediting\audioeditor.cpp
 #: .\engine\audioediting\audioscaleview.cpp
 msgid "[AudioScale]Percent"
+msgstr "Procento"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Procento"
 
 #: .\engine\song\songdocument.cpp
@@ -1503,8 +1467,8 @@ msgstr "Skočit na značku 9"
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
 msgstr "Obnovit automatizaci"
 
-#: .\engine\audio\audiotrackrecorder.cpp .\engine\music\musictrackrecorder.cpp
-msgid "[Record]Record"
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Record"
 msgstr "Záznam"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1540,6 +1504,7 @@ msgid "[Command]Record Takes to Layers"
 msgstr "Zaznamenat náběry do vrstev"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Remove"
 msgstr "Odstranit"
 
@@ -1603,13 +1568,13 @@ msgstr "Odstranit stopu a nástroj"
 msgid "[Command]Remove Track and Instrument"
 msgstr "Odstranit stopu a nástroj"
 
-#: .\engine\pool\mediapoolbrowser.cpp
-msgid "[PoolBrowser]Remove Unused Files"
-msgstr "Odstranit nepoužívané soubory"
-
 #: .\engine\pool\mediapoolcomponent.cpp
 msgid "[Command]Remove Unused Files"
 msgstr "Odstranit nepoužívané soubory"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files..."
+msgstr "Odstranit nepoužívané soubory..."
 
 #: .\engine\video\videofunctions.cpp
 msgid "[Video]Remove Video"
@@ -1679,6 +1644,15 @@ msgstr "Provádění souborů"
 msgid "[MusicRenderer]Rendering Note Events"
 msgstr "Provádění událostí not"
 
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Replace"
+msgstr "Nahradit"
+
+#: .\engine\editing\dragoneventhandler.cpp
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Replace Event"
+msgstr ""
+
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset All"
 msgstr "Vynulovat vše"
@@ -1739,7 +1713,6 @@ msgstr "Vteřiny"
 msgid "[Track]Seconds"
 msgstr "Vteřiny"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "Na stopách vybrat vše"
@@ -1829,7 +1802,6 @@ msgstr "Zobrazit/skrýt automatizaci"
 msgid "[Engine:AudioBendActions]Show Bend Marker"
 msgstr "Zobrazit značku ohybu"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "Zobrazit editor kanálu"
@@ -1839,7 +1811,6 @@ msgstr "Zobrazit editor kanálu"
 msgid "[Command]Show Device"
 msgstr "Zobrazit zařízení"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Envelopes"
 msgstr "Zobrazit obálky"
@@ -1860,7 +1831,6 @@ msgstr "Zobrazit složky Média ve Finderu"
 msgid "[Track]Show in Console"
 msgstr "Zobrazit v konzoli"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show in Console"
 msgstr "Zobrazit v konzoli"
@@ -1897,7 +1867,6 @@ msgstr "Přichytit na důležitá místa události"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "Přichytit k událostem"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "Sólo"
@@ -1943,22 +1912,18 @@ msgstr "Rozdělit událost"
 msgid "[ActionDescriptions]Split Events"
 msgstr "Rozdělit události"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
 msgstr "Rozdělit smyčku"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Loop"
 msgstr "Rozdělit smyčku"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Range"
 msgstr "Rozdělit oblast"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Range"
 msgstr "Rozdělit oblast"
@@ -2007,6 +1972,18 @@ msgstr "Náběr #%(1:3) (%(2))"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "Tempo:%(1)  Délka:%(2)"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]The following problems occured during export:"
+msgstr ""
+
 #: .\engine\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "Formát tohoto souboru není podporován."
@@ -2016,16 +1993,8 @@ msgid "[SongMaster]The mastering file of this song is up-to-date."
 msgstr "Masteringový soubor této písně je aktuální."
 
 #: .\engine\base\rootsetup.cpp
-msgid ""
-"[RootSetup]The sample rate does not match your audio device configuration.\n"
-"\n"
-"The rate you set: %(1)\n"
-"The rate the device has: %(2)"
-msgstr ""
-"Vzorkovací frekvence neodpovídá konfiguraci vašeho zvukového zařízení.\n"
-"\n"
-"Vámi nastavená vzorkovací frekvence: %(1) \n"
-"Vzorkovací frekvence zařízení: %(2)"
+msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "Vzorkovací frekvence neodpovídá konfiguraci vašeho zvukového zařízení.\n\nVámi nastavená vzorkovací frekvence: %(1) \nVzorkovací frekvence zařízení: %(2)"
 
 #: .\engine\song\songmaster.cpp
 msgid "[SongMaster]The song will be saved first.\n"
@@ -2034,6 +2003,10 @@ msgstr "Nejdříve bude píseň uložena. \n"
 #: .\engine\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
 msgstr "Stopa \"%(1)\" není zapojena do virtuálního nástroje."
+
+#: .\engine\music\musictrackinfo.cpp
+msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]There are no external files."
@@ -2081,7 +2054,6 @@ msgstr "Dotek"
 #: .\engine\editing\foldertrackcomponent.cpp
 #: .\engine\editing\monitorfollower.cpp .\engine\editing\trackcontroller.cpp
 #: .\engine\editing\tracklayercomponent.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 #: .\engine\editing\tracklistfilter.cpp .\engine\song\songcontroller.cpp
 msgid "[Command]Track"
@@ -2164,7 +2136,6 @@ msgstr "Transpozice událostí"
 msgid "[PoolBrowser]Type"
 msgstr "Typu"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Undo"
 msgstr "Zpět"
@@ -2214,24 +2185,8 @@ msgid "[Command]Update Mastering File"
 msgstr "Aktualizovat soubor pro mastering"
 
 #: .\engine\song\songmaster.cpp
-msgid ""
-"[SongMaster]Update the mastering file of this song:\n"
-"%(6)\n"
-"Output: %(1)\n"
-"Duration: %(3)\n"
-"Resolution: %(4)\n"
-"Realtime Processing: %(5)\n"
-"Include Master Effects: %(7)\n"
-"Filename: %(2)"
-msgstr ""
-"Aktualizovat soubor pro mastering této písně:\n"
-"%(6)\n"
-"Výstup: %(1)\n"
-"Doba trvání:%(3)\n"
-"Rozlišení: %(4)\n"
-"Zpracování v reálném čase: %(5)\n"
-"Včetně master efektů: %(7)\n"
-"Jméno souboru: %(2)"
+msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+msgstr "Aktualizovat soubor pro mastering této písně:\n%(6)\nVýstup: %(1)\nDoba trvání:%(3)\nRozlišení: %(4)\nZpracování v reálném čase: %(5)\nVčetně master efektů: %(7)\nJméno souboru: %(2)"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
@@ -2265,8 +2220,7 @@ msgstr "Dvojnásobná velikost videa"
 msgid "[Command]Video Size Half"
 msgstr "Poloviční velikost videa"
 
-#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]View"
 msgstr "Zobrazit"
 
@@ -2290,12 +2244,10 @@ msgstr "Obrovské"
 msgid "[SongMaster]Yes"
 msgstr "Ano"
 
-#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
 msgstr "Přiblížit/oddálit"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom Selected Track"
 msgstr "Přiblížit/oddálit zvolenou skladbu"

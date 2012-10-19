@@ -3,11 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
@@ -27,6 +22,18 @@ msgstr "$APPNAME"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[TaskListDialog]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\engine\mediapool.xml
+msgid "[RemoveUnusedDialog]$APPNAME"
 msgstr "$APPNAME"
 
 #: .\studioapp\skin\app\licenser.xml
@@ -398,16 +405,16 @@ msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Mix]"
 msgstr "@cmd.title[Record Mode|Loop Record Mix]"
 
 #: .\studioapp\skin\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Note Erase]"
-msgstr "@cmd.title[Record Mode|Loop Record Note Erase]"
-
-#: .\studioapp\skin\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Note Repeat]"
-msgstr "@cmd.title[Record Mode|Loop Record Note Repeat]"
-
-#: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Takes]"
 msgstr "@cmd.title[Record Mode|Loop Record Takes]"
+
+#: .\studioapp\skin\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Note Erase]"
+msgstr "@cmd.title[Record Mode|Note Erase]"
+
+#: .\studioapp\skin\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Note Repeat]"
+msgstr "@cmd.title[Record Mode|Note Repeat]"
 
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Record Mode Overdub]"
@@ -678,7 +685,7 @@ msgid "[SongMetaInfoOption]Album"
 msgstr "Album"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Album"
+msgid "[SongPopup.Info]Album"
 msgstr "Album"
 
 #: .\studioapp\skin\app\windowclasses.xml
@@ -774,7 +781,7 @@ msgid "[SongMetaInfoOption]Artist"
 msgstr "Umělec"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Artist"
+msgid "[SongPopup.Info]Artist"
 msgstr "Umělec"
 
 #: .\studioapp\skin\project\audiofile.xml
@@ -877,6 +884,10 @@ msgstr "Sledování zvukové stopy umlčí přehrávání (styl pásku)"
 msgid "[TrackListInspectorPanel]Audio Tracks"
 msgstr "Zvukové stopy"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Audio resolution used for recording"
+msgstr ""
+
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
 msgstr "Vyzkoušet"
@@ -896,6 +907,14 @@ msgstr "Automaticky vstoupit a vystoupit @cmd[Transport|Autopunch]"
 #: .\studioapp\skin\ccl\common.xml
 msgid "[AutoSaveOption]Auto Save Documents"
 msgstr "Automatické ukládání dokumentů"
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Auto Tail"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Auto Tail"
+msgstr ""
 
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -1201,10 +1220,6 @@ msgstr "Kategorie:"
 msgid "[ServiceOption]Changing these advanced settings might lead to improper function of $APPNAME. You should only continue if you are sure of what you are doing."
 msgstr "Změna tohoto pokročilého nastavení může vést k nesprávné funkci $APPNAME. Pokračovat byste měli pouze v případě, že přesně víte, co dané změny dělají."
 
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Channel"
-msgstr "Kanál"
-
 #: .\studioapp\skin\engine\editor.xml
 msgid "[AudioEditorLeftPanel]Channel Mode"
 msgstr "Režim kanálu"
@@ -1222,6 +1237,10 @@ msgstr "Režim kanálu"
 msgid "[MusicPreviewPlayer]Channel:"
 msgstr "Kanál:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Channels"
+msgstr "Kanály"
+
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Chase long notes"
 msgstr "Zachytit dlouhé noty"
@@ -1236,6 +1255,10 @@ msgstr "Zkontrolovat aktualizace"
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[UpdateDialog]Check for Updates"
+msgstr "Zkontrolovat aktualizace"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[StartupOption]Check for Updates"
 msgstr "Zkontrolovat aktualizace"
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
@@ -1559,6 +1582,10 @@ msgstr "Vytvořit nový projekt"
 msgid "[HomePage]Create a new Song"
 msgstr "Vytvořit novou píseň"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
+msgstr ""
+
 #: .\studioapp\skin\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
 msgstr "Vytvořeno"
@@ -1648,6 +1675,10 @@ msgstr "Výchozí hlasitost"
 msgid "[AutomationOption]Default envelopes for new Audio Tracks"
 msgstr "Výchozí obálky pro nové zvukové stopy"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Default tempo setting for audio tracks"
+msgstr ""
+
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Delay"
 msgstr "Zpoždění"
@@ -1659,6 +1690,10 @@ msgstr "Zpoždění"
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[Command]Delete"
 msgstr "Smazat"
+
+#: .\studioapp\skin\engine\mediapool.xml
+msgid "[RemoveUnusedDialog.Options]Delete Files permanently"
+msgstr ""
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
@@ -1813,10 +1848,6 @@ msgid "[InstallWizard.InstallPage]Done"
 msgstr "Hotovo"
 
 #: .\studioapp\skin\devices\audiochannel.narrow.xml
-msgid "[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
-
-#: .\studioapp\skin\devices\audiochannel.narrow.xml
 msgid "[AudioInput.Narrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
 
@@ -1921,7 +1952,7 @@ msgid "[TransportPanel]Edit"
 msgstr "Upravit"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Edit"
+msgid "[SongPopup.Info]Edit"
 msgstr "Upravit"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -2232,6 +2263,14 @@ msgstr "Filtrovat změny programu"
 msgid "[UserLicenseWizard.Registration]First Name"
 msgstr "Křestní jméno"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Fix Tail"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Fix Tail"
+msgstr ""
+
 #: .\studioapp\skin\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]Focus Device"
 msgstr "Zaměřit se na zařízení"
@@ -2259,6 +2298,10 @@ msgstr "Formát"
 #: .\studioapp\skin\project\audiofile.xml
 msgid "[ImageMaker]Format"
 msgstr "Formát"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Format of ruler and main time display"
+msgstr ""
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
@@ -2497,6 +2540,10 @@ msgstr "Vstup"
 msgid "[SongSetup]Include effects when updating mastering file"
 msgstr "Při aktualizaci souboru pro mastering aplikovat efekty"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[SongPopup.Info]Info"
+msgstr ""
+
 #: .\studioapp\skin\app\infoview.xml .\studioapp\skin\app\windowclasses.xml
 msgid "[InfoView]Info View"
 msgstr "Zobrazit informace"
@@ -2504,6 +2551,18 @@ msgstr "Zobrazit informace"
 #: .\studioapp\skin\app\windowclasses.xml
 msgid "[Command]Info View"
 msgstr "Zobrazit Informace"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial length of song"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial tempo of song"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial time signature of song"
+msgstr ""
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Input Filter"
@@ -2669,6 +2728,10 @@ msgstr "Nástroje"
 msgid "[PerformanceMonitor]Instruments"
 msgstr "Nástroje"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Interfaces"
+msgstr ""
+
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Internal Block Size"
 msgstr "Velikost vyrovnávací paměti"
@@ -2720,6 +2783,10 @@ msgstr "Vrstvy"
 #: .\studioapp\skin\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Layers"
 msgstr "Vrstvy"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[AudioTrackInspector]Layers follow events"
+msgstr ""
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -2912,6 +2979,14 @@ msgstr "Stav souboru pro mastering"
 msgid "[StripSilencePanel.DetectionPart]Material"
 msgstr "Materiál"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Max Length"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Max Length"
+msgstr ""
+
 #: .\studioapp\skin\app\shared.xml
 msgid "[DetachedFrameHeader]Maximize"
 msgstr "Maximalizovat"
@@ -3001,6 +3076,10 @@ msgstr "Sledovat"
 msgid "[MusicTrackInspector]Monitor"
 msgstr "Sledovat"
 
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[FolderTrackInspector]Monitor"
+msgstr "Sledovat"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MuteSoloRecMonName]Monitor"
 msgstr "Sledovat"
@@ -3014,11 +3093,23 @@ msgid "[MiniAudioTrackControls]Monitor"
 msgstr "Sledovat"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[MiniFolderTrackControls]Monitor"
+msgstr "Sledovat"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallAudioTrackControls]Monitor"
 msgstr "Sledovat"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallMusicTrackControls]Monitor"
+msgstr "Sledovat"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[SmallFolderTrackControls]Monitor"
+msgstr "Sledovat"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[FolderTrackPlay]Monitor"
 msgstr "Sledovat"
 
 #: .\studioapp\skin\app\licenser.xml
@@ -3205,6 +3296,14 @@ msgstr "Následující stopa"
 msgid "[AutomationTrackDialog]Next Track"
 msgstr "Následující stopa"
 
+#: .\studioapp\skin\ccl\common.xml
+msgid "[TaskListDialog]No"
+msgstr "Ne"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]No"
+msgstr "Ne"
+
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.PerformancePart]No Audio Device"
 msgstr "Žádné zvukové zařízení"
@@ -3249,6 +3348,10 @@ msgstr "Mazat notu"
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
 msgstr "Repetice noty"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[SongPopup.Notes]Notes"
+msgstr ""
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
@@ -3338,14 +3441,6 @@ msgstr "Možnosti"
 msgid "[TrackExport]Options"
 msgstr "Možnosti"
 
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Options"
-msgstr "Možnosti"
-
-#: .\studioapp\skin\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Options"
-msgstr "Možnosti"
-
 #: .\studioapp\skin\project\audiofile.xml
 msgid "[AudioFilePublisher]Options"
 msgstr "Možnosti"
@@ -3365,6 +3460,10 @@ msgstr "Mimochodem, těšíme se na vaší zpětnou vazbu a informace o tom, jak
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector]Out"
 msgstr "Výstup"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[InspectorChannelOutputPort]Output"
+msgstr ""
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Output Latency"
@@ -3600,6 +3699,10 @@ msgstr "Za přehráváním"
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
 msgstr "Před přehráváním"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[AudioEngineOption]Pre-record audio input"
+msgstr ""
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[Metronome]Precount Bars"
@@ -3881,6 +3984,10 @@ msgstr "Záznam"
 msgid "[MusicTrackInspector]Record"
 msgstr "Záznam"
 
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[FolderTrackInspector]Record"
+msgstr "Záznam"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MuteSoloRecMonName]Record"
 msgstr "Záznam"
@@ -3894,11 +4001,23 @@ msgid "[MiniAudioTrackControls]Record"
 msgstr "Záznam"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[MiniFolderTrackControls]Record"
+msgstr "Záznam"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallAudioTrackControls]Record"
 msgstr "Záznam"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallMusicTrackControls]Record"
+msgstr "Záznam"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[SmallFolderTrackControls]Record"
+msgstr "Záznam"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[FolderTrackPlay]Record"
 msgstr "Záznam"
 
 #: .\studioapp\skin\devices\transport.xml
@@ -3917,9 +4036,17 @@ msgstr "Vstup záznamu"
 msgid "[MusicBounceDialog]Record Level"
 msgstr "Úroveň záznamu"
 
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Record Max"
+msgstr ""
+
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Record Mix"
 msgstr "Smíchat během záznamu"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[AudioEngineOption]Record Offset"
+msgstr ""
 
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Record Offset"
@@ -3953,6 +4080,23 @@ msgstr "Registrovat"
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Release audio device in background"
 msgstr "Uvolnit zvukové zařízení na pozadí"
+
+#: .\studioapp\skin\app\windowclasses.xml
+#: .\studioapp\skin\devices\transport.xml
+msgid "[RemainingRecordTime]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\app\windowclasses.xml
+msgid "[Command]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Remaining Record Time (Low)"
+msgstr ""
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationForm]Remember my credentials"
@@ -4039,8 +4183,16 @@ msgid "[AudioEventFXProperties]Render"
 msgstr "Provést"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Render All Channels"
+msgstr ""
+
+#: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
 msgstr "Provést Insert efekty"
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
+msgstr ""
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4153,6 +4305,10 @@ msgstr "Vzorkovací frekvence"
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectSetup]Sample Rate"
 msgstr "Vzorkovací frekvence"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Sample rate used for playback and record"
+msgstr ""
 
 #: .\studioapp\skin\engine\audiocodec.xml
 msgid "[PCMEncoderOption]Samplerate:"
@@ -4764,12 +4920,16 @@ msgstr "Autor písně:"
 msgid "[TrackControls]Songwriter:"
 msgstr "Autor písně:"
 
+#: .\studioapp\skin\project\analyser.xml
+msgid "[Analyser]Sono"
+msgstr ""
+
 #: .\studioapp\skin\ccl\browser.xml
-msgid "[PlugInBrowserHeader]Sort by:"
+msgid "[PlugInBrowserHeader]Sort by: "
 msgstr "Třídit dle:"
 
 #: .\studioapp\skin\engine\mediapool.xml
-msgid "[MediaPoolHeader]Sort by:"
+msgid "[MediaPoolHeader]Sort by: "
 msgstr "Třídit dle:"
 
 #: .\studioapp\skin\ccl\browser.xml
@@ -4798,6 +4958,10 @@ msgstr "Zdroje"
 
 #: .\studioapp\skin\devices\audiochannel.xml
 msgid "[AudioEffect]Sources"
+msgstr "Zdroje"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Sources"
 msgstr "Zdroje"
 
 #: .\studioapp\skin\ccl\installer.xml
@@ -4959,9 +5123,29 @@ msgstr "Natáhnout události"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "Lišta ticha"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Styles"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
+msgstr ""
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Support retransformation to instrument track."
+msgstr ""
+
 #: .\studioapp\skin\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "Swing"
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgstr ""
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[MidiMonitor]System Common"
@@ -4979,14 +5163,6 @@ msgstr "System Realtime"
 msgid "[AudioEventInserts]Tail"
 msgstr "Chvost"
 
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Tail"
-msgstr "Chvost"
-
-#: .\studioapp\skin\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Tail"
-msgstr "Chvost"
-
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Tap Tempo"
 msgstr "Naťukat tempo"
@@ -4997,6 +5173,10 @@ msgstr "Tempo"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Tempo"
+msgstr "Tempo"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Tempo"
 msgstr "Tempo"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
@@ -5026,6 +5206,10 @@ msgstr "Děkujeme vám za zakoupení $APPNAME z Mac App Store."
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Děkujeme vám za použití bezplatné verze $APPNAME, stažené z Mac App Store."
+
+#: .\studioapp\skin\app\homepage.xml
+msgid "[HomePage]There is a new version of $APPNAME available."
+msgstr ""
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]Third Party"
@@ -5058,6 +5242,10 @@ msgstr "Zobrazit čas"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[BigTime]Time Display"
 msgstr "Zobrazit čas"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Time Signature"
+msgstr ""
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Time Zoom"
@@ -5124,7 +5312,7 @@ msgid "[SongMetaInfoOption]Title"
 msgstr "Název"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Title"
+msgid "[SongPopup.Info]Title"
 msgstr "Název"
 
 #: .\studioapp\skin\app\melodyne.xml
@@ -5194,6 +5382,10 @@ msgstr "Čísla stop"
 
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[ChannelSelector]Tracks"
+msgstr "Stopy"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Tracks"
 msgstr "Stopy"
 
 #: .\studioapp\skin\project\audiofile.xml
@@ -5304,6 +5496,10 @@ msgstr "Odděleno"
 msgid "[ExtensionManager]Uninstall"
 msgstr "Odinstalovat"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
+msgstr ""
+
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectToolbar]Update"
 msgstr "Aktualizovat"
@@ -5315,6 +5511,10 @@ msgstr "Aktualizovat soubor pro mastering"
 #: .\studioapp\skin\project\project.xml
 msgid "[SongUpdater]Update Mastering Files"
 msgstr "Aktualizovat soubor pro mastering"
+
+#: .\studioapp\skin\app\homepage.xml
+msgid "[HomePage]Update Now"
+msgstr "Nyní aktualizovat"
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[UpdateDialog]Update Now"
@@ -5400,6 +5600,10 @@ msgstr "Pro aktivaci nebo upgrade vámi zakoupené verze $APPNAME, použijte tot
 msgid "[PerformanceMonitor]Used"
 msgstr "Použitá"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]User"
+msgstr ""
+
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "Umístění uživatelských dat (písní, projektů, přednastavení)"
@@ -5419,6 +5623,10 @@ msgstr "Uživatelské jméno"
 #: .\studioapp\skin\app\licenser.xml
 msgid "[CredentialsUIPrompt]Username"
 msgstr "Uživatelské jméno"
+
+#: .\studioapp\skin\engine\eventinspector.xml
+msgid "[EnvelopePointMiniProperties.Table]Value"
+msgstr "Hodnota"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AutomationTrackInspector]Value"
@@ -5482,7 +5690,7 @@ msgid "[Command]View"
 msgstr "Zobrazit"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Visit Artist Website"
+msgid "[SongPopup.Info]Visit Artist Website"
 msgstr "Navštívit webové stránky umělce"
 
 #: .\studioapp\skin\engine\mediapool.xml
@@ -5550,6 +5758,10 @@ msgstr "Hlasitost: @value[]"
 msgid "[ProjectTrackInspector]Volume: @value[]"
 msgstr "Hlasitost: @value[]"
 
+#: .\studioapp\skin\project\analyser.xml
+msgid "[Analyser]WF"
+msgstr ""
+
 #: .\studioapp\skin\app\about.xml
 msgid "[Command]Website"
 msgstr "Webové stránky"
@@ -5603,7 +5815,7 @@ msgid "[SongMetaInfoOption]Year"
 msgstr "Rok"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Year"
+msgid "[SongPopup.Info]Year"
 msgstr "Rok"
 
 #: .\studioapp\skin\project\project.xml
@@ -5621,6 +5833,14 @@ msgstr "Rok:"
 #: .\studioapp\skin\project\project.xml
 msgid "[TrackControls]Year:"
 msgstr "Rok:"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[TaskListDialog]Yes"
+msgstr "Ano"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]Yes"
+msgstr "Ano"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."

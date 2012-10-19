@@ -13,22 +13,8 @@ msgid "[FileSelector]All Supported Files"
 msgstr "対応するすべてのファイル"
 
 #: .\ccl\platform\win\system\exceptionhandler.cpp
-msgid ""
-"[Win32]An Unexpected Error occured in this Application or one of its Plug-"
-"ins!\n"
-"A Crash Dump has been created at:\n"
-"\n"
-"%(1)"
-msgstr ""
-"このアプリケーションまたはアプリケーションのプラグインで予期しないエラーが発"
-"生しました。\r\n"
-"次のロケーションにクラッシュダンプが作成されました:\r\n"
-"\r\n"
-"%(1)"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Cancel"
-msgstr "キャンセル"
+msgid "[Win32]An Unexpected Error occured in this Application or one of its Plug-ins!\nA Crash Dump has been created at:\n\n%(1)"
+msgstr "このアプリケーションまたはアプリケーションのプラグインで予期しないエラーが発生しました。\r\n次のロケーションにクラッシュダンプが作成されました:\r\n\r\n%(1)"
 
 #: .\ccl\platform\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
@@ -42,21 +28,9 @@ msgstr "隠す"
 msgid "[MacMenu]Hide Others"
 msgstr "他を隠す"
 
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]No"
-msgstr "いいえ"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]OK"
-msgstr "OK"
-
 #: .\ccl\platform\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
 msgstr "を終了"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Retry"
-msgstr "再試行"
 
 #: .\ccl\platform\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Services"
@@ -66,6 +40,3 @@ msgstr "サービス"
 msgid "[MacMenu]Show All"
 msgstr "すべてを表示"
 
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Yes"
-msgstr "はい"

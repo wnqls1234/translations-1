@@ -24,6 +24,10 @@ msgstr "音频loop"
 msgid "[MediaTime]Bars"
 msgstr "小节"
 
+#: .\media\envelopes\envelopeactions.cpp
+msgid "[EnvelopeActions]Bend Points"
+msgstr ""
+
 #: .\media\audiofile\audiofileconverter.cpp
 msgid "[AudioFileConverter]Converting %(1)"
 msgstr "正在转换%(1)"
@@ -45,12 +49,16 @@ msgid "[EventFunctions]Delete Events"
 msgstr "删除事件"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Delete Point"
+msgid "[EnvelopeActions]Delete Point"
 msgstr "删除节点"
 
 #: .\media\envelopes\envelopefunctions.cpp
 msgid "[Events]Delete Points"
 msgstr "删除节点"
+
+#: .\media\envelopes\envelopefunctions.cpp
+msgid "[Events]Edit Value"
+msgstr "编辑数值"
 
 #: .\media\time\mediatimeparams.cpp
 msgid "[MediaTime]Frames"
@@ -73,7 +81,7 @@ msgid "[EventFunctions]Insert Events"
 msgstr "插入事件"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Insert Point"
+msgid "[EnvelopeActions]Insert Point"
 msgstr "插入节点"
 
 #: .\media\envelopes\envelopefunctions.cpp
@@ -121,11 +129,11 @@ msgid "[EventFunctions]Move Events"
 msgstr "移动事件"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Point"
+msgid "[EnvelopeActions]Move Point"
 msgstr "移动节点"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Points"
+msgid "[EnvelopeActions]Move Points"
 msgstr "移动节点"
 
 #: .\media\music\musicperformance.cpp
@@ -136,9 +144,17 @@ msgstr "音乐文件"
 msgid "[ActionDescriptions]Mute Event"
 msgstr "静音事件"
 
+#: .\media\events\eventfunctions.cpp
+msgid "[EventFunctions]Nudge"
+msgstr "微调"
+
 #: .\media\public\mediaformatter.cpp
 msgid "[Media]Off"
 msgstr "关"
+
+#: .\media\music\pitchnamelist.cpp
+msgid "[FileType]Pitch Names"
+msgstr ""
 
 #: .\media\music\musicactions.cpp
 msgid "[ActionDescriptions]Quantize"

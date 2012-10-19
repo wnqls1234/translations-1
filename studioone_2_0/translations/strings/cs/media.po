@@ -3,11 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\media\audiofile\audiocodecs\aiffaudiocodec.cpp
 msgid "[FileType]AIFC File"
@@ -28,6 +23,10 @@ msgstr "Audioloop"
 #: .\media\time\mediatimeparams.cpp
 msgid "[MediaTime]Bars"
 msgstr "Takty"
+
+#: .\media\envelopes\envelopeactions.cpp
+msgid "[EnvelopeActions]Bend Points"
+msgstr ""
 
 #: .\media\audiofile\audiofileconverter.cpp
 msgid "[AudioFileConverter]Converting %(1)"
@@ -50,12 +49,16 @@ msgid "[EventFunctions]Delete Events"
 msgstr "Smazat události"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Delete Point"
+msgid "[EnvelopeActions]Delete Point"
 msgstr "Smazat bod"
 
 #: .\media\envelopes\envelopefunctions.cpp
 msgid "[Events]Delete Points"
 msgstr "Smazat body"
+
+#: .\media\envelopes\envelopefunctions.cpp
+msgid "[Events]Edit Value"
+msgstr "Upravit hodnotu"
 
 #: .\media\time\mediatimeparams.cpp
 msgid "[MediaTime]Frames"
@@ -78,8 +81,8 @@ msgid "[EventFunctions]Insert Events"
 msgstr "Vložit události"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Insert Point"
-msgstr "Vložit bod"
+msgid "[EnvelopeActions]Insert Point"
+msgstr ""
 
 #: .\media\envelopes\envelopefunctions.cpp
 msgid "[Events]Insert Points"
@@ -126,11 +129,11 @@ msgid "[EventFunctions]Move Events"
 msgstr "Přesunout události"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Point"
+msgid "[EnvelopeActions]Move Point"
 msgstr "Přesunout bod"
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Points"
+msgid "[EnvelopeActions]Move Points"
 msgstr "Přesunout body"
 
 #: .\media\music\musicperformance.cpp
@@ -141,9 +144,17 @@ msgstr "Hudební soubor"
 msgid "[ActionDescriptions]Mute Event"
 msgstr "Umlčet událost"
 
+#: .\media\events\eventfunctions.cpp
+msgid "[EventFunctions]Nudge"
+msgstr "Posunout"
+
 #: .\media\public\mediaformatter.cpp
 msgid "[Media]Off"
 msgstr "Vypnout"
+
+#: .\media\music\pitchnamelist.cpp
+msgid "[FileType]Pitch Names"
+msgstr ""
 
 #: .\media\music\musicactions.cpp
 msgid "[ActionDescriptions]Quantize"

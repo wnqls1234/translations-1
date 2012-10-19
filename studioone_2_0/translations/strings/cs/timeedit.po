@@ -3,11 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]%(1) Bar"
@@ -228,8 +223,8 @@ msgid "[Command]Locate Selection End"
 msgstr "Najít konec výběru"
 
 #: .\timeedit\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values"
-msgstr "Uzamknout hodnoty"
+msgid "[Events]Lock Values / Time"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
@@ -347,10 +342,6 @@ msgstr "Rozšířit výběr o následující událost"
 msgid "[Command]Nudge"
 msgstr "Posunout"
 
-#: .\timeedit\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Nudge"
-msgstr "Posunout"
-
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "Posunout zpět"
@@ -362,6 +353,22 @@ msgstr "Posunout o takt doprava"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "Posunout o takt doleva"
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down Fine"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up Fine"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
@@ -414,6 +421,10 @@ msgstr "Kvantizace"
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
 msgstr "Kvantizace"
+
+#: .\timeedit\quantize\quantizegrid.cpp
+msgid "[FileType]Quantize Settings"
+msgstr ""
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quintole"
@@ -598,6 +609,10 @@ msgstr "Natáhnout"
 #: .\timeedit\tempo\tempoeditcomponent.cpp
 msgid "[Command]Tempo"
 msgstr "Tempo"
+
+#: .\timeedit\envelopes\envelopeedithandler.cpp
+msgid "[Events]Time Locked"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"

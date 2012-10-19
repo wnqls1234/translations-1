@@ -3,25 +3,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Localizer]All"
 msgstr "Vše"
 
 #: .\localizerapp\source\localizer.editor.cpp
-msgid ""
-"[Localizer]Are you sure you want to remove all orphaned translations?\n"
-"\n"
-"This action cannot be undone."
-msgstr ""
-"Jste si opravdu jist, že chcete odstranit všechny samostatné překlady?\n"
-"\n"
-"Tuto akci nelze odvolat zpět."
+msgid "[Localizer]Are you sure you want to remove all orphaned translations?\n\nThis action cannot be undone."
+msgstr "Jste si opravdu jist, že chcete odstranit všechny samostatné překlady?\n\nTuto akci nelze odvolat zpět."
 
 #: .\localizerapp\source\localizer.manager.cpp
 msgid "[Localizer]Are you sure you want to revert all changes?"
@@ -110,6 +99,10 @@ msgstr "Filtrovat podle souboru"
 msgid "[Localizer]Filter by File"
 msgstr "Filtrovat podle souboru"
 
+#: .\localizerapp\source\localizer.manager.cpp
+msgid "[Command]Import"
+msgstr ""
+
 #: .\localizerapp\source\localizer.editor.filelist.cpp
 msgid "[Localizer]Items"
 msgstr "Položky"
@@ -117,6 +110,10 @@ msgstr "Položky"
 #: .\localizerapp\source\languagepackbuilder.cpp
 msgid "[Localizer]Language Build File"
 msgstr "Soubor vytvořeného jazyka "
+
+#: .\localizerapp\source\localizer.po.cpp
+msgid "[FileType]MO File"
+msgstr ""
 
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Command]Navigation"
@@ -230,6 +227,10 @@ msgstr "Zpět"
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Localizer]Untranslated"
 msgstr "Nepřeloženo"
+
+#: .\localizerapp\source\localizer.manager.cpp
+msgid "[Command]Update"
+msgstr "Aktualizace"
 
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Command]View"

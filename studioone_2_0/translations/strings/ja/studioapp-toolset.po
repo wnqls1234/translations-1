@@ -1,15 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-10 21:05+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
 
 #: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Add Point"
@@ -91,6 +84,10 @@ msgid "Draw Selection (add)"
 msgstr "選択を描画（追加）"
 
 #: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Draw Selection Freely"
+msgstr ""
+
+#: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Draw Tempo Change"
 msgstr "テンポ変更を描画"
 
@@ -123,6 +120,10 @@ msgid "Edit Tempo Change Position"
 msgstr "テンポと変更位置を編集"
 
 #: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Edit Value"
+msgstr "値を編集"
+
+#: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Edit Velocity"
 msgstr "ベロシティーを編集"
 
@@ -146,6 +147,10 @@ msgstr "範囲を含める"
 #: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Insert"
 msgstr "挿入"
+
+#: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Layer Tool"
+msgstr ""
 
 #: .\studioapp\scripts\toolset\toolhelp.js
 #: .\studioapp\scripts\toolset\toolsets.js
@@ -217,6 +222,10 @@ msgid "Range Tool"
 msgstr "範囲ツール"
 
 #: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Replace Range on Track"
+msgstr ""
+
+#: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Reset"
 msgstr "リセット"
 
@@ -277,6 +286,14 @@ msgstr "選択"
 #: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Select Objects"
 msgstr "オブジェクトを選択"
+
+#: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Select Points upto End"
+msgstr ""
+
+#: .\studioapp\scripts\toolset\toolhelp.js
+msgid "Select Range to Copy to Track"
+msgstr ""
 
 #: .\studioapp\scripts\toolset\toolhelp.js
 msgid "Select all on Track"
@@ -376,3 +393,4 @@ msgstr "x: ノートのサイズを変更"
 #: .\studioapp\scripts\toolset\toolhelp.js
 msgid "y: Edit Velocity"
 msgstr "y: ベロシティーを編集"
+

@@ -86,6 +86,10 @@ msgid "[Engine]Add Bus Channel"
 msgstr "バスチャンネルを追加"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Event FX"
+msgstr ""
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
 msgstr "FXを %(1) に追加:"
 
@@ -117,10 +121,6 @@ msgstr "追加..."
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "プールにすでに存在:"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]An invalid signal occured during export. Do you want to abort the export?"
-msgstr "無効な信号がエクスポート中に生じました。エクスポートを中断しますか？"
-
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "分析しています..."
@@ -133,7 +133,6 @@ msgstr "オーディオベンドを適用"
 msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
 msgstr "このクリップのすべてのアタッチメントを削除しますか？\n\nこの操作は取り消せません。"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
 msgstr "アーム"
@@ -216,6 +215,10 @@ msgid "[ActionDescriptions]Change Event Time Format"
 msgstr "イベント時間形式を変更"
 
 #: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Layers Follow"
+msgstr ""
+
+#: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
 msgstr "再生モードを変更"
 
@@ -239,10 +242,6 @@ msgstr "チャンネル"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "クリック+パラメーターをドラッグ"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]Clipping has occured during export. The signal was %float(1:2) dB over. Do you want to abort the export?"
-msgstr "クリッピングがエクスポート中に生じました。信号が %float(1:2) dB 上回りました。エクスポートを中断しますか？"
-
 #: .\engine\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "オートメーションに色を付ける"
@@ -255,7 +254,6 @@ msgstr "イベントに色を付ける"
 msgid "[ActionDescriptions]Colorize Events"
 msgstr "イベントに色を付ける"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Console"
 msgstr "コンソール"
@@ -336,12 +334,10 @@ msgstr "オートメーションを作成"
 msgid "[AudioEdit]Create Crossfades"
 msgstr "クロスフェードを作成"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges"
 msgstr "範囲を作成"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges on Tracks"
 msgstr "トラックに範囲を作成"
@@ -382,12 +378,7 @@ msgstr "ファイルを完全に削除"
 msgid "[Marker]Delete Marker"
 msgstr "マーカーを削除"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Delete Time"
-msgstr "時間を削除"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Delete Time"
 msgstr "時間を削除"
@@ -396,7 +387,6 @@ msgstr "時間を削除"
 msgid "[MediaPoolFunctions]Deleting recorded files"
 msgstr "録音されたファイルを削除しています"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Deselect All on Tracks"
 msgstr "トラックのすべての選択を解除"
@@ -434,12 +424,20 @@ msgid "[Engine]Do not publish"
 msgstr "公開しない"
 
 #: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to copy all external files to the Media Folder?"
-msgstr "すべての外部ファイルをメディアフォルダーへコピーしますか？"
+msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
+msgstr ""
 
 #: .\engine\audio\audiocache.cpp
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "キャッシュフォルダー内の使用されていないすべての一時オーディオファイルを削除しますか？"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported file?"
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported files?"
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
@@ -457,21 +455,21 @@ msgstr "これらのクリップのすべての出現を削除しますか？"
 msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
 msgstr "このクリップのすべての出現を削除しますか？"
 
-#: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to remove all unused files?"
-msgstr "使用されていないすべてのファイルを削除しますか？"
-
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove these parameters from all parts?"
 msgstr "すべてのパートからこれらのパラメーターを削除しますか？"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
+msgstr ""
 
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove this parameter from all parts?"
 msgstr "すべてのパートからこのパラメーターを削除しますか？"
 
 #: .\engine\musicediting\synthdraghandler.cpp
-msgid "[SynthDrag]Do you want to replace the instrument %(1)?\n\nClick 'Yes' to replace the instrument or click 'No' to add a new instrument."
-msgstr "インストゥルメント %(1) を置き換えますか？\r\n\r\nインストゥルメントを置き換えるには[はい]を、新規インストゥルメントを追加するには[いいえ]をクリックします。"
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
+msgstr ""
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -489,8 +487,12 @@ msgstr "ダウンロードが完了しました"
 msgid "[Engine]Downloading..."
 msgstr "ダウンロードしています..."
 
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]Drive full"
+msgstr ""
+
 #: .\engine\audio\audiotrackrecorder.cpp
-msgid "[Record]Dropouts occured during record. The harddrive might not be fast enough. Please consult the operating manual for advice on disc performance."
+msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough. Please consult the operating manual for advice on disc performance."
 msgstr "ドロップアウトが録音中に生じました。ハードディスクの速度が十分でない可能性があります。ディスクの性能について、詳しくは操作マニュアルをご参照ください。"
 
 #: .\engine\song\songcontroller.cpp
@@ -517,7 +519,6 @@ msgstr "レイヤーを複製"
 msgid "[ActionDescriptions]Duplicate Track"
 msgstr "トラックを複製"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Track"
 msgstr "トラックを複製"
@@ -530,7 +531,6 @@ msgstr "トラックをイベントと共に複製"
 msgid "[ActionDescriptions]Duplicate Tracks"
 msgstr "トラックを複製"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Tracks"
 msgstr "トラックを複製"
@@ -544,7 +544,6 @@ msgid "[Command]Duplicate with Events"
 msgstr "イベントと共に複製"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Edit"
 msgstr "編集"
@@ -709,7 +708,6 @@ msgstr "最初のトラック拡張"
 msgid "[ActionDescriptions]Fit Timeline to Contents"
 msgstr "タイムラインを内容に合わせる"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Fit Timeline to Contents"
 msgstr "タイムラインを内容に合わせる"
@@ -870,12 +868,7 @@ msgstr "名前の付いたマーカーを挿入"
 msgid "[Events]Insert Points"
 msgstr "ポイントを挿入"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Insert Silence"
-msgstr "無音を挿入"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Insert Silence"
 msgstr "無音を挿入"
@@ -888,6 +881,10 @@ msgstr "トラックを挿入"
 msgid "[Edit]Insert Tracks"
 msgstr "トラックを挿入"
 
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Insert on Same Track"
+msgstr ""
+
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
 msgstr "インストゥルメント入力は選択に従う"
@@ -899,6 +896,10 @@ msgstr "インストゥルメントパート"
 #: .\engine\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Instrument: %(1)"
 msgstr "インストゥルメント: %(1)"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Keep"
+msgstr ""
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Large"
@@ -1013,15 +1014,7 @@ msgid "[RecordMode]Loop Record Note Erase"
 msgstr "ノートイレースをループ録音"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Erase"
-msgstr "ノートイレースをループ録音"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "ノートリピートをループ録音"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Repeat"
 msgstr "ノートリピートをループ録音"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1031,6 +1024,10 @@ msgstr "テイクをループ録音"
 #: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Takes"
 msgstr "テイクをループ録音"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]MIDI"
+msgstr "MIDI"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
 #: .\engine\automationediting\automationtracklistcomponent.cpp
@@ -1121,7 +1118,6 @@ msgstr "ビデオオフセットを変更"
 msgid "[Engine:AudioActions]Modify Volume Curve"
 msgstr "ボリュームカーブを変更"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Monitor"
 msgstr "モニター"
@@ -1178,12 +1174,10 @@ msgstr "トラックをフォルダーから移動"
 msgid "[ActionDescriptions]Move Tracks"
 msgstr "トラックを移動"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Move to Origin"
 msgstr "基点へ移動"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Move to Origin"
 msgstr "基点へ移動"
@@ -1192,7 +1186,6 @@ msgstr "基点へ移動"
 msgid "[FileType]Musicloop"
 msgstr "Musicloop"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Mute"
 msgstr "ミュート"
@@ -1305,6 +1298,14 @@ msgstr "録音されていません"
 msgid "[TempoFormatter]Not Set"
 msgstr "設定されていません"
 
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Erase"
+msgstr "ノートイレース"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Repeat"
+msgstr "ノートリピート"
+
 #: .\engine\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "エクスポートするものがありません。1つまたは複数のトラックを選択してループまたはマーカーを設定してください。"
@@ -1360,6 +1361,10 @@ msgstr "パス"
 #: .\engine\audioediting\audioeditor.cpp
 #: .\engine\audioediting\audioscaleview.cpp
 msgid "[AudioScale]Percent"
+msgstr "パーセント"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]Percent"
 msgstr "パーセント"
 
 #: .\engine\song\songdocument.cpp
@@ -1462,8 +1467,8 @@ msgstr "マーカー9を呼び出す"
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
 msgstr "オートメーションを再接続"
 
-#: .\engine\audio\audiotrackrecorder.cpp .\engine\music\musictrackrecorder.cpp
-msgid "[Record]Record"
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Record"
 msgstr "録音"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1499,6 +1504,7 @@ msgid "[Command]Record Takes to Layers"
 msgstr "テイクをレイヤーに録音"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Remove"
 msgstr "削除"
 
@@ -1562,12 +1568,12 @@ msgstr "トラックとインストゥルメントを削除"
 msgid "[Command]Remove Track and Instrument"
 msgstr "トラックとインストゥルメントを削除"
 
-#: .\engine\pool\mediapoolbrowser.cpp
-msgid "[PoolBrowser]Remove Unused Files"
-msgstr "使用されていないファイルを削除"
-
 #: .\engine\pool\mediapoolcomponent.cpp
 msgid "[Command]Remove Unused Files"
+msgstr "使用されていないファイルを削除"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files..."
 msgstr "使用されていないファイルを削除"
 
 #: .\engine\video\videofunctions.cpp
@@ -1638,6 +1644,15 @@ msgstr "ファイルをレンダーしています"
 msgid "[MusicRenderer]Rendering Note Events"
 msgstr "ノートイベントをレンダリングしています"
 
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Replace"
+msgstr "置換"
+
+#: .\engine\editing\dragoneventhandler.cpp
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Replace Event"
+msgstr ""
+
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset All"
 msgstr "すべてをリセット"
@@ -1698,7 +1713,6 @@ msgstr "秒"
 msgid "[Track]Seconds"
 msgstr "秒"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "トラック上のすべてを選択"
@@ -1788,7 +1802,6 @@ msgstr "オートメーションを表示/隠す"
 msgid "[Engine:AudioBendActions]Show Bend Marker"
 msgstr "ベンドマーカーを表示"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "チャンネルエディターを表示"
@@ -1798,7 +1811,6 @@ msgstr "チャンネルエディターを表示"
 msgid "[Command]Show Device"
 msgstr "デバイスを表示"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Envelopes"
 msgstr "エンベロープを表示"
@@ -1819,7 +1831,6 @@ msgstr "メディアフォルダーをFinderに表示"
 msgid "[Track]Show in Console"
 msgstr "コンソールに表示"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show in Console"
 msgstr "コンソールに表示"
@@ -1856,7 +1867,6 @@ msgstr "イベントホットスポットにスナップ"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "イベントにスナップ"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "ソロ"
@@ -1902,22 +1912,18 @@ msgstr "イベントを分割"
 msgid "[ActionDescriptions]Split Events"
 msgstr "イベントを分割"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
 msgstr "ループを分割"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Loop"
 msgstr "ループを分割"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Range"
 msgstr "範囲を分割"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Range"
 msgstr "範囲を分割"
@@ -1966,6 +1972,18 @@ msgstr "テイク #%(1:3) （%(2)）"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "テンポ: %(1)  長さ: %(2)"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]The following problems occured during export:"
+msgstr ""
+
 #: .\engine\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "このファイルのフォーマットには対応していません。"
@@ -1985,6 +2003,10 @@ msgstr "まずソングが保存されます。\r\n"
 #: .\engine\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
 msgstr "トラック \"%(1)\" はソフトウェアインストゥルメントに接続されていません。"
+
+#: .\engine\music\musictrackinfo.cpp
+msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]There are no external files."
@@ -2032,7 +2054,6 @@ msgstr "タッチ"
 #: .\engine\editing\foldertrackcomponent.cpp
 #: .\engine\editing\monitorfollower.cpp .\engine\editing\trackcontroller.cpp
 #: .\engine\editing\tracklayercomponent.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 #: .\engine\editing\tracklistfilter.cpp .\engine\song\songcontroller.cpp
 msgid "[Command]Track"
@@ -2115,7 +2136,6 @@ msgstr "イベントをトランスポーズ"
 msgid "[PoolBrowser]Type"
 msgstr "タイプ"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Undo"
 msgstr "取り消す"
@@ -2200,8 +2220,7 @@ msgstr "ビデオサイズ ダブル"
 msgid "[Command]Video Size Half"
 msgstr "ビデオサイズ ハーフ"
 
-#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]View"
 msgstr "表示"
 
@@ -2225,12 +2244,10 @@ msgstr "特大"
 msgid "[SongMaster]Yes"
 msgstr "はい"
 
-#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
 msgstr "ズーム"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom Selected Track"
 msgstr "選択されているトラックをズーム"

@@ -84,6 +84,10 @@ msgstr "所有"
 msgid "[MusicDevices]All Inputs"
 msgstr "全部输入"
 
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr ""
+
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "确认将这些通道移至回收站吗?"
@@ -119,6 +123,10 @@ msgstr "音频"
 #: .\devices\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "音频通道"
+
+#: .\devices\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
+msgstr ""
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -164,6 +172,7 @@ msgstr "自动穿插-出"
 msgid "[AudioMixer]Bus"
 msgstr "总线"
 
+#: .\devices\audiomixer\channels\audiogroupchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "总线"
@@ -203,6 +212,10 @@ msgstr "Ck"
 #: .\devices\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "点击"
+
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgstr ""
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -303,6 +316,10 @@ msgstr "外部设备"
 msgid "[SpectrumMeter]FFT"
 msgstr "FFT"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]FFT Curve"
+msgstr ""
+
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "FX"
@@ -326,6 +343,11 @@ msgstr "快进"
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
 msgstr "小节快进"
+
+#: .\devices\audiometer\sonopainter.cpp
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Freq"
+msgstr ""
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
@@ -407,12 +429,13 @@ msgstr "乐器"
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "乐器通道"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Instruments"
-msgstr "乐器"
-
+#: .\devices\audiomixer\channels\audiosynthchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
+msgstr "乐器"
+
+#: .\devices\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
 msgstr "乐器"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -434,6 +457,10 @@ msgstr "门闩"
 #: .\devices\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "延迟度"
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Level"
+msgstr "电平"
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -543,6 +570,10 @@ msgstr "无"
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "尚未连接"
 
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Note"
+msgstr ""
+
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
 msgstr "八度"
@@ -639,10 +670,6 @@ msgstr "最近使用的参数"
 msgid "[Command]Record"
 msgstr "录音"
 
-#: .\devices\transport\transportscheduler.cpp
-msgid "[Transport]Record"
-msgstr "录音"
-
 #: .\devices\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Record Enable Failed!"
 msgstr "开启录音失败!"
@@ -657,15 +684,15 @@ msgstr "遥控"
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove"
-msgstr "遥控"
+msgstr "移除"
 
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remove"
-msgstr "遥控"
+msgstr "移除"
 
 #: .\devices\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove"
-msgstr "遥控"
+msgstr "移除"
 
 #: .\devices\base\automationhandler.cpp
 msgid "[Automation]Remove %(1) Automation"
@@ -835,6 +862,10 @@ msgstr "显示音轨"
 msgid "[MixerConsole]Show in Console"
 msgstr "控制台中显示"
 
+#: .\devices\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr ""
+
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "单精度 (32位)"
@@ -850,6 +881,10 @@ msgstr "小"
 #: .\devices\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "某些通道正在使用, 确认要移除吗?"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Sonogram"
+msgstr ""
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -926,6 +961,10 @@ msgstr "设备无法移除!"
 #: .\devices\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
 msgstr "此端口已被使用. 多个设备使用同一个端口将出现MIDI事件的紊乱或重叠."
+
+#: .\devices\audiometer\sonopainter.cpp
+msgid "[SpectrumDisplay]Time"
+msgstr "时间"
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1011,6 +1050,10 @@ msgstr "视图"
 #: .\devices\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
 msgstr "音量"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Waterfall"
+msgstr ""
 
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"

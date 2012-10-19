@@ -223,8 +223,8 @@ msgid "[Command]Locate Selection End"
 msgstr "Zum Ende der Auswahl positionieren"
 
 #: .\timeedit\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values"
-msgstr "Werte verriegeln"
+msgid "[Events]Lock Values / Time"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
@@ -342,10 +342,6 @@ msgstr "Nächstes Event erweitern"
 msgid "[Command]Nudge"
 msgstr "Verschieben"
 
-#: .\timeedit\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Nudge"
-msgstr "Verschieben"
-
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "Nach hinten schieben"
@@ -357,6 +353,22 @@ msgstr "Taktweise nach vorne schieben"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "Taktweise nach hinten schieben"
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down Fine"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up Fine"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
@@ -409,6 +421,10 @@ msgstr "Quantisieren"
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
 msgstr "Quantisieren"
+
+#: .\timeedit\quantize\quantizegrid.cpp
+msgid "[FileType]Quantize Settings"
+msgstr "Quantisierungseinstellungen"
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quintole"
@@ -593,6 +609,10 @@ msgstr "Strecken"
 #: .\timeedit\tempo\tempoeditcomponent.cpp
 msgid "[Command]Tempo"
 msgstr "Tempo"
+
+#: .\timeedit\envelopes\envelopeedithandler.cpp
+msgid "[Events]Time Locked"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"

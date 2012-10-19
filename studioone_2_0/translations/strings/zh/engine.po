@@ -86,6 +86,10 @@ msgid "[Engine]Add Bus Channel"
 msgstr "添加总线通道1"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Event FX"
+msgstr ""
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
 msgstr "添加效果器-%(1):"
 
@@ -117,10 +121,6 @@ msgstr "添加..."
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "已在媒体池中:"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]An invalid signal occured during export. Do you want to abort the export?"
-msgstr "导出时出现异常, 是否终止导出?"
-
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "分析中..."
@@ -133,7 +133,6 @@ msgstr "应用音频弯曲"
 msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
 msgstr "[PoolNodes]是否删除此剪辑的所有效果?\n\n此动作无法挽回。"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
 msgstr "支杆"
@@ -216,6 +215,10 @@ msgid "[ActionDescriptions]Change Event Time Format"
 msgstr "改变事件时间格式"
 
 #: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Layers Follow"
+msgstr ""
+
+#: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
 msgstr "改变播放模式"
 
@@ -239,10 +242,6 @@ msgstr "通道"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "点击并拖拉参数"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]Clipping has occured during export. The signal was %float(1:2) dB over. Do you want to abort the export?"
-msgstr "导出时出现异常, 浮点信号%float(1:2)过载. 是否终止导出?"
-
 #: .\engine\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "自动配色"
@@ -255,7 +254,6 @@ msgstr "事件配色"
 msgid "[ActionDescriptions]Colorize Events"
 msgstr "事件配色"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Console"
 msgstr "控制台"
@@ -336,12 +334,10 @@ msgstr "创建自动控制"
 msgid "[AudioEdit]Create Crossfades"
 msgstr "创建交叉淡化"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges"
 msgstr "创建范围"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges on Tracks"
 msgstr "创建音轨范围"
@@ -382,12 +378,7 @@ msgstr "永久性删除文件"
 msgid "[Marker]Delete Marker"
 msgstr "删除标记"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Delete Time"
-msgstr "删除时间"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Delete Time"
 msgstr "删除时间"
@@ -396,7 +387,6 @@ msgstr "删除时间"
 msgid "[MediaPoolFunctions]Deleting recorded files"
 msgstr "删除录音文件"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Deselect All on Tracks"
 msgstr "删除音轨中的全部内容"
@@ -434,12 +424,20 @@ msgid "[Engine]Do not publish"
 msgstr "不发布"
 
 #: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to copy all external files to the Media Folder?"
-msgstr "是否将所有外部文件复制到媒体文件夹下?"
+msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
+msgstr ""
 
 #: .\engine\audio\audiocache.cpp
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "是否删除缓存区内的所有未使用的临时音频文件?"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported file?"
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported files?"
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
@@ -457,21 +455,21 @@ msgstr "是否移除剪贴中的所有内容?"
 msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
 msgstr "是否移除剪贴中的所有内容?"
 
-#: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to remove all unused files?"
-msgstr "是否移除所有未使用的文件?"
-
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove these parameters from all parts?"
 msgstr "是否移除所有片段中的这些参数?"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
+msgstr ""
 
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove this parameter from all parts?"
 msgstr "是否移除所有片段中的此参数?"
 
 #: .\engine\musicediting\synthdraghandler.cpp
-msgid "[SynthDrag]Do you want to replace the instrument %(1)?\n\nClick 'Yes' to replace the instrument or click 'No' to add a new instrument."
-msgstr "是否替换乐器%(1)?\n\n点击[是]替换, 点击[不]添加新乐器."
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
+msgstr ""
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -489,8 +487,12 @@ msgstr "下载完毕"
 msgid "[Engine]Downloading..."
 msgstr "下载中..."
 
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]Drive full"
+msgstr ""
+
 #: .\engine\audio\audiotrackrecorder.cpp
-msgid "[Record]Dropouts occured during record. The harddrive might not be fast enough. Please consult the operating manual for advice on disc performance."
+msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough. Please consult the operating manual for advice on disc performance."
 msgstr "录音时出现异常, 也许硬件出现问题. 请参见产品说明书中的有关内容. "
 
 #: .\engine\song\songcontroller.cpp
@@ -517,7 +519,6 @@ msgstr "层副本"
 msgid "[ActionDescriptions]Duplicate Track"
 msgstr "音轨副本"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Track"
 msgstr "音轨副本"
@@ -530,7 +531,6 @@ msgstr "包含事件的音轨副本"
 msgid "[ActionDescriptions]Duplicate Tracks"
 msgstr "音轨副本"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Tracks"
 msgstr "音轨副本"
@@ -544,7 +544,6 @@ msgid "[Command]Duplicate with Events"
 msgstr "包含事件的副本"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Edit"
 msgstr "编辑"
@@ -709,7 +708,6 @@ msgstr "首音轨扩展"
 msgid "[ActionDescriptions]Fit Timeline to Contents"
 msgstr "时间线匹配内容"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Fit Timeline to Contents"
 msgstr "时间线匹配内容"
@@ -870,12 +868,7 @@ msgstr "插入指定的"
 msgid "[Events]Insert Points"
 msgstr "插入节点"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Insert Silence"
-msgstr "插入静默"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Insert Silence"
 msgstr "插入静默"
@@ -888,6 +881,10 @@ msgstr "插入轨道"
 msgid "[Edit]Insert Tracks"
 msgstr "插入轨道"
 
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Insert on Same Track"
+msgstr ""
+
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
 msgstr "乐器输入遵循选择设置"
@@ -899,6 +896,10 @@ msgstr "乐器部分"
 #: .\engine\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Instrument: %(1)"
 msgstr "乐器: %(1)"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Keep"
+msgstr ""
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Large"
@@ -1013,15 +1014,7 @@ msgid "[RecordMode]Loop Record Note Erase"
 msgstr "消除循环录音记录"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Erase"
-msgstr "消除循环录音记录"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "重复循环录音记录"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Repeat"
 msgstr "重复循环录音记录"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1031,6 +1024,10 @@ msgstr "循环录音音块"
 #: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Takes"
 msgstr "循环录音音块"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]MIDI"
+msgstr "MIDI"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
 #: .\engine\automationediting\automationtracklistcomponent.cpp
@@ -1121,7 +1118,6 @@ msgstr "修正视频偏移"
 msgid "[Engine:AudioActions]Modify Volume Curve"
 msgstr "修正音量包络"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Monitor"
 msgstr "监视器"
@@ -1178,12 +1174,10 @@ msgstr "将音轨从文件夹内移出"
 msgid "[ActionDescriptions]Move Tracks"
 msgstr "移动音轨"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Move to Origin"
 msgstr "移至源点"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Move to Origin"
 msgstr "移至源点"
@@ -1192,7 +1186,6 @@ msgstr "移至源点"
 msgid "[FileType]Musicloop"
 msgstr "音池"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Mute"
 msgstr "静音"
@@ -1305,6 +1298,14 @@ msgstr "尚无录音"
 msgid "[TempoFormatter]Not Set"
 msgstr "不设置"
 
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Erase"
+msgstr "消除记录"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Repeat"
+msgstr "重复记录"
+
 #: .\engine\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "没有导出任何数据，请选择一条或多条音轨并设置循环或标记."
@@ -1360,6 +1361,10 @@ msgstr "路径"
 #: .\engine\audioediting\audioeditor.cpp
 #: .\engine\audioediting\audioscaleview.cpp
 msgid "[AudioScale]Percent"
+msgstr "百分比"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]Percent"
 msgstr "百分比"
 
 #: .\engine\song\songdocument.cpp
@@ -1462,8 +1467,8 @@ msgstr "召回标记 9"
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
 msgstr "重新自动化"
 
-#: .\engine\audio\audiotrackrecorder.cpp .\engine\music\musictrackrecorder.cpp
-msgid "[Record]Record"
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Record"
 msgstr "录音"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1499,6 +1504,7 @@ msgid "[Command]Record Takes to Layers"
 msgstr "录音至布局"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Remove"
 msgstr "移除"
 
@@ -1562,12 +1568,12 @@ msgstr "移除音轨和乐器"
 msgid "[Command]Remove Track and Instrument"
 msgstr "移除音轨和乐器"
 
-#: .\engine\pool\mediapoolbrowser.cpp
-msgid "[PoolBrowser]Remove Unused Files"
-msgstr "移除未使用的文件"
-
 #: .\engine\pool\mediapoolcomponent.cpp
 msgid "[Command]Remove Unused Files"
+msgstr "移除未使用的文件"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files..."
 msgstr "移除未使用的文件"
 
 #: .\engine\video\videofunctions.cpp
@@ -1638,6 +1644,15 @@ msgstr "渲染文件"
 msgid "[MusicRenderer]Rendering Note Events"
 msgstr "渲染音符事件"
 
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Replace"
+msgstr "替换"
+
+#: .\engine\editing\dragoneventhandler.cpp
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Replace Event"
+msgstr ""
+
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset All"
 msgstr "全部重置"
@@ -1698,7 +1713,6 @@ msgstr "秒"
 msgid "[Track]Seconds"
 msgstr "秒"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "全选-音轨"
@@ -1788,7 +1802,6 @@ msgstr "显示/隐藏自动控制"
 msgid "[Engine:AudioBendActions]Show Bend Marker"
 msgstr "显示弯曲标记"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "显示通道编辑器"
@@ -1798,7 +1811,6 @@ msgstr "显示通道编辑器"
 msgid "[Command]Show Device"
 msgstr "显示设备"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Envelopes"
 msgstr "显示包括"
@@ -1819,7 +1831,6 @@ msgstr "搜索器中显示媒体文件夹"
 msgid "[Track]Show in Console"
 msgstr "在控台中显示"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show in Console"
 msgstr "在控台中显示"
@@ -1856,7 +1867,6 @@ msgstr "对齐至事件热点"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "对齐至事件"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "独奏"
@@ -1902,22 +1912,18 @@ msgstr "分割事件"
 msgid "[ActionDescriptions]Split Events"
 msgstr "分割事件"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
 msgstr "分割循环"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Loop"
 msgstr "分割循环"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Range"
 msgstr "分割范围"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Range"
 msgstr "分割范围"
@@ -1966,6 +1972,18 @@ msgstr "音块 #%(1:3) (%(2))"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "速度: %(1)  长度: %(2)"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]The following problems occured during export:"
+msgstr ""
+
 #: .\engine\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "不支持此文件格式."
@@ -1985,6 +2003,10 @@ msgstr "乐曲将被首次保存.\n"
 #: .\engine\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
 msgstr "轨道 \"%(1)\" 未连接至乐器软件."
+
+#: .\engine\music\musictrackinfo.cpp
+msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]There are no external files."
@@ -2032,7 +2054,6 @@ msgstr "轻触"
 #: .\engine\editing\foldertrackcomponent.cpp
 #: .\engine\editing\monitorfollower.cpp .\engine\editing\trackcontroller.cpp
 #: .\engine\editing\tracklayercomponent.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 #: .\engine\editing\tracklistfilter.cpp .\engine\song\songcontroller.cpp
 msgid "[Command]Track"
@@ -2115,7 +2136,6 @@ msgstr "调换事件"
 msgid "[PoolBrowser]Type"
 msgstr "类型"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Undo"
 msgstr "撤销"
@@ -2200,8 +2220,7 @@ msgstr "视频双倍大小"
 msgid "[Command]Video Size Half"
 msgstr "视频一半大小"
 
-#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]View"
 msgstr "视图"
 
@@ -2225,12 +2244,10 @@ msgstr "X-巨大"
 msgid "[SongMaster]Yes"
 msgstr "是"
 
-#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
 msgstr "缩放"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom Selected Track"
 msgstr "缩放已选音轨"

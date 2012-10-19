@@ -78,6 +78,10 @@ msgstr ""
 msgid "[MusicDevices]All Inputs"
 msgstr ""
 
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr ""
+
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr ""
@@ -112,6 +116,10 @@ msgstr ""
 
 #: .\devices\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
+msgstr ""
+
+#: .\devices\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
 msgstr ""
 
 #: .\devices\audioeffects\audiofxmanager.cpp
@@ -158,6 +166,7 @@ msgstr ""
 msgid "[AudioMixer]Bus"
 msgstr ""
 
+#: .\devices\audiomixer\channels\audiogroupchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr ""
@@ -196,6 +205,10 @@ msgstr ""
 
 #: .\devices\transport\metronome.cpp
 msgid "[Command]Click"
+msgstr ""
+
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr ""
 
 #: .\devices\base\devicefolder.cpp
@@ -297,6 +310,10 @@ msgstr ""
 msgid "[SpectrumMeter]FFT"
 msgstr ""
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]FFT Curve"
+msgstr ""
+
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr ""
@@ -319,6 +336,11 @@ msgstr ""
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
+msgstr ""
+
+#: .\devices\audiometer\sonopainter.cpp
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Freq"
 msgstr ""
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -401,12 +423,13 @@ msgstr ""
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr ""
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Instruments"
-msgstr ""
-
+#: .\devices\audiomixer\channels\audiosynthchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
+msgstr ""
+
+#: .\devices\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
 msgstr ""
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -427,6 +450,10 @@ msgstr ""
 
 #: .\devices\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
+msgstr ""
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Level"
 msgstr ""
 
 #: .\devices\mixerconsole\channellistview.cpp
@@ -537,6 +564,10 @@ msgstr ""
 msgid "[MusicDeviceSetup]Not connected"
 msgstr ""
 
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Note"
+msgstr ""
+
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
 msgstr ""
@@ -631,10 +662,6 @@ msgstr ""
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Record"
-msgstr ""
-
-#: .\devices\transport\transportscheduler.cpp
-msgid "[Transport]Record"
 msgstr ""
 
 #: .\devices\mixer\recordchannel.cpp
@@ -829,6 +856,10 @@ msgstr ""
 msgid "[MixerConsole]Show in Console"
 msgstr ""
 
+#: .\devices\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr ""
+
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr ""
@@ -843,6 +874,10 @@ msgstr ""
 
 #: .\devices\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
+msgstr ""
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Sonogram"
 msgstr ""
 
 #: .\devices\audiomixer\audiorenderengine.cpp
@@ -919,6 +954,10 @@ msgstr ""
 
 #: .\devices\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
+msgstr ""
+
+#: .\devices\audiometer\sonopainter.cpp
+msgid "[SpectrumDisplay]Time"
 msgstr ""
 
 #: .\devices\midi\midimonitor.cpp
@@ -1005,6 +1044,10 @@ msgstr ""
 
 #: .\devices\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
+msgstr ""
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Waterfall"
 msgstr ""
 
 #: .\devices\base\automationunit.cpp

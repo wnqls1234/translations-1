@@ -223,8 +223,8 @@ msgid "[Command]Locate Selection End"
 msgstr "選択エンドを検索"
 
 #: .\timeedit\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values"
-msgstr "値をロック"
+msgid "[Events]Lock Values / Time"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
@@ -342,10 +342,6 @@ msgstr "次のイベント拡張"
 msgid "[Command]Nudge"
 msgstr "ナッジ"
 
-#: .\timeedit\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Nudge"
-msgstr "ナッジ"
-
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "後ろへナッジ"
@@ -357,6 +353,22 @@ msgstr "小節単位でナッジ"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "小節単位で後ろへナッジ"
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down Fine"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up Fine"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
@@ -409,6 +421,10 @@ msgstr "クオンタイズ"
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
 msgstr "クオンタイズ"
+
+#: .\timeedit\quantize\quantizegrid.cpp
+msgid "[FileType]Quantize Settings"
+msgstr ""
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quintole"
@@ -593,6 +609,10 @@ msgstr "ストレッチ"
 #: .\timeedit\tempo\tempoeditcomponent.cpp
 msgid "[Command]Tempo"
 msgstr "テンポ"
+
+#: .\timeedit\envelopes\envelopeedithandler.cpp
+msgid "[Events]Time Locked"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"

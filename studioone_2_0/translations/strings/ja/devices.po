@@ -84,6 +84,10 @@ msgstr "すべて"
 msgid "[MusicDevices]All Inputs"
 msgstr "すべてのインプット"
 
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr ""
+
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "これらのチャンネルをゴミ箱に移動しますか？"
@@ -119,6 +123,10 @@ msgstr "オーディオ"
 #: .\devices\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "オーディオチャンネル"
+
+#: .\devices\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
+msgstr ""
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -164,6 +172,7 @@ msgstr "オートパンチアウト"
 msgid "[AudioMixer]Bus"
 msgstr "バス"
 
+#: .\devices\audiomixer\channels\audiogroupchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "バス"
@@ -203,6 +212,10 @@ msgstr "Ck"
 #: .\devices\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "クリック"
+
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgstr ""
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -303,6 +316,10 @@ msgstr "外部デバイス"
 msgid "[SpectrumMeter]FFT"
 msgstr "FFT"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]FFT Curve"
+msgstr ""
+
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "FX"
@@ -326,6 +343,11 @@ msgstr "先へ進む"
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
 msgstr "小節単位で先へ進む"
+
+#: .\devices\audiometer\sonopainter.cpp
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Freq"
+msgstr ""
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
@@ -407,12 +429,13 @@ msgstr "インストゥルメント"
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "インストゥルメントチャンネル"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Instruments"
-msgstr "インストゥルメント"
-
+#: .\devices\audiomixer\channels\audiosynthchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
+msgstr "インストゥルメント"
+
+#: .\devices\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
 msgstr "インストゥルメント"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -434,6 +457,10 @@ msgstr "ラッチ"
 #: .\devices\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "レーテンシー"
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Level"
+msgstr ""
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -543,6 +570,10 @@ msgstr "なし"
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "接続されていません"
 
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Note"
+msgstr ""
+
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
 msgstr "オクターブ"
@@ -637,10 +668,6 @@ msgstr "最近使ったパラメーター"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Record"
-msgstr "録音"
-
-#: .\devices\transport\transportscheduler.cpp
-msgid "[Transport]Record"
 msgstr "録音"
 
 #: .\devices\mixer\recordchannel.cpp
@@ -835,6 +862,10 @@ msgstr "トラックを表示"
 msgid "[MixerConsole]Show in Console"
 msgstr "コンソールに表示"
 
+#: .\devices\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr ""
+
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "シングル（32ビット）"
@@ -850,6 +881,10 @@ msgstr "小"
 #: .\devices\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "いくつかのチャンネルはまだ使用中です。削除しますか？"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Sonogram"
+msgstr ""
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -926,6 +961,10 @@ msgstr "このデバイスは現在削除できません。"
 #: .\devices\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
 msgstr "このポートはすでに使用中です。複数のデバイスを同一のポートに接続すると、MIDIイベントがコピーされて送信される原因となります。"
+
+#: .\devices\audiometer\sonopainter.cpp
+msgid "[SpectrumDisplay]Time"
+msgstr "時間"
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1011,6 +1050,10 @@ msgstr "表示"
 #: .\devices\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
 msgstr "ボリューム"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Waterfall"
+msgstr ""
 
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"

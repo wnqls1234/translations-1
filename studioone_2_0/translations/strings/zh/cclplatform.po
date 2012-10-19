@@ -13,21 +13,8 @@ msgid "[FileSelector]All Supported Files"
 msgstr "所有支持的文件"
 
 #: .\ccl\platform\win\system\exceptionhandler.cpp
-msgid ""
-"[Win32]An Unexpected Error occured in this Application or one of its Plug-"
-"ins!\n"
-"A Crash Dump has been created at:\n"
-"\n"
-"%(1)"
-msgstr ""
-"程序中使用的插件出现异常错误!\n"
-"崩溃信息:\n"
-"\n"
-"%(1)"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Cancel"
-msgstr "取消"
+msgid "[Win32]An Unexpected Error occured in this Application or one of its Plug-ins!\nA Crash Dump has been created at:\n\n%(1)"
+msgstr "程序中使用的插件出现异常错误!\n崩溃信息:\n\n%(1)"
 
 #: .\ccl\platform\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
@@ -41,21 +28,9 @@ msgstr "隐藏"
 msgid "[MacMenu]Hide Others"
 msgstr "隐藏其他"
 
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]No"
-msgstr "不"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]OK"
-msgstr "确定"
-
 #: .\ccl\platform\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
 msgstr "退出"
-
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Retry"
-msgstr "重试"
 
 #: .\ccl\platform\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Services"
@@ -65,6 +40,3 @@ msgstr "服务"
 msgid "[MacMenu]Show All"
 msgstr "显示所有"
 
-#: .\ccl\platform\cocoa\gui\alert.cocoa.mm .\ccl\platform\ios\gui\alert.ios.mm
-msgid "[Alert]Yes"
-msgstr "是的"

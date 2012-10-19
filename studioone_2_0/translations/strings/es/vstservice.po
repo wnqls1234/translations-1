@@ -20,8 +20,12 @@ msgid "[VST]Adding VST3 Plug-In %(1)..."
 msgstr "Agregando plug-in VST3  %(1)..."
 
 #: .\modules\devices\vst\source\vstuseroption.cpp
-msgid "[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize on next startup?"
-msgstr "Desea escanear nuevamente los plug ins VST que fallaron al inicializarce la proxima vez que inicie Studio One?"
+msgid ""
+"[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize "
+"on next startup?"
+msgstr ""
+"Desea escanear nuevamente los plug ins VST que fallaron al inicializarce la "
+"proxima vez que inicie Studio One?"
 
 #: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
 msgid "[VST]Found Plug-In Shell %(1)..."
@@ -63,3 +67,14 @@ msgstr "Plug In VST %(1) falló al cargar!"
 msgid "[VSTUserOption]VST Plug-Ins"
 msgstr "Plug ins VST "
 
+#: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
+msgid "[FileType]VST2 Bank"
+msgstr ""
+
+#: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
+msgid "[FileType]VST2 Program"
+msgstr ""
+
+#: .\modules\devices\vst\source\vst3\vst3presethandler.cpp
+msgid "[FileType]VST3 Preset"
+msgstr ""

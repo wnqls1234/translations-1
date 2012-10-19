@@ -18,6 +18,10 @@ msgstr ""
 msgid "[MediaTime]Bars"
 msgstr ""
 
+#: .\media\envelopes\envelopeactions.cpp
+msgid "[EnvelopeActions]Bend Points"
+msgstr ""
+
 #: .\media\audiofile\audiofileconverter.cpp
 msgid "[AudioFileConverter]Converting %(1)"
 msgstr ""
@@ -39,11 +43,15 @@ msgid "[EventFunctions]Delete Events"
 msgstr ""
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Delete Point"
+msgid "[EnvelopeActions]Delete Point"
 msgstr ""
 
 #: .\media\envelopes\envelopefunctions.cpp
 msgid "[Events]Delete Points"
+msgstr ""
+
+#: .\media\envelopes\envelopefunctions.cpp
+msgid "[Events]Edit Value"
 msgstr ""
 
 #: .\media\time\mediatimeparams.cpp
@@ -67,7 +75,7 @@ msgid "[EventFunctions]Insert Events"
 msgstr ""
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Insert Point"
+msgid "[EnvelopeActions]Insert Point"
 msgstr ""
 
 #: .\media\envelopes\envelopefunctions.cpp
@@ -115,11 +123,11 @@ msgid "[EventFunctions]Move Events"
 msgstr ""
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Point"
+msgid "[EnvelopeActions]Move Point"
 msgstr ""
 
 #: .\media\envelopes\envelopeactions.cpp
-msgid "[Media:PointActions]Move Points"
+msgid "[EnvelopeActions]Move Points"
 msgstr ""
 
 #: .\media\music\musicperformance.cpp
@@ -130,8 +138,16 @@ msgstr ""
 msgid "[ActionDescriptions]Mute Event"
 msgstr ""
 
+#: .\media\events\eventfunctions.cpp
+msgid "[EventFunctions]Nudge"
+msgstr ""
+
 #: .\media\public\mediaformatter.cpp
 msgid "[Media]Off"
+msgstr ""
+
+#: .\media\music\pitchnamelist.cpp
+msgid "[FileType]Pitch Names"
 msgstr ""
 
 #: .\media\music\musicactions.cpp

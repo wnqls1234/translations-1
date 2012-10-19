@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -85,14 +84,16 @@ msgstr "Wszystkie"
 msgid "[MusicDevices]All Inputs"
 msgstr "Wszystkie wejścia"
 
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr ""
+
 #: .\devices\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Czy na pewno chcesz przenieść te kanały do kosza?"
 
 #: .\devices\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr "Czy na pewno chcesz przenieść ten kanał do kosza?"
 
 #: .\devices\surfaces\editor\mappinghandler.cpp
@@ -122,6 +123,10 @@ msgstr "Audio"
 #: .\devices\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "Kanały audio"
+
+#: .\devices\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
+msgstr ""
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -167,6 +172,7 @@ msgstr "Autopunch Out"
 msgid "[AudioMixer]Bus"
 msgstr "Szyna"
 
+#: .\devices\audiomixer\channels\audiogroupchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "Szyny"
@@ -206,6 +212,10 @@ msgstr "Ck"
 #: .\devices\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "Włącz / Wyłącz metronom"
+
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgstr ""
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -306,6 +316,10 @@ msgstr "Urządzenia zdalne"
 msgid "[SpectrumMeter]FFT"
 msgstr "FFT"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]FFT Curve"
+msgstr ""
+
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "FX"
@@ -330,22 +344,18 @@ msgstr "Przewiń do przodu"
 msgid "[Command]Forward Bar"
 msgstr "Przewiń takt do przodu"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
-"This device model features MIDI Learn."
+#: .\devices\audiometer\sonopainter.cpp
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Freq"
 msgstr ""
-"Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn."
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
-"device model features MIDI Learn. Connecting the send port is optional."
-msgstr ""
-"Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest "
-"opcjonalne."
+msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
+msgstr "Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn."
+
+#: .\devices\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
+msgstr "Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest opcjonalne."
 
 #: .\devices\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -419,12 +429,13 @@ msgstr "Instrument"
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "Kanały instrumentu"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Instruments"
-msgstr "Instrumenty"
-
+#: .\devices\audiomixer\channels\audiosynthchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
+msgstr "Instrumenty"
+
+#: .\devices\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
 msgstr "Instrumenty"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -446,6 +457,10 @@ msgstr "Latch"
 #: .\devices\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "Latencja"
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Level"
+msgstr ""
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -537,8 +552,7 @@ msgstr "Brak urządzenia audio"
 
 #: .\devices\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
-msgstr ""
-"Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
+msgstr "Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
 
 #: .\devices\studio\missingdevices.cpp
 msgid "[Studio]No devices are missing."
@@ -555,6 +569,10 @@ msgstr "Brak"
 #: .\devices\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "Niepodłączono"
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Note"
+msgstr ""
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
@@ -589,25 +607,16 @@ msgid "[PerformanceMonitor]Path"
 msgstr "Ścieżka"
 
 #: .\devices\externaleffects\externaleffectcomponent.cpp
-msgid ""
-"[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
-"match the processing buffersize. Please change your audio device setup (lock "
-"buffersize to hardware)."
-msgstr ""
-"Inicjacja wtyczki Pipeline nie powiodła się. Rozmiar bufora urządzenia nie "
-"zgadza się z rozmiarem buforu przetwarzania. Zmień konfigurację Twojego "
-"urządzenia audio (zablokuj rozmiar buforu)."
+msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
+msgstr "Inicjacja wtyczki Pipeline nie powiodła się. Rozmiar bufora urządzenia nie zgadza się z rozmiarem buforu przetwarzania. Zmień konfigurację Twojego urządzenia audio (zablokuj rozmiar buforu)."
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
 msgstr "Odtwarzaj od początku pętli"
 
 #: .\devices\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
-"this message when finished..."
-msgstr ""
-"Podłącz Twoje urządzenia MIDI i zamknij ten komunikat po zakończeniu..."
+msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
+msgstr "Podłącz Twoje urządzenia MIDI i zamknij ten komunikat po zakończeniu..."
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
@@ -659,10 +668,6 @@ msgstr "Ostatnie parametry"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Record"
-msgstr "Nagrywaj"
-
-#: .\devices\transport\transportscheduler.cpp
-msgid "[Transport]Record"
 msgstr "Nagrywaj"
 
 #: .\devices\mixer\recordchannel.cpp
@@ -857,6 +862,10 @@ msgstr "Pokaż ścieżkę"
 msgid "[MixerConsole]Show in Console"
 msgstr "Pokaż w konsolecie"
 
+#: .\devices\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr ""
+
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "Pojedyncza (32 bity)"
@@ -870,10 +879,12 @@ msgid "[MixerConsole]Small"
 msgstr "Mały"
 
 #: .\devices\audiomixer\setup\audioiosetup.cpp
-msgid ""
-"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
-"anyway?"
+msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Niektóre kanały są nadal w użyciu! Czy chcesz je mimo to usunąć?"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Sonogram"
+msgstr ""
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -924,36 +935,20 @@ msgid "[SurfaceControl]Text Display"
 msgstr "Wyświetlany tekst"
 
 #: .\devices\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
-"to remove it from User Devices?"
-msgstr ""
-"Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z "
-"urządzeń użytkownika?"
+msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
+msgstr "Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z urządzeń użytkownika?"
 
 #: .\devices\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) could not be initialized. Please check your "
-"hardware configuration and try again."
-msgstr ""
-"Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i "
-"spróbuj ponownie."
+msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
+msgstr "Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i spróbuj ponownie."
 
 #: .\devices\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) has failed to start correctly before. Do you "
-"want to try it again?"
-msgstr ""
-"Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować "
-"jeszcze raz?"
+msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
+msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować jeszcze raz?"
 
 #: .\devices\audio\watchdogcomponent.cpp
-msgid ""
-"[Devices]The audio engine has been stopped, because the system became "
-"unresponsive due to an overload in the audio engine."
-msgstr ""
-"Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku "
-"przeciążenia silnika audio."
+msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
+msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia silnika audio."
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Third Octave"
@@ -964,12 +959,12 @@ msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Tego urządzenia nie można teraz usunąć!"
 
 #: .\devices\music\setup\musicdevicedialog.cpp
-msgid ""
-"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
-"to the same port may lead to copied transmission of MIDI events."
-msgstr ""
-"Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu "
-"może prowadzić do skopiowania transmisji komunikatów MIDI."
+msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
+msgstr "Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu może prowadzić do skopiowania transmisji komunikatów MIDI."
+
+#: .\devices\audiometer\sonopainter.cpp
+msgid "[SpectrumDisplay]Time"
+msgstr "Czas"
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1029,14 +1024,8 @@ msgid "[SurfaceEditor]Unassign"
 msgstr "Usuń przypisanie"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
-"controller movements. When connecting the receive port, be careful to avoid "
-"doubled events if the same port is used by a Keyboard device."
-msgstr ""
-"Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów "
-"kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu "
-"odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
+msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
+msgstr "Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
 
 #: .\devices\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -1062,18 +1051,15 @@ msgstr "Widok"
 msgid "[AudioChannel]Volume"
 msgstr "Głośność"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Waterfall"
+msgstr ""
+
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Write"
 
 #: .\devices\music\musicdevicemanager.cpp
-msgid ""
-"[MusicDevices]Your MIDI configuration has changed. This might be due to "
-"removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są "
-"teraz podłączone\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone\n\nCzy chcesz je teraz ponownie podłączyć?"
+

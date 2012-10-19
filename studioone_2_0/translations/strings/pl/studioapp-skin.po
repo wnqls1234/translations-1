@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,14 +13,8 @@ msgid "[UserLicenseExpired]$APPCOMPANY Store"
 msgstr "Sklep $APPCOMPANY"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party "
-"plug-ins for $APPNAME. To authorize these items, please take the following "
-"steps, either now or any time later:"
-msgstr ""
-"$APPCOMPANY oferuje dodatkową zawartość i wtyczki innych producentów dla "
-"$APPNAME. Aby autoryzować te pozycje, powinieneś wykonać (teraz lub później) "
-"następujące kroki:"
+msgid "[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
+msgstr "$APPCOMPANY oferuje dodatkową zawartość i wtyczki innych producentów dla $APPNAME. Aby autoryzować te pozycje, powinieneś wykonać (teraz lub później) następujące kroki:"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[AppStoreWelcome]$APPNAME"
@@ -29,6 +22,18 @@ msgstr "$APPNAME"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[TaskListDialog]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]$APPNAME"
+msgstr "$APPNAME"
+
+#: .\studioapp\skin\engine\mediapool.xml
+msgid "[RemoveUnusedDialog]$APPNAME"
 msgstr "$APPNAME"
 
 #: .\studioapp\skin\app\licenser.xml
@@ -64,21 +69,12 @@ msgid "[AboutApplication]$APPNAME Website"
 msgstr "Strona internetowa $APPNAME"
 
 #: .\studioapp\skin\ccl\installer.xml
-msgid ""
-"[InstallWizard.StartPage]$APPNAME comes with additional content, including "
-"loops, samples, and third-party plug-ins, which can be installed now."
-msgstr ""
-"Wraz z $APPNAME możesz zainstalować dodatkową zawartość, w tym pętle audio, "
-"sample oraz wtyczki innych producentów."
+msgid "[InstallWizard.StartPage]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins, which can be installed now."
+msgstr "Wraz z $APPNAME możesz zainstalować dodatkową zawartość, w tym pętle audio, sample oraz wtyczki innych producentów."
 
 #: .\studioapp\skin\ccl\common.xml
-msgid ""
-"[ContentLocationSelector]$APPNAME will help to keep your media files "
-"organized. All your data like Songs, Projects and Presets will be stored in "
-"a single location."
-msgstr ""
-"$APPNAME pomoże Ci zorganizować Twoje pliki. Wszystkie dane, takie jak "
-"utwory, projekty i zestawy będą zapisywane w jednej lokalizacji."
+msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
+msgstr "$APPNAME pomoże Ci zorganizować Twoje pliki. Wszystkie dane, takie jak utwory, projekty i zestawy będą zapisywane w jednej lokalizacji."
 
 #: .\studioapp\skin\ccl\browser.xml
 msgid "[SearchBar]&gt;"
@@ -205,12 +201,8 @@ msgid "[MusicDeviceOptions]1"
 msgstr "1"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]1. Go to your $APPCOMPANY user account "
-"on a computer with Internet connection."
-msgstr ""
-"1. Przejdź na Twoje konto użytkownika $APPCOMPANY z komputera połączonego do "
-"Internetu."
+msgid "[UserLicenseWizard.OfflineActivation]1. Go to your $APPCOMPANY user account on a computer with Internet connection."
+msgstr "1. Przejdź na Twoje konto użytkownika $APPCOMPANY z komputera połączonego do Internetu."
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[AppStoreWelcome]1. Select $APPNAME Activation from the $APPNAME menu."
@@ -277,26 +269,16 @@ msgid "[MusicDeviceOptions]2"
 msgstr "2"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AppStoreWelcome]2. If you do not already have a $APPCOMPANY user account, "
-"please follow the instructions to create a new account."
-msgstr ""
-"2. Jeżeli nie masz jeszcze konta użytkownika $APPCOMPANY, posłuż się "
-"instrukcją, aby je utworzyć."
+msgid "[AppStoreWelcome]2. If you do not already have a $APPCOMPANY user account, please follow the instructions to create a new account."
+msgstr "2. Jeżeli nie masz jeszcze konta użytkownika $APPCOMPANY, posłuż się instrukcją, aby je utworzyć."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]2. Register the Product Key of the "
-"$APPNAME version you purchased."
+msgid "[UserLicenseWizard.OfflineActivation]2. Register the Product Key of the $APPNAME version you purchased."
 msgstr "2. Zarejestruj klucz produktu zakupionej wersji $APPNAME."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]2. Request a demo Product Key for "
-"$APPNAME at $APPCOMPANY website and register it."
-msgstr ""
-"2. Poproś o klucz produktu dla wersji demo $APPNAME na stronie internetowej "
-"$APPCOMPANYa i zarejestruj go."
+msgid "[UserLicenseWizard.OfflineActivation]2. Request a demo Product Key for $APPNAME at $APPCOMPANY website and register it."
+msgstr "2. Poproś o klucz produktu dla wersji demo $APPNAME na stronie internetowej $APPCOMPANYa i zarejestruj go."
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]3"
@@ -307,9 +289,7 @@ msgid "[AppStoreWelcome]3. Click Activate Online to activate $APPNAME."
 msgstr "3. Kliknij Aktywacja online, aby aktywować $APPNAME."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]3. Unlock this computer by entering the "
-"following Activation Code:"
+msgid "[UserLicenseWizard.OfflineActivation]3. Unlock this computer by entering the following Activation Code:"
 msgstr "3. Odblokuj ten komputer, wprowadzając następujący kod aktywacyjny:"
 
 #: .\studioapp\skin\project\analyser.xml
@@ -321,9 +301,7 @@ msgid "[MusicDeviceOptions]4"
 msgstr "4"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]4. Download your personalized User "
-"License for $APPNAME."
+msgid "[UserLicenseWizard.OfflineActivation]4. Download your personalized User License for $APPNAME."
 msgstr "4. Pobierz Twoją osobistą licencję użytkownika dla $APPNAME."
 
 #: .\studioapp\skin\devices\musicdevices.xml
@@ -331,12 +309,8 @@ msgid "[MusicDeviceOptions]5"
 msgstr "5"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.OfflineActivation]5. Select the User License here or just "
-"drag it onto this window."
-msgstr ""
-"5. Wybierz tutaj licencję użytkownika lub po prostu przeciągnij ją do tego "
-"okna."
+msgid "[UserLicenseWizard.OfflineActivation]5. Select the User License here or just drag it onto this window."
+msgstr "5. Wybierz tutaj licencję użytkownika lub po prostu przeciągnij ją do tego okna."
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]6"
@@ -431,16 +405,16 @@ msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Mix]"
 msgstr "@cmd.title[Record Mode|Loop Record Mix]"
 
 #: .\studioapp\skin\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Note Erase]"
-msgstr "@cmd.title[Record Mode|Loop Record Note Erase]"
-
-#: .\studioapp\skin\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Note Repeat]"
-msgstr "@cmd.title[Record Mode|Loop Record Note Repeat]"
-
-#: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Loop Record Takes]"
 msgstr "@cmd.title[Record Mode|Loop Record Takes]"
+
+#: .\studioapp\skin\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Note Erase]"
+msgstr "@cmd.title[Record Mode|Note Erase]"
+
+#: .\studioapp\skin\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Note Repeat]"
+msgstr "@cmd.title[Record Mode|Note Repeat]"
 
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]@cmd.title[Record Mode|Record Mode Overdub]"
@@ -711,7 +685,7 @@ msgid "[SongMetaInfoOption]Album"
 msgstr "Album"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Album"
+msgid "[SongPopup.Info]Album"
 msgstr "Album"
 
 #: .\studioapp\skin\app\windowclasses.xml
@@ -807,7 +781,7 @@ msgid "[SongMetaInfoOption]Artist"
 msgstr "Artysta"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Artist"
+msgid "[SongPopup.Info]Artist"
 msgstr "Artysta"
 
 #: .\studioapp\skin\project\audiofile.xml
@@ -910,6 +884,10 @@ msgstr "Automatyczny monitoring ścieżek wycisza odtwarzanie (styl taśmy)"
 msgid "[TrackListInspectorPanel]Audio Tracks"
 msgstr "Ścieżki audio"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Audio resolution used for recording"
+msgstr ""
+
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
 msgstr "Odtwarzacz"
@@ -930,13 +908,20 @@ msgstr "Autopunch @cmd[Transport|Autopunch]"
 msgid "[AutoSaveOption]Auto Save Documents"
 msgstr "Auto-zapisywanie dokumentów"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Auto Tail"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Auto Tail"
+msgstr ""
+
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "Auto-zanikanie i narastanie"
 
 #: .\studioapp\skin\app\options.xml
-msgid ""
-"[AutomationOption]Automatically add envelopes for all touched parameters"
+msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
 msgstr "Automatycznie dodawaj obwiednie dla wszystkich poruszonych parametrów"
 
 #: .\studioapp\skin\engine\editor.xml
@@ -1232,17 +1217,8 @@ msgid "[PlugInFileInfo]Category:"
 msgstr "Kategoria:"
 
 #: .\studioapp\skin\ccl\common.xml
-msgid ""
-"[ServiceOption]Changing these advanced settings might lead to improper "
-"function of $APPNAME. You should only continue if you are sure of what you "
-"are doing."
-msgstr ""
-"Zmiana tych zaawansowanych ustawień może doprowadzić do niepoprawnego "
-"działania $APPNAME. Kontynuuj tylko wtedy, gdy wiesz co robisz."
-
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Channel"
-msgstr "Kanał"
+msgid "[ServiceOption]Changing these advanced settings might lead to improper function of $APPNAME. You should only continue if you are sure of what you are doing."
+msgstr "Zmiana tych zaawansowanych ustawień może doprowadzić do niepoprawnego działania $APPNAME. Kontynuuj tylko wtedy, gdy wiesz co robisz."
 
 #: .\studioapp\skin\engine\editor.xml
 msgid "[AudioEditorLeftPanel]Channel Mode"
@@ -1261,6 +1237,10 @@ msgstr "Tryb kanału"
 msgid "[MusicPreviewPlayer]Channel:"
 msgstr "Kanał:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Channels"
+msgstr "Kanały"
+
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Chase long notes"
 msgstr "Odtwarzaj długie, trwające już nuty"
@@ -1275,6 +1255,10 @@ msgstr "Sprawdź aktualizacje"
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[UpdateDialog]Check for Updates"
+msgstr "Sprawdź aktualizacje"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[StartupOption]Check for Updates"
 msgstr "Sprawdź aktualizacje"
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
@@ -1598,6 +1582,10 @@ msgstr "Utwórz nowy projekt"
 msgid "[HomePage]Create a new Song"
 msgstr "Utwórz nowy utwór"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
+msgstr ""
+
 #: .\studioapp\skin\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
 msgstr "Utworzony przez"
@@ -1687,6 +1675,10 @@ msgstr "Domyślna dynamika"
 msgid "[AutomationOption]Default envelopes for new Audio Tracks"
 msgstr "Domyślne obwiednie dla nowych ścieżek audio"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Default tempo setting for audio tracks"
+msgstr ""
+
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Delay"
 msgstr "Opóźnienie"
@@ -1698,6 +1690,10 @@ msgstr "Opóźnienie"
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[Command]Delete"
 msgstr "Usuń"
+
+#: .\studioapp\skin\engine\mediapool.xml
+msgid "[RemoveUnusedDialog.Options]Delete Files permanently"
+msgstr ""
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
@@ -1852,31 +1848,19 @@ msgid "[InstallWizard.InstallPage]Done"
 msgstr "Zakończ"
 
 #: .\studioapp\skin\devices\audiochannel.narrow.xml
-msgid ""
-"[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel "
-"Color"
-msgstr "Podwójne kliknięcie: edycja nazwy, wciśnięcie: wybór koloru kanału"
-
-#: .\studioapp\skin\devices\audiochannel.narrow.xml
-msgid ""
-"[AudioInput.Narrow]Double Click: Edit Name, Keep Pressed: Select Channel "
-"Color"
+msgid "[AudioInput.Narrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Podwójne kliknięcie: edycja nazwy, wciśnięcie: wybór koloru kanału"
 
 #: .\studioapp\skin\devices\audiochannel.small.xml
-msgid ""
-"[AudioInput.Small]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgid "[AudioInput.Small]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Podwójne kliknięcie: edycja nazwy, wciśnięcie: wybór koloru kanału"
 
 #: .\studioapp\skin\devices\audiochannel.small.xml
-msgid ""
-"[AudioOutput.Small]Double Click: Edit Name, Keep Pressed: Select Channel "
-"Color"
+msgid "[AudioOutput.Small]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Podwójne kliknięcie: edycja nazwy, wciśnięcie: wybór koloru kanału"
 
 #: .\studioapp\skin\devices\audiochannel.xml
-msgid ""
-"[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgid "[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Podwójne kliknięcie: edycja nazwy, wciśnięcie: wybór koloru kanału"
 
 #: .\studioapp\skin\devices\transport.xml
@@ -1916,9 +1900,7 @@ msgid "[AudioFXEditorHeaderView]Drag Preset from here"
 msgstr "Przeciągnij stąd zestaw"
 
 #: .\studioapp\skin\devices\musicdevices.xml
-msgid ""
-"[SurfacePlacementEditor]Drag devices between groups to change their "
-"placement."
+msgid "[SurfacePlacementEditor]Drag devices between groups to change their placement."
 msgstr "Przeciągnij urządzenia pomiędzy grupami, aby zmienić ich lokalizację."
 
 #: .\studioapp\skin\app\options.xml
@@ -1970,12 +1952,11 @@ msgid "[TransportPanel]Edit"
 msgstr "Edytor"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Edit"
+msgid "[SongPopup.Info]Edit"
 msgstr "Edytuj"
 
 #: .\studioapp\skin\devices\devices.xml
-msgid ""
-"[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "Edytuj automatykę @cmd[Automation|Show Current Parameter]"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -2107,10 +2088,8 @@ msgid "[AudioEventFXProperties]Event Effects are currently offline"
 msgstr "Efekty obiektu są bieżąco w trybie offline"
 
 #: .\studioapp\skin\engine\eventinspector.xml
-msgid ""
-"[AudioEventFXProperties]Event Effects processing in realtime, click to render"
-msgstr ""
-"Przetwarzanie efektów obiektu w czasie rzeczywistym, kliknij, aby wygenerować"
+msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgstr "Przetwarzanie efektów obiektu w czasie rzeczywistym, kliknij, aby wygenerować"
 
 #: .\studioapp\skin\engine\eventinspector.xml
 msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
@@ -2284,6 +2263,14 @@ msgstr "Filtruj komunikaty Program Change"
 msgid "[UserLicenseWizard.Registration]First Name"
 msgstr "Imię"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Fix Tail"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Fix Tail"
+msgstr ""
+
 #: .\studioapp\skin\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]Focus Device"
 msgstr "Uaktywnij urządzenie"
@@ -2311,6 +2298,10 @@ msgstr "Format"
 #: .\studioapp\skin\project\audiofile.xml
 msgid "[ImageMaker]Format"
 msgstr "Format"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Format of ruler and main time display"
+msgstr ""
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
@@ -2486,8 +2477,7 @@ msgid "[EULADialog]I Decline"
 msgstr "Nie zgadzam się"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationForm]I have purchased an upgrade of $APPNAME"
+msgid "[UserLicenseWizard.ActivationForm]I have purchased an upgrade of $APPNAME"
 msgstr "Zakupiłem uaktualnienie $APPNAME"
 
 #: .\studioapp\skin\ccl\common.xml
@@ -2511,32 +2501,19 @@ msgid "[DocumentTemplateSaveDialog]Icon"
 msgstr "Ikona"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.AppStorePage]If you do not already have a $APPCOMPANY "
-"user account, click here to create a new account."
-msgstr ""
-"Jeżeli jeszcze nie posiadasz konta użytkownika $APPCOMPANY, to kliknij "
-"tutaj, aby utworzyć nowe konto."
+msgid "[UserLicenseWizard.AppStorePage]If you do not already have a $APPCOMPANY user account, click here to create a new account."
+msgstr "Jeżeli jeszcze nie posiadasz konta użytkownika $APPCOMPANY, to kliknij tutaj, aby utworzyć nowe konto."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPANY "
-"user account, click here to create a new account."
-msgstr ""
-"Jeżeli jeszcze nie posiadasz konta użytkownika $APPCOMPANY, to kliknij "
-"tutaj, aby utworzyć nowe konto."
+msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPANY user account, click here to create a new account."
+msgstr "Jeżeli jeszcze nie posiadasz konta użytkownika $APPCOMPANY, to kliknij tutaj, aby utworzyć nowe konto."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationPage]If your computer is not connected to the "
-"Internet, please follow the Offline Activation instructions."
-msgstr ""
-"Jeśli komputer nie jest podłączony do Internetu, postępuj według instrukcji "
-"aktywacji ofline."
+msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
+msgstr "Jeśli komputer nie jest podłączony do Internetu, postępuj według instrukcji aktywacji ofline."
 
 #: .\studioapp\skin\app\options.xml
-msgid ""
-"[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
+msgid "[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
 msgstr "Ignoruj sygnatury czasu urządzenia audio (użyj zegara systemowego)"
 
 #: .\studioapp\skin\project\project.xml
@@ -2563,6 +2540,10 @@ msgstr "Wejście"
 msgid "[SongSetup]Include effects when updating mastering file"
 msgstr "Dołącz efekty przy aktualizacji pliku masteringu"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[SongPopup.Info]Info"
+msgstr ""
+
 #: .\studioapp\skin\app\infoview.xml .\studioapp\skin\app\windowclasses.xml
 msgid "[InfoView]Info View"
 msgstr "Informacje"
@@ -2570,6 +2551,18 @@ msgstr "Informacje"
 #: .\studioapp\skin\app\windowclasses.xml
 msgid "[Command]Info View"
 msgstr "Informacje"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial length of song"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial tempo of song"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Initial time signature of song"
+msgstr ""
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Input Filter"
@@ -2735,6 +2728,10 @@ msgstr "Instrumenty"
 msgid "[PerformanceMonitor]Instruments"
 msgstr "Instrumenty"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Interfaces"
+msgstr ""
+
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Internal Block Size"
 msgstr "Bufor wewnętrzny"
@@ -2786,6 +2783,10 @@ msgstr "Warstwy"
 #: .\studioapp\skin\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Layers"
 msgstr "Warstwy"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[AudioTrackInspector]Layers follow events"
+msgstr ""
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -2978,6 +2979,14 @@ msgstr "Status pliku masteringu"
 msgid "[StripSilencePanel.DetectionPart]Material"
 msgstr "Materiał"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Max Length"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Max Length"
+msgstr ""
+
 #: .\studioapp\skin\app\shared.xml
 msgid "[DetachedFrameHeader]Maximize"
 msgstr "Maksymalizuj"
@@ -3067,6 +3076,10 @@ msgstr "Monitor"
 msgid "[MusicTrackInspector]Monitor"
 msgstr "Monitor"
 
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[FolderTrackInspector]Monitor"
+msgstr "Monitor"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MuteSoloRecMonName]Monitor"
 msgstr "Monitor"
@@ -3080,11 +3093,23 @@ msgid "[MiniAudioTrackControls]Monitor"
 msgstr "Monitor"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[MiniFolderTrackControls]Monitor"
+msgstr "Monitor"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallAudioTrackControls]Monitor"
 msgstr "Monitor"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallMusicTrackControls]Monitor"
+msgstr "Monitor"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[SmallFolderTrackControls]Monitor"
+msgstr "Monitor"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[FolderTrackPlay]Monitor"
 msgstr "Monitor"
 
 #: .\studioapp\skin\app\licenser.xml
@@ -3271,6 +3296,14 @@ msgstr "Następna ścieżka"
 msgid "[AutomationTrackDialog]Next Track"
 msgstr "Następna ścieżka"
 
+#: .\studioapp\skin\ccl\common.xml
+msgid "[TaskListDialog]No"
+msgstr "Nie"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]No"
+msgstr "Nie"
+
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.PerformancePart]No Audio Device"
 msgstr "Brak urządzenia audio"
@@ -3316,11 +3349,13 @@ msgstr "Zastępuj nuty"
 msgid "[RecordPanel.Horizontal]Note Repeat"
 msgstr "Dodawaj nuty"
 
-#: .\studioapp\skin\devices\musicdevices.xml
-msgid ""
-"[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[SongPopup.Notes]Notes"
 msgstr ""
-"Powiadom mnie, jeżeli przy uruchamianiu $APPNAME urządzenia nie będą dostępne"
+
+#: .\studioapp\skin\devices\musicdevices.xml
+msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
+msgstr "Powiadom mnie, jeżeli przy uruchamianiu $APPNAME urządzenia nie będą dostępne"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]Octave"
@@ -3406,14 +3441,6 @@ msgstr "Opcje"
 msgid "[TrackExport]Options"
 msgstr "Opcje"
 
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Options"
-msgstr "Opcje"
-
-#: .\studioapp\skin\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Options"
-msgstr "Opcje"
-
 #: .\studioapp\skin\project\audiofile.xml
 msgid "[AudioFilePublisher]Options"
 msgstr "Opcje"
@@ -3427,18 +3454,16 @@ msgid "[BurnerSelectDialog]Options"
 msgstr "Opcje"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseExpired]Otherwise, we look forward to your feedback on how we "
-"can make $APPNAME better for you. Please visit our forums with any feature "
-"requests."
-msgstr ""
-"Jeżeli nie, to będziemy czekać na Twoją opinię, o tym jak możemy dostosować "
-"$APPNAME do Twoich potrzeb. Zapraszamy Cię na nasze forum z wszystkimi "
-"prośbami dotyczącymi nowych funkcji."
+msgid "[UserLicenseExpired]Otherwise, we look forward to your feedback on how we can make $APPNAME better for you. Please visit our forums with any feature requests."
+msgstr "Jeżeli nie, to będziemy czekać na Twoją opinię, o tym jak możemy dostosować $APPNAME do Twoich potrzeb. Zapraszamy Cię na nasze forum z wszystkimi prośbami dotyczącymi nowych funkcji."
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector]Out"
 msgstr "Wyjście"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[InspectorChannelOutputPort]Output"
+msgstr ""
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Output Latency"
@@ -3627,34 +3652,19 @@ msgid "[AudioEngineOption]Play overlapping events"
 msgstr "Odtwarzaj nakładające się obiekty"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationForm]Please enter username and password of your "
-"$APPCOMPANY user account and the Product Key of the $APPNAME version you "
-"purchased."
-msgstr ""
-"Wprowadź nazwę użytkownika i hasło Twojego konta $APPCOMPANY oraz klucz "
-"produktu zakupionej wersji $APPNAME."
+msgid "[UserLicenseWizard.ActivationForm]Please enter username and password of your $APPCOMPANY user account and the Product Key of the $APPNAME version you purchased."
+msgstr "Wprowadź nazwę użytkownika i hasło Twojego konta $APPCOMPANY oraz klucz produktu zakupionej wersji $APPNAME."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationForm]Please enter username and password of your "
-"$APPCOMPANY user account."
+msgid "[UserLicenseWizard.ActivationForm]Please enter username and password of your $APPCOMPANY user account."
 msgstr "Wprowadź nazwę użytkownika i hasło Twojego konta $APPCOMPANY."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.Registration]Please enter your contact data to start the "
-"registration. An E-Mail will be send to you with a link to activate your "
-"account. Activation of your account is required before you can activate "
-"$APPNAME."
-msgstr ""
-"Wprowadź Twoje dane kontaktowe, aby rozpocząć rejestrację. Zostanie do "
-"Ciebie wysłany email z odnośnikiem do aktywacji Twojego konta. Aktywacja "
-"konta jest wymagana do aktywacji $APPNAME."
+msgid "[UserLicenseWizard.Registration]Please enter your contact data to start the registration. An E-Mail will be send to you with a link to activate your account. Activation of your account is required before you can activate $APPNAME."
+msgstr "Wprowadź Twoje dane kontaktowe, aby rozpocząć rejestrację. Zostanie do Ciebie wysłany email z odnośnikiem do aktywacji Twojego konta. Aktywacja konta jest wymagana do aktywacji $APPNAME."
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
-msgid ""
-"[ExtensionManager]Please restart $APPNAME for the changes to take effect."
+msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "Uruchom ponownie $APPNAME, aby wprowadzić zmiany."
 
 #: .\studioapp\skin\ccl\overlays.xml
@@ -3689,6 +3699,10 @@ msgstr "Czas przed"
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
 msgstr "Czas po"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[AudioEngineOption]Pre-record audio input"
+msgstr ""
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[Metronome]Precount Bars"
@@ -3970,6 +3984,10 @@ msgstr "Nagrywaj"
 msgid "[MusicTrackInspector]Record"
 msgstr "Nagrywaj"
 
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[FolderTrackInspector]Record"
+msgstr "Nagrywaj"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MuteSoloRecMonName]Record"
 msgstr "Nagrywaj"
@@ -3983,11 +4001,23 @@ msgid "[MiniAudioTrackControls]Record"
 msgstr "Nagrywaj"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[MiniFolderTrackControls]Record"
+msgstr "Nagrywaj"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallAudioTrackControls]Record"
 msgstr "Nagrywaj"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[SmallMusicTrackControls]Record"
+msgstr "Nagrywaj"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[SmallFolderTrackControls]Record"
+msgstr "Nagrywaj"
+
+#: .\studioapp\skin\engine\trackcontrols.xml
+msgid "[FolderTrackPlay]Record"
 msgstr "Nagrywaj"
 
 #: .\studioapp\skin\devices\transport.xml
@@ -4006,9 +4036,17 @@ msgstr "Wejście nagrywania"
 msgid "[MusicBounceDialog]Record Level"
 msgstr "Poziom nagrywania"
 
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Record Max"
+msgstr ""
+
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Record Mix"
 msgstr "Nagrywaj miks"
+
+#: .\studioapp\skin\app\options.xml
+msgid "[AudioEngineOption]Record Offset"
+msgstr ""
 
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Record Offset"
@@ -4042,6 +4080,23 @@ msgstr "Zarejestruj"
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Release audio device in background"
 msgstr "Udostępnij urządzenie audio w tle"
+
+#: .\studioapp\skin\app\windowclasses.xml
+#: .\studioapp\skin\devices\transport.xml
+msgid "[RemainingRecordTime]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\app\windowclasses.xml
+msgid "[Command]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Remaining Record Time"
+msgstr ""
+
+#: .\studioapp\skin\devices\transport.xml
+msgid "[TransportPanel]Remaining Record Time (Low)"
+msgstr ""
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationForm]Remember my credentials"
@@ -4128,8 +4183,16 @@ msgid "[AudioEventFXProperties]Render"
 msgstr "Wygeneruj"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Render All Channels"
+msgstr ""
+
+#: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
 msgstr "Wygeneruj inserty"
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
+msgstr ""
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4196,8 +4259,7 @@ msgid "[ProjectTransport]Rewind"
 msgstr "Przewiń do tyłu"
 
 #: .\studioapp\skin\project\project.xml
-msgid ""
-"[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
 msgstr "Średni RMS prawego kanału (3 sekundowa integracja)"
 
 #: .\studioapp\skin\project\project.xml
@@ -4243,6 +4305,10 @@ msgstr "Częstotliwość"
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectSetup]Sample Rate"
 msgstr "Częstotliwość"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Sample rate used for playback and record"
+msgstr ""
 
 #: .\studioapp\skin\engine\audiocodec.xml
 msgid "[PCMEncoderOption]Samplerate:"
@@ -4854,12 +4920,16 @@ msgstr "Autor tekstu:"
 msgid "[TrackControls]Songwriter:"
 msgstr "Autor tekstu:"
 
+#: .\studioapp\skin\project\analyser.xml
+msgid "[Analyser]Sono"
+msgstr ""
+
 #: .\studioapp\skin\ccl\browser.xml
-msgid "[PlugInBrowserHeader]Sort by:"
+msgid "[PlugInBrowserHeader]Sort by: "
 msgstr "Sortuj w/g:"
 
 #: .\studioapp\skin\engine\mediapool.xml
-msgid "[MediaPoolHeader]Sort by:"
+msgid "[MediaPoolHeader]Sort by: "
 msgstr "Sortuj w/g:"
 
 #: .\studioapp\skin\ccl\browser.xml
@@ -4888,6 +4958,10 @@ msgstr "Źródła"
 
 #: .\studioapp\skin\devices\audiochannel.xml
 msgid "[AudioEffect]Sources"
+msgstr "Źródła"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Sources"
 msgstr "Źródła"
 
 #: .\studioapp\skin\ccl\installer.xml
@@ -5049,9 +5123,29 @@ msgstr "Rozciągnij obiekty"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "Usuń ciszę"
 
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Styles"
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
+msgstr ""
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Support retransformation to instrument track."
+msgstr ""
+
 #: .\studioapp\skin\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "Swing"
+
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgstr ""
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgstr ""
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[MidiMonitor]System Common"
@@ -5069,14 +5163,6 @@ msgstr "System Realtime"
 msgid "[AudioEventInserts]Tail"
 msgstr "Ogon"
 
-#: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Tail"
-msgstr "Ogon"
-
-#: .\studioapp\skin\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Tail"
-msgstr "Ogon"
-
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Tap Tempo"
 msgstr "Nabij tempo"
@@ -5087,6 +5173,10 @@ msgstr "Tempo"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Tempo"
+msgstr "Tempo"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Tempo"
 msgstr "Tempo"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
@@ -5106,22 +5196,20 @@ msgid "[BurnerSelectDialog]Test Write"
 msgstr "Test zapisu"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac "
-"App Store."
+msgid "[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "Dziękujemy za zakupienie $APPNAME poprzez Mac App Store."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App "
-"Store."
+msgid "[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "zakupienie $APPNAME poprzez Mac App Store."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.AppStorePage]Thank you for using the free version of "
-"$APPNAME from the Mac App Store."
+msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Dziękujemy za użycie darmowej wersji $APPNAME z Mac App Store."
+
+#: .\studioapp\skin\app\homepage.xml
+msgid "[HomePage]There is a new version of $APPNAME available."
+msgstr ""
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]Third Party"
@@ -5154,6 +5242,10 @@ msgstr "Wyświetl czas"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[BigTime]Time Display"
 msgstr "Wyświetl czas"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]Time Signature"
+msgstr ""
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Time Zoom"
@@ -5220,30 +5312,20 @@ msgid "[SongMetaInfoOption]Title"
 msgstr "Tytuł"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Title"
+msgid "[SongPopup.Info]Title"
 msgstr "Tytuł"
 
 #: .\studioapp\skin\app\melodyne.xml
-msgid ""
-"[MelodynePlaceholder]To activate this capability please install Melodyne."
+msgid "[MelodynePlaceholder]To activate this capability please install Melodyne."
 msgstr "Aby aktywować te możliwości, proszę zainstalować Melodyne."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationPage]To authorize this computer for the use of "
-"$APPNAME, please take the following steps:"
-msgstr ""
-"Aby autoryzować ten komputer do używania $APPNAME, to powinieneś wykonać "
-"następujące kroki:"
+msgid "[UserLicenseWizard.ActivationPage]To authorize this computer for the use of $APPNAME, please take the following steps:"
+msgstr "Aby autoryzować ten komputer do używania $APPNAME, to powinieneś wykonać następujące kroki:"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AuthorizationHandlerError]To use this function a $APPCOMPANY user account "
-"is required. Please activate $APPNAME from the $APPNAME Activation menu "
-"first."
-msgstr ""
-"Aby używać tej funkcji musisz mieć konto użytkownika $APPCOMPANY. Aktywuj "
-"najpierw $APPNAME poprzez menu $APPNAME."
+msgid "[AuthorizationHandlerError]To use this function a $APPCOMPANY user account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
+msgstr "Aby używać tej funkcji musisz mieć konto użytkownika $APPCOMPANY. Aktywuj najpierw $APPNAME poprzez menu $APPNAME."
 
 #: .\studioapp\skin\app\options.xml
 msgid "[EditingOption]Tools"
@@ -5300,6 +5382,10 @@ msgstr "Numer ścieżki"
 
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[ChannelSelector]Tracks"
+msgstr "Ścieżki"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Tracks"
 msgstr "Ścieżki"
 
 #: .\studioapp\skin\project\audiofile.xml
@@ -5410,6 +5496,10 @@ msgstr "Rozgrupuj"
 msgid "[ExtensionManager]Uninstall"
 msgstr "Odinstaluj"
 
+#: .\studioapp\skin\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
+msgstr ""
+
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectToolbar]Update"
 msgstr "Aktualizuj"
@@ -5421,6 +5511,10 @@ msgstr "Zaktualizuj pliki masteringu"
 #: .\studioapp\skin\project\project.xml
 msgid "[SongUpdater]Update Mastering Files"
 msgstr "Zaktualizuj pliki masteringu"
+
+#: .\studioapp\skin\app\homepage.xml
+msgid "[HomePage]Update Now"
+msgstr "Zaktualizuj"
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[UpdateDialog]Update Now"
@@ -5463,8 +5557,7 @@ msgid "[AudioEngineOption]Use cache for timestretched audio files"
 msgstr "Użyj pamięci podręcznej dla rozciąganych plików audio"
 
 #: .\studioapp\skin\app\options.xml
-msgid ""
-"[AudioEngineOption]Use dithering for audio devices and audio file export"
+msgid "[AudioEngineOption]Use dithering for audio devices and audio file export"
 msgstr "Użyj ditheringu dla urządzeń audio i eksportu plików audio"
 
 #: .\studioapp\skin\app\options.xml
@@ -5476,65 +5569,40 @@ msgid "[AudioEngineOption]Use realtime processing to update mastering files"
 msgstr "Aktualizuj pliki masteringu w czasie rzeczywistym"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.AppStorePage]Use this if you already have a user account "
-"and your computer is connected to the Internet."
-msgstr ""
-"Użyj tego, jeżeli już masz konto użytkownika, a Twój komputer jest "
-"podłączony do internetu."
+msgid "[UserLicenseWizard.AppStorePage]Use this if you already have a user account and your computer is connected to the Internet."
+msgstr "Użyj tego, jeżeli już masz konto użytkownika, a Twój komputer jest podłączony do internetu."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.ActivationPage]Use this if you already have a user "
-"account and your computer is connected to the Internet."
-msgstr ""
-"Użyj tego, jeżeli już masz konto użytkownika, a Twój komputer jest "
-"podłączony do internetu."
+msgid "[UserLicenseWizard.ActivationPage]Use this if you already have a user account and your computer is connected to the Internet."
+msgstr "Użyj tego, jeżeli już masz konto użytkownika, a Twój komputer jest podłączony do internetu."
 
 #: .\studioapp\skin\ccl\installer.xml
-msgid ""
-"[InstallWizard.StartPage]Use this if you purchased a boxed version of "
-"$APPNAME or if the content files are available in a local folder."
-msgstr ""
-"Użyj tego, jeżeli kupiłeś wersję pudełkową $APPNAME lub pliki zawartości są "
-"dostępne w folderze lokalnym."
+msgid "[InstallWizard.StartPage]Use this if you purchased a boxed version of $APPNAME or if the content files are available in a local folder."
+msgstr "Użyj tego, jeżeli kupiłeś wersję pudełkową $APPNAME lub pliki zawartości są dostępne w folderze lokalnym."
 
 #: .\studioapp\skin\ccl\installer.xml
-msgid ""
-"[InstallWizard.StartPage]Use this if you purchased an online version of "
-"$APPNAME. A high speed Internet connection is required."
-msgstr ""
-"Użyj tego, jeżeli kupiłeś wersję online $APPNAME. Wymagane jest szybkie "
-"połączenie z Internetem."
+msgid "[InstallWizard.StartPage]Use this if you purchased an online version of $APPNAME. A high speed Internet connection is required."
+msgstr "Użyj tego, jeżeli kupiłeś wersję online $APPNAME. Wymagane jest szybkie połączenie z Internetem."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.VersionPage]Use this if you want to run the free version "
-"of $APPNAME with a limited set of features. No further registration is "
-"required."
-msgstr ""
-"Użyj tego, jeżeli chcesz uruchomić ograniczoną funkcjonalnie darmową wersję "
-"$APPNAME. Nie są wymagane dalsze kroki rejestracji."
+msgid "[UserLicenseWizard.VersionPage]Use this if you want to run the free version of $APPNAME with a limited set of features. No further registration is required."
+msgstr "Użyj tego, jeżeli chcesz uruchomić ograniczoną funkcjonalnie darmową wersję $APPNAME. Nie są wymagane dalsze kroki rejestracji."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.VersionPage]Use this if you want to try the full version "
-"of $APPNAME for a time limited demo period. A $APPCOMPANY user account is "
-"required."
-msgstr ""
-"Użyj tego, jeżeli chcesz wypróbować pełną wersję $APPNAME w ograniczonym "
-"czasowo okresie próbnym. Wymagane jest posiadanie konta użytkownika "
-"$APPCOMPANY."
+msgid "[UserLicenseWizard.VersionPage]Use this if you want to try the full version of $APPNAME for a time limited demo period. A $APPCOMPANY user account is required."
+msgstr "Użyj tego, jeżeli chcesz wypróbować pełną wersję $APPNAME w ograniczonym czasowo okresie próbnym. Wymagane jest posiadanie konta użytkownika $APPCOMPANY."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.VersionPage]Use this to activate or upgrade your "
-"purchased version of $APPNAME."
+msgid "[UserLicenseWizard.VersionPage]Use this to activate or upgrade your purchased version of $APPNAME."
 msgstr "Użyj tego, aby aktywować lub zaktualizować zakupioną wersję $APPNAME."
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[PerformanceMonitor]Used"
 msgstr "Użycie"
+
+#: .\studioapp\skin\engine\songdialogs.xml
+msgid "[NewSong]User"
+msgstr ""
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
@@ -5555,6 +5623,10 @@ msgstr "Użytkownik"
 #: .\studioapp\skin\app\licenser.xml
 msgid "[CredentialsUIPrompt]Username"
 msgstr "Użytkownik"
+
+#: .\studioapp\skin\engine\eventinspector.xml
+msgid "[EnvelopePointMiniProperties.Table]Value"
+msgstr "Wartość"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AutomationTrackInspector]Value"
@@ -5618,7 +5690,7 @@ msgid "[Command]View"
 msgstr "Widok"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Visit Artist Website"
+msgid "[SongPopup.Info]Visit Artist Website"
 msgstr "Odwiedź stronę artysty"
 
 #: .\studioapp\skin\engine\mediapool.xml
@@ -5686,6 +5758,10 @@ msgstr "Głośność: @value[]"
 msgid "[ProjectTrackInspector]Volume: @value[]"
 msgstr "Głośność: @value[]"
 
+#: .\studioapp\skin\project\analyser.xml
+msgid "[Analyser]WF"
+msgstr ""
+
 #: .\studioapp\skin\app\about.xml
 msgid "[Command]Website"
 msgstr "Strona internetowa"
@@ -5699,9 +5775,7 @@ msgid "[SongMetaInfoOption]Website"
 msgstr "Strona web"
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseWizard.VersionPage]Welcome to $APPNAME! Please select the "
-"version of $APPNAME you want to use."
+msgid "[UserLicenseWizard.VersionPage]Welcome to $APPNAME! Please select the version of $APPNAME you want to use."
 msgstr "Witamy w $APPNAME! Wybierz wersję $APPNAME, którą chcesz używać."
 
 #: .\studioapp\skin\app\options.xml
@@ -5709,14 +5783,8 @@ msgid "[StartupOption]When $APPNAME starts"
 msgstr "Po uruchomieniu $APPNAME"
 
 #: .\studioapp\skin\app\melodyne.xml
-msgid ""
-"[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, "
-"and other properties of single notes in your audio material, from tiny "
-"intonation correction up to complete reworking."
-msgstr ""
-"Z Melodyne możesz modyfikować wysokość, timing, głośność i inne właściwości "
-"pojedynczych nut w Twoim materiale audio, od drobnej korekty intonacji po "
-"kompletne przetworzenie materiału."
+msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."
+msgstr "Z Melodyne możesz modyfikować wysokość, timing, głośność i inne właściwości pojedynczych nut w Twoim materiale audio, od drobnej korekty intonacji po kompletne przetworzenie materiału."
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[HomePage]X"
@@ -5747,7 +5815,7 @@ msgid "[SongMetaInfoOption]Year"
 msgstr "Rok"
 
 #: .\studioapp\skin\engine\songdialogs.xml
-msgid "[SongPopup]Year"
+msgid "[SongPopup.Info]Year"
 msgstr "Rok"
 
 #: .\studioapp\skin\project\project.xml
@@ -5767,35 +5835,28 @@ msgid "[TrackControls]Year:"
 msgstr "Rok:"
 
 #: .\studioapp\skin\ccl\common.xml
-msgid ""
-"[ContentLocationSelector]You can change this location later in the "
-"Preference window."
+msgid "[TaskListDialog]Yes"
+msgstr "Tak"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[EventListDialog]Yes"
+msgstr "Tak"
+
+#: .\studioapp\skin\ccl\common.xml
+msgid "[ContentLocationSelector]You can change this location later in the Preference window."
 msgstr "Możesz później zmienić tą lokalizację w oknie preferencji."
 
 #: .\studioapp\skin\ccl\installer.xml
-msgid ""
-"[InstallWizard.StartPage]You can choose to skip this step and install the "
-"content any time later from the $APPNAME menu."
-msgstr ""
-"Możesz pominąć ten krok i zainstalować później zawartość z menu $APPNAME."
+msgid "[InstallWizard.StartPage]You can choose to skip this step and install the content any time later from the $APPNAME menu."
+msgstr "Możesz pominąć ten krok i zainstalować później zawartość z menu $APPNAME."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME "
-"menu to install the additional content."
-msgstr ""
-"Możesz wybrać pozycję Instalacja $APPNAME z menu $APPNAME, aby zainstalować "
-"dodatkową zawartość."
+msgid "[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME menu to install the additional content."
+msgstr "Możesz wybrać pozycję Instalacja $APPNAME z menu $APPNAME, aby zainstalować dodatkową zawartość."
 
 #: .\studioapp\skin\app\licenser.xml
-msgid ""
-"[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using "
-"$APPNAME and made some great music. If you would like to purchase a copy of "
-"$APPNAME now, please visit our shop or a local dealer."
-msgstr ""
-"Twój okres próbny zakończył się. Mamy nadzieję, że byłeś zadowolony z "
-"$APPNAME i stworzyłeś z nim świetną muzykę. Jeżeli chcesz zakupić $APPNAME, "
-"odwiedź nasz sklep lub lokalnego dilera."
+msgid "[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using $APPNAME and made some great music. If you would like to purchase a copy of $APPNAME now, please visit our shop or a local dealer."
+msgstr "Twój okres próbny zakończył się. Mamy nadzieję, że byłeś zadowolony z $APPNAME i stworzyłeś z nim świetną muzykę. Jeżeli chcesz zakupić $APPNAME, odwiedź nasz sklep lub lokalnego dilera."
 
 #: .\studioapp\skin\devices\audiochannel.small.xml
 msgid "[AudioTrack.Small]Zero Latency Monitoring"
@@ -5828,3 +5889,4 @@ msgstr "Absolutny RMS prawego kanału [dB]"
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]mix"
 msgstr "miks"
+

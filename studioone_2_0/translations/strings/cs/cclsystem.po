@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
 "Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: .\ccl\system\localization\localeinfo.cpp
 msgid "[Locales]%(1) days ago"
@@ -56,6 +56,10 @@ msgstr "Soubor HTML"
 #: .\ccl\system\nativefilesystem.cpp
 msgid "[FileErrors]Invalid Argument"
 msgstr "Neplatný argument"
+
+#: .\ccl\system\fileutilities.cpp
+msgid "[FileType]JSON File"
+msgstr ""
 
 #: .\ccl\system\fileutilities.cpp
 msgid "[FileType]Java Properties File"
@@ -176,4 +180,3 @@ msgstr "minut"
 #: .\ccl\system\localization\localeinfo.cpp
 msgid "[Locales]sec"
 msgstr "vteřiny"
-

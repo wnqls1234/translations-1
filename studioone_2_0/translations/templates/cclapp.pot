@@ -19,7 +19,11 @@ msgid "[PresetBrowser](no presets)"
 msgstr ""
 
 #: .\ccl\app\documents\autosaver.cpp
-msgid "[Autosave]A backup that is newer than the original file has been found.\nDo you want to open the backup? The original file will be kept as a version then."
+msgid "[Autosave]A backup of the original file has been found."
+msgstr ""
+
+#: .\ccl\app\documents\autosaver.cpp
+msgid "[Autosave]A backup that is newer than the original file has been found."
 msgstr ""
 
 #: .\ccl\app\fileinfo\filerenamer.cpp
@@ -264,19 +268,19 @@ msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action 
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to copy these files to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to copy these files to \"%(1)\"?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to copy this file to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to copy this file to \"%(1)\"?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to copy this folder to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to copy this folder to \"%(1)\"?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to delete these files permanently from disk?\n\n"
+msgid "[FileOperations]Do you want to delete these files permanently from disk?"
 msgstr ""
 
 #: .\ccl\app\presets\presetnode.cpp
@@ -284,11 +288,11 @@ msgid "[Presets]Do you want to delete these presets?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to delete this file permanently from disk?\n"
+msgid "[FileOperations]Do you want to delete this file permanently from disk?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to delete this folder permanently from disk?\n"
+msgid "[FileOperations]Do you want to delete this folder permanently from disk?"
 msgstr ""
 
 #: .\ccl\app\presets\presetnode.cpp
@@ -300,15 +304,19 @@ msgid "[Autosave]Do you want to keep the backup as a version?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to move these files to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to move these files to \"%(1)\"?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to move this file to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to move this file to \"%(1)\"?"
 msgstr ""
 
 #: .\ccl\app\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to move this folder to \"%(1)\"?\n"
+msgid "[FileOperations]Do you want to move this folder to \"%(1)\"?"
+msgstr ""
+
+#: .\ccl\app\documents\autosaver.cpp
+msgid "[Autosave]Do you want to open the backup? The original file will be kept as a version then."
 msgstr ""
 
 #: .\ccl\app\documents\documentmanager.cpp
@@ -422,7 +430,7 @@ msgstr ""
 msgid "[Command]File"
 msgstr ""
 
-#: .\ccl\app\fileinfo\fileoperations.cpp
+#: .\ccl\app\etc\batchoperation.cpp
 msgid "[FileOperations]File %(1) of %(2)"
 msgstr ""
 
@@ -624,6 +632,10 @@ msgstr ""
 msgid "[Documents]No versions found."
 msgstr ""
 
+#: .\ccl\app\browser\pluginselector.cpp
+msgid "[PlugInSelector]None"
+msgstr ""
+
 #: .\ccl\app\presets\presettrader.cpp
 msgid "[Presets]One preset file was imported."
 msgstr ""
@@ -674,6 +686,14 @@ msgstr ""
 
 #: .\ccl\app\application.cpp
 msgid "[Application]Plug-In folder not found at:\n"
+msgstr ""
+
+#: .\ccl\app\presets\presetfile.cpp
+msgid "[FileType]Preset"
+msgstr ""
+
+#: .\ccl\app\presets\presetcollection.cpp
+msgid "[FileType]Preset Collection"
 msgstr ""
 
 #: .\ccl\app\presets\presetcomponent.cpp

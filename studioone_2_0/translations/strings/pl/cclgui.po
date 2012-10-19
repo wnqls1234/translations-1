@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,6 +31,10 @@ msgstr "Backspace"
 #: .\ccl\gui\graphics\imaging\bitmap.cpp
 msgid "[FileType]Bitmap File"
 msgstr "Plik bitmapy"
+
+#: .\ccl\gui\dialogs\alert.cpp
+msgid "[Alert]Cancel"
+msgstr "Anuluj"
 
 #: .\ccl\gui\dialogs\dialogbuilder.cpp
 msgid "[Dialog]Cancel"
@@ -258,12 +261,8 @@ msgid "[FileType]JPEG File"
 msgstr "Plik JPEG"
 
 #: .\ccl\gui\dialogs\commandeditor.cpp
-msgid ""
-"[CommandEditor]Key is already assigned to:\n"
-"%(1)"
-msgstr ""
-"Klawisz jest już przypisany do:\n"
-"%(1)"
+msgid "[CommandEditor]Key is already assigned to:\n%(1)"
+msgstr "Klawisz jest już przypisany do:\n%(1)"
 
 #: .\ccl\gui\commands.cpp
 msgid "[FileType]Keyboard Mapping Scheme"
@@ -308,6 +307,10 @@ msgstr "Nowa grupa"
 #: .\ccl\gui\layout\workspace.cpp
 msgid "[Command]Next Perspective"
 msgstr "Następna perspektywa"
+
+#: .\ccl\gui\dialogs\alert.cpp
+msgid "[Alert]No"
+msgstr "Nie"
 
 #: .\ccl\gui\help\helpmanager.cpp
 msgid "[HelpManager]No compatible PDF Viewer installed!"
@@ -372,6 +375,10 @@ msgstr "NumPad8"
 #: .\ccl\gui\keyevent.cpp
 msgid "[VirtualKey]NumPad9"
 msgstr "NumPad9"
+
+#: .\ccl\gui\dialogs\alert.cpp
+msgid "[Alert]OK"
+msgstr "OK"
 
 #: .\ccl\gui\dialogs\dialogbuilder.cpp
 msgid "[Dialog]OK"
@@ -464,6 +471,10 @@ msgstr "Resetuj wszystkie kolumny"
 #: .\ccl\gui\windows\windowmanager.cpp
 msgid "[Command]Reset Window Positions"
 msgstr "Resetuj pozycje okien"
+
+#: .\ccl\gui\dialogs\alert.cpp
+msgid "[Alert]Retry"
+msgstr "Powtórz"
 
 #: .\ccl\gui\keyevent.cpp
 msgid "[VirtualKey]Return"
@@ -597,8 +608,11 @@ msgstr "Volume Mute"
 msgid "[VirtualKey]Volume Up"
 msgstr "Volume Up"
 
+#: .\ccl\gui\dialogs\alert.cpp
+msgid "[Alert]Yes"
+msgstr "Tak"
+
 #: .\ccl\gui\dialogs\useroptionmodel.cpp
-msgid ""
-"[UserOption]You have made changes to the setup. Do you want to apply the "
-"changes?"
+msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
 msgstr "Dokonałeś zmian w konfiguracji. Czy chcesz zastosować zmiany?"
+

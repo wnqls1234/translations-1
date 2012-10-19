@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -224,8 +223,8 @@ msgid "[Command]Locate Selection End"
 msgstr "Znajdź koniec zaznaczenia"
 
 #: .\timeedit\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values"
-msgstr "Zablokuj wartości"
+msgid "[Events]Lock Values / Time"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
@@ -343,10 +342,6 @@ msgstr "Następny obiekt z zaznaczeniem"
 msgid "[Command]Nudge"
 msgstr "Przesuń"
 
-#: .\timeedit\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Nudge"
-msgstr "Przesuń"
-
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "Przesuń wstecz"
@@ -358,6 +353,22 @@ msgstr "Przesuń o takt"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "Przesuń o takt wstecz"
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Down Fine"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up"
+msgstr ""
+
+#: .\timeedit\base\timeeditcomponent.cpp
+msgid "[Command]Nudge Up Fine"
+msgstr ""
 
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
@@ -410,6 +421,10 @@ msgstr "Kwantyzacja"
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
 msgstr "Kwantyzacja"
+
+#: .\timeedit\quantize\quantizegrid.cpp
+msgid "[FileType]Quantize Settings"
+msgstr ""
 
 #: .\timeedit\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quintole"
@@ -595,6 +610,10 @@ msgstr "Rozciąganie"
 msgid "[Command]Tempo"
 msgstr "Tempo"
 
+#: .\timeedit\envelopes\envelopeedithandler.cpp
+msgid "[Events]Time Locked"
+msgstr ""
+
 #: .\timeedit\base\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"
 msgstr "Linijka czasu"
@@ -682,3 +701,4 @@ msgstr "Powiększ zaznaczenie"
 #: .\timeedit\base\timeeditcomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "Powiększ zaznaczenie w poziomie"
+

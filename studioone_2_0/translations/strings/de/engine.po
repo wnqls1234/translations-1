@@ -86,6 +86,10 @@ msgid "[Engine]Add Bus Channel"
 msgstr "Buskanal hinzufügen"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Event FX"
+msgstr ""
+
+#: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
 msgstr "Effekt in %(1) hinzufügen:"
 
@@ -117,10 +121,6 @@ msgstr "Hinzufügen..."
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "Bereits im Pool:"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]An invalid signal occured during export. Do you want to abort the export?"
-msgstr "Während des Exports wurde ein ungültiges Signal festgestellt. Das Signal war %float(1:2) dB zu laut. Möchten Sie den Export abbrechen?"
-
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "Analysiere..."
@@ -133,7 +133,6 @@ msgstr "Audio Bend anwenden"
 msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
 msgstr "Möchten Sie wirklich alle Anhänge des Clips löschen?\n\nDiese Aktion kann nicht rückgängig gemacht werden."
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
 msgstr "Aufnahme aktivieren"
@@ -216,6 +215,10 @@ msgid "[ActionDescriptions]Change Event Time Format"
 msgstr "Eventzeitformat ändern"
 
 #: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Layers Follow"
+msgstr ""
+
+#: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
 msgstr "Wiedergabemodus ändern"
 
@@ -239,10 +242,6 @@ msgstr "Kanäle"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Parameter anklicken und ziehen"
 
-#: .\engine\song\songrenderer.cpp
-msgid "[SongRenderer]Clipping has occured during export. The signal was %float(1:2) dB over. Do you want to abort the export?"
-msgstr "Während des Exports wurden Übersteuerungen festgestellt. Das Signal war %float(1:2) dB zu laut. Möchten Sie den Export abbrechen?"
-
 #: .\engine\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Automation einfärben"
@@ -255,7 +254,6 @@ msgstr "Event einfärben"
 msgid "[ActionDescriptions]Colorize Events"
 msgstr "Events einfärben"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Console"
 msgstr "Konsole"
@@ -336,12 +334,10 @@ msgstr "Automation erzeugen"
 msgid "[AudioEdit]Create Crossfades"
 msgstr "Crossfades erzeugen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges"
 msgstr "Bereichsauswahl erzeugen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges on Tracks"
 msgstr "Bereichsauswahl auf Spuren erzeugen"
@@ -382,12 +378,7 @@ msgstr "Datei endgültig löschen"
 msgid "[Marker]Delete Marker"
 msgstr "Marker löschen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Delete Time"
-msgstr "Bereich löschen"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Delete Time"
 msgstr "Bereich löschen"
@@ -396,7 +387,6 @@ msgstr "Bereich löschen"
 msgid "[MediaPoolFunctions]Deleting recorded files"
 msgstr "Lösche aufgenommene Dateien"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Deselect All on Tracks"
 msgstr "Auswahl auf Spuren aufheben"
@@ -434,12 +424,20 @@ msgid "[Engine]Do not publish"
 msgstr "Nicht veröffentlichen"
 
 #: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to copy all external files to the Media Folder?"
-msgstr "Möchten Sie alle externen Dateien in den Medienordner kopieren?"
+msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
+msgstr ""
 
 #: .\engine\audio\audiocache.cpp
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "Möchten Sie alle nicht verwendeten temporären Audiodateien im Cache-Ordner löschen?"
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported file?"
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported files?"
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
@@ -457,21 +455,21 @@ msgstr "Möchten Sie alle vorkommenden Ereignisse dieser Clips entfernen?"
 msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
 msgstr "Möchten Sie alle vorkommenden Ereignisse dieses Clips entfernen?"
 
-#: .\engine\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to remove all unused files?"
-msgstr "Möchten Sie alle nicht verwendeten Dateien entfernen?"
-
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove these parameters from all parts?"
 msgstr "Möchten Sie diese Parameter aus allen Parts entfernen?"
+
+#: .\engine\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
+msgstr ""
 
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove this parameter from all parts?"
 msgstr "Möchten Sie diesen Parameter aus allen Parts entfernen?"
 
 #: .\engine\musicediting\synthdraghandler.cpp
-msgid "[SynthDrag]Do you want to replace the instrument %(1)?\n\nClick 'Yes' to replace the instrument or click 'No' to add a new instrument."
-msgstr "Möchten Sie das Instrument %(1) ersetzen?\n\nKlicken Sie 'Ja', um das Instrument zu ersetzen, oder klicken Sie 'Nein', um ein neues Instrument hinzuzufügen."
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
+msgstr "Möchten Sie das Instrument %(1) ersetzen?"
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -489,8 +487,12 @@ msgstr "Download beendet"
 msgid "[Engine]Downloading..."
 msgstr "Lade herunter..."
 
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]Drive full"
+msgstr ""
+
 #: .\engine\audio\audiotrackrecorder.cpp
-msgid "[Record]Dropouts occured during record. The harddrive might not be fast enough. Please consult the operating manual for advice on disc performance."
+msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough. Please consult the operating manual for advice on disc performance."
 msgstr "Während der Aufnahme sind Aussetzer aufgetreten. Die Festplatte ist möglicherweise nicht schnell genug. Bitte beachten Sie die Informationen zur Festplattenleistung im Handbuch. "
 
 #: .\engine\song\songcontroller.cpp
@@ -517,7 +519,6 @@ msgstr "Ebenen duplizieren"
 msgid "[ActionDescriptions]Duplicate Track"
 msgstr "Spur duplizieren"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Track"
 msgstr "Spur duplizieren"
@@ -530,7 +531,6 @@ msgstr "Spur mit Events duplizieren"
 msgid "[ActionDescriptions]Duplicate Tracks"
 msgstr "Spuren duplizieren"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Tracks"
 msgstr "Spuren duplizieren"
@@ -544,7 +544,6 @@ msgid "[Command]Duplicate with Events"
 msgstr "Duplizieren mit Events"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Edit"
 msgstr "Bearbeiten"
@@ -709,7 +708,6 @@ msgstr "Erste Spur erweitern"
 msgid "[ActionDescriptions]Fit Timeline to Contents"
 msgstr "Zeitachse an Inhalte anpassen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Fit Timeline to Contents"
 msgstr "Zeitachse an Inhalte anpassen"
@@ -870,12 +868,7 @@ msgstr "Einfügen mit Namen"
 msgid "[Events]Insert Points"
 msgstr "Punkte einfügen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
-#: .\engine\editing\tracklistcomponent.cpp
-msgid "[Command]Insert Silence"
-msgstr "Stille einfügen"
-
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
+#: .\engine\editing\insertsilencetask.cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Insert Silence"
 msgstr "Stille einfügen"
@@ -888,6 +881,10 @@ msgstr "Spur einfügen"
 msgid "[Edit]Insert Tracks"
 msgstr "Spuren einfügen"
 
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Insert on Same Track"
+msgstr ""
+
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
 msgstr "Instrumenteneingang folgt Auswahl"
@@ -899,6 +896,10 @@ msgstr "Instrumentenparts"
 #: .\engine\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Instrument: %(1)"
 msgstr "Instrument: %(1)"
+
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Keep"
+msgstr ""
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Large"
@@ -1013,15 +1014,7 @@ msgid "[RecordMode]Loop Record Note Erase"
 msgstr "Loopaufnahme Noten löschen"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Erase"
-msgstr "Loopaufnahme Noten löschen"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "Loopaufnahme Noten wiederholen"
-
-#: .\engine\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Loop Record Note Repeat"
 msgstr "Loopaufnahme Noten wiederholen"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1031,6 +1024,10 @@ msgstr "Loopaufnahme Takes"
 #: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Takes"
 msgstr "Loopaufnahme Takes"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]MIDI"
+msgstr ""
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
 #: .\engine\automationediting\automationtracklistcomponent.cpp
@@ -1121,7 +1118,6 @@ msgstr "Video-Offset bearbeiten"
 msgid "[Engine:AudioActions]Modify Volume Curve"
 msgstr "Lautstärke bearbeiten"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Monitor"
 msgstr "Mithören"
@@ -1178,12 +1174,10 @@ msgstr "Spur aus Ordner verschieben"
 msgid "[ActionDescriptions]Move Tracks"
 msgstr "Spuren verschieben"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Move to Origin"
 msgstr "Zum Dateiursprung verschieben"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Move to Origin"
 msgstr "Zum Ausgangspunkt verschieben"
@@ -1192,7 +1186,6 @@ msgstr "Zum Ausgangspunkt verschieben"
 msgid "[FileType]Musicloop"
 msgstr "Musicloop"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Mute"
 msgstr "Stummschalten"
@@ -1305,6 +1298,14 @@ msgstr "Nicht aufgenommen"
 msgid "[TempoFormatter]Not Set"
 msgstr "keines"
 
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Erase"
+msgstr "Noten löschen"
+
+#: .\engine\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Repeat"
+msgstr "Noten wiederholen"
+
 #: .\engine\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "Nichts zu exportieren. Bitte wählen Sie eine oder mehrere Spuren aus und setzen Sie Loopbereich oder Marker."
@@ -1360,6 +1361,10 @@ msgstr "Pfad"
 #: .\engine\audioediting\audioeditor.cpp
 #: .\engine\audioediting\audioscaleview.cpp
 msgid "[AudioScale]Percent"
+msgstr "Prozent"
+
+#: .\engine\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Prozent"
 
 #: .\engine\song\songdocument.cpp
@@ -1462,8 +1467,8 @@ msgstr "Marker 9 aufrufen"
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
 msgstr "Automation neu verbinden"
 
-#: .\engine\audio\audiotrackrecorder.cpp .\engine\music\musictrackrecorder.cpp
-msgid "[Record]Record"
+#: .\engine\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Record"
 msgstr "Aufnahme"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
@@ -1499,6 +1504,7 @@ msgid "[Command]Record Takes to Layers"
 msgstr "Takes auf Ebenen aufnehmen"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
+#: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Remove"
 msgstr "Entfernen"
 
@@ -1562,13 +1568,13 @@ msgstr "Spur und Instrument entfernen"
 msgid "[Command]Remove Track and Instrument"
 msgstr "Spur und Instrument entfernen"
 
-#: .\engine\pool\mediapoolbrowser.cpp
-msgid "[PoolBrowser]Remove Unused Files"
-msgstr "Nicht verwendete Dateien entfernen"
-
 #: .\engine\pool\mediapoolcomponent.cpp
 msgid "[Command]Remove Unused Files"
 msgstr "Nicht verwendete Dateien entfernen"
+
+#: .\engine\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files..."
+msgstr "Nicht verwendete Dateien entfernen..."
 
 #: .\engine\video\videofunctions.cpp
 msgid "[Video]Remove Video"
@@ -1638,6 +1644,15 @@ msgstr "Berechne Dateien"
 msgid "[MusicRenderer]Rendering Note Events"
 msgstr "Verarbeite Noten"
 
+#: .\engine\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Replace"
+msgstr "Ersetzen"
+
+#: .\engine\editing\dragoneventhandler.cpp
+#: .\engine\editing\eventdraghandler.cpp
+msgid "[Edit]Replace Event"
+msgstr ""
+
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset All"
 msgstr "Alles zurücksetzen"
@@ -1698,7 +1713,6 @@ msgstr "Sekunden"
 msgid "[Track]Seconds"
 msgstr "Sekunden"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "Alles auf Spuren auswählen"
@@ -1788,7 +1802,6 @@ msgstr "Automation ein-/ausblenden"
 msgid "[Engine:AudioBendActions]Show Bend Marker"
 msgstr "Bend Marker zeigen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "Kanaleditor öffnen"
@@ -1798,7 +1811,6 @@ msgstr "Kanaleditor öffnen"
 msgid "[Command]Show Device"
 msgstr "Gerät anzeigen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Envelopes"
 msgstr "Automationskurven anzeigen"
@@ -1819,7 +1831,6 @@ msgstr "Medienordner im Finder zeigen"
 msgid "[Track]Show in Console"
 msgstr "In Konsole anzeigen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show in Console"
 msgstr "In Konsole anzeigen"
@@ -1856,7 +1867,6 @@ msgstr "An Event Hotspots ausrichten"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "An Events ausrichten"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "Solo"
@@ -1902,22 +1912,18 @@ msgstr "Event teilen"
 msgid "[ActionDescriptions]Split Events"
 msgstr "Events teilen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
 msgstr "An Loopgrenzen teilen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Loop"
 msgstr "An Loopgrenzen teilen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Range"
 msgstr "An Bereichsgrenzen teilen"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Range"
 msgstr "An Bereichsgrenzen teilen"
@@ -1966,6 +1972,18 @@ msgstr "Take #%(1:3) (%(2))"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Länge: %(2)"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
+msgstr ""
+
+#: .\engine\song\songrenderer.cpp
+msgid "[SongRenderer]The following problems occured during export:"
+msgstr ""
+
 #: .\engine\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "Dieses Dateiformat wird nicht unterstützt."
@@ -1985,6 +2003,10 @@ msgstr "Der Song wird zuerst gespeichert.\n"
 #: .\engine\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
 msgstr "Die Spur \"%(1)\" ist nicht mit einem Softwareinstrument verbunden."
+
+#: .\engine\music\musictrackinfo.cpp
+msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
+msgstr ""
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]There are no external files."
@@ -2032,7 +2054,6 @@ msgstr "Touch"
 #: .\engine\editing\foldertrackcomponent.cpp
 #: .\engine\editing\monitorfollower.cpp .\engine\editing\trackcontroller.cpp
 #: .\engine\editing\tracklayercomponent.cpp
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 #: .\engine\editing\tracklistfilter.cpp .\engine\song\songcontroller.cpp
 msgid "[Command]Track"
@@ -2115,7 +2136,6 @@ msgstr "Events transponieren"
 msgid "[PoolBrowser]Type"
 msgstr "Typ"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Undo"
 msgstr "Rückgängig"
@@ -2200,8 +2220,7 @@ msgstr "Doppelte Größe"
 msgid "[Command]Video Size Half"
 msgstr "Halbe Größe"
 
-#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\trackeditor.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]View"
 msgstr "Ansicht"
 
@@ -2225,12 +2244,10 @@ msgstr "Sehr groß"
 msgid "[SongMaster]Yes"
 msgstr "Ja"
 
-#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent - Copy
-#: (2).cpp .\engine\editing\tracklistcomponent.cpp
+#: .\engine\editing\tracklist.cpp .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
 msgstr "Zoom"
 
-#: .\engine\editing\tracklistcomponent - Copy (2).cpp
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom Selected Track"
 msgstr "Ansicht an ausgewählte Spur anpassen"

@@ -9,8 +9,14 @@ msgid "[Localizer]All"
 msgstr "Todo"
 
 #: .\localizerapp\source\localizer.editor.cpp
-msgid "[Localizer]Are you sure you want to remove all orphaned translations?\n\nThis action cannot be undone."
-msgstr "Está seguro que desea eliminar todas las traducciones huérfanas?\n\nEsta acción no puede deshacerse."
+msgid ""
+"[Localizer]Are you sure you want to remove all orphaned translations?\n"
+"\n"
+"This action cannot be undone."
+msgstr ""
+"Está seguro que desea eliminar todas las traducciones huérfanas?\n"
+"\n"
+"Esta acción no puede deshacerse."
 
 #: .\localizerapp\source\localizer.manager.cpp
 msgid "[Localizer]Are you sure you want to revert all changes?"
@@ -99,6 +105,10 @@ msgstr "Filtrar por archivo"
 msgid "[Localizer]Filter by File"
 msgstr "Filtrar por archivo"
 
+#: .\localizerapp\source\localizer.manager.cpp
+msgid "[Command]Import"
+msgstr "Importar"
+
 #: .\localizerapp\source\localizer.editor.filelist.cpp
 msgid "[Localizer]Items"
 msgstr "Items"
@@ -106,6 +116,10 @@ msgstr "Items"
 #: .\localizerapp\source\languagepackbuilder.cpp
 msgid "[Localizer]Language Build File"
 msgstr "Archivo de construcción de idioma"
+
+#: .\localizerapp\source\localizer.po.cpp
+msgid "[FileType]MO File"
+msgstr ""
 
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Command]Navigation"
@@ -220,7 +234,10 @@ msgstr "Deshacer"
 msgid "[Localizer]Untranslated"
 msgstr "No traducido"
 
+#: .\localizerapp\source\localizer.manager.cpp
+msgid "[Command]Update"
+msgstr "Actualizar"
+
 #: .\localizerapp\source\localizer.editor.cpp
 msgid "[Command]View"
 msgstr "Ver"
-

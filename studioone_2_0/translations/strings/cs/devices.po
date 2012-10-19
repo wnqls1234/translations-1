@@ -3,11 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]%(1) samples"
@@ -89,6 +84,10 @@ msgstr "Všechny"
 msgid "[MusicDevices]All Inputs"
 msgstr "Všechny vstupy"
 
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr ""
+
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Opravdu chcete přesunout tyto kanály do koše?"
@@ -124,6 +123,10 @@ msgstr "Zvuk"
 #: .\devices\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "Zvukové kanály"
+
+#: .\devices\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
+msgstr ""
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -169,6 +172,7 @@ msgstr "Vystoupit ven"
 msgid "[AudioMixer]Bus"
 msgstr "Sběrnice"
 
+#: .\devices\audiomixer\channels\audiogroupchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "Sběrnice"
@@ -208,6 +212,10 @@ msgstr "Hod."
 #: .\devices\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "Metronom"
+
+#: .\devices\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgstr ""
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -308,6 +316,10 @@ msgstr "Externí zařízení"
 msgid "[SpectrumMeter]FFT"
 msgstr "FFT"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]FFT Curve"
+msgstr ""
+
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "Efekt"
@@ -331,6 +343,11 @@ msgstr "Dopředu"
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
 msgstr "Takt dopředu"
+
+#: .\devices\audiometer\sonopainter.cpp
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Freq"
+msgstr ""
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
@@ -412,12 +429,13 @@ msgstr "Nástroj"
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "Nástrojové kanály"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Instruments"
-msgstr "Nástroje"
-
+#: .\devices\audiomixer\channels\audiosynthchannel.cpp
 #: .\devices\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
+msgstr "Nástroje"
+
+#: .\devices\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
 msgstr "Nástroje"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
@@ -439,6 +457,10 @@ msgstr "Západka"
 #: .\devices\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "Latence"
+
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Level"
+msgstr ""
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -548,6 +570,10 @@ msgstr "Žádný"
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "Nepřipojeno"
 
+#: .\devices\audiometer\spectrumpainter.cpp
+msgid "[SpectrumDisplay]Note"
+msgstr ""
+
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
 msgstr "Oktáva"
@@ -642,10 +668,6 @@ msgstr "Poslední parametry"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Record"
-msgstr "Záznam"
-
-#: .\devices\transport\transportscheduler.cpp
-msgid "[Transport]Record"
 msgstr "Záznam"
 
 #: .\devices\mixer\recordchannel.cpp
@@ -840,6 +862,10 @@ msgstr "Zobrazit stopu"
 msgid "[MixerConsole]Show in Console"
 msgstr "Zobrazit v konzoli"
 
+#: .\devices\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr ""
+
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "Jednoduché (32 Bit)"
@@ -855,6 +881,10 @@ msgstr "Malé"
 #: .\devices\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Některé kanály jsou ještě používány! Přejete si je přesto odebrat?"
+
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Sonogram"
+msgstr ""
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -931,6 +961,10 @@ msgstr "Zařízení nelze nyní odebrat!"
 #: .\devices\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
 msgstr "Tento port je již používán. Připojení většího počtu zařízení ke stejnému portu může způsobit kopírovaní přenášených MIDI událostí."
+
+#: .\devices\audiometer\sonopainter.cpp
+msgid "[SpectrumDisplay]Time"
+msgstr "Čas"
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1017,17 +1051,15 @@ msgstr "Zobrazit"
 msgid "[AudioChannel]Volume"
 msgstr "Hlasitost"
 
+#: .\devices\audiometer\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Waterfall"
+msgstr ""
+
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Zápis"
 
 #: .\devices\music\musicdevicemanager.cpp
-msgid ""
-"[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, které dosud nebylo připojeno.\n"
-"\n"
-"Přejete si nyní připojit toto externí zařízení?"
+msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, které dosud nebylo připojeno.\n\nPřejete si nyní připojit toto externí zařízení?"
 
