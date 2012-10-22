@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\engine\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
@@ -38,7 +39,7 @@ msgstr "(pozostaw partię)"
 
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
-msgstr "(kopia zależna)"
+msgstr "(kopia współzależna)"
 
 #: .\engine\pool\locatefilescomponent.cpp
 msgid "[LocateFiles](not used)"
@@ -87,7 +88,7 @@ msgstr "Dodaj kanał szyny"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add Event FX"
-msgstr ""
+msgstr "Dodaj FX obiektu"
 
 #: .\engine\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
@@ -163,7 +164,7 @@ msgstr "Eksportuj audio"
 
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Audio Input follows Selection"
-msgstr "Włącz nagrywanie i monitoring dla wybieranej ścieżki audio"
+msgstr "Włącz automatyczny monitoring nagrywanych ścieżek audio"
 
 #: .\engine\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Parts"
@@ -192,15 +193,15 @@ msgstr "Bity"
 
 #: .\engine\application\musicedit\musicbouncedialog.cpp
 msgid "[MusicBounceDialog]Bounce Instrument Parts"
-msgstr "Skonsoliduj partie instrumentu do audio"
+msgstr "Wygeneruj audio z partii instrumentów"
 
 #: .\engine\application\audioedit\audiobouncetask.cpp
 msgid "[AudioEdit]Bounce Selection"
-msgstr "Skonsoliduj zaznaczenie"
+msgstr "Wygeneruj audio z zaznaczenia"
 
 #: .\engine\application\musicedit\musicbouncetask.cpp
 msgid "[MusicPartEdit]Bounce Selection"
-msgstr "Skonsoliduj zaznaczenie"
+msgstr "Wygeneruj audio z zaznaczenia"
 
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
@@ -216,7 +217,7 @@ msgstr "Zmień format czasu obiektu"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Layers Follow"
-msgstr ""
+msgstr "Edycja wpływa na warstwy"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
@@ -360,7 +361,7 @@ msgstr "Usuń załączniki"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Delete Bend Marker"
-msgstr "Usuń Bend marker"
+msgstr "Usuń marker Audio Bend"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Delete Event"
@@ -425,7 +426,7 @@ msgstr "Nie publikuj"
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
-msgstr ""
+msgstr "Czy chcesz skopiować te zewnętrzne pliki do folderu Media?"
 
 #: .\engine\audio\audiocache.cpp
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
@@ -433,11 +434,11 @@ msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z fold
 
 #: .\engine\song\songrenderer.cpp
 msgid "[SongRenderer]Do you want to delete the exported file?"
-msgstr ""
+msgstr "Czy chcesz usunąć wyeksportowany plik?"
 
 #: .\engine\song\songrenderer.cpp
 msgid "[SongRenderer]Do you want to delete the exported files?"
-msgstr ""
+msgstr "Czy chcesz usunąć wyeksportowane pliki?"
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
@@ -461,7 +462,7 @@ msgstr "Czy chcesz usunąć te parametry z wszystkich partii?"
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
-msgstr ""
+msgstr "Czy chcesz usunąć nieużywane pliki?"
 
 #: .\engine\musicediting\musicenvelopedialog.cpp
 msgid "[Automation]Do you want to remove this parameter from all parts?"
@@ -469,7 +470,7 @@ msgstr "Czy chcesz usunąć ten parametr z wszystkich partii?"
 
 #: .\engine\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
-msgstr ""
+msgstr "Czy chcesz zastąpić instrument %(1)?"
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -489,11 +490,11 @@ msgstr "Pobieranie..."
 
 #: .\engine\audio\recorddiskspaceobserver.cpp
 msgid "[RecordDiskSpaceObserver]Drive full"
-msgstr ""
+msgstr "Pełny dysk"
 
 #: .\engine\audio\audiotrackrecorder.cpp
 msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough. Please consult the operating manual for advice on disc performance."
-msgstr ""
+msgstr "Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku pomocy."
 
 #: .\engine\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -842,11 +843,11 @@ msgstr "Wstaw"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Insert Bend Marker"
-msgstr "Wstaw Bend marker"
+msgstr "Wstaw marker Audio Bend"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
 msgid "[Command]Insert Bend Marker"
-msgstr "Wstaw Bend marker"
+msgstr "Wstaw marker Audio Bend"
 
 #: .\engine\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
@@ -883,11 +884,11 @@ msgstr "Wstaw ścieżki"
 
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit]Insert on Same Track"
-msgstr ""
+msgstr "Wstaw na tej samej ścieżce"
 
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
-msgstr "Włącz nagrywanie i monitoring dla wybieranej ścieżki instrumentu"
+msgstr "Automatyczny monitoring nagrywanych ścieżek instrumentów"
 
 #: .\engine\musicediting\musicparttask.cpp
 msgid "[MusicPartEdit]Instrument Parts"
@@ -899,7 +900,7 @@ msgstr "Instrument: %(1)"
 
 #: .\engine\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Keep"
-msgstr ""
+msgstr "Zachowaj"
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Large"
@@ -1136,7 +1137,7 @@ msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
-msgstr "Przenieś Bend marker"
+msgstr "Przenieś marker Audio Bend"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Event"
@@ -1522,7 +1523,7 @@ msgstr "Usuń automatykę"
 
 #: .\engine\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
-msgstr "Usuń Bend markery"
+msgstr "Usuń markery Audio Bend"
 
 #: .\engine\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Remove Clip from Pool"
@@ -1646,12 +1647,12 @@ msgstr "Generowanie obiektów nut"
 
 #: .\engine\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Replace"
-msgstr "Zastępowanie"
+msgstr "Zastąp"
 
 #: .\engine\editing\dragoneventhandler.cpp
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit]Replace Event"
-msgstr ""
+msgstr "Zastąp obiekt"
 
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset All"
@@ -1659,11 +1660,11 @@ msgstr "Resetuj wszystko"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Reset Bend Marker"
-msgstr "Resetuj Bend marker"
+msgstr "Resetuj marker Audio Bend"
 
 #: .\engine\audioediting\audiobendeditlayer.cpp
 msgid "[Command]Reset Bend Marker"
-msgstr "Resetuj Bend marker"
+msgstr "Resetuj marker Audio Bend"
 
 #: .\engine\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Reset Fade Length"
@@ -1800,7 +1801,7 @@ msgstr "Pokaż / Ukryj automatykę"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Show Bend Marker"
-msgstr "Pokaż Bend marker"
+msgstr "Pokaż markery Audio Bend"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
@@ -1849,7 +1850,7 @@ msgstr "Wycinki"
 
 #: .\engine\pool\mediafilenodes.cpp
 msgid "[MediaFileNode]Slice %(1)"
-msgstr "Wycinki %(1)"
+msgstr "Wycinek %(1)"
 
 #: .\engine\audioediting\audioinspector.cpp
 msgid "[AudioPlayMode]Slices"
@@ -1914,23 +1915,23 @@ msgstr "Podziel obiekty"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
-msgstr "Podziel pętlę"
+msgstr "Podziel przy końcach pętli"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Loop"
-msgstr "Podziel pętlę"
+msgstr "Podziel przy końcach pętli"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Split Range"
-msgstr "Podziel zakres"
+msgstr "Podziel przy końcach zakresu"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Edit]Split Range"
-msgstr "Podziel zakres"
+msgstr "Podziel przy końcach zakresu"
 
 #: .\engine\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Split at Bend Markers"
-msgstr "Podziel przy Bend markerach"
+msgstr "Podziel przy markerach Audio Bend"
 
 #: .\engine\application\musicloop\loopextension.cpp
 msgid "[Browser]Split to Mono Files"
@@ -1974,15 +1975,15 @@ msgstr "Tempo: %(1)  Długość: %(2)"
 
 #: .\engine\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
-msgstr ""
+msgstr "Dysk używany do nagrywania jest pełny."
 
 #: .\engine\audio\recorddiskspaceobserver.cpp
 msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
-msgstr ""
+msgstr "Dysk używany do nagrywania jest pełny."
 
 #: .\engine\song\songrenderer.cpp
 msgid "[SongRenderer]The following problems occured during export:"
-msgstr ""
+msgstr "Podczas eksportu wystąpiły następujące problemy:"
 
 #: .\engine\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
@@ -2006,7 +2007,7 @@ msgstr "Ścieżka \"%(1)\" nie jest połączona z instrumentem programowym."
 
 #: .\engine\music\musictrackinfo.cpp
 msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
-msgstr ""
+msgstr "Ścieżki \"%(1)\" nie są połączone z instrumentem programowym."
 
 #: .\engine\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]There are no external files."
@@ -2110,19 +2111,19 @@ msgstr "Przekształć na ścieżkę instrumentu"
 
 #: .\engine\application\audioedit\audiotracktransformtask.cpp
 msgid "[TrackEdit]Transform to Realtime Audio"
-msgstr "Przekształć na audio w czasie rzeczywistym"
+msgstr "Przekształć na audio bez wygenerowanych efektów"
 
 #: .\engine\application\audioedit\audiotracktransformtask.cpp
 msgid "[Command]Transform to Realtime Audio"
-msgstr "Przekształć na audio w czasie rzeczywistym"
+msgstr "Przekształć na audio bez wygenerowanych efektów"
 
 #: .\engine\application\audioedit\audiotracktransformtask.cpp
 msgid "[TrackEdit]Transform to Rendered Audio"
-msgstr "Przekształć na wygenerowane audio"
+msgstr "Przekształć na audio z wygenerowanymi efektami"
 
 #: .\engine\application\audioedit\audiotracktransformtask.cpp
 msgid "[Command]Transform to Rendered Audio"
-msgstr "Przekształć na wygenerowane audio"
+msgstr "Przekształć na audio z wygenerowanymi efektami"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Transpose Event"

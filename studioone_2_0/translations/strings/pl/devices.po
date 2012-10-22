@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]%(1) samples"
@@ -86,7 +87,7 @@ msgstr "Wszystkie wejścia"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
-msgstr ""
+msgstr "Pojawił się nieprawidłowy sygnał"
 
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
@@ -126,7 +127,7 @@ msgstr "Kanały audio"
 
 #: .\devices\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
-msgstr ""
+msgstr "Zestaw efektu audio"
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -215,7 +216,7 @@ msgstr "Włącz / Wyłącz metronom"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
-msgstr ""
+msgstr "Pojawił się przester. Sygnał przekroczył %float(1:2) dB."
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -318,7 +319,7 @@ msgstr "FFT"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]FFT Curve"
-msgstr ""
+msgstr "Krzywa FFT"
 
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
@@ -334,7 +335,7 @@ msgstr "Szybko"
 
 #: .\devices\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
-msgstr "Uaktywnienie:"
+msgstr "Aktywność:"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Forward"
@@ -347,7 +348,7 @@ msgstr "Przewiń takt do przodu"
 #: .\devices\audiometer\sonopainter.cpp
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Freq"
-msgstr ""
+msgstr "Częstotliwość"
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
@@ -359,7 +360,7 @@ msgstr "Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten mode
 
 #: .\devices\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
-msgstr "Ogólne"
+msgstr "Globalna"
 
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[Command]Global Mute"
@@ -460,7 +461,7 @@ msgstr "Latencja"
 
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Level"
-msgstr ""
+msgstr "Poziom"
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -492,7 +493,7 @@ msgstr "Nie znaleziono portu MIDI dla urządzenia %(1)!"
 
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Main"
-msgstr "Główne"
+msgstr "Suma"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Medium"
@@ -572,7 +573,7 @@ msgstr "Niepodłączono"
 
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Note"
-msgstr ""
+msgstr "Nuta"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
@@ -616,7 +617,7 @@ msgstr "Odtwarzaj od początku pętli"
 
 #: .\devices\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "Podłącz Twoje urządzenia MIDI i zamknij ten komunikat po zakończeniu..."
+msgstr "Podłącz urządzenia MIDI, a następnie zamknij ten komunikat..."
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
@@ -748,7 +749,7 @@ msgstr "Wróć na początek po zatrzymaniu"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Return to Zero"
-msgstr "Wróć na początek"
+msgstr "Wróć na początek linii czasu"
 
 #: .\devices\transport\transportpanel.cpp
 msgid "[Command]Rewind"
@@ -864,7 +865,7 @@ msgstr "Pokaż w konsolecie"
 
 #: .\devices\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
-msgstr ""
+msgstr "Kluczowanie"
 
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
@@ -884,7 +885,7 @@ msgstr "Niektóre kanały są nadal w użyciu! Czy chcesz je mimo to usunąć?"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Sonogram"
-msgstr ""
+msgstr "Sonogram"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -920,7 +921,7 @@ msgstr "Zapisz łańcuch FX..."
 
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Sub"
-msgstr "Sub"
+msgstr "Pomocnicze"
 
 #: .\devices\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
@@ -948,7 +949,7 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: .\devices\audio\watchdogcomponent.cpp
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
-msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia silnika audio."
+msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia."
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Third Octave"
@@ -1008,7 +1009,7 @@ msgstr "Touch"
 
 #: .\devices\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Transmit value"
-msgstr "Wartość transmisji"
+msgstr "Transmisja wartości"
 
 #: .\devices\transport\metronome.cpp .\devices\transport\transportoptions.cpp
 #: .\devices\transport\transportpanel.cpp
@@ -1053,7 +1054,7 @@ msgstr "Głośność"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
-msgstr ""
+msgstr "Wodospad"
 
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"

@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]$APPNAME"
@@ -50,7 +51,7 @@ msgstr "Audio"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Audio Input follows Selection"
-msgstr "Włącz nagrywanie i monitoring dla wybieranej ścieżki audio"
+msgstr "Włącz automatyczny monitoring nagrywanych ścieżek audio"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Automation"
@@ -122,7 +123,7 @@ msgstr "Usuń czas"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Delete Undo History"
-msgstr "Wyczyść historię cofania"
+msgstr "Wyczyść historię"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Deselect All"
@@ -138,7 +139,7 @@ msgstr "Wydanie cyfrowe"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Disable Track"
-msgstr "Wyłącz ścieżkę"
+msgstr "Wyłącz utwór"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Dissolve Group"
@@ -154,7 +155,7 @@ msgstr "Powiel warstwę"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Duplicate Shared"
-msgstr "Powiel jako kopię zależną"
+msgstr "Powiel jako kopię współzależną"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Duplicate and Insert"
@@ -178,7 +179,7 @@ msgstr "Edytor"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Enable Track"
-msgstr "Włącz ścieżkę"
+msgstr "Włącz utwór"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Event"
@@ -278,7 +279,7 @@ msgstr "Inspektor"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Instrument Input follows Selection"
-msgstr "Włącz nagrywanie i monitoring dla wybieranej ścieżki instrumentu"
+msgstr "Automatyczny monitoring nagrywanych ścieżek instrumentów"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Invert Selection"
@@ -498,7 +499,7 @@ msgstr "Powtórz powiększenie"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Remaining Record Time"
-msgstr ""
+msgstr "Możliwy czas nagrywania"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Remove Layer"
@@ -538,7 +539,7 @@ msgstr "Wróć na początek po zatrzymaniu"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Return to Zero"
-msgstr "Wróć na początek"
+msgstr "Wróć na początek linii czasu"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Revert"
@@ -582,7 +583,7 @@ msgstr "Zaznacz wszystko na ścieżkach"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Select Events in Range"
-msgstr "Zaznacz zdarzenia w zakresie"
+msgstr "Zaznacz obiekty w zakresie"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Set Start and End to Selection"
@@ -626,7 +627,7 @@ msgstr "Pokaż pulę"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Show Sounds"
-msgstr "Pokaż dźwięki"
+msgstr "Pokaż brzmienia"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Show in Console"
@@ -658,11 +659,11 @@ msgstr "Konfiguracja utworu"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Split Loop"
-msgstr "Podziel pętlę"
+msgstr "Podziel przy końcach pętli"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Split Range"
-msgstr "Podziel zakres"
+msgstr "Podziel przy końcach zakresu"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Split at Cursor"
@@ -742,11 +743,11 @@ msgstr "Przekształć na ścieżkę instrumentu"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Transform to Realtime Audio"
-msgstr "Przekształć na audio w czasie rzeczywistym"
+msgstr "Przekształć na audio bez wygenerowanych efektów"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Transform to Rendered Audio"
-msgstr "Przekształć na wygenerowane audio"
+msgstr "Przekształć na audio z wygenerowanymi efektami"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Transport"
@@ -790,7 +791,7 @@ msgstr "Powiększenie"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Zoom Full"
-msgstr "Pełne powiększenie"
+msgstr "Pełne pomniejszenie"
 
 #: .\studioapp\resource\menubar.xml
 msgid "[Menu]Zoom In"
