@@ -1,10 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,7 +58,7 @@ msgstr "Obarvit stopu"
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Comment"
-msgstr "Komentář"
+msgstr "Poznámka"
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Composer"
@@ -83,7 +78,7 @@ msgstr "Soubor nelze načíst! Formát souboru není podporován."
 
 #: .\project\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]DDP image failed."
-msgstr "Neúspěšný DDP obraz."
+msgstr "DDP obraz se nezdařil."
 
 #: .\project\editing\projectedittasks.cpp
 msgid "[ProjectEdit]Detect Loudness"
@@ -110,16 +105,8 @@ msgid "[ProjectFunctions]Disable Tracks"
 msgstr "Zakázat stopy"
 
 #: .\project\publish\ddpimagemaker.cpp
-msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"Přejete si vytvořit DDP obraz?\n"
-"\n"
-"Obraz: %(1)\n"
-"Umístění: %(2)"
+msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "Přejete si vytvořit DDP obraz?\n\nObraz: %(1)\nUmístění: %(2)"
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -143,7 +130,7 @@ msgstr "Povolit stopy"
 
 #: .\project\publish\burnerdialog.cpp
 msgid "[BurnerDialog]Erasing failed: "
-msgstr "Neúspěšné smazání: "
+msgstr "Smazání se nezdařilo: "
 
 #: .\project\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher]Generating audio files (%(1) of %(2))"
@@ -218,24 +205,16 @@ msgid "[BurnerDialog]No Device"
 msgstr "Žádné zařízení"
 
 #: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
-msgstr ""
-"Na zvukový disk nelze přidat všechny stopy, protože zvukový disk může být "
-"dlouhý pouze 80 minut."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
+msgstr "Na zvukový disk nelze přidat všechny stopy, protože zvukový disk může být dlouhý pouze 80 minut."
 
 #: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
-msgstr ""
-"Na zvukový disk nelze přidat všechny stopy, protože zvukový disk může "
-"obsahovat pouze 99 stop."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
+msgstr "Na zvukový disk nelze přidat všechny stopy, protože zvukový disk může obsahovat pouze 99 stop."
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
-msgstr "Neúspěšné otevření vypalovacího CD enginu."
+msgstr "nezdařilo se otevřít vypalovací CD engine."
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Pause"
@@ -333,38 +312,12 @@ msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
 msgstr "Začít zapisovat DDP obraz %(1)násobnou rychlostí"
 
 #: .\project\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
-msgstr ""
-"EAN nemá správný formát.\n"
-"\n"
-"Měl by být 13 znaků dlouhý a obsahovat by měl pouze číslice.\n"
-"\n"
-"Příklad: 036000291452\n"
-"\n"
-"Pokud máte UPC, stačí pro vytvoření správného EAN kódu, na začátek přidat 0."
+msgid "[Project]The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "EAN nemá správný formát.\n\nMěl by být 13 znaků dlouhý a obsahovat by měl pouze číslice.\n\nPříklad: 036000291452\n\nPokud máte UPC, stačí pro vytvoření správného EAN kódu, na začátek přidat 0."
 
 #: .\project\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"ISRC kód nemá správný formát.\n"
-"\n"
-"Měl by být 12 znaků dlouhý a měl by obsahovat pouze alfanumerické znaky.\n"
-"\n"
-"Například: USPR37300012"
+msgid "[ProjectTrack]The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "ISRC kód nemá správný formát.\n\nMěl by být 12 znaků dlouhý a měl by obsahovat pouze alfanumerické znaky.\n\nNapříklad: USPR37300012"
 
 #: .\project\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"
@@ -425,3 +378,4 @@ msgstr "Aktualizace byla ukončena."
 #: .\project\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "Aktualizace %(1) z %(2) souborů pro mastering v %(3)."
+

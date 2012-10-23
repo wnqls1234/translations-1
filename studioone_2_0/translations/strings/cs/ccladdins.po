@@ -1,10 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Martin Jirsak <martin@jirsak.cz>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -47,8 +42,7 @@ msgid "[Command]Application"
 msgstr "Aplikace"
 
 #: .\ccl\addins\extensions\extensionmanagerui.cpp
-msgid ""
-"[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
 msgstr "Zabudovaná rozšíření nelze odinstalovat nebo aktualizovat."
 
 #: .\ccl\addins\installer\installer.cpp
@@ -108,24 +102,16 @@ msgid "[Command]Extensions"
 msgstr "Rozšíření"
 
 #: .\ccl\addins\web\webservicehandler.cpp
-msgid ""
-"[Web]Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
-msgstr ""
-"Neúspěšné připojení k serveru.\n"
-"Zkontrolujte prosím vaše připojení k internetu a zkuste to znovu."
+msgid "[Web]Failed to connect to the server.\nPlease check your Internet connection and try again."
+msgstr "Neúspěšné připojení k serveru.\nZkontrolujte prosím vaše připojení k internetu a zkuste to znovu."
 
 #: .\ccl\addins\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
-msgstr "Neúspěšné!"
+msgstr "Nezdařilo se!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]File not found:\n"
-"%(1)"
-msgstr ""
-"Soubor nenalezen:\n"
-"%(1)"
+msgid "[Installer]File not found:\n%(1)"
+msgstr "Soubor nenalezen:\n%(1)"
 
 #: .\ccl\addins\gadgets\gadgetmanager.cpp
 msgid "[GadgetManager]Gadgets"
@@ -165,16 +151,14 @@ msgstr "Instalace ukončena."
 
 #: .\ccl\addins\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Installation failed!"
-msgstr "Neúspěšná instalace!"
+msgstr "Instalace se nezdařila!"
 
 #: .\ccl\addins\installer\installer.cpp
 msgid "[Installer]Installation failed!"
-msgstr "Neúspěšná instalace!"
+msgstr "Instalace se nezdařila!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]Installed on:\n"
-"%(1)"
+msgid "[Installer]Installed on:\n%(1)"
 msgstr "Instalováno do:"
 
 #: .\ccl\addins\installer\installer.cpp
@@ -186,12 +170,8 @@ msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "Neplatný instalační soubor!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]It is recommended to install this packet.\n"
-"Are you sure you want to uncheck it?"
-msgstr ""
-"Je doporučeno tento balíček instalovat.\n"
-"Jste si jist, že jej nechcete zahrnout?"
+msgid "[Installer]It is recommended to install this packet.\nAre you sure you want to uncheck it?"
+msgstr "Je doporučeno tento balíček instalovat.\nJste si jist, že jej nechcete zahrnout?"
 
 #: .\ccl\addins\webfs\transfermanagerui.cpp
 msgid "[TransferManager]KB/sec"
@@ -222,14 +202,8 @@ msgid "[Installer]Packet"
 msgstr "Balíček"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]Please insert \"%(1)\"...\n"
-"\n"
-"File: %(2)"
-msgstr ""
-"Vložte prosím \"%(1)\"…\n"
-"\n"
-"Soubor: %(2)"
+msgid "[Installer]Please insert \"%(1)\"...\n\nFile: %(2)"
+msgstr "Vložte prosím \"%(1)\"…\n\nSoubor: %(2)"
 
 #: .\ccl\addins\installer\installer.cpp
 msgid "[Installer]Please restart $APPNAME for the changes to take effect."
@@ -293,7 +267,7 @@ msgstr "Nahrát na"
 
 #: .\ccl\addins\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Uploading..."
-msgstr "Nahrávání"
+msgstr "Nahrávání…"
 
 #: .\ccl\addins\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
@@ -313,4 +287,5 @@ msgstr "Tento soubor je umístěn v místě, kde nemáte oprávnění k zápisu.
 
 #: .\ccl\addins\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]You need a newer version of $APPNAME."
-msgstr ""
+msgstr "Potřebujete novou vezi $APPNAME."
+

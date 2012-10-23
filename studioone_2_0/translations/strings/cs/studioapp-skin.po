@@ -886,7 +886,7 @@ msgstr "Zvukové stopy"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Audio resolution used for recording"
-msgstr ""
+msgstr "Rozlišení zvuku, použité pro záznam"
 
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -910,11 +910,11 @@ msgstr "Automatické ukládání dokumentů"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Auto Tail"
-msgstr ""
+msgstr "Automatický chvost"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
-msgstr ""
+msgstr "Automatický chvost"
 
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -1584,7 +1584,7 @@ msgstr "Vytvořit novou píseň"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
-msgstr ""
+msgstr "Vytvořit zvukové stopy pro všechny výstupy nástroje. Pokd je volný, budou provedeny pouze ty, které mají v inspektoru stopy přiřazen výstup."
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
@@ -1677,7 +1677,7 @@ msgstr "Výchozí obálky pro nové zvukové stopy"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Default tempo setting for audio tracks"
-msgstr ""
+msgstr "Nastavení výchozího tempa pro zvukové stopy"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Delay"
@@ -1693,7 +1693,7 @@ msgstr "Smazat"
 
 #: .\studioapp\skin\engine\mediapool.xml
 msgid "[RemoveUnusedDialog.Options]Delete Files permanently"
-msgstr ""
+msgstr "Smazat stopy trvale"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
@@ -2265,11 +2265,11 @@ msgstr "Křestní jméno"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Fix Tail"
-msgstr ""
+msgstr "Stanovit chvost"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Fix Tail"
-msgstr ""
+msgstr "Stanovit chvost"
 
 #: .\studioapp\skin\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]Focus Device"
@@ -2301,7 +2301,7 @@ msgstr "Formát"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Format of ruler and main time display"
-msgstr ""
+msgstr "Formát pravítka a hlavního ukazatele času"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
@@ -2542,7 +2542,7 @@ msgstr "Při aktualizaci souboru pro mastering aplikovat efekty"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
-msgstr ""
+msgstr "Informace"
 
 #: .\studioapp\skin\app\infoview.xml .\studioapp\skin\app\windowclasses.xml
 msgid "[InfoView]Info View"
@@ -2554,15 +2554,15 @@ msgstr "Zobrazit Informace"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial length of song"
-msgstr ""
+msgstr "Výchozí délka písně"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial tempo of song"
-msgstr ""
+msgstr "Výchozí tempo písně"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial time signature of song"
-msgstr ""
+msgstr "Výchozí metrum písně"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Input Filter"
@@ -2730,7 +2730,7 @@ msgstr "Nástroje"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
-msgstr ""
+msgstr "Rozhraní"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Internal Block Size"
@@ -2786,7 +2786,7 @@ msgstr "Vrstvy"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers follow events"
-msgstr ""
+msgstr "Vrstvy následují události"
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -2981,11 +2981,11 @@ msgstr "Materiál"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Max Length"
-msgstr ""
+msgstr "Maximální délka"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Max Length"
-msgstr ""
+msgstr "Maximální délka"
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[DetachedFrameHeader]Maximize"
@@ -3351,7 +3351,7 @@ msgstr "Repetice noty"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
-msgstr ""
+msgstr "Poznámky"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
@@ -3463,7 +3463,7 @@ msgstr "Výstup"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[InspectorChannelOutputPort]Output"
-msgstr ""
+msgstr "Výstup"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Output Latency"
@@ -3702,7 +3702,7 @@ msgstr "Před přehráváním"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
-msgstr ""
+msgstr "Zvukový vstup před-záznamu"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[Metronome]Precount Bars"
@@ -4038,7 +4038,7 @@ msgstr "Úroveň záznamu"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Record Max"
-msgstr ""
+msgstr "Maxium záznamu"
 
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Record Mix"
@@ -4046,7 +4046,7 @@ msgstr "Smíchat během záznamu"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Record Offset"
-msgstr ""
+msgstr "Kompenzovat záznam"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Record Offset"
@@ -4084,19 +4084,19 @@ msgstr "Uvolnit zvukové zařízení na pozadí"
 #: .\studioapp\skin\app\windowclasses.xml
 #: .\studioapp\skin\devices\transport.xml
 msgid "[RemainingRecordTime]Remaining Record Time"
-msgstr ""
+msgstr "Zbývající čas záznamu"
 
 #: .\studioapp\skin\app\windowclasses.xml
 msgid "[Command]Remaining Record Time"
-msgstr ""
+msgstr "Zbývající čas záznamu"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time"
-msgstr ""
+msgstr "Zbývající čas záznamu"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
-msgstr ""
+msgstr "Zbývající čas záznamu (málo)"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationForm]Remember my credentials"
@@ -4184,7 +4184,7 @@ msgstr "Provést"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render All Channels"
-msgstr ""
+msgstr "Provést všechny kanály"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
@@ -4192,7 +4192,7 @@ msgstr "Provést Insert efekty"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
-msgstr ""
+msgstr "Provést do zvuku efekty. Pokud jsou odpojeny, jsou ponechány pro zpracování v reálném čase."
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4308,7 +4308,7 @@ msgstr "Vzorkovací frekvence"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Sample rate used for playback and record"
-msgstr ""
+msgstr "Vzorkovacé frekvence používána pro přehrávání a záznam"
 
 #: .\studioapp\skin\engine\audiocodec.xml
 msgid "[PCMEncoderOption]Samplerate:"
@@ -4922,7 +4922,7 @@ msgstr "Autor písně:"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]Sono"
-msgstr ""
+msgstr "Sono"
 
 #: .\studioapp\skin\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Sort by: "
@@ -5125,15 +5125,15 @@ msgstr "Lišta ticha"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Styles"
-msgstr ""
+msgstr "Styly"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
-msgstr ""
+msgstr "Podpora zpětné proměny na zvukovou stopu včetně efektů."
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Support retransformation to instrument track."
-msgstr ""
+msgstr "Podpora zpětné proměny na nástrojovou stopu."
 
 #: .\studioapp\skin\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Swing"
@@ -5141,11 +5141,11 @@ msgstr "Swing"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "Přepnout mezi automatickou detekcí chvostu a pevně stanovenou délkou."
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "Přepnout mezi automatickou detekcí chvostu a pevně stanovenou délkou."
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[MidiMonitor]System Common"
@@ -5209,7 +5209,7 @@ msgstr "Děkujeme vám za použití bezplatné verze $APPNAME, stažené z Mac A
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
-msgstr ""
+msgstr "K dispozici je nová verze $APPNAME."
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]Third Party"
@@ -5245,7 +5245,7 @@ msgstr "Zobrazit čas"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Time Signature"
-msgstr ""
+msgstr "Metrum"
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Time Zoom"
@@ -5411,11 +5411,11 @@ msgstr "Přenosy"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Transform Audio Track"
-msgstr "Převést zvukovou stopu"
+msgstr "Proměnit zvukovou stopu"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Transform Instrument Track"
-msgstr "Převést nástrojovou stopu"
+msgstr "Proměnit nástrojovou stopu"
 
 #: .\studioapp\skin\app\windowclasses.xml
 #: .\studioapp\skin\devices\transport.xml
@@ -5498,7 +5498,7 @@ msgstr "Odinstalovat"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
-msgstr ""
+msgstr "Vyjmout nástroj a odebrat jej z racku. Tato možnost je k diposzici pouze pokud žádná jiná stopa daný nástroj nepoužívá."
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectToolbar]Update"
@@ -5602,7 +5602,7 @@ msgstr "Použitá"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]User"
-msgstr ""
+msgstr "Uživatel"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
@@ -5760,7 +5760,7 @@ msgstr "Hlasitost: @value[]"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]WF"
-msgstr ""
+msgstr "Vod"
 
 #: .\studioapp\skin\app\about.xml
 msgid "[Command]Website"
