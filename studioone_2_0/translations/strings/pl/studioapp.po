@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
+"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\studioapp\source\projectdocument.cpp
 msgid "[FileType]$APPNAME Project"
@@ -30,7 +30,8 @@ msgid "[Command]Add to Project"
 msgstr "Dodaj do projektu"
 
 #: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
+msgid ""
+"[StudioApp]An older version of $APPNAME has been found on this computer."
 msgstr "Znaleziono starszą wersję $APPNAME na tym komputerze."
 
 #: .\studioapp\source\appoptions.cpp
@@ -66,16 +67,26 @@ msgid "[Options]Do Nothing"
 msgstr "Nic nie rób"
 
 #: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
+msgid ""
+"[StudioApp]Do you want to import the settings from the old version of "
+"$APPNAME?"
 msgstr "Czy chcesz zaimportować ustawienia ze starej wersji $APPNAME?"
 
 #: .\studioapp\source\projectdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
-msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych projektów?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Projects?"
+msgstr ""
+"Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych "
+"projektów?"
 
 #: .\studioapp\source\songdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
-msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych utworów?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Songs?"
+msgstr ""
+"Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych "
+"utworów?"
 
 #: .\studioapp\source\documenthandler.cpp
 msgid "[Command]Document"
@@ -278,7 +289,9 @@ msgid "[Command]Start Page"
 msgstr "Strona startowa"
 
 #: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
+msgid ""
+"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
+"left."
 msgstr "Dziękujemy za wypróbowanie $APPNAME. Pozostało Ci %(1) uruchomień."
 
 #: .\studioapp\source\soundsethandler.cpp
@@ -286,8 +299,12 @@ msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
 msgstr "Sound Set \"%(1)\" jest wciąż w użyciu (%(2) otwartych plików)!"
 
 #: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]This is a demo version of $APPNAME. Save and certain other features are disabled."
-msgstr "Jest to wersja demonstracyjna $APPNAME. Zapis i niektóre inne funkcje są wyłączone."
+msgid ""
+"[StudioApp]This is a demo version of $APPNAME. Save and certain other "
+"features are disabled."
+msgstr ""
+"Jest to wersja demonstracyjna $APPNAME. Zapis i niektóre inne funkcje są "
+"wyłączone."
 
 #: .\studioapp\source\soundsethandler.cpp
 msgid "[StudioApp]Uninstall"
@@ -316,4 +333,3 @@ msgstr "Widok"
 #: .\studioapp\source\projectdocument.cpp .\studioapp\source\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Obszar roboczy"
-

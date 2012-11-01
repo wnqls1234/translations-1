@@ -42,8 +42,7 @@ msgid "[Command]Application"
 msgstr "Aplicación"
 
 #: .\ccl\addins\extensions\extensionmanagerui.cpp
-msgid ""
-"[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
 msgstr "Extensiones integradas no pueden ser desinstaladas o actualizadas."
 
 #: .\ccl\addins\installer\installer.cpp
@@ -103,24 +102,16 @@ msgid "[Command]Extensions"
 msgstr "Extensiones"
 
 #: .\ccl\addins\web\webservicehandler.cpp
-msgid ""
-"[Web]Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
-msgstr ""
-"Error al conectar al servidor.\n"
-"Por favor verifique su conexión a Internet e intente nuevamente."
+msgid "[Web]Failed to connect to the server.\nPlease check your Internet connection and try again."
+msgstr "Error al conectar al servidor.\nPor favor verifique su conexión a Internet e intente nuevamente."
 
 #: .\ccl\addins\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "Falló!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]File not found:\n"
-"%(1)"
-msgstr ""
-"Archivo no encontrado:\n"
-"%(1)"
+msgid "[Installer]File not found:\n%(1)"
+msgstr "Archivo no encontrado:\n%(1)"
 
 #: .\ccl\addins\gadgets\gadgetmanager.cpp
 msgid "[GadgetManager]Gadgets"
@@ -167,12 +158,8 @@ msgid "[Installer]Installation failed!"
 msgstr "Falló instalación!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]Installed on:\n"
-"%(1)"
-msgstr ""
-"Instalado en:\n"
-"%(1)"
+msgid "[Installer]Installed on:\n%(1)"
+msgstr "Instalado en:\n%(1)"
 
 #: .\ccl\addins\installer\installer.cpp
 msgid "[Installer]Installing..."
@@ -183,12 +170,8 @@ msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "Archivo de instalación inválido!"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]It is recommended to install this packet.\n"
-"Are you sure you want to uncheck it?"
-msgstr ""
-"Se recomienda instalar este paquete.\n"
-"Está seguro que desea deseleccionarlo?"
+msgid "[Installer]It is recommended to install this packet.\nAre you sure you want to uncheck it?"
+msgstr "Se recomienda instalar este paquete.\nEstá seguro que desea deseleccionarlo?"
 
 #: .\ccl\addins\webfs\transfermanagerui.cpp
 msgid "[TransferManager]KB/sec"
@@ -219,14 +202,8 @@ msgid "[Installer]Packet"
 msgstr "Paquete"
 
 #: .\ccl\addins\installer\installer.cpp
-msgid ""
-"[Installer]Please insert \"%(1)\"...\n"
-"\n"
-"File: %(2)"
-msgstr ""
-"Por favor inserte \"%(1)\"...\n"
-"\n"
-"File: %(2)"
+msgid "[Installer]Please insert \"%(1)\"...\n\nFile: %(2)"
+msgstr "Por favor inserte \"%(1)\"...\n\nFile: %(2)"
 
 #: .\ccl\addins\installer\installer.cpp
 msgid "[Installer]Please restart $APPNAME for the changes to take effect."
@@ -310,4 +287,5 @@ msgstr "No posee permisos de escritura en esta ubicación de archivo."
 
 #: .\ccl\addins\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]You need a newer version of $APPNAME."
-msgstr ""
+msgstr "Usted necesita una versión mas nueva de $APPNAME."
+

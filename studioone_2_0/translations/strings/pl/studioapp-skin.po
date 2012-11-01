@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
@@ -2789,6 +2788,10 @@ msgstr "Warstwy"
 msgid "[AudioTrackInspector]Layers follow events"
 msgstr "Edycja wpływa na warstwy"
 
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[MusicTrackInspector]Layers follow events"
+msgstr "Edycja wpływa na warstwy"
+
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
 msgstr "Średni RMS lewego kanału (3 sekundowa integracja)"
@@ -4192,7 +4195,7 @@ msgid "[MusicTransformDialog]Render Inserts"
 msgstr "Wygeneruj inserty"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
 msgstr "Wygeneruj efekty insertowe do audio. Po odznaczeniu, inserty zostaną zachowane i będą dostępne do obróbki w czasie rzeczywistym i automatyki."
 
 #: .\studioapp\skin\app\licenser.xml

@@ -886,7 +886,7 @@ msgstr "音频轨道"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Audio resolution used for recording"
-msgstr ""
+msgstr "用于录音的音频分辨率"
 
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -910,11 +910,11 @@ msgstr "自动保存文件"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Auto Tail"
-msgstr ""
+msgstr "自动追踪"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
-msgstr ""
+msgstr "自动追踪"
 
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -1584,7 +1584,7 @@ msgstr "新建乐曲"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
-msgstr ""
+msgstr "为所有乐器输出创建新的音频轨道。If disengaged, only the output assigned in the track inspector is rendered."
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
@@ -1677,7 +1677,7 @@ msgstr "为所有新音轨设置默认包络"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Default tempo setting for audio tracks"
-msgstr ""
+msgstr "为音频轨道设置默认节奏设置。"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Delay"
@@ -1693,7 +1693,7 @@ msgstr "删除"
 
 #: .\studioapp\skin\engine\mediapool.xml
 msgid "[RemoveUnusedDialog.Options]Delete Files permanently"
-msgstr ""
+msgstr "永久删除文件"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
@@ -2265,11 +2265,11 @@ msgstr "名字"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Fix Tail"
-msgstr ""
+msgstr "尾部"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Fix Tail"
-msgstr ""
+msgstr "尾部"
 
 #: .\studioapp\skin\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]Focus Device"
@@ -2301,7 +2301,7 @@ msgstr "格式"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Format of ruler and main time display"
-msgstr ""
+msgstr "ruler和主时间显示的格式"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
@@ -2542,7 +2542,7 @@ msgstr "更新母带混缩文件时包含效果"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
-msgstr ""
+msgstr "信息"
 
 #: .\studioapp\skin\app\infoview.xml .\studioapp\skin\app\windowclasses.xml
 msgid "[InfoView]Info View"
@@ -2554,15 +2554,15 @@ msgstr "查看属性"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial length of song"
-msgstr ""
+msgstr "乐曲原始长度"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial tempo of song"
-msgstr ""
+msgstr "乐曲原始节奏"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial time signature of song"
-msgstr ""
+msgstr "乐曲原始时间信号"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Input Filter"
@@ -2730,7 +2730,7 @@ msgstr "乐器"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
-msgstr ""
+msgstr "接口"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Internal Block Size"
@@ -2786,7 +2786,11 @@ msgstr "布局"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers follow events"
-msgstr ""
+msgstr "分层遵循事件"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[MusicTrackInspector]Layers follow events"
+msgstr "分层遵循事件"
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -2981,11 +2985,11 @@ msgstr "材质"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Max Length"
-msgstr ""
+msgstr "最长长度"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Max Length"
-msgstr ""
+msgstr "最长长度"
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[DetachedFrameHeader]Maximize"
@@ -3351,7 +3355,7 @@ msgstr "重复记录"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
-msgstr ""
+msgstr "标记"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
@@ -3463,7 +3467,7 @@ msgstr "输出"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[InspectorChannelOutputPort]Output"
-msgstr ""
+msgstr "输出"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Output Latency"
@@ -3702,7 +3706,7 @@ msgstr "前置式"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
-msgstr ""
+msgstr "录音前音频输入"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[Metronome]Precount Bars"
@@ -4038,7 +4042,7 @@ msgstr "录音电平"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Record Max"
-msgstr ""
+msgstr "录制最大化"
 
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Record Mix"
@@ -4046,7 +4050,7 @@ msgstr "录音混音"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Record Offset"
-msgstr ""
+msgstr "录音抵消"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Record Offset"
@@ -4084,19 +4088,19 @@ msgstr "后台共享音频设备"
 #: .\studioapp\skin\app\windowclasses.xml
 #: .\studioapp\skin\devices\transport.xml
 msgid "[RemainingRecordTime]Remaining Record Time"
-msgstr ""
+msgstr "剩余录音时间"
 
 #: .\studioapp\skin\app\windowclasses.xml
 msgid "[Command]Remaining Record Time"
-msgstr ""
+msgstr "剩余录音时间"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time"
-msgstr ""
+msgstr "剩余录音时间"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
-msgstr ""
+msgstr "剩余录音时 (Low)"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationForm]Remember my credentials"
@@ -4184,15 +4188,15 @@ msgstr "渲染"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render All Channels"
-msgstr ""
+msgstr "渲染所有通道"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
 msgstr "渲染"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
-msgstr ""
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
+msgstr "将插入效果渲染至音频。插入将被保存为实时处理和自动化。"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4308,7 +4312,7 @@ msgstr "采样率"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Sample rate used for playback and record"
-msgstr ""
+msgstr "采样率用于回放和录音"
 
 #: .\studioapp\skin\engine\audiocodec.xml
 msgid "[PCMEncoderOption]Samplerate:"
@@ -4922,7 +4926,7 @@ msgstr "作词:"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]Sono"
-msgstr ""
+msgstr "超音波"
 
 #: .\studioapp\skin\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Sort by: "
@@ -5125,15 +5129,15 @@ msgstr "拉伸静音"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Styles"
-msgstr ""
+msgstr "风格"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
-msgstr ""
+msgstr "支持带有插入效果的音轨变回原形。"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Support retransformation to instrument track."
-msgstr ""
+msgstr "支持乐器音轨变回原形。"
 
 #: .\studioapp\skin\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Swing"
@@ -5141,11 +5145,11 @@ msgstr "摇摆"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "在自动结尾检测和为所给长度确定结尾之间切换。"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "在自动结尾检测和为所给长度确定结尾之间切换。"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[MidiMonitor]System Common"
@@ -5209,7 +5213,7 @@ msgstr "感谢您从Mac App Store使用免费版本的$APPNAME."
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
-msgstr ""
+msgstr " $APPNAME 有可用新版本。"
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]Third Party"
@@ -5245,7 +5249,7 @@ msgstr "显示时间"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Time Signature"
-msgstr ""
+msgstr "时间签名"
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Time Zoom"
@@ -5498,7 +5502,7 @@ msgstr "卸载"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
-msgstr ""
+msgstr "卸载乐器并将其从机架上卸除。此选项只在没有其他轨道使用此乐器下可用。"
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectToolbar]Update"
@@ -5602,7 +5606,7 @@ msgstr "已使用"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]User"
-msgstr ""
+msgstr "用户"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
@@ -5760,7 +5764,7 @@ msgstr "音量: @value[]"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]WF"
-msgstr ""
+msgstr "WF"
 
 #: .\studioapp\skin\app\about.xml
 msgid "[Command]Website"

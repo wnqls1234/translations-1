@@ -886,7 +886,7 @@ msgstr "Pistes audio"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Audio resolution used for recording"
-msgstr ""
+msgstr "Résolution audio employée pour l'enregistrement"
 
 #: .\studioapp\skin\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -910,11 +910,11 @@ msgstr "Sauvegarde automatique des documents"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Auto Tail"
-msgstr ""
+msgstr "Queue automatique"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
-msgstr ""
+msgstr "Queue automatique"
 
 #: .\studioapp\skin\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -1584,7 +1584,7 @@ msgstr "Créer un nouveau morceau"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
-msgstr ""
+msgstr "Créer des pistes audio pour toutes les sorties d'instrument. Sinon, seule la sortie assignée dans l'inspecteur de piste est convertie."
 
 #: .\studioapp\skin\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
@@ -1677,7 +1677,7 @@ msgstr "Enveloppes par défaut pour les nouvelles pistes audio"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Default tempo setting for audio tracks"
-msgstr ""
+msgstr "Réglage de tempo par défaut pour les pistes audio"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Delay"
@@ -1693,7 +1693,7 @@ msgstr "Supprimer"
 
 #: .\studioapp\skin\engine\mediapool.xml
 msgid "[RemoveUnusedDialog.Options]Delete Files permanently"
-msgstr ""
+msgstr "Supprimer définitivement les fichiers"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
@@ -1705,7 +1705,7 @@ msgstr "Supprimer les changements de tempo sélectionnés"
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[HomePage.RSS]Demos and Tutorials"
-msgstr "Démos and didacticiels"
+msgstr "Démos et didacticiels"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Description"
@@ -2265,11 +2265,11 @@ msgstr "Prénom"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Fix Tail"
-msgstr ""
+msgstr "Queue fixe"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Fix Tail"
-msgstr ""
+msgstr "Queue fixe"
 
 #: .\studioapp\skin\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]Focus Device"
@@ -2301,7 +2301,7 @@ msgstr "Format"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Format of ruler and main time display"
-msgstr ""
+msgstr "Format de règle et affichage de temps principal"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
@@ -2542,7 +2542,7 @@ msgstr "Inclure les effets à la mise à jour du fichier de mastering"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
-msgstr ""
+msgstr "Info"
 
 #: .\studioapp\skin\app\infoview.xml .\studioapp\skin\app\windowclasses.xml
 msgid "[InfoView]Info View"
@@ -2554,15 +2554,15 @@ msgstr "Fenêtre d'infos"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial length of song"
-msgstr ""
+msgstr "Longueur initiale du morceau"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial tempo of song"
-msgstr ""
+msgstr "Tempo initial du morceau"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Initial time signature of song"
-msgstr ""
+msgstr "Signature rythmique initiale du morceau"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Input Filter"
@@ -2730,7 +2730,7 @@ msgstr "Instruments"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
-msgstr ""
+msgstr "Interfaces"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Internal Block Size"
@@ -2786,7 +2786,11 @@ msgstr "Couches"
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers follow events"
-msgstr ""
+msgstr "Couches asservies aux événements"
+
+#: .\studioapp\skin\engine\inspector.xml
+msgid "[MusicTrackInspector]Layers follow events"
+msgstr "Couches asservies aux événements"
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -2981,11 +2985,11 @@ msgstr "Signal"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Max Length"
-msgstr ""
+msgstr "Longueur max."
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Max Length"
-msgstr ""
+msgstr "Longueur max."
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[DetachedFrameHeader]Maximize"
@@ -3351,7 +3355,7 @@ msgstr "Répéter notes"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
-msgstr ""
+msgstr "Notes"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
@@ -3463,7 +3467,7 @@ msgstr "Sort."
 
 #: .\studioapp\skin\engine\inspector.xml
 msgid "[InspectorChannelOutputPort]Output"
-msgstr ""
+msgstr "Sortie"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[AudioSetup]Output Latency"
@@ -3702,7 +3706,7 @@ msgstr "Pré-Roll"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
-msgstr ""
+msgstr "Pré-enregistrer l'entrée audio"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[Metronome]Precount Bars"
@@ -4038,7 +4042,7 @@ msgstr "Niveau d'enregistrement"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Record Max"
-msgstr ""
+msgstr "Enregistrement max."
 
 #: .\studioapp\skin\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Record Mix"
@@ -4046,7 +4050,7 @@ msgstr "Enregist. mixé"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[AudioEngineOption]Record Offset"
-msgstr ""
+msgstr "Décalage d'enregistrement"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[MusicOption]Record Offset"
@@ -4084,19 +4088,19 @@ msgstr "Libérer l'interface audio en arrière-plan"
 #: .\studioapp\skin\app\windowclasses.xml
 #: .\studioapp\skin\devices\transport.xml
 msgid "[RemainingRecordTime]Remaining Record Time"
-msgstr ""
+msgstr "Temps d'enregistrement restant"
 
 #: .\studioapp\skin\app\windowclasses.xml
 msgid "[Command]Remaining Record Time"
-msgstr ""
+msgstr "Temps d'enregistrement restant"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time"
-msgstr ""
+msgstr "Temps d'enregistrement restant"
 
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
-msgstr ""
+msgstr "Temps d'enregistrement restant (bas)"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationForm]Remember my credentials"
@@ -4184,15 +4188,15 @@ msgstr "Convertir"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render All Channels"
-msgstr ""
+msgstr "Convertir tous les canaux"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
 msgstr "Convertir les inserts"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are keept for realtime processing and automation."
-msgstr ""
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
+msgstr "Convertir les effets insérés en audio. Sinon, les effets sont conservés pour le traitement en temps réel et l'automation."
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4308,7 +4312,7 @@ msgstr "Fréq. d'échantillonnage"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Sample rate used for playback and record"
-msgstr ""
+msgstr "Fréquence d'échantillonnage utilisée pour la lecture et l'enregistrement"
 
 #: .\studioapp\skin\engine\audiocodec.xml
 msgid "[PCMEncoderOption]Samplerate:"
@@ -4922,7 +4926,7 @@ msgstr "Auteur:"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]Sono"
-msgstr ""
+msgstr "Sono"
 
 #: .\studioapp\skin\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Sort by: "
@@ -5125,15 +5129,15 @@ msgstr "Enlever les silences"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Styles"
-msgstr ""
+msgstr "Styles"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
-msgstr ""
+msgstr "Prendre en charge la retransformation en piste audio avec les effets insérés."
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Support retransformation to instrument track."
-msgstr ""
+msgstr "Prendre en charge la retransformation en piste d'instrument."
 
 #: .\studioapp\skin\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Swing"
@@ -5141,11 +5145,11 @@ msgstr "Swing"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "Alterner entre détection automatique de queue et queue de longueur fixe donnée"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
-msgstr ""
+msgstr "Alterner entre détection automatique de queue et queue de longueur fixe donnée"
 
 #: .\studioapp\skin\devices\devices.xml
 msgid "[MidiMonitor]System Common"
@@ -5209,7 +5213,7 @@ msgstr "Merci d'utiliser la version gratuite de $APPNAME du Mac App Store."
 
 #: .\studioapp\skin\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
-msgstr ""
+msgstr "Une nouvelle version de $APPNAME est disponible."
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]Third Party"
@@ -5245,7 +5249,7 @@ msgstr "Affichage du temps"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]Time Signature"
-msgstr ""
+msgstr "Signature rythmique"
 
 #: .\studioapp\skin\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Time Zoom"
@@ -5498,7 +5502,7 @@ msgstr "Désinstaller"
 
 #: .\studioapp\skin\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
-msgstr ""
+msgstr "Décharger l'instrument et le retirer du rack. Cette option n'est disponible que si aucune autre piste n'utilise l'instrument."
 
 #: .\studioapp\skin\project\project.xml
 msgid "[ProjectToolbar]Update"
@@ -5602,7 +5606,7 @@ msgstr "Utilisé"
 
 #: .\studioapp\skin\engine\songdialogs.xml
 msgid "[NewSong]User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
@@ -5760,7 +5764,7 @@ msgstr "Volume: @value[]"
 
 #: .\studioapp\skin\project\analyser.xml
 msgid "[Analyser]WF"
-msgstr ""
+msgstr "WF"
 
 #: .\studioapp\skin\app\about.xml
 msgid "[Command]Website"

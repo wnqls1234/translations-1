@@ -86,7 +86,7 @@ msgstr "Toutes les entrées"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
-msgstr ""
+msgstr "Un signal invalide est survenu."
 
 #: .\devices\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
@@ -126,7 +126,7 @@ msgstr "Canaux audio"
 
 #: .\devices\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
-msgstr ""
+msgstr "Preset d'effet audio"
 
 #: .\devices\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -215,7 +215,7 @@ msgstr "Clic"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
-msgstr ""
+msgstr "Un écrêtage s'est produit. Le signal dépassait de %float(1:2) dB."
 
 #: .\devices\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
@@ -318,7 +318,7 @@ msgstr "FFT"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]FFT Curve"
-msgstr ""
+msgstr "Courbe FFT"
 
 #: .\devices\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
@@ -347,7 +347,7 @@ msgstr "Avancer d'une mesure"
 #: .\devices\audiometer\sonopainter.cpp
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Freq"
-msgstr ""
+msgstr "Fréq."
 
 #: .\devices\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
@@ -460,7 +460,7 @@ msgstr "Latence"
 
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Level"
-msgstr ""
+msgstr "Niveau"
 
 #: .\devices\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
@@ -572,7 +572,7 @@ msgstr "Non connecté"
 
 #: .\devices\audiometer\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Note"
-msgstr ""
+msgstr "Note"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
@@ -864,7 +864,7 @@ msgstr "Afficher dans la console"
 
 #: .\devices\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
-msgstr ""
+msgstr "Sidechains"
 
 #: .\devices\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
@@ -884,7 +884,7 @@ msgstr "Certains canaux sont encore en service. Les supprimer quand même?"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Sonogram"
-msgstr ""
+msgstr "Sonogramme"
 
 #: .\devices\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -964,7 +964,7 @@ msgstr "Ce port est déjà en service. Brancher plusieurs périphériques au mê
 
 #: .\devices\audiometer\sonopainter.cpp
 msgid "[SpectrumDisplay]Time"
-msgstr ""
+msgstr "Temps"
 
 #: .\devices\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1053,7 +1053,7 @@ msgstr "Volume"
 
 #: .\devices\audiometer\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
-msgstr ""
+msgstr "Waterfall"
 
 #: .\devices\base\automationunit.cpp
 msgid "[Automation]Write"

@@ -1,15 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-10 21:05+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
 
 #: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
 msgid "[VST]%(1) ignored, because it crashed before. "
@@ -20,9 +13,7 @@ msgid "[VST]Adding VST3 Plug-In %(1)..."
 msgstr "VST3プラグイン %(1) を追加しています..."
 
 #: .\modules\devices\vst\source\vstuseroption.cpp
-msgid ""
-"[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize "
-"on next startup?"
+msgid "[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize on next startup?"
 msgstr "初期化に失敗したVSTプラグインを次回起動時に再スキャンしますか？"
 
 #: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
@@ -67,12 +58,13 @@ msgstr "VSTプラグイン"
 
 #: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
 msgid "[FileType]VST2 Bank"
-msgstr ""
+msgstr "VST2バンク"
 
 #: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
 msgid "[FileType]VST2 Program"
-msgstr ""
+msgstr "VST2プログラム"
 
 #: .\modules\devices\vst\source\vst3\vst3presethandler.cpp
 msgid "[FileType]VST3 Preset"
-msgstr ""
+msgstr "VST3プリセット"
+
