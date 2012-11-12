@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
+"Last-Translator: <translator name> <janusz@grzybek.anet.pl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -135,10 +135,7 @@ msgid ""
 "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n"
 "\n"
 "This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
-"\n"
-"To działanie jest nieodwracalne."
+msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
@@ -170,7 +167,7 @@ msgstr "Eksportuj audio"
 
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Audio Input follows Selection"
-msgstr "Włącz automatyczny monitoring nagrywanych ścieżek audio"
+msgstr "Włącz nagrywanie i monitoring po zaznaczeniu ścieżki audio"
 
 #: .\engine\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Parts"
@@ -318,28 +315,20 @@ msgid ""
 "[Documents]Could not rename %(1)!\n"
 "\n"
 "The file is in use."
-msgstr ""
-"Nie można zmienić nazwy %(1)!\n"
-"\n"
-"Plik jest w użyciu."
+msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
 
 #: .\engine\base\documentrenamer.cpp
 msgid ""
 "[Documents]Could not rename the folder %(1)!\n"
 "\n"
 "A file in this folder is in use."
-msgstr ""
-"Nie można zmienić nazwy folderu %(1)!\n"
-"\n"
-"Plik z tego folder jest w użyciu."
+msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
 
 #: .\engine\automationediting\paramdraghandler.cpp
 msgid ""
 "[Automation]Create \"%(1)\" Automation\n"
 "on %(2)"
-msgstr ""
-"Utwórz automatykę \"%(1)\"\n"
-"na %(2)"
+msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
 
 #: .\engine\musicediting\partautomationdraghandler.cpp
 msgid "[Automation]Create \"%(1)\" Part Automation"
@@ -456,9 +445,7 @@ msgstr "Czy chcesz skopiować te zewnętrzne pliki do folderu Media?"
 msgid ""
 "[AudioCache]Do you want to delete all unused temporary audio files in cache "
 "folder?"
-msgstr ""
-"Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu "
-"pamięci podręcznej?"
+msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu pamięci podręcznej?"
 
 #: .\engine\song\songrenderer.cpp
 msgid "[SongRenderer]Do you want to delete the exported file?"
@@ -472,9 +459,7 @@ msgstr "Czy chcesz usunąć wyeksportowane pliki?"
 msgid ""
 "[MediaPoolFunctions]Do you want to delete the files that were recorded or "
 "created since the last time you saved?"
-msgstr ""
-"Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od "
-"czasu ostatniego zapisu?"
+msgstr "Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od czasu ostatniego zapisu?"
 
 #: .\engine\videoediting\songvideo.cpp
 msgid "[Video]Do you want to extract the audio to a new track?"
@@ -529,10 +514,7 @@ msgid ""
 "[Record]Dropouts occured during record. The drive used for recording might "
 "not be fast enough. Please consult the operating manual for advice on disc "
 "performance."
-msgstr ""
-"Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. "
-"Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku "
-"pomocy."
+msgstr "Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku pomocy."
 
 #: .\engine\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -926,7 +908,7 @@ msgstr "Wstaw na tej samej ścieżce"
 
 #: .\engine\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
-msgstr "Automatyczny monitoring nagrywanych ścieżek instrumentów"
+msgstr "Włącz nagrywanie i monitoring po zaznaczeniu ścieżki instrumentu"
 
 #: .\engine\musicediting\musicparttask.cpp
 msgid "[MusicPartEdit]Instrument Parts"
@@ -1169,17 +1151,13 @@ msgstr "Przenieś automatykę \"%(1)\""
 msgid ""
 "[Automation]Move \"%(1)\" Automation\n"
 "from %(3) to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"z %(3) do %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
 
 #: .\engine\automationediting\paramdraghandler.cpp
 msgid ""
 "[Automation]Move \"%(1)\" Automation\n"
 "to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"do %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
 
 #: .\engine\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -2009,9 +1987,7 @@ msgstr "Usuń ciszę"
 msgid ""
 "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY "
 "MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr ""
-"TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ "
-"ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
+msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
 
 #: .\engine\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Take"
@@ -2051,11 +2027,7 @@ msgid ""
 "\n"
 "The rate you set: %(1)\n"
 "The rate the device has: %(2)"
-msgstr ""
-"Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n"
-"\n"
-"Ustawiona częstotliwość: %(1)\n"
-"Częstotliwość urządzenia: %(2)"
+msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
 
 #: .\engine\song\songmaster.cpp
 msgid "[SongMaster]The song will be saved first.\n"
@@ -2255,15 +2227,7 @@ msgid ""
 "Realtime Processing: %(5)\n"
 "Include Master Effects: %(7)\n"
 "Filename: %(2)"
-msgstr ""
-"Zaktualizuj plik masteringu dla tego utworu:\n"
-"%(6)\n"
-"Wyjście: %(1)\n"
-"Długość %(3)\n"
-"Rozdzielczość: %(4)\n"
-"Przetwarzanie w czasie rzeczywistym: %(5)\n"
-"Dołącz efekty sumy: %(7)\n"
-"Nazwa pliku: %(2)"
+msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
