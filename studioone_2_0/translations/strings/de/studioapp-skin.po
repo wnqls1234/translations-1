@@ -286,7 +286,7 @@ msgstr "3"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[AppStoreWelcome]3. Click Activate Online to activate $APPNAME."
-msgstr "3. Klicken Sie auf \"Online akivieren\" um $APPNAME zu aktivieren."
+msgstr "3. Klicken Sie auf \"Online aktivieren\" um $APPNAME zu aktivieren."
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.OfflineActivation]3. Unlock this computer by entering the following Activation Code:"
@@ -594,15 +594,19 @@ msgstr "Offline aktivieren"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Activate Online"
-msgstr "Online akivieren"
+msgstr "Online aktivieren"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]Activate Online"
-msgstr "Online akivieren"
+msgstr "Online aktivieren"
 
 #: .\studioapp\skin\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "Aktivierung oder Upgrade"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Active"
+msgstr "Nur Aktive"
 
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Activity Meter"
@@ -726,6 +730,10 @@ msgstr "Alles"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]All"
+msgstr "Alle"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]All"
 msgstr "Alle"
 
 #: .\studioapp\skin\engine\audioexport.xml
@@ -1199,6 +1207,14 @@ msgstr "Cache"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "Cache-Aktivität"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.Registration]Cancel"
+msgstr "Abbrechen"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]Cancel"
+msgstr "Abbrechen"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -3341,6 +3357,10 @@ msgstr "Keine Spur ausgewählt"
 msgid "[MusicClipPreview]No track selected"
 msgstr "Keine Spur ausgewählt"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]None"
+msgstr "Keinen"
+
 #: .\studioapp\skin\engine\eventinspector.xml
 msgid "[AudioEventProperties]Normalize"
 msgstr "Normalisieren"
@@ -4362,12 +4382,12 @@ msgstr "In Ordner suchen..."
 msgid "[CommandEditorOption]Search:"
 msgstr "Suchen:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Select"
+msgstr "Auswählen"
+
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select All"
-msgstr "Alles auswählen"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select All"
 msgstr "Alles auswählen"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -4396,10 +4416,6 @@ msgstr "Bild auswählen"
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
-msgstr "Keinen auswählen"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select None"
 msgstr "Keinen auswählen"
 
 #: .\studioapp\skin\engine\inspector.xml

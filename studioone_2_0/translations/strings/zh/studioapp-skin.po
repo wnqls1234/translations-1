@@ -604,6 +604,10 @@ msgstr "在线激活"
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "激活或升级"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Active"
+msgstr "启动"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Activity Meter"
 msgstr "激活电平表"
@@ -726,6 +730,10 @@ msgstr "全部"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]All"
+msgstr "全部"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]All"
 msgstr "全部"
 
 #: .\studioapp\skin\engine\audioexport.xml
@@ -1199,6 +1207,14 @@ msgstr "缓存"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "激活缓存"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.Registration]Cancel"
+msgstr "取消"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]Cancel"
+msgstr "取消"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -3341,6 +3357,10 @@ msgstr "尚未选择音轨"
 msgid "[MusicClipPreview]No track selected"
 msgstr "尚未选择音轨"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]None"
+msgstr "无"
+
 #: .\studioapp\skin\engine\eventinspector.xml
 msgid "[AudioEventProperties]Normalize"
 msgstr "标准化"
@@ -4362,12 +4382,12 @@ msgstr "搜索文件夹..."
 msgid "[CommandEditorOption]Search:"
 msgstr "搜索:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Select"
+msgstr "选择"
+
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select All"
-msgstr "全选"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select All"
 msgstr "全选"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -4396,10 +4416,6 @@ msgstr "选择图像"
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
-msgstr "不选"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select None"
 msgstr "不选"
 
 #: .\studioapp\skin\engine\inspector.xml

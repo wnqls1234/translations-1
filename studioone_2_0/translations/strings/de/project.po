@@ -74,8 +74,7 @@ msgstr "CD-Brenner konnte nicht gefunden werden."
 
 #: .\project\project\projectcomponent.cpp
 msgid "[Project]Could not import file! The file format is unsupported."
-msgstr ""
-"Datei konnte nicht importiert werden! Das Dateiformat wird nicht unterstützt!"
+msgstr "Datei konnte nicht importiert werden! Das Dateiformat wird nicht unterstützt!"
 
 #: .\project\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]DDP image failed."
@@ -106,16 +105,8 @@ msgid "[ProjectFunctions]Disable Tracks"
 msgstr "Tracks deaktivieren"
 
 #: .\project\publish\ddpimagemaker.cpp
-msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"Möchten Sie ein DDP-Image erzeugen?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
+msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "Möchten Sie ein DDP-Image erzeugen?\n\nImage: %(1)\nLocation: %(2)"
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -209,25 +200,21 @@ msgstr "Attribut bearbeiten"
 msgid "[ProjectFunctions]Move Marker"
 msgstr "Marker verschieben"
 
+#: .\project\base\projectfunctions.cpp
+msgid "[ActionDescriptions]Move Track"
+msgstr "Track verschieben"
+
 #: .\project\publish\burnerdialog.cpp
 msgid "[BurnerDialog]No Device"
 msgstr "Kein Laufwerk"
 
 #: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
-msgstr ""
-"Es konnten nicht alle Tracks zur Audio-CD hinzugefügt werden, da maximal 80 "
-"Minuten erlaubt sind."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
+msgstr "Es konnten nicht alle Tracks zur Audio-CD hinzugefügt werden, da maximal 80 Minuten erlaubt sind."
 
 #: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
-msgstr ""
-"Es konnten nicht alle Tracks zur Audio-CD hinzugefügt werden, da maximal 99 "
-"Tracks erlaubt sind."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
+msgstr "Es konnten nicht alle Tracks zur Audio-CD hinzugefügt werden, da maximal 99 Tracks erlaubt sind."
 
 #: .\project\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
@@ -326,44 +313,15 @@ msgstr "Starten des Brennvorgangs mit %(1)-facher Geschwindigkeit"
 
 #: .\project\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
-msgstr ""
-"Starten des Schreibvorgangs für DDP-Image mit %(1)-facher Geschwindigkeit"
+msgstr "Starten des Schreibvorgangs für DDP-Image mit %(1)-facher Geschwindigkeit"
 
 #: .\project\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
-msgstr ""
-"Der EAN-Code wurde nicht richtig eingegeben.\n"
-"\n"
-"Er sollte aus genau 13 Ziffern bestehen.\n"
-"\n"
-"Beispiel: 036000291452\n"
-"\n"
-"Wenn Sie einen UPC haben, müssen Sie lediglich eine 0 am Anfang einfügen um "
-"einen gültigen EAN-Code zu erzeugen."
+msgid "[Project]The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "Der EAN-Code wurde nicht richtig eingegeben.\n\nEr sollte aus genau 13 Ziffern bestehen.\n\nBeispiel: 036000291452\n\nWenn Sie einen UPC haben, müssen Sie lediglich eine 0 am Anfang einfügen um einen gültigen EAN-Code zu erzeugen."
 
 #: .\project\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"Der ISRC-Code wurde nicht richtig eingegeben.\n"
-"\n"
-"Er sollte 12 Zeichen lang sein und ausschließlich alphanumerische Zeichen "
-"beinhalten.\n"
-"\n"
-"Beispiel: USPR37300012"
+msgid "[ProjectTrack]The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "Der ISRC-Code wurde nicht richtig eingegeben.\n\nEr sollte 12 Zeichen lang sein und ausschließlich alphanumerische Zeichen beinhalten.\n\nBeispiel: USPR37300012"
 
 #: .\project\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"
@@ -424,3 +382,4 @@ msgstr "Die Aktualisierung wurde abgebrochen."
 #: .\project\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(1) von %(2) Masterdateien wurden in %(3) aktualisiert."
+

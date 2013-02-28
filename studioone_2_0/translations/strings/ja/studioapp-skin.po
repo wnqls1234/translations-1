@@ -604,6 +604,10 @@ msgstr "オンラインでアクティベート"
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "アクティベートまたはアップデート"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Active"
+msgstr "有効"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Activity Meter"
 msgstr "アクティビティメーター"
@@ -726,6 +730,10 @@ msgstr "すべて"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]All"
+msgstr "すべて"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]All"
 msgstr "すべて"
 
 #: .\studioapp\skin\engine\audioexport.xml
@@ -1199,6 +1207,14 @@ msgstr "キャッシュ"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "キャッシュアクティビティ"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.Registration]Cancel"
+msgstr "キャンセル"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]Cancel"
+msgstr "キャンセル"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -2850,7 +2866,7 @@ msgstr "行方不明のファイルを検索"
 
 #: .\studioapp\skin\app\options.xml
 msgid "[EditingOption]Locate when clicked in empty space"
-msgstr "空のスペースをクリックすると検索"
+msgstr "空きスペースのクリックでカーソル移動"
 
 #: .\studioapp\skin\engine\audioexport.xml
 msgid "[AudioExport]Location"
@@ -3340,6 +3356,10 @@ msgstr "トラックが選択されていません"
 #: .\studioapp\skin\engine\mediapreview.xml
 msgid "[MusicClipPreview]No track selected"
 msgstr "トラックが選択されていません"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]None"
+msgstr "なし"
 
 #: .\studioapp\skin\engine\eventinspector.xml
 msgid "[AudioEventProperties]Normalize"
@@ -4362,12 +4382,12 @@ msgstr "ファイルを検索..."
 msgid "[CommandEditorOption]Search:"
 msgstr "検索:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Select"
+msgstr "選択"
+
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select All"
-msgstr "すべてを選択"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select All"
 msgstr "すべてを選択"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -4396,10 +4416,6 @@ msgstr "イメージを選択"
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
-msgstr "何も選択しない"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select None"
 msgstr "何も選択しない"
 
 #: .\studioapp\skin\engine\inspector.xml

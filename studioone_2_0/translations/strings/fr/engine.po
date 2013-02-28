@@ -8,6 +8,10 @@ msgstr ""
 msgid "[Automation]\"%(1)\" is already automated"
 msgstr "\"%(1)\" est déjà automatisé"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]$APPNAME detected audio synchronization problems during record.\nThe audio device seems to be in an unstable state. Please restart the device or select a larger block size."
+msgstr "$APPNAME a détecté des problèmes de synchronisation audio durant l'enregistrement.\nL'interface audio semble dans un état instable. Veuillez la faire redémarrer ou sélectionner une plus grande taille de bloc."
+
 #: .\engine\music\musicclip.cpp
 msgid "[MusicClip]%(1) beats"
 msgstr "%(1) temps"
@@ -28,6 +32,10 @@ msgstr "%(1) notes"
 msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) fichiers ont été trouvés dans %(1)"
 
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer](Empty)"
+msgstr "(Vide)"
+
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
 msgstr "(Incorporer à la partie)"
@@ -35,6 +43,10 @@ msgstr "(Incorporer à la partie)"
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Leave Part)"
 msgstr "(Sortir de la partie)"
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer](Muted)"
+msgstr "(Coupé)"
 
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -775,6 +787,10 @@ msgstr "Masquer la couche"
 #: .\engine\editing\trackcontroller.cpp
 msgid "[Track]Hide Track"
 msgstr "Masquer la piste"
+
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]Ignore"
+msgstr "Ignorer"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Image"
@@ -1943,6 +1959,10 @@ msgstr "Début"
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Status"
 msgstr "Statut"
+
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]Stop"
+msgstr "Arrêter"
 
 #: .\engine\base\model\markertrack.cpp
 msgid "[Marker]Stop"

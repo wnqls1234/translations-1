@@ -8,6 +8,10 @@ msgstr ""
 msgid "[Automation]\"%(1)\" is already automated"
 msgstr "\"%(1)\" wird bereits automatisiert"
 
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]$APPNAME detected audio synchronization problems during record.\nThe audio device seems to be in an unstable state. Please restart the device or select a larger block size."
+msgstr "$APPNAME hat Audiosynchronisierungsprobleme während der Aufnahme festgestellt.\nDas Audiogerät ist möglicherweise in einem instabilen Zustand. Bitte starten Sie das Gerät neu oder wählen Sie eine größere Blockgröße."
+
 #: .\engine\music\musicclip.cpp
 msgid "[MusicClip]%(1) beats"
 msgstr "%(1) Zählzeiten"
@@ -28,6 +32,10 @@ msgstr "%(1) Noten"
 msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) Dateien wurden in %(1) gefunden"
 
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer](Empty)"
+msgstr "(leer)"
+
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
 msgstr "(In Part verschieben)"
@@ -35,6 +43,10 @@ msgstr "(In Part verschieben)"
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Leave Part)"
 msgstr "Part verlassen"
+
+#: .\engine\song\stemrenderer.cpp
+msgid "[StemRenderer](Muted)"
+msgstr "(stumm)"
 
 #: .\engine\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -775,6 +787,10 @@ msgstr "Ebene ausblenden"
 #: .\engine\editing\trackcontroller.cpp
 msgid "[Track]Hide Track"
 msgstr "Spur ausblenden"
+
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]Ignore"
+msgstr "Ignorieren"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Image"
@@ -1943,6 +1959,10 @@ msgstr "Start"
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Status"
 msgstr "Status"
+
+#: .\engine\audio\audiotrackrecorder.cpp
+msgid "[Record]Stop"
+msgstr "Stopp"
 
 #: .\engine\base\model\markertrack.cpp
 msgid "[Marker]Stop"

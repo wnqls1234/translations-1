@@ -604,6 +604,10 @@ msgstr "Activer en ligne"
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "Activer ou mettre à niveau"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Active"
+msgstr "Active"
+
 #: .\studioapp\skin\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Activity Meter"
 msgstr "Indicateur d'activité"
@@ -726,6 +730,10 @@ msgstr "Tout"
 
 #: .\studioapp\skin\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]All"
+msgstr "Tous"
+
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]All"
 msgstr "Tous"
 
 #: .\studioapp\skin\engine\audioexport.xml
@@ -1199,6 +1207,14 @@ msgstr "Cache"
 #: .\studioapp\skin\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "Activité du cache"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.Registration]Cancel"
+msgstr "Annuler"
+
+#: .\studioapp\skin\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]Cancel"
+msgstr "Annuler"
 
 #: .\studioapp\skin\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -3341,6 +3357,10 @@ msgstr "Aucune piste sélectionnée"
 msgid "[MusicClipPreview]No track selected"
 msgstr "Aucune piste sélectionnée"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]None"
+msgstr "Aucun"
+
 #: .\studioapp\skin\engine\eventinspector.xml
 msgid "[AudioEventProperties]Normalize"
 msgstr "Normaliser"
@@ -4362,12 +4382,12 @@ msgstr "Chercher dans le dossier..."
 msgid "[CommandEditorOption]Search:"
 msgstr "Chercher:"
 
+#: .\studioapp\skin\engine\audioexport.xml
+msgid "[TrackExport]Select"
+msgstr "Sélectionner"
+
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select All"
-msgstr "Tout sélectionner"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select All"
 msgstr "Tout sélectionner"
 
 #: .\studioapp\skin\devices\devices.xml
@@ -4396,10 +4416,6 @@ msgstr "Sélectionner une image"
 
 #: .\studioapp\skin\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
-msgstr "Tout désélectionner"
-
-#: .\studioapp\skin\engine\audioexport.xml
-msgid "[TrackExport]Select None"
 msgstr "Tout désélectionner"
 
 #: .\studioapp\skin\engine\inspector.xml
