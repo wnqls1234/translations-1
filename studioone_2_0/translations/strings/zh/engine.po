@@ -111,7 +111,7 @@ msgstr "添加布局"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Add Layer"
-msgstr "添加布局"
+msgstr "添加层"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[Command]Add Layer"
@@ -131,7 +131,7 @@ msgstr "添加..."
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
-msgstr "已在媒体池中:"
+msgstr "已在素材池中:"
 
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
@@ -236,7 +236,7 @@ msgstr "改变播放模式"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Timestretch/Pitchshift Method"
-msgstr "改变变速/变调算法"
+msgstr "改变时间拉伸/变调算法"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Track Time Format"
@@ -517,7 +517,7 @@ msgstr "布局副本"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Duplicate Layer"
-msgstr "布局副本"
+msgstr "层副本"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[Command]Duplicate Layer"
@@ -525,7 +525,7 @@ msgstr "布局副本"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layers"
-msgstr "层副本"
+msgstr "分层副本"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Track"
@@ -726,7 +726,7 @@ msgstr "时间线匹配内容"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Flat"
-msgstr "平板"
+msgstr "平铺"
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Follow"
@@ -810,7 +810,7 @@ msgstr "导入文件"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
-msgstr "文件导入媒体池:"
+msgstr "文件导入素材池:"
 
 #: .\engine\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -838,7 +838,7 @@ msgstr "导入视频:"
 
 #: .\engine\pool\poolimportextension.cpp
 msgid "[Browser]Import to Pool"
-msgstr "导入媒体池"
+msgstr "导入素材池"
 
 #: .\engine\audio\audiocliphandler.cpp
 msgid "[AudioClipImporter]Importing..."
@@ -939,7 +939,7 @@ msgstr "尾音轨扩展"
 
 #: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Latch"
-msgstr "碰锁"
+msgstr "锁定"
 
 #: .\engine\base\model\eventlayer.cpp
 msgid "[Engine]Layer"
@@ -947,7 +947,7 @@ msgstr "层"
 
 #: .\engine\base\model\eventlayer.cpp
 msgid "[Engine]Layers"
-msgstr "层"
+msgstr "分层"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Length"
@@ -1164,11 +1164,11 @@ msgstr "移动事件"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Layer"
-msgstr "移动布局"
+msgstr "移动层"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Layers"
-msgstr "移动布局"
+msgstr "移除分层"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Track"
@@ -1200,7 +1200,7 @@ msgstr "移至源点"
 
 #: .\engine\application\musicloop\musicloop.cpp
 msgid "[FileType]Musicloop"
-msgstr "音池"
+msgstr "音乐loop"
 
 #: .\engine\editing\tracklistcomponent.cpp
 msgid "[Command]Mute"
@@ -1368,7 +1368,7 @@ msgstr "参数"
 
 #: .\engine\song\songcontroller.cpp
 msgid "[Command]Paste"
-msgstr "黏贴"
+msgstr "粘贴"
 
 #: .\engine\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Path"
@@ -1385,7 +1385,7 @@ msgstr "百分比"
 
 #: .\engine\song\songdocument.cpp
 msgid "[Engine]Pool"
-msgstr "媒体池"
+msgstr "素材池"
 
 #: .\engine\audio\audioeventtheme.cpp
 msgid "[Engine]Preview creation failed!"
@@ -1517,7 +1517,7 @@ msgstr "录音音块"
 
 #: .\engine\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Record Takes to Layers"
-msgstr "录音至布局"
+msgstr "录音至分层"
 
 #: .\engine\automationediting\automationtrackcomponent.cpp
 #: .\engine\automationediting\automationtracklistcomponent.cpp
@@ -1546,15 +1546,15 @@ msgstr "移除媒体池中的剪贴"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Layer"
-msgstr "移除布局"
+msgstr "移除层"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Remove Layer"
-msgstr "移除布局"
+msgstr "移除层"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
-msgstr "移除布局"
+msgstr "移除层"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -1602,7 +1602,7 @@ msgstr "移除视频"
 
 #: .\engine\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Remove from Pool"
-msgstr "从媒体池中移除"
+msgstr "从素材池中移除"
 
 #: .\engine\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Event"
@@ -1638,7 +1638,7 @@ msgstr "布局重命名"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Rename Layer..."
-msgstr "布局重命名..."
+msgstr "层重命名..."
 
 #: .\engine\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
@@ -1889,7 +1889,7 @@ msgstr "独奏"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Solo Layer"
-msgstr "布局独奏"
+msgstr "层独奏"
 
 #: .\engine\editing\tracklayercomponent.cpp
 msgid "[Command]Solo Layer"
@@ -1970,11 +1970,11 @@ msgstr "停止"
 
 #: .\engine\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
-msgstr "拉伸静音"
+msgstr "消除无声"
 
 #: .\engine\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
-msgstr "拉伸静音"
+msgstr "消除无声"
 
 #: .\engine\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
@@ -2050,7 +2050,7 @@ msgstr "无法导入此文件:"
 
 #: .\engine\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Timestretch"
-msgstr "变速"
+msgstr "时间拉伸"
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]Tiny"
@@ -2066,7 +2066,7 @@ msgstr "切换读取"
 
 #: .\engine\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Touch"
-msgstr "轻触"
+msgstr "触碰"
 
 #: .\engine\application\audioedit\audiotracktransformtask.cpp
 #: .\engine\application\musicedit\musictracktransformtask.cpp
@@ -2110,7 +2110,7 @@ msgstr "音轨"
 
 #: .\engine\automationediting\paramdraghandler.cpp
 msgid "[Automation]Transfer Automation"
-msgstr "走带自动控制"
+msgstr "传输自动控制"
 
 #: .\engine\application\musicedit\musictracktransformtask.cpp
 msgid "[TrackEdit]Transform to Audio Track"
@@ -2194,11 +2194,11 @@ msgstr "还原所取至音轨"
 
 #: .\engine\editing\takelist.cpp
 msgid "[Edit]Unpack Takes to existing Layers"
-msgstr "还原所取至存在布局"
+msgstr "还原所取至存在分层"
 
 #: .\engine\editing\takelist.cpp
 msgid "[Edit]Unpack Takes to new Layers"
-msgstr "还原所取至新布局"
+msgstr "还原所取至新分层"
 
 #: .\engine\song\songmaster.cpp
 msgid "[Command]Update Mastering File"
@@ -2258,7 +2258,7 @@ msgstr "写入自动控制"
 
 #: .\engine\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
-msgstr "X-巨大"
+msgstr "巨大"
 
 #: .\engine\song\songmaster.cpp
 msgid "[SongMaster]Yes"
