@@ -5,68 +5,70 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]%(1) ignored, because it crashed before. "
 msgstr "Zignorowano %(1), ponieważ generował błędy. "
 
-#: .\modules\devices\vst\source\vst3\vst3loader.cpp
+#: .\vst3\vst3loader.cpp
 msgid "[VST]Adding VST3 Plug-In %(1)..."
 msgstr "Dodawanie wtyczki VST3 %(1)..."
 
-#: .\modules\devices\vst\source\vstuseroption.cpp
+#: .\vstuseroption.cpp
 msgid ""
 "[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize "
 "on next startup?"
-msgstr "Czy chcesz przy następnym starcie przeskanować wtyczki VST, których nie udało się poprawnie zainicjować?"
+msgstr ""
+"Czy chcesz przy następnym starcie przeskanować wtyczki VST, których nie "
+"udało się poprawnie zainicjować?"
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]Found Plug-In Shell %(1)..."
 msgstr "Znaleziono powłokę wtyczki %(1)..."
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]Scan failed for %(1) Plug-In %(2)..."
 msgstr "Skanowanie %(1), wtyczki %(2), nie powiodło się..."
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]Scanning %(1) Plug-In %(2)..."
 msgstr "Skanowanie %(1), wtyczki %(2)..."
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]Scanning VST Plug-In %(1)..."
 msgstr "Skanowanie wtyczki VST %(1)..."
 
-#: .\modules\devices\vst\source\vstservicemain.cpp
+#: .\vstservicemain.cpp
 msgid "[VST]Support for VST 2.4 Audio Processors and Instruments"
 msgstr "Obsługa procesorów audio i instrumentów VST 2.4"
 
-#: .\modules\devices\vst\source\vstservicemain.cpp
+#: .\vstservicemain.cpp
 msgid "[VST]Support for VST 3.0 Audio Processors and Instruments"
 msgstr "Obsługa procesorów audio i instrumentów VST 3.0"
 
-#: .\modules\devices\vst\source\plugversion.h
+#: .\plugversion.h
 msgid "[VST]VST 2.4 Plug-In Support"
 msgstr "Obsługa wtyczek VST 2.4"
 
-#: .\modules\devices\vst\source\plugversion.h
+#: .\plugversion.h
 msgid "[VST]VST 3 Plug-In Support"
 msgstr "Obsługa wtyczek VST 3"
 
-#: .\modules\devices\vst\source\vst2\vstplugregistry.cpp
+#: .\vst2\vstplugregistry.cpp
 msgid "[VST]VST Plug-In %(1) failed to load!"
 msgstr "Nie udało się wczytać wtyczki VST %(1)!"
 
-#: .\modules\devices\vst\source\vstuseroption.cpp
+#: .\vstuseroption.cpp
 msgid "[VSTUserOption]VST Plug-Ins"
 msgstr "Wtyczki VST"
 
-#: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
+#: .\vst2\vstpresetfile.cpp
 msgid "[FileType]VST2 Bank"
 msgstr "Bank VST2"
 
-#: .\modules\devices\vst\source\vst2\vstpresetfile.cpp
+#: .\vst2\vstpresetfile.cpp
 msgid "[FileType]VST2 Program"
 msgstr "Program VST2"
 
-#: .\modules\devices\vst\source\vst3\vst3presethandler.cpp
+#: .\vst3\vst3presethandler.cpp
 msgid "[FileType]VST3 Preset"
 msgstr "Zestaw VST3"

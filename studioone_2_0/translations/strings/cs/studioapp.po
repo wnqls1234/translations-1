@@ -4,315 +4,334 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[FileType]$APPNAME Project"
 msgstr "$APPNAME Projekt"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[FileType]$APPNAME Song"
 msgstr "$APPNAME Píseň"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[FileType]$APPNAME Song Template"
 msgstr "$APPNAME Šablona Písně"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]$APPNAME can not shutdown right now!"
 msgstr "$APPNAME nelze nyní vypnout!"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "Přidat do projektu"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Add to Project"
 msgstr "Přidat do projektu"
 
-#: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
+#: .\appmigration.cpp
+msgid ""
+"[StudioApp]An older version of $APPNAME has been found on this computer."
 msgstr "Na tomto počítači byla nalezena starší verze $APPNAME."
 
-#: .\studioapp\source\appoptions.cpp
+#: .\studioapp.cpp
+msgid "[StudioApp]Artist Profile"
+msgstr "Profil umělce"
+
+#: .\appoptions.cpp
 msgid "[Options]Audio"
 msgstr "Zvuk"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Audio Files"
 msgstr "zvukové soubory"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Automation"
 msgstr "Automatizace"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Browser"
 msgstr "Prohlížeč"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Create a New Song"
 msgstr "Vytvořit novou píseň"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]Create an empty song"
 msgstr "Vytvořit prázdnou píseň"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Devices"
 msgstr "Zařízení"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Do Nothing"
 msgstr "Nedělat nic"
 
-#: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
+#: .\appmigration.cpp
+msgid ""
+"[StudioApp]Do you want to import the settings from the old version of "
+"$APPNAME?"
 msgstr "Přejete si načíst nastavení ze staré verze $APPNAME?"
 
-#: .\studioapp\source\projectdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
-msgstr "Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí nastavení pro nové projekty?"
+#: .\projectdocument.cpp
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Projects?"
+msgstr ""
+"Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí "
+"nastavení pro nové projekty?"
 
-#: .\studioapp\source\songdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
-msgstr "Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí nastavení pro nové písně?"
+#: .\songdocument.cpp
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Songs?"
+msgstr ""
+"Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí "
+"nastavení pro nové písně?"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Document"
 msgstr "Dokument"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Documents"
 msgstr "Dokumenty"
 
-#: .\studioapp\source\melodyneextension.cpp
+#: .\melodyneextension.cpp
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "Upravit pomocí Melodyne"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Editing"
 msgstr "Úpravy"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Effects"
 msgstr "Efekty"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]Empty Song"
 msgstr "Prázdná píseň"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]FX Chains"
 msgstr "Řetězce efektů"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]File"
 msgstr "Soubor"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]File Types"
 msgstr "Typy souborů"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "Soubory"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Home"
 msgstr "Domů"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Install Content"
 msgstr "Instalovat obsah"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Install Sound Set"
 msgstr "Instalovat zvukovou sadu"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Instruments"
 msgstr "Nástroje"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]MIDI"
 msgstr "MIDI"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[StudioApp]Master"
 msgstr "Mástr"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Musical Files"
 msgstr "Hudební soubory"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]New Project"
 msgstr "Nový projekt"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[StudioApp]New Project"
 msgstr "Nový projekt"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]New Project \"%(1)\"..."
 msgstr "Nový projekt \"%(1)\"..."
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]New Song"
 msgstr "Nová píseň"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]New Song"
 msgstr "Nová píseň"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Open Default Song/Project"
 msgstr "Otevřít výchozí píseň"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Open Last Song/Project"
 msgstr "Otevřít poslední píseň"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Pool"
 msgstr "Prostředky"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]Preferences"
 msgstr "Preference"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Presets"
 msgstr "Přednastavení"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Projects"
 msgstr "Projekty"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]Recent Files"
 msgstr "Poslední soubory"
 
-#: .\studioapp\source\melodyneextension.cpp
+#: .\melodyneextension.cpp
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Odebrat Melodyne"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Save As Template"
 msgstr "Uložit jako šablonu"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Scanning Sound Sets..."
 msgstr "Prohledávání zvukových sad..."
 
-#: .\studioapp\source\samplerextension.cpp
+#: .\samplerextension.cpp
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "Poslat do nového SampleOne"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Effects"
 msgstr "Zobrazit efekty"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Files"
 msgstr "Zobrazit soubory"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Home Page"
 msgstr "Zobrazit úvodní stránku"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Instruments"
 msgstr "Zobrazit nástroje"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Pool"
 msgstr "Zobrazit prostředky"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Show Project"
 msgstr "Zobrazit projekt"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Show Song"
 msgstr "Zobrazit píseň"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Sounds"
 msgstr "Zobrazit zvuky"
 
-#: .\studioapp\source\devicepresetrevealer.cpp
+#: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Browser"
 msgstr "Zobrazit v prohlížeči"
 
-#: .\studioapp\source\devicepresetrevealer.cpp
+#: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Console"
 msgstr "Zobrazit v konzoli"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Songs"
 msgstr "Písně"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "Instalace zvukové sady \"%(1)\" se nezdařila"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "Zvuková sada \"%(1)\" je již nainstalována."
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Sound Sets"
 msgstr "Zvukové sady"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Sets"
 msgstr "Zvukové sady"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Sounds"
 msgstr "Zvuky"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Start Page"
 msgstr "Úvodní stránka"
 
-#: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
+#: .\studioapp.cpp
+msgid ""
+"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
+"left."
 msgstr "Děkujeme, že jste vyzkoušeli $APPNAME. Zbývá vám %(1} startů programu."
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
 msgstr "Zvuková sada \"%(1)\" se stále používá (je otevřen soubor %(2))!"
 
-#: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]This is a demo version of $APPNAME. Save and certain other features are disabled."
-msgstr "Toto je demo verze ~APPNAME. Ukládání a určité další funkce jsou zakázané."
+#: .\studioapp.cpp
+msgid ""
+"[StudioApp]This is a demo version of $APPNAME. Save and certain other "
+"features are disabled."
+msgstr ""
+"Toto je demo verze ~APPNAME. Ukládání a určité další funkce jsou zakázané."
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Uninstall"
 msgstr "Odinstalovat"
 
-#: .\studioapp\source\devicebrowserextension.cpp
+#: .\devicebrowserextension.cpp
 msgid "[StudioApp]Used by"
 msgstr "Použito"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]User Files"
 msgstr "Uživatelské soubory"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Video Files"
 msgstr "Video soubory"
 
-#: .\studioapp\source\appfeatures.cpp
+#: .\appfeatures.cpp
 msgid "[Command]Video Player"
 msgstr "Video přehrávač"
 
-#: .\studioapp\source\appfeatures.cpp .\studioapp\source\documenthandler.cpp
+#: .\appfeatures.cpp .\documenthandler.cpp
 msgid "[Command]View"
 msgstr "Zobrazit"
 
-#: .\studioapp\source\projectdocument.cpp .\studioapp\source\songdocument.cpp
+#: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Pracovní plocha"
-

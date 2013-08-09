@@ -4,39 +4,43 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Files (*.*)"
 msgstr "すべてのファイル (*.*)"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Supported Files"
 msgstr "対応するすべてのファイル"
 
-#: .\ccl\platform\win\system\exceptionhandler.cpp
+#: .\win\system\exceptionhandler.cpp
 msgid "[Win32]An Unexpected Error occured in this Application or one of its Plug-ins!\nA Crash Dump has been created at:\n\n%(1)"
 msgstr "このアプリケーションまたはアプリケーションのプラグインで予期しないエラーが発生しました。\r\n次のロケーションにクラッシュダンプが作成されました:\r\n\r\n%(1)"
 
-#: .\ccl\platform\cocoa\gui\fileselector.cocoa.mm
+#: .\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
 msgstr "既存のファイル %(1) を置き換えますか？"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide"
 msgstr "隠す"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide Others"
 msgstr "他を隠す"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\notifyicon.cocoa.mm
+msgid "[Alert]Information"
+msgstr "情報"
+
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
 msgstr "を終了"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Services"
 msgstr "サービス"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Show All"
 msgstr "すべてを表示"
 

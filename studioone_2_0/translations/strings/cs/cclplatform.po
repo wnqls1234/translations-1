@@ -4,39 +4,51 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Files (*.*)"
 msgstr "Všechny soubory (*.*)"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Supported Files"
 msgstr "Všechny podporované soubory"
 
-#: .\ccl\platform\win\system\exceptionhandler.cpp
-msgid "[Win32]An Unexpected Error occured in this Application or one of its Plug-ins!\nA Crash Dump has been created at:\n\n%(1)"
-msgstr "V této aplikaci nebo v jednom z jejích plug-inů nastala neočekávaná chyba!\nV:\n\n%(1) byl vytvořen seznam nehod."
+#: .\win\system\exceptionhandler.cpp
+msgid ""
+"[Win32]An Unexpected Error occured in this Application or one of its Plug-"
+"ins!\n"
+"A Crash Dump has been created at:\n"
+"\n"
+"%(1)"
+msgstr ""
+"V této aplikaci nebo v jednom z jejích plug-inů nastala neočekávaná chyba!\n"
+"V:\n"
+"\n"
+"%(1) byl vytvořen seznam nehod."
 
-#: .\ccl\platform\cocoa\gui\fileselector.cocoa.mm
+#: .\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
 msgstr "Přejete si stávající soubor nahradit %(1) ?"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide"
 msgstr "Skrýt"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide Others"
 msgstr "Skrýt ostatní"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\notifyicon.cocoa.mm
+msgid "[Alert]Information"
+msgstr ""
+
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
 msgstr "Ukončit"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Services"
 msgstr "Služby"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Show All"
 msgstr "Zobrazit vše"
-

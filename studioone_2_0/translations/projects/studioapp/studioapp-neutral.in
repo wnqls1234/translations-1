@@ -52,6 +52,8 @@ print: Copying tables...
 @copyTable
 #define: $(table)=cubasehandler
 @copyTable
+#define: $(table)=sessionhandler
+@copyTable
 #define: $(table)=firestudio
 @copyTable
 #define: $(table)=midifile
@@ -73,6 +75,8 @@ print: Copying tables...
 #define: $(table)=vstservice
 @copyTable
 #define: $(table)=webupdater
+@copyTable
+#define: $(table)=dspshell
 @copyTable
 
 ; Extensions

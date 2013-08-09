@@ -4,83 +4,85 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\licenser\application\eulacomponent.cpp
+#: .\eulacomponent.cpp
 msgid "[Licenser]%(1) End User License Agreement"
 msgstr "%(1) 最终用户授权协议"
 
-#: .\licenser\application\authorizationhandler.cpp
+#: .\authorizationhandler.cpp
 msgid "[Licenser]%(1) requires access to your $APPCOMPANY user account."
 msgstr "%(1) 请求连接您的 $APPCOMPANY 用户账号."
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Command]Activation"
 msgstr "激活"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
 msgstr "额外的授权信息:\n"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "程序"
 
-#: .\licenser\application\authorizationhandler.cpp
+#: .\authorizationhandler.cpp
 msgid "[Licenser]Authorization"
 msgstr "授权"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]Copy to Clipboard"
 msgstr "复制到剪贴板"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]Invalid License File!"
 msgstr "无效的授权文件!"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "授权许可过期. 请重新激活$APPNAME."
 
-#: .\licenser\application\activationhandler.cpp
+#: .\activationhandler.cpp
 msgid "[Licenser]Please fill out the form completely."
 msgstr "请填写完整的表单."
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]Please restart $APPNAME for the changes to take effect."
 msgstr "重启$APPNAME以使改变生效."
 
-#: .\licenser\application\activationhandler.cpp
+#: .\activationhandler.cpp
 msgid "[Licenser]Refresh"
 msgstr "恢复"
 
-#: .\licenser\application\usercomponent.cpp
-msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+#: .\usercomponent.cpp
+msgid ""
+"[Licenser]Thank You! $APPNAME has been activated to run on this computer."
 msgstr "感谢注册! $APPNAME已经激活!"
 
-#: .\licenser\application\activationhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+#: .\activationhandler.cpp
+msgid ""
+"[Licenser]Thank You! An E-Mail has been sent to you with a link to activate "
+"your account."
 msgstr "谢谢！一个带有启动连接的邮件已经被发送至您的邮箱"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]The License has expired!"
 msgstr "试用期已满!"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]The License has not been issued for this computer!"
 msgstr "本机尚无授权许可!"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "此副本授权给 %(1)"
 
-#: .\licenser\application\userlicense.cpp
+#: .\userlicense.cpp
 msgid "[FileType]User License File"
 msgstr "用户授权文件"
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "没有找到授权许可! 请重新选择授权文件."
 
-#: .\licenser\application\usercomponent.cpp
+#: .\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "校验授权许可..."
-

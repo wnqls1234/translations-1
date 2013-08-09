@@ -4,315 +4,338 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[FileType]$APPNAME Project"
 msgstr "Projet $APPNAME"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[FileType]$APPNAME Song"
 msgstr "Morceau $APPNAME"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[FileType]$APPNAME Song Template"
 msgstr "Modèle de morceau $APPNAME"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]$APPNAME can not shutdown right now!"
 msgstr "$APPNAME ne peut pas se fermer maintenant!"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "Ajouter au projet"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Add to Project"
 msgstr "Ajouter au projet"
 
-#: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
-msgstr "Une version plus ancienne de $APPNAME a été trouvée sur cet ordinateur."
+#: .\appmigration.cpp
+msgid ""
+"[StudioApp]An older version of $APPNAME has been found on this computer."
+msgstr ""
+"Une version plus ancienne de $APPNAME a été trouvée sur cet ordinateur."
 
-#: .\studioapp\source\appoptions.cpp
+#: .\studioapp.cpp
+msgid "[StudioApp]Artist Profile"
+msgstr "Profil de l'artiste"
+
+#: .\appoptions.cpp
 msgid "[Options]Audio"
 msgstr "Audio"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Audio Files"
 msgstr "Fichiers audio"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Automation"
 msgstr "Automation"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Browser"
 msgstr "Navigateur"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Create a New Song"
 msgstr "Créer un nouveau morceau"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]Create an empty song"
 msgstr "Créer un morceau vide"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Devices"
 msgstr "Périphériques"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Do Nothing"
 msgstr "Ne rien faire"
 
-#: .\studioapp\source\appmigration.cpp
-msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
+#: .\appmigration.cpp
+msgid ""
+"[StudioApp]Do you want to import the settings from the old version of "
+"$APPNAME?"
 msgstr "Voulez-vous importer les réglages de l'ancienne version de $APPNAME?"
 
-#: .\studioapp\source\projectdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
-msgstr "Voulez-vous faire que la configuration d'entrée/sortie actuelle devienne celle par défaut pour les nouveaux projets?"
+#: .\projectdocument.cpp
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Projects?"
+msgstr ""
+"Voulez-vous faire que la configuration d'entrée/sortie actuelle devienne "
+"celle par défaut pour les nouveaux projets?"
 
-#: .\studioapp\source\songdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
-msgstr "Voulez-vous faire que la configuration d'entrée/sortie actuelle devienne celle par défaut pour les nouveaux morceaux?"
+#: .\songdocument.cpp
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Songs?"
+msgstr ""
+"Voulez-vous faire que la configuration d'entrée/sortie actuelle devienne "
+"celle par défaut pour les nouveaux morceaux?"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Document"
 msgstr "Document"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Documents"
 msgstr "Documents"
 
-#: .\studioapp\source\melodyneextension.cpp
+#: .\melodyneextension.cpp
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "Éditer avec Melodyne"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Editing"
 msgstr "Édition"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Effects"
 msgstr "Effets"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]Empty Song"
 msgstr "Morceau vide"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]FX Chains"
 msgstr "Chaînes d'effets"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]File"
 msgstr "Fichier"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]File Types"
 msgstr "Types de fichier"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "Fichiers"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Home"
 msgstr "Accueil"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Install Content"
 msgstr "Installer du contenu"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Install Sound Set"
 msgstr "Installer un jeu de sons"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Instruments"
 msgstr "Instruments"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]MIDI"
 msgstr "MIDI"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[StudioApp]Master"
 msgstr "Master"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Musical Files"
 msgstr "Fichiers musicaux"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]New Project"
 msgstr "Nouveau projet"
 
-#: .\studioapp\source\projectdocument.cpp
+#: .\projectdocument.cpp
 msgid "[StudioApp]New Project"
 msgstr "Nouveau projet"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]New Project \"%(1)\"..."
 msgstr "Nouveau projet \"%(1)\"..."
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]New Song"
 msgstr "Nouveau morceau"
 
-#: .\studioapp\source\songdocument.cpp
+#: .\songdocument.cpp
 msgid "[StudioApp]New Song"
 msgstr "Nouveau morceau"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Open Default Song/Project"
 msgstr "Ouvrir le morceau/projet par défaut"
 
-#: .\studioapp\source\appoptions.cpp
+#: .\appoptions.cpp
 msgid "[Options]Open Last Song/Project"
 msgstr "Ouvrir le dernier morceau/projet"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Pool"
 msgstr "Chutier"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]Preferences"
 msgstr "Préférences"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Presets"
 msgstr "Presets"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Projects"
 msgstr "Projets"
 
-#: .\studioapp\source\studioapp.cpp
+#: .\studioapp.cpp
 msgid "[StudioApp]Recent Files"
 msgstr "Fichiers récents"
 
-#: .\studioapp\source\melodyneextension.cpp
+#: .\melodyneextension.cpp
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Retirer Melodyne"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Save As Template"
 msgstr "Sauvegarder comme modèle"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Scanning Sound Sets..."
 msgstr "Analyse des jeux de sons"
 
-#: .\studioapp\source\samplerextension.cpp
+#: .\samplerextension.cpp
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "Envoyer à un nouveau SampleOne"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Effects"
 msgstr "Afficher les effets"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Files"
 msgstr "Afficher les fichiers"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Home Page"
 msgstr "Afficher la page d'accueil"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Instruments"
 msgstr "Afficher les instruments"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Pool"
 msgstr "Afficher le chutier"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Show Project"
 msgstr "Afficher le projet"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Show Song"
 msgstr "Afficher le morceau"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Command]Show Sounds"
 msgstr "Afficher les sons"
 
-#: .\studioapp\source\devicepresetrevealer.cpp
+#: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Browser"
 msgstr "Afficher dans le navigateur"
 
-#: .\studioapp\source\devicepresetrevealer.cpp
+#: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Console"
 msgstr "Afficher dans la console"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[StudioApp]Songs"
 msgstr "Morceaux"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "Échec de l'installation du jeu de sons \"%(1)\" ."
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "Le jeu de sons \"%(1)\" est déjà installé."
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Sound Sets"
 msgstr "Jeux de sons"
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Sets"
 msgstr "Jeux de sons"
 
-#: .\studioapp\source\sidebar.cpp
+#: .\sidebar.cpp
 msgid "[Sidebar]Sounds"
 msgstr "Sons"
 
-#: .\studioapp\source\documenthandler.cpp
+#: .\documenthandler.cpp
 msgid "[Command]Start Page"
 msgstr "Page d'accueil"
 
-#: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
-msgstr "Merci de votre intérêt pour $APPNAME. Il vous reste %(1) lancements de programme."
+#: .\studioapp.cpp
+msgid ""
+"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
+"left."
+msgstr ""
+"Merci de votre intérêt pour $APPNAME. Il vous reste %(1) lancements de "
+"programme."
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
 msgstr "Le jeu de sons \"%(1)\" est encore en service (%(2) fichiers ouverts)!"
 
-#: .\studioapp\source\studioapp.cpp
-msgid "[StudioApp]This is a demo version of $APPNAME. Save and certain other features are disabled."
-msgstr "Ceci est une version de démonstration de $APPNAME. La sauvegarde et certaines autres fonctions sont désactivées."
+#: .\studioapp.cpp
+msgid ""
+"[StudioApp]This is a demo version of $APPNAME. Save and certain other "
+"features are disabled."
+msgstr ""
+"Ceci est une version de démonstration de $APPNAME. La sauvegarde et "
+"certaines autres fonctions sont désactivées."
 
-#: .\studioapp\source\soundsethandler.cpp
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Uninstall"
 msgstr "Désinstaller"
 
-#: .\studioapp\source\devicebrowserextension.cpp
+#: .\devicebrowserextension.cpp
 msgid "[StudioApp]Used by"
 msgstr "Utilisé par"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]User Files"
 msgstr "Fichiers utilisateur"
 
-#: .\studioapp\source\sidebar.filetypes.cpp
+#: .\sidebar.filetypes.cpp
 msgid "[FileType]Video Files"
 msgstr "Fichiers vidéo"
 
-#: .\studioapp\source\appfeatures.cpp
+#: .\appfeatures.cpp
 msgid "[Command]Video Player"
 msgstr "Lecteur vidéo"
 
-#: .\studioapp\source\appfeatures.cpp .\studioapp\source\documenthandler.cpp
+#: .\appfeatures.cpp .\documenthandler.cpp
 msgid "[Command]View"
 msgstr "Affichage"
 
-#: .\studioapp\source\projectdocument.cpp .\studioapp\source\songdocument.cpp
+#: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Espace de travail"
-

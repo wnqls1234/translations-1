@@ -9,27 +9,27 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\modules\media\cdburn\source\gear\gearburner.cpp
+#: .\gear\gearburner.cpp
 msgid "[CDBurner]Burning Aborted by User"
 msgstr "Vypalování přerušeno uživatelem."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Busy"
 msgstr "Zaneprázdněn"
 
-#: .\modules\media\cdburn\source\plugversion.h
+#: .\plugversion.h
 msgid "[CDBurner]CD Burning Support"
 msgstr "Podpora vypalování CD"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Checking Device"
 msgstr "Kontrola zařízení"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Closing..."
 msgstr "Zavírání..."
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid ""
 "[DDPImageMaker]Do you want to create a DDP image?\n"
 "\n"
@@ -43,102 +43,102 @@ msgstr ""
 "Soubor DDPID: %(2)\n"
 "Umístění: %(3)"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Erasing"
 msgstr "Mazání"
 
-#: .\modules\media\cdburn\source\gear\geareraser.cpp
+#: .\gear\geareraser.cpp
 msgid "[CDBurner]Erasing Aborted by User"
 msgstr "Mazání přerušeno uživatelem"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Erasing..."
 msgstr "Mazání..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Finalizing"
 msgstr "Dokončování"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Finishing..."
 msgstr "Dokončování..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Formating"
 msgstr "Formátování"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]Generating DDP image files..."
 msgstr "Generování souboru DDP obrazu..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Idle"
 msgstr "Nečinné"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Illegal"
 msgstr "Zakázané"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Media is not readable"
 msgstr "Medium není čitelné"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]No media in disc drive"
 msgstr "V mechanice není médium"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Physicalizing"
 msgstr "Physicalizing"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing track"
 msgstr "Příprava stopy"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing..."
 msgstr "Příprava..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading"
 msgstr "Čtení"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading Disc Info"
 msgstr "Načítání informací o disku"
 
-#: .\modules\media\cdburn\source\cdburnmain.cpp
+#: .\cdburnmain.cpp
 msgid "[CDBurner]Support for Audio CD Burning"
 msgstr "Podpora pro vypalování zvukového CD"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]There was an error during the DDP image creation!"
 msgstr "Během tvorby DDP obrazu nastala chyba!"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Unknown media"
 msgstr "Neznámé médium"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Verifying"
 msgstr "Ověření"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Verifying..."
 msgstr "Ověřování..."
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Write Speed"
 msgstr "Rychlost zápisu"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Writing"
 msgstr "Zapisování"
 
-#: .\modules\media\cdburn\source\gear\gearimagewriter.cpp
+#: .\gear\gearimagewriter.cpp
 msgid "[GearDevice]Writing "
 msgstr "Zapisování"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Writing track"
 msgstr "Zápis stopy"

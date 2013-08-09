@@ -11,126 +11,136 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.8.0\n"
 
-#: .\modules\media\cdburn\source\gear\gearburner.cpp
+#: .\gear\gearburner.cpp
 msgid "[CDBurner]Burning Aborted by User"
 msgstr "書き込みはユーザーにより中断されました"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Busy"
 msgstr "使用中です"
 
-#: .\modules\media\cdburn\source\plugversion.h
+#: .\plugversion.h
 msgid "[CDBurner]CD Burning Support"
 msgstr "CD書き込み対応"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Checking Device"
 msgstr "デバイスを確認しています"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Closing..."
 msgstr "閉じています..."
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
-msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nDDPID File: %(2)\nLocation: %(3)"
-msgstr "DDPイメージを作成しますか？\n\nイメージ: %(1)\nDDPIDファイル: %(2)\nロケーション: %(3)"
+#: .\mac\imagewriter.cpp
+msgid ""
+"[DDPImageMaker]Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"DDPID File: %(2)\n"
+"Location: %(3)"
+msgstr ""
+"DDPイメージを作成しますか？\n"
+"\n"
+"イメージ: %(1)\n"
+"DDPIDファイル: %(2)\n"
+"ロケーション: %(3)"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Erasing"
 msgstr "消去しています"
 
-#: .\modules\media\cdburn\source\gear\geareraser.cpp
+#: .\gear\geareraser.cpp
 msgid "[CDBurner]Erasing Aborted by User"
 msgstr "消去はユーザーにより中断されました"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Erasing..."
 msgstr "消去しています..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Finalizing"
 msgstr "ファイナライズしています"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Finishing..."
 msgstr "ファイナライズしています..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Formating"
 msgstr "フォーマットしています"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]Generating DDP image files..."
 msgstr "DDPイメージファイルを生成しています..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Idle"
 msgstr "休止中です"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Illegal"
 msgstr "イリーガル"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Media is not readable"
 msgstr "メディアは読めません"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]No media in disc drive"
 msgstr "ディスクドライブにメディアがありません"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Physicalizing"
 msgstr "フィジカライズしています"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing track"
 msgstr "トラックを準備しています..."
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing..."
 msgstr "準備しています..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading"
 msgstr "読み取っています"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading Disc Info"
 msgstr "ディスク情報を読み取っています"
 
-#: .\modules\media\cdburn\source\cdburnmain.cpp
+#: .\cdburnmain.cpp
 msgid "[CDBurner]Support for Audio CD Burning"
 msgstr "オーディオCD書き込み対応"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]There was an error during the DDP image creation!"
 msgstr "DDPイメージ作成中にエラーが発生しました。"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Unknown media"
 msgstr "不明なメディアです"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Verifying"
 msgstr "検証しています"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Verifying..."
 msgstr "検証しています..."
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Write Speed"
 msgstr "書き込みスピード"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Writing"
 msgstr "書き込んでいます"
 
-#: .\modules\media\cdburn\source\gear\gearimagewriter.cpp
+#: .\gear\gearimagewriter.cpp
 msgid "[GearDevice]Writing "
 msgstr "書き込んでいます"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Writing track"
 msgstr "トラックを書き込んでいます"

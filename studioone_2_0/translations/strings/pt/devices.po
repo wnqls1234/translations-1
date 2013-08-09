@@ -4,1062 +4,1096 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]%(1) FPS"
+msgstr ""
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixer available in network"
+msgstr ""
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixers available in network"
+msgstr ""
+
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]%(1) samples"
 msgstr "%(1) samples"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]%(1) to %(2)"
 msgstr "%(1) para %(2)"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]%float(1:1) times faster than realtime"
 msgstr "%float(1:1) vezes mais rápido que em tempo real"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]%float(1:1) times slower than realtime"
 msgstr "%float(1:1) vezes mais lento que em tempo real"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Já existe um dispositivo com este nome."
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Add / Remove Parameters..."
 msgstr "Adicionar / Remover Parâmetros..."
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Adicionar Canal Bus"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Adicionar Canal"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
+#: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Add Device"
 msgstr "Adicionar Dispositivo"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Add Device"
 msgstr "Adicionar Dispositivo"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Add Device:"
 msgstr "Adicionar Dispositivo:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Add Effect:"
 msgstr "Adicionar Efeito:"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add FX Channel"
 msgstr "Adicionar Canal FX"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[Command]Add FX Channel"
 msgstr "Adicionar Canal FX"
 
-#: .\devices\framework\audio\insertfxdraghandler.cpp
+#: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Adicionar FX no Canal \"%(1)\""
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[Command]Add Group Channel"
 msgstr "Adicionar Grupo de Canal"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Insert"
+msgstr "Adicionar Inserção"
+
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Add Instrument:"
 msgstr "Adicionar Instrumento:"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Send"
+msgstr "Adicionar Envio (Send)"
+
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Add Send:"
 msgstr "Adicionar Envio (Send):"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Add Sound..."
+msgstr ""
+
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Tudo"
 
-#: .\devices\musicmixer\musiciomanager.cpp
+#: .\musicmixer\musiciomanager.cpp
 msgid "[MusicDevices]All Inputs"
 msgstr "Todas as Entradas"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Ocorreu um sinal inválido."
 
-#: .\devices\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+#: .\mixerconsole\mixerconsole.cpp
+msgid ""
+"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Tem certeza que deseja enviar esses canais para a lixeira?"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+#: .\mixerconsole\mixerconsole.cpp
+msgid ""
+"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr "Tem certeza que deseja enviar esse canal para a lixeira?"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "Atribuir %(1) a %(2) em %(3)"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "Atribuir Comando..."
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Assign Current Parameter"
 msgstr "Atribuir parâmetro atual"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Parameter"
 msgstr "Atribuir parâmetro"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Audio"
 msgstr "Áudio"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Audio"
 msgstr "Áudio"
 
-#: .\devices\audiomixer\audiomixer.cpp
+#: .\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "Canais de Áudio"
 
-#: .\devices\audioeffects\audiofxpresethandler.cpp
+#: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
 msgstr "Preset de Efeito de Áudio"
 
-#: .\devices\audioeffects\audiofxmanager.cpp
+#: .\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
 msgstr "Efeitos de Áudio"
 
-#: .\devices\audiomixer\audioiomanager.cpp
+#: .\audiomixer\audioiomanager.cpp
 msgid "[AudioIOManager]Audio I/O Manager"
 msgstr "Gerenciador de E/S de Áudio"
 
-#: .\devices\audiomixer\setup\audioiosetup.cpp
+#: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Audio I/O Setup"
 msgstr "Configuração de E/S de Áudio"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Audio Setup"
 msgstr "Configurações de Áudio"
 
-#: .\devices\audio\watchdogcomponent.cpp
+#: .\audio\watchdogcomponent.cpp
 msgid "[Devices]Audio engine overload."
 msgstr "Sobrecarga no Motor de Áudio."
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Auto: Off"
 msgstr "Aut. Desl."
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Automation"
 msgstr "Automação"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch"
 msgstr "Autopunch"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch In"
 msgstr "Entrada do Autopunch"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch Out"
 msgstr "Saída do Autopunch"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
 msgstr "Bus"
 
-#: .\devices\audiomixer\channels\audiogroupchannel.cpp
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\audiomixer\channels\audiogroupchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "Envios"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (on/off)"
 msgstr "Botão (Liga/Desl.)"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (press/release)"
 msgstr "Botão (Apertar/Soltar)"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]CH:"
 msgstr "CH:"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]CPU"
 msgstr "CPU"
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
 msgstr "Ch"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Channel"
 msgstr "Canal"
 
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Channel #"
 msgstr "Canal #"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Ck"
 msgstr "Ck"
 
-#: .\devices\transport\metronome.cpp
+#: .\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "Click"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
-msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+#: .\audiomixer\audiorenderengine.cpp
+msgid ""
+"[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "Ocorreu clipagem. O sinal foi excedido em %float(1:2) dB."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
 msgstr "Retrair"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Configure..."
 msgstr "Configurar..."
 
-#: .\devices\audiomixer\audiosendfolder.cpp
-#: .\devices\audiomixer\setup\audiomixersetup.cpp
-#: .\devices\mixerconsole\channelfilter.cpp
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
+#: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
 msgstr "Console"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Console"
 msgstr "Console"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[ChannelFilter]Console Scenes"
 msgstr "Cenas do Console"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Control Surface"
 msgstr "Superfície de Controle"
 
-#: .\devices\surfaces\surfacemanager.cpp
+#: .\surfaces\surfacemanager.cpp
 msgid "[SurfaceManager]Control Surface Manager"
 msgstr "Gerenciador de Superfície de Controle"
 
-#: .\devices\editor\paramselector.cpp
+#: .\editor\paramselector.cpp
 msgid "[ParamSelector]Controller"
 msgstr "Controlador"
 
-#: .\devices\audiomixer\cuemix\cuemixfolder.cpp
+#: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Level"
 msgstr "Nível da Mixagem Guia"
 
-#: .\devices\audiomixer\cuemix\cuemixfolder.cpp
+#: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Pan"
 msgstr "Pan da mixagem Guia"
 
-#: .\devices\transport\transportoptions.cpp
+#: .\transport\transportoptions.cpp
 msgid "[Command]Cursor follows Edit Position"
 msgstr "Cursor Segue Posição de Edição"
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Descrição"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Dispositivo Detectado %(1)"
 
-#: .\devices\studio\missingdevices.cpp
+#: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
 msgstr "Dispositivo/Porta"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Dispositivos"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Duplo (64 Bits)"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Automation]Edit %(1) Automation"
 msgstr "Edição de %(1) Automação"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
+#: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Edit Device"
 msgstr "Editar Dispositivo"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Edit Device"
 msgstr "Editar Dispositivo"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Edit..."
 msgstr "Editar..."
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Effects"
 msgstr "Efeitos"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr "Expansão"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]External Devices"
 msgstr "Dispositivos Externos"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT"
-msgstr "FFT"
-
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT Curve"
-msgstr "Curva FFT"
-
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "FX"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
 msgstr "Fader"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Fast"
-msgstr "Rápido"
-
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
 msgstr "Focus:"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Forward"
 msgstr "Em Frente"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
 msgstr "Compasso à Frente"
 
-#: .\devices\audiometer\sonopainter.cpp
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Freq"
-msgstr "Freq"
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
+"This device model features MIDI Learn."
+msgstr ""
+"Interface Genérica de Controle MIDI, utilize em dispositivos desconhecidos. "
+"Esse modelo de dispositivo oferece aprendizado MIDI."
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "Interface Genérica de Controle MIDI, utilize em dispositivos desconhecidos. Esse modelo de dispositivo oferece aprendizado MIDI."
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
+"device model features MIDI Learn. Connecting the send port is optional."
+msgstr ""
+"Teclado MIDI Genérico, utilize em dispositivos desconhecidos. Esse modelo de "
+"dispositivo oferece aprendizado MIDI. A conexão da porta de envio é opcional."
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "Teclado MIDI Genérico, utilize em dispositivos desconhecidos. Esse modelo de dispositivo oferece aprendizado MIDI. A conexão da porta de envio é opcional."
-
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
 msgstr "Global"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Global Mute"
 msgstr "Mute Global"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Global Solo"
 msgstr "Solo Global"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop End"
 msgstr "Ir ao Final do Loop"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop Start"
 msgstr "Ir ao Início do Loop"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Goto Time"
 msgstr "Ir para Tempo"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Time"
 msgstr "Ir para Tempo"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide"
 msgstr "Esconder"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Hide Channel"
 msgstr "Esconder Canal"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Hide Sources"
 msgstr "Esconder Fontes"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide Sources"
 msgstr "Esconder Fontes"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]Hold Length"
-msgstr "Manter Duração"
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]Idle"
+msgstr ""
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]In"
 msgstr "Entrada"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "Entrada"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
 msgstr "Entradas"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
 msgstr "Inserções"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Instrument"
 msgstr "Instrumento"
 
-#: .\devices\musicmixer\musictrackdevice.cpp
+#: .\musicmixer\musictrackdevice.cpp
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "Canais de Instrumento"
 
-#: .\devices\audiomixer\channels\audiosynthchannel.cpp
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\audiomixer\channels\audiosynthchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
 msgstr "Instrumentos"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Instruments"
 msgstr "Instrumentos"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
 msgstr "Teclado"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Knob"
 msgstr "Potenciômetro"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
 msgstr "Largo"
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Latch"
 msgstr "Tranca"
 
-#: .\devices\audioeffects\audiofxmonitor.cpp
+#: .\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "Latência"
 
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Level"
-msgstr "Nível"
-
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
 msgstr "Níveis"
 
-#: .\devices\surfaces\surfacedatapool.cpp
+#: .\surfaces\surfacedatapool.cpp
 msgid "[Surface]Loading Control Surface Data..."
 msgstr "Carregando Dados de Superfície de Controle..."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Loading Device: %(1)"
 msgstr "Carregando Dispositivo: %(1)"
 
-#: .\devices\studio\environment.cpp
+#: .\studio\environment.cpp
 msgid "[Environment]Loading Device: %(1)"
 msgstr "Carregando Dispositivo: %(1)"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Long"
-msgstr "Longo"
-
-#: .\devices\midi\midiengine.cpp
+#: .\midi\midiengine.cpp
 msgid "[Devices]MIDI Engine reset requested!"
 msgstr "Reinício do mecanismo MIDI solicitado! "
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]MIDI Port not found for Device %(1)!"
 msgstr "Porta MIDI não encontrada para o Dispositivo %(1)!"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Main"
 msgstr "Principal"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Medium"
-msgstr "Médio"
-
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Message"
 msgstr "Mensagem"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audioclick.cpp
+msgid "[FileType]Metronome Preset"
+msgstr ""
+
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
 msgstr "Silenciar (Mute)"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
 msgstr "Nome"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Name"
 msgstr "Nome"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Narrow"
 msgstr "Estreito"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Navigation"
 msgstr "Navegação"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Control Surface"
 msgstr "Nova Superfície de Controle"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Instrument"
 msgstr "Novo Instrumento"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Keyboard"
 msgstr "Novo Teclado"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Next Bank"
 msgstr "Próximo Banco"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Next Channel"
 msgstr "Próximo Canal"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Next Scene"
 msgstr "Próxima Cena"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]No Audio Device"
 msgstr "Sem Dispositivo de Áudio"
 
-#: .\devices\surfaces\editor\placementeditor.cpp
+#: .\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
 msgstr "Não há Superfícies de Controle instaladas que possam ser agrupadas."
 
-#: .\devices\studio\missingdevices.cpp
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]No Input"
+msgstr ""
+
+#: .\studio\missingdevices.cpp
 msgid "[Studio]No devices are missing."
 msgstr "Não há dispositivos perdidos."
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]None"
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]None"
 msgstr "Nada"
 
-#: .\devices\studio\portlist.cpp
+#: .\studio\portlist.cpp
 msgid "[PortList]None"
 msgstr "Nada"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "Não conectado"
 
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Note"
-msgstr "Nota"
-
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Octave"
-msgstr "Oitava"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "Abertura de Canal"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
 msgstr "Saídas"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Down Skip"
 msgstr "Pular Page Down"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Up Skip"
 msgstr "Pular Page Up"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Pan"
 msgstr "Pan"
 
-#: .\devices\editor\paramselector.cpp
+#: .\editor\paramselector.cpp
 msgid "[ParamSelector]Parameter"
 msgstr "Parâmetro"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Path"
 msgstr "Caminho"
 
-#: .\devices\externaleffects\externaleffectcomponent.cpp
-msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
-msgstr "Falha no plug-in Pipeline. O tamanho de buffer do dispositivo não corresponde ao tamanho de buffer do processamento. Altere a configuração de seu dispositivo de áudio (vincule o tamanho de buffer ao hardware)."
+#: .\externaleffects\externaleffectcomponent.cpp
+msgid ""
+"[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
+"match the processing buffersize. Please change your audio device setup (lock "
+"buffersize to hardware)."
+msgstr ""
+"Falha no plug-in Pipeline. O tamanho de buffer do dispositivo não "
+"corresponde ao tamanho de buffer do processamento. Altere a configuração de "
+"seu dispositivo de áudio (vincule o tamanho de buffer ao hardware)."
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
 msgstr "Reproduzir do Início do Loop."
 
-#: .\devices\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando finalizado..."
+#: .\music\setup\musicdevicesetup.cpp
+msgid ""
+"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
+"this message when finished..."
+msgstr ""
+"Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando "
+"finalizado..."
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "Porta"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Port not found!"
 msgstr "Porta não encontrada!"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Pós-Fader"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
+msgid "[Command]Precount"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Preroll"
 msgstr "Pré-Rolagem"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Previous Bank"
 msgstr "Banco Anterior"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Previous Channel"
 msgstr "Canal Anterior"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "Cena Anterior"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]RMS Length"
-msgstr "Duração RMS"
-
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Read"
 msgstr "Leitura"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Realtime"
 msgstr "Tempo Real"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Receive From"
 msgstr "Receber De"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
 msgstr "Parâmetros Recentes"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Record"
 msgstr "Gravação"
 
-#: .\devices\mixer\recordchannel.cpp
+#: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Record Enable Failed!"
 msgstr "Ativar para Gravação Falhou!"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Relative"
 msgstr "Relativo"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remote"
 msgstr "Remoto"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove"
 msgstr "Remover"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remove"
 msgstr "Remover"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove"
 msgstr "Remover"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Automation]Remove %(1) Automation"
 msgstr "Remoção de %(1) Automação"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Remove All"
 msgstr "Remover Tudo"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
 msgstr "Remover Tudo"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove All"
 msgstr "Remover Tudo"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Remove Channel"
 msgstr "Remover Canal"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr "Remover Parâmetro Atual"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Renomear Dispositivo"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename..."
 msgstr "Renomear..."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace Device:"
 msgstr "Substituir Dispositivo:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace Effect:"
 msgstr "Substituir Efeito:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace FX Chain \"%(1)\""
 msgstr "Substituir Cadeia de Efeitos \"%(1)\""
 
-#: .\devices\audio\audioengine.cpp
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Replace Sends:"
+msgstr ""
+
+#: .\audio\audioengine.cpp
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Reinício solicitado pelo Dispositivo de Áudio!"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr "Retornar para Início ao Interromper"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Zero"
 msgstr "Retornar a Zero"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Rewind"
 msgstr "Retroceder"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Rewind Bar"
 msgstr "Compasso Atrás"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
 msgstr "Salvando Dispositivo: %(1)"
 
-#: .\devices\studio\environment.cpp
+#: .\studio\environment.cpp
 msgid "[Environment]Saving Device: %(1)"
 msgstr "Salvando Dispositivo: %(1)"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Tela"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "Seleção de Cena 1"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 2"
 msgstr "Seleção de Cena 2"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 3"
 msgstr "Seleção de Cena 3"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 4"
 msgstr "Seleção de Cena 4"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 5"
 msgstr "Seleção de Cena 5"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
 msgstr "Nível de Envio"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Mute"
 msgstr "Mute do Envio"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Pan"
 msgstr "Pan do Envio"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Enviar Para"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
 msgstr "Configuração..."
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Shift Loop"
 msgstr "Deslocar Loop"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Shift Loop Backwards"
 msgstr "Deslocar Loop para Trás"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Short"
-msgstr "Curto"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show"
 msgstr "Mostrar"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel"
 msgstr "Exibir Canal"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "Exibir Editor de Canal"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Show Current Parameter"
 msgstr "Exibir Parâmetro Atual"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Show Destination"
 msgstr "Exibir Destino"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Instrument Editor"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Sources"
 msgstr "Exibir Fontes"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show Sources"
 msgstr "Exibir Fontes"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
 msgstr "Exibir Pista"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show Track"
 msgstr "Exibir Pista"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show in Console"
 msgstr "Exibir no Console"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
 msgstr "Sidechains"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "Simples (32 Bits)"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Slow"
-msgstr "Lento"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Small"
 msgstr "Pequeno"
 
-#: .\devices\audiomixer\setup\audioiosetup.cpp
-msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid ""
+"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
+"anyway?"
 msgstr "Algúns canais continuam em uso! Deseja removê-los mesmo assim?"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Sonogram"
-msgstr "Sonograma"
-
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
 msgstr "Velocidade:"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Start"
 msgstr "Início"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]Starting Audio Engine..."
 msgstr "Iniciando Mecanismo de Áudio..."
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Starting External Devices..."
 msgstr "Iniciando Dispositivos Externos..."
 
-#: .\devices\hardware\hardwaremixermanager.cpp
+#: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Starting Hardware Integration..."
 msgstr "Iniciando Integração de Hardware..."
 
-#: .\devices\midi\midiengine.cpp
+#: .\midi\midiengine.cpp
 msgid "[Devices]Starting MIDI Engine..."
 msgstr "Iniciando Mecanismo MIDI..."
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Stop"
 msgstr "Parar"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Store FX Chain..."
 msgstr "Armazenar Cadeia de Efeitos..."
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Sub"
 msgstr "Sub"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
 msgstr "Alternando para o Dispositivo de Áudio %(1)..."
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
 msgstr "Tc"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Text Display"
 msgstr "Exibição de Texto"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "O Modelo de Dispositivo \"%(1)\" não é mais utilizado. Deseja removê-lo dos Dispositivos de Usuário?"
+#: .\music\setup\musicdevicesetup.cpp
+msgid ""
+"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
+"to remove it from User Devices?"
+msgstr ""
+"O Modelo de Dispositivo \"%(1)\" não é mais utilizado. Deseja removê-lo dos "
+"Dispositivos de Usuário?"
 
-#: .\devices\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
-msgstr "O dispositivo de áudio %(1) não pode ser iniciado. Verifique suas configurações de hardware e tente novamente."
+#: .\audio\audioengine.cpp
+msgid ""
+"[Devices]The audio device %(1) could not be initialized. Please check your "
+"hardware configuration and try again."
+msgstr ""
+"O dispositivo de áudio %(1) não pode ser iniciado. Verifique suas "
+"configurações de hardware e tente novamente."
 
-#: .\devices\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "O dispositivo de áudio %(1) falhou na inicialização anterior. Deseja tentar novamente?"
+#: .\audio\audioengine.cpp
+msgid ""
+"[Devices]The audio device %(1) has failed to start correctly before. Do you "
+"want to try it again?"
+msgstr ""
+"O dispositivo de áudio %(1) falhou na inicialização anterior. Deseja tentar "
+"novamente?"
 
-#: .\devices\audio\watchdogcomponent.cpp
-msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
-msgstr "O mecanismo de áudio parou porque o sistema se tornou instável após uma sobrecarga no mecanismo de áudio."
+#: .\audio\watchdogcomponent.cpp
+msgid ""
+"[Devices]The audio engine has been stopped, because the system became "
+"unresponsive due to an overload in the audio engine."
+msgstr ""
+"O mecanismo de áudio parou porque o sistema se tornou instável após uma "
+"sobrecarga no mecanismo de áudio."
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Third Octave"
-msgstr "Terço de Oitava"
-
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Este dispositivo não pode ser removido neste momento!"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
-msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "Esta porta já está em uso. A conexão de múltiplos dispositivos na mesma porta pode ocasionar cópias na transmissão de eventos MIDI."
+#: .\music\setup\musicdevicedialog.cpp
+msgid ""
+"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
+"to the same port may lead to copied transmission of MIDI events."
+msgstr ""
+"Esta porta já está em uso. A conexão de múltiplos dispositivos na mesma "
+"porta pode ocasionar cópias na transmissão de eventos MIDI."
 
-#: .\devices\audiometer\sonopainter.cpp
-msgid "[SpectrumDisplay]Time"
-msgstr "Tempo"
-
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
 msgstr "Tempo"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Time"
 msgstr "Tempo"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Time elapsed:"
 msgstr "Tempo decorrido:"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Detached Console"
 msgstr "Alternar Console Destacado"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Loop"
 msgstr "Alternar Loop"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Size"
 msgstr "Alternar Tamanho"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Sources"
 msgstr "Alternar Fontes"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
 msgstr "Alternar Início"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Width"
+msgstr ""
+
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Total: %(1) of %(2)"
 msgstr "Total: %(1) de %(2)"
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Touch"
 msgstr "Toque"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Transmit value"
 msgstr "Transmissão de valor"
 
-#: .\devices\transport\metronome.cpp .\devices\transport\transportoptions.cpp
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\metronome.cpp .\transport\transportoptions.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Transport"
 msgstr "Transporte"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Transport"
 msgstr "Transporte"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"
 msgstr "Desfazer atribuição"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "Utilize para tocar um instrumento MIDI externo e gravar movimentos de controlador. Quando conectar a porta de recebimento, tenha cuidado para evitar eventos duplos no caso da mesma porta ser utilizada por um dispositivo do tipo Teclado."
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
+"controller movements. When connecting the receive port, be careful to avoid "
+"doubled events if the same port is used by a Keyboard device."
+msgstr ""
+"Utilize para tocar um instrumento MIDI externo e gravar movimentos de "
+"controlador. Quando conectar a porta de recebimento, tenha cuidado para "
+"evitar eventos duplos no caso da mesma porta ser utilizada por um "
+"dispositivo do tipo Teclado."
 
-#: .\devices\studio\missingdevices.cpp
+#: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
 msgstr "Utilizado por"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "Manter VU"
-
-#: .\devices\video\videoplayer.cpp
+#: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr "Tocador de Vídeo"
 
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]View"
 msgstr "Visualizar"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]View"
 msgstr "Visualizar"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
 msgstr "Volume"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Waterfall"
-msgstr "Cascata"
-
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Escrita"
 
-#: .\devices\music\musicdevicemanager.cpp
-msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
-
+#: .\music\musicdevicemanager.cpp
+msgid ""
+"[MusicDevices]Your MIDI configuration has changed. This might be due to "
+"removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não "
+"conectados atualmente. \n"
+"\n"
+"Deseja reconectar seus dispositivos externos agora?"

@@ -9,44 +9,44 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetbuilder.cpp
+#: .\soundsetbuilder.cpp
 msgid "[StudioApp]A Sound Set with the identifier \"%(1)\" already exists!"
 msgstr "Zvuková sada s identifikátorem \"%(1)\" již existuje!"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetproperties.cpp
+#: .\soundsetproperties.cpp
 msgid "[StudioApp]Are you sure you want to modify the Sound Set identifier?"
 msgstr "Jste si jist, že chcete změnit identifikátor zvukové sady?"
 
-#: .\extensions\development\soundsetbuilder\source\plugversion.h
+#: .\plugversion.h
 msgid "[StudioApp]Build your own Sound Sets for Studio One"
 msgstr "Vytvořte si pro Studio One vlastní zvukové sady"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetbuilder.cpp
+#: .\soundsetbuilder.cpp
 msgid "[StudioApp]Failed to create Sound Set!"
 msgstr "Nepodařilo se vytvořit zvukovou sadu!"
 
-#: .\extensions\development\soundsetbuilder\source\browserextension.cpp
+#: .\browserextension.cpp
 msgid "[StudioApp]Mount Folder as Sound Set"
 msgstr "Připojit složku jako zvukovou sadu"
 
-#: .\extensions\development\soundsetbuilder\source\browserextension.cpp
+#: .\browserextension.cpp
 msgid "[StudioApp]Pack Sound Set from Folder"
 msgstr "Rozbalit zvukovou sadu ze složky"
 
-#: .\extensions\development\soundsetbuilder\source\plugversion.h
+#: .\plugversion.h
 msgid "[StudioApp]Sound Set Builder"
 msgstr "Tvůrce zvukové sady"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetbuilder.cpp
+#: .\soundsetbuilder.cpp
 msgid "[StudioApp]Sound Set meta information is incomplete!"
 msgstr "Neúplné meta informace o zvukové sadě!"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetbuilder.cpp
+#: .\soundsetbuilder.cpp
 msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
 msgstr ""
 "Zvuková sada \"%(1)\" se aktuálně používá (soubory %(2) jsou otevřené)!"
 
-#: .\extensions\development\soundsetbuilder\source\soundsetproperties.cpp
+#: .\soundsetproperties.cpp
 msgid ""
 "[StudioApp]The Sound Set identifier is used to store references to files "
 "from the Sound Set inside documents. It has to be globally unique to avoid "
@@ -56,6 +56,6 @@ msgstr ""
 "na soubory zvukových sad. Aby se zabránilo konfliktům zvukových sad mezi "
 "různými uživateli, musí být tyto identifikátory celosvětově jedinečné."
 
-#: .\extensions\development\soundsetbuilder\source\browserextension.cpp
+#: .\browserextension.cpp
 msgid "[StudioApp]Unmount Sound Set Folder"
 msgstr "Odebrat složku zvukové sady"

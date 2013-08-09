@@ -11,27 +11,27 @@ msgstr ""
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
 
-#: .\modules\media\cdburn\source\gear\gearburner.cpp
+#: .\gear\gearburner.cpp
 msgid "[CDBurner]Burning Aborted by User"
 msgstr "Gravure interrompue par l'utilisateur"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Busy"
 msgstr "Occupé"
 
-#: .\modules\media\cdburn\source\plugversion.h
+#: .\plugversion.h
 msgid "[CDBurner]CD Burning Support"
 msgstr "Support de gravure CD"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Checking Device"
 msgstr "Vérification du périphérique"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Closing..."
 msgstr "Fermeture..."
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid ""
 "[DDPImageMaker]Do you want to create a DDP image?\n"
 "\n"
@@ -45,103 +45,102 @@ msgstr ""
 "Fichier DDPID: %(2)\n"
 "Emplacement: %(3)"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Erasing"
 msgstr "Effacement"
 
-#: .\modules\media\cdburn\source\gear\geareraser.cpp
+#: .\gear\geareraser.cpp
 msgid "[CDBurner]Erasing Aborted by User"
 msgstr "Effacement interrompu par l'utilisateur"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Erasing..."
 msgstr "Effacement..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Finalizing"
 msgstr "Finalisation"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Finishing..."
 msgstr "Finalisation..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Formating"
 msgstr "Formatage"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]Generating DDP image files..."
 msgstr "Production de fichiers images DDP..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Idle"
 msgstr "À l'arrêt"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Illegal"
 msgstr "Illégal"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Media is not readable"
 msgstr "Support illisible"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]No media in disc drive"
 msgstr "Pas de support dans le lecteur"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Physicalizing"
 msgstr "Matérialisation"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing track"
 msgstr "Préparation de la piste"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing..."
 msgstr "Préparation..."
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading"
 msgstr "Lecture"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading Disc Info"
 msgstr "Lecture des infos du disque"
 
-#: .\modules\media\cdburn\source\cdburnmain.cpp
+#: .\cdburnmain.cpp
 msgid "[CDBurner]Support for Audio CD Burning"
 msgstr "Prise en charge de la gravure de CD audio"
 
-#: .\modules\media\cdburn\source\mac\imagewriter.cpp
+#: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]There was an error during the DDP image creation!"
 msgstr "Une erreur est survenue pendant la création de l'image DDP!"
 
-#: .\modules\media\cdburn\source\base\mediainfo.cpp
+#: .\base\mediainfo.cpp
 msgid "[CDBurner]Unknown media"
 msgstr "Support inconnu"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Verifying"
 msgstr "Vérification"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Verifying..."
 msgstr "Vérification..."
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Write Speed"
 msgstr "Vitesse de gravure"
 
-#: .\modules\media\cdburn\source\gear\geardevice.cpp
+#: .\gear\geardevice.cpp
 msgid "[GearDevice]Writing"
 msgstr "Gravure"
 
-#: .\modules\media\cdburn\source\gear\gearimagewriter.cpp
+#: .\gear\gearimagewriter.cpp
 msgid "[GearDevice]Writing "
 msgstr "Écriture"
 
-#: .\modules\media\cdburn\source\mac\burner.cpp
+#: .\mac\burner.cpp
 msgid "[ProjectBurner]Writing track"
 msgstr "Gravure de la piste"
-

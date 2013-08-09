@@ -4,235 +4,241 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]All"
 msgstr "Vše"
 
-#: .\localizerapp\source\localizer.editor.cpp
-msgid "[Localizer]Are you sure you want to remove all orphaned translations?\n\nThis action cannot be undone."
-msgstr "Jste si opravdu jist, že chcete odstranit všechny samostatné překlady?\n\nTuto akci nelze odvolat zpět."
+#: .\localizer.editor.cpp
+msgid ""
+"[Localizer]Are you sure you want to remove all orphaned translations?\n"
+"\n"
+"This action cannot be undone."
+msgstr ""
+"Jste si opravdu jist, že chcete odstranit všechny samostatné překlady?\n"
+"\n"
+"Tuto akci nelze odvolat zpět."
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Localizer]Are you sure you want to revert all changes?"
 msgstr "Jste si jist, že chcete vrátit všechny změny?"
 
-#: .\localizerapp\source\languagepackbuilder.cpp
+#: .\languagepackbuilder.cpp
 msgid "[Command]Build Language Pack"
 msgstr "Vytvořit jazykový balíček"
 
-#: .\localizerapp\source\languagepackbuilder.cpp
+#: .\languagepackbuilder.cpp
 msgid "[Localizer]Build failed. See output window for further details."
-msgstr "Neúspěšné vytvoření. Pro další podrobnosti nahlédněte do výstupního okna."
+msgstr ""
+"Neúspěšné vytvoření. Pro další podrobnosti nahlédněte do výstupního okna."
 
-#: .\localizerapp\source\languagepackbuilder.cpp
+#: .\languagepackbuilder.cpp
 msgid "[Localizer]Build successful."
 msgstr "Úspěšné začlenění."
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Cleanup"
 msgstr "Vyčistit"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Close"
 msgstr "Zavřít"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Compile All"
 msgstr "Vše kompilovat"
 
-#: .\localizerapp\source\localizer.editor.scopelist.cpp
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.scopelist.cpp .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Context"
 msgstr "Kontext"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Copy"
 msgstr "Kopírovat"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Copy"
 msgstr "Kopírovat"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]Do you want to reset the view filter?"
 msgstr "Přejete si obnovit zobrazení filtru?"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Localizer]Do you want to save your changes?"
 msgstr "Přejete si vaše změny uložit?"
 
-#: .\localizerapp\source\localizer.editor.cpp
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.editor.cpp .\localizer.manager.cpp
 msgid "[Command]Edit"
 msgstr "Upravit"
 
-#: .\localizerapp\source\editfunctions.cpp
+#: .\editfunctions.cpp
 msgid "[Localizer]Edit Translation"
 msgstr "Upravit překlad"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Export"
 msgstr "Exportovat"
 
-#: .\localizerapp\source\localizer.editor.filelist.cpp
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.filelist.cpp .\localizer.editor.stringlist.cpp
 msgid "[Localizer]File"
 msgstr "Soubor"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]File"
 msgstr "Soubor"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Filter by Context"
 msgstr "Filtrovat podle obsahu"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Filter by Context"
 msgstr "Filtrovat podle obsahu"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Filter by File"
 msgstr "Filtrovat podle souboru"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Filter by File"
 msgstr "Filtrovat podle souboru"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Import"
 msgstr "Načíst"
 
-#: .\localizerapp\source\localizer.editor.filelist.cpp
+#: .\localizer.editor.filelist.cpp
 msgid "[Localizer]Items"
 msgstr "Položky"
 
-#: .\localizerapp\source\languagepackbuilder.cpp
+#: .\languagepackbuilder.cpp
 msgid "[Localizer]Language Build File"
 msgstr "Soubor vytvořeného jazyka "
 
-#: .\localizerapp\source\localizer.po.cpp
+#: .\localizer.po.cpp
 msgid "[FileType]MO File"
 msgstr "Soubor MO"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Navigation"
 msgstr "Navigace"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Next Item"
 msgstr "Následující položka"
 
-#: .\localizerapp\source\localizer.editor.occurancelist.cpp
+#: .\localizer.editor.occurancelist.cpp
 msgid "[Localizer]Occurance"
 msgstr "Výskyt"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Open"
 msgstr "Otevřít"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Original"
 msgstr "Původní"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]Orphaned"
 msgstr "Osiřeno"
 
-#: .\localizerapp\source\localizer.po.cpp
+#: .\localizer.po.cpp
 msgid "[FileType]PO Error: %(1) File: %(2), Line: %(3)"
 msgstr "Chyba PO: %(1) Soubor: %(2), řádek: %(3)"
 
-#: .\localizerapp\source\localizer.po.cpp
+#: .\localizer.po.cpp
 msgid "[FileType]PO File"
 msgstr "PO soubor"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Paste"
 msgstr "Vložit"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Paste"
 msgstr "Vložit"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Previous Item"
 msgstr "Předchozí položka"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Pseudo"
 msgstr "Falešné"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Redo"
 msgstr "Vpřed"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Reset Filter"
 msgstr "Resetovat filtr"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Reset Filter"
 msgstr "Resetovat filtr"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Revert"
 msgstr "Vrátit"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Save"
 msgstr "Uložit"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]Set To Original"
 msgstr "Nastavit jako původní"
 
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Set To Original"
 msgstr "Nastavit jako původní"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Localizer]Some files failed to load!"
 msgstr "Některé soubory se nepodařilo načíst!"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Localizer]Some files failed to save!"
 msgstr "Některé soubory se nepodařilo uložit!"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.text.cpp
+msgid "[FileType]Spreadsheet"
+msgstr ""
+
+#: .\localizer.editor.cpp
 msgid "[Command]Strip Context"
 msgstr "Lišta kontextu"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]This item is currently not displayed."
 msgstr "Tato položka se momentálně nezobrazuje."
 
-#: .\localizerapp\source\languagepackbuilder.cpp
+#: .\languagepackbuilder.cpp
 msgid "[Command]Tools"
 msgstr "Nástroje"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]Translated"
 msgstr "Přeloženo"
 
-#: .\localizerapp\source\localizer.editor.occurancelist.cpp
-#: .\localizerapp\source\localizer.editor.stringlist.cpp
+#: .\localizer.editor.occurancelist.cpp .\localizer.editor.stringlist.cpp
 msgid "[Localizer]Translation"
 msgstr "Překlad"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Undo"
 msgstr "Zpět"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Localizer]Untranslated"
 msgstr "Nepřeloženo"
 
-#: .\localizerapp\source\localizer.manager.cpp
+#: .\localizer.manager.cpp
 msgid "[Command]Update"
 msgstr "Aktualizace"
 
-#: .\localizerapp\source\localizer.editor.cpp
+#: .\localizer.editor.cpp
 msgid "[Command]View"
 msgstr "Zobrazit"
-

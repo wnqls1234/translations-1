@@ -5,43 +5,51 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Files (*.*)"
 msgstr "Wszystkie pliki (*.*)"
 
-#: .\ccl\platform\win\gui\fileselector.win.cpp
+#: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Supported Files"
 msgstr "Wszystkie obsługiwane pliki"
 
-#: .\ccl\platform\win\system\exceptionhandler.cpp
+#: .\win\system\exceptionhandler.cpp
 msgid ""
 "[Win32]An Unexpected Error occured in this Application or one of its Plug-"
 "ins!\n"
 "A Crash Dump has been created at:\n"
 "\n"
 "%(1)"
-msgstr "Wystąpił nieoczekiwany błąd w aplikacji lub jednej z wtyczek!\nZrzut pamięci został utworzony w:\n\n%(1)"
+msgstr ""
+"Wystąpił nieoczekiwany błąd w aplikacji lub jednej z wtyczek!\n"
+"Zrzut pamięci został utworzony w:\n"
+"\n"
+"%(1)"
 
-#: .\ccl\platform\cocoa\gui\fileselector.cocoa.mm
+#: .\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
 msgstr "Czy chcesz zastąpić istniejący plik %(1)?"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide"
 msgstr "Ukryj"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide Others"
 msgstr "Ukryj inne"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\notifyicon.cocoa.mm
+msgid "[Alert]Information"
+msgstr ""
+
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
 msgstr "Zakończ"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Services"
 msgstr "Usługi"
 
-#: .\ccl\platform\cocoa\gui\menu.cocoa.mm
+#: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Show All"
 msgstr "Pokaż wszystkie"

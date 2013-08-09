@@ -4,1062 +4,1098 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]%(1) FPS"
+msgstr ""
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixer available in network"
+msgstr ""
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixers available in network"
+msgstr ""
+
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]%(1) samples"
 msgstr "%(1) vzorků"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]%(1) to %(2)"
 msgstr "%(1) z %(2)"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]%float(1:1) times faster than realtime"
 msgstr "%float(1:1) krát rychleji, než reálný čas"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]%float(1:1) times slower than realtime"
 msgstr "%float(1:1) krát pomaleji, než reálný čas"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Zařízení s tímto názvem již existuje."
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Add / Remove Parameters..."
 msgstr "Přidat/odstranit parametry..."
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Přidat kanál sběrnice"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Přidat kanál"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
+#: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Add Device"
 msgstr "Přidat zařízení"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Add Device"
 msgstr "Přidat zařízení"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Add Device:"
 msgstr "Přidat zařízení:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Add Effect:"
 msgstr "Přidat efekt:"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add FX Channel"
 msgstr "Přidat efektový kanál"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[Command]Add FX Channel"
 msgstr "Přidat efektový kanál"
 
-#: .\devices\framework\audio\insertfxdraghandler.cpp
+#: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Přidat efekt na kanál \"%(1)\""
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[Command]Add Group Channel"
 msgstr "Přidat kanál Skupina"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Insert"
+msgstr "Přidat Insert efekt"
+
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Add Instrument:"
 msgstr "Přidat nástroj:"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Send"
+msgstr "Přidat Send"
+
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Add Send:"
 msgstr "Přidat Send:"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Add Sound..."
+msgstr ""
+
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Všechny"
 
-#: .\devices\musicmixer\musiciomanager.cpp
+#: .\musicmixer\musiciomanager.cpp
 msgid "[MusicDevices]All Inputs"
 msgstr "Všechny vstupy"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Vyksytl se neplatý signál."
 
-#: .\devices\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+#: .\mixerconsole\mixerconsole.cpp
+msgid ""
+"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Opravdu chcete přesunout tyto kanály do koše?"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+#: .\mixerconsole\mixerconsole.cpp
+msgid ""
+"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr "Opravdu si přejete přesunout tyto kanály do koše?"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "Přiřadit %(1) až %(2) na %(3)"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "Přiřadit příkaz..."
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Assign Current Parameter"
 msgstr "Přiřadit stávající parametr"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Parameter"
 msgstr "Přiřadit parametr"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Audio"
 msgstr "Zvuk"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Audio"
 msgstr "Zvuk"
 
-#: .\devices\audiomixer\audiomixer.cpp
+#: .\audiomixer\audiomixer.cpp
 msgid "[AudioMixer]Audio Channels"
 msgstr "Zvukové kanály"
 
-#: .\devices\audioeffects\audiofxpresethandler.cpp
+#: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
 msgstr "Přednastavení zvukového efektu"
 
-#: .\devices\audioeffects\audiofxmanager.cpp
+#: .\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
 msgstr "Zvukové efekty"
 
-#: .\devices\audiomixer\audioiomanager.cpp
+#: .\audiomixer\audioiomanager.cpp
 msgid "[AudioIOManager]Audio I/O Manager"
 msgstr "Správce zvukových vstupů/výstupů"
 
-#: .\devices\audiomixer\setup\audioiosetup.cpp
+#: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Audio I/O Setup"
 msgstr "Nastavení zvukových vstupů a výstupů"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Audio Setup"
 msgstr "Nastavení zvuku"
 
-#: .\devices\audio\watchdogcomponent.cpp
+#: .\audio\watchdogcomponent.cpp
 msgid "[Devices]Audio engine overload."
 msgstr "Přetížení zvukového enginu"
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Auto: Off"
 msgstr "Ne auto"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Automation"
 msgstr "Automatizace"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch"
 msgstr "Automaticky vstoupit a vystoupit"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch In"
 msgstr "Vstoupit dovnitř"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch Out"
 msgstr "Vystoupit ven"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
 msgstr "Sběrnice"
 
-#: .\devices\audiomixer\channels\audiogroupchannel.cpp
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\audiomixer\channels\audiogroupchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Busses"
 msgstr "Sběrnice"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (on/off)"
 msgstr "Tlačítko (zapnuto/vypnuto)"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (press/release)"
 msgstr "Tlačítko (stisknuto/nestisknuto)"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]CH:"
 msgstr "K.:"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]CPU"
 msgstr "CPU"
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
 msgstr "K."
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Channel"
 msgstr "Kanál"
 
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Channel #"
 msgstr "Kanál #"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Ck"
 msgstr "Hod."
 
-#: .\devices\transport\metronome.cpp
+#: .\transport\metronome.cpp
 msgid "[Command]Click"
 msgstr "Metronom"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
-msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+#: .\audiomixer\audiorenderengine.cpp
+msgid ""
+"[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "Vyskytl s klip. Signál byl %float(1:2) dB nad."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Collapse"
 msgstr "Sbalit"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Configure..."
 msgstr "Konfigurace..."
 
-#: .\devices\audiomixer\audiosendfolder.cpp
-#: .\devices\audiomixer\setup\audiomixersetup.cpp
-#: .\devices\mixerconsole\channelfilter.cpp
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
+#: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
 msgstr "Konzole"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Console"
 msgstr "Konzole"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[ChannelFilter]Console Scenes"
 msgstr "Scény konzole"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Control Surface"
 msgstr "Řídící plochy"
 
-#: .\devices\surfaces\surfacemanager.cpp
+#: .\surfaces\surfacemanager.cpp
 msgid "[SurfaceManager]Control Surface Manager"
 msgstr "Správce ovladačů"
 
-#: .\devices\editor\paramselector.cpp
+#: .\editor\paramselector.cpp
 msgid "[ParamSelector]Controller"
 msgstr "Ovladač"
 
-#: .\devices\audiomixer\cuemix\cuemixfolder.cpp
+#: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Level"
 msgstr "Úroveň mixu pro muzikanta"
 
-#: .\devices\audiomixer\cuemix\cuemixfolder.cpp
+#: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Pan"
 msgstr "Stereopozice mixu pro muzikanta"
 
-#: .\devices\transport\transportoptions.cpp
+#: .\transport\transportoptions.cpp
 msgid "[Command]Cursor follows Edit Position"
 msgstr "Kurzor následuje místo úprav"
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Popis"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Zjištěné zařízení %(1)"
 
-#: .\devices\studio\missingdevices.cpp
+#: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
 msgstr "Zařízení/Port"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Zařízení"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Dvojnásobné (64 Bit)"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Automation]Edit %(1) Automation"
 msgstr "Upravit %(1) automatizaci"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
+#: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Edit Device"
 msgstr "Upravit zařízení"
 
-#: .\devices\surfaces\editor\mappinghandler.cpp
+#: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Edit Device"
 msgstr "Upravit zařízení"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Edit..."
 msgstr "Upravit..."
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Effects"
 msgstr "Efekty"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr "Rozbalit"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]External Devices"
 msgstr "Externí zařízení"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT"
-msgstr "FFT"
-
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT Curve"
-msgstr "Křivka FFT"
-
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
 msgstr "Efekt"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
 msgstr "Fader"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Fast"
-msgstr "Rychle"
-
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
 msgstr "Zaměřit se na:"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Forward"
 msgstr "Dopředu"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Forward Bar"
 msgstr "Takt dopředu"
 
-#: .\devices\audiometer\sonopainter.cpp
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Freq"
-msgstr "Frekv"
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
+"This device model features MIDI Learn."
+msgstr ""
+"Použít obecnou řídící plochu pro neznámé zařízení. Tento model zařízení "
+"obsahuje zjišťování z MIDI."
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "Použít obecnou řídící plochu pro neznámé zařízení. Tento model zařízení obsahuje zjišťování z MIDI."
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
+"device model features MIDI Learn. Connecting the send port is optional."
+msgstr ""
+"Použít obecnou klaviaturu pro neznámé zařízení. Tento model zařízení "
+"obsahuje vlastnost zjišťování z MIDI. Případně lze připojit port pro "
+"vysílání."
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "Použít obecnou klaviaturu pro neznámé zařízení. Tento model zařízení obsahuje vlastnost zjišťování z MIDI. Případně lze připojit port pro vysílání."
-
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
 msgstr "Globální"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Global Mute"
 msgstr "Komplexní umlčení"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Global Solo"
 msgstr "Komplexní sólo"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop End"
 msgstr "Přeskočit na konec smyčky"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop Start"
 msgstr "Přeskočit na začátek smyčky"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Goto Time"
 msgstr "Přeskočit na čas"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Goto Time"
 msgstr "Přeskočit na čas"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide"
 msgstr "Skrýt"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Hide Channel"
 msgstr "Skrýt kanál"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Hide Sources"
 msgstr "Skrýt zdroje"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide Sources"
 msgstr "Skrýt zdroje"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]Hold Length"
-msgstr "Délka podržení"
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]Idle"
+msgstr ""
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]In"
 msgstr "Vstup"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "Vstupy"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
 msgstr "Vstupy"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
 msgstr "Ins. efekty"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Instrument"
 msgstr "Nástroj"
 
-#: .\devices\musicmixer\musictrackdevice.cpp
+#: .\musicmixer\musictrackdevice.cpp
 msgid "[MusicTrackDevice]Instrument Channels"
 msgstr "Nástrojové kanály"
 
-#: .\devices\audiomixer\channels\audiosynthchannel.cpp
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\audiomixer\channels\audiosynthchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Instruments"
 msgstr "Nástroje"
 
-#: .\devices\audiosynths\audiosynthfolder.cpp
+#: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Instruments"
 msgstr "Nástroje"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
 msgstr "Klaviatura"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Knob"
 msgstr "Otočná ovladač"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
 msgstr "Velké"
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Latch"
 msgstr "Západka"
 
-#: .\devices\audioeffects\audiofxmonitor.cpp
+#: .\audioeffects\audiofxmonitor.cpp
 msgid "[PerformanceMonitor]Latency"
 msgstr "Latence"
 
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Level"
-msgstr "Úroveň"
-
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]Levels"
 msgstr "Úrovně"
 
-#: .\devices\surfaces\surfacedatapool.cpp
+#: .\surfaces\surfacedatapool.cpp
 msgid "[Surface]Loading Control Surface Data..."
 msgstr "Načítání dat řídící plochy..."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Loading Device: %(1)"
 msgstr "Načítání zařízení: %(1)"
 
-#: .\devices\studio\environment.cpp
+#: .\studio\environment.cpp
 msgid "[Environment]Loading Device: %(1)"
 msgstr "Načítání zařízení: %(1)"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Long"
-msgstr "Dlouhé"
-
-#: .\devices\midi\midiengine.cpp
+#: .\midi\midiengine.cpp
 msgid "[Devices]MIDI Engine reset requested!"
 msgstr "Vyžadována obnova MIDI enginu!"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]MIDI Port not found for Device %(1)!"
 msgstr "Pro zařízení %(1) nebyl nalezen MIDI port!"
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Main"
 msgstr "Hlavní výstup"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Medium"
-msgstr "Střední"
-
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Message"
 msgstr "Událost"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audioclick.cpp
+msgid "[FileType]Metronome Preset"
+msgstr ""
+
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
 msgstr "Umlčet"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
 msgstr "Název"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Name"
 msgstr "Název"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Narrow"
 msgstr "Úzké"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Navigation"
 msgstr "Navigace"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Control Surface"
 msgstr "Nový ovladač"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Instrument"
 msgstr "Nový nástroj"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
+#: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]New Keyboard"
 msgstr "Nová klaviatura"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Next Bank"
 msgstr "Následující Bank"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Next Channel"
 msgstr "Následující kanál"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Next Scene"
 msgstr "Následující scéna"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]No Audio Device"
 msgstr "Žádné zvukové zařízení"
 
-#: .\devices\surfaces\editor\placementeditor.cpp
+#: .\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
-msgstr "Není nainstalováno žádné ovládací zařízení, které by mohlo být sloučeno."
+msgstr ""
+"Není nainstalováno žádné ovládací zařízení, které by mohlo být sloučeno."
 
-#: .\devices\studio\missingdevices.cpp
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]No Input"
+msgstr ""
+
+#: .\studio\missingdevices.cpp
 msgid "[Studio]No devices are missing."
 msgstr "Nechybí žádné zařízení"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]None"
-msgstr "Není"
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]None"
+msgstr ""
 
-#: .\devices\studio\portlist.cpp
+#: .\studio\portlist.cpp
 msgid "[PortList]None"
 msgstr "Žádný"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "Nepřipojeno"
 
-#: .\devices\audiometer\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Note"
-msgstr "Nota"
-
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Octave"
-msgstr "Oktáva"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "Otevřít kanál"
 
-#: .\devices\mixerconsole\channelclassifier.cpp
+#: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
 msgstr "Výstupy"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Down Skip"
 msgstr "Poskočit o stránku dolů"
 
-#: .\devices\editor\deviceslotselector.cpp
+#: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Up Skip"
 msgstr "Poskočit o stránku nahoru"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Pan"
 msgstr "Stereopozice"
 
-#: .\devices\editor\paramselector.cpp
+#: .\editor\paramselector.cpp
 msgid "[ParamSelector]Parameter"
 msgstr "Parametr"
 
-#: .\devices\editor\performancemonitor.cpp
+#: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Path"
 msgstr "Umístění"
 
-#: .\devices\externaleffects\externaleffectcomponent.cpp
-msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
-msgstr "Selhání plug-inu Pipeline při startu. Velikost vyrovnávací paměti zvukového zařízení neodpovídá velikosti vyrovnávací paměti zpracování. Změňte prosím nastavní vašeho zvukového zařízení (uzamkněte velikost vyrovnávací paměti na hardwaru)."
+#: .\externaleffects\externaleffectcomponent.cpp
+msgid ""
+"[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
+"match the processing buffersize. Please change your audio device setup (lock "
+"buffersize to hardware)."
+msgstr ""
+"Selhání plug-inu Pipeline při startu. Velikost vyrovnávací paměti zvukového "
+"zařízení neodpovídá velikosti vyrovnávací paměti zpracování. Změňte prosím "
+"nastavní vašeho zvukového zařízení (uzamkněte velikost vyrovnávací paměti na "
+"hardwaru)."
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
 msgstr "Přehrát od začátku smyčky"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "nyní prosím připojte vaše MIDI zařízení a jakmile se připojení dokončí, zavřete tuto zprávu... "
+#: .\music\setup\musicdevicesetup.cpp
+msgid ""
+"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
+"this message when finished..."
+msgstr ""
+"nyní prosím připojte vaše MIDI zařízení a jakmile se připojení dokončí, "
+"zavřete tuto zprávu... "
 
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "Port"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Port not found!"
 msgstr "Port nenalezen!"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Za faderem"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
+msgid "[Command]Precount"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Preroll"
 msgstr "Před přehráváním"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Previous Bank"
 msgstr "Předchozí Bank"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Previous Channel"
 msgstr "Předchozí kanál"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "Předchozí scéna"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]RMS Length"
-msgstr "Délka RMS"
-
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Read"
 msgstr "Čtení"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Realtime"
 msgstr "Reálný čas"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Receive From"
 msgstr "Přijímat z"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
 msgstr "Poslední parametry"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Record"
 msgstr "Záznam"
 
-#: .\devices\mixer\recordchannel.cpp
+#: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Record Enable Failed!"
 msgstr "Selhalo povolení k záznamu!"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Relative"
 msgstr "Relativní"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remote"
 msgstr "Ovladač"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove"
 msgstr "Odstranit"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remove"
 msgstr "Odstranit"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove"
 msgstr "Odstranit"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Automation]Remove %(1) Automation"
 msgstr "Odstranit %(1) automatizaci"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Remove All"
 msgstr "Odstranit vše"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
 msgstr "Odstranit vše"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove All"
 msgstr "Odstranit vše"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Remove Channel"
 msgstr "Odstranit vše"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr "Odstranit stávající parametr"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Přejmenovat zařízení"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename..."
 msgstr "Přejmenovat..."
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace Device:"
 msgstr "Nahradit zařízení:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace Effect:"
 msgstr "Nahradit efekt:"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace FX Chain \"%(1)\""
 msgstr "Nahradit efektový řetězec \"%(1)\""
 
-#: .\devices\audio\audioengine.cpp
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Replace Sends:"
+msgstr ""
+
+#: .\audio\audioengine.cpp
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Zvukové zařízení vyžaduje reset!"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr "Při zastavení vrátit na začátek"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Zero"
 msgstr "Vrátit na nulu"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Rewind"
 msgstr "Převinout zpět"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Rewind Bar"
 msgstr "Převinout o takt zpět"
 
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
 msgstr "Ukládání zařízení: %(1)"
 
-#: .\devices\studio\environment.cpp
+#: .\studio\environment.cpp
 msgid "[Environment]Saving Device: %(1)"
 msgstr "Ukládání zařízení: %(1)"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Obrazovka"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "Vybrat scénu 1"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 2"
 msgstr "Vybrat scénu 2"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 3"
 msgstr "Vybrat scénu 3"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 4"
 msgstr "Vybrat scénu 4"
 
-#: .\devices\mixerconsole\channelfilter.cpp
+#: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 5"
 msgstr "Vybrat scénu 5"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
 msgstr "Úroveň Sendu"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Mute"
 msgstr "Umlčení Sendu"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Pan"
 msgstr "Stereopozice Sendu"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Vysílat do"
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
 msgstr "Nastavení..."
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Shift Loop"
 msgstr "Posunout smyčku"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Shift Loop Backwards"
 msgstr "Posunout smyčku dozadu"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Short"
-msgstr "Krátké"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show"
 msgstr "Zobrazit"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel"
 msgstr "Zobrazit kanál"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel Editor"
 msgstr "Zobrazit kanálový editor"
 
-#: .\devices\base\automationhandler.cpp
+#: .\base\automationhandler.cpp
 msgid "[Command]Show Current Parameter"
 msgstr "Zobrazit aktuální parametr"
 
-#: .\devices\audiomixer\audiosendfolder.cpp
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Show Destination"
 msgstr "Zobrazit umístění"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Instrument Editor"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Sources"
 msgstr "Zobrazit zdroje"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show Sources"
 msgstr "Zobrazit zdroje"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
 msgstr "Zobrazit stopu"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show Track"
 msgstr "Zobrazit stopu"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show in Console"
 msgstr "Zobrazit v konzoli"
 
-#: .\devices\audiomixer\audioinsertfolder.cpp
+#: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
 msgstr "Sidechainy"
 
-#: .\devices\audio\audiosetup.cpp
+#: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "Jednoduché (32 Bit)"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Slow"
-msgstr "Pomalu"
-
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Small"
 msgstr "Malé"
 
-#: .\devices\audiomixer\setup\audioiosetup.cpp
-msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid ""
+"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
+"anyway?"
 msgstr "Některé kanály jsou ještě používány! Přejete si je přesto odebrat?"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Sonogram"
-msgstr "Sonogram"
-
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
 msgstr "Rychlost:"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Start"
 msgstr "Start"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]Starting Audio Engine..."
 msgstr "Spouštění zvukového enginu..."
 
-#: .\devices\music\musicdevicemanager.cpp
+#: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Starting External Devices..."
 msgstr "Spouštění externích zařízení..."
 
-#: .\devices\hardware\hardwaremixermanager.cpp
+#: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Starting Hardware Integration..."
 msgstr "Spouštění hardwarové integrace..."
 
-#: .\devices\midi\midiengine.cpp
+#: .\midi\midiengine.cpp
 msgid "[Devices]Starting MIDI Engine..."
 msgstr "Spouštění MIDI enginu…"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Stop"
 msgstr "Zastavit"
 
-#: .\devices\audioeffects\audiofxfolder.cpp
+#: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Store FX Chain..."
 msgstr "Uložit efektový řetězec..."
 
-#: .\devices\audiomixer\audiochanneldescription.cpp
+#: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Sub"
 msgstr "Sub"
 
-#: .\devices\audio\audioengine.cpp
+#: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
 msgstr "Přepnout na zvukové zařízení %(1)..."
 
-#: .\devices\music\setup\musicdevicesetup.cpp
+#: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
 msgstr "Tc"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Text Display"
 msgstr "Zobrazit text"
 
-#: .\devices\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "Zařízení model \"%(1)\" již není využíváno. Přejete si odebrat jej z uživatelských zařízení?"
+#: .\music\setup\musicdevicesetup.cpp
+msgid ""
+"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
+"to remove it from User Devices?"
+msgstr ""
+"Zařízení model \"%(1)\" již není využíváno. Přejete si odebrat jej z "
+"uživatelských zařízení?"
 
-#: .\devices\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
-msgstr "Zvukové zařízení %(1) nelze inicializovat. Překontrolujte prosím vaší konfiguraci a zkuste to znovu."
+#: .\audio\audioengine.cpp
+msgid ""
+"[Devices]The audio device %(1) could not be initialized. Please check your "
+"hardware configuration and try again."
+msgstr ""
+"Zvukové zařízení %(1) nelze inicializovat. Překontrolujte prosím vaší "
+"konfiguraci a zkuste to znovu."
 
-#: .\devices\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "Zvukové zařízení %(1) se naposled nepodařilo spustit správně. Přejete si vyzkoušet to znovu?"
+#: .\audio\audioengine.cpp
+msgid ""
+"[Devices]The audio device %(1) has failed to start correctly before. Do you "
+"want to try it again?"
+msgstr ""
+"Zvukové zařízení %(1) se naposled nepodařilo spustit správně. Přejete si "
+"vyzkoušet to znovu?"
 
-#: .\devices\audio\watchdogcomponent.cpp
-msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
-msgstr "Zvukový engine byl zastaven, protože systém přestal reagovat kvůli přetížení ve zvukovému enginu."
+#: .\audio\watchdogcomponent.cpp
+msgid ""
+"[Devices]The audio engine has been stopped, because the system became "
+"unresponsive due to an overload in the audio engine."
+msgstr ""
+"Zvukový engine byl zastaven, protože systém přestal reagovat kvůli přetížení "
+"ve zvukovému enginu."
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Third Octave"
-msgstr "Třetina oktávy"
-
-#: .\devices\base\devicefolder.cpp
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Zařízení nelze nyní odebrat!"
 
-#: .\devices\music\setup\musicdevicedialog.cpp
-msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "Tento port je již používán. Připojení většího počtu zařízení ke stejnému portu může způsobit kopírovaní přenášených MIDI událostí."
+#: .\music\setup\musicdevicedialog.cpp
+msgid ""
+"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
+"to the same port may lead to copied transmission of MIDI events."
+msgstr ""
+"Tento port je již používán. Připojení většího počtu zařízení ke stejnému "
+"portu může způsobit kopírovaní přenášených MIDI událostí."
 
-#: .\devices\audiometer\sonopainter.cpp
-msgid "[SpectrumDisplay]Time"
-msgstr "Čas"
-
-#: .\devices\midi\midimonitor.cpp
+#: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
 msgstr "Čas"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Time"
 msgstr "Čas"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Time elapsed:"
 msgstr "Uplynutý čas:"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Detached Console"
 msgstr "Připevnit oddělenou konzoli"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Loop"
 msgstr "Přepnout stav smyčky"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Size"
 msgstr "Přepnout velikost"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Sources"
 msgstr "Připevnit zdroje"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
 msgstr "Připevnit začátek"
 
-#: .\devices\audiomixer\audiorenderengine.cpp
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Width"
+msgstr ""
+
+#: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Total: %(1) of %(2)"
 msgstr "Celkem: %(1) z %(2)"
 
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Touch"
 msgstr "Dotek"
 
-#: .\devices\surfaces\editor\controlcomponent.cpp
+#: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Transmit value"
 msgstr "Vyslat hodnotu"
 
-#: .\devices\transport\metronome.cpp .\devices\transport\transportoptions.cpp
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\metronome.cpp .\transport\transportoptions.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Command]Transport"
 msgstr "Pohyb"
 
-#: .\devices\transport\transportpanel.cpp
+#: .\transport\transportpanel.cpp
 msgid "[Transport]Transport"
 msgstr "Pohyb"
 
-#: .\devices\surfaces\editor\editcomponent.cpp
+#: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"
 msgstr "Nepřipojeno"
 
-#: .\devices\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "Slouží k přehrávání externího MIDI nástroje a záznamu pohybu ovladačů. Při připojení přijímače dávejte pozor, aby nedošlo ke zdvojení událostí v případě, že je klávesovým zařízením používán stejný port."
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid ""
+"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
+"controller movements. When connecting the receive port, be careful to avoid "
+"doubled events if the same port is used by a Keyboard device."
+msgstr ""
+"Slouží k přehrávání externího MIDI nástroje a záznamu pohybu ovladačů. Při "
+"připojení přijímače dávejte pozor, aby nedošlo ke zdvojení událostí v "
+"případě, že je klávesovým zařízením používán stejný port."
 
-#: .\devices\studio\missingdevices.cpp
+#: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
 msgstr "Používáno"
 
-#: .\devices\audiometer\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "Podržet VU"
-
-#: .\devices\video\videoplayer.cpp
+#: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr "Video přehrávač"
 
-#: .\devices\mixerconsole\channellistview.cpp
+#: .\mixerconsole\channellistview.cpp
 msgid "[MixerConsole]View"
 msgstr "Zobrazit"
 
-#: .\devices\mixerconsole\mixerconsole.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]View"
 msgstr "Zobrazit"
 
-#: .\devices\audiomixer\audiochannel.cpp
+#: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
 msgstr "Hlasitost"
 
-#: .\devices\audiometer\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Waterfall"
-msgstr "Vodopád"
-
-#: .\devices\base\automationunit.cpp
+#: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Zápis"
 
-#: .\devices\music\musicdevicemanager.cpp
-msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, které dosud nebylo připojeno.\n\nPřejete si nyní připojit toto externí zařízení?"
-
+#: .\music\musicdevicemanager.cpp
+msgid ""
+"[MusicDevices]Your MIDI configuration has changed. This might be due to "
+"removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, "
+"které dosud nebylo připojeno.\n"
+"\n"
+"Přejete si nyní připojit toto externí zařízení?"
