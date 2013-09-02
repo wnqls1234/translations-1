@@ -13,17 +13,8 @@ msgid "[FileSelector]All Supported Files"
 msgstr "Todos os Arquivos Suportados"
 
 #: .\win\system\exceptionhandler.cpp
-msgid ""
-"[Win32]An Unexpected Error occured in this Application or one of its Plug-"
-"ins!\n"
-"A Crash Dump has been created at:\n"
-"\n"
-"%(1)"
-msgstr ""
-"Ocorreu um erro inesperdo no aplicativo ou em um de seus plug-ins!\n"
-"Um despejo de memória foi criado em:\n"
-"\n"
-"%(1)"
+msgid "[Win32]An Unexpected Error occured in this Application or one of its Plug-ins!\nA Crash Dump has been created at:\n\n%(1)"
+msgstr "Ocorreu um erro inesperdo no aplicativo ou em um de seus plug-ins!\nUm despejo de memória foi criado em:\n\n%(1)"
 
 #: .\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
@@ -39,7 +30,7 @@ msgstr "Esconder Outros"
 
 #: .\cocoa\gui\notifyicon.cocoa.mm
 msgid "[Alert]Information"
-msgstr ""
+msgstr "Informação"
 
 #: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Quit"
@@ -52,3 +43,4 @@ msgstr "Serviços"
 #: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Show All"
 msgstr "Mostrar Tudo"
+

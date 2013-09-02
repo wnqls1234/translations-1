@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
@@ -538,7 +539,7 @@ msgstr "O $APPNAME"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Accent"
-msgstr ""
+msgstr "Akcent"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Accept"
@@ -622,7 +623,7 @@ msgstr "Aktywuj lub zaktualizuj"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Active"
-msgstr ""
+msgstr "Aktywne"
 
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Activity Meter"
@@ -1062,11 +1063,11 @@ msgstr "Banki"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Bars"
-msgstr ""
+msgstr "Takty"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Beat"
-msgstr ""
+msgstr "Bit"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Bend Marker"
@@ -1202,7 +1203,7 @@ msgstr "C"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]CC Automation Interval"
-msgstr ""
+msgstr "Interwał automatyki CC"
 
 #: .\devices\audiofxeditor.xml
 msgid "[AudioFXEditorHeaderView]CH"
@@ -1358,7 +1359,7 @@ msgstr "Podczas odtwarzania"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Click in Precount Only"
-msgstr "Tylko podczas odliczania"
+msgstr "Tylko podczas naliczania"
 
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
@@ -1874,7 +1875,7 @@ msgstr "Zakończ"
 
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]Dotted"
-msgstr ""
+msgstr "Z kropką"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioInput.Narrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
@@ -1930,7 +1931,7 @@ msgstr "Przeciągnij urządzenia pomiędzy grupami, aby zmienić ich lokalizacj�
 
 #: .\devices\transport.xml
 msgid "[Metronome]Drag file here to select additional sound"
-msgstr ""
+msgstr "Przeciągnij tutaj plik dodatkowego dźwięku"
 
 #: .\app\options.xml
 msgid "[EditingOption]Draw events translucent (grid shines through)"
@@ -2090,7 +2091,7 @@ msgstr "Koniec"
 
 #: .\app\options.xml
 msgid "[MusicOption]Enlarge record part to reveal notes recorded during precount"
-msgstr ""
+msgstr "Rozszerz nagrywaną partię na na nuty nagrane podczas naliczania"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorOption]Enter key:"
@@ -2290,7 +2291,7 @@ msgstr "Filtruj komunikaty Aftertouch"
 
 #: .\app\options.xml
 msgid "[MusicOption]Filter Pitch Bend"
-msgstr ""
+msgstr "Filtruj komunikaty Pitch Bend"
 
 #: .\app\options.xml
 msgid "[MusicOption]Filter Program Change"
@@ -2318,7 +2319,7 @@ msgstr "Ścieżki folderów"
 
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]Follow Quantize"
-msgstr ""
+msgstr "Dostosuj do kwantyzacji"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
@@ -2890,11 +2891,11 @@ msgstr "Lo Vel"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Load"
-msgstr ""
+msgstr "Wczytaj"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Load Preset"
-msgstr ""
+msgstr "Wczytaj zestaw"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Locate File..."
@@ -2954,7 +2955,7 @@ msgstr "Aktywuj pętlę @cmd[Transport|Toggle Loop]"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel.LoopPart]Loop length: @property[controller.loopLength]"
-msgstr ""
+msgstr "Długość pętli: @property[controller.loopLength]"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Loudness Information"
@@ -3082,11 +3083,11 @@ msgstr "Metronom @cmd[Transport|Click]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome @cmd[Transport|Click]"
-msgstr ""
+msgstr "Metronom @cmd[Transport|Click]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome Active"
-msgstr ""
+msgstr "Aktywność metronomu"
 
 #: .\app\windowclasses.xml
 msgid "[MetronomeSetup]Metronome Setup"
@@ -3422,11 +3423,11 @@ msgstr "Zastępuj nuty"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
-msgstr "Dodawaj nuty"
+msgstr "Powtarzaj nuty"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
-msgstr "Notatki"
+msgstr "Uwagi"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
@@ -3438,7 +3439,7 @@ msgstr "Oktawa"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Offbeat"
-msgstr ""
+msgstr "Off-bit"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventFXProperties]Offline"
@@ -3710,7 +3711,7 @@ msgstr "Odtwarzaj"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Play 6/8 click like 2 x 3/8 etc."
-msgstr ""
+msgstr "Odtwarzaj klik 6/8 jak 2 x 3/8 itp."
 
 #: .\engine\eventinspector.xml
 msgid "[AudioPartProperties]Play Mode"
@@ -3782,11 +3783,11 @@ msgstr "Wstępne nagrywanie wejścia audio"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Precount"
-msgstr ""
+msgstr "Naliczanie"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Precount / Preroll Bars"
-msgstr ""
+msgstr "Takty naliczania / odtwarzania"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Prefader On/Off"
@@ -3794,11 +3795,11 @@ msgstr "Przed tłumikiem"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Preroll"
-msgstr ""
+msgstr "Odtwarzanie przed nagrywaniem"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Preroll @cmd[Transport|Preroll]"
-msgstr "Naliczanie @cmd[Transport|Preroll]"
+msgstr "Odtwarzanie przed nagrywaniem @cmd[Transport|Preroll]"
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
@@ -3814,7 +3815,7 @@ msgstr "Zachowaj stan czasu rzeczywistego"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Preset"
-msgstr ""
+msgstr "Zestaw"
 
 #: .\ccl\browser.xml .\devices\audiofxeditor.xml
 msgid "[Command]Presets"
@@ -4274,7 +4275,7 @@ msgstr "Usuń wideo"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Render"
-msgstr ""
+msgstr "Wygeneruj"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventFXProperties]Render"
@@ -4286,11 +4287,11 @@ msgstr "Wygeneruj wszystkie kanały"
 
 #: .\devices\transport.xml
 msgid "[Command]Render Click"
-msgstr ""
+msgstr "Wygeneruj ścieżkę kliku"
 
 #: .\engine\audioexport.xml
 msgid "[RenderClick]Render Click"
-msgstr ""
+msgstr "Wygeneruj ścieżkę kliku"
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render Inserts"
@@ -4298,11 +4299,11 @@ msgstr "Wygeneruj inserty"
 
 #: .\engine\audioexport.xml
 msgid "[RenderClick]Render Loop Range"
-msgstr ""
+msgstr "Wygeneruj w zakresie pętli"
 
 #: .\engine\audioexport.xml
 msgid "[RenderClick]Render Range"
-msgstr ""
+msgstr "Wygeneruj zakres"
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
@@ -4310,7 +4311,7 @@ msgstr "Wygeneruj efekty insertowe do audio. Po odznaczeniu, inserty zostaną za
 
 #: .\devices\transport.xml
 msgid "[Metronome]Repeat Accent"
-msgstr ""
+msgstr "Powtarzaj akcent"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.Registration]Repeat Password"
@@ -4370,7 +4371,7 @@ msgstr "Wróć na początek @cmd[Transport|Return to Zero]"
 
 #: .\app\options.xml
 msgid "[MusicOption]Reveal precount notes"
-msgstr ""
+msgstr "Dodawaj nuty nagrane w czasie naliczania"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Rewind"
@@ -5206,11 +5207,11 @@ msgstr "Zatrzymuj odtwarzanie po otwarciu opcji"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Store"
-msgstr ""
+msgstr "Zapisz"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Store Preset"
-msgstr ""
+msgstr "Zapisz zestaw"
 
 #: .\engine\musicdialogs.xml
 msgid "[PitchNameEditor]Store Preset"
@@ -5374,7 +5375,7 @@ msgstr "Powiększenie linijki czasu"
 
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Time in current Track"
-msgstr ""
+msgstr "Czas w bieżącym utworze"
 
 #: .\ccl\overlays.xml
 msgid "[ProgressStepView]Time remaining:"
@@ -5410,7 +5411,7 @@ msgstr "Synchronizuj MIDI Timecode z aktywną pętlą"
 
 #: .\engine\audioexport.xml
 msgid "[RenderClick]Timeline Start To Song End"
-msgstr ""
+msgstr "Od początku lini czasu do końca utworu"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Timeruler Format"
@@ -5498,7 +5499,7 @@ msgstr "Nazwa ścieżki"
 
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Track Time"
-msgstr ""
+msgstr "Czas w utworze"
 
 #: .\project\project.xml
 msgid "[TrackControls]Track is disabled"
@@ -5894,11 +5895,11 @@ msgstr "Strona internetowa"
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Website"
-msgstr "Strona web"
+msgstr "Strona internetowa"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Website"
-msgstr "Strona web"
+msgstr "Strona internetowa"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Welcome to $APPNAME! Please select the version of $APPNAME you want to use."

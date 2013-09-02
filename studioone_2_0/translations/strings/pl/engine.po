@@ -3,10 +3,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]\"%(1)\" does not support the selected file format."
-msgstr ""
+msgstr "\"%(1)\" nie obsługuje wybranego formatu pliku."
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
@@ -34,7 +35,7 @@ msgstr "Znaleziono %(2) plików w %(1)"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
-msgstr ""
+msgstr "(Puste)"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
@@ -46,7 +47,7 @@ msgstr "(pozostaw partię)"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Muted)"
-msgstr ""
+msgstr "(Wyciszone)"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -146,10 +147,7 @@ msgid ""
 "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n"
 "\n"
 "This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
-"\n"
-"To działanie jest nieodwracalne."
+msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
@@ -222,7 +220,7 @@ msgstr "Wygeneruj audio z zaznaczenia"
 
 #: .\application\audioedit\audiobouncetask.cpp
 msgid "[AudioEdit]Bounce To New Track"
-msgstr ""
+msgstr "Wygeneruj na nową ścieżkę"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
@@ -333,28 +331,20 @@ msgid ""
 "[Documents]Could not rename %(1)!\n"
 "\n"
 "The file is in use."
-msgstr ""
-"Nie można zmienić nazwy %(1)!\n"
-"\n"
-"Plik jest w użyciu."
+msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
 
 #: .\base\documentrenamer.cpp
 msgid ""
 "[Documents]Could not rename the folder %(1)!\n"
 "\n"
 "A file in this folder is in use."
-msgstr ""
-"Nie można zmienić nazwy folderu %(1)!\n"
-"\n"
-"Plik z tego folder jest w użyciu."
+msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
 
 #: .\automationediting\paramdraghandler.cpp
 msgid ""
 "[Automation]Create \"%(1)\" Automation\n"
 "on %(2)"
-msgstr ""
-"Utwórz automatykę \"%(1)\"\n"
-"na %(2)"
+msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
 
 #: .\musicediting\partautomationdraghandler.cpp
 msgid "[Automation]Create \"%(1)\" Part Automation"
@@ -470,9 +460,7 @@ msgstr "Czy chcesz skopiować te zewnętrzne pliki do folderu Media?"
 msgid ""
 "[AudioCache]Do you want to delete all unused temporary audio files in cache "
 "folder?"
-msgstr ""
-"Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu "
-"pamięci podręcznej?"
+msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu pamięci podręcznej?"
 
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Do you want to delete the exported file?"
@@ -486,9 +474,7 @@ msgstr "Czy chcesz usunąć wyeksportowane pliki?"
 msgid ""
 "[MediaPoolFunctions]Do you want to delete the files that were recorded or "
 "created since the last time you saved?"
-msgstr ""
-"Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od "
-"czasu ostatniego zapisu?"
+msgstr "Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od czasu ostatniego zapisu?"
 
 #: .\videoediting\songvideo.cpp
 msgid "[Video]Do you want to extract the audio to a new track?"
@@ -543,10 +529,7 @@ msgid ""
 "[Record]Dropouts occured during record. The drive used for recording might "
 "not be fast enough. Please consult the operating manual for advice on disc "
 "performance."
-msgstr ""
-"Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. "
-"Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku "
-"pomocy."
+msgstr "Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku pomocy."
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -1066,7 +1049,7 @@ msgstr "Nagrywanie w pętli z zastępowaniem tych samych nut"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "Nagrywanie w pętli z dodawaniem tych samych nut"
+msgstr "Nagrywanie w pętli z powtarzaniem tych samych nut"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Takes"
@@ -1181,17 +1164,13 @@ msgstr "Przenieś automatykę \"%(1)\""
 msgid ""
 "[Automation]Move \"%(1)\" Automation\n"
 "from %(3) to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"z %(3) do %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
 
 #: .\automationediting\paramdraghandler.cpp
 msgid ""
 "[Automation]Move \"%(1)\" Automation\n"
 "to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"do %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1215,7 +1194,7 @@ msgstr "Przenieś warstwy"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Track"
-msgstr "Przenieś ścieżkę"
+msgstr "Przenieś utwór"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Track into Folder"
@@ -1235,7 +1214,7 @@ msgstr "Przenieś ścieżki"
 
 #: .\editing\trackdraghandler.cpp
 msgid "[TrackDragHandler]Move not possible"
-msgstr ""
+msgstr "Przeniesienie nie jest możliwe"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Move to Origin"
@@ -1247,7 +1226,7 @@ msgstr "Przenieś na początek"
 
 #: .\pool\mediaclipoperations.cpp
 msgid "[MediaClipOperations]Moving to Trash Bin..."
-msgstr ""
+msgstr "Przenoszenie do kosza"
 
 #: .\application\musicloop\musicloop.cpp
 msgid "[FileType]Musicloop"
@@ -1371,7 +1350,7 @@ msgstr "Zastępuj nuty"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Repeat"
-msgstr "Dodawaj nuty"
+msgstr "Powtarzaj nuty"
 
 #: .\song\stemrenderer.cpp
 msgid ""
@@ -1694,11 +1673,11 @@ msgstr "Zmień nazwę warstwy..."
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Render Click"
-msgstr ""
+msgstr "Wygeneruj ścieżkę kliku"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Render Click"
-msgstr ""
+msgstr "Wygeneruj ścieżkę kliku"
 
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
@@ -1710,7 +1689,7 @@ msgstr "Wygeneruj FX obiektu"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
-msgstr ""
+msgstr "Generowanie kliku"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Envelope: %(1)"
@@ -1896,7 +1875,7 @@ msgstr "Pokaż obwiednie"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Show Instrument Editor"
-msgstr ""
+msgstr "Pokaż edytor instrumentu"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Show Media Folder in Explorer"
@@ -1920,7 +1899,7 @@ msgstr "Pokaż w konsolecie"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Show in Explorer/Finder"
-msgstr ""
+msgstr "Pokaż w Eksploratorze/Szukaczu"
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Show the \"%(1)\" Automation on this track"
@@ -2047,9 +2026,7 @@ msgstr "Usuń ciszę"
 msgid ""
 "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY "
 "MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr ""
-"TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ "
-"ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
+msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
 
 #: .\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Take"
@@ -2073,7 +2050,7 @@ msgstr "Dysk używany do nagrywania jest pełny."
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]The file format will be reset to \"%(1)\"."
-msgstr ""
+msgstr "Format pliku zostanie zresetowany do \"%(1)\"."
 
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]The following problems occured during export:"
@@ -2093,11 +2070,7 @@ msgid ""
 "\n"
 "The rate you set: %(1)\n"
 "The rate the device has: %(2)"
-msgstr ""
-"Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n"
-"\n"
-"Ustawiona częstotliwość: %(1)\n"
-"Częstotliwość urządzenia: %(2)"
+msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
 
 #: .\song\songmaster.cpp
 msgid "[SongMaster]The song will be saved first.\n"
@@ -2295,15 +2268,7 @@ msgid ""
 "Realtime Processing: %(5)\n"
 "Include Master Effects: %(7)\n"
 "Filename: %(2)"
-msgstr ""
-"Zaktualizuj plik masteringu dla tego utworu:\n"
-"%(6)\n"
-"Wyjście: %(1)\n"
-"Długość %(3)\n"
-"Rozdzielczość: %(4)\n"
-"Przetwarzanie w czasie rzeczywistym: %(5)\n"
-"Dołącz efekty sumy: %(7)\n"
-"Nazwa pliku: %(2)"
+msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
