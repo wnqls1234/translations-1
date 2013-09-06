@@ -5,13 +5,13 @@
 	<String x:id="timeFormat" text="%int(1:2):%int(2:2):%int(3:2)"/>		<!-- 01:42:00 -->
 
 	<Attributes x:id="weekdays">
-		<Association key="Sun" value="星期日"/>
-		<Association key="Mon" value="星期一"/>
-		<Association key="Tue" value="星期二"/>
-		<Association key="Wed" value="星期三"/>
-		<Association key="Thu" value="星期四"/>
-		<Association key="Fri" value="星期五"/>
-		<Association key="Sat" value="星期六"/>
+		<Association key="Sun" value="يەكشەنبە"/>
+		<Association key="Mon" value="دۈشەنبە"/>
+		<Association key="Tue" value="سەيشەنبە"/>
+		<Association key="Wed" value="چارشەنبە"/>
+		<Association key="Thu" value="پەيشەنبە"/>
+		<Association key="Fri" value="جۈمە"/>
+		<Association key="Sat" value="شەنبە"/>
 	</Attributes>	
 
 	<Attributes x:id="months">
