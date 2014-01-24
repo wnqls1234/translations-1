@@ -256,6 +256,10 @@ msgstr "Horizontale"
 msgid "[CommandBar]Icon"
 msgstr "Icône"
 
+#: .\graphics\imaging\multiimage.cpp
+msgid "[FileType]Icon File"
+msgstr "Fichier icône"
+
 #: .\itemviews\listview.cpp
 msgid "[ListView]Icons"
 msgstr "Icônes"
@@ -269,12 +273,8 @@ msgid "[FileType]JPEG File"
 msgstr "Fichier JPEG"
 
 #: .\dialogs\commandeditor.cpp
-msgid ""
-"[CommandEditor]Key is already assigned to:\n"
-"%(1)"
-msgstr ""
-"Touche déjà assignée à:\n"
-"%(1)"
+msgid "[CommandEditor]Key is already assigned to:\n%(1)"
+msgstr "Touche déjà assignée à:\n%(1)"
 
 #: .\commands.cpp
 msgid "[FileType]Keyboard Mapping Scheme"
@@ -625,8 +625,6 @@ msgid "[Alert]Yes"
 msgstr "Oui"
 
 #: .\dialogs\useroptionmodel.cpp
-msgid ""
-"[UserOption]You have made changes to the setup. Do you want to apply the "
-"changes?"
-msgstr ""
-"Vous avez changé la configuration. Voulez-vous appliquer les changements?"
+msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
+msgstr "Vous avez changé la configuration. Voulez-vous appliquer les changements?"
+

@@ -113,11 +113,13 @@ msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Ocorreu um sinal inválido."
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+msgid ""
+"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Tem certeza que deseja enviar esses canais para a lixeira?"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+msgid ""
+"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr "Tem certeza que deseja enviar esse canal para a lixeira?"
 
 #: .\surfaces\editor\mappinghandler.cpp
@@ -238,7 +240,8 @@ msgid "[Command]Click"
 msgstr "Click"
 
 #: .\audiomixer\audiorenderengine.cpp
-msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgid ""
+"[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "Ocorreu clipagem. O sinal foi excedido em %float(1:2) dB."
 
 #: .\base\devicefolder.cpp
@@ -355,12 +358,20 @@ msgid "[Command]Forward Bar"
 msgstr "Compasso à Frente"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "Interface Genérica de Controle MIDI, utilize em dispositivos desconhecidos. Esse modelo de dispositivo oferece aprendizado MIDI."
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
+"This device model features MIDI Learn."
+msgstr ""
+"Interface Genérica de Controle MIDI, utilize em dispositivos desconhecidos. "
+"Esse modelo de dispositivo oferece aprendizado MIDI."
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "Teclado MIDI Genérico, utilize em dispositivos desconhecidos. Esse modelo de dispositivo oferece aprendizado MIDI. A conexão da porta de envio é opcional."
+msgid ""
+"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
+"device model features MIDI Learn. Connecting the send port is optional."
+msgstr ""
+"Teclado MIDI Genérico, utilize em dispositivos desconhecidos. Esse modelo de "
+"dispositivo oferece aprendizado MIDI. A conexão da porta de envio é opcional."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -579,6 +590,10 @@ msgstr "Abertura de Canal"
 msgid "[Channels]Outputs"
 msgstr "Saídas"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]PLEASE UPDATE DEVICE FIRMWARE!"
+msgstr ""
+
 #: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Down Skip"
 msgstr "Pular Page Down"
@@ -600,16 +615,26 @@ msgid "[PerformanceMonitor]Path"
 msgstr "Caminho"
 
 #: .\externaleffects\externaleffectcomponent.cpp
-msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
-msgstr "Falha no plug-in Pipeline. O tamanho de buffer do dispositivo não corresponde ao tamanho de buffer do processamento. Altere a configuração de seu dispositivo de áudio (vincule o tamanho de buffer ao hardware)."
+msgid ""
+"[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
+"match the processing buffersize. Please change your audio device setup (lock "
+"buffersize to hardware)."
+msgstr ""
+"Falha no plug-in Pipeline. O tamanho de buffer do dispositivo não "
+"corresponde ao tamanho de buffer do processamento. Altere a configuração de "
+"seu dispositivo de áudio (vincule o tamanho de buffer ao hardware)."
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
 msgstr "Reproduzir do Início do Loop."
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando finalizado..."
+msgid ""
+"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
+"this message when finished..."
+msgstr ""
+"Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando "
+"finalizado..."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
@@ -872,7 +897,9 @@ msgid "[MixerConsole]Small"
 msgstr "Pequeno"
 
 #: .\audiomixer\setup\audioiosetup.cpp
-msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
+msgid ""
+"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
+"anyway?"
 msgstr "Algúns canais continuam em uso! Deseja removê-los mesmo assim?"
 
 #: .\audiomixer\audiorenderengine.cpp
@@ -924,28 +951,48 @@ msgid "[SurfaceControl]Text Display"
 msgstr "Exibição de Texto"
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "O Modelo de Dispositivo \"%(1)\" não é mais utilizado. Deseja removê-lo dos Dispositivos de Usuário?"
+msgid ""
+"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
+"to remove it from User Devices?"
+msgstr ""
+"O Modelo de Dispositivo \"%(1)\" não é mais utilizado. Deseja removê-lo dos "
+"Dispositivos de Usuário?"
 
 #: .\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
-msgstr "O dispositivo de áudio %(1) não pode ser iniciado. Verifique suas configurações de hardware e tente novamente."
+msgid ""
+"[Devices]The audio device %(1) could not be initialized. Please check your "
+"hardware configuration and try again."
+msgstr ""
+"O dispositivo de áudio %(1) não pode ser iniciado. Verifique suas "
+"configurações de hardware e tente novamente."
 
 #: .\audio\audioengine.cpp
-msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "O dispositivo de áudio %(1) falhou na inicialização anterior. Deseja tentar novamente?"
+msgid ""
+"[Devices]The audio device %(1) has failed to start correctly before. Do you "
+"want to try it again?"
+msgstr ""
+"O dispositivo de áudio %(1) falhou na inicialização anterior. Deseja tentar "
+"novamente?"
 
 #: .\audio\watchdogcomponent.cpp
-msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
-msgstr "O mecanismo de áudio parou porque o sistema se tornou instável após uma sobrecarga no mecanismo de áudio."
+msgid ""
+"[Devices]The audio engine has been stopped, because the system became "
+"unresponsive due to an overload in the audio engine."
+msgstr ""
+"O mecanismo de áudio parou porque o sistema se tornou instável após uma "
+"sobrecarga no mecanismo de áudio."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Este dispositivo não pode ser removido neste momento!"
 
 #: .\music\setup\musicdevicedialog.cpp
-msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "Esta porta já está em uso. A conexão de múltiplos dispositivos na mesma porta pode ocasionar cópias na transmissão de eventos MIDI."
+msgid ""
+"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
+"to the same port may lead to copied transmission of MIDI events."
+msgstr ""
+"Esta porta já está em uso. A conexão de múltiplos dispositivos na mesma "
+"porta pode ocasionar cópias na transmissão de eventos MIDI."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1009,8 +1056,15 @@ msgid "[SurfaceEditor]Unassign"
 msgstr "Desfazer atribuição"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "Utilize para tocar um instrumento MIDI externo e gravar movimentos de controlador. Quando conectar a porta de recebimento, tenha cuidado para evitar eventos duplos no caso da mesma porta ser utilizada por um dispositivo do tipo Teclado."
+msgid ""
+"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
+"controller movements. When connecting the receive port, be careful to avoid "
+"doubled events if the same port is used by a Keyboard device."
+msgstr ""
+"Utilize para tocar um instrumento MIDI externo e gravar movimentos de "
+"controlador. Quando conectar a porta de recebimento, tenha cuidado para "
+"evitar eventos duplos no caso da mesma porta ser utilizada por um "
+"dispositivo do tipo Teclado."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -1037,6 +1091,13 @@ msgid "[Automation]Write"
 msgstr "Escrita"
 
 #: .\music\musicdevicemanager.cpp
-msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
-
+msgid ""
+"[MusicDevices]Your MIDI configuration has changed. This might be due to "
+"removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não "
+"conectados atualmente. \n"
+"\n"
+"Deseja reconectar seus dispositivos externos agora?"

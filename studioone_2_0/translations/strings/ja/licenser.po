@@ -12,15 +12,27 @@ msgstr "%(1) エンドユーザー使用許諾契約"
 msgid "[Licenser]%(1) requires access to your $APPCOMPANY user account."
 msgstr "%(1) は $APPCOMPANY ユーザーアカウントにアクセスする必要があります。"
 
+#: .\purchasehandler.cpp
+msgid "[Command]Activate Purchased Items"
+msgstr "購入済みアイテムをアクティベート"
+
 #: .\usercomponent.cpp
 msgid "[Command]Activation"
 msgstr "アクティベーション"
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]Activation failed."
+msgstr "アップロードに失敗しました。"
 
 #: .\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
 msgstr "その他のライセンス情報:\r\n"
 
-#: .\usercomponent.cpp
+#: .\purchasehandler.cpp
+msgid "[Licenser]All installed items are activated."
+msgstr "インストール済みアイテムはすべてアクティベートされています。"
+
+#: .\purchasehandler.cpp .\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "アプリケーション"
 
@@ -32,6 +44,10 @@ msgstr "オーソライズ"
 msgid "[Licenser]Copy to Clipboard"
 msgstr "クリップボードにコピー"
 
+#: .\purchasehandler.cpp
+msgid "[Licenser]Download"
+msgstr "ダウンロード"
+
 #: .\usercomponent.cpp
 msgid "[Licenser]Invalid License File!"
 msgstr "無効なライセンスファイルです。"
@@ -39,6 +55,22 @@ msgstr "無効なライセンスファイルです。"
 #: .\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "ライセンスが古すぎます。$APPNAME を再アクティベートしてください。"
+
+#: .\usercomponent.cpp
+msgid "[Licenser]Manage Activations"
+msgstr "アクティベーションを管理"
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]No purchased items installed."
+msgstr "購入済みアイテムはひとつもインストールされていません。"
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]Please activate $APPNAME again to authorize your purchases."
+msgstr "$APPNAME を再びアクティベートし、購入済みアイテムをオーソライズしてください。"
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]Please download new purchases from your $APPCOMPANY user account and drag them onto $APPNAME."
+msgstr "$APPCOMPANY ユーザーアカウントから新規購入したアイテムをダウンロードし、 $APPNAME 上にドラッグしてください。"
 
 #: .\activationhandler.cpp
 msgid "[Licenser]Please fill out the form completely."
@@ -53,19 +85,12 @@ msgid "[Licenser]Refresh"
 msgstr "再読み込み"
 
 #: .\usercomponent.cpp
-msgid ""
-"[Licenser]Thank You! $APPNAME has been activated to run on this computer."
-msgstr ""
-"ありがとうございました。$APPNAME はこのコンピューターで実行できるようアクティ"
-"ベートされました。"
+msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+msgstr "ありがとうございました。$APPNAME はこのコンピューターで実行できるようアクティベートされました。"
 
 #: .\activationhandler.cpp
-msgid ""
-"[Licenser]Thank You! An E-Mail has been sent to you with a link to activate "
-"your account."
-msgstr ""
-"ありがとうございました。アカウントのアクティベート用リンクを記載したメールが"
-"送信されました。"
+msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgstr "ありがとうございました。アカウントのアクティベート用リンクを記載したメールが送信されました。"
 
 #: .\usercomponent.cpp
 msgid "[Licenser]The License has expired!"
@@ -74,6 +99,14 @@ msgstr "ライセンスの期限が切れています。"
 #: .\usercomponent.cpp
 msgid "[Licenser]The License has not been issued for this computer!"
 msgstr "ライセンスはこのコンピューターに対して発行されていません。"
+
+#: .\usercomponent.cpp
+msgid "[Licenser]The License has not been issued for this user!"
+msgstr "ライセンスはこのユーザーに対して発行されていません。"
+
+#: .\usercomponent.cpp
+msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY user account."
+msgstr "このコンピューターは $APPNAME で使用するためのアクティベーションが解除されています。アクティベーションはお客様の $APPCOMPANY ユーザーアカウントで管理できます。"
 
 #: .\usercomponent.cpp
 msgid "[Licenser]This copy is licensed to %(1)"
@@ -85,10 +118,9 @@ msgstr "ユーザーライセンスファイル"
 
 #: .\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
-msgstr ""
-"ユーザーライセンスが見つかりません。新規ライセンスファイルを選択してくださ"
-"い。"
+msgstr "ユーザーライセンスが見つかりません。新規ライセンスファイルを選択してください。"
 
 #: .\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "ユーザーライセンスを検証しています..."
+

@@ -76,6 +76,10 @@ msgstr "$APPNAME je dodáváno s dalším obsahem, včetně smyček, zvukových 
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME pomůže k organizaci mediálních souborů. Všechna vaše data, jako jsou písně, projekty a přednastavení, budou uložena na jednom místě."
 
+#: .\devices\audiomixer.xml
+msgid "[PluginMenuPopup]$title"
+msgstr "$title"
+
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]&#8226;"
 msgstr "&#8226;"
@@ -560,6 +564,10 @@ msgstr "Akce"
 msgid "[UserLicenseWizard.ActivationForm]Activate"
 msgstr "Aktivovat"
 
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "Aktivovat"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "Aktivovat"
@@ -617,6 +625,10 @@ msgid "[UserLicenseWizard.ActivationPage]Activate Online"
 msgstr "Aktivovat online"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr ""
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "Aktivovat nebo upgradovat"
 
@@ -660,6 +672,10 @@ msgstr "Přidat Insert efekt"
 msgid "[PostFaderInserts]Add Insert"
 msgstr "Přidat Insert efekt"
 
+#: .\devices\audiomixer.xml
+msgid "[AddInsertPopup]Add Insert"
+msgstr "Přidat Insert efekt"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Add Insert"
 msgstr "Přidat Insert efekt"
@@ -678,6 +694,10 @@ msgstr "Přidat nástroj"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
+msgstr "Přidat Send"
+
+#: .\devices\audiomixer.xml
+msgid "[AddSendPopup]Add Send"
 msgstr "Přidat Send"
 
 #: .\engine\song.xml
@@ -739,6 +759,10 @@ msgstr "Zarovnání"
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Alignment"
 msgstr "Zarovnání"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]All"
+msgstr "Vše"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]All"
@@ -1062,7 +1086,7 @@ msgstr "Banky"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Bars"
-msgstr ""
+msgstr "Takty"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Beat"
@@ -1960,6 +1984,14 @@ msgstr "E"
 msgid "[UserLicenseWizard.Registration]E-Mail"
 msgstr "E-Mail"
 
+#: .\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]E-Mail or username"
+msgstr ""
+
+#: .\app\licenser.xml
+msgid "[CredentialsUIPrompt]E-Mail or username"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[Project]EAN/UPC code"
 msgstr "EAN/UPC kód"
@@ -2549,6 +2581,10 @@ msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPAN
 msgstr "Pokud dosud nemáte uživatelský $APPCOMPANY, klikněte sem pro vytvoření nového účtu."
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License from your $APPCOMPANY user account separately and select it here or drag it onto this window."
+msgstr ""
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
 msgstr "Pokud váš počítač není připojen k Internetu, následujte prosím instrukcemi pro offline aktivaci."
 
@@ -2651,6 +2687,10 @@ msgstr "Inspektor"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Install"
 msgstr "Instalovat"
+
+#: .\app\melodyne.xml
+msgid "[MelodynePlaceholder]Install Now"
+msgstr ""
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.StartPage]Install content from $APPCOMPANY user account"
@@ -2878,7 +2918,7 @@ msgstr "Spojeno"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Linked"
-msgstr ""
+msgstr "Spojeno"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.InputFilter]Lo Key"
@@ -3082,7 +3122,7 @@ msgstr "Metronom @cmd[Transport|CLick]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome @cmd[Transport|Click]"
-msgstr ""
+msgstr "Metronom @cmd[Transport|CLick]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome Active"
@@ -3189,8 +3229,8 @@ msgid "[UserLicenseWizard.VersionPage]More Information"
 msgstr "Více informací"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]More Information and Download"
-msgstr "Více informací a stáhnout"
+msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "Více informací"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3311,6 +3351,10 @@ msgstr "Umlčet zvuk"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Mute Cue mix"
 msgstr "Umlčet mix pro muzikanta"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]My Extensions"
+msgstr ""
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Naming:"
@@ -3814,7 +3858,7 @@ msgstr "Zachovat stav v reálném čase"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Preset"
-msgstr ""
+msgstr "Přednastavení"
 
 #: .\ccl\browser.xml .\devices\audiofxeditor.xml
 msgid "[Command]Presets"
@@ -3871,6 +3915,10 @@ msgstr "Prog"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Program"
 msgstr "Program"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Program Extensions"
+msgstr ""
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Project"
@@ -4070,7 +4118,7 @@ msgstr "Záznam"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSynth]Record"
-msgstr ""
+msgstr "Záznam"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Record"
@@ -4274,7 +4322,7 @@ msgstr "Odstranit video"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Render"
-msgstr ""
+msgstr "Provést"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventFXProperties]Render"
@@ -4511,6 +4559,10 @@ msgstr "Vybrat obraz"
 #: .\project\project.xml
 msgid "[TrackControls]Select Image"
 msgstr "Vybrat obraz"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Select License..."
+msgstr ""
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
@@ -5210,7 +5262,7 @@ msgstr ""
 
 #: .\devices\transport.xml
 msgid "[Metronome]Store Preset"
-msgstr ""
+msgstr "Uložit přednastavení"
 
 #: .\engine\musicdialogs.xml
 msgid "[PitchNameEditor]Store Preset"
@@ -5327,6 +5379,10 @@ msgstr "Děkujeme vám za zakoupení $APPNAME z Mac App Store."
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Děkujeme vám za použití bezplatné verze $APPNAME, stažené z Mac App Store."
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr ""
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."

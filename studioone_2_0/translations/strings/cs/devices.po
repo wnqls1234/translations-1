@@ -113,13 +113,11 @@ msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Vyksytl se neplatý signál."
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
 msgstr "Opravdu chcete přesunout tyto kanály do koše?"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr "Opravdu si přejete přesunout tyto kanály do koše?"
 
 #: .\surfaces\editor\mappinghandler.cpp
@@ -240,8 +238,7 @@ msgid "[Command]Click"
 msgstr "Metronom"
 
 #: .\audiomixer\audiorenderengine.cpp
-msgid ""
-"[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "Vyskytl s klip. Signál byl %float(1:2) dB nad."
 
 #: .\base\devicefolder.cpp
@@ -358,21 +355,12 @@ msgid "[Command]Forward Bar"
 msgstr "Takt dopředu"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
-"This device model features MIDI Learn."
-msgstr ""
-"Použít obecnou řídící plochu pro neznámé zařízení. Tento model zařízení "
-"obsahuje zjišťování z MIDI."
+msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
+msgstr "Použít obecnou řídící plochu pro neznámé zařízení. Tento model zařízení obsahuje zjišťování z MIDI."
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
-"device model features MIDI Learn. Connecting the send port is optional."
-msgstr ""
-"Použít obecnou klaviaturu pro neznámé zařízení. Tento model zařízení "
-"obsahuje vlastnost zjišťování z MIDI. Případně lze připojit port pro "
-"vysílání."
+msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
+msgstr "Použít obecnou klaviaturu pro neznámé zařízení. Tento model zařízení obsahuje vlastnost zjišťování z MIDI. Případně lze připojit port pro vysílání."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -420,7 +408,7 @@ msgstr "Skrýt zdroje"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
-msgstr ""
+msgstr "Nečinné"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]In"
@@ -561,8 +549,7 @@ msgstr "Žádné zvukové zařízení"
 
 #: .\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
-msgstr ""
-"Není nainstalováno žádné ovládací zařízení, které by mohlo být sloučeno."
+msgstr "Není nainstalováno žádné ovládací zařízení, které by mohlo být sloučeno."
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]No Input"
@@ -592,6 +579,10 @@ msgstr "Otevřít kanál"
 msgid "[Channels]Outputs"
 msgstr "Výstupy"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]PLEASE UPDATE DEVICE FIRMWARE!"
+msgstr ""
+
 #: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Down Skip"
 msgstr "Poskočit o stránku dolů"
@@ -613,27 +604,16 @@ msgid "[PerformanceMonitor]Path"
 msgstr "Umístění"
 
 #: .\externaleffects\externaleffectcomponent.cpp
-msgid ""
-"[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
-"match the processing buffersize. Please change your audio device setup (lock "
-"buffersize to hardware)."
-msgstr ""
-"Selhání plug-inu Pipeline při startu. Velikost vyrovnávací paměti zvukového "
-"zařízení neodpovídá velikosti vyrovnávací paměti zpracování. Změňte prosím "
-"nastavní vašeho zvukového zařízení (uzamkněte velikost vyrovnávací paměti na "
-"hardwaru)."
+msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
+msgstr "Selhání plug-inu Pipeline při startu. Velikost vyrovnávací paměti zvukového zařízení neodpovídá velikosti vyrovnávací paměti zpracování. Změňte prosím nastavní vašeho zvukového zařízení (uzamkněte velikost vyrovnávací paměti na hardwaru)."
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
 msgstr "Přehrát od začátku smyčky"
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
-"this message when finished..."
-msgstr ""
-"nyní prosím připojte vaše MIDI zařízení a jakmile se připojení dokončí, "
-"zavřete tuto zprávu... "
+msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
+msgstr "nyní prosím připojte vaše MIDI zařízení a jakmile se připojení dokončí, zavřete tuto zprávu... "
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
@@ -896,9 +876,7 @@ msgid "[MixerConsole]Small"
 msgstr "Malé"
 
 #: .\audiomixer\setup\audioiosetup.cpp
-msgid ""
-"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
-"anyway?"
+msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Některé kanály jsou ještě používány! Přejete si je přesto odebrat?"
 
 #: .\audiomixer\audiorenderengine.cpp
@@ -950,48 +928,28 @@ msgid "[SurfaceControl]Text Display"
 msgstr "Zobrazit text"
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
-"to remove it from User Devices?"
-msgstr ""
-"Zařízení model \"%(1)\" již není využíváno. Přejete si odebrat jej z "
-"uživatelských zařízení?"
+msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
+msgstr "Zařízení model \"%(1)\" již není využíváno. Přejete si odebrat jej z uživatelských zařízení?"
 
 #: .\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) could not be initialized. Please check your "
-"hardware configuration and try again."
-msgstr ""
-"Zvukové zařízení %(1) nelze inicializovat. Překontrolujte prosím vaší "
-"konfiguraci a zkuste to znovu."
+msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
+msgstr "Zvukové zařízení %(1) nelze inicializovat. Překontrolujte prosím vaší konfiguraci a zkuste to znovu."
 
 #: .\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) has failed to start correctly before. Do you "
-"want to try it again?"
-msgstr ""
-"Zvukové zařízení %(1) se naposled nepodařilo spustit správně. Přejete si "
-"vyzkoušet to znovu?"
+msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
+msgstr "Zvukové zařízení %(1) se naposled nepodařilo spustit správně. Přejete si vyzkoušet to znovu?"
 
 #: .\audio\watchdogcomponent.cpp
-msgid ""
-"[Devices]The audio engine has been stopped, because the system became "
-"unresponsive due to an overload in the audio engine."
-msgstr ""
-"Zvukový engine byl zastaven, protože systém přestal reagovat kvůli přetížení "
-"ve zvukovému enginu."
+msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
+msgstr "Zvukový engine byl zastaven, protože systém přestal reagovat kvůli přetížení ve zvukovému enginu."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Zařízení nelze nyní odebrat!"
 
 #: .\music\setup\musicdevicedialog.cpp
-msgid ""
-"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
-"to the same port may lead to copied transmission of MIDI events."
-msgstr ""
-"Tento port je již používán. Připojení většího počtu zařízení ke stejnému "
-"portu může způsobit kopírovaní přenášených MIDI událostí."
+msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
+msgstr "Tento port je již používán. Připojení většího počtu zařízení ke stejnému portu může způsobit kopírovaní přenášených MIDI událostí."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1055,14 +1013,8 @@ msgid "[SurfaceEditor]Unassign"
 msgstr "Nepřipojeno"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
-"controller movements. When connecting the receive port, be careful to avoid "
-"doubled events if the same port is used by a Keyboard device."
-msgstr ""
-"Slouží k přehrávání externího MIDI nástroje a záznamu pohybu ovladačů. Při "
-"připojení přijímače dávejte pozor, aby nedošlo ke zdvojení událostí v "
-"případě, že je klávesovým zařízením používán stejný port."
+msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
+msgstr "Slouží k přehrávání externího MIDI nástroje a záznamu pohybu ovladačů. Při připojení přijímače dávejte pozor, aby nedošlo ke zdvojení událostí v případě, že je klávesovým zařízením používán stejný port."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -1089,13 +1041,6 @@ msgid "[Automation]Write"
 msgstr "Zápis"
 
 #: .\music\musicdevicemanager.cpp
-msgid ""
-"[MusicDevices]Your MIDI configuration has changed. This might be due to "
-"removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, "
-"které dosud nebylo připojeno.\n"
-"\n"
-"Přejete si nyní připojit toto externí zařízení?"
+msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Změnilo se nastavení vašeho MIDI. To může být způsobeno připojením zařízení, které dosud nebylo připojeno.\n\nPřejete si nyní připojit toto externí zařízení?"
+

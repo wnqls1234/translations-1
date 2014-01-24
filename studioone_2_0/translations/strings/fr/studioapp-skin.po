@@ -76,6 +76,10 @@ msgstr "$APPNAME est livré avec des contenus supplémentaires comprenant boucle
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME vous aidera à organiser vos fichiers médias. Toutes vos données telles que morceaux, projets et presets seront conservées en un même emplacement."
 
+#: .\devices\audiomixer.xml
+msgid "[PluginMenuPopup]$title"
+msgstr "$title"
+
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]&#8226;"
 msgstr "&#8226;"
@@ -560,6 +564,10 @@ msgstr "Actions"
 msgid "[UserLicenseWizard.ActivationForm]Activate"
 msgstr "Activer"
 
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "Activer"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "Activer"
@@ -617,6 +625,10 @@ msgid "[UserLicenseWizard.ActivationPage]Activate Online"
 msgstr "Activer en ligne"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "Activer les articles achetés"
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "Activer ou mettre à niveau"
 
@@ -660,6 +672,10 @@ msgstr "Ajouter un insert"
 msgid "[PostFaderInserts]Add Insert"
 msgstr "Ajouter un insert"
 
+#: .\devices\audiomixer.xml
+msgid "[AddInsertPopup]Add Insert"
+msgstr "Ajouter un insert"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Add Insert"
 msgstr "Ajouter un insert"
@@ -678,6 +694,10 @@ msgstr "Ajouter un instrument"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
+msgstr "Ajouter un départ"
+
+#: .\devices\audiomixer.xml
+msgid "[AddSendPopup]Add Send"
 msgstr "Ajouter un départ"
 
 #: .\engine\song.xml
@@ -739,6 +759,10 @@ msgstr "Alignement"
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Alignment"
 msgstr "Alignement"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]All"
+msgstr "Tout"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]All"
@@ -1960,6 +1984,14 @@ msgstr "E"
 msgid "[UserLicenseWizard.Registration]E-Mail"
 msgstr "E-mail"
 
+#: .\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]E-Mail or username"
+msgstr "E-mail ou nom d'utilisateur"
+
+#: .\app\licenser.xml
+msgid "[CredentialsUIPrompt]E-Mail or username"
+msgstr "E-mail ou nom d'utilisateur"
+
 #: .\project\project.xml
 msgid "[Project]EAN/UPC code"
 msgstr "Code EAN/UPC"
@@ -2549,6 +2581,10 @@ msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPAN
 msgstr "Si vous n'avez pas encore de compte utilisateur $APPCOMPANY, cliquez ici pour en créer un."
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License from your $APPCOMPANY user account separately and select it here or drag it onto this window."
+msgstr "Si votre ordinateur n'est pas connecté à Internet, veuillez télécharger la licence séparément depuis votre compte utilisateur $APPCOMPANY et sélectionnez-la ici ou faites-la glisser sur cette fenêtre."
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
 msgstr "Si votre ordinateur n'est pas connecté à internet, suivez les instructions d'activation hors connexion."
 
@@ -2651,6 +2687,10 @@ msgstr "Inspecteur"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Install"
 msgstr "Installer"
+
+#: .\app\melodyne.xml
+msgid "[MelodynePlaceholder]Install Now"
+msgstr "Installer maintenant"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.StartPage]Install content from $APPCOMPANY user account"
@@ -3189,8 +3229,8 @@ msgid "[UserLicenseWizard.VersionPage]More Information"
 msgstr "Plus d'infos"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]More Information and Download"
-msgstr "Plus d'infos et télécharger"
+msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "Plus d'infos"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3311,6 +3351,10 @@ msgstr "Audio muet"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Mute Cue mix"
 msgstr "Couper le mix. de retour"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]My Extensions"
+msgstr "Mes extensions"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Naming:"
@@ -3871,6 +3915,10 @@ msgstr "Prog"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Program"
 msgstr "Programme"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Program Extensions"
+msgstr "Extensions de programme"
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Project"
@@ -4511,6 +4559,10 @@ msgstr "Sélectionner une image"
 #: .\project\project.xml
 msgid "[TrackControls]Select Image"
 msgstr "Sélectionner une image"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Select License..."
+msgstr "Sélectionner la licence..."
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
@@ -5327,6 +5379,10 @@ msgstr "Merci d'avoir acheté $APPNAME sur le Mac App Store."
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Merci d'utiliser la version gratuite de $APPNAME du Mac App Store."
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "Merci pour votre achat. Les articles que vous avez achetés sont prêts à être activés sur cet ordinateur."
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."

@@ -41,8 +41,7 @@ msgid "[Command]Application"
 msgstr "[Command]应用"
 
 #: .\extensions\extensionmanagerui.cpp
-msgid ""
-"[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
 msgstr "[ExtensionManager]内置扩展包无法被安装或更新."
 
 #: .\installer\installer.cpp
@@ -56,6 +55,10 @@ msgstr "取消"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Canceled!"
 msgstr "已取消!"
+
+#: .\installer\installer.cpp
+msgid "[Installer]Claim Product Key"
+msgstr "请求产品序列号"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Copy"
@@ -102,9 +105,7 @@ msgid "[Command]Extensions"
 msgstr "扩展包"
 
 #: .\web\webservicehandler.cpp
-msgid ""
-"[Web]Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
+msgid "[Web]Failed to connect to the server.\nPlease check your Internet connection and try again."
 msgstr "请检查您的网络连接并重试."
 
 #: .\webfs\transfermanagerui.cpp
@@ -112,12 +113,8 @@ msgid "[TransferManager]Failed!"
 msgstr "失败！"
 
 #: .\installer\installer.cpp
-msgid ""
-"[Installer]File not found:\n"
-"%(1)"
-msgstr ""
-"无法找到文件：\n"
-" %(1)"
+msgid "[Installer]File not found:\n%(1)"
+msgstr "无法找到文件：\n %(1)"
 
 #: .\gadgets\gadgetmanager.cpp
 msgid "[GadgetManager]Gadgets"
@@ -164,12 +161,8 @@ msgid "[Installer]Installation failed!"
 msgstr "安装失败！"
 
 #: .\installer\installer.cpp
-msgid ""
-"[Installer]Installed on:\n"
-"%(1)"
-msgstr ""
-"安装:\n"
-"%(1)"
+msgid "[Installer]Installed on:\n%(1)"
+msgstr "安装:\n%(1)"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Installing..."
@@ -180,9 +173,7 @@ msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "无效的安装文件！"
 
 #: .\installer\installer.cpp
-msgid ""
-"[Installer]It is recommended to install this packet.\n"
-"Are you sure you want to uncheck it?"
+msgid "[Installer]It is recommended to install this packet.\nAre you sure you want to uncheck it?"
 msgstr "是否确定取消？"
 
 #: .\webfs\transfermanagerui.cpp
@@ -214,14 +205,8 @@ msgid "[Installer]Packet"
 msgstr "数据包"
 
 #: .\installer\installer.cpp
-msgid ""
-"[Installer]Please insert \"%(1)\"...\n"
-"\n"
-"File: %(2)"
-msgstr ""
-"请插入 \"%(1)\"...\n"
-"\n"
-"文件: %(2)"
+msgid "[Installer]Please insert \"%(1)\"...\n\nFile: %(2)"
+msgstr "请插入 \"%(1)\"...\n\n文件: %(2)"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Please restart $APPNAME for the changes to take effect."
@@ -306,3 +291,4 @@ msgstr "在此文件位置你没有权利进行撰写."
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]You need a newer version of $APPNAME."
 msgstr "需要更新版本的$APPNAME."
+

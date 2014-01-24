@@ -76,6 +76,10 @@ msgstr "$APPNAME 附带的附加内容，包括循环素材，采样， 第三�
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME将帮助您保管理音频文件.您所有的数据，例如歌曲、项目以及预置，都将被分别保存在一个位置."
 
+#: .\devices\audiomixer.xml
+msgid "[PluginMenuPopup]$title"
+msgstr "$title"
+
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]&#8226;"
 msgstr "&#8226;"
@@ -560,6 +564,10 @@ msgstr "操作"
 msgid "[UserLicenseWizard.ActivationForm]Activate"
 msgstr "激活"
 
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "激活"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "激活"
@@ -617,6 +625,10 @@ msgid "[UserLicenseWizard.ActivationPage]Activate Online"
 msgstr "在线激活"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "激活购买产品"
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "激活或升级"
 
@@ -660,6 +672,10 @@ msgstr "添加插件"
 msgid "[PostFaderInserts]Add Insert"
 msgstr "添加插件"
 
+#: .\devices\audiomixer.xml
+msgid "[AddInsertPopup]Add Insert"
+msgstr "添加插件"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Add Insert"
 msgstr "添加插件"
@@ -678,6 +694,10 @@ msgstr "添加乐器"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
+msgstr "添加发送"
+
+#: .\devices\audiomixer.xml
+msgid "[AddSendPopup]Add Send"
 msgstr "添加发送"
 
 #: .\engine\song.xml
@@ -739,6 +759,10 @@ msgstr "对准"
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Alignment"
 msgstr "对准"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]All"
+msgstr "全部"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]All"
@@ -1960,6 +1984,14 @@ msgstr "E"
 msgid "[UserLicenseWizard.Registration]E-Mail"
 msgstr "电子邮件"
 
+#: .\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]E-Mail or username"
+msgstr "电子邮件或用户名"
+
+#: .\app\licenser.xml
+msgid "[CredentialsUIPrompt]E-Mail or username"
+msgstr "电子邮件或用户名"
+
 #: .\project\project.xml
 msgid "[Project]EAN/UPC code"
 msgstr "EAN/UPC编码"
@@ -2549,6 +2581,10 @@ msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPAN
 msgstr "如果您没有$APPCOMPANY账户，请先新建账户"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License from your $APPCOMPANY user account separately and select it here or drag it onto this window."
+msgstr "如果电脑未连接网络，则请从你的 $APPCOMPANY 用户名单独下载证书，并进行选择，或将它拖拽至此窗口。"
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
 msgstr "如果您的计算机尚未联网, 请按照下列提示离线激活."
 
@@ -2651,6 +2687,10 @@ msgstr "检查器"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Install"
 msgstr "安装"
+
+#: .\app\melodyne.xml
+msgid "[MelodynePlaceholder]Install Now"
+msgstr "正在安装"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.StartPage]Install content from $APPCOMPANY user account"
@@ -3189,8 +3229,8 @@ msgid "[UserLicenseWizard.VersionPage]More Information"
 msgstr "更多信息"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]More Information and Download"
-msgstr "更多信息和下载"
+msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "更多信息"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3311,6 +3351,10 @@ msgstr "音频静音"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Mute Cue mix"
 msgstr "静音混合包络"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]My Extensions"
+msgstr "我的扩展"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Naming:"
@@ -3871,6 +3915,10 @@ msgstr "方案"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Program"
 msgstr "方案"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Program Extensions"
+msgstr "项目扩展"
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Project"
@@ -4511,6 +4559,10 @@ msgstr "选择图像"
 #: .\project\project.xml
 msgid "[TrackControls]Select Image"
 msgstr "选择图像"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Select License..."
+msgstr "选择证书..."
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
@@ -5327,6 +5379,10 @@ msgstr "感谢您从Mac App Store购买$APPNAME."
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "感谢您从Mac App Store使用免费版本的$APPNAME."
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "感谢您的购买。您的购买产品现已可以在此台电脑上被激活。"
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
+"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\dialogs\commandeditor.cpp
 msgid "[CommandEditor](modified)"
@@ -257,6 +257,10 @@ msgstr "Poziomo"
 msgid "[CommandBar]Icon"
 msgstr "Ikona"
 
+#: .\graphics\imaging\multiimage.cpp
+msgid "[FileType]Icon File"
+msgstr ""
+
 #: .\itemviews\listview.cpp
 msgid "[ListView]Icons"
 msgstr "Ikony"
@@ -273,7 +277,9 @@ msgstr "Plik JPEG"
 msgid ""
 "[CommandEditor]Key is already assigned to:\n"
 "%(1)"
-msgstr "Klawisz jest już przypisany do:\n%(1)"
+msgstr ""
+"Klawisz jest już przypisany do:\n"
+"%(1)"
 
 #: .\commands.cpp
 msgid "[FileType]Keyboard Mapping Scheme"

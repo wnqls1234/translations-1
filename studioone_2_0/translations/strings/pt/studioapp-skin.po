@@ -76,6 +76,10 @@ msgstr "O $APPNAME vem com conteúdo adicional, incluindo loops, samples e plug-
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "O $APPNAME lhe ajudará a manter seus arquívos de mídia organizados. Todos os seus dados como Songs, Projetos e Presets serão armazenados em um único local."
 
+#: .\devices\audiomixer.xml
+msgid "[PluginMenuPopup]$title"
+msgstr "$title"
+
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]&#8226;"
 msgstr "&#8226;"
@@ -560,6 +564,10 @@ msgstr "Ações"
 msgid "[UserLicenseWizard.ActivationForm]Activate"
 msgstr "Ativar"
 
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "Ativar"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "Ativar"
@@ -617,6 +625,10 @@ msgid "[UserLicenseWizard.ActivationPage]Activate Online"
 msgstr "Ativar Online"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr ""
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "Ativação ou Upgrade"
 
@@ -660,6 +672,10 @@ msgstr "Adicionar Inserção"
 msgid "[PostFaderInserts]Add Insert"
 msgstr "Adicionar Inserção"
 
+#: .\devices\audiomixer.xml
+msgid "[AddInsertPopup]Add Insert"
+msgstr "Adicionar Inserção"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Add Insert"
 msgstr "Adicionar Inserção"
@@ -678,6 +694,10 @@ msgstr "Adicionar Instrumento"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
+msgstr "Adicionar Envio (Send)"
+
+#: .\devices\audiomixer.xml
+msgid "[AddSendPopup]Add Send"
 msgstr "Adicionar Envio (Send)"
 
 #: .\engine\song.xml
@@ -739,6 +759,10 @@ msgstr "Alinhamento"
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Alignment"
 msgstr "Alinhamento"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]All"
+msgstr "Tudo"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]All"
@@ -1960,6 +1984,14 @@ msgstr "E"
 msgid "[UserLicenseWizard.Registration]E-Mail"
 msgstr "E-Mail"
 
+#: .\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]E-Mail or username"
+msgstr ""
+
+#: .\app\licenser.xml
+msgid "[CredentialsUIPrompt]E-Mail or username"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[Project]EAN/UPC code"
 msgstr "Código EAN/UPC"
@@ -2549,6 +2581,10 @@ msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPAN
 msgstr "Se você ainda não tem uma conta de usuário $APPCOMPANY, clique aquí para criar uma nova."
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License from your $APPCOMPANY user account separately and select it here or drag it onto this window."
+msgstr ""
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
 msgstr "Se o seu computador não está conectado à Internet, siga as instruções de Ativação Offline."
 
@@ -2651,6 +2687,10 @@ msgstr "Inspetor"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Install"
 msgstr "Instalar"
+
+#: .\app\melodyne.xml
+msgid "[MelodynePlaceholder]Install Now"
+msgstr ""
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.StartPage]Install content from $APPCOMPANY user account"
@@ -3189,8 +3229,8 @@ msgid "[UserLicenseWizard.VersionPage]More Information"
 msgstr "Mais informações"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]More Information and Download"
-msgstr "Mais informações e Download"
+msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "Mais informações"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3311,6 +3351,10 @@ msgstr "Silenciar Áudio"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Mute Cue mix"
 msgstr "Silenciar Mixagem Guia"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]My Extensions"
+msgstr ""
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Naming:"
@@ -3871,6 +3915,10 @@ msgstr "Prog"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Program"
 msgstr "Programa"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Program Extensions"
+msgstr ""
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Project"
@@ -4511,6 +4559,10 @@ msgstr "Selecionar Imagem"
 #: .\project\project.xml
 msgid "[TrackControls]Select Image"
 msgstr "Selecionar Imagem"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Select License..."
+msgstr ""
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
@@ -5327,6 +5379,10 @@ msgstr "Obrigado por adquirir o $APPNAME na loja de aplicativos Mac."
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Obrigado por utilizar a versão gratuíta do $APPNAME da loja de aplicativos Mac."
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr ""
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."

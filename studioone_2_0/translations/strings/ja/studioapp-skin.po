@@ -76,6 +76,10 @@ msgstr "$APPNAME には、ループ、サンプル、サードパーティ製プ
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME はメディアファイルを分かりやすく整理します。 ソング、プロジェクト、プリセットなどのデータはすべて単一のロケーションに保存されます。"
 
+#: .\devices\audiomixer.xml
+msgid "[PluginMenuPopup]$title"
+msgstr "$title"
+
 #: .\engine\editor.xml
 msgid "[MusicEditor.Player]&#8226;"
 msgstr "&#8226;"
@@ -560,6 +564,10 @@ msgstr "アクション"
 msgid "[UserLicenseWizard.ActivationForm]Activate"
 msgstr "アクティベート"
 
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "アクティベート"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "アクティベート"
@@ -617,6 +625,10 @@ msgid "[UserLicenseWizard.ActivationPage]Activate Online"
 msgstr "オンラインでアクティベート"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "購入済みアイテムをアクティベート"
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.VersionPage]Activate or Upgrade"
 msgstr "アクティベートまたはアップデート"
 
@@ -660,6 +672,10 @@ msgstr "インサートを追加"
 msgid "[PostFaderInserts]Add Insert"
 msgstr "インサートを追加"
 
+#: .\devices\audiomixer.xml
+msgid "[AddInsertPopup]Add Insert"
+msgstr "インサートを追加"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Add Insert"
 msgstr "インサートを追加"
@@ -678,6 +694,10 @@ msgstr "インストゥルメントを追加"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
+msgstr "センドを追加"
+
+#: .\devices\audiomixer.xml
+msgid "[AddSendPopup]Add Send"
 msgstr "センドを追加"
 
 #: .\engine\song.xml
@@ -739,6 +759,10 @@ msgstr "配置"
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Alignment"
 msgstr "配置"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]All"
+msgstr "すべて"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.ContentTabs]All"
@@ -1960,6 +1984,14 @@ msgstr "E"
 msgid "[UserLicenseWizard.Registration]E-Mail"
 msgstr "メールアドレス"
 
+#: .\app\licenser.xml
+msgid "[UserLicenseWizard.ActivationForm]E-Mail or username"
+msgstr "メールまたはユーザー名"
+
+#: .\app\licenser.xml
+msgid "[CredentialsUIPrompt]E-Mail or username"
+msgstr "メールまたはユーザー名"
+
 #: .\project\project.xml
 msgid "[Project]EAN/UPC code"
 msgstr "EAN/UPCコード"
@@ -2549,6 +2581,10 @@ msgid "[UserLicenseWizard.ActivationPage]If you do not already have a $APPCOMPAN
 msgstr "まだ $APPCOMPANY ユーザーアカウントをお持ちでない場合は、こちらをクリックして新規アカウントをご作成ください。"
 
 #: .\app\licenser.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License from your $APPCOMPANY user account separately and select it here or drag it onto this window."
+msgstr "ご使用のコンピューターがインターネットに接続していない場合、別途 $APPCOMPANY ユーザーアカウントからライセンスをダウンロードし、ここで選択するか、このウィンドウにドラッグしてください。"
+
+#: .\app\licenser.xml
 msgid "[UserLicenseWizard.ActivationPage]If your computer is not connected to the Internet, please follow the Offline Activation instructions."
 msgstr "コンピューターがインターネットに接続していない場合、オフラインでのアクティベーション手順に従ってください。"
 
@@ -2651,6 +2687,10 @@ msgstr "インスペクター"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Install"
 msgstr "インストール"
+
+#: .\app\melodyne.xml
+msgid "[MelodynePlaceholder]Install Now"
+msgstr "今すぐインストール"
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.StartPage]Install content from $APPCOMPANY user account"
@@ -3189,8 +3229,8 @@ msgid "[UserLicenseWizard.VersionPage]More Information"
 msgstr "詳細"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]More Information and Download"
-msgstr "詳細とダウンロード"
+msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "詳細"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3311,6 +3351,10 @@ msgstr "オーディオをミュート"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Mute Cue mix"
 msgstr "キューミックスをミュート"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]My Extensions"
+msgstr "お客様のエクステンション"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Naming:"
@@ -3871,6 +3915,10 @@ msgstr "プログラム"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Program"
 msgstr "プログラム"
+
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Program Extensions"
+msgstr "プログラムエクステンション"
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Project"
@@ -4511,6 +4559,10 @@ msgstr "イメージを選択"
 #: .\project\project.xml
 msgid "[TrackControls]Select Image"
 msgstr "イメージを選択"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Select License..."
+msgstr "ライセンスを選択..."
 
 #: .\ccl\installer.xml
 msgid "[InstallWizard.InstallPage]Select None"
@@ -5327,6 +5379,10 @@ msgstr "Mac App Storeにて $APPNAME をお買い上げいただきありがと�
 #: .\app\licenser.xml
 msgid "[UserLicenseWizard.AppStorePage]Thank you for using the free version of $APPNAME from the Mac App Store."
 msgstr "Mac App Storeにて無償バージョンの $APPNAME をお求めいただきありがとうございました。"
+
+#: .\app\licenser.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "ご購入いただきありがとうございました。購入済みアイテムをこのコンピューターでアクティベートできます。"
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."

@@ -9,15 +9,27 @@ msgstr ""
 msgid "[Licenser]%(1) requires access to your $APPCOMPANY user account."
 msgstr ""
 
+#: .\purchasehandler.cpp
+msgid "[Command]Activate Purchased Items"
+msgstr ""
+
 #: .\usercomponent.cpp
 msgid "[Command]Activation"
+msgstr ""
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]Activation failed."
 msgstr ""
 
 #: .\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
 msgstr ""
 
-#: .\usercomponent.cpp
+#: .\purchasehandler.cpp
+msgid "[Licenser]All installed items are activated."
+msgstr ""
+
+#: .\purchasehandler.cpp .\usercomponent.cpp
 msgid "[Command]Application"
 msgstr ""
 
@@ -29,12 +41,34 @@ msgstr ""
 msgid "[Licenser]Copy to Clipboard"
 msgstr ""
 
+#: .\purchasehandler.cpp
+msgid "[Licenser]Download"
+msgstr ""
+
 #: .\usercomponent.cpp
 msgid "[Licenser]Invalid License File!"
 msgstr ""
 
 #: .\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
+msgstr ""
+
+#: .\usercomponent.cpp
+msgid "[Licenser]Manage Activations"
+msgstr ""
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]No purchased items installed."
+msgstr ""
+
+#: .\purchasehandler.cpp
+msgid "[Licenser]Please activate $APPNAME again to authorize your purchases."
+msgstr ""
+
+#: .\purchasehandler.cpp
+msgid ""
+"[Licenser]Please download new purchases from your $APPCOMPANY user account "
+"and drag them onto $APPNAME."
 msgstr ""
 
 #: .\activationhandler.cpp
@@ -66,6 +100,16 @@ msgstr ""
 
 #: .\usercomponent.cpp
 msgid "[Licenser]The License has not been issued for this computer!"
+msgstr ""
+
+#: .\usercomponent.cpp
+msgid "[Licenser]The License has not been issued for this user!"
+msgstr ""
+
+#: .\usercomponent.cpp
+msgid ""
+"[Licenser]This computer has been de-activated for use with $APPNAME. You can "
+"manage activations in your $APPCOMPANY user account."
 msgstr ""
 
 #: .\usercomponent.cpp
