@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
+"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -362,18 +362,13 @@ msgstr "Przewiń takt do przodu"
 msgid ""
 "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
 "This device model features MIDI Learn."
-msgstr ""
-"Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn."
+msgstr "Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn."
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid ""
 "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
 "device model features MIDI Learn. Connecting the send port is optional."
-msgstr ""
-"Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest "
-"opcjonalne."
+msgstr "Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest opcjonalne."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -562,8 +557,7 @@ msgstr "Brak urządzenia audio"
 
 #: .\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
-msgstr ""
-"Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
+msgstr "Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]No Input"
@@ -595,7 +589,7 @@ msgstr "Wyjścia"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]PLEASE UPDATE DEVICE FIRMWARE!"
-msgstr ""
+msgstr "ZAKTUALIZUJ FIRMWARE URZĄDZENIA!"
 
 #: .\editor\deviceslotselector.cpp
 msgid "[Command]Page Down Skip"
@@ -622,10 +616,7 @@ msgid ""
 "[Pipeline]Pipeline plug-in init failure. The device buffersize does not "
 "match the processing buffersize. Please change your audio device setup (lock "
 "buffersize to hardware)."
-msgstr ""
-"Inicjacja wtyczki Pipeline nie powiodła się. Rozmiar bufora urządzenia nie "
-"zgadza się z rozmiarem buforu przetwarzania. Zmień konfigurację Twojego "
-"urządzenia audio (zablokuj rozmiar buforu)."
+msgstr "Inicjacja wtyczki Pipeline nie powiodła się. Rozmiar bufora urządzenia nie zgadza się z rozmiarem buforu przetwarzania. Zmień konfigurację Twojego urządzenia audio (zablokuj rozmiar buforu)."
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
@@ -955,33 +946,25 @@ msgstr "Wyświetlany tekst"
 msgid ""
 "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
 "to remove it from User Devices?"
-msgstr ""
-"Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z "
-"urządzeń użytkownika?"
+msgstr "Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z urządzeń użytkownika?"
 
 #: .\audio\audioengine.cpp
 msgid ""
 "[Devices]The audio device %(1) could not be initialized. Please check your "
 "hardware configuration and try again."
-msgstr ""
-"Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i "
-"spróbuj ponownie."
+msgstr "Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i spróbuj ponownie."
 
 #: .\audio\audioengine.cpp
 msgid ""
 "[Devices]The audio device %(1) has failed to start correctly before. Do you "
 "want to try it again?"
-msgstr ""
-"Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować "
-"jeszcze raz?"
+msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować jeszcze raz?"
 
 #: .\audio\watchdogcomponent.cpp
 msgid ""
 "[Devices]The audio engine has been stopped, because the system became "
 "unresponsive due to an overload in the audio engine."
-msgstr ""
-"Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku "
-"przeciążenia."
+msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
@@ -991,9 +974,7 @@ msgstr "Tego urządzenia nie można teraz usunąć!"
 msgid ""
 "[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
 "to the same port may lead to copied transmission of MIDI events."
-msgstr ""
-"Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu "
-"może prowadzić do skopiowania transmisji komunikatów MIDI."
+msgstr "Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu może prowadzić do skopiowania transmisji komunikatów MIDI."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1061,10 +1042,7 @@ msgid ""
 "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
 "controller movements. When connecting the receive port, be careful to avoid "
 "doubled events if the same port is used by a Keyboard device."
-msgstr ""
-"Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów "
-"kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu "
-"odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
+msgstr "Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -1096,8 +1074,4 @@ msgid ""
 "removable devices currently not plugged in.\n"
 "\n"
 "Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są "
-"teraz podłączone\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone\n\nCzy chcesz je teraz ponownie podłączyć?"

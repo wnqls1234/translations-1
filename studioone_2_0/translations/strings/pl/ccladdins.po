@@ -7,7 +7,7 @@ msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
-msgstr "Zainstalowano %(1) rozszerzeń."
+msgstr "Liczba zainstalowanych rozszerzeń: %(1)"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]%(1) is already installed!"
@@ -60,7 +60,7 @@ msgstr "Anulowano!"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Claim Product Key"
-msgstr ""
+msgstr "[Instalacji]Prośba o klucz produktu"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Copy"
@@ -110,9 +110,7 @@ msgstr "Rozszerzenia"
 msgid ""
 "[Web]Failed to connect to the server.\n"
 "Please check your Internet connection and try again."
-msgstr ""
-"Nie można połączyć się z serwerem.\n"
-"Sprawdź połączenie z Internetem i spróbuj ponownie."
+msgstr "Nie można połączyć się z serwerem.\nSprawdź połączenie z Internetem i spróbuj ponownie."
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
@@ -122,9 +120,7 @@ msgstr "Nie powiodło się!"
 msgid ""
 "[Installer]File not found:\n"
 "%(1)"
-msgstr ""
-"Nie można odnaleźć pliku:\n"
-"%(1)"
+msgstr "Nie można odnaleźć pliku:\n%(1)"
 
 #: .\gadgets\gadgetmanager.cpp
 msgid "[GadgetManager]Gadgets"
@@ -174,9 +170,7 @@ msgstr "Instalacja nie powiodła się!"
 msgid ""
 "[Installer]Installed on:\n"
 "%(1)"
-msgstr ""
-"Zainstalowano:\n"
-"%(1)"
+msgstr "Zainstalowano:\n%(1)"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Installing..."
@@ -190,9 +184,7 @@ msgstr "Nieprawidłowy plik instalacyjny!"
 msgid ""
 "[Installer]It is recommended to install this packet.\n"
 "Are you sure you want to uncheck it?"
-msgstr ""
-"Zalecamy zainstalowanie tego pakietu.\n"
-"Czy na pewno chcesz go odznaczyć?"
+msgstr "Zalecamy zainstalowanie tego pakietu.\nCzy na pewno chcesz go odznaczyć?"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]KB/sec"
@@ -227,10 +219,7 @@ msgid ""
 "[Installer]Please insert \"%(1)\"...\n"
 "\n"
 "File: %(2)"
-msgstr ""
-"Włóż \"%(1)\" do napędu...\n"
-"\n"
-"Plik: %(2)"
+msgstr "Włóż \"%(1)\" do napędu...\n\nPlik: %(2)"
 
 #: .\installer\installer.cpp
 msgid "[Installer]Please restart $APPNAME for the changes to take effect."
