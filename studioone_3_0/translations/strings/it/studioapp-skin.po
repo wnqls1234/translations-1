@@ -86,7 +86,7 @@ msgstr "$APPNAME Website"
 
 #: .\ccl\contentinstaller.xml
 msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
-msgstr "$APPNAME è dotato di contenuti aggiuntivi, tra cui loop, campioni, e plug-in di terze parti. Si prega di selezionare i pacchetti da installare."
+msgstr "$APPNAME è dotato di contenuti aggiuntivi, tra cui loop, samples, e plug-in di terze parti. Si prega di selezionare i pacchetti da installare."
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
@@ -886,7 +886,7 @@ msgstr "Aggiungi blocco appunti"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Add Send"
-msgstr "Aggiungi Mandata"
+msgstr "Aggiungi Sends"
 
 #: .\devices\devices.xml
 msgid "[MacroControlSetup]Add Targets"
@@ -902,7 +902,7 @@ msgstr "Aggiungi Tracce @cmd[]"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Add a layer for every new take"
-msgstr "Aggiungi un livello per ogni nuovo take"
+msgstr "Aggiungi un layer per ogni nuovo take"
 
 #: .\app\options.xml
 msgid "[SoundSetOption]Add..."
@@ -1262,23 +1262,23 @@ msgstr "Beat"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Bend Marker"
-msgstr "Marcatore Bend"
+msgstr "Marker del Bend"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Bend Marker"
-msgstr "Marcatore Bend"
+msgstr "Marker del Bend"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventMiniProperties.Table]Bend Marker"
-msgstr "Marcatore Bend"
+msgstr "Marker del Bend"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Between Each Marker"
-msgstr "Fra ogni Marcatore"
+msgstr "Fra ogni Marker"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Between Each Marker"
-msgstr "Fra ogni Marcatore"
+msgstr "Fra ogni Marker"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Between Loop"
@@ -1290,19 +1290,19 @@ msgstr "Fra i Loop"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Between Selected Markers"
-msgstr "Fra i Marcatori selezionati"
+msgstr "Fra i Marker selezionati"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Between Selected Markers"
-msgstr "Fra i Marcatori selezionati"
+msgstr "Fra i Marker selezionati"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Between Song Start/End Marker"
-msgstr "Fra i Marcatori di Start/End della Song"
+msgstr "Fra i Marker di Start/End della Song"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Between Song Start/End Marker"
-msgstr "Fra i Marcatori di Start/End della Song"
+msgstr "Fra i Marker di Start/End della Song"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup]Bit Depth"
@@ -1330,7 +1330,7 @@ msgstr "Sfoglia"
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Browse $APPNAME loop libraries"
-msgstr "Sfoglia $APPNAME librerie di loop"
+msgstr "Sfoglia le librerie di loop di $APPNAME"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Browse Presets"
@@ -2154,7 +2154,7 @@ msgstr "Duplica"
 
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Duplicate Layer"
-msgstr "Duplica livello"
+msgstr "Duplica il Layer"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Duration:"
@@ -2650,7 +2650,7 @@ msgstr "Vai all'evento successivo"
 
 #: .\devices\transport.xml
 msgid "[Command]Goto Next Marker"
-msgstr "Vai al marcatore successivo"
+msgstr "Vai al Marker successivo"
 
 #: .\devices\transport.xml
 msgid "[Command]Goto Previous Event"
@@ -2658,7 +2658,7 @@ msgstr "Vai all'evento precedente"
 
 #: .\devices\transport.xml
 msgid "[Command]Goto Previous Marker"
-msgstr "Vai al marcatore precedente"
+msgstr "Vai al Marker precedente"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.Inplace]Grid"
@@ -2834,11 +2834,11 @@ msgstr "Visualizzazione delle informazioni"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Initial length of song"
-msgstr "Lunghezza iniziale del brano"
+msgstr "Lunghezza iniziale della song"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Initial tempo of song"
-msgstr "Tempo iniziale del brano"
+msgstr "Tempo iniziale della song"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Initial time signature of song"
@@ -3114,23 +3114,23 @@ msgstr "Cognome"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
-msgstr "Livelli"
+msgstr "Layers"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Layers"
-msgstr "Livelli"
+msgstr "Layers"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Layers"
-msgstr "Livelli"
+msgstr "Layers"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers follow events"
-msgstr "I livelli seguono gli eventi"
+msgstr "I Layers seguono gli eventi"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Layers follow events"
-msgstr "I livelli seguono gli eventi"
+msgstr "I Layers seguono gli eventi"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
@@ -3230,7 +3230,7 @@ msgstr "Posizione"
 
 #: .\app\options.xml
 msgid "[SoundSetOption]Locations"
-msgstr "Posizioni"
+msgstr "Posizioni cartelle"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup]Lock"
@@ -3350,11 +3350,11 @@ msgstr "Costruttore"
 
 #: .\devices\transport.xml .\engine\trackcontrols.xml
 msgid "[Command]Marker"
-msgstr "Marcatore"
+msgstr "Marker"
 
 #: .\engine\trackcontrols.xml
 msgid "[MarkerTrackControls]Marker"
-msgstr "Marcatore"
+msgstr "Marker"
 
 #: .\app\windowclasses.xml
 msgid "[MarkerTrack]Marker Track"
@@ -3562,11 +3562,11 @@ msgstr "Nuovo progetto"
 
 #: .\app\homepage.xml
 msgid "[Command]New Song"
-msgstr "Nuovo brano"
+msgstr "Nuova Song"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]New Song"
-msgstr "Nuovo brano"
+msgstr "Nuova Song"
 
 #: .\app\homepage.xml
 msgid "[HomePage.RSS]News Feed"
@@ -4022,7 +4022,7 @@ msgstr "Prefader On/Off"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Prefader Send Level: @value[]"
-msgstr "Livello di mandata del Prefader: @value[]"
+msgstr "Livello di Sends del Prefader: @value[]"
 
 #: .\ccl\overlays.xml
 msgid "[UserOptionDialog]Preferences"
@@ -4478,7 +4478,7 @@ msgstr "Rimuovi strumento"
 
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Remove Layer"
-msgstr "Rimuovi Livello"
+msgstr "Rimuovi Layer"
 
 #: .\devices\devices.xml
 msgid "[MacroControlSetup]Remove Targets"
@@ -4818,7 +4818,7 @@ msgstr "Selezione"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
-msgstr "Livello della mandata: @value[]"
+msgstr "Livello di Sends: @value[]"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send MIDI Clock"
@@ -4834,7 +4834,7 @@ msgstr "Invia a"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
-msgstr "Mandate"
+msgstr "Sends"
 
 #: .\devices\devices.xml
 msgid "[MidiMonitor]Sent"
@@ -5010,7 +5010,7 @@ msgstr "Mostra quando inizia un nuovo trasferimento"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
-msgstr "Mostra/Nascondi il Marcatore del Bend"
+msgstr "Mostra/Nascondi il Marker del Bend"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventFXProperties]Show/Hide Event Effects"
@@ -5110,7 +5110,7 @@ msgstr "Solo (premi Shift per salvarlo )"
 
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Solo Layer"
-msgstr "Livello  dei Solo"
+msgstr "Layer dei Solo"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Solo follows Selection"
@@ -5182,7 +5182,7 @@ msgstr "Titolo della Song"
 
 #: .\app\homepage.xml
 msgid "[DocumentBlocks]Songs"
-msgstr "Brani"
+msgstr "Songs"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Songwriter"
@@ -5470,7 +5470,7 @@ msgstr "Coda"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Takes to Layers"
-msgstr "Take sui livelli"
+msgstr "Take sui Layer"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tap Tempo"
@@ -5598,7 +5598,7 @@ msgstr "Il timecode segue il loop"
 
 #: .\engine\audioexport.xml
 msgid "[RenderClick]Timeline Start To Song End"
-msgstr "Linea temporale inizio fine brano"
+msgstr "Linea temporale inizio fine song"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Timeruler Format"
@@ -6030,7 +6030,7 @@ msgstr "Benvenuto! Per autorizzare questo computer per l'utilizzo di $APPNAME, s
 
 #: .\app\options.xml
 msgid "[StartupOption]When $APPNAME starts"
-msgstr "Quando $APPNAME inizia"
+msgstr "Quando $APPNAME viene eseguito"
 
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."

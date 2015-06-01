@@ -131,7 +131,7 @@ msgstr "Aggiungi blocco appunti"
 
 #: .\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add Send:"
-msgstr "Aggiungi Mandata:"
+msgstr "Aggiungi Sends:"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Add Track"
@@ -256,7 +256,7 @@ msgstr "Cambia il formato dell'evento tempo"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Layers Follow"
-msgstr "Cambia la disposizione dei livelli"
+msgstr "Cambia la disposizione dei Layer"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Mode"
@@ -396,7 +396,7 @@ msgstr "Crea \"%(1)\" Parte Automazione"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Create Arranger Sections from Markers"
-msgstr "Crea sezione di arrangiamento dai marcatori"
+msgstr "Crea sezione di arrangiamento dai Marker"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Create Autofades"
@@ -412,11 +412,11 @@ msgstr "Crea dissolvenze incrociate"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Create Markers from Arranger Sections"
-msgstr "Crea marcatori da sezioni di arrangiamento"
+msgstr "Crea Marker da sezioni di arrangiamento"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Create Markers from Sections"
-msgstr "Crea Marcatori dalle Sezioni"
+msgstr "Crea Marker dalle Sezioni"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges"
@@ -428,7 +428,7 @@ msgstr "Crea intervalli sulle Tracce"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Create Sections from Markers"
-msgstr "Crea Sezioni dai Marcatori"
+msgstr "Crea Sezioni dai Marker"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
@@ -624,19 +624,19 @@ msgstr "Duplica (completo)"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layer"
-msgstr "Duplica livello"
+msgstr "Duplica il Layer"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Duplicate Layer"
-msgstr "Duplica livello"
+msgstr "Duplica il Layer"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Duplicate Layer"
-msgstr "Duplica livello"
+msgstr "Duplica il Layer"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layers"
-msgstr "Duplica i livelli"
+msgstr "Duplica i Layer"
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[Command]Duplicate Scratch Pad"
@@ -868,7 +868,7 @@ msgstr "Operazioni generali per gli eventi"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Goto Next Marker"
-msgstr "Vai al marcatore successivo"
+msgstr "Vai al Marker successivo"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Next Section"
@@ -876,7 +876,7 @@ msgstr "Vai alla Sezione successiva"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Goto Previous Marker"
-msgstr "Vai al marcatore precedente"
+msgstr "Vai al Marker precedente"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Previous Section"
@@ -916,7 +916,7 @@ msgstr "Nascondi \"%(1)\""
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Hide Layer"
-msgstr "Nascondi Layer"
+msgstr "Nascondi il Layer"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Hide Track"
@@ -1004,11 +1004,11 @@ msgstr "Inserisci uno strumento %(1):"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Insert Marker"
-msgstr "Inserisci marcatore"
+msgstr "Inserisci Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Marker]Insert Marker"
-msgstr "Inserisci marcatore"
+msgstr "Inserisci Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Insert Named"
@@ -1088,11 +1088,11 @@ msgstr "Lega"
 
 #: .\base\model\eventlayer.cpp
 msgid "[Engine]Layer"
-msgstr "Livello"
+msgstr "Layer"
 
 #: .\base\model\eventlayer.cpp
 msgid "[Engine]Layers"
-msgstr "Livelli"
+msgstr "Layers"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Length"
@@ -1205,19 +1205,19 @@ msgstr "Mappa"
 
 #: .\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Marker"
-msgstr "Marcatore"
+msgstr "Marker"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]Marker"
-msgstr "Marcatore"
+msgstr "Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Marker"
-msgstr "Marcatore"
+msgstr "Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Marker]Marker %(1)"
-msgstr "Marcatore %(1)"
+msgstr "Marker %(1)"
 
 #: .\pool\mediapoolcomponent.cpp .\pool\mediapoolnodes.cpp
 msgid "[Command]Media"
@@ -1313,7 +1313,7 @@ msgstr "Sposta Eventi"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Layer"
-msgstr "Sposta Layer"
+msgstr "Sposta il Layer"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Layers"
@@ -1493,11 +1493,11 @@ msgstr "Ripetizione della nota"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
-msgstr "Niente da esportare. Si prega di selezionare una o più tracce e impostare loop o marcatori."
+msgstr "Niente da esportare. Si prega di selezionare una o più tracce e impostare i loop o i Marker."
 
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
-msgstr "Niente da esportare. Impostare prima Loop o marcatori."
+msgstr "Niente da esportare. Impostare prima i Loop o i Marker."
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Events]Nudge"
@@ -1697,7 +1697,7 @@ msgstr "Registrazione take"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Record Takes to Layers"
-msgstr "Registra take sui livelli"
+msgstr "Registra take sui Layer"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
@@ -1734,15 +1734,15 @@ msgstr "Rimuovi clip dal pool"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Layer"
-msgstr "Rimuovi Livello"
+msgstr "Rimuovi Layer"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Remove Layer"
-msgstr "Rimuovi Livello"
+msgstr "Rimuovi Layer"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
-msgstr "Rimuovi Livello"
+msgstr "Rimuovi Layer"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2026,11 +2026,11 @@ msgstr "Imposta gruppo di modifica"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
-msgstr "Imposta il tipo di Marcatore"
+msgstr "Imposta il tipo di Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Marker]Set Markers"
-msgstr "Imposta i Marcatori"
+msgstr "Imposta i Marker"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Set Start and End to Selection"
@@ -2140,11 +2140,11 @@ msgstr "Solo"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Solo Layer"
-msgstr "Livello  dei Solo"
+msgstr "Layer dei Solo"
 
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Solo Layer"
-msgstr "Livello  dei Solo"
+msgstr "Layer dei Solo"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Solo follows Selection"
@@ -2201,7 +2201,7 @@ msgstr "Dividi Range"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Split at Bend Markers"
-msgstr "Dividi sui marcatori bend"
+msgstr "Dividi sui Marker del bend"
 
 #: .\application\musicloop\loopextension.cpp
 msgid "[Browser]Split to Mono Files"
@@ -2273,7 +2273,7 @@ msgstr "Il formato di questo file non è supportato."
 
 #: .\song\songmaster.cpp
 msgid "[SongMaster]The mastering file of this song is up-to-date."
-msgstr "Il file master di questo brano è aggiornato."
+msgstr "Il file master di questa song è aggiornato."
 
 #: .\base\rootsetup.cpp
 msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
@@ -2281,7 +2281,7 @@ msgstr "La frequenza di campionamento non corrisponde alla configurazione del di
 
 #: .\song\songmaster.cpp
 msgid "[SongMaster]The song will be saved first.\n"
-msgstr "Il brano sarà prima salvato.\n"
+msgstr "La song sarà prima salvata.\n"
 
 #: .\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
@@ -2463,11 +2463,11 @@ msgstr "Estrai i take sulle tracce"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes to existing Layers"
-msgstr "Estrai i take su livelli esistenti"
+msgstr "Estrai i take su Layer esistenti"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes to new Layers"
-msgstr "Estrai i take su nuovi livelli"
+msgstr "Estrai i take su nuovi Layer"
 
 #: .\song\songmaster.cpp
 msgid "[Command]Update Mastering File"
