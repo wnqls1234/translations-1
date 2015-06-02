@@ -10,7 +10,7 @@ msgstr "\"%(1)\" は選択されているファイルフォーマットに対応
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
-msgstr "%(1) はすでにオートメーションされています"
+msgstr "\"%(1)\" はすでにオートメーションされています"
 
 #: .\music\musicclip.cpp
 msgid "[MusicClip]%(1) beats"
@@ -34,7 +34,7 @@ msgstr "%(2) つのファイルが %(1) に見つかりました"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
-msgstr "(空)"
+msgstr "（空）"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
@@ -46,7 +46,7 @@ msgstr "（パートを出る）"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Muted)"
-msgstr "(ミュート)"
+msgstr "（ミュート）"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -191,7 +191,7 @@ msgstr "オーディオエクスポート"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Audio Input follows Selection"
-msgstr "オーディオ入力は選択に従う"
+msgstr "選択したトラックでオーディオ入力を有効"
 
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Parts"
@@ -292,7 +292,7 @@ msgstr "コーラス"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Click+Drag Parameter"
-msgstr "クリック+パラメーターをドラッグ"
+msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
@@ -368,7 +368,7 @@ msgstr "新規スクラッチパッドにコピー"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Copy to new Scratch Pad"
-msgstr "新規スクラッチパッドにコピー"
+msgstr "新規スクラッチパッドへコピー"
 
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Copying external files"
@@ -588,7 +588,7 @@ msgstr "インストゥルメント %(1) を置換しますか、または結合
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
-msgstr "インストゥルメント %(1) を置き換えますか？"
+msgstr "インストゥルメント %(1) を置換しますか？"
 
 #: .\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Don't follow"
@@ -1044,7 +1044,7 @@ msgstr "同じトラックに挿入"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Instrument Input follows Selection"
-msgstr "インストゥルメント入力は選択に従う"
+msgstr "選択したトラックでインストゥルメント入力を有効"
 
 #: .\musicediting\musicparttask.cpp
 msgid "[MusicPartEdit]Instrument Parts"
@@ -1273,7 +1273,7 @@ msgstr "チューンを変更"
 
 #: .\music\musicpartactions.cpp
 msgid "[Engine:MusicActions]Modify Velocity"
-msgstr "ベロシティーを変更"
+msgstr "ベロシティを変更"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Modify Video Offset"
@@ -1289,11 +1289,11 @@ msgstr "モニター"
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation"
-msgstr "%(1) オートメーションを移動"
+msgstr "\"%(1)\" オートメーションを移動"
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nfrom %(3) to %(2)"
-msgstr "\"%(1)\" オートメーションを\r\n%(3) から %(2) へ移動"
+msgstr "\"%(1)\" オートメーションを%(3) から %(2) へ移動"
 
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
@@ -1433,7 +1433,7 @@ msgstr ".Lまたは.Rで終わる名前のオーディオファイルは見つ�
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]No files are missing."
-msgstr "行方不明のファイルはありません。"
+msgstr "不明のファイルはありません。"
 
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]No files are unused."
@@ -1481,7 +1481,7 @@ msgstr "録音されていません"
 
 #: .\audioediting\audioinspector.cpp
 msgid "[TempoFormatter]Not Set"
-msgstr "設定されていません"
+msgstr "未設定"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
@@ -1862,7 +1862,7 @@ msgstr "クリックをレンダーしています"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Envelope: %(1)"
-msgstr "エンベロープをレンダリングしています: %(1)"
+msgstr "エンベロープをレンダーしています: %(1)"
 
 #: .\base\model\mediabouncer.cpp
 msgid "[Engine]Rendering Files"
@@ -1870,7 +1870,7 @@ msgstr "ファイルをレンダーしています"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Note Events"
-msgstr "ノートイベントをレンダリングしています"
+msgstr "ノートイベントをレンダーしています"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Replace"
@@ -1882,7 +1882,7 @@ msgstr "置換"
 
 #: .\editing\dragoneventhandler.cpp .\editing\eventdraghandler.cpp
 msgid "[Edit]Replace Event"
-msgstr "イベントを置き換え"
+msgstr "イベントを置換"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Replace Partially"
@@ -2034,7 +2034,7 @@ msgstr "マーカーを設定"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Set Start and End to Selection"
-msgstr "スタートとエンドを選択へ設定"
+msgstr "スタートとエンドを選択に設定"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Track Delay"
@@ -2080,7 +2080,7 @@ msgstr "インストゥルメントエディターを表示"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Show Media Folder in Explorer"
-msgstr "メディアフォルダーをエクスプローラに表示"
+msgstr "メディアフォルダーをエクスプローラーに表示"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Show Media Folder in Explorer/Finder"
@@ -2108,7 +2108,7 @@ msgstr "このトラックの \"%(1)\" オートメーションを表示"
 
 #: .\musicediting\partautomationdraghandler.cpp
 msgid "[Automation]Show the \"%(1)\" Part Automation"
-msgstr "%(1) パートオートメーションを表示"
+msgstr "\"%(1)\" パートオートメーションを表示"
 
 #: .\application\audioedit\audiobendaddin.cpp
 msgid "[Engine]Slice"
@@ -2148,7 +2148,7 @@ msgstr "レイヤーをソロ"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Solo follows Selection"
-msgstr "ソロは選択に従う"
+msgstr "選択したトラックでソロを有効"
 
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Some files could not be exported."
@@ -2325,7 +2325,7 @@ msgstr "独立したエディターを切り替え"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Toggle Read"
-msgstr "既読を切り替え"
+msgstr "リードを切り替え"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Touch"
@@ -2475,7 +2475,7 @@ msgstr "マスタリングファイルを更新"
 
 #: .\song\songmaster.cpp
 msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "このソングのマスタリングファイルを更新します:\n%(6)\nアウトプット: %(1)\n長さ: %(3)\n解像度: %(4)\nリアルタイムプロセッシング: %(5)\nマスターエフェクトを含める: %(7)\nファイル名: %(2)"
+msgstr "このソングのマスタリングファイルを更新します:\n%(6)\n出力: %(1)\n長さ: %(3)\n解像度: %(4)\nリアルタイムプロセッシング: %(5)\nマスターエフェクトを含める: %(7)\nファイル名: %(2)"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
@@ -2590,4 +2590,5 @@ msgstr "%(1) 回使用"
 
 #~ msgid "[Command]Duplicate with Options"
 #~ msgstr "オプションと共に複製"
+
 

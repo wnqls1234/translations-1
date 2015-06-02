@@ -14,7 +14,7 @@ msgstr " ..."
 
 #: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
-msgstr "フォーラム"
+msgstr "$APPCOMPANY フォーラム"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]$APPCOMPANY Login"
@@ -94,7 +94,7 @@ msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要が�
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
-msgstr "$APPNAME はメディアファイルを分かりやすく整理します。 ソング、プロジェクト、プリセットなどのデータはすべて単一のロケーションに保存されます。"
+msgstr "$APPNAME はメディアファイルを分かりやすく整理します。ソング、プロジェクト、プリセットなどのデータはすべて単一のロケーションに保存されます。"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FrequencySplitterSlider]$idx"
@@ -374,7 +374,7 @@ msgstr "2. [アクティベート] をクリックして $APPNAME をアクテ�
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]2. You will need the following Activation Code:"
-msgstr "2. 以下のアクティベーションコードが必要となります: "
+msgstr "2. 以下のアクティベーションコードが必要となります:  "
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]3"
@@ -1094,7 +1094,7 @@ msgstr "オーディオデバイス"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Audio Event Properties"
-msgstr "オーディオイベントプロパティー"
+msgstr "オーディオイベントプロパティ"
 
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Audio I/O Setup"
@@ -1102,11 +1102,11 @@ msgstr "オーディオI/O設定"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Audio Input follows Selection"
-msgstr "オーディオ入力は選択に従う"
+msgstr "選択したトラックでオーディオ入力を有効"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Audio Input follows Selection"
-msgstr "オーディオ入力は選択に従う"
+msgstr "選択したトラックでオーディオ入力を有効"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Audio Tracks"
@@ -1118,11 +1118,11 @@ msgstr "録音のオーディオ解像度"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Audio track monitoring follows record"
-msgstr "オーディオトラックモニタリングは録音に従う"
+msgstr "選択したトラックでオーディオトラックモニターを有効"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "オーディオトラックモニタリングは再生をミュート（テープスタイル）"
+msgstr "オーディオトラックモニター中にオーディオトラックの再生をミュート（テープスタイル）"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1442,7 +1442,7 @@ msgstr "検索をキャンセル"
 
 #: .\engine\mediapool.xml
 msgid "[PlugInFileInfo]Category:"
-msgstr "カテゴリー:"
+msgstr "カテゴリ:"
 
 #: .\ccl\common.xml
 msgid "[ServiceOption]Changing these advanced settings might lead to improper function of $APPNAME. You should only continue if you are sure of what you are doing."
@@ -1574,7 +1574,7 @@ msgstr "プリカウントでのみクリック"
 
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
-msgstr "クリック+パラメーターをドラッグ"
+msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioMeter.Narrow]Clip"
@@ -1902,7 +1902,7 @@ msgstr "デフォルトのインストゥルメント入力"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Default Velocity"
-msgstr "デフォルトのベロシティー"
+msgstr "デフォルトのベロシティ"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Default envelopes for new Audio Tracks"
@@ -2330,7 +2330,7 @@ msgstr "録音パートを拡大してプリカウント中に録音されたノ
 
 #: .\ccl\common.xml
 msgid "[CommandEditorOption]Enter key:"
-msgstr "キーを入力"
+msgstr "キーを入力:"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Envelopes"
@@ -2382,15 +2382,15 @@ msgstr "イベントFX"
 
 #: .\engine\eventinspector.xml
 msgid "[EventProperties]Event Properties"
-msgstr "イベントプロパティー"
+msgstr "イベントプロパティ"
 
 #: .\engine\eventinspector.xml
 msgid "[NoEventProperties]Event Properties"
-msgstr "イベントプロパティー"
+msgstr "イベントプロパティ"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioPartProperties]Event Properties"
-msgstr "イベントプロパティー"
+msgstr "イベントプロパティ"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Events"
@@ -2430,11 +2430,11 @@ msgstr "ミックスダウンをエクスポート"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Export Range"
-msgstr "範囲をエクスポート"
+msgstr "エクスポート範囲"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Export Range"
-msgstr "範囲をエクスポート"
+msgstr "エクスポート範囲"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Export Stems"
@@ -2810,7 +2810,7 @@ msgstr "トラックにインポート"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]In"
-msgstr "In"
+msgstr "イン"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]In"
@@ -2850,7 +2850,7 @@ msgstr "入力レーテンシー"
 
 #: .\devices\musicfxeditor.xml
 msgid "[MusicFXRackSlotView]Input Mode"
-msgstr "インプットモード"
+msgstr "入力モード"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Input Quantize"
@@ -2878,7 +2878,7 @@ msgstr "テンポ変更を挿入"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Inserts"
-msgstr "インサート"
+msgstr "ｲﾝｻｰﾄ"
 
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Inserts"
@@ -3006,11 +3006,11 @@ msgstr "インストゥルメント入力"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Instrument Input follows Selection"
-msgstr "インストゥルメント入力は選択に従う"
+msgstr "選択したトラックでインストゥルメント入力を有効"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Instrument Input follows Selection"
-msgstr "インストゥルメント入力は選択に従う"
+msgstr "選択したトラックでインストゥルメント入力を有効"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Instrument Loop Record"
@@ -3034,7 +3034,7 @@ msgstr "インストゥルメントトラック"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Instrument track monitoring follows record"
-msgstr "インストゥルメントトラックモニタリングは録音に従う"
+msgstr "選択したトラックでインストゥルメントトラックモニターを有効"
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Instruments"
@@ -3178,7 +3178,7 @@ msgstr "フォルダートラックの展開/折りたたみを表示/非表示�
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
-msgstr "トラックリストとコンソールの表示/非表示ををリンク"
+msgstr "トラックリストとコンソールの表示/非表示をリンク"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Linked"
@@ -3486,7 +3486,7 @@ msgstr "ムービーが読み込まれていません"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartProperties]Music Part Properties"
-msgstr "音楽パートプロパティー"
+msgstr "音楽パートプロパティ"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Mute"
@@ -4090,7 +4090,7 @@ msgstr "イベントエフェクト後にボリュームを処理"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
-msgstr "別のスレッドでオーディオを処理（より安全だが高レーテンシー）"
+msgstr "オーディオをセーフモードで処理（高レーテンシー）"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Processing:"
@@ -4498,7 +4498,7 @@ msgstr "レンダー"
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Render All Channels"
-msgstr "すべてのチャンネルをレンダリング"
+msgstr "すべてのチャンネルをレンダー"
 
 #: .\devices\transport.xml
 msgid "[Command]Render Click"
@@ -4642,7 +4642,7 @@ msgstr "ルーティング"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
-msgstr "$APPNAMEFREEを実行 - 機能制限付き無償版"
+msgstr "$APPNAMEFREE を実行 - 機能制限付き無償版"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup]Sample Rate"
@@ -4682,7 +4682,7 @@ msgstr "再生と録音のサンプルレート"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Saturation"
-msgstr "サチュレーション"
+msgstr "彩度"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Save As Template"
@@ -4762,7 +4762,7 @@ msgstr "ライセンスファイルを選択..."
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]Select License File..."
-msgstr "ライセンスファイルを選択..."
+msgstr "ライセンスを選択..."
 
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Select Parameter"
@@ -4878,7 +4878,7 @@ msgstr "表示"
 
 #: .\engine\song.xml
 msgid "[Song]Show Automation @cmd[Track|Show Envelopes]"
-msgstr "オートメーションを追加 @cmd[Track|Show Envelopes]"
+msgstr "オートメーションを表示 @cmd[Track|Show Envelopes]"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.CacheOptions]Show Cache Folder"
@@ -5114,11 +5114,11 @@ msgstr "レイヤーをソロ"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Solo follows Selection"
-msgstr "ソロは選択に従う"
+msgstr "選択したトラックでソロを有効"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Solo follows Selection"
-msgstr "ソロは選択に従う"
+msgstr "選択したトラックでソロを有効"
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Song"
@@ -5198,15 +5198,15 @@ msgstr "ソノ"
 
 #: .\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Sort by: "
-msgstr "次で並び替え: "
+msgstr "並び替え: "
 
 #: .\ccl\browser.xml
 msgid "[TagChainSelector]Sort by: "
-msgstr "次で並び替え: "
+msgstr "並び替え: "
 
 #: .\engine\mediapool.xml
 msgid "[MediaPoolHeader]Sort by: "
-msgstr "次で並び替え: "
+msgstr "並び替え: "
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioGroupFX.Channel]Sources"
@@ -5470,7 +5470,7 @@ msgstr "テイル"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Takes to Layers"
-msgstr "テイクをレイヤーに"
+msgstr "テイクをレイヤー化"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tap Tempo"
@@ -5610,7 +5610,7 @@ msgstr "時間ルーラーフォーマット"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.TrackPart]Timestretch"
-msgstr "タイムストレッチ"
+msgstr "グループ"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Timestretch"
@@ -5618,7 +5618,7 @@ msgstr "ﾀｲﾑｽﾄﾚｯﾁ"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Timing"
-msgstr "タイミング"
+msgstr "拍子"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Title"
@@ -5858,7 +5858,7 @@ msgstr "アップグレード"
 
 #: .\project\burn.xml
 msgid "[BurnerSelectDialog]Use Burnproof"
-msgstr "バンプルーフを使用"
+msgstr "バーンプルーフを使用"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup]Use CPU Cores"
@@ -6034,7 +6034,7 @@ msgstr "$APPNAME 起動時"
 
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."
-msgstr "Melodyneでは、オーディオ素材内の各音のピッチ、タイミング、音量、その他のプロパティーを操作し、イントネーションの修正から大幅な加工までさまざまな変更が行えます。"
+msgstr "Melodyneでは、オーディオ素材内の各音のピッチ、タイミング、音量、その他のプロパティを操作し、イントネーションの修正から大幅な加工までさまざまな変更が行えます。"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Write Tempo"
@@ -6078,7 +6078,7 @@ msgstr "はい"
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."
-msgstr "このロケーションは後で [環境設定] ウィンドウで変更できます。"
+msgstr "このロケーションは後で［環境設定］ウィンドウで変更できます。"
 
 #: .\app\licenser.xml
 msgid "[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME menu to install the additional content."
@@ -6237,4 +6237,5 @@ msgstr "x"
 
 #~ msgid "[ProjectFader]Volume"
 #~ msgstr "ボリューム"
+
 

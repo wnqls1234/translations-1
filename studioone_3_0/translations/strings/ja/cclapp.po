@@ -66,7 +66,7 @@ msgstr "詳細"
 
 #: .\documents\documentversions.cpp
 msgid "[Documents]Age"
-msgstr "年齢"
+msgstr "時期"
 
 #: .\application.cpp
 msgid "[Application]An instance of %(1) is already running!"
@@ -126,11 +126,11 @@ msgstr "%(1) を今閉じることはできません。"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Category"
-msgstr "カテゴリー"
+msgstr "カテゴリ"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Category"
-msgstr "カテゴリー"
+msgstr "カテゴリ"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
@@ -146,7 +146,7 @@ msgstr "タグをクリア"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Click+Drag Preset"
-msgstr "クリック+プリセットをドラッグ"
+msgstr "プリセットをクリック+ドラッグ"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Close"
@@ -302,7 +302,7 @@ msgstr "これらのファイルを \"%(1)\" へコピーしますか？"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to copy this file to \"%(1)\"?"
-msgstr "これらのファイルを \"%(1)\" へコピーしますか？"
+msgstr "このファイルを \"%(1)\" へコピーしますか？"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to copy this folder to \"%(1)\"?"
@@ -350,7 +350,7 @@ msgstr "バックアップを開きますか？その場合、元のファイル
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
-msgstr "[最近使った項目]リストから参照を削除しますか？"
+msgstr "リストから参照を削除しますか？"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -443,7 +443,7 @@ msgstr "%(1) をエクスポートしています..."
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Extension"
-msgstr "拡張子"
+msgstr "拡張"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Extract Here"
@@ -860,11 +860,11 @@ msgstr "タブ名を変更"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Replace Preset"
-msgstr "プリセットを置き換え"
+msgstr "プリセットを置換"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Replace Preset"
-msgstr "プリセットを置き換え"
+msgstr "プリセットを置換"
 
 #: .\browser\browser.cpp
 msgid "[Browser]Reset Root"
@@ -972,7 +972,7 @@ msgstr "ルートに設定"
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]Show Extension"
-msgstr "拡張子を表示"
+msgstr "拡張を表示"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Show Package Contents"
@@ -984,7 +984,7 @@ msgstr "コンテキストに表示"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Show in Explorer"
-msgstr "エクスプローラ−に表示"
+msgstr "エクスプローラーに表示"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Command]Show in Explorer/Finder"
@@ -1012,7 +1012,7 @@ msgstr "手順 %(2) 中 %(1)"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store %(1)..."
-msgstr "%(1)を格納..."
+msgstr "%(1)を保存..."
 
 #: .\presets\presetcomponent.cpp .\presets\presetdrag.cpp
 msgid "[Presets]Store Preset"
@@ -1076,7 +1076,7 @@ msgstr "このファイルをインポートできませんでした:"
 
 #: .\documents\packagedocument.cpp
 msgid "[Documents]This file is not compatible because it has been created with a newer version of $APPNAME.\n\nThis version: %(1)\nGenerator: %(2)"
-msgstr "このファイルは以前のバージョンの $APPNAME で作成されているため、互換していません。\n\nこのバージョン: %(1)\nジェネレーター: %(2)"
+msgstr "このファイルは新しいバージョンの $APPNAME で作成されているため、互換性がありません。\n\nこのバージョン: %(1)\nジェネレーター: %(2)"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]This file type already exists."
@@ -1217,4 +1217,5 @@ msgstr "デフォルト"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "その他"
+
 

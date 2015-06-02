@@ -74,9 +74,7 @@ msgstr "CDバーナーが見つかりません"
 
 #: .\project\projectcomponent.cpp
 msgid "[Project]Could not import file! The file format is unsupported."
-msgstr ""
-"ファイルをインポートできませんでした。このファイルフォーマットには対応してい"
-"ません。"
+msgstr "ファイルをインポートできませんでした。このファイルフォーマットには対応していません。"
 
 #: .\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]DDP image failed."
@@ -112,11 +110,7 @@ msgid ""
 "\n"
 "Image: %(1)\n"
 "Location: %(2)"
-msgstr ""
-"DDPイメージを作成しますか？\n"
-"\n"
-"イメージ: %(1)\n"
-"ロケーション: %(2)"
+msgstr "DDPイメージを作成しますか？\n\nイメージ: %(1)\nロケーション: %(2)"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -140,11 +134,11 @@ msgstr "トラックを有効化"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]Erasing failed."
-msgstr "消去に失敗しました."
+msgstr "消去に失敗しました:"
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher]Generating audio files (%(1) of %(2))"
-msgstr "オーディオファイルを生成しています（%(2) 中 %(1)）"
+msgstr "オーディオファイルを生成しています（ %(2) 中 %(1) ）"
 
 #: .\publish\imagemaker.cpp
 msgid "[ImageMaker]Generating image file..."
@@ -222,17 +216,13 @@ msgstr "デバイスなし"
 msgid ""
 "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
 "an audio disc can only be 80 minutes long."
-msgstr ""
-"オーディオディスクには80分しか収録できないため、すべてのトラックをオーディオ"
-"ディスクに追加できませんでした。"
+msgstr "オーディオディスクには80分しか収録できないため、すべてのトラックをオーディオディスクに追加できませんでした。"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid ""
 "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
 "an audio disc can only contain up to 99 tracks."
-msgstr ""
-"オーディオディスクには最大99トラックしか収録できないため、すべてのトラックを"
-"オーディオディスクに追加できませんでした。"
+msgstr "オーディオディスクには最大99トラックしか収録できないため、すべてのトラックをオーディオディスクに追加できませんでした。"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
@@ -302,7 +292,7 @@ msgstr "トラック名を変更"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Replace File"
-msgstr "ファイルを置き換え"
+msgstr "ファイルを置換"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Reset Marker"
@@ -342,14 +332,7 @@ msgid ""
 "\n"
 "If you have a UPC, you just need to add 0 at the beginning to form a valid "
 "EAN code."
-msgstr ""
-"EANコードが正しくフォーマットされていません。\n"
-"\n"
-"コードは13文字で、数字のみで構成されています。\n"
-"\n"
-"例: 036000291452\n"
-"\n"
-"UPCがある場合、先頭に0を加えれば有効なEANコードになります。"
+msgstr "EANコードが正しくフォーマットされていません。\n\nコードは13文字で、数字のみで構成されています。\n\n例: 036000291452\n\nUPCがある場合、先頭に0を加えれば有効なEANコードになります。"
 
 #: .\editing\projecttrackcomponent.cpp
 msgid ""
@@ -359,12 +342,7 @@ msgid ""
 "characters.\n"
 "\n"
 "Example: USPR37300012"
-msgstr ""
-"ISRCコードが正しくフォーマットされていません。\r\n"
-"\r\n"
-"コードは12文字で、英数字のみで構成されています。\r\n"
-"\r\n"
-"例: USPR37300012"
+msgstr "ISRCコードが正しくフォーマットされていません。\r\n\r\nコードは12文字で、英数字のみで構成されています。\r\n\r\n例: USPR37300012"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"

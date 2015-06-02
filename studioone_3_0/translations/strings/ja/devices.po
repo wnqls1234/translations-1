@@ -38,11 +38,11 @@ msgstr "リアルタイムより %float(1:1) 倍低速"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup](Press <Shift> to append target)"
-msgstr "(<Shift> を押してターゲットを追加)"
+msgstr "（<Shift> を押してターゲットを追加）"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
-msgstr "(<Shift> を押してターゲットを置換)"
+msgstr "（<Shift> を押してターゲットを置換）"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
@@ -134,7 +134,7 @@ msgstr "すべて"
 
 #: .\musicmixer\musiciomanager.cpp
 msgid "[MusicDevices]All Inputs"
-msgstr "すべてのインプット"
+msgstr "すべての入力"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[Command]All Notes Off"
@@ -247,11 +247,11 @@ msgstr "バス"
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (on/off)"
-msgstr "ボタン（オン/オフ）"
+msgstr "ボタン (オン/オフ)"
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Button (press/release)"
-msgstr "ボタン（押す/離す）"
+msgstr "ボタン (押す/離す)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Bypass"
@@ -520,11 +520,11 @@ msgstr "In"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
-msgstr "インプット"
+msgstr "入力"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
-msgstr "インプット"
+msgstr "入力"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert FX Chain"
@@ -721,7 +721,7 @@ msgstr "入力なし"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]No devices are missing."
-msgstr "行方不明のデバイスはありません。"
+msgstr "不明のデバイスはありません。"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]None"
@@ -785,7 +785,7 @@ msgstr "チャンネルを開く"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
-msgstr "アウトプット"
+msgstr "出力"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]PLEASE UPDATE DEVICE FIRMWARE!"
@@ -957,7 +957,7 @@ msgstr "名前を変更..."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace Device:"
-msgstr "デバイスを置き換え:"
+msgstr "デバイスを置換:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace Effect"
@@ -965,7 +965,7 @@ msgstr "エフェクトを置換"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace Effect:"
-msgstr "エフェクトを置き換え:"
+msgstr "エフェクトを置換:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace FX Chain"
@@ -973,7 +973,7 @@ msgstr "FXチェーンを置換"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace FX Chain \"%(1)\""
-msgstr "FXチェーン \"%(1)\" を置き換え"
+msgstr "FXチェーン \"%(1)\" を置換"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Replace Instrument"
@@ -1253,7 +1253,7 @@ msgstr "タッチ"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Trans."
-msgstr "トランスポーズ"
+msgstr "推移"
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Transmit value"
@@ -1299,4 +1299,5 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
 
