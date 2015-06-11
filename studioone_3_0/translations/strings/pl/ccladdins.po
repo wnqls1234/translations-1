@@ -3,10 +3,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]$APPCOMPANY Account"
-msgstr ""
+msgstr "Konto $APPCOMPANY"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
@@ -26,7 +27,7 @@ msgstr "%(1) z %(2)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
-msgstr ""
+msgstr "%(1) z %(2) pakietów jest już zainstalowanych."
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
@@ -62,7 +63,7 @@ msgstr "Sprawdź aktualizacje"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Check for Updates failed!"
-msgstr "Sprawdzanie Aktualizacje nie powiodło się!"
+msgstr "Nie udało się sprawdzić aktualizacji!"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Checking version of %(1)"
@@ -70,7 +71,7 @@ msgstr "Sprawdzanie wersji %(1)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Claim Product Key"
-msgstr "[Instalacji]Prośba o klucz produktu"
+msgstr "Prośba o klucz produktu"
 
 #: .\webfs\webfilenodes.cpp
 msgid "[WebFS]Cloud"
@@ -82,7 +83,7 @@ msgstr "Kopiuj"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Current version: %(1)"
-msgstr "Aktualna wersja: %(1)"
+msgstr "Bieżąca wersja: %(1)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Custom Installation"
@@ -90,7 +91,7 @@ msgstr "Instalacja niestandardowa"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Do you want to install the missing packages only?"
-msgstr ""
+msgstr "Czy chcesz zainstalować tylko brakujące pakiety?"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to install these updates now?"
@@ -150,7 +151,7 @@ msgstr "Pomoc"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install All"
-msgstr ""
+msgstr "Zainstaluj wszystko"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Install Extension"
@@ -158,7 +159,7 @@ msgstr "Zainstaluj rozszerzenie"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install Missing"
-msgstr ""
+msgstr "Zainstaluj brakujące"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Command]Installation"
@@ -202,11 +203,11 @@ msgstr "MB/s"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
-msgstr "Instalacja Minimalna"
+msgstr "Instalacja minimalna"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]My Purchased Items"
-msgstr "Zakupione Przedmioty"
+msgstr "Zakupione pozycje"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No Extensions installed."
@@ -238,7 +239,7 @@ msgstr "Odśwież"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Remove From History"
-msgstr ""
+msgstr "Usuń z historii"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Removing Extension %(1)..."
@@ -266,7 +267,7 @@ msgstr "Status"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]The installed content will be available next time you start $APPNAME."
-msgstr ""
+msgstr "Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"

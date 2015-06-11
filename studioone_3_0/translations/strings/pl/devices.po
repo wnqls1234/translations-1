@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]%(1) FPS"
@@ -10,7 +11,7 @@ msgstr "%(1) FPS"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]%(1) Macro"
-msgstr "%(1) Makro"
+msgstr "Makro %(1)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]%(1) mixer available in network"
@@ -38,11 +39,11 @@ msgstr "%float(1:1) razy wolniej niż w czasie rzeczywistym"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup](Press <Shift> to append target)"
-msgstr "(Naciśnij <Shift> aby dołączyć cel)"
+msgstr "(Naciśnij <Shift> aby dołączyć parametr)"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
-msgstr "(Naciśnij <Shift> aby wymienić cele)"
+msgstr "(Naciśnij <Shift> aby usunąć parametr)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
@@ -114,7 +115,7 @@ msgstr "Dodaj instrument:"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Post Fader Insert"
-msgstr "Dodaj Insert po tłumiku"
+msgstr "Dodaj insert po tłumiku"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Send"
@@ -138,7 +139,7 @@ msgstr "Wszystkie wejścia"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[Command]All Notes Off"
-msgstr "Wszystkie Nuty Off"
+msgstr "Wszystkie nuty Off"
 
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
@@ -255,7 +256,7 @@ msgstr "Przycisk (przytrzymaj/zwolnij)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Bypass"
-msgstr "Bypass"
+msgstr "Pomiń"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]CH:"
@@ -279,7 +280,7 @@ msgstr "Kanał"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Channel Split"
-msgstr "Rozdzielenie kanałów"
+msgstr "Podziel kanał"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Ck"
@@ -287,7 +288,7 @@ msgstr "Ck"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Clear %(1) Connections (%(2))"
-msgstr "Wyczyść %(1) Połączenia (%(2))"
+msgstr "Wyczyść %(1) nołączenia (%(2))"
 
 #: .\transport\metronome.cpp
 msgid "[Command]Click"
@@ -303,7 +304,7 @@ msgstr "Zwiń"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Combine Instrument \"%(1)\""
-msgstr "Połącz Instrument \"%(1)\""
+msgstr "Przyłącz Instrument \"%(1)\""
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Configure..."
@@ -311,7 +312,7 @@ msgstr "Skonfiguruj..."
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
-msgstr "Podłącz %(1) do %(2) Macro Control"
+msgstr "Podłącz %(1) z %(2) Macro Control"
 
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
@@ -328,7 +329,7 @@ msgstr "Sceny konsolety"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Control"
-msgstr "Control"
+msgstr "Mackie Control"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Control Surface"
@@ -344,19 +345,19 @@ msgstr "Kontroler"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Copy Device \"%(1)\""
-msgstr "Kopiuj Urządzenie \"%(1)\""
+msgstr "Kopiuj urządzenie \"%(1)\""
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Copy Effect"
-msgstr "Kopiuj Efekt"
+msgstr "Kopiuj efekt"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Copy Effect \"%(1)\""
-msgstr "Kopiuj Efekt \"%(1)\""
+msgstr "Kopiuj efekt \"%(1)\""
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Copy Instrument \"%(1)\""
-msgstr "Kopiuj Instrument \"%(1)\""
+msgstr "Kopiuj instrument \"%(1)\""
 
 #: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Level"
@@ -404,7 +405,7 @@ msgstr "Edytuj automatykę - %(1)"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Edit %(1) Automation"
-msgstr "Edytuj automatykę - %(1)"
+msgstr "Edytuj automatykę %(1)"
 
 #: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Edit Device"
@@ -528,11 +529,11 @@ msgstr "Wejścia"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert FX Chain"
-msgstr "Wstaw łańcuch efektów"
+msgstr "Wstaw łańcuch FX"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Insert Note Event Splitter"
-msgstr "Wstaw rozdzielacz nut"
+msgstr "Wstaw Note Event Splitter"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert Splitter"
@@ -556,7 +557,7 @@ msgstr "Kanały instrumentu"
 
 #: .\audiosynths\audiosynthpresethandler.cpp
 msgid "[FileType]Instrument+FX Preset"
-msgstr "Preset Instrument+efekt"
+msgstr "Zestaw instrument+efekt"
 
 #: .\audiomixer\channels\audiosynthchannel.cpp
 #: .\mixerconsole\channelclassifier.cpp
@@ -641,27 +642,27 @@ msgstr "Zestaw metronomu"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
-msgstr "Przenieś Urządzenie \"%(1)\""
+msgstr "Przenieś urządzenie \"%(1)\""
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Move Effect"
-msgstr "Przenieś Efekt"
+msgstr "Przenieś efekt"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Move Effect \"%(1)\""
-msgstr "Przenieś Efekt \"%(1)\""
+msgstr "Przenieś efekt \"%(1)\""
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Move Instrument \"%(1)\""
-msgstr "Przenieś Instrument \"%(1)\""
+msgstr "Przenieś instrument \"%(1)\""
 
 #: .\audiosynths\combinator\synthcombinatorplugin.cpp
 msgid "[FileType]Multi Effect Preset"
-msgstr "Multi Effect Preset"
+msgstr "Zestaw multi-efektu"
 
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
-msgstr "Wyciszenie"
+msgstr "Wycisz"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
@@ -693,7 +694,7 @@ msgstr "Nowa klawiatura"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[ChannelFilter]New Scene"
-msgstr "Nowa Scena"
+msgstr "Nowa scena"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Next Bank"
@@ -741,11 +742,11 @@ msgstr "Niepodłączono"
 
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXolder]Note FX"
-msgstr "Note FX"
+msgstr "Efekty MIDI"
 
 #: .\musicmixer\musiceffect.cpp
 msgid "[FileType]Note FX Preset"
-msgstr "Note FX Preset"
+msgstr "Zestaw efektów MIDI"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge"
@@ -961,7 +962,7 @@ msgstr "Zastąp urządzenie:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace Effect"
-msgstr "Zastąp Efekt"
+msgstr "Zastąp efekt"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace Effect:"
@@ -969,7 +970,7 @@ msgstr "Zastąp efekt:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace FX Chain"
-msgstr "Wymień łańcuch FX"
+msgstr "Zamień łańcuch FX"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Replace FX Chain \"%(1)\""
@@ -1217,7 +1218,7 @@ msgstr "Upłynęło czasu:"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Title"
-msgstr "Tytuł"
+msgstr "Nazwa"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Detached Console"

@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]\"%(1)\" does not support the selected file format."
@@ -264,7 +265,7 @@ msgstr "Zmień tryb odtwarzania"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Overlaps"
-msgstr "Zmień zakładki odtwarzania"
+msgstr "Zmień odtwarzanie nakładanych obiektów"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Timestretch/Pitchshift Method"
@@ -292,7 +293,7 @@ msgstr "Refren"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Click+Drag Parameter"
-msgstr "Kliknij+przeciągnij parametr"
+msgstr "Kliknij + przeciągnij parametr"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
@@ -396,7 +397,7 @@ msgstr "Utwórz partię automatyki \"%(1)\""
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Create Arranger Sections from Markers"
-msgstr "Utwórz sekcji aranżera z markerów"
+msgstr "Utwórz sekcje aranżera z markerów"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Create Autofades"
@@ -468,11 +469,11 @@ msgstr "Usuń marker"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Delete Range"
-msgstr "Usuń Zakres"
+msgstr "Usuń zakres"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Delete Range"
-msgstr "Usuń Zakres"
+msgstr "Usuń zakres"
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[Command]Delete Scratch Pad"
@@ -488,7 +489,7 @@ msgstr "Usuń czas"
 
 #: .\editing\insertsilencetask.cpp .\editing\tracklistcomponent.cpp
 msgid "[Edit]Delete Time in Loop"
-msgstr "Usuń Czas w Pętli"
+msgstr "Usuń Czas w pętli"
 
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Deleting recorded files"
@@ -560,7 +561,7 @@ msgstr "Czy chcesz wyodrębnić audio na nową ścieżkę?"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to load the preset or combine the instrument %(1)?"
-msgstr "Chcesz załadować preset czy połączyć instrument %(1)?"
+msgstr "Czy chcesz wczytać zestaw lub połączyć instrument %(1)?"
 
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Do you want to remove all occurrences of these clips?"
@@ -584,7 +585,7 @@ msgstr "Czy chcesz usunąć ten parametr z wszystkich partii?"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to replace or combine the instrument %(1)?"
-msgstr "Chcesz zastąpić czy połączyć instrument %(1)?"
+msgstr "Czy chcesz zastąpić lub połączyć instrument %(1)?"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
@@ -612,7 +613,7 @@ msgstr "Pełny dysk"
 
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough."
-msgstr "Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny."
+msgstr "Wystąpiły zniekształcenia podczas nagrywania. Dysk twardy może być za wolny."
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -620,7 +621,7 @@ msgstr "Powiel"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Duplicate (complete)"
-msgstr "Duplikat (gotowy)"
+msgstr "Powiel ścieżkę z obiektami"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layer"
@@ -640,11 +641,11 @@ msgstr "Powiel warstwę"
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[Command]Duplicate Scratch Pad"
-msgstr "Duplikuj Scratch Pad"
+msgstr "Powiel Scratch Pad"
 
 #: .\editing\scratchpadfunctions.cpp
 msgid "[ScratchPad]Duplicate Scratch Pad"
-msgstr "Duplikuj Scratch Pad"
+msgstr "Powiel Scratch Pad"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Track"
@@ -656,7 +657,7 @@ msgstr "Powiel ścieżkę"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Track (complete)"
-msgstr "Duplikuj ścieżkę (gotowe)"
+msgstr "Powiel ścieżkę z obiektami"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Tracks"
@@ -668,7 +669,7 @@ msgstr "Powiel ścieżki"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Tracks (complete)"
-msgstr "Duplikowanie ścieżek (gotowe)"
+msgstr "Powiel ścieżki z obiektami"
 
 #: .\audioediting\audiobendeditlayer.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Edit"
@@ -796,11 +797,11 @@ msgstr "Wyodrębnianie audio"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Fade In to Cursor"
-msgstr "Fade In do kursora"
+msgstr "Narastanie do kursora"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Fade Out from Cursor"
-msgstr "Fade Out od kursora"
+msgstr "Zanikanie od kursora"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fade-in"
@@ -872,7 +873,7 @@ msgstr "Przejdź do następnego markera"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Next Section"
-msgstr "Idź do następnej sekcji"
+msgstr "Przejdź do następnej sekcji"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Goto Previous Marker"
@@ -880,7 +881,7 @@ msgstr "Przejdź do poprzedniego markera"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Previous Section"
-msgstr "Idź do poprzedniej sekcji"
+msgstr "Przejdź do poprzedniej sekcji"
 
 #: .\base\model\editgroups.cpp
 msgid "[EditGroups]Group"
@@ -988,7 +989,7 @@ msgstr "Wstaw"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Insert Arranger Section"
-msgstr "Wstaw sekcję Aranżera"
+msgstr "Wstaw sekcję aranżera"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Insert Bend Marker"
@@ -1393,7 +1394,7 @@ msgstr "Nawigacja"
 
 #: .\editing\tracklistfilter.cpp
 msgid "[TrackList]New Scene"
-msgstr "Nowa Scena"
+msgstr "Nowa scena"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Next Event"
@@ -1854,7 +1855,7 @@ msgstr "Wygeneruj FX obiektu"
 
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
-msgstr "Renderuj Ścieżki Instrumentów"
+msgstr "Wygeneruj audio ze ścieżek instrumentów"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
@@ -1934,7 +1935,7 @@ msgstr "Odwróć audio"
 
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Root Key"
-msgstr "Klucz główny"
+msgstr "Główny klawisz"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Scanning folder: "
@@ -1974,11 +1975,11 @@ msgstr "Zaznacz obiekty w zakresie"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Select Events in Section"
-msgstr "Zaznacz zdarzenia w Sekcji"
+msgstr "Zaznacz obiekty w sekcji"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Select Events in Section"
-msgstr "Zaznacz zdarzenia w Sekcji"
+msgstr "Zaznacz obiekty w sekcji"
 
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
@@ -2148,7 +2149,7 @@ msgstr "Solo warstwy"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Solo follows Selection"
-msgstr "Przenoś funkcję solo do wybieranej ścieżki"
+msgstr "Przenoś funkcję solo do zaznaczonej ścieżki"
 
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Some files could not be exported."
@@ -2217,11 +2218,11 @@ msgstr "Status"
 
 #: .\musicediting\musicsteprecorder.cpp
 msgid "[MusicStepRecorder]Step Record"
-msgstr "Zapis krokowy"
+msgstr "Nagrywanie krokowe"
 
 #: .\musicediting\musicsteprecorder.cpp
 msgid "[Command]Step Record"
-msgstr "Zapis krokowy"
+msgstr "Nagrywanie krokowe"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]Stop"
@@ -2524,7 +2525,7 @@ msgstr "Obwiednia głośności"
 
 #: .\application\audioedit\audiobouncetask.cpp
 msgid "[AudioEdit]Wave File with rendered Insert FX"
-msgstr "Plik Wave z renderowanym efektem Insert"
+msgstr "Plik Wave z wygenerowanym efektem insertowym"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Write"
