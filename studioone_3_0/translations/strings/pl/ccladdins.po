@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
+"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]$APPCOMPANY Account"
@@ -42,7 +42,8 @@ msgid "[Command]Application"
 msgstr "Aplikacja"
 
 #: .\extensions\extensionmanagerui.cpp
-msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+msgid ""
+"[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
 msgstr "Wbudowane rozszerzenia nie mogą być odinstalowane lub aktualizowane."
 
 #: .\webfs\transfermanagerui.cpp
@@ -266,8 +267,11 @@ msgid "[Installer]Status"
 msgstr "Status"
 
 #: .\extensions\contentinstaller.cpp
-msgid "[Installer]The installed content will be available next time you start $APPNAME."
-msgstr "Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
+msgid ""
+"[Installer]The installed content will be available next time you start "
+"$APPNAME."
+msgstr ""
+"Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"
@@ -332,11 +336,19 @@ msgstr "Twoja wersja jest aktualna."
 #~ msgid "[Installer]Do you want to download \"%(1)\"?"
 #~ msgstr "Czy chcesz pobrać \"%(1)\"?"
 
-#~ msgid "[Web]Failed to connect to the server.\nPlease check your Internet connection and try again."
-#~ msgstr "Nie można połączyć się z serwerem.\nSprawdź połączenie z Internetem i spróbuj ponownie."
+#~ msgid ""
+#~ "[Web]Failed to connect to the server.\n"
+#~ "Please check your Internet connection and try again."
+#~ msgstr ""
+#~ "Nie można połączyć się z serwerem.\n"
+#~ "Sprawdź połączenie z Internetem i spróbuj ponownie."
 
-#~ msgid "[Installer]File not found:\n%(1)"
-#~ msgstr "Nie można odnaleźć pliku:\n%(1)"
+#~ msgid ""
+#~ "[Installer]File not found:\n"
+#~ "%(1)"
+#~ msgstr ""
+#~ "Nie można odnaleźć pliku:\n"
+#~ "%(1)"
 
 #~ msgid "[Installer]Install"
 #~ msgstr "Zainstaluj"
@@ -353,14 +365,22 @@ msgstr "Twoja wersja jest aktualna."
 #~ msgid "[Installer]Installation failed!"
 #~ msgstr "Instalacja nie powiodła się!"
 
-#~ msgid "[Installer]Installed on:\n%(1)"
-#~ msgstr "Zainstalowano:\n%(1)"
+#~ msgid ""
+#~ "[Installer]Installed on:\n"
+#~ "%(1)"
+#~ msgstr ""
+#~ "Zainstalowano:\n"
+#~ "%(1)"
 
 #~ msgid "[Installer]Installing..."
 #~ msgstr "Instalowanie..."
 
-#~ msgid "[Installer]It is recommended to install this packet.\nAre you sure you want to uncheck it?"
-#~ msgstr "Zalecamy zainstalowanie tego pakietu.\nCzy na pewno chcesz go odznaczyć?"
+#~ msgid ""
+#~ "[Installer]It is recommended to install this packet.\n"
+#~ "Are you sure you want to uncheck it?"
+#~ msgstr ""
+#~ "Zalecamy zainstalowanie tego pakietu.\n"
+#~ "Czy na pewno chcesz go odznaczyć?"
 
 #~ msgid "[Installer]No files to install."
 #~ msgstr "Brak plików do zainstalowania."
@@ -368,8 +388,14 @@ msgstr "Twoja wersja jest aktualna."
 #~ msgid "[Installer]Packet"
 #~ msgstr "Pakiet"
 
-#~ msgid "[Installer]Please insert \"%(1)\"...\n\nFile: %(2)"
-#~ msgstr "Włóż \"%(1)\" do napędu...\n\nPlik: %(2)"
+#~ msgid ""
+#~ "[Installer]Please insert \"%(1)\"...\n"
+#~ "\n"
+#~ "File: %(2)"
+#~ msgstr ""
+#~ "Włóż \"%(1)\" do napędu...\n"
+#~ "\n"
+#~ "Plik: %(2)"
 
 #~ msgid "[Installer]Please restart $APPNAME for the changes to take effect."
 #~ msgstr "Uruchom ponownie $APPNAME, aby wprowadzić zmiany."
@@ -397,4 +423,3 @@ msgstr "Twoja wersja jest aktualna."
 
 #~ msgid "[Installer]You do not have write permissions at this file location."
 #~ msgstr "Nie masz uprawnień do zapisu w tej lokalizacji."
-

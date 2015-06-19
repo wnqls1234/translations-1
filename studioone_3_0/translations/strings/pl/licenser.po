@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\application\eulacomponent.cpp
 msgid "[Licenser]%(1) End User License Agreement"
@@ -41,7 +40,8 @@ msgstr "Wszystkie zainstalowane elementy zostały aktywowane."
 msgid "[WebAPI]An error occured at the server (Status %(1))."
 msgstr "Wystąpił błąd na serwerze (status %(1))."
 
-#: .\application\purchasehandler.cpp .\application\usercomponent.cpp
+#: .\application\loginhandler.cpp .\application\purchasehandler.cpp
+#: .\application\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "Aplikacja"
 
@@ -76,6 +76,10 @@ msgstr "Plik licencji"
 #: .\application\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "Licencja jest za stara. Proszę ponownie aktywować $APPNAME."
+
+#: .\application\loginhandler.cpp
+msgid "[Command]Login"
+msgstr "Zaloguj się"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Manage Activations"
@@ -112,6 +116,14 @@ msgstr "Wybierz kraj"
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Show my existing Product Keys"
 msgstr "Pokaż moje klucze kroduktu"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign in"
+msgstr "Zaloguj"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign out"
+msgstr "Wyloguj się"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Signing in"

@@ -40,7 +40,8 @@ msgstr "Tous les articles installés sont activés."
 msgid "[WebAPI]An error occured at the server (Status %(1))."
 msgstr "Une erreur est survenue dans le serveur (Statut %(1))."
 
-#: .\application\purchasehandler.cpp .\application\usercomponent.cpp
+#: .\application\loginhandler.cpp .\application\purchasehandler.cpp
+#: .\application\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "Application"
 
@@ -75,6 +76,10 @@ msgstr "Fichier Licence"
 #: .\application\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "Licence trop ancienne. Veuillez réactiver $APPNAME."
+
+#: .\application\loginhandler.cpp
+msgid "[Command]Login"
+msgstr "Se connecter"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Manage Activations"
@@ -111,6 +116,14 @@ msgstr "Sélectionner le pays"
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Show my existing Product Keys"
 msgstr "Afficher mes clés de produit existantes"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign in"
+msgstr "Se connecter"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign out"
+msgstr "Se déconnecter"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Signing in"

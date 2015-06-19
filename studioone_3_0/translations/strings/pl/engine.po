@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
+"Last-Translator: <translator name> <<translator email>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]\"%(1)\" does not support the selected file format."
@@ -155,8 +155,14 @@ msgid "[Engine]Apply Audio Bend"
 msgstr "Zastosuj Audio Bend"
 
 #: .\pool\mediapoolnodes.cpp
-msgid "[PoolNodes]Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
-msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
+msgid ""
+"[PoolNodes]Are you sure you want to delete all attachments of this clip?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
+"\n"
+"To działanie jest nieodwracalne."
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Arm"
@@ -265,7 +271,7 @@ msgstr "Zmień tryb odtwarzania"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Play Overlaps"
-msgstr "Zmień odtwarzanie nakładanych obiektów"
+msgstr "Zmień odtwarzanie nałożonych obiektów"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Timestretch/Pitchshift Method"
@@ -357,19 +363,19 @@ msgstr "Kopiuj zewnętrzne pliki..."
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[Command]Copy Loop Range to Scratch Pad"
-msgstr "Kopiuj zakres pętli do Scratch Padu"
+msgstr "Kopiuj zakres pętli do Scratch Pada"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Copy Loop Range to new Scratch Pad"
-msgstr "Kopiuj zakres pętli do nowego Scratch Padu"
+msgstr "Kopiuj zakres pętli do nowego Scratch Pada"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Copy to new Scratch Pad"
-msgstr "Kopiuj do nowego Scratch Padu"
+msgstr "Kopiuj do nowego Scratch Pada"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Copy to new Scratch Pad"
-msgstr "Kopiuj do nowego Scratch Padu"
+msgstr "Kopiuj do nowego Scratch Pada"
 
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Copying external files"
@@ -380,16 +386,32 @@ msgid "[Song]Could not import file!"
 msgstr "Nie można zaimportować pliku!"
 
 #: .\base\documentrenamer.cpp
-msgid "[Documents]Could not rename %(1)!\n\nThe file is in use."
-msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
+msgid ""
+"[Documents]Could not rename %(1)!\n"
+"\n"
+"The file is in use."
+msgstr ""
+"Nie można zmienić nazwy %(1)!\n"
+"\n"
+"Plik jest w użyciu."
 
 #: .\base\documentrenamer.cpp
-msgid "[Documents]Could not rename the folder %(1)!\n\nA file in this folder is in use."
-msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
+msgid ""
+"[Documents]Could not rename the folder %(1)!\n"
+"\n"
+"A file in this folder is in use."
+msgstr ""
+"Nie można zmienić nazwy folderu %(1)!\n"
+"\n"
+"Plik z tego folder jest w użyciu."
 
 #: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Create \"%(1)\" Automation\non %(2)"
-msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
+msgid ""
+"[Automation]Create \"%(1)\" Automation\n"
+"on %(2)"
+msgstr ""
+"Utwórz automatykę \"%(1)\"\n"
+"na %(2)"
 
 #: .\musicediting\partautomationdraghandler.cpp
 msgid "[Automation]Create \"%(1)\" Part Automation"
@@ -513,7 +535,7 @@ msgstr "Urządzenia"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
-msgstr "Niewidoczna"
+msgstr "Niewidoczny"
 
 #: .\application\audioedit\audioparttasks.cpp
 msgid "[AudioEdit]Dissolve Audio Part"
@@ -536,12 +558,18 @@ msgid "[SynthDrag]Do you want to combine the instrument %(1)?"
 msgstr "Czy chcesz połączyć instrument %(1)?"
 
 #: .\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to copy these external files to the Media Folder?"
+msgid ""
+"[MediaPoolFunctions]Do you want to copy these external files to the Media "
+"Folder?"
 msgstr "Czy chcesz skopiować te zewnętrzne pliki do folderu Media?"
 
 #: .\audio\audiocache.cpp
-msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
-msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu pamięci podręcznej?"
+msgid ""
+"[AudioCache]Do you want to delete all unused temporary audio files in cache "
+"folder?"
+msgstr ""
+"Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu "
+"pamięci podręcznej?"
 
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Do you want to delete the exported file?"
@@ -552,15 +580,20 @@ msgid "[SongRenderer]Do you want to delete the exported files?"
 msgstr "Czy chcesz usunąć wyeksportowane pliki?"
 
 #: .\pool\mediapoolfunctions.cpp
-msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
-msgstr "Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od czasu ostatniego zapisu?"
+msgid ""
+"[MediaPoolFunctions]Do you want to delete the files that were recorded or "
+"created since the last time you saved?"
+msgstr ""
+"Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od "
+"czasu ostatniego zapisu?"
 
 #: .\videoediting\songvideo.cpp
 msgid "[Video]Do you want to extract the audio to a new track?"
 msgstr "Czy chcesz wyodrębnić audio na nową ścieżkę?"
 
 #: .\musicediting\synthdraghandler.cpp
-msgid "[SynthDrag]Do you want to load the preset or combine the instrument %(1)?"
+msgid ""
+"[SynthDrag]Do you want to load the preset or combine the instrument %(1)?"
 msgstr "Czy chcesz wczytać zestaw lub połączyć instrument %(1)?"
 
 #: .\pool\mediapoolnodes.cpp
@@ -612,8 +645,11 @@ msgid "[RecordDiskSpaceObserver]Drive full"
 msgstr "Pełny dysk"
 
 #: .\audio\audiotrackrecorder.cpp
-msgid "[Record]Dropouts occured during record. The drive used for recording might not be fast enough."
-msgstr "Wystąpiły zniekształcenia podczas nagrywania. Dysk twardy może być za wolny."
+msgid ""
+"[Record]Dropouts occured during record. The drive used for recording might "
+"not be fast enough."
+msgstr ""
+"Wystąpiły zniekształcenia podczas nagrywania. Dysk twardy może być za wolny."
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Duplicate"
@@ -1293,12 +1329,20 @@ msgid "[Automation]Move \"%(1)\" Automation"
 msgstr "Przenieś automatykę \"%(1)\""
 
 #: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Move \"%(1)\" Automation\nfrom %(3) to %(2)"
-msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
+msgid ""
+"[Automation]Move \"%(1)\" Automation\n"
+"from %(3) to %(2)"
+msgstr ""
+"Przenieś automatykę \"%(1)\"\n"
+"z %(3) do %(2)"
 
 #: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
-msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
+msgid ""
+"[Automation]Move \"%(1)\" Automation\n"
+"to %(2)"
+msgstr ""
+"Przenieś automatykę \"%(1)\"\n"
+"do %(2)"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1354,11 +1398,11 @@ msgstr "Przenieś na początek"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Move to new Scratch Pad"
-msgstr "Przenieś do nowego Scratch Padu"
+msgstr "Przenieś do nowego Scratch Pada"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Move to new Scratch Pad"
-msgstr "Przenieś do nowego Scratch Padu"
+msgstr "Przenieś do nowego Scratch Pada"
 
 #: .\pool\mediaclipoperations.cpp
 msgid "[MediaClipOperations]Moving to Trash Bin..."
@@ -1493,7 +1537,9 @@ msgid "[Command]Note Repeat"
 msgstr "Powtarzaj nuty"
 
 #: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
+msgid ""
+"[StemRenderer]Nothing to export. Please select one or more tracks and set "
+"Loop or Markers."
 msgstr "Brak danych do eksportu. Wybierz ścieżki i ustaw pętlę lub markery."
 
 #: .\song\songrenderer.cpp
@@ -1831,11 +1877,11 @@ msgstr "Zmień nazwę warstwy..."
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[Command]Rename Scratch Pad"
-msgstr "Zmień nazwę Scratch Padu"
+msgstr "Zmień nazwę Scratch Pada"
 
 #: .\editing\scratchpadfunctions.cpp
 msgid "[ScratchPad]Rename Scratch Pad"
-msgstr "Zmień nazwę Scratch Padu"
+msgstr "Zmień nazwę Scratch Pada"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Render Click"
@@ -2237,8 +2283,12 @@ msgid "[AudioEdit]Strip Silence"
 msgstr "Usuń ciszę"
 
 #: .\song\songdocument.cpp
-msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
+msgid ""
+"[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY "
+"MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+msgstr ""
+"TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ "
+"ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
 
 #: .\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Take"
@@ -2277,8 +2327,16 @@ msgid "[SongMaster]The mastering file of this song is up-to-date."
 msgstr "Plik masteringu tego utworu jest aktualny."
 
 #: .\base\rootsetup.cpp
-msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
-msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
+msgid ""
+"[RootSetup]The sample rate does not match your audio device configuration.\n"
+"\n"
+"The rate you set: %(1)\n"
+"The rate the device has: %(2)"
+msgstr ""
+"Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n"
+"\n"
+"Ustawiona częstotliwość: %(1)\n"
+"Częstotliwość urządzenia: %(2)"
 
 #: .\song\songmaster.cpp
 msgid "[SongMaster]The song will be saved first.\n"
@@ -2475,8 +2533,24 @@ msgid "[Command]Update Mastering File"
 msgstr "Zaktualizuj plik masteringu"
 
 #: .\song\songmaster.cpp
-msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
+msgid ""
+"[SongMaster]Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"Zaktualizuj plik masteringu dla tego utworu:\n"
+"%(6)\n"
+"Wyjście: %(1)\n"
+"Długość %(3)\n"
+"Rozdzielczość: %(4)\n"
+"Przetwarzanie w czasie rzeczywistym: %(5)\n"
+"Dołącz efekty sumy: %(7)\n"
+"Nazwa pliku: %(2)"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
@@ -2603,4 +2677,3 @@ msgstr "użyto %(1) razy"
 
 #~ msgid "[Engine:EditFunctions]Remove Track"
 #~ msgstr "Usuń ścieżkę"
-

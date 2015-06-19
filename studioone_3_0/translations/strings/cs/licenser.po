@@ -40,7 +40,8 @@ msgstr ""
 msgid "[WebAPI]An error occured at the server (Status %(1))."
 msgstr "Na serveru nastala chyba (Status %(1))."
 
-#: .\application\purchasehandler.cpp .\application\usercomponent.cpp
+#: .\application\loginhandler.cpp .\application\purchasehandler.cpp
+#: .\application\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "Aplikace"
 
@@ -53,7 +54,9 @@ msgid "[Licenser]Copy to Clipboard"
 msgstr "Kopírovat do schránky"
 
 #: .\application\purchasehandler.cpp
-msgid "[Licenser]Do you want to download new purchases from your $APPCOMPANY Account now?"
+msgid ""
+"[Licenser]Do you want to download new purchases from your $APPCOMPANY "
+"Account now?"
 msgstr ""
 
 #: .\application\purchasehandler.cpp
@@ -61,8 +64,12 @@ msgid "[Licenser]Download"
 msgstr "Stáhnout"
 
 #: .\web\licenseserver.cpp
-msgid "[WebAPI]Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "Neúspěšné připojení k serveru.\nZkontrolujte prosím vaše připojení k internetu a zkuste to znovu."
+msgid ""
+"[WebAPI]Failed to connect to the server.\n"
+"Please check your Internet connection and try again."
+msgstr ""
+"Neúspěšné připojení k serveru.\n"
+"Zkontrolujte prosím vaše připojení k internetu a zkuste to znovu."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Invalid License File!"
@@ -76,6 +83,10 @@ msgstr ""
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "Licence je stará. Aktivujte prosím $APPNAME znovu."
 
+#: .\application\loginhandler.cpp
+msgid "[Command]Login"
+msgstr ""
+
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Manage Activations"
 msgstr ""
@@ -85,7 +96,9 @@ msgid "[Licenser]No purchased items installed."
 msgstr ""
 
 #: .\application\activationhandler.cpp
-msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
+msgid ""
+"[Licenser]Please enter the Product Key of the $APPNAME version you have "
+"purchased."
 msgstr ""
 
 #: .\application\loginhandler.cpp
@@ -112,16 +125,28 @@ msgstr ""
 msgid "[Licenser]Show my existing Product Keys"
 msgstr ""
 
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign in"
+msgstr ""
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign out"
+msgstr ""
+
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Signing in"
 msgstr ""
 
 #: .\application\usercomponent.cpp
-msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
-msgstr "Děkujeme! Aplikace $APPNAME byla aktivována pro použití na tomto počítači."
+msgid ""
+"[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+msgstr ""
+"Děkujeme! Aplikace $APPNAME byla aktivována pro použití na tomto počítači."
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid ""
+"[Licenser]Thank You! An E-Mail has been sent to you with a link to activate "
+"your account."
 msgstr "Děkujeme! Byl vám zaslán e-mail s odkazem pro aktivaci vašeho účtu."
 
 #: .\application\usercomponent.cpp
@@ -141,7 +166,9 @@ msgid "[WebAPI]The request failed (%(1))."
 msgstr "Požadavek se nezdařil (%(1))."
 
 #: .\application\usercomponent.cpp
-msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY Account."
+msgid ""
+"[Licenser]This computer has been de-activated for use with $APPNAME. You can "
+"manage activations in your $APPCOMPANY Account."
 msgstr ""
 
 #: .\application\usercomponent.cpp
@@ -150,7 +177,8 @@ msgstr "Tato kopie je licencovaná pro %(1)"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
-msgstr "Licence uživatele nebyla nalezena! Vyberte prosím nový licenční soubor."
+msgstr ""
+"Licence uživatele nebyla nalezena! Vyberte prosím nový licenční soubor."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
@@ -159,4 +187,3 @@ msgstr "Ověřování licence uživatele..."
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."
 msgstr ""
-

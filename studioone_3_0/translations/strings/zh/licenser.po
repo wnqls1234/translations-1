@@ -40,7 +40,8 @@ msgstr "全部购买产品已激活。"
 msgid "[WebAPI]An error occured at the server (Status %(1))."
 msgstr "[Web]出现错误(Status %(1))"
 
-#: .\application\purchasehandler.cpp .\application\usercomponent.cpp
+#: .\application\loginhandler.cpp .\application\purchasehandler.cpp
+#: .\application\usercomponent.cpp
 msgid "[Command]Application"
 msgstr "程序"
 
@@ -75,6 +76,10 @@ msgstr "授权文件"
 #: .\application\usercomponent.cpp
 msgid "[Licenser]License too old. Please activate $APPNAME again."
 msgstr "授权许可过期. 请重新激活$APPNAME."
+
+#: .\application\loginhandler.cpp
+msgid "[Command]Login"
+msgstr "登陆"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Manage Activations"
@@ -111,6 +116,14 @@ msgstr "选择国家"
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Show my existing Product Keys"
 msgstr "显示已存在的产品秘钥"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign in"
+msgstr "登陆"
+
+#: .\application\loginhandler.cpp
+msgid "[Licenser]Sign out"
+msgstr "退出"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Signing in"
