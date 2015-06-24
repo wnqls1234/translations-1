@@ -41,7 +41,8 @@ msgid "[Command]Application"
 msgstr "Aplikace"
 
 #: .\extensions\extensionmanagerui.cpp
-msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+msgid ""
+"[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
 msgstr "Zabudovaná rozšíření nelze odinstalovat nebo aktualizovat."
 
 #: .\webfs\transfermanagerui.cpp
@@ -79,6 +80,10 @@ msgstr ""
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Copy"
 msgstr "Kopírovat"
+
+#: .\webfs\transfermanagerui.cpp
+msgid "[TransferManager]Copying..."
+msgstr ""
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Current version: %(1)"
@@ -265,7 +270,9 @@ msgid "[Installer]Status"
 msgstr "Stav"
 
 #: .\extensions\contentinstaller.cpp
-msgid "[Installer]The installed content will be available next time you start $APPNAME."
+msgid ""
+"[Installer]The installed content will be available next time you start "
+"$APPNAME."
 msgstr ""
 
 #: .\extensions\appupdater.cpp
@@ -315,4 +322,3 @@ msgstr "Potřebujete novou vezi $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr ""
-
