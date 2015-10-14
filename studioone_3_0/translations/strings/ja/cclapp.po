@@ -56,6 +56,10 @@ msgstr "ファイルタイプを追加"
 msgid "[TagStore]Add Tag"
 msgstr "タグを追加"
 
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Add to Favorites"
+msgstr "お気に入りに追加"
+
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Adding Tags..."
 msgstr "タグを追加しています..."
@@ -92,9 +96,17 @@ msgstr "%(1) つのアイテムを完全に削除しますか？"
 msgid "[TrashBin]Are you sure you want to permanently delete this item?"
 msgstr "このアイテムを完全に削除しますか？"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to reset the plug-in browser to default?"
+msgstr "プラグインブラウザーをデフォルトにリセットしますか？"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Are you sure you want to revert all changes?"
 msgstr "すべての変更を元に戻しますか？"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to revert your last plug-in browser changes?"
+msgstr "直前のプラグインブラウザー変更を元に戻しますか？"
 
 #: .\browser\browser.cpp
 msgid "[Command]Ascend Root"
@@ -256,6 +268,10 @@ msgstr "ファイルを削除..."
 msgid "[FileOperations]Delete Folder..."
 msgstr "フォルダーを削除..."
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Delete Thumbnail"
+msgstr "サムネイルを削除"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Delete Undo History"
 msgstr "取り消し履歴を削除"
@@ -351,6 +367,14 @@ msgstr "バックアップを開きますか？その場合、元のファイル
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
 msgstr "リストから参照を削除しますか？"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove these folders?"
+msgstr "これらのフォルダーを削除しますか？"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove this folder?"
+msgstr "このフォルダーを削除しますか？"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -453,6 +477,14 @@ msgstr "ここで抽出"
 msgid "[Application]Failed to load Application Theme!"
 msgstr "アプリケーションテーマの読み込みに失敗しました。"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorite"
+msgstr "お気に入り"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorites"
+msgstr "お気に入り"
+
 #: .\application.cpp .\documents\documentmanager.cpp
 msgid "[Command]File"
 msgstr "ファイル"
@@ -488,6 +520,10 @@ msgstr "一般"
 #: .\application.cpp
 msgid "[Command]Help"
 msgstr "ヘルプ"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Hide"
+msgstr "隠す"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]High DPI Mode will be changed next time you start $APPNAME."
@@ -596,6 +632,14 @@ msgstr "移動"
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move to \"%(1)\""
 msgstr "\"%(1)\" へ移動"
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to \"%(1)\""
+msgstr "\"%(1)\" へ移動"
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to Root"
+msgstr "ルートに移動"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving %(1)"
@@ -774,6 +818,10 @@ msgstr "終了"
 msgid "[Command]Re-Index Presets"
 msgstr "プリセットの索引を再作成"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Recent"
+msgstr "最近使った項目"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Recent File"
 msgstr "最近使ったファイル"
@@ -817,6 +865,10 @@ msgstr "リムーバブルドライブ"
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Remove from Recent Files list"
 msgstr "最近使ったファイルリストから削除"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Rename"
+msgstr "名前を変更"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Rename"
@@ -866,6 +918,10 @@ msgstr "プリセットを置換"
 msgid "[Command]Replace Preset"
 msgstr "プリセットを置換"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Reset"
+msgstr "リセット"
+
 #: .\browser\browser.cpp
 msgid "[Browser]Reset Root"
 msgstr "ルートをリセット"
@@ -881,6 +937,10 @@ msgstr "復元"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "バージョンを復元"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Revert"
+msgstr "元に戻す"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Revert"
@@ -1138,6 +1198,10 @@ msgstr "ツールバー"
 msgid "[SliderMode]Touch"
 msgstr "タッチ"
 
+#: .\browser\pluginselector.cpp
+msgid "[PlugInSelector]Type"
+msgstr "タイプ"
+
 #: .\datastore\tagcategory.cpp
 msgid "[TagCategory]Type"
 msgstr "タイプ"
@@ -1190,6 +1254,10 @@ msgstr "ベンダー"
 msgid "[Command]View"
 msgstr "表示"
 
+#: .\browser\pluginbrowser.cpp
+msgid "[Presets]Visible"
+msgstr "表示"
+
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Volumes"
 msgstr "ボリューム"
@@ -1217,5 +1285,4 @@ msgstr "デフォルト"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "その他"
-
 

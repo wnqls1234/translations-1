@@ -44,6 +44,14 @@ msgstr "（<Shift> を押してターゲットを追加）"
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
 msgstr "（<Shift> を押してターゲットを置換）"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V"
+msgstr "48V"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V Right"
+msgstr "48V Right"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "この名前のデバイスはすでに存在します。"
@@ -313,6 +321,10 @@ msgstr "設定..."
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "%(1) を %(2) マクロコントロールに接続"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Connected to %(1)."
+msgstr "%(1) に接続済みです。"
+
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
@@ -370,6 +382,10 @@ msgstr "キューミックスパン"
 msgid "[Command]Cursor follows Edit Position"
 msgstr "カーソルは編集位置に追従"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]DAW Post DSP"
+msgstr "DAWポストDSP"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "説明"
@@ -377,6 +393,10 @@ msgstr "説明"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "検出されたデバイス %(1)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Device information for %(1) received."
+msgstr "%(1) のデバイス情報を受信しました。"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -389,6 +409,10 @@ msgstr "デバイス"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
 msgstr "%(1) を %(2) マクロコントロール %(3) から接続解除"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Disconnected from %(1)."
+msgstr "%(1) への接続を解除しました。"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -521,6 +545,10 @@ msgstr "In"
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "入力"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Input Controls"
+msgstr "入力コントロール"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -779,6 +807,10 @@ msgstr "上にナッジ"
 msgid "[Command]Nudge Up Fine"
 msgstr "上に細かくナッジ"
 
+#: .\hardware\remotefxfolder.cpp
+msgid "[Hardware]Onboard DSP"
+msgstr "内蔵DSP"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "チャンネルを開く"
@@ -827,6 +859,14 @@ msgstr "ループスタートから再生"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "取り外し可能なMIDIデバイスを今すぐ接続し、完了したらこのメッセージを閉じてください..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity"
+msgstr "極性"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity Right"
+msgstr "極性右"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "ポート"
@@ -838,6 +878,14 @@ msgstr "ポートは見つかりませんでした。"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "ポストフェーダー"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain"
+msgstr "プリアンプゲイン"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain Right"
+msgstr "プリアンプゲイン右"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -858,6 +906,10 @@ msgstr "前のチャンネル"
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "前のシーン"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Querying device information for %(1)..."
+msgstr "%(1) のデバイス情報のクエリを実行しています..."
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
@@ -1299,5 +1351,4 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
-
 

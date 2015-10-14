@@ -44,6 +44,14 @@ msgstr "(Pressione <Shift> para anexar destino)"
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
 msgstr "(Pressione <Shift> para repor destinos)"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V"
+msgstr "48V"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V Right"
+msgstr "48V Direito"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Já existe um dispositivo com este nome."
@@ -267,7 +275,7 @@ msgstr "CPU"
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
-msgstr "Ch"
+msgstr "Can"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Channel"
@@ -291,7 +299,7 @@ msgstr "Limpeza de %(1) Conexões (%(2))"
 
 #: .\transport\metronome.cpp
 msgid "[Command]Click"
-msgstr "Click"
+msgstr "Metrônomo"
 
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
@@ -312,6 +320,10 @@ msgstr "Configurar..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Conexão de Controle Macro %(1) para %(2)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Connected to %(1)."
+msgstr "Conectado a %(1)."
 
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
@@ -370,6 +382,10 @@ msgstr "Pan da mixagem Guia"
 msgid "[Command]Cursor follows Edit Position"
 msgstr "Cursor Segue Posição de Edição"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]DAW Post DSP"
+msgstr "DAW Pós DSP"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Descrição"
@@ -377,6 +393,10 @@ msgstr "Descrição"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Dispositivo Detectado %(1)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Device information for %(1) received."
+msgstr "Informação de Dispositivo recebida para %(1)."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -389,6 +409,10 @@ msgstr "Dispositivos"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
 msgstr "Desconectar Controle Macro %(3) %(1) de %(2)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Disconnected from %(1)."
+msgstr "Desconectado de %(1)."
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -516,11 +540,15 @@ msgstr "Ocioso"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]In"
-msgstr "Entrada"
+msgstr "En"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "Entrada"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Input Controls"
+msgstr "Controles de Entrada"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -769,7 +797,7 @@ msgstr "Nudge Abaixo"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Down Fine"
-msgstr "Nudge Abaixo Preciso"
+msgstr "Nudge Preciso Abaixo"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Up"
@@ -777,7 +805,11 @@ msgstr "Nudge Acima"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Up Fine"
-msgstr "Nudge Acima Preciso"
+msgstr "Nudge Preciso Acimao"
+
+#: .\hardware\remotefxfolder.cpp
+msgid "[Hardware]Onboard DSP"
+msgstr "DSP Onboard"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
@@ -827,6 +859,14 @@ msgstr "Reproduzir do Início do Loop"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando finalizado..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity"
+msgstr "Polaridade"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity Right"
+msgstr "Polaridade Direita"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "Porta"
@@ -838,6 +878,14 @@ msgstr "Porta não encontrada!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Pós-Fader"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain"
+msgstr "Ganho do Pré Amplificador"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain Right"
+msgstr "Ganho do Pré Amplificador Direita"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -858,6 +906,10 @@ msgstr "Canal Anterior"
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "Cena Anterior"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Querying device information for %(1)..."
+msgstr "Consultando informações do dispositivo %(1)..."
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
@@ -1085,7 +1137,7 @@ msgstr "Exibir Destino"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Instrument Editor"
-msgstr "Exibir Editor de instrumento"
+msgstr "Exibir Editor de Instrumento"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Sources"
@@ -1282,7 +1334,7 @@ msgstr "Utilizado por"
 
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
-msgstr "Reprodutor de Vídeo"
+msgstr "Player de Vídeo"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]View"

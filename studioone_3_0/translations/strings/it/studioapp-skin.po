@@ -76,10 +76,6 @@ msgstr "$APPNAME Estensioni"
 msgid "[ContentInstaller]$APPNAME Installation"
 msgstr "$APPNAME Installazione"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]$APPNAME Security"
-msgstr "$APPNAME Sicurezza"
-
 #: .\app\about.xml
 msgid "[AboutFooter]$APPNAME Website"
 msgstr "$APPNAME Website"
@@ -95,6 +91,10 @@ msgstr "$APPNAME richiede l'accesso al tuo account $APPCOMPANY. Effettua il logi
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME contribuirà a mantenere i file multimediali organizzati. Tutti i vostri dati come song, Progetti e Preset saranno memorizzati in un unico luogo."
+
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]$idx"
+msgstr "$idx"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FrequencySplitterSlider]$idx"
@@ -136,12 +136,20 @@ msgstr "$title"
 msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$title"
+msgstr "$title"
+
 #: .\app\shared.xml
 msgid "[InspectorPropertyRadioBox]$title"
 msgstr "$title"
 
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$title"
+msgstr "$title"
+
+#: .\devices\audiochannel.xml
+msgid "[PlugInSelectorMenuWide]$title"
 msgstr "$title"
 
 #: .\engine\quantize.xml
@@ -156,8 +164,16 @@ msgstr "$tooltip"
 msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$tooltip"
+msgstr "$tooltip"
+
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$tooltip"
+msgstr "$tooltip"
+
+#: .\devices\audiochannel.xml
+msgid "[SendMicroViewSimpleSlider]$tooltip"
 msgstr "$tooltip"
 
 #: .\engine\audioediting.xml
@@ -660,12 +676,8 @@ msgstr "@value[]"
 msgid "[AudioSendRackSlotView]@value[]"
 msgstr "@value[]"
 
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleSlider]@value[]"
-msgstr "@value[]"
-
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleYellowSlider]@value[]"
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]@value[]"
 msgstr "@value[]"
 
 #: .\devices\audiofxeditor.xml
@@ -988,6 +1000,14 @@ msgstr "Applica"
 msgid "[QuantizeSetup.ApplyPart]Apply"
 msgstr "Applica"
 
+#: .\devices\audiochannel.xml
+msgid "[RemoteFXRackSlotView]Apply DSP to Input Signal"
+msgstr "Applica DSP al segnale di ingresso"
+
+#: .\devices\audiofxeditor.xml
+msgid "[RemoteFXEditorHeaderView]Apply DSP to Input Signal"
+msgstr "Applica DSP al segnale di ingresso"
+
 #: .\app\options.xml
 msgid "[EditingOption]Apply folder track color to content"
 msgstr "Applica il colore della traccia cartella al contenuto"
@@ -1201,7 +1221,7 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr "Modalità di automazione"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Automation Mode"
+msgid "[AutomationModeBox]Automation Mode"
 msgstr "Modalità di automazione"
 
 #: .\engine\trackcontrols.xml
@@ -1453,7 +1473,7 @@ msgid "[MusicTrackInspector]Channel"
 msgstr "Canale"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Editor"
+msgid "[MutablePlainButton]Channel Editor"
 msgstr "Editor del canale"
 
 #: .\devices\audiochannel.small.xml
@@ -1481,7 +1501,7 @@ msgid "[MixerManager]Channel List"
 msgstr "Lista canali"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Mode"
+msgid "[MutablePlainButton]Channel Mode"
 msgstr "Modalità canale"
 
 #: .\devices\audiochannel.small.xml
@@ -1491,6 +1511,14 @@ msgstr "Modalità canale"
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
 msgstr "Modalità canale"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationMainContent]Channel Number"
+msgstr "Numero canale"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackControlsMainContent]Channel Number"
+msgstr "Numero canale"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Channel Split"
@@ -1556,6 +1584,10 @@ msgstr "Cancella Pattern"
 msgid "[Command]Clear Pattern"
 msgstr "Cancella Pattern"
 
+#: .\ccl\browser.xml
+msgid "[TagPalette]Clear Tags"
+msgstr "Rmuovi tag"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Click On/Off"
@@ -1605,7 +1637,7 @@ msgid "[AudioChannel.SmallLevels]Clip / Peak Levels"
 msgstr "Clip / Livelli di Picco"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Clip / Peak Levels"
+msgid "[AudioInput.Channel.Content]Clip / Peak Levels"
 msgstr "Clip / Livelli di Picco"
 
 #: .\devices\audiochannel.small.xml
@@ -1629,7 +1661,7 @@ msgid "[MixerManager]Close"
 msgstr "Chiudi"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Close"
+msgid "[DeviceEditorHeadline]Close"
 msgstr "Chiudi"
 
 #: .\devices\synthcombinator.xml
@@ -1707,6 +1739,14 @@ msgstr "Colorazione channel strips"
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Colorize channel strips"
 msgstr "Colorazione channel strips"
+
+#: .\app\options.xml
+msgid "[EditingOption]Colorize track controls"
+msgstr "Colora i controlli traccia"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Colorize track controls"
+msgstr "Colora i controlli traccia"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Comment"
@@ -1847,6 +1887,10 @@ msgstr "Creatore"
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr "Cue"
+
+#: .\devices\audiochannel.xml
+msgid "[CueMixStackAudioEffect]Cue mix"
+msgstr "Cue mix"
 
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Cue mix Level: @value[]"
@@ -2178,10 +2222,6 @@ msgstr "E-Mail"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]E-Mail or username"
-msgstr "E-Mail o username"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]E-Mail or username"
 msgstr "E-Mail o username"
 
 #: .\project\project.xml
@@ -2705,7 +2745,7 @@ msgid "[SurfacePlacementEditor]Group 4"
 msgstr "Gruppo 4"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Group Tracks"
+msgid "[MutablePlainButton]Group Tracks"
 msgstr "Tracce Gruppo"
 
 #: .\engine\trackcontrols.xml
@@ -3077,7 +3117,7 @@ msgid "[Analyser]K-20"
 msgstr "K-20"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Keep Editor Open"
+msgid "[DeviceEditorHeadline]Keep Editor Open"
 msgstr "Tieni aperto l'Editor"
 
 #: .\devices\synthcombinator.xml
@@ -3160,6 +3200,10 @@ msgstr "Lunghezza"
 msgid "[CueMixRackSlotView]Level"
 msgstr "Livello"
 
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterEditView]Levels"
+msgstr "Livelli"
+
 #: .\app\about.xml
 msgid "[LicenseZone]License Type:"
 msgstr "Tipo licenza:"
@@ -3179,6 +3223,10 @@ msgstr "Espandi/Chiudi il collegamento delle tracce cartella con mostra/nascondi
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
 msgstr "Mostra/nascondi il collegamento dell'elenco tracce e della Console"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow2]Link to DSP"
+msgstr "Link a DSP"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Linked"
@@ -3340,6 +3388,10 @@ msgstr "Rendi predefinito"
 msgid "[ImageMaker]Make Image"
 msgstr "Crea Immagine"
 
+#: .\ccl\browser.xml
+msgid "[PlugInBrowserHeader]Manage Plug-Ins"
+msgstr "Gestisci i Plug-Ins"
+
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceAddDialog]Manufacturer"
 msgstr "Costruttore"
@@ -3461,11 +3513,11 @@ msgid "[PresetFileInfo]Modified:"
 msgstr "Modificato:"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Monitor"
+msgid "[TCMutablePlainButton]Monitor"
 msgstr "Monitor"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Monitor"
+msgid "[MutablePlainButton]Monitor"
 msgstr "Monitor"
 
 #: .\devices\audiochannel.small.xml
@@ -3493,11 +3545,11 @@ msgid "[AutomationOption]Mute"
 msgstr "Mute"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Mute"
+msgid "[TCMutablePlainButton]Mute"
 msgstr "Mute"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Mute"
+msgid "[MutablePlainButton]Mute"
 msgstr "Mute"
 
 #: .\devices\audiochannel.narrow.xml
@@ -3659,6 +3711,22 @@ msgstr "FX della nota"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.FX]Note FX"
 msgstr "FX della nota"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationFirstRow]Note FX Editor"
+msgstr "Note FX Editor"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationContent]Note FX Editor"
+msgstr "Note FX Editor"
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsFirstRow]Note FX Editor"
+msgstr "Note FX Editor"
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsContent]Note FX Editor"
+msgstr "Note FX Editor"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
@@ -3856,10 +3924,6 @@ msgstr "Controllo della mappatura del parametro"
 msgid "[LicenseServerLogin]Password"
 msgstr "Password"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Password"
-msgstr "Password"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "Incolla"
@@ -3873,7 +3937,7 @@ msgid "[ProjectTrackControlsContent]Pause"
 msgstr "Pausa"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Peak Hold (dB)"
+msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
 msgstr "Tenuta del picco (dB)"
 
 #: .\devices\audiochannel.small.xml
@@ -3907,6 +3971,14 @@ msgstr "Monitor delle prestazioni"
 #: .\app\windowclasses.xml
 msgid "[PerspectiveSelector]PerspectiveSelector"
 msgstr "selettore della prospettiva"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Phantom Power"
+msgstr "Phantom Power"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Phantom Power"
+msgstr "Phantom Power"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]Pitch"
@@ -3984,6 +4056,14 @@ msgstr "Attendere prego..."
 msgid "[PresetFileInfo]Plug-In:"
 msgstr "Plug-In:"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Polarity"
+msgstr "Polarità"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Polarity"
+msgstr "Polarità"
+
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Pool"
 msgstr "Pool"
@@ -4007,6 +4087,10 @@ msgstr "Pre-Roll"
 #: .\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
 msgstr "Ingresso Audio Pre-record"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Preamp Gain"
+msgstr "Preamp Gain"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Precount"
@@ -4313,11 +4397,11 @@ msgid "[MusicDeviceSetup]Reconnect..."
 msgstr "Riconnetti"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Record"
+msgid "[TCMutablePlainButton]Record"
 msgstr "Record"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Record"
+msgid "[MutablePlainButton]Record"
 msgstr "Record"
 
 #: .\devices\audiochannel.small.xml
@@ -4402,10 +4486,6 @@ msgstr "Tempo rimanente di registrazione (basso)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "Ricorda le mie credenziali"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Remember my credentials"
 msgstr "Ricorda le mie credenziali"
 
 #: .\devices\audiomixer.xml
@@ -4793,11 +4873,11 @@ msgid "[MusicTrackControls]Select Track Color"
 msgstr "Seleziona colore traccia"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControls]Select Track Color"
+msgid "[FolderTrackControls]Select Track Color"
 msgstr "Seleziona colore traccia"
 
 #: .\engine\trackcontrols.xml
-msgid "[FolderTrackControls]Select Track Color"
+msgid "[AutomationTrackControls]Select Track Color"
 msgstr "Seleziona colore traccia"
 
 #: .\engine\trackcontrols.xml
@@ -4988,9 +5068,25 @@ msgstr "Mostra Song"
 msgid "[PlugInBrowserHeader]Show Thumbnails"
 msgstr "Mostra miniature"
 
+#: .\ccl\browser.xml
+msgid "[CloudBrowserHeader]Show Thumbnails"
+msgstr "Mostra miniature"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Trash Bin"
 msgstr "Mostra cestino"
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show audio device controls"
+msgstr "Mostra i controlli della periferica audio"
+
+#: .\app\options.xml
+msgid "[EditingOption]Show channel numbers in tracks"
+msgstr "Mostra i numeri canale nelle tracce"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Show channel numbers in tracks"
+msgstr "Mostra i numeri canale nelle tracce"
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Show files used in this Song"
@@ -5073,19 +5169,19 @@ msgid "[SongToolbar]Snap to Grid @cmd[Edit|Toggle Snap]"
 msgstr "Aggancia alla griglia @cmd[Edit|Toggle Snap]"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo"
+msgid "[TCMutablePlainButton]Solo"
 msgstr "Solo"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo"
+msgid "[MutablePlainButton]Solo"
 msgstr "Solo"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo (Solo Save use Shift)"
+msgid "[TCMutablePlainButton]Solo (Solo Save use Shift)"
 msgstr "Solo (premi Shift per salvarlo )"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo (Solo Save use Shift)"
+msgid "[MutablePlainButton]Solo (Solo Save use Shift)"
 msgstr "Solo (premi Shift per salvarlo )"
 
 #: .\devices\audiochannel.narrow.xml
@@ -5202,6 +5298,10 @@ msgstr "Ordina per: "
 
 #: .\ccl\browser.xml
 msgid "[TagChainSelector]Sort by: "
+msgstr "Ordina per: "
+
+#: .\ccl\common.xml
+msgid "[PlugInBrowserPopup]Sort by: "
 msgstr "Ordina per: "
 
 #: .\engine\mediapool.xml
@@ -5640,6 +5740,10 @@ msgstr "Per attivare questa funzione è necessario installare Melodyne."
 msgid "[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
 msgstr "Per usare questa funzione è necessario un account $APPCOMPANY. Si prega di attivare prima $APPNAME dal menu di attivazione $APPNAME."
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareStereoInputControls]Toggle L/R Channel"
+msgstr "Inverti Canale L/R"
+
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
 msgstr "Totale"
@@ -5896,10 +6000,6 @@ msgstr "User"
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "Dati utente (Song, Progetti, Preset)"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Username"
-msgstr "Username"
-
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
 msgstr "Valore"
@@ -5958,6 +6058,10 @@ msgstr "Vista"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
+msgstr "Visibilità"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Visibility"
 msgstr "Visibilità"
 
 #: .\engine\songdialogs.xml
@@ -6135,19 +6239,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[Setup]About $APPNAME"
-#~ msgstr "Informazioni $APPNAME"
-
-#~ msgid "[TransportPanel]Alignment"
-#~ msgstr "Allinea"
-
-#~ msgid "[ProjectTransport]Alignment"
-#~ msgstr "Allinea"
-
-#~ msgid "[Setup]Check for Updates"
-#~ msgstr "Controlla gli aggiornamenti"
-
-#~ msgid "[InternalMutablePlainButton]Expand"
-#~ msgstr "Epandi"
 

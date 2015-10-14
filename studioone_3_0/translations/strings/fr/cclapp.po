@@ -56,6 +56,10 @@ msgstr "Ajouter un type de fichier"
 msgid "[TagStore]Add Tag"
 msgstr "Ajouter une balise"
 
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Add to Favorites"
+msgstr "Ajouter aux favoris"
+
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Adding Tags..."
 msgstr "Ajout de balises..."
@@ -92,9 +96,17 @@ msgstr "Êtes-vous sûr de vouloir définitivement supprimer ces %(1) éléments
 msgid "[TrashBin]Are you sure you want to permanently delete this item?"
 msgstr "Êtes-vous sûr de vouloir définitivement supprimer cet élément?"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to reset the plug-in browser to default?"
+msgstr "Êtes-vous sûr de vouloir réinitialiser le navigateur de plug-ins?"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Are you sure you want to revert all changes?"
 msgstr "Êtes-vous sûr de vouloir annuler tous les changements?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to revert your last plug-in browser changes?"
+msgstr "Êtes-vous sûr de vouloir annuler vos derniers changements dans le navigateur de plug-ins?"
 
 #: .\browser\browser.cpp
 msgid "[Command]Ascend Root"
@@ -256,6 +268,10 @@ msgstr "Supprimer le fichier..."
 msgid "[FileOperations]Delete Folder..."
 msgstr "Supprimer le dossier..."
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Delete Thumbnail"
+msgstr "Supprimer la vignette"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Delete Undo History"
 msgstr "Effacer l'historique d'annulation"
@@ -351,6 +367,14 @@ msgstr "Voulez-vous ouvrir la copie de sauvegarde? Le fichier d'origine sera alo
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
 msgstr "Voulez-vous effacer sa référence de la liste des fichiers récents?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove these folders?"
+msgstr "Souhaitez-vous retirer ces dossiers?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove this folder?"
+msgstr "Souhaitez-vous retirer ce dossier?"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -453,6 +477,14 @@ msgstr "Extraire ici"
 msgid "[Application]Failed to load Application Theme!"
 msgstr "Échec du chargement du thème de l'application!"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorite"
+msgstr "favori"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorites"
+msgstr "Favoris"
+
 #: .\application.cpp .\documents\documentmanager.cpp
 msgid "[Command]File"
 msgstr "Fichier"
@@ -488,6 +520,10 @@ msgstr "Général"
 #: .\application.cpp
 msgid "[Command]Help"
 msgstr "Aide"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Hide"
+msgstr "Masquer"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]High DPI Mode will be changed next time you start $APPNAME."
@@ -596,6 +632,14 @@ msgstr "Déplacer"
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move to \"%(1)\""
 msgstr "Déplacer dans \"%(1)\""
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to \"%(1)\""
+msgstr "Déplacer dans \"%(1)\""
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to Root"
+msgstr "Remonter à la racine"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving %(1)"
@@ -774,6 +818,10 @@ msgstr "Quitter"
 msgid "[Command]Re-Index Presets"
 msgstr "Réindexer les Presets"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Recent"
+msgstr "Récents"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Recent File"
 msgstr "Fichier récent"
@@ -817,6 +865,10 @@ msgstr "Support amovible"
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Remove from Recent Files list"
 msgstr "Retirer de la liste des fichiers récents"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Rename"
+msgstr "Renommer"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Rename"
@@ -866,6 +918,10 @@ msgstr "Remplacer le preset"
 msgid "[Command]Replace Preset"
 msgstr "Remplacer le preset"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Reset"
+msgstr "Réinitialiser"
+
 #: .\browser\browser.cpp
 msgid "[Browser]Reset Root"
 msgstr "Réinitialiser la racine"
@@ -881,6 +937,10 @@ msgstr "Restaurer"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "Restaurer une version"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Revert"
+msgstr "Rétablir la version enregistrée"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Revert"
@@ -1138,6 +1198,10 @@ msgstr "Barre d'outils"
 msgid "[SliderMode]Touch"
 msgstr "Toucher"
 
+#: .\browser\pluginselector.cpp
+msgid "[PlugInSelector]Type"
+msgstr "Type"
+
 #: .\datastore\tagcategory.cpp
 msgid "[TagCategory]Type"
 msgstr "Type"
@@ -1189,6 +1253,10 @@ msgstr "Vendeur"
 #: .\editing\addins\editaddindescription.cpp
 msgid "[Command]View"
 msgstr "Afficher"
+
+#: .\browser\pluginbrowser.cpp
+msgid "[Presets]Visible"
+msgstr "Visibles"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Volumes"

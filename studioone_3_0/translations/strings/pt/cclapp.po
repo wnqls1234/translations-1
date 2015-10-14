@@ -18,7 +18,7 @@ msgstr "%(1) arquivos de presets importados."
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector](Unknown Vendor)"
-msgstr "(Fornecedor Desconhecido)"
+msgstr "(Fabricante Desconhecido)"
 
 #: .\presets\presetbrowser.cpp
 msgid "[PresetBrowser](no presets)"
@@ -56,6 +56,10 @@ msgstr "Adicionar Tipo de Arquivo"
 msgid "[TagStore]Add Tag"
 msgstr "Adicionar Rótulo"
 
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Add to Favorites"
+msgstr "Adicionar a Favoritos"
+
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Adding Tags..."
 msgstr "Adicionando Rótulos..."
@@ -92,9 +96,17 @@ msgstr "Tem certeza que deseja excluir permanentemente esses %(1) items?"
 msgid "[TrashBin]Are you sure you want to permanently delete this item?"
 msgstr "Tem certeza que deseja excluir permanentemente esse item?"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to reset the plug-in browser to default?"
+msgstr "Você tem certeza de que deseja restaurar o navegador de plug--ins ao padrão?"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Are you sure you want to revert all changes?"
 msgstr "Está certo de que deseja reverter todas as mudanças?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Are you sure you want to revert your last plug-in browser changes?"
+msgstr "Você tem certeza de que deseja reverter suas últimas alterações no navegador de plug--ins?"
 
 #: .\browser\browser.cpp
 msgid "[Command]Ascend Root"
@@ -256,6 +268,10 @@ msgstr "Excluir Arquivo..."
 msgid "[FileOperations]Delete Folder..."
 msgstr "Excluir Pasta..."
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Delete Thumbnail"
+msgstr "Excluir Miniatura"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Delete Undo History"
 msgstr "Excluir Histórico do Desfazer"
@@ -351,6 +367,14 @@ msgstr "Você deseja abrir o backup? Desta forma o arquivo original será mantid
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
 msgstr "Você deseja remover esta referência da lista de Recentes?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove these folders?"
+msgstr "Você deseja remover estas pastas?"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Do you want to remove this folder?"
+msgstr "Você deseja remover esta pasta?"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -453,6 +477,14 @@ msgstr "Extrair Aquí"
 msgid "[Application]Failed to load Application Theme!"
 msgstr "Falha ao Carregar o Tema do Aplicativo!"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorite"
+msgstr "favorito"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Favorites"
+msgstr "Favoritos"
+
 #: .\application.cpp .\documents\documentmanager.cpp
 msgid "[Command]File"
 msgstr "Arquivo"
@@ -488,6 +520,10 @@ msgstr "Geral"
 #: .\application.cpp
 msgid "[Command]Help"
 msgstr "Ajuda"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Hide"
+msgstr "Esconder"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]High DPI Mode will be changed next time you start $APPNAME."
@@ -596,6 +632,14 @@ msgstr "Mover"
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move to \"%(1)\""
 msgstr "Mover para \"%(1)\""
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to \"%(1)\""
+msgstr "Mover para \"%(1)\""
+
+#: .\browser\plugindraghander.cpp
+msgid "[PluginDraghandler]Move to Root"
+msgstr "Mover à Raíz"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving %(1)"
@@ -774,6 +818,10 @@ msgstr "Sair"
 msgid "[Command]Re-Index Presets"
 msgstr "Reindexar Presets"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Recent"
+msgstr "Recente"
+
 #: .\documents\documentmanager.cpp
 msgid "[Command]Recent File"
 msgstr "Arquivo Recente"
@@ -817,6 +865,10 @@ msgstr "Unidade Removível"
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Remove from Recent Files list"
 msgstr "Remover da lista de Trabalhos Recentes"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Rename"
+msgstr "Renomear"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Rename"
@@ -866,6 +918,10 @@ msgstr "Substituir Preset"
 msgid "[Command]Replace Preset"
 msgstr "Substituir Preset"
 
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Reset"
+msgstr "Reiniciar"
+
 #: .\browser\browser.cpp
 msgid "[Browser]Reset Root"
 msgstr "Reiniciar Raiz"
@@ -881,6 +937,10 @@ msgstr "Restaurar"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "Restaurar Versão"
+
+#: .\browser\pluginnodes.cpp
+msgid "[Browser]Revert"
+msgstr "Reverter"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Revert"
@@ -960,7 +1020,7 @@ msgstr "Ferramenta Seleção"
 
 #: .\options\pathlist.cpp
 msgid "[PathList]Select..."
-msgstr "Seleção..."
+msgstr "Selecionar..."
 
 #: .\options\serviceoption.cpp
 msgid "[UserOption]Services"
@@ -1138,6 +1198,10 @@ msgstr "Barra de Ferramentas"
 msgid "[SliderMode]Touch"
 msgstr "Toque"
 
+#: .\browser\pluginselector.cpp
+msgid "[PlugInSelector]Type"
+msgstr "Tipo"
+
 #: .\datastore\tagcategory.cpp
 msgid "[TagCategory]Type"
 msgstr "Tipo"
@@ -1184,11 +1248,15 @@ msgstr "Interface de Usuário"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"
-msgstr "Fornecedor"
+msgstr "Fabricante"
 
 #: .\editing\addins\editaddindescription.cpp
 msgid "[Command]View"
 msgstr "Visualizar"
+
+#: .\browser\pluginbrowser.cpp
+msgid "[Presets]Visible"
+msgstr "Visível"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Volumes"

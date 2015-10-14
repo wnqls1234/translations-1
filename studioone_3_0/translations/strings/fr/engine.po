@@ -1515,6 +1515,10 @@ msgstr "Seulement l'événement cliqué"
 msgid "[VideoEdit]Only extract Audio"
 msgstr "N'extraire que l'audio"
 
+#: .\editing\arrangereditlayer.cpp
+msgid "[Command]Open Arrangertrack"
+msgstr "Ouvrir piste arrangeur"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "Ouvrir la piste des marqueurs"
@@ -2513,8 +2517,8 @@ msgstr "Vidéo à taille double"
 msgid "[Command]Video Size Half"
 msgstr "Vidéo à demi-taille"
 
-#: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
+#: .\editing\arrangereditlayer.cpp .\editing\trackeditor.cpp
+#: .\editing\tracklistcomponent.cpp .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "Afficher"
 
@@ -2581,13 +2585,4 @@ msgstr "utilisé %(1) fois"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "utilisé %(1) fois"
-
-#~ msgid "[ActionDescriptions]Duplicate Track with Options..."
-#~ msgstr "Dupliquer la piste avec options..."
-
-#~ msgid "[ActionDescriptions]Duplicate Tracks with Options..."
-#~ msgstr "Dupliquer les pistes avec options..."
-
-#~ msgid "[Command]Duplicate with Options"
-#~ msgstr "Dupliquer avec options"
 

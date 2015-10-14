@@ -44,6 +44,14 @@ msgstr "(Pressez <Shift> pour ajouter une cible)"
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
 msgstr "(Pressez <Shift> pour remplacer les cibles)"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V"
+msgstr "48V"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V Right"
+msgstr "48 V droite"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Un périphérique portant ce nom existe déjà."
@@ -313,6 +321,10 @@ msgstr "Configurer..."
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Connecter %(1) à la macrocommande %(2)"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Connected to %(1)."
+msgstr "Connecté à %(1)."
+
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
@@ -370,6 +382,10 @@ msgstr "Panoramique de mixage de retour"
 msgid "[Command]Cursor follows Edit Position"
 msgstr "Caler le curseur sur la position d'édition"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]DAW Post DSP"
+msgstr "DAW post-DSP"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Description"
@@ -377,6 +393,10 @@ msgstr "Description"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Périphérique détecté %(1)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Device information for %(1) received."
+msgstr "Informations de périphérique reçues pour %(1)."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -389,6 +409,10 @@ msgstr "Périphériques"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
 msgstr "Déconnecter %(1) de la macrocommande %(2) %(3)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Disconnected from %(1)."
+msgstr "Déconnecté de %(1)."
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -521,6 +545,10 @@ msgstr "Ent."
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "Entrée"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Input Controls"
+msgstr "Commandes d'entrée"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -779,6 +807,10 @@ msgstr "Monter"
 msgid "[Command]Nudge Up Fine"
 msgstr "Monter finement"
 
+#: .\hardware\remotefxfolder.cpp
+msgid "[Hardware]Onboard DSP"
+msgstr "DSP intégré"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "Ouvrir le canal"
@@ -827,6 +859,14 @@ msgstr "Lire depuis le début de boucle"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "Veuillez brancher maintenant vos périphériques MIDI amovibles et enlever ce message une fois terminé..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity"
+msgstr "Polarité"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity Right"
+msgstr "Polarité droite"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "Port"
@@ -838,6 +878,14 @@ msgstr "Port non trouvé!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Post-fader"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain"
+msgstr "Gain du préampli"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain Right"
+msgstr "Gain du préampli droit"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -858,6 +906,10 @@ msgstr "Canal précédent"
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "Scène précédente"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Querying device information for %(1)..."
+msgstr "Demande d'informations de périphérique pour %(1)…"
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"

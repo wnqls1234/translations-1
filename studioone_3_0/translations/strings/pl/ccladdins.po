@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]$APPCOMPANY Account"
@@ -100,14 +99,6 @@ msgstr "Czy chcesz zainstalować tylko brakujące pakiety?"
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to install these updates now?"
 msgstr "Czy chcesz teraz zainstalować te aktualizacje?"
-
-#: .\web\credentialuiprompt.cpp
-msgid "[Security]Do you want to save the credentials in Windows Vault?"
-msgstr "Czy chcesz zapisać poświadczenia w Windows Vault?"
-
-#: .\web\credentialuiprompt.cpp
-msgid "[Security]Do you want to save the credentials in your keychain?"
-msgstr "Czy chcesz zapisać poświadczenia w Twoim keychain?"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to uninstall these Extensions?"
@@ -320,85 +311,4 @@ msgstr "Wymagana jest nowsza wersja $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "Twoja wersja jest aktualna."
-
-#~ msgid "[TransferManager]Remove All"
-#~ msgstr "Usuń wszystko"
-
-#~ msgid "[Installer]%(1) of %(2) packet(s) installed successfully."
-#~ msgstr "Zainstalowano pomyślnie %(1) z %(2) pakietów."
-
-#~ msgid "[Web]An error occured at the server (Status %(1))."
-#~ msgstr "Wystąpił błąd na serwerze (status %(1))."
-
-#~ msgid "[Installer]Cancel"
-#~ msgstr "Anuluj"
-
-#~ msgid "[Installer]Do you want to download \"%(1)\"?"
-#~ msgstr "Czy chcesz pobrać \"%(1)\"?"
-
-#~ msgid "[Web]Failed to connect to the server.\nPlease check your Internet connection and try again."
-#~ msgstr "Nie można połączyć się z serwerem.\nSprawdź połączenie z Internetem i spróbuj ponownie."
-
-#~ msgid "[Installer]File not found:\n%(1)"
-#~ msgstr "Nie można odnaleźć pliku:\n%(1)"
-
-#~ msgid "[Installer]Install"
-#~ msgstr "Zainstaluj"
-
-#~ msgid "[Installer]Install %(1) Packets"
-#~ msgstr "Zainstaluj %(1) pakietów"
-
-#~ msgid "[Installer]Install 1 Packet"
-#~ msgstr "Zainstaluj 1 pakiet"
-
-#~ msgid "[Installer]Installation canceled."
-#~ msgstr "Instalacja anulowana."
-
-#~ msgid "[Installer]Installation failed!"
-#~ msgstr "Instalacja nie powiodła się!"
-
-#~ msgid "[Installer]Installed on:\n%(1)"
-#~ msgstr "Zainstalowano:\n%(1)"
-
-#~ msgid "[Installer]Installing..."
-#~ msgstr "Instalowanie..."
-
-#~ msgid "[Installer]It is recommended to install this packet.\nAre you sure you want to uncheck it?"
-#~ msgstr "Zalecamy zainstalowanie tego pakietu.\nCzy na pewno chcesz go odznaczyć?"
-
-#~ msgid "[Installer]No files to install."
-#~ msgstr "Brak plików do zainstalowania."
-
-#~ msgid "[Installer]Packet"
-#~ msgstr "Pakiet"
-
-#~ msgid "[Installer]Please insert \"%(1)\"...\n\nFile: %(2)"
-#~ msgstr "Włóż \"%(1)\" do napędu...\n\nPlik: %(2)"
-
-#~ msgid "[Installer]Please restart $APPNAME for the changes to take effect."
-#~ msgstr "Uruchom ponownie $APPNAME, aby wprowadzić zmiany."
-
-#~ msgid "[WebFS]Remove %(1)"
-#~ msgstr "Usuń %(1)"
-
-#~ msgid "[WebFS]Servers"
-#~ msgstr "Serwery"
-
-#~ msgid "[WebFS]Sharing..."
-#~ msgstr "Udostępnianie..."
-
-#~ msgid "[Installer]Show Installed File"
-#~ msgstr "Pokaż zainstalowany plik"
-
-#~ msgid "[Web]The request failed (%(1))."
-#~ msgstr "Żądanie nie powiodło się (%(1))."
-
-#~ msgid "[Web]The request is not completed. Do you want to cancel?"
-#~ msgstr "Żądanie nie jest kompletne. Czy chcesz je anulować?"
-
-#~ msgid "[TransferManager]Waiting..."
-#~ msgstr "Oczekiwanie..."
-
-#~ msgid "[Installer]You do not have write permissions at this file location."
-#~ msgstr "Nie masz uprawnień do zapisu w tej lokalizacji."
 

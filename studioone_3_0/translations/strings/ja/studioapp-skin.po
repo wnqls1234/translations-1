@@ -76,10 +76,6 @@ msgstr "$APPNAME 拡張"
 msgid "[ContentInstaller]$APPNAME Installation"
 msgstr "$APPNAME インストール"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]$APPNAME Security"
-msgstr "$APPNAME セキュリティ"
-
 #: .\app\about.xml
 msgid "[AboutFooter]$APPNAME Website"
 msgstr "$APPNAME ウェブサイト"
@@ -95,6 +91,10 @@ msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要が�
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
 msgstr "$APPNAME はメディアファイルを分かりやすく整理します。ソング、プロジェクト、プリセットなどのデータはすべて単一のロケーションに保存されます。"
+
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]$idx"
+msgstr "$idx"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FrequencySplitterSlider]$idx"
@@ -136,12 +136,20 @@ msgstr "$title"
 msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$title"
+msgstr "$title"
+
 #: .\app\shared.xml
 msgid "[InspectorPropertyRadioBox]$title"
 msgstr "$title"
 
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$title"
+msgstr "$title"
+
+#: .\devices\audiochannel.xml
+msgid "[PlugInSelectorMenuWide]$title"
 msgstr "$title"
 
 #: .\engine\quantize.xml
@@ -156,8 +164,16 @@ msgstr "$tooltip"
 msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$tooltip"
+msgstr "$tooltip"
+
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$tooltip"
+msgstr "$tooltip"
+
+#: .\devices\audiochannel.xml
+msgid "[SendMicroViewSimpleSlider]$tooltip"
 msgstr "$tooltip"
 
 #: .\engine\audioediting.xml
@@ -660,12 +676,8 @@ msgstr "@value[]"
 msgid "[AudioSendRackSlotView]@value[]"
 msgstr "@value[]"
 
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleSlider]@value[]"
-msgstr "@value[]"
-
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleYellowSlider]@value[]"
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]@value[]"
 msgstr "@value[]"
 
 #: .\devices\audiofxeditor.xml
@@ -988,6 +1000,14 @@ msgstr "適用"
 msgid "[QuantizeSetup.ApplyPart]Apply"
 msgstr "適用"
 
+#: .\devices\audiochannel.xml
+msgid "[RemoteFXRackSlotView]Apply DSP to Input Signal"
+msgstr "DSPを入力信号に適用"
+
+#: .\devices\audiofxeditor.xml
+msgid "[RemoteFXEditorHeaderView]Apply DSP to Input Signal"
+msgstr "DSPを入力信号に適用"
+
 #: .\app\options.xml
 msgid "[EditingOption]Apply folder track color to content"
 msgstr "フォルダートラックの色をコンテンツに適用"
@@ -1201,7 +1221,7 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr "オートメーションモード"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Automation Mode"
+msgid "[AutomationModeBox]Automation Mode"
 msgstr "オートメーションモード"
 
 #: .\engine\trackcontrols.xml
@@ -1453,7 +1473,7 @@ msgid "[MusicTrackInspector]Channel"
 msgstr "チャンネル"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Editor"
+msgid "[MutablePlainButton]Channel Editor"
 msgstr "チャンネルエディター"
 
 #: .\devices\audiochannel.small.xml
@@ -1481,7 +1501,7 @@ msgid "[MixerManager]Channel List"
 msgstr "チャンネルリスト"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Mode"
+msgid "[MutablePlainButton]Channel Mode"
 msgstr "チャンネルモード"
 
 #: .\devices\audiochannel.small.xml
@@ -1491,6 +1511,14 @@ msgstr "チャンネルモード"
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
 msgstr "チャンネルモード"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationMainContent]Channel Number"
+msgstr "チャンネル番号"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackControlsMainContent]Channel Number"
+msgstr "チャンネル番号"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Channel Split"
@@ -1556,6 +1584,10 @@ msgstr "パターンをクリア"
 msgid "[Command]Clear Pattern"
 msgstr "パターンをクリア"
 
+#: .\ccl\browser.xml
+msgid "[TagPalette]Clear Tags"
+msgstr "タグをクリア"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "クリックオン/オフ"
@@ -1605,7 +1637,7 @@ msgid "[AudioChannel.SmallLevels]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Clip / Peak Levels"
+msgid "[AudioInput.Channel.Content]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
 
 #: .\devices\audiochannel.small.xml
@@ -1629,7 +1661,7 @@ msgid "[MixerManager]Close"
 msgstr "閉じる"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Close"
+msgid "[DeviceEditorHeadline]Close"
 msgstr "閉じる"
 
 #: .\devices\synthcombinator.xml
@@ -1707,6 +1739,14 @@ msgstr "チャンネルストリップに色を付ける"
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Colorize channel strips"
 msgstr "チャンネルストリップに色を付ける"
+
+#: .\app\options.xml
+msgid "[EditingOption]Colorize track controls"
+msgstr "トラックコントロール色を変更"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Colorize track controls"
+msgstr "トラックコントロール色を変更"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Comment"
@@ -1847,6 +1887,10 @@ msgstr "作成者"
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr "キュー"
+
+#: .\devices\audiochannel.xml
+msgid "[CueMixStackAudioEffect]Cue mix"
+msgstr "キューミックス"
 
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Cue mix Level: @value[]"
@@ -2178,10 +2222,6 @@ msgstr "メールアドレス"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]E-Mail or username"
-msgstr "メールまたはユーザー名"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]E-Mail or username"
 msgstr "メールまたはユーザー名"
 
 #: .\project\project.xml
@@ -2705,7 +2745,7 @@ msgid "[SurfacePlacementEditor]Group 4"
 msgstr "グループ4"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Group Tracks"
+msgid "[MutablePlainButton]Group Tracks"
 msgstr "グループトラック"
 
 #: .\engine\trackcontrols.xml
@@ -3077,7 +3117,7 @@ msgid "[Analyser]K-20"
 msgstr "K-20"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Keep Editor Open"
+msgid "[DeviceEditorHeadline]Keep Editor Open"
 msgstr "エディターを開いたままにする"
 
 #: .\devices\synthcombinator.xml
@@ -3160,6 +3200,10 @@ msgstr "長さ"
 msgid "[CueMixRackSlotView]Level"
 msgstr "レベル"
 
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterEditView]Levels"
+msgstr "レベル"
+
 #: .\app\about.xml
 msgid "[LicenseZone]License Type:"
 msgstr "ライセンスの種類:"
@@ -3179,6 +3223,10 @@ msgstr "フォルダートラックの展開/折りたたみを表示/非表示�
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
 msgstr "トラックリストとコンソールの表示/非表示をリンク"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow2]Link to DSP"
+msgstr "DSPにリンク"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Linked"
@@ -3340,6 +3388,10 @@ msgstr "デフォルトを作成"
 msgid "[ImageMaker]Make Image"
 msgstr "イメージを作成"
 
+#: .\ccl\browser.xml
+msgid "[PlugInBrowserHeader]Manage Plug-Ins"
+msgstr "プラグインを管理"
+
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceAddDialog]Manufacturer"
 msgstr "製造元"
@@ -3461,11 +3513,11 @@ msgid "[PresetFileInfo]Modified:"
 msgstr "変更日:"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Monitor"
+msgid "[TCMutablePlainButton]Monitor"
 msgstr "モニター"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Monitor"
+msgid "[MutablePlainButton]Monitor"
 msgstr "モニター"
 
 #: .\devices\audiochannel.small.xml
@@ -3493,11 +3545,11 @@ msgid "[AutomationOption]Mute"
 msgstr "ミュート"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Mute"
+msgid "[TCMutablePlainButton]Mute"
 msgstr "ミュート"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Mute"
+msgid "[MutablePlainButton]Mute"
 msgstr "ミュート"
 
 #: .\devices\audiochannel.narrow.xml
@@ -3659,6 +3711,22 @@ msgstr "Note FX"
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.FX]Note FX"
 msgstr "Note FX"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationFirstRow]Note FX Editor"
+msgstr "Note FXエディター"
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationContent]Note FX Editor"
+msgstr "Note FXエディター"
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsFirstRow]Note FX Editor"
+msgstr "Note FXエディター"
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsContent]Note FX Editor"
+msgstr "Note FXエディター"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
@@ -3856,10 +3924,6 @@ msgstr "パラメーターマッピングコントロール"
 msgid "[LicenseServerLogin]Password"
 msgstr "パスワード"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Password"
-msgstr "パスワード"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "ペースト"
@@ -3873,7 +3937,7 @@ msgid "[ProjectTrackControlsContent]Pause"
 msgstr "一時停止"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Peak Hold (dB)"
+msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
 msgstr "ピークホールド（dB）"
 
 #: .\devices\audiochannel.small.xml
@@ -3907,6 +3971,14 @@ msgstr "パフォーマンスモニター"
 #: .\app\windowclasses.xml
 msgid "[PerspectiveSelector]PerspectiveSelector"
 msgstr "パースペクティブセレクター"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Phantom Power"
+msgstr "ファンタム電源"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Phantom Power"
+msgstr "ファンタム電源"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]Pitch"
@@ -3984,6 +4056,14 @@ msgstr "お待ちください..."
 msgid "[PresetFileInfo]Plug-In:"
 msgstr "プラグイン:"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Polarity"
+msgstr "極性"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Polarity"
+msgstr "極性"
+
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Pool"
 msgstr "プール"
@@ -4007,6 +4087,10 @@ msgstr "プリロール"
 #: .\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
 msgstr "オーディオ入力をプリ録音"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Preamp Gain"
+msgstr "プリアンプゲイン"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Precount"
@@ -4313,11 +4397,11 @@ msgid "[MusicDeviceSetup]Reconnect..."
 msgstr "再接続..."
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Record"
+msgid "[TCMutablePlainButton]Record"
 msgstr "録音"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Record"
+msgid "[MutablePlainButton]Record"
 msgstr "録音"
 
 #: .\devices\audiochannel.small.xml
@@ -4402,10 +4486,6 @@ msgstr "録音残時間（低）"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "認証情報を保存"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Remember my credentials"
 msgstr "認証情報を保存"
 
 #: .\devices\audiomixer.xml
@@ -4793,11 +4873,11 @@ msgid "[MusicTrackControls]Select Track Color"
 msgstr "トラック色を選択"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControls]Select Track Color"
+msgid "[FolderTrackControls]Select Track Color"
 msgstr "トラック色を選択"
 
 #: .\engine\trackcontrols.xml
-msgid "[FolderTrackControls]Select Track Color"
+msgid "[AutomationTrackControls]Select Track Color"
 msgstr "トラック色を選択"
 
 #: .\engine\trackcontrols.xml
@@ -4988,9 +5068,25 @@ msgstr "ソングを表示"
 msgid "[PlugInBrowserHeader]Show Thumbnails"
 msgstr "サムネイルを表示"
 
+#: .\ccl\browser.xml
+msgid "[CloudBrowserHeader]Show Thumbnails"
+msgstr "サムネイルを表示"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Trash Bin"
 msgstr "ゴミ箱を表示"
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show audio device controls"
+msgstr "オーディオデバイスコントロールを表示"
+
+#: .\app\options.xml
+msgid "[EditingOption]Show channel numbers in tracks"
+msgstr "チャンネル番号をトラックに表示"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Show channel numbers in tracks"
+msgstr "チャンネル番号をトラックに表示"
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Show files used in this Song"
@@ -5073,19 +5169,19 @@ msgid "[SongToolbar]Snap to Grid @cmd[Edit|Toggle Snap]"
 msgstr "グリッドにスナップ @cmd[Edit|Toggle Snap]"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo"
+msgid "[TCMutablePlainButton]Solo"
 msgstr "ソロ"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo"
+msgid "[MutablePlainButton]Solo"
 msgstr "ソロ"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo (Solo Save use Shift)"
+msgid "[TCMutablePlainButton]Solo (Solo Save use Shift)"
 msgstr "ソロ（ソロ保存はShiftを使用）"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo (Solo Save use Shift)"
+msgid "[MutablePlainButton]Solo (Solo Save use Shift)"
 msgstr "ソロ（ソロ保存はShiftを使用）"
 
 #: .\devices\audiochannel.narrow.xml
@@ -5202,6 +5298,10 @@ msgstr "並び替え: "
 
 #: .\ccl\browser.xml
 msgid "[TagChainSelector]Sort by: "
+msgstr "並び替え: "
+
+#: .\ccl\common.xml
+msgid "[PlugInBrowserPopup]Sort by: "
 msgstr "並び替え: "
 
 #: .\engine\mediapool.xml
@@ -5640,6 +5740,10 @@ msgstr "この機能を有効化するには、Melodyneをインストールし�
 msgid "[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
 msgstr "この機能を使用するには、$APPCOMPANY アカウントが必要です。まず $APPNAME アクティベーションメニューで $APPNAME をアクティベートしてください。"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareStereoInputControls]Toggle L/R Channel"
+msgstr "左/右チャンネルを切り替え"
+
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
 msgstr "全体"
@@ -5896,10 +6000,6 @@ msgstr "ユーザー"
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "ユーザーデータロケーション（ソング、プロジェクト、プリセット）"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Username"
-msgstr "ユーザー名"
-
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
 msgstr "値"
@@ -5958,6 +6058,10 @@ msgstr "表示"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
+msgstr "可視性"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Visibility"
 msgstr "可視性"
 
 #: .\engine\songdialogs.xml
@@ -6135,107 +6239,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[Setup]About $APPNAME"
-#~ msgstr "$APPNAME について"
-
-#~ msgid "[Setup]Check for Updates"
-#~ msgstr "アップデートを確認"
-
-#~ msgid "[InternalMutablePlainButton]Expand"
-#~ msgstr "展開"
-
-#~ msgid "[TransportPanel]Alignment"
-#~ msgstr "配置"
-
-#~ msgid "[ProjectTransport]Alignment"
-#~ msgstr "配置"
-
-#~ msgid "[QuantizeSetup.OptionsPart]$t"
-#~ msgstr "$t"
-
-#~ msgid "[RoutingEditView]Add Insert"
-#~ msgstr "インサートを追加"
-
-#~ msgid "[SynthCombinatorRouting]Add Instrument"
-#~ msgstr "インストゥルメントを追加"
-
-#~ msgid "[SynthCombinatorRouting]Add Note FX"
-#~ msgstr "Note FXを追加"
-
-#~ msgid "[FXEditorHeaderRow1]CH"
-#~ msgstr "Ch"
-
-#~ msgid "[RoutingEditView]Drag Splitter"
-#~ msgstr "スプリッターをドラッグ"
-
-#~ msgid "[SynthCombinatorRouting]Drag Splitter"
-#~ msgstr "スプリッターをドラッグ"
-
-#~ msgid "[DuplicateTracksDialog]Duplicate Instrument"
-#~ msgstr "インストゥルメントを複製"
-
-#~ msgid "[DuplicateTracksDialog]Duplicate Track"
-#~ msgstr "トラックを複製"
-
-#~ msgid "[DuplicateTracksDialog]Duplicate Track with Events"
-#~ msgstr "トラックをイベントと共に複製"
-
-#~ msgid "[MutableMicroViewValueBar]$title"
-#~ msgstr "$title"
-
-#~ msgid "[CueMixRackSlotView]@value[]"
-#~ msgstr "@value[]"
-
-#~ msgid "[MutableChannelButtonInternal]Channel Editor"
-#~ msgstr "チャンネルエディター"
-
-#~ msgid "[MutableChannelButtonInternal]Channel Mode"
-#~ msgstr "チャンネルモード"
-
-#~ msgid "[AudioInput.Narrow]Clip"
-#~ msgstr "クリップ"
-
-#~ msgid "[AudioInput.Small.Narrow]Clip"
-#~ msgstr "クリップ"
-
-#~ msgid "[CueMixRack]Cue mix"
-#~ msgstr "キューミックス"
-
-#~ msgid "[MutableChannelButtonInternal]Expand"
-#~ msgstr "展開"
-
-#~ msgid "[MutableChannelButtonInternal]Group Tracks"
-#~ msgstr "グループトラック"
-
-#~ msgid "[SynthCombinatorMacroControlsHeader]Macro Controls Mapping"
-#~ msgstr "マクロコントロールマッピング"
-
-#~ msgid "[MutableChannelButtonInternal]Monitor"
-#~ msgstr "モニター"
-
-#~ msgid "[MutableChannelButtonInternal]Mute"
-#~ msgstr "ミュート"
-
-#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be send to you with a link to activate your account."
-#~ msgstr "連絡先情報を入力し、登録してください。アカウントのアクティベート用リンクを記載したメールが送信されます。"
-
-#~ msgid "[MusicEditorLeftPanel]Q"
-#~ msgstr "Q"
-
-#~ msgid "[MutableChannelButtonInternal]Record"
-#~ msgstr "録音"
-
-#~ msgid "[MutableChannelButtonInternal]Solo"
-#~ msgstr "ソロ"
-
-#~ msgid "[MutableChannelButtonInternal]Solo (Solo Save use Shift)"
-#~ msgstr "ソロ（ソロ保存はShiftを使用）"
-
-#~ msgid "[LicenseServerLogin]Username"
-#~ msgstr "ユーザー名"
-
-#~ msgid "[ProjectFader]Volume"
-#~ msgstr "ボリューム"
-
 

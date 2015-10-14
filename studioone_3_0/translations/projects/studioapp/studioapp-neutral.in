@@ -19,7 +19,8 @@ copyFile: resources.properties
 setInputDir: ./$(language)
 copyFile: metainfo.xml
 setOutputDir: ./$(TempDir)/$(LanguagePack)/resources
-copyFile: EULA.txt
+setInputDir: ../../eula
+copyFile: EULA-$(language).txt > EULA.txt
 
 print: Copying tables...
 ; Application
@@ -56,6 +57,8 @@ print: Copying tables...
 #define: $(table)=sessionhandler
 @copyTable
 #define: $(table)=firestudio
+@copyTable
+#define: $(table)=hardwareservice
 @copyTable
 #define: $(table)=midifile
 @copyTable

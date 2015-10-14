@@ -44,6 +44,14 @@ msgstr "(按下 <Shift> 添加目标)"
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
 msgstr "(按下 <Shift> 替换目标)"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V"
+msgstr "48V"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V Right"
+msgstr "48V右"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "设备名称已经存在."
@@ -313,6 +321,10 @@ msgstr "配置..."
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "连接%(1) 至 %(2) 宏观控制"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Connected to %(1)."
+msgstr "连接至%(1)."
+
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
@@ -370,6 +382,10 @@ msgstr "声像混合记号"
 msgid "[Command]Cursor follows Edit Position"
 msgstr "光标遵循编辑位置"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]DAW Post DSP"
+msgstr "DAW前DSP"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "描述"
@@ -377,6 +393,10 @@ msgstr "描述"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "检测设备 %(1)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Device information for %(1) received."
+msgstr "已接收%(1) 设备信息"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -389,6 +409,10 @@ msgstr "设备"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
 msgstr "断开连接 %(1) 从 %(2) 宏观控制%(3)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Disconnected from %(1)."
+msgstr "已断开%(1)连接"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -521,6 +545,10 @@ msgstr "输入"
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "输入"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Input Controls"
+msgstr "输入控制"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -779,6 +807,10 @@ msgstr "向上推进"
 msgid "[Command]Nudge Up Fine"
 msgstr "细微向上推进"
 
+#: .\hardware\remotefxfolder.cpp
+msgid "[Hardware]Onboard DSP"
+msgstr "DSP就绪"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "打开通道"
@@ -827,6 +859,14 @@ msgstr "从循环开头播放"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "请连接即插即用式MIDI设备, 连接完成后此消息自动消失..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity"
+msgstr "极性"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity Right"
+msgstr "右侧极性"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "端口"
@@ -838,6 +878,14 @@ msgstr "没找到端口!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "推子后"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain"
+msgstr "放大器增益"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain Right"
+msgstr "右侧放大器增益"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -858,6 +906,10 @@ msgstr "上一个通道"
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "上一个场景"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Querying device information for %(1)..."
+msgstr "查询 %(1)设备信息"
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"

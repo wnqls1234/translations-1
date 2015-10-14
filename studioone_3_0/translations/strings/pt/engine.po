@@ -596,7 +596,7 @@ msgstr "Não seguir"
 
 #: .\videoediting\songvideo.cpp
 msgid "[Video]Double Size"
-msgstr "Tamanho Duplo"
+msgstr "Tamanho Dobrado"
 
 #: .\web\webeventpainter.cpp
 msgid "[Engine]Download finished"
@@ -1515,6 +1515,10 @@ msgstr "Apenas eventos clicados"
 msgid "[VideoEdit]Only extract Audio"
 msgstr "Apenas extração do Áudio"
 
+#: .\editing\arrangereditlayer.cpp
+msgid "[Command]Open Arrangertrack"
+msgstr "Abrir Pista de Arranjador"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "Abrir Pista de Marcadores"
@@ -1838,11 +1842,11 @@ msgstr "Renomear Scratch Pad"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Render Click"
-msgstr "Renderização do Click"
+msgstr "Renderizar Metrônomo"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Render Click"
-msgstr "Renderização do Click"
+msgstr "Renderizar Metrônomo"
 
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
@@ -1858,7 +1862,7 @@ msgstr "Renderizar Pistas de Instrumento"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
-msgstr "Renderizando Click"
+msgstr "Renderizando Metrônomo"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Envelope: %(1)"
@@ -2076,7 +2080,7 @@ msgstr "Mostrar Envelopes"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Show Instrument Editor"
-msgstr "Exibir Editor de instrumento"
+msgstr "Exibir Editor de Instrumento"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Show Media Folder in Explorer"
@@ -2513,8 +2517,8 @@ msgstr "Tamanho Duplo do Vídeo"
 msgid "[Command]Video Size Half"
 msgstr "Metade do Tamanho do Vídeo"
 
-#: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
+#: .\editing\arrangereditlayer.cpp .\editing\trackeditor.cpp
+#: .\editing\tracklistcomponent.cpp .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "Visualizar"
 
@@ -2581,13 +2585,4 @@ msgstr "utilizado %(1) vezes"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "utilizado %(1) vezes"
-
-#~ msgid "[ActionDescriptions]Duplicate Track with Options..."
-#~ msgstr "Duplicar Pista Com Opções..."
-
-#~ msgid "[ActionDescriptions]Duplicate Tracks with Options..."
-#~ msgstr "Duplicar Pistas Com Opções..."
-
-#~ msgid "[Command]Duplicate with Options"
-#~ msgstr "Duplicar Com Opções..."
 

@@ -29,7 +29,8 @@ msgid "[Command]Add to Project"
 msgstr "Přidat do projektu"
 
 #: .\appmigration.cpp
-msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
+msgid ""
+"[StudioApp]An older version of $APPNAME has been found on this computer."
 msgstr "Na tomto počítači byla nalezena starší verze $APPNAME."
 
 #: .\studioapp.cpp
@@ -77,16 +78,26 @@ msgid "[Options]Do Nothing"
 msgstr "Nedělat nic"
 
 #: .\appmigration.cpp
-msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
+msgid ""
+"[StudioApp]Do you want to import the settings from the old version of "
+"$APPNAME?"
 msgstr "Přejete si načíst nastavení ze staré verze $APPNAME?"
 
 #: .\projectdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
-msgstr "Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí nastavení pro nové projekty?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Projects?"
+msgstr ""
+"Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí "
+"nastavení pro nové projekty?"
 
 #: .\songdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
-msgstr "Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí nastavení pro nové písně?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Songs?"
+msgstr ""
+"Přejete si aplikovat aktuální nastavení vstupů a výstupů jako výchozí "
+"nastavení pro nové písně?"
 
 #: .\documenthandler.cpp
 msgid "[Command]Document"
@@ -341,7 +352,9 @@ msgid "[Tags]Style"
 msgstr ""
 
 #: .\studioapp.cpp
-msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
+msgid ""
+"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
+"left."
 msgstr "Děkujeme, že jste vyzkoušeli $APPNAME. Zbývá vám %(1} startů programu."
 
 #: .\studioapp.cpp
@@ -351,6 +364,13 @@ msgstr ""
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
 msgstr "Zvuková sada \"%(1)\" se stále používá (je otevřen soubor %(2))!"
+
+#: .\soundsethandler.cpp
+msgid ""
+"[StudioApp]The following Sound Sets failed to install or are installed "
+"multiple times on your system. This can be caused by incomplete file "
+"downloads. Do you want to delete these files now?"
+msgstr ""
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"
@@ -391,4 +411,3 @@ msgstr "Zobrazit"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Pracovní plocha"
-

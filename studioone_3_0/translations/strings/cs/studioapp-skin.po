@@ -29,8 +29,14 @@ msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
-msgstr "&APPCOMPANY nabízí rozšiřující obsah a plug-iny dalších výrobců. Pokud chcete tyto položky autorizovat, postupujte prosím podle následujících kroků a to nyní nebo později:"
+msgid ""
+"[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party "
+"plug-ins for $APPNAME. To authorize these items, please take the following "
+"steps, either now or any time later:"
+msgstr ""
+"&APPCOMPANY nabízí rozšiřující obsah a plug-iny dalších výrobců. Pokud "
+"chcete tyto položky autorizovat, postupujte prosím podle následujících kroků "
+"a to nyní nebo později:"
 
 #: .\app\licenser.xml
 msgid "[AppStoreWelcome]$APPNAME"
@@ -76,25 +82,35 @@ msgstr "Rozšíření $APPNAME"
 msgid "[ContentInstaller]$APPNAME Installation"
 msgstr "Instalace $APPNAME"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]$APPNAME Security"
-msgstr "Zabezpečení $APPNAME"
-
 #: .\app\about.xml
 msgid "[AboutFooter]$APPNAME Website"
 msgstr "Webové stránky $APPNAME"
 
 #: .\ccl\contentinstaller.xml
-msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
+msgid ""
+"[ContentInstaller]$APPNAME comes with additional content, including loops, "
+"samples, and third-party plug-ins. Please select the packages you want to "
+"install below."
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+msgid ""
+"[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. "
+"Please login with your e-mail/username and password below."
 msgstr ""
 
 #: .\ccl\common.xml
-msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
-msgstr "$APPNAME pomůže k organizaci mediálních souborů. Všechna vaše data, jako jsou písně, projekty a přednastavení, budou uložena na jednom místě."
+msgid ""
+"[ContentLocationSelector]$APPNAME will help to keep your media files "
+"organized. All your data like Songs, Projects and Presets will be stored in "
+"a single location."
+msgstr ""
+"$APPNAME pomůže k organizaci mediálních souborů. Všechna vaše data, jako "
+"jsou písně, projekty a přednastavení, budou uložena na jednom místě."
+
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]$idx"
+msgstr ""
 
 #: .\devices\audiofxeditor.xml
 msgid "[FrequencySplitterSlider]$idx"
@@ -136,6 +152,10 @@ msgstr "$title"
 msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$title"
+msgstr ""
+
 #: .\app\shared.xml
 msgid "[InspectorPropertyRadioBox]$title"
 msgstr "$title"
@@ -143,6 +163,10 @@ msgstr "$title"
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$title"
 msgstr "$title"
+
+#: .\devices\audiochannel.xml
+msgid "[PlugInSelectorMenuWide]$title"
+msgstr ""
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.Option]$title"
@@ -156,9 +180,17 @@ msgstr "$tooltip"
 msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
 
+#: .\app\microviews.xml
+msgid "[MutableMicroViewSmallToggle]$tooltip"
+msgstr ""
+
 #: .\app\shared.xml
 msgid "[MutableInspectorProperty]$tooltip"
 msgstr "$tooltip"
+
+#: .\devices\audiochannel.xml
+msgid "[SendMicroViewSimpleSlider]$tooltip"
+msgstr ""
 
 #: .\engine\audioediting.xml
 msgid "[EditPanel.ApplyPart]$tooltip"
@@ -273,7 +305,9 @@ msgid "[MusicDeviceOptions]1"
 msgstr "1"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.OfflinePage]1. Follow this guide for complete Offline Activation instructions."
+msgid ""
+"[UserLicenseDialog.OfflinePage]1. Follow this guide for complete Offline "
+"Activation instructions."
 msgstr ""
 
 #: .\app\licenser.xml
@@ -373,7 +407,9 @@ msgid "[AppStoreWelcome]2. Click &apos;Activate&apos; to activate $APPNAME."
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.OfflinePage]2. You will need the following Activation Code:"
+msgid ""
+"[UserLicenseDialog.OfflinePage]2. You will need the following Activation "
+"Code:"
 msgstr ""
 
 #: .\devices\musicdevices.xml
@@ -381,11 +417,15 @@ msgid "[MusicDeviceOptions]3"
 msgstr "3"
 
 #: .\app\licenser.xml
-msgid "[AppStoreWelcome]3. If you do not already have a $APPCOMPANY Account, please follow the instructions to create a new account."
+msgid ""
+"[AppStoreWelcome]3. If you do not already have a $APPCOMPANY Account, please "
+"follow the instructions to create a new account."
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.OfflinePage]3. Select the license file you downloaded or drag it onto this window."
+msgid ""
+"[UserLicenseDialog.OfflinePage]3. Select the license file you downloaded or "
+"drag it onto this window."
 msgstr ""
 
 #: .\project\analyser.xml
@@ -660,13 +700,9 @@ msgstr "@value[]"
 msgid "[AudioSendRackSlotView]@value[]"
 msgstr "@value[]"
 
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleSlider]@value[]"
-msgstr "@value[]"
-
-#: .\devices\audiochannel.xml
-msgid "[SendMicroViewSimpleYellowSlider]@value[]"
-msgstr "@value[]"
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterLevel]@value[]"
+msgstr ""
 
 #: .\devices\audiofxeditor.xml
 msgid "[FrequencySplitterSlider]@value[]"
@@ -813,7 +849,8 @@ msgid "[PurchaseHandler]Activate Purchased Items"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+msgid ""
+"[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
 msgstr ""
 
 #: .\engine\audioexport.xml
@@ -988,6 +1025,14 @@ msgstr "Použít"
 msgid "[QuantizeSetup.ApplyPart]Apply"
 msgstr "Použít"
 
+#: .\devices\audiochannel.xml
+msgid "[RemoteFXRackSlotView]Apply DSP to Input Signal"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[RemoteFXEditorHeaderView]Apply DSP to Input Signal"
+msgstr ""
+
 #: .\app\options.xml
 msgid "[EditingOption]Apply folder track color to content"
 msgstr ""
@@ -1054,7 +1099,8 @@ msgstr "Umělecká dílna"
 
 #: .\ccl\common.xml
 msgid "[AutoSaveOption]Ask to copy external files when saving Song"
-msgstr "Dotázat se, zda se během ukládání písně mají kopírovat externí soubory "
+msgstr ""
+"Dotázat se, zda se během ukládání písně mají kopírovat externí soubory "
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Assign"
@@ -1157,7 +1203,8 @@ msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "Automatické pozvolné zesilování/zeslabování"
 
 #: .\app\options.xml
-msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
+msgid ""
+"[AutomationOption]Automatically add envelopes for all touched parameters"
 msgstr "Pro všechny parametry, které se pohnou, automaticky přidat obálky"
 
 #: .\engine\editor.xml
@@ -1201,8 +1248,8 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr "Režim automatizace"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Automation Mode"
-msgstr "Režim automatizace"
+msgid "[AutomationModeBox]Automation Mode"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[AutomationAspectFirstRow]Automation Mode"
@@ -1445,15 +1492,20 @@ msgid "[PlugInFileInfo]Category:"
 msgstr "Kategorie:"
 
 #: .\ccl\common.xml
-msgid "[ServiceOption]Changing these advanced settings might lead to improper function of $APPNAME. You should only continue if you are sure of what you are doing."
-msgstr "Změna tohoto pokročilého nastavení může vést k nesprávné funkci $APPNAME. Pokračovat byste měli pouze v případě, že přesně víte, co dané změny dělají."
+msgid ""
+"[ServiceOption]Changing these advanced settings might lead to improper "
+"function of $APPNAME. You should only continue if you are sure of what you "
+"are doing."
+msgstr ""
+"Změna tohoto pokročilého nastavení může vést k nesprávné funkci $APPNAME. "
+"Pokračovat byste měli pouze v případě, že přesně víte, co dané změny dělají."
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Channel"
 msgstr "Kanál"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Editor"
+msgid "[MutablePlainButton]Channel Editor"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
@@ -1481,8 +1533,8 @@ msgid "[MixerManager]Channel List"
 msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Channel Mode"
-msgstr "Režim kanálu"
+msgid "[MutablePlainButton]Channel Mode"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioGroupFX.Channel]Channel Mode"
@@ -1491,6 +1543,14 @@ msgstr "Režim kanálu"
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
 msgstr "Režim kanálu"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationMainContent]Channel Number"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackControlsMainContent]Channel Number"
+msgstr ""
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Channel Split"
@@ -1556,6 +1616,10 @@ msgstr "Vyčistit schéma"
 msgid "[Command]Clear Pattern"
 msgstr "Vyčistit schéma"
 
+#: .\ccl\browser.xml
+msgid "[TagPalette]Clear Tags"
+msgstr ""
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Vypnutí/zapnutí metronomu"
@@ -1605,8 +1669,8 @@ msgid "[AudioChannel.SmallLevels]Clip / Peak Levels"
 msgstr "Klip / Úrovně špiček"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Clip / Peak Levels"
-msgstr "Klip / Úrovně špiček"
+msgid "[AudioInput.Channel.Content]Clip / Peak Levels"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Clip / Peak Levels"
@@ -1629,8 +1693,8 @@ msgid "[MixerManager]Close"
 msgstr "Zavřít"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Close"
-msgstr "Zavřít"
+msgid "[DeviceEditorHeadline]Close"
+msgstr ""
 
 #: .\devices\synthcombinator.xml
 msgid "[CombinatorContentTitleBar]Close"
@@ -1706,6 +1770,14 @@ msgstr ""
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Colorize channel strips"
+msgstr ""
+
+#: .\app\options.xml
+msgid "[EditingOption]Colorize track controls"
+msgstr ""
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Colorize track controls"
 msgstr ""
 
 #: .\engine\songdialogs.xml
@@ -1825,8 +1897,12 @@ msgid "[HomePage]Create a new Song"
 msgstr "Vytvořit novou píseň"
 
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
-msgstr "Vytvořit zvukové stopy pro všechny výstupy nástroje. Pokd je volný, budou provedeny pouze ty, které mají v inspektoru stopy přiřazen výstup."
+msgid ""
+"[MusicTransformDialog]Create audio tracks for all instrument outputs. If "
+"disengaged, only the output assigned in the track inspector is rendered."
+msgstr ""
+"Vytvořit zvukové stopy pro všechny výstupy nástroje. Pokd je volný, budou "
+"provedeny pouze ty, které mají v inspektoru stopy přiřazen výstup."
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionPropertiesInplace]Created by"
@@ -1847,6 +1923,10 @@ msgstr "Tvůrce"
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr "Muzikanta"
+
+#: .\devices\audiochannel.xml
+msgid "[CueMixStackAudioEffect]Cue mix"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Cue mix Level: @value[]"
@@ -2093,16 +2173,24 @@ msgid "[MusicStepRecordPanel]Dotted"
 msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
+msgid ""
+"[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel "
+"Color"
+msgstr ""
+"Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
 
 #: .\devices\audiochannel.xml
-msgid "[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
+msgid ""
+"[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr ""
+"Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
 
 #: .\devices\synthcombinator.xml
-msgid "[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
+msgid ""
+"[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select "
+"Channel Color"
+msgstr ""
+"Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
 
 #: .\engine\mediapool.xml
 msgid "[WebFileInfo]Download"
@@ -2133,7 +2221,9 @@ msgid "[FXEditorHeaderRow1]Drag Preset from here"
 msgstr "Odsud přesuňte přednastavení"
 
 #: .\devices\musicdevices.xml
-msgid "[SurfacePlacementEditor]Drag devices between groups to change their placement."
+msgid ""
+"[SurfacePlacementEditor]Drag devices between groups to change their "
+"placement."
 msgstr "Pro změnu umístění zařízení je přetáhněte mezi skupinami."
 
 #: .\devices\transport.xml
@@ -2180,10 +2270,6 @@ msgstr "E-Mail"
 msgid "[LicenseServerLogin]E-Mail or username"
 msgstr ""
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]E-Mail or username"
-msgstr ""
-
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN"
 msgstr ""
@@ -2205,7 +2291,8 @@ msgid "[SongPopup.Info]Edit"
 msgstr "Upravit"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+msgid ""
+"[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "Upravit automatizaci @cmd[Automation|Show Current Parameter]"
 
 #: .\devices\devices.xml
@@ -2325,7 +2412,8 @@ msgid "[QuantizeSetup.OptionsPart]End"
 msgstr "Konec"
 
 #: .\app\options.xml
-msgid "[MusicOption]Enlarge record part to reveal notes recorded during precount"
+msgid ""
+"[MusicOption]Enlarge record part to reveal notes recorded during precount"
 msgstr ""
 
 #: .\ccl\common.xml
@@ -2345,7 +2433,9 @@ msgid "[RecordPanel.Horizontal]Erase Key"
 msgstr "Mazat tón"
 
 #: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
+msgid ""
+"[RecordPanel.Horizontal]Erase Notes in Record Mix Mode @cmd[Record Mode|Note "
+"Erase]"
 msgstr ""
 
 #: .\engine\videoplayer.xml
@@ -2361,7 +2451,8 @@ msgid "[AudioEventFXProperties]Event Effects are currently offline"
 msgstr "Efekty události jsou momentálně offline"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgid ""
+"[AudioEventFXProperties]Event Effects processing in realtime, click to render"
 msgstr "Efektové události zpracovávat v reálném čase, pro provedení, klikněte"
 
 #: .\engine\eventinspector.xml
@@ -2705,8 +2796,8 @@ msgid "[SurfacePlacementEditor]Group 4"
 msgstr "Skupina 4"
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Group Tracks"
-msgstr "Sloučit stopy do skupiny"
+msgid "[MutablePlainButton]Group Tracks"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[FolderTrackControlsContent]Group Tracks"
@@ -2777,11 +2868,16 @@ msgid "[DocumentTemplateSaveDialog]Icon"
 msgstr "Ikona"
 
 #: .\app\licenser.xml
-msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+msgid ""
+"[PurchaseHandler]If your computer is not connected to the Internet, please "
+"download the License File from your $APPCOMPANY Account separately and "
+"select it here or drag it onto this window."
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.OfflinePage]If your computer is not connected to the Internet, please take the following steps to activate $APPNAME:"
+msgid ""
+"[UserLicenseDialog.OfflinePage]If your computer is not connected to the "
+"Internet, please take the following steps to activate $APPNAME:"
 msgstr ""
 
 #: .\engine\song.xml
@@ -2789,8 +2885,10 @@ msgid "[InplaceOptions]Ignore Plug-In Latency"
 msgstr "Ignorovat zpoždění plug-inu"
 
 #: .\app\options.xml
-msgid "[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
-msgstr "Ignorovat časové zdroje zvukového zařízení (místo toho použít systémový čas)"
+msgid ""
+"[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
+msgstr ""
+"Ignorovat časové zdroje zvukového zařízení (místo toho použít systémový čas)"
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]Image"
@@ -2929,7 +3027,10 @@ msgid "[ExtensionManager]Install..."
 msgstr "Instalovat..."
 
 #: .\ccl\contentinstaller.xml
-msgid "[ContentInstaller]Installation will continue in background. You can choose to skip this step now and install the content any time later from the $APPNAME menu."
+msgid ""
+"[ContentInstaller]Installation will continue in background. You can choose "
+"to skip this step now and install the content any time later from the "
+"$APPNAME menu."
 msgstr ""
 
 #: .\devices\audiomixer.xml
@@ -3077,8 +3178,8 @@ msgid "[Analyser]K-20"
 msgstr "K-20"
 
 #: .\devices\devices.xml
-msgid "[DeviceEditorTitleBar]Keep Editor Open"
-msgstr "Nechat editor otevřený"
+msgid "[DeviceEditorHeadline]Keep Editor Open"
+msgstr ""
 
 #: .\devices\synthcombinator.xml
 msgid "[CombinatorContentTitleBar]Keep Editor Open"
@@ -3160,6 +3261,10 @@ msgstr "Délka"
 msgid "[CueMixRackSlotView]Level"
 msgstr "Úroveň"
 
+#: .\devices\audiofxeditor.xml
+msgid "[SplitterEditView]Levels"
+msgstr ""
+
 #: .\app\about.xml
 msgid "[LicenseZone]License Type:"
 msgstr "Typ licence:"
@@ -3173,11 +3278,16 @@ msgid "[MusicEditor.ToolGroup0]Link Track Selection"
 msgstr "Spojit výběr stopy"
 
 #: .\devices\audiomixer.xml
-msgid "[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
+msgid ""
+"[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
 msgstr ""
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow2]Link to DSP"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -3340,6 +3450,10 @@ msgstr "Nastavit jako výchozí"
 msgid "[ImageMaker]Make Image"
 msgstr "Vytvořit obraz"
 
+#: .\ccl\browser.xml
+msgid "[PlugInBrowserHeader]Manage Plug-Ins"
+msgstr ""
+
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceAddDialog]Manufacturer"
 msgstr "Výrobce"
@@ -3461,12 +3575,12 @@ msgid "[PresetFileInfo]Modified:"
 msgstr "Změněno:"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Monitor"
-msgstr "Sledovat"
+msgid "[TCMutablePlainButton]Monitor"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Monitor"
-msgstr "Sledovat"
+msgid "[MutablePlainButton]Monitor"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
@@ -3493,12 +3607,12 @@ msgid "[AutomationOption]Mute"
 msgstr "Umlčet"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Mute"
-msgstr "Umlčet"
+msgid "[TCMutablePlainButton]Mute"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Mute"
-msgstr "Umlčet"
+msgid "[MutablePlainButton]Mute"
+msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioChannel.Narrow.Basics]Mute"
@@ -3660,6 +3774,22 @@ msgstr ""
 msgid "[MusicTrackInspector.FX]Note FX"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationFirstRow]Note FX Editor"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[TrackAutomationContent]Note FX Editor"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsFirstRow]Note FX Editor"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControlsContent]Note FX Editor"
+msgstr ""
+
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
 msgstr "Repetice noty"
@@ -3669,7 +3799,8 @@ msgid "[SongPopup.Notes]Notes"
 msgstr "Poznámky"
 
 #: .\devices\musicdevices.xml
-msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
+msgid ""
+"[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "Při startu $APPNAME mě upozornit, pokud nejsou zařízení k dispozici"
 
 #: .\project\analyser.xml
@@ -3785,8 +3916,14 @@ msgid "[BurnerSelectDialog]Options"
 msgstr "Možnosti"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseExpired]Otherwise, we look forward to your feedback on how we can make $APPNAME better for you. Please visit our forums with any feature requests."
-msgstr "Mimochodem, těšíme se na vaší zpětnou vazbu a informace o tom, jak pro vás můžeme udělat $APPNAME lepší. S jakýmkoliv dotazem prosím navštivte naše fóra. "
+msgid ""
+"[UserLicenseExpired]Otherwise, we look forward to your feedback on how we "
+"can make $APPNAME better for you. Please visit our forums with any feature "
+"requests."
+msgstr ""
+"Mimochodem, těšíme se na vaší zpětnou vazbu a informace o tom, jak pro vás "
+"můžeme udělat $APPNAME lepší. S jakýmkoliv dotazem prosím navštivte naše "
+"fóra. "
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Out"
@@ -3856,10 +3993,6 @@ msgstr "Parameter Mapping Control (rámeček úplně vlevo nahoře)"
 msgid "[LicenseServerLogin]Password"
 msgstr "Heslo"
 
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Password"
-msgstr "Heslo"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "Vložit"
@@ -3873,7 +4006,7 @@ msgid "[ProjectTrackControlsContent]Pause"
 msgstr "Pauza"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioInput.Channel]Peak Hold (dB)"
+msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
@@ -3907,6 +4040,14 @@ msgstr "Sledovat zatížení"
 #: .\app\windowclasses.xml
 msgid "[PerspectiveSelector]PerspectiveSelector"
 msgstr "Volba náhledu"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Phantom Power"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Phantom Power"
+msgstr ""
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]Pitch"
@@ -3969,11 +4110,14 @@ msgid "[AudioTrackInspector]Play overlaps"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+msgid ""
+"[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail "
+"will be sent to you with a link to activate your account."
 msgstr ""
 
 #: .\ccl\extensionmanager.xml
-msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
+msgid ""
+"[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "Pro aplikování změn, prosím restartujte $APPNAME."
 
 #: .\ccl\overlays.xml
@@ -3983,6 +4127,14 @@ msgstr "Čekejte prosím..."
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Plug-In:"
 msgstr "Plug-in:"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Polarity"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Polarity"
+msgstr ""
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Pool"
@@ -4007,6 +4159,10 @@ msgstr "Před přehráváním"
 #: .\app\options.xml
 msgid "[AudioEngineOption]Pre-record audio input"
 msgstr "Zvukový vstup před-záznamu"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Preamp Gain"
+msgstr ""
 
 #: .\devices\transport.xml
 msgid "[Metronome]Precount"
@@ -4313,12 +4469,12 @@ msgid "[MusicDeviceSetup]Reconnect..."
 msgstr "Obnovit zapojení…"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Record"
-msgstr "Záznam"
+msgid "[TCMutablePlainButton]Record"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Record"
-msgstr "Záznam"
+msgid "[MutablePlainButton]Record"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Record"
@@ -4402,10 +4558,6 @@ msgstr "Zbývající čas záznamu (málo)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "Pamatovat si mé kredity"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Remember my credentials"
 msgstr "Pamatovat si mé kredity"
 
 #: .\devices\audiomixer.xml
@@ -4521,8 +4673,12 @@ msgid "[RenderClick]Render Range"
 msgstr ""
 
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
-msgstr "Provést do zvuku efekty. Pokud jsou odpojeny, jsou ponechány pro zpracování v reálném čase."
+msgid ""
+"[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts "
+"are kept for realtime processing and automation."
+msgstr ""
+"Provést do zvuku efekty. Pokud jsou odpojeny, jsou ponechány pro zpracování "
+"v reálném čase."
 
 #: .\devices\transport.xml
 msgid "[Metronome]Repeat Accent"
@@ -4545,7 +4701,9 @@ msgid "[DocumentTemplateSaveDialog]Replace Existing..."
 msgstr "Nahradit stávající…"
 
 #: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Replace overlapping data in record @cmd[Record Mode|Record Mode Replace]"
+msgid ""
+"[RecordPanel.Horizontal]Replace overlapping data in record @cmd[Record Mode|"
+"Record Mode Replace]"
 msgstr ""
 
 #: .\ccl\common.xml
@@ -4617,7 +4775,8 @@ msgid "[ProjectTransport]Rewind"
 msgstr "Převinout zpět"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+msgid ""
+"[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
 msgstr "Průměrná RMS pravého kanálu (začlenění 3 vteřiny)"
 
 #: .\project\project.xml
@@ -4641,7 +4800,9 @@ msgid "[SynthCombinatorPageSelector]Routing"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+msgid ""
+"[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited "
+"FREE version"
 msgstr ""
 
 #: .\devices\devices.xml
@@ -4793,11 +4954,11 @@ msgid "[MusicTrackControls]Select Track Color"
 msgstr "Vybrat barvu stopy"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControls]Select Track Color"
+msgid "[FolderTrackControls]Select Track Color"
 msgstr "Vybrat barvu stopy"
 
 #: .\engine\trackcontrols.xml
-msgid "[FolderTrackControls]Select Track Color"
+msgid "[AutomationTrackControls]Select Track Color"
 msgstr "Vybrat barvu stopy"
 
 #: .\engine\trackcontrols.xml
@@ -4988,9 +5149,25 @@ msgstr "Zobrazit píseň"
 msgid "[PlugInBrowserHeader]Show Thumbnails"
 msgstr ""
 
+#: .\ccl\browser.xml
+msgid "[CloudBrowserHeader]Show Thumbnails"
+msgstr ""
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Trash Bin"
 msgstr "Zobrazit koš"
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show audio device controls"
+msgstr ""
+
+#: .\app\options.xml
+msgid "[EditingOption]Show channel numbers in tracks"
+msgstr ""
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Show channel numbers in tracks"
+msgstr ""
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Show files used in this Song"
@@ -5073,20 +5250,20 @@ msgid "[SongToolbar]Snap to Grid @cmd[Edit|Toggle Snap]"
 msgstr "Přichytit k mřížce @cmd[EditToggle Snap]"
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo"
-msgstr "Sólo"
+msgid "[TCMutablePlainButton]Solo"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo"
-msgstr "Sólo"
+msgid "[MutablePlainButton]Solo"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalTrackControlPlainButton]Solo (Solo Save use Shift)"
-msgstr "Sólo (pro ochranu sóla, použijte Shift)"
+msgid "[TCMutablePlainButton]Solo (Solo Save use Shift)"
+msgstr ""
 
 #: .\app\shared.xml
-msgid "[InternalMutablePlainButton]Solo (Solo Save use Shift)"
-msgstr "Sólo (pro ochranu sóla, použijte Shift)"
+msgid "[MutablePlainButton]Solo (Solo Save use Shift)"
+msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioChannel.Narrow.Basics]Solo (Solo Save use Shift)"
@@ -5203,6 +5380,10 @@ msgstr "Třídit dle:"
 #: .\ccl\browser.xml
 msgid "[TagChainSelector]Sort by: "
 msgstr "Třídit dle:"
+
+#: .\ccl\common.xml
+msgid "[PlugInBrowserPopup]Sort by: "
+msgstr ""
 
 #: .\engine\mediapool.xml
 msgid "[MediaPoolHeader]Sort by: "
@@ -5417,7 +5598,9 @@ msgid "[NewSong]Styles"
 msgstr "Styly"
 
 #: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
+msgid ""
+"[AudioTransformDialog]Support retransformation to audio track with insert "
+"effects."
 msgstr "Podpora zpětné proměny na zvukovou stopu včetně efektů."
 
 #: .\engine\musicdialogs.xml
@@ -5429,11 +5612,15 @@ msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "Swing"
 
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgid ""
+"[MusicTransformDialog]Switch between automatic tail detection and fixed tail "
+"of given length."
 msgstr "Přepnout mezi automatickou detekcí chvostu a pevně stanovenou délkou."
 
 #: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+msgid ""
+"[AudioTransformDialog]Switch between automatic tail detection and fixed tail "
+"of given length."
 msgstr "Přepnout mezi automatickou detekcí chvostu a pevně stanovenou délkou."
 
 #: .\devices\devices.xml
@@ -5505,15 +5692,21 @@ msgid "[BurnerSelectDialog]Test Write"
 msgstr "Test zápisu"
 
 #: .\app\licenser.xml
-msgid "[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac App Store."
+msgid ""
+"[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac "
+"App Store."
 msgstr "Děkujeme vám za zakoupení $APPNAME z Mac App Store."
 
 #: .\app\licenser.xml
-msgid "[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App Store."
+msgid ""
+"[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App "
+"Store."
 msgstr "Děkujeme vám za zakoupení $APPNAME z Mac App Store."
 
 #: .\app\licenser.xml
-msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgid ""
+"[PurchaseHandler]Thank you for your purchase. Your purchased items are ready "
+"to be activated on this computer."
 msgstr ""
 
 #: .\app\homepage.xml
@@ -5633,11 +5826,18 @@ msgid "[SongPopup.Info]Title"
 msgstr "Název"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]To activate this capability please install Melodyne."
+msgid ""
+"[MelodynePlaceholder]To activate this capability please install Melodyne."
 msgstr "Pro aktivaci této vlastnisti prosím nainstalujte Melodyne."
 
 #: .\app\licenser.xml
-msgid "[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
+msgid ""
+"[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is "
+"required. Please activate $APPNAME from the $APPNAME Activation menu first."
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareStereoInputControls]Toggle L/R Channel"
 msgstr ""
 
 #: .\devices\transport.xml
@@ -5793,7 +5993,9 @@ msgid "[QuantizeSetup.TypePart]Triplet"
 msgstr "Triola"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+msgid ""
+"[UserLicenseDialog.ActivationPage]Try the full version for a time limited "
+"demo period"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -5821,8 +6023,12 @@ msgid "[ExtensionManager]Uninstall"
 msgstr "Odinstalovat"
 
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
-msgstr "Vyjmout nástroj a odebrat jej z racku. Tato možnost je k diposzici pouze pokud žádná jiná stopa daný nástroj nepoužívá."
+msgid ""
+"[MusicTransformDialog]Unload instrument and remove it from the rack. This "
+"option is only available, if no other tracks are using the instrument."
+msgstr ""
+"Vyjmout nástroj a odebrat jej z racku. Tato možnost je k diposzici pouze "
+"pokud žádná jiná stopa daný nástroj nepoužívá."
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]Update"
@@ -5878,7 +6084,8 @@ msgstr ""
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use realtime processing to update mastering files"
-msgstr "Pro aktualizaci masteringových souborů použít zpracování v reálném čase"
+msgstr ""
+"Pro aktualizaci masteringových souborů použít zpracování v reálném čase"
 
 #: .\project\burn.xml
 msgid "[BurnerSelectDialog]Use temporary image file"
@@ -5895,10 +6102,6 @@ msgstr "Uživatel"
 #: .\ccl\common.xml
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "Umístění uživatelských dat (písní, projektů, přednastavení)"
-
-#: .\app\licenser.xml
-msgid "[CredentialsUIPrompt]Username"
-msgstr "Uživatelské jméno"
 
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
@@ -5958,6 +6161,10 @@ msgstr "Zobrazit"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
+msgstr ""
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Visibility"
 msgstr ""
 
 #: .\engine\songdialogs.xml
@@ -6025,7 +6232,9 @@ msgid "[SongMetaInfoOption]Website"
 msgstr "Webové stránky"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Welcome! To authorize this computer for the use of $APPNAME, please select your version and activate it below."
+msgid ""
+"[UserLicenseDialog.ActivationPage]Welcome! To authorize this computer for "
+"the use of $APPNAME, please select your version and activate it below."
 msgstr ""
 
 #: .\app\options.xml
@@ -6033,8 +6242,14 @@ msgid "[StartupOption]When $APPNAME starts"
 msgstr "Při startu $APPNAME"
 
 #: .\app\melodyne.xml
-msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."
-msgstr "S Melodyne můžete změnit výšku tónu, časování, hlasitost a další vlastnosti jednotlivých not vašeho zvukového materiálu. Od drobných intonačních korekcí, až po kompletní přepracování."
+msgid ""
+"[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, "
+"and other properties of single notes in your audio material, from tiny "
+"intonation correction up to complete reworking."
+msgstr ""
+"S Melodyne můžete změnit výšku tónu, časování, hlasitost a další vlastnosti "
+"jednotlivých not vašeho zvukového materiálu. Od drobných intonačních "
+"korekcí, až po kompletní přepracování."
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Write Tempo"
@@ -6077,16 +6292,28 @@ msgid "[EventListDialog]Yes"
 msgstr "Ano"
 
 #: .\ccl\common.xml
-msgid "[ContentLocationSelector]You can change this location later in the Preference window."
+msgid ""
+"[ContentLocationSelector]You can change this location later in the "
+"Preference window."
 msgstr "Toto umístění můžete změnit později v okně preferencí."
 
 #: .\app\licenser.xml
-msgid "[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME menu to install the additional content."
-msgstr "Pro instalaci rozšiřujícího obsahu můžete potom z menu $APPNAME zvolit instalaci $APPNAME. "
+msgid ""
+"[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME "
+"menu to install the additional content."
+msgstr ""
+"Pro instalaci rozšiřujícího obsahu můžete potom z menu $APPNAME zvolit "
+"instalaci $APPNAME. "
 
 #: .\app\licenser.xml
-msgid "[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using $APPNAME and made some great music. If you would like to purchase a copy of $APPNAME now, please visit our shop or a local dealer."
-msgstr "Vaše zkušební období skončilo. Doufáme, že jste si $APPNAME užili a vytvořili jste skvělou hudbu. Pokud si nyní přejete zakoupit $APPNAME, navštivte prosím náš virtuální obchod nebo místního prodejce."
+msgid ""
+"[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using "
+"$APPNAME and made some great music. If you would like to purchase a copy of "
+"$APPNAME now, please visit our shop or a local dealer."
+msgstr ""
+"Vaše zkušební období skončilo. Doufáme, že jste si $APPNAME užili a "
+"vytvořili jste skvělou hudbu. Pokud si nyní přejete zakoupit $APPNAME, "
+"navštivte prosím náš virtuální obchod nebo místního prodejce."
 
 #: .\app\homepage.xml
 msgid "[Setup]Zero Latency Monitoring"
@@ -6136,3 +6363,68 @@ msgstr "x"
 msgid "[DetailedInfoTable]x"
 msgstr "x"
 
+#~ msgid "[CredentialsUIPrompt]$APPNAME Security"
+#~ msgstr "Zabezpečení $APPNAME"
+
+#~ msgid "[AutomationMainContent]Automation Mode"
+#~ msgstr "Režim automatizace"
+
+#~ msgid "[InternalMutablePlainButton]Channel Mode"
+#~ msgstr "Režim kanálu"
+
+#~ msgid "[AudioInput.Channel]Clip / Peak Levels"
+#~ msgstr "Klip / Úrovně špiček"
+
+#~ msgid "[DeviceEditorTitleBar]Close"
+#~ msgstr "Zavřít"
+
+#~ msgid "[InternalMutablePlainButton]Group Tracks"
+#~ msgstr "Sloučit stopy do skupiny"
+
+#~ msgid "[DeviceEditorTitleBar]Keep Editor Open"
+#~ msgstr "Nechat editor otevřený"
+
+#~ msgid "[InternalTrackControlPlainButton]Monitor"
+#~ msgstr "Sledovat"
+
+#~ msgid "[InternalMutablePlainButton]Monitor"
+#~ msgstr "Sledovat"
+
+#~ msgid "[InternalTrackControlPlainButton]Mute"
+#~ msgstr "Umlčet"
+
+#~ msgid "[InternalMutablePlainButton]Mute"
+#~ msgstr "Umlčet"
+
+#~ msgid "[CredentialsUIPrompt]Password"
+#~ msgstr "Heslo"
+
+#~ msgid "[InternalTrackControlPlainButton]Record"
+#~ msgstr "Záznam"
+
+#~ msgid "[InternalMutablePlainButton]Record"
+#~ msgstr "Záznam"
+
+#~ msgid "[CredentialsUIPrompt]Remember my credentials"
+#~ msgstr "Pamatovat si mé kredity"
+
+#~ msgid "[InternalTrackControlPlainButton]Solo"
+#~ msgstr "Sólo"
+
+#~ msgid "[InternalMutablePlainButton]Solo"
+#~ msgstr "Sólo"
+
+#~ msgid "[InternalTrackControlPlainButton]Solo (Solo Save use Shift)"
+#~ msgstr "Sólo (pro ochranu sóla, použijte Shift)"
+
+#~ msgid "[InternalMutablePlainButton]Solo (Solo Save use Shift)"
+#~ msgstr "Sólo (pro ochranu sóla, použijte Shift)"
+
+#~ msgid "[CredentialsUIPrompt]Username"
+#~ msgstr "Uživatelské jméno"
+
+#~ msgid "[SendMicroViewSimpleSlider]@value[]"
+#~ msgstr "@value[]"
+
+#~ msgid "[SendMicroViewSimpleYellowSlider]@value[]"
+#~ msgstr "@value[]"

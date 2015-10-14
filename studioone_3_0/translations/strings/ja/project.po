@@ -105,11 +105,7 @@ msgid "[ProjectFunctions]Disable Tracks"
 msgstr "トラックを無効化"
 
 #: .\publish\ddpimagemaker.cpp
-msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
+msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
 msgstr "DDPイメージを作成しますか？\n\nイメージ: %(1)\nロケーション: %(2)"
 
 #: .\publish\audiodiscpublisher.cpp
@@ -172,6 +168,10 @@ msgstr "Index %(1)"
 msgid "[BurnerDialog]Initializing..."
 msgstr "初期化しています..."
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Insert"
+msgstr "挿入"
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
 msgstr "時間"
@@ -191,6 +191,10 @@ msgstr "DDPイメージを作成"
 #: .\publish\imagemaker.cpp
 msgid "[Command]Make Image"
 msgstr "イメージを作成"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Marker"
+msgstr "マーカー"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Mixdown Speed: %float(1:1)"
@@ -213,15 +217,11 @@ msgid "[BurnerDialog]No Device"
 msgstr "デバイスなし"
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
 msgstr "オーディオディスクには80分しか収録できないため、すべてのトラックをオーディオディスクに追加できませんでした。"
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
 msgstr "オーディオディスクには最大99トラックしか収録できないため、すべてのトラックをオーディオディスクに追加できませんでした。"
 
 #: .\publish\audiodiscpublisher.cpp
@@ -323,25 +323,11 @@ msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
 msgstr " %(1) 倍速でオーディオディスクの書き込みを開始"
 
 #: .\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
+msgid "[Project]The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
 msgstr "EANコードが正しくフォーマットされていません。\n\nコードは13文字で、数字のみで構成されています。\n\n例: 036000291452\n\nUPCがある場合、先頭に0を加えれば有効なEANコードになります。"
 
 #: .\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
-"\n"
-"Example: USPR37300012"
+msgid "[ProjectTrack]The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
 msgstr "ISRCコードが正しくフォーマットされていません。\r\n\r\nコードは12文字で、英数字のみで構成されています。\r\n\r\n例: USPR37300012"
 
 #: .\publish\burnerdialog.cpp
@@ -403,3 +389,4 @@ msgstr "更新はキャンセルされました。"
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(3) のマスタリングファイル %(2) つのうち %(1) つを更新しました。"
+

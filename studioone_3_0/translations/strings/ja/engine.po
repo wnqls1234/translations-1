@@ -1515,6 +1515,10 @@ msgstr "クリックしたイベントのみ"
 msgid "[VideoEdit]Only extract Audio"
 msgstr "オーディオのみを抽出"
 
+#: .\editing\arrangereditlayer.cpp
+msgid "[Command]Open Arrangertrack"
+msgstr "アレンジトラックを開く"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "マーカートラックを開く"
@@ -2513,8 +2517,8 @@ msgstr "ビデオサイズ ダブル"
 msgid "[Command]Video Size Half"
 msgstr "ビデオサイズ ハーフ"
 
-#: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
+#: .\editing\arrangereditlayer.cpp .\editing\trackeditor.cpp
+#: .\editing\tracklistcomponent.cpp .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "表示"
 
@@ -2581,14 +2585,4 @@ msgstr "%(1) 回使用"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) 回使用"
-
-#~ msgid "[ActionDescriptions]Duplicate Track with Options..."
-#~ msgstr "トラックをオプションと共に複製..."
-
-#~ msgid "[ActionDescriptions]Duplicate Tracks with Options..."
-#~ msgstr "トラックをオプションと共に複製..."
-
-#~ msgid "[Command]Duplicate with Options"
-#~ msgstr "オプションと共に複製"
-
 

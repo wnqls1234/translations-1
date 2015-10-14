@@ -44,6 +44,14 @@ msgstr "(Drücken Sie <Shift>, um das Ziel anzuhängen)"
 msgid "[MacroControlSetup](Press <Shift> to replace targets)"
 msgstr "(Drücken Sie <Shift>, um die Ziele zu ersetzen)"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V"
+msgstr "48V"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]48V Right"
+msgstr "48V rechts"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Ein Gerät mit diesem Namen ist bereits vorhanden."
@@ -313,6 +321,10 @@ msgstr "Einstellen..."
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Verbinde %(1) mit %(2) Makro-Steuerung"
 
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Connected to %(1)."
+msgstr "Verbunden mit %(1)."
+
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Console"
@@ -370,6 +382,10 @@ msgstr "Cue Mix Pan"
 msgid "[Command]Cursor follows Edit Position"
 msgstr "Cursor folgt Bearbeitungsposition"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]DAW Post DSP"
+msgstr "DAW nach DSP"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Beschreibung"
@@ -377,6 +393,10 @@ msgstr "Beschreibung"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Erkanntes Gerät %(1)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Device information for %(1) received."
+msgstr "Geräteinformation für %(1) erhalten."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -389,6 +409,10 @@ msgstr "Geräte"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
 msgstr "%(1) von %(2) entkoppeln Makro-Steuerung %(3)"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Disconnected from %(1)."
+msgstr "Verbindung zu %(1) getrennt."
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -521,6 +545,10 @@ msgstr "In"
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Input"
 msgstr "Eingang"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Input Controls"
+msgstr "Eingangsbedienelemente"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -779,6 +807,10 @@ msgstr "Nach oben schieben"
 msgid "[Command]Nudge Up Fine"
 msgstr "Nach oben schieben (fein)"
 
+#: .\hardware\remotefxfolder.cpp
+msgid "[Hardware]Onboard DSP"
+msgstr "Integrierter DSP"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
 msgstr "Kanal öffnen"
@@ -827,6 +859,14 @@ msgstr "Von Loopanfang abspielen"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "Bitte schließen Sie Ihre entfernbaren MIDI-Geräte an und schließen Sie danach diese Nachricht..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity"
+msgstr "Polarität"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Polarity Right"
+msgstr "Polarität rechts"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
 msgstr "Port"
@@ -838,6 +878,14 @@ msgstr "Port nicht gefunden!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Post Fader"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain"
+msgstr "Voverstärkung"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Hardware]Preamp Gain Right"
+msgstr "Voverstärkung rechts"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -858,6 +906,10 @@ msgstr "Vorheriger Kanal"
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Previous Scene"
 msgstr "Vorherige Szene"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]Querying device information for %(1)..."
+msgstr "Abfragen von Geräteinformationen zu %(1)..."
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"

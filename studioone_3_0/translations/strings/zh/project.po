@@ -105,16 +105,8 @@ msgid "[ProjectFunctions]Disable Tracks"
 msgstr "禁用音轨"
 
 #: .\publish\ddpimagemaker.cpp
-msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"是否创建一个DDP图像?\n"
-"\n"
-"图像: %(1)\n"
-"位置: %(2)"
+msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "是否创建一个DDP图像?\n\n图像: %(1)\n位置: %(2)"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -176,6 +168,10 @@ msgstr "Index %(1)"
 msgid "[BurnerDialog]Initializing..."
 msgstr "初始化..."
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Insert"
+msgstr "插入"
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
 msgstr "长度"
@@ -195,6 +191,10 @@ msgstr "制造DDP图像"
 #: .\publish\imagemaker.cpp
 msgid "[Command]Make Image"
 msgstr "制造图像"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Marker"
+msgstr "标记"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Mixdown Speed: %float(1:1)"
@@ -217,17 +217,12 @@ msgid "[BurnerDialog]No Device"
 msgstr "无设备"
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
 msgstr "并非所有音轨都可被添加至音频光碟，因为一张音频光碟最多只有80分钟."
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
-msgstr ""
-"并非所有音轨都可被添加至音频光碟，因为一张音频光碟最多只可以容纳99个音频."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
+msgstr "并非所有音轨都可被添加至音频光碟，因为一张音频光碟最多只可以容纳99个音频."
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
@@ -328,38 +323,12 @@ msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
 msgstr "在%(1) 时开始刻写DDP图像"
 
 #: .\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
-msgstr ""
-"EAN码并未被正确格式化.\n"
-"\n"
-"应为13个字节并只包含数字.\n"
-"\n"
-"例如: 036000291452\n"
-"\n"
-"如果你有一个UPC码，那么你只需在前面增加一个0 EAN 码."
+msgid "[Project]The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "EAN码并未被正确格式化.\n\n应为13个字节并只包含数字.\n\n例如: 036000291452\n\n如果你有一个UPC码，那么你只需在前面增加一个0 EAN 码."
 
 #: .\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"ISRC编码尚未正确格式化.\n"
-"\n"
-"应为12个字节且仅包含字母和数字.\n"
-"\n"
-"例如: USPR37300012"
+msgid "[ProjectTrack]The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "ISRC编码尚未正确格式化.\n\n应为12个字节且仅包含字母和数字.\n\n例如: USPR37300012"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"
@@ -420,3 +389,4 @@ msgstr "更新已取消."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "将%(1)-%(2)主线文件更新到%(3)."
+

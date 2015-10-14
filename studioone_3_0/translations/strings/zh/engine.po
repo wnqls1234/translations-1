@@ -1515,6 +1515,10 @@ msgstr "仅点击的事件"
 msgid "[VideoEdit]Only extract Audio"
 msgstr "仅提取音频"
 
+#: .\editing\arrangereditlayer.cpp
+msgid "[Command]Open Arrangertrack"
+msgstr "打开编曲跟踪"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "打开标记轨"
@@ -2513,8 +2517,8 @@ msgstr "视频双倍大小"
 msgid "[Command]Video Size Half"
 msgstr "视频一半大小"
 
-#: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
+#: .\editing\arrangereditlayer.cpp .\editing\trackeditor.cpp
+#: .\editing\tracklistcomponent.cpp .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "视图"
 
@@ -2581,13 +2585,4 @@ msgstr "已使用%(1)次"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "已使用%(1)次"
-
-#~ msgid "[ActionDescriptions]Duplicate Track with Options..."
-#~ msgstr "复制轨道及轨道选项..."
-
-#~ msgid "[ActionDescriptions]Duplicate Tracks with Options..."
-#~ msgstr "复制轨道及轨道选项..."
-
-#~ msgid "[Command]Duplicate with Options"
-#~ msgstr "连带选项一同复制"
 

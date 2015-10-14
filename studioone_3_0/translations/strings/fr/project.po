@@ -74,9 +74,7 @@ msgstr "Impossible de trouver un graveur de CD"
 
 #: .\project\projectcomponent.cpp
 msgid "[Project]Could not import file! The file format is unsupported."
-msgstr ""
-"Impossible d'importer le fichier! Le format de fichier n'est pas pris en "
-"charge."
+msgstr "Impossible d'importer le fichier! Le format de fichier n'est pas pris en charge."
 
 #: .\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]DDP image failed."
@@ -107,16 +105,8 @@ msgid "[ProjectFunctions]Disable Tracks"
 msgstr "Désactiver les pistes"
 
 #: .\publish\ddpimagemaker.cpp
-msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"Voulez-vous créer une image DDP?\n"
-"\n"
-"Image: %(1)\n"
-"Emplacement: %(2)"
+msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "Voulez-vous créer une image DDP?\n\nImage: %(1)\nEmplacement: %(2)"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -178,6 +168,10 @@ msgstr "Index %(1)"
 msgid "[BurnerDialog]Initializing..."
 msgstr "Initialisation..."
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Insert"
+msgstr "Insérer"
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
 msgstr "Durée"
@@ -197,6 +191,10 @@ msgstr "Faire une image DDP"
 #: .\publish\imagemaker.cpp
 msgid "[Command]Make Image"
 msgstr "Faire une image"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Marker"
+msgstr "Marqueur"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Mixdown Speed: %float(1:1)"
@@ -219,20 +217,12 @@ msgid "[BurnerDialog]No Device"
 msgstr "Pas de périphérique"
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
-msgstr ""
-"Toutes les pistes n'ont pas pu être ajoutées au disque audio car un disque "
-"audio n'a qu'une durée de 80 minutes."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
+msgstr "Toutes les pistes n'ont pas pu être ajoutées au disque audio car un disque audio n'a qu'une durée de 80 minutes."
 
 #: .\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
-msgstr ""
-"Toutes les pistes n'ont pas pu être ajoutées au disque audio car un disque "
-"audio ne peut contenir que 99 pistes."
+msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
+msgstr "Toutes les pistes n'ont pas pu être ajoutées au disque audio car un disque audio ne peut contenir que 99 pistes."
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
@@ -333,41 +323,12 @@ msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
 msgstr "Lancer l'écriture de l'image DDPà %(1) fois"
 
 #: .\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
-msgstr ""
-"Le code EAN n'est pas correctement formaté.\n"
-"\n"
-"Il doit avoir une longueur de 13 caractères et ne contenir que des "
-"caractères numériques.\n"
-"\n"
-"Exemple: 036000291452\n"
-"\n"
-"Si vous avez un UPC, il vous suffit d'ajouter 0 au début pour obtenir un "
-"code EAN valide."
+msgid "[Project]The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "Le code EAN n'est pas correctement formaté.\n\nIl doit avoir une longueur de 13 caractères et ne contenir que des caractères numériques.\n\nExemple: 036000291452\n\nSi vous avez un UPC, il vous suffit d'ajouter 0 au début pour obtenir un code EAN valide."
 
 #: .\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"Le code ISRC n'est pas correctement formaté.\n"
-"\n"
-"Il doit faire 12 caractères de longueur et ne contenir que des caractères "
-"alphanumériques.\n"
-"\n"
-"Exemple: USPR37300012"
+msgid "[ProjectTrack]The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "Le code ISRC n'est pas correctement formaté.\n\nIl doit faire 12 caractères de longueur et ne contenir que des caractères alphanumériques.\n\nExemple: USPR37300012"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"
@@ -428,3 +389,4 @@ msgstr "La mise à jour a été annulée."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(1) fichiers de mastering sur %(2) mis à jour dans %(3)."
+
