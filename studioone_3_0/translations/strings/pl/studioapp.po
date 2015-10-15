@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\projectdocument.cpp
 msgid "[FileType]$APPNAME Project"
@@ -166,7 +167,7 @@ msgstr "Instrumenty"
 
 #: .\studioapp.cpp
 msgid "[Installer]Legacy and Compatibility"
-msgstr "Kompatybilność"
+msgstr "Poprzednie wersje"
 
 #: .\studioapp.cpp
 msgid "[Installer]Loop Libraries"
@@ -354,7 +355,7 @@ msgstr "Sound Set \"%(1)\" jest wciąż w użyciu (%(2) otwartych plików)!"
 
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
-msgstr ""
+msgstr "Nie udało się zainstalować następujących sound setów lub zostały one kilkakrotnie instalowane na Twoim systemie. Może to być spowodowane niepełną operacją pobierania. Czy chcesz usunąć teraz te pliki?"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]%(1) File"
@@ -58,7 +59,7 @@ msgstr "Dodaj tag"
 
 #: .\browser\plugindraghander.cpp
 msgid "[PluginDraghandler]Add to Favorites"
-msgstr ""
+msgstr "Dodaj do ulubionych"
 
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Adding Tags..."
@@ -98,7 +99,7 @@ msgstr "Czy na pewno chcesz trwale usunąć ten element?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Are you sure you want to reset the plug-in browser to default?"
-msgstr ""
+msgstr "Czy chcesz przywrócić domyślne ustawienia przeglądarki wtyczek?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Are you sure you want to revert all changes?"
@@ -106,7 +107,7 @@ msgstr "Czy na pewno chcesz cofnąć wszystkie zmiany?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Are you sure you want to revert your last plug-in browser changes?"
-msgstr ""
+msgstr "Czy chcesz cofnąć ostatnie zmiany w przeglądarce wtyczek?"
 
 #: .\browser\browser.cpp
 msgid "[Command]Ascend Root"
@@ -270,7 +271,7 @@ msgstr "Usuń folder..."
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Delete Thumbnail"
-msgstr ""
+msgstr "Usuń miniaturę"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Delete Undo History"
@@ -370,11 +371,11 @@ msgstr "Czy chcesz usunąć z listy ostatnio otwieranych dokumentów odniesienia
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
-msgstr ""
+msgstr "Czy chcesz usunąć te foldery?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
-msgstr ""
+msgstr "Czy chcesz usunąć ten folder?"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -479,11 +480,11 @@ msgstr "Nie udało się wczytać motywu aplikacji!"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Favorite"
-msgstr "ulubione"
+msgstr "Ulubiony"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Favorites"
-msgstr ""
+msgstr "Ulubione"
 
 #: .\application.cpp .\documents\documentmanager.cpp
 msgid "[Command]File"
@@ -639,7 +640,7 @@ msgstr "Przenieś do \"%(1)\""
 
 #: .\browser\plugindraghander.cpp
 msgid "[PluginDraghandler]Move to Root"
-msgstr ""
+msgstr "Przenieś do folderu głównego"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving %(1)"
@@ -820,7 +821,7 @@ msgstr "Przeindeksuj zestawy"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Recent"
-msgstr ""
+msgstr "Ostatnie"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Recent File"
@@ -940,7 +941,7 @@ msgstr "Przywróć wersję"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Revert"
-msgstr "Przywróć poprzednią wersję"
+msgstr "Przywróć"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Revert"
@@ -1256,7 +1257,7 @@ msgstr "Widok"
 
 #: .\browser\pluginbrowser.cpp
 msgid "[Presets]Visible"
-msgstr ""
+msgstr "Widoczne"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Volumes"

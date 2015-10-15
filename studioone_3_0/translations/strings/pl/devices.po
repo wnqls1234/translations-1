@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]%(1) FPS"
@@ -46,11 +47,11 @@ msgstr "(Naciśnij <Shift> aby usunąć parametr)"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]48V"
-msgstr ""
+msgstr "48V"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]48V Right"
-msgstr ""
+msgstr "48V prawego kanału"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
@@ -323,7 +324,7 @@ msgstr "Połącz %(1) z kontrolką makro %(2)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Connected to %(1)."
-msgstr ""
+msgstr "Połączono z %(1)."
 
 #: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
 #: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
@@ -384,7 +385,7 @@ msgstr "Przenoś kursor do edytowanej pozycji"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]DAW Post DSP"
-msgstr ""
+msgstr "DAW Post DSP"
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
@@ -396,7 +397,7 @@ msgstr "Wykryte urządzenie %(1)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
-msgstr ""
+msgstr "Odebrano informacje o urządzeniu \\%(1)."
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
@@ -412,7 +413,7 @@ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Disconnected from %(1)."
-msgstr ""
+msgstr "Odłączono od %(1)."
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -548,7 +549,7 @@ msgstr "Wejście"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Input Controls"
-msgstr ""
+msgstr "Kontrolki wejścia"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -809,7 +810,7 @@ msgstr "Przesuń precyzyjnie w górę"
 
 #: .\hardware\remotefxfolder.cpp
 msgid "[Hardware]Onboard DSP"
-msgstr ""
+msgstr "Sprzętowy DSP"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Open Channel"
@@ -837,7 +838,7 @@ msgstr "Panorama"
 
 #: .\editor\paramselector.cpp
 msgid "[ParamSelector]Parameter"
-msgstr "Parametr"
+msgstr "Parametry"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Parameter %(1)"
@@ -861,11 +862,11 @@ msgstr "Podłącz urządzenia MIDI, a następnie zamknij ten komunikat..."
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity"
-msgstr ""
+msgstr "Polaryzacja"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity Right"
-msgstr ""
+msgstr "Polaryzacja prawego kanału"
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Port"
@@ -881,11 +882,11 @@ msgstr "Za tłumikiem"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain"
-msgstr ""
+msgstr "Wzmocnienie przedwzmacniacza"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain Right"
-msgstr ""
+msgstr "Wzmocnienie przedwzmacniacza prawego kanału"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Precount"
@@ -909,7 +910,7 @@ msgstr "Poprzednie scena"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Querying device information for %(1)..."
-msgstr ""
+msgstr "Zbieranie informacje o urządzeniu %(1)."
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
@@ -1221,7 +1222,7 @@ msgstr "Przełączanie na urządzenie audio %(1)..."
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"
-msgstr "Miejsce docelowe"
+msgstr "Przypisane parametry"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
@@ -1305,7 +1306,7 @@ msgstr "Touch"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Trans."
-msgstr "Trans."
+msgstr "Krzywa"
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Transmit value"
