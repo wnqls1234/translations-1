@@ -137,6 +137,10 @@ msgstr "Adicionar Envio (Send):"
 msgid "[ActionDescriptions]Add Track"
 msgstr "Adicionar Pista"
 
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add VCA Channel"
+msgstr "Adicionar Canal VCA"
+
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Add..."
 msgstr "Adicionar..."
@@ -164,6 +168,10 @@ msgstr "Armar"
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Arranger"
 msgstr "Arranjador"
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Assign Channel To Folder"
+msgstr "Atribuir Canal à Pasta"
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -200,6 +208,10 @@ msgstr "Partes de Áudio"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Processing"
 msgstr "Processamento de Áudio"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Audition"
+msgstr "Audição"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Automation"
@@ -986,8 +998,8 @@ msgstr "Inserir"
 msgid "[Command]Insert"
 msgstr "Inserir"
 
-#: .\editing\arrangereditlayer.cpp
-msgid "[Edit]Insert Arranger Section"
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Insert Arranger Section"
 msgstr "Inserir Seção do Arranjador"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
@@ -1166,6 +1178,10 @@ msgstr "Local"
 msgid "[AudioEditHandler]Logarithmic"
 msgstr "Logaritmico"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Loop"
+msgstr "Loop"
+
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Mix"
 msgstr "Gravação em Loop - Mixagem"
@@ -1230,6 +1246,14 @@ msgstr "Médio"
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
 msgstr "Unificar Eventos"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Merge VCA Automation"
+msgstr "Unificar Automação VCA"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[TrackEdit]Merge VCA Automation"
+msgstr "Unificar Automação VCA"
 
 #: .\application\audioedit\audioparttasks.cpp
 msgid "[AudioEdit]Merge to Audio Part"
@@ -1562,6 +1586,10 @@ msgstr "Percentual"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Percentual"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Play"
+msgstr "Reproduzir"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
@@ -1984,6 +2012,10 @@ msgstr "Selecionar Eventos na Seção"
 msgid "[Command]Select Events in Section"
 msgstr "Selecionar Eventos na Seção"
 
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Select Layer Content"
+msgstr "Selecionar Conteúdo da Camada"
+
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "Selecionar Cena 1"
@@ -2011,6 +2043,14 @@ msgstr "Selecionar Take"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select a search folder."
 msgstr "Selecionar uma pasta de pesquisa."
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "Selecionar do Evento ao Fim"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "Selecionar do Início ao Evento"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select on Track"
@@ -2138,7 +2178,7 @@ msgstr "Imã para Pontos chave de Eventos"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "Snap (imã) nos Eventos"
 
-#: .\editing\tracklistcomponent.cpp
+#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "Solo"
 
@@ -2231,6 +2271,10 @@ msgstr "Gravação Passo-a-Passo"
 msgid "[Marker]Stop"
 msgstr "Parar"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Stop"
+msgstr "Parar"
+
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
 msgstr "Remover Silêncio"
@@ -2238,6 +2282,10 @@ msgstr "Remover Silêncio"
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
 msgstr "Remover Silêncio"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Sync tempo"
+msgstr "Sincronismo de Andamento"
 
 #: .\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."

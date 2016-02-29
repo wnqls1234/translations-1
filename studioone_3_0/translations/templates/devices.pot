@@ -130,6 +130,10 @@ msgstr ""
 msgid "[AudioClick]Add Sound..."
 msgstr ""
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add VCA Channel"
+msgstr ""
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr ""
@@ -144,14 +148,6 @@ msgstr ""
 
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
-msgstr ""
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
-msgstr ""
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
 msgstr ""
 
 #: .\macrocontrol\macrocontrolsetup.cpp
@@ -382,6 +378,10 @@ msgstr ""
 msgid "[Hardware]DAW Post DSP"
 msgstr ""
 
+#: .\editor\processgrapheditor.cpp
+msgid "[Command]Delete"
+msgstr ""
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr ""
@@ -415,6 +415,7 @@ msgstr ""
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr ""
 
+#: .\editor\processgrapheditor.cpp
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Edit"
 msgstr ""
@@ -447,6 +448,14 @@ msgstr ""
 msgid "[Channels]Effects"
 msgstr ""
 
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Enable Play Start Marker"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Enable Play Start Marker"
+msgstr ""
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr ""
@@ -461,6 +470,10 @@ msgstr ""
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
+msgstr ""
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Favorite"
 msgstr ""
 
 #: .\surfaces\editor\editcomponent.cpp
@@ -662,6 +675,10 @@ msgstr ""
 
 #: .\audiomixer\audioclick.cpp
 msgid "[FileType]Metronome Preset"
+msgstr ""
+
+#: .\audiomixer\audiomixfxcomponent.cpp
+msgid "[Devices]Mix FX"
 msgstr ""
 
 #: .\base\devicefolder.cpp
@@ -989,6 +1006,14 @@ msgstr ""
 msgid "[Command]Remove Channel"
 msgstr ""
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channel"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channels"
+msgstr ""
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr ""
@@ -1038,6 +1063,10 @@ msgid "[Devices]Reset requested by Audio Device!"
 msgstr ""
 
 #: .\transport\transportpanel.cpp
+msgid "[Transport]Return to Start on Stop"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr ""
 
@@ -1063,6 +1092,10 @@ msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
+msgstr ""
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Select Mix FX"
 msgstr ""
 
 #: .\mixerconsole\channelfilter.cpp
@@ -1099,6 +1132,10 @@ msgstr ""
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Set Play Start Marker"
 msgstr ""
 
 #: .\music\musicdevicemanager.cpp
@@ -1331,6 +1368,10 @@ msgstr ""
 msgid "[Studio]Used by"
 msgstr ""
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]VCA"
+msgstr ""
+
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr ""
@@ -1341,6 +1382,10 @@ msgstr ""
 
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
+msgstr ""
+
+#: .\audiomixer\channels\audiovcachannel.cpp
+msgid "[AudioVCAChannel]Volume"
 msgstr ""
 
 #: .\base\automationunit.cpp

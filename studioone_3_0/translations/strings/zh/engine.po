@@ -137,6 +137,10 @@ msgstr "添加发送:"
 msgid "[ActionDescriptions]Add Track"
 msgstr "添加音轨"
 
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add VCA Channel"
+msgstr "增加VCA音轨"
+
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Add..."
 msgstr "添加..."
@@ -164,6 +168,10 @@ msgstr "支杆"
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Arranger"
 msgstr "作曲家"
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Assign Channel To Folder"
+msgstr "将音轨指派给文件夹"
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -200,6 +208,10 @@ msgstr "音频部分"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Processing"
 msgstr "音频进行中"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Audition"
+msgstr "试听"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Automation"
@@ -986,8 +998,8 @@ msgstr "插入"
 msgid "[Command]Insert"
 msgstr "插入"
 
-#: .\editing\arrangereditlayer.cpp
-msgid "[Edit]Insert Arranger Section"
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Insert Arranger Section"
 msgstr "插入编曲章节"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
@@ -1166,6 +1178,10 @@ msgstr "位置"
 msgid "[AudioEditHandler]Logarithmic"
 msgstr "对数"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Loop"
+msgstr "循环"
+
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Mix"
 msgstr "循环录音混合"
@@ -1230,6 +1246,14 @@ msgstr "中等"
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
 msgstr "整合事件"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Merge VCA Automation"
+msgstr "合并VCA自动化"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[TrackEdit]Merge VCA Automation"
+msgstr "合并VCA自动化"
 
 #: .\application\audioedit\audioparttasks.cpp
 msgid "[AudioEdit]Merge to Audio Part"
@@ -1562,6 +1586,10 @@ msgstr "百分比"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "百分比"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Play"
+msgstr "播放"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
@@ -1984,6 +2012,10 @@ msgstr "在章节中选择事件"
 msgid "[Command]Select Events in Section"
 msgstr "在章节中选择事件"
 
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Select Layer Content"
+msgstr "选择图层内容"
+
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "选择场景 1"
@@ -2011,6 +2043,14 @@ msgstr "选择音块"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select a search folder."
 msgstr "选择搜索文件夹."
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "选择从Event至结束"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "选择从开始至Event"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select on Track"
@@ -2138,7 +2178,7 @@ msgstr "对齐至事件热点"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "对齐至事件"
 
-#: .\editing\tracklistcomponent.cpp
+#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "独奏"
 
@@ -2231,6 +2271,10 @@ msgstr "步骤记录"
 msgid "[Marker]Stop"
 msgstr "停止"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Stop"
+msgstr "停止"
+
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
 msgstr "消除无声"
@@ -2238,6 +2282,10 @@ msgstr "消除无声"
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
 msgstr "消除无声"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Sync tempo"
+msgstr "同步节奏"
 
 #: .\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."

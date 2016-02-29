@@ -154,6 +154,15 @@ msgstr "編集"
 msgid "[TimeRulerView]Edit Time Signature"
 msgstr "拍子を編集"
 
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Enable Play Start Marker"
+msgstr "再生スタートマーカーを有効化"
+
+#: .\envelopes\envelopeedithandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp
+msgid "[Events]Fine"
+msgstr "ファイン"
+
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]First Event"
 msgstr "最初のイベント"
@@ -247,6 +256,14 @@ msgid "[TimeRulerView]Loop Active"
 msgstr "ループ有効"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Edit]Loop Follows Selection"
+msgstr "選択したトラックでループを有効"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Loop Follows Selection"
+msgstr "選択したトラックでループを有効"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Command]Loop Selection"
 msgstr "選択をループ"
 
@@ -285,6 +302,10 @@ msgstr "移動"
 #: .\base\timerulerview.cpp
 msgid "[TimeRulerView]Move Loop Range"
 msgstr "ループ範囲を移動"
+
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Move Play Start Marker"
+msgstr "再生スタートマーカーを移動"
 
 #: .\envelopes\envelopedraghandler.cpp
 msgid "[Envelopes]Move Points"
@@ -342,7 +363,7 @@ msgstr "名前"
 msgid "[MusicalScale]Natural Minor"
 msgstr "ナチュラルマイナー"
 
-#: .\events\eventeditcomponent.cpp
+#: .\base\timeeditcomponent.cpp .\events\eventeditcomponent.cpp
 msgid "[Command]Navigation"
 msgstr "ナビゲーション"
 
@@ -353,6 +374,10 @@ msgstr "次のイベント"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Next Event Extend"
 msgstr "次のイベント拡張"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Next Hotspot"
+msgstr "次のホットスポット"
 
 #: .\music\musiceditcomponent.cpp
 msgid "[MusicEditComponent]Note Length"
@@ -429,6 +454,10 @@ msgstr "前のイベント"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Previous Event Extend"
 msgstr "前のイベント拡張"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Previous Hotspot"
+msgstr "前のホットスポット"
 
 #: .\base\timesnapper.cpp
 msgid "[TimeSnapper]Quantize"
@@ -607,6 +636,10 @@ msgid "[Edit]Snap to Cursor & Loop"
 msgstr "カーソルとループにスナップ"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Command]Split"
+msgstr "分割"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
 msgstr "カーソル位置で分割"
 
@@ -674,6 +707,10 @@ msgstr "ノートを転送"
 msgid "[Events]Transform Automation"
 msgstr "オートメーションを変形"
 
+#: .\envelopes\envelopeeditlayer.cpp
+msgid "[Command]Transform Range"
+msgstr "範囲を変換"
+
 #: .\base\timeeditcomponent.cpp
 msgid "[Command]Transport"
 msgstr "トランスポート"
@@ -685,6 +722,10 @@ msgstr "3連符"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
 msgstr "ズームを取り消す"
+
+#: .\envelopes\envelopeedithandler.cpp
+msgid "[Events]Unlock Values / Time"
+msgstr "値/時間のロックを解除"
 
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Values Locked"
@@ -733,5 +774,4 @@ msgstr "選択へズーム"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
-
 

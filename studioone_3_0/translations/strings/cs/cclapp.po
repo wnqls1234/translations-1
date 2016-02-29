@@ -197,7 +197,7 @@ msgstr "Kontextová nápověda"
 msgid "[FileDraghandler]Copy"
 msgstr "Kopírovat"
 
-#: .\editing\editor.cpp
+#: .\editing\editor.cpp .\etc\batchoperation.cpp
 msgid "[Edit]Copy"
 msgstr "Kopírovat"
 
@@ -509,6 +509,10 @@ msgstr "Soubor"
 #: .\etc\batchoperation.cpp
 msgid "[FileOperations]File %(1) of %(2)"
 msgstr "Soubor %(1) z %(2)"
+
+#: .\fileinfo\filepreviewcomponent.cpp
+msgid "[FileInfo]File information"
+msgstr ""
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Flat"

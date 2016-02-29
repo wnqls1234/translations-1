@@ -154,6 +154,15 @@ msgstr "Editar"
 msgid "[TimeRulerView]Edit Time Signature"
 msgstr "Editar compás"
 
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Enable Play Start Marker"
+msgstr "Habilitar marcado de inicio de reproducción"
+
+#: .\envelopes\envelopeedithandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp
+msgid "[Events]Fine"
+msgstr "Fino"
+
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]First Event"
 msgstr "Primer evento"
@@ -247,6 +256,14 @@ msgid "[TimeRulerView]Loop Active"
 msgstr "Loop activo"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Edit]Loop Follows Selection"
+msgstr "Loop sigue a la selección"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Loop Follows Selection"
+msgstr "Loop sigue a la selección"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Command]Loop Selection"
 msgstr "Selección de loop"
 
@@ -285,6 +302,10 @@ msgstr "Mover"
 #: .\base\timerulerview.cpp
 msgid "[TimeRulerView]Move Loop Range"
 msgstr "Mover rango de loop"
+
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Move Play Start Marker"
+msgstr "Mover marcador de inicio de reproducción"
 
 #: .\envelopes\envelopedraghandler.cpp
 msgid "[Envelopes]Move Points"
@@ -342,7 +363,7 @@ msgstr "Nombre"
 msgid "[MusicalScale]Natural Minor"
 msgstr "Menor natural"
 
-#: .\events\eventeditcomponent.cpp
+#: .\base\timeeditcomponent.cpp .\events\eventeditcomponent.cpp
 msgid "[Command]Navigation"
 msgstr "Navegación"
 
@@ -353,6 +374,10 @@ msgstr "Siguiente evento"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Next Event Extend"
 msgstr "Extender siguiente evento"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Next Hotspot"
+msgstr "Siguiente Hotspot"
 
 #: .\music\musiceditcomponent.cpp
 msgid "[MusicEditComponent]Note Length"
@@ -429,6 +454,10 @@ msgstr "Evento anterior"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Previous Event Extend"
 msgstr "Extender evento anterior"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Previous Hotspot"
+msgstr "Hotspot anterior "
 
 #: .\base\timesnapper.cpp
 msgid "[TimeSnapper]Quantize"
@@ -607,6 +636,10 @@ msgid "[Edit]Snap to Cursor & Loop"
 msgstr "Snap a Cursor & Loop"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Command]Split"
+msgstr "Dividir"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
 msgstr "Dividir en el cursor"
 
@@ -674,6 +707,10 @@ msgstr "Transferir notas"
 msgid "[Events]Transform Automation"
 msgstr "Transformar automatización"
 
+#: .\envelopes\envelopeeditlayer.cpp
+msgid "[Command]Transform Range"
+msgstr "Transformar rango"
+
 #: .\base\timeeditcomponent.cpp
 msgid "[Command]Transport"
 msgstr "Transporte"
@@ -685,6 +722,10 @@ msgstr "Tresillo"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
 msgstr "Deshacer Zoom"
+
+#: .\envelopes\envelopeedithandler.cpp
+msgid "[Events]Unlock Values / Time"
+msgstr "Desbloquear Valores / Tiempo"
 
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Values Locked"

@@ -192,7 +192,7 @@ msgstr "Aide contextuelle"
 msgid "[FileDraghandler]Copy"
 msgstr "Copier"
 
-#: .\editing\editor.cpp
+#: .\editing\editor.cpp .\etc\batchoperation.cpp
 msgid "[Edit]Copy"
 msgstr "Copier"
 
@@ -492,6 +492,10 @@ msgstr "Fichier"
 #: .\etc\batchoperation.cpp
 msgid "[FileOperations]File %(1) of %(2)"
 msgstr "Fichier %(1) sur %(2)"
+
+#: .\fileinfo\filepreviewcomponent.cpp
+msgid "[FileInfo]File information"
+msgstr "Informations sur le fichier"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Flat"

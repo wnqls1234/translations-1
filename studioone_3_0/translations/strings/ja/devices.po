@@ -136,6 +136,10 @@ msgstr "センドを追加:"
 msgid "[AudioClick]Add Sound..."
 msgstr "サウンドを追加..."
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add VCA Channel"
+msgstr "VCAチャンネルを追加"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "すべて"
@@ -151,14 +155,6 @@ msgstr "オールノートオフ"
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "無効な信号が生じました。"
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
-msgstr "これらのチャンネルをゴミ箱に移動しますか？"
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
-msgstr "このチャンネルをゴミ箱に移動しますか？"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -386,6 +382,10 @@ msgstr "カーソルは編集位置に追従"
 msgid "[Hardware]DAW Post DSP"
 msgstr "DAWポストDSP"
 
+#: .\editor\processgrapheditor.cpp
+msgid "[Command]Delete"
+msgstr "削除"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "説明"
@@ -418,7 +418,7 @@ msgstr "%(1) への接続を解除しました。"
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "ダブル（64ビット）"
 
-#: .\mixerconsole\mixerconsole.cpp
+#: .\editor\processgrapheditor.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Edit"
 msgstr "編集"
 
@@ -450,6 +450,14 @@ msgstr "編集..."
 msgid "[Channels]Effects"
 msgstr "エフェクト"
 
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Enable Play Start Marker"
+msgstr "再生スタートマーカーを有効化"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Enable Play Start Marker"
+msgstr "再生スタートマーカーを有効化"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr "展開"
@@ -465,6 +473,10 @@ msgstr "FX"
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
 msgstr "フェーダー"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Favorite"
+msgstr "お気に入り"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
@@ -666,6 +678,10 @@ msgstr "メッセージ"
 #: .\audiomixer\audioclick.cpp
 msgid "[FileType]Metronome Preset"
 msgstr "メトロノームプリセット"
+
+#: .\audiomixer\audiomixfxcomponent.cpp
+msgid "[Devices]Mix FX"
+msgstr "ミックスFX"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
@@ -991,6 +1007,14 @@ msgstr "すべてを削除"
 msgid "[Command]Remove Channel"
 msgstr "チャンネルを削除"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channel"
+msgstr "チャンネルを削除"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channels"
+msgstr "チャンネルを削除"
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr "現在のパラメーターを削除"
@@ -1040,6 +1064,10 @@ msgid "[Devices]Reset requested by Audio Device!"
 msgstr "リセットがオーディオデバイスにより要求されました。"
 
 #: .\transport\transportpanel.cpp
+msgid "[Transport]Return to Start on Stop"
+msgstr "停止時にスタートに戻る"
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr "停止時にスタートに戻る"
 
@@ -1066,6 +1094,10 @@ msgstr "デバイスを保存中: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "画面"
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Select Mix FX"
+msgstr "ミックスFXを選択"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
@@ -1102,6 +1134,10 @@ msgstr "センドパン"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "送信先"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Set Play Start Marker"
+msgstr "再生スタートマーカーを設定"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1332,6 +1368,10 @@ msgstr "外部MIDIインストゥルメントの再生とコントローラー�
 msgid "[Studio]Used by"
 msgstr "使用元"
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]VCA"
+msgstr "VCA"
+
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr "ビデオプレイヤー"
@@ -1342,6 +1382,10 @@ msgstr "表示"
 
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
+msgstr "ボリューム"
+
+#: .\audiomixer\channels\audiovcachannel.cpp
+msgid "[AudioVCAChannel]Volume"
 msgstr "ボリューム"
 
 #: .\base\automationunit.cpp

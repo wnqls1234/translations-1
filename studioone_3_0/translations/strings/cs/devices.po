@@ -138,6 +138,10 @@ msgstr "Přidat Send:"
 msgid "[AudioClick]Add Sound..."
 msgstr ""
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add VCA Channel"
+msgstr ""
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Všechny"
@@ -153,16 +157,6 @@ msgstr ""
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Vyksytl se neplatý signál."
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
-msgstr "Opravdu chcete přesunout tyto kanály do koše?"
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid ""
-"[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
-msgstr "Opravdu si přejete přesunout tyto kanály do koše?"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -391,6 +385,10 @@ msgstr "Kurzor následuje místo úprav"
 msgid "[Hardware]DAW Post DSP"
 msgstr ""
 
+#: .\editor\processgrapheditor.cpp
+msgid "[Command]Delete"
+msgstr ""
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Popis"
@@ -423,7 +421,7 @@ msgstr ""
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Dvojnásobné (64 Bit)"
 
-#: .\mixerconsole\mixerconsole.cpp
+#: .\editor\processgrapheditor.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Edit"
 msgstr "Upravit"
 
@@ -455,6 +453,14 @@ msgstr "Upravit..."
 msgid "[Channels]Effects"
 msgstr "Efekty"
 
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Enable Play Start Marker"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Enable Play Start Marker"
+msgstr ""
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr "Rozbalit"
@@ -470,6 +476,10 @@ msgstr "Efekt"
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
 msgstr "Fader"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Favorite"
+msgstr ""
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
@@ -679,6 +689,10 @@ msgstr "Událost"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[FileType]Metronome Preset"
+msgstr ""
+
+#: .\audiomixer\audiomixfxcomponent.cpp
+msgid "[Devices]Mix FX"
 msgstr ""
 
 #: .\base\devicefolder.cpp
@@ -1017,6 +1031,14 @@ msgstr "Odstranit vše"
 msgid "[Command]Remove Channel"
 msgstr "Odstranit vše"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channel"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channels"
+msgstr ""
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr "Odstranit stávající parametr"
@@ -1066,6 +1088,10 @@ msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Zvukové zařízení vyžaduje reset!"
 
 #: .\transport\transportpanel.cpp
+msgid "[Transport]Return to Start on Stop"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr "Při zastavení vrátit na začátek"
 
@@ -1092,6 +1118,10 @@ msgstr "Ukládání zařízení: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Obrazovka"
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Select Mix FX"
+msgstr ""
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
@@ -1128,6 +1158,10 @@ msgstr "Stereopozice Sendu"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Vysílat do"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Set Play Start Marker"
+msgstr ""
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1386,6 +1420,10 @@ msgstr ""
 msgid "[Studio]Used by"
 msgstr "Používáno"
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]VCA"
+msgstr ""
+
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr "Video přehrávač"
@@ -1397,6 +1435,10 @@ msgstr "Zobrazit"
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
 msgstr "Hlasitost"
+
+#: .\audiomixer\channels\audiovcachannel.cpp
+msgid "[AudioVCAChannel]Volume"
+msgstr ""
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Write"
@@ -1413,3 +1455,12 @@ msgstr ""
 "které dosud nebylo připojeno.\n"
 "\n"
 "Přejete si nyní připojit toto externí zařízení?"
+
+#~ msgid ""
+#~ "[MixerConsole]Are you sure you want to move these channels to the Trash "
+#~ "Bin?"
+#~ msgstr "Opravdu chcete přesunout tyto kanály do koše?"
+
+#~ msgid ""
+#~ "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+#~ msgstr "Opravdu si přejete přesunout tyto kanály do koše?"

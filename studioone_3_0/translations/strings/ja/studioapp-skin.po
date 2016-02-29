@@ -137,6 +137,10 @@ msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$title"
+msgstr "$title"
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewSmallToggle]$title"
 msgstr "$title"
 
@@ -157,11 +161,15 @@ msgid "[QuantizeSetup.Option]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]$tooltip"
+msgid "[MicroViewSliderSizeVariant]$tooltip"
 msgstr "$tooltip"
 
 #: .\app\microviews.xml
 msgid "[MutableMicroViewToggle]$tooltip"
+msgstr "$tooltip"
+
+#: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$tooltip"
 msgstr "$tooltip"
 
 #: .\app\microviews.xml
@@ -616,6 +624,10 @@ msgstr "@cmd.title[]"
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr "@cmd.title[]"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]@cmd.title[]"
+msgstr "@cmd.title[]"
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[]"
 msgstr "@cmd.title[]"
@@ -653,7 +665,7 @@ msgid "[AudioTrack.Small.Narrow]@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]@property[parent.controller.editGroup]"
+msgid "[AudioTrack.Channel]@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: .\engine\inspector.xml
@@ -669,7 +681,7 @@ msgid "[GenericMicroViewSlider]@value[]"
 msgstr "@value[]"
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]@value[]"
+msgid "[MicroViewSliderSizeVariant]@value[]"
 msgstr "@value[]"
 
 #: .\devices\audiochannel.xml
@@ -745,6 +757,10 @@ msgid "[PurchaseHandler]Activate"
 msgstr "アクティベート"
 
 #: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Activate"
+msgstr "アクティベート"
+
+#: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "アクティベート"
 
@@ -794,6 +810,10 @@ msgstr "$APPNAMEFREE をアクティベート"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Activate All"
+msgstr "すべてをアクティベート"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Activate All"
 msgstr "すべてをアクティベート"
 
 #: .\devices\audiochannel.xml
@@ -862,6 +882,10 @@ msgstr "外部デバイスを追加"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Add Insert"
+msgstr "インサートを追加"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Add Insert"
 msgstr "インサートを追加"
 
 #: .\devices\audiochannel.xml
@@ -1184,6 +1208,10 @@ msgstr "すべてのタッチパラメーターのエンベローブを自動追
 msgid "[EditorToolBar]Automatically apply Quantize to selected notes"
 msgstr "選択されているノートにクオンタイズを自動適用"
 
+#: .\app\options.xml
+msgid "[AutomationOption]Automatically create automation tracks for channels"
+msgstr "チャンネルのオートメーショントラックを自動作成"
+
 #: .\engine\automation.xml
 msgid "[MusicEnvelopeDialog]Automation"
 msgstr "オートメーション"
@@ -1396,10 +1424,6 @@ msgstr "書き込み"
 msgid "[BurnerSelectDialog]Burn Audio CD"
 msgstr "オーディオCDを書き込み"
 
-#: .\engine\inspector.xml
-msgid "[FolderTrackInspector]Bus"
-msgstr "バス"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Busses"
 msgstr "バス"
@@ -1472,6 +1496,10 @@ msgstr "詳細設定を変更すると $APPNAME が正しく機能しなくな�
 msgid "[MusicTrackInspector]Channel"
 msgstr "チャンネル"
 
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel"
+msgstr "チャンネル"
+
 #: .\app\shared.xml
 msgid "[MutablePlainButton]Channel Editor"
 msgstr "チャンネルエディター"
@@ -1482,10 +1510,6 @@ msgstr "チャンネルエディター"
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Channel Editor"
-msgstr "チャンネルエディター"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Channel Editor"
 msgstr "チャンネルエディター"
 
 #: .\engine\trackcontrols.xml
@@ -1505,12 +1529,24 @@ msgid "[MutablePlainButton]Channel Mode"
 msgstr "チャンネルモード"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Channel Mode"
+msgid "[AudioGroup.Channel]Channel Mode"
 msgstr "チャンネルモード"
 
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
 msgstr "チャンネルモード"
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Channel Number"
+msgstr "チャンネル番号"
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Channel Number"
+msgstr "チャンネル番号"
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel Number"
+msgstr "チャンネル番号"
 
 #: .\engine\trackcontrols.xml
 msgid "[AutomationMainContent]Channel Number"
@@ -1617,7 +1653,7 @@ msgid "[HoldAndClip]Clip"
 msgstr "クリップ"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioChannel.Small.Narrow.Basics]Clip"
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "クリップ"
 
 #: .\engine\trackcontrols.xml
@@ -1645,7 +1681,7 @@ msgid "[AudioOutput.Channel.Content]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Clip / Peak Levels"
+msgid "[ChannelMeterDisplay]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
 
 #: .\app\shared.xml
@@ -1828,6 +1864,10 @@ msgstr "コピー"
 msgid "[MacroTargetCurve]Copy"
 msgstr "コピー"
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Copy Ranges to Track"
+msgstr "範囲をトラックにコピー"
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Copy to Clipboard"
 msgstr "クリップボードにコピー"
@@ -1889,7 +1929,7 @@ msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr "キュー"
 
 #: .\devices\audiochannel.xml
-msgid "[CueMixStackAudioEffect]Cue mix"
+msgid "[CueMixStack]Cue mix"
 msgstr "キューミックス"
 
 #: .\devices\audiochannel.xml
@@ -2037,11 +2077,7 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "デバイス"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsFirstRow]Device"
-msgstr "デバイス"
-
-#: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsContent]Device"
+msgid "[AutomationMainContent]Device"
 msgstr "デバイス"
 
 #: .\project\burn.xml
@@ -2148,12 +2184,20 @@ msgstr "ダブルクリック: 名前を編集、押し続ける: チャンネ�
 msgid "[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "ダブルクリック: 名前を編集、押し続ける: チャンネル色を選択"
 
+#: .\engine\inspector.xml
+msgid "[ChannelLabelBig]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr "ダブルクリック: 名前を編集、押し続ける: チャンネル色を選択"
+
 #: .\engine\mediapool.xml
 msgid "[WebFileInfo]Download"
 msgstr "ダウンロード"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Drag FX Chain from here"
+msgstr "FXチェーンをここからドラッグ"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Drag FX Chain from here"
 msgstr "FXチェーンをここからドラッグ"
 
 #: .\devices\audiochannel.xml
@@ -2392,6 +2436,10 @@ msgstr "レコードミックスモードのノートを消去 @cmd[Record Mode|
 msgid "[VideoPlayer]Error Loading Movie"
 msgstr "ムービーの読み込みエラー"
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Event"
+msgstr "イベント"
+
 #: .\app\options.xml
 msgid "[EditingOption]Event Appearance"
 msgstr "イベントアピアランス"
@@ -2444,10 +2492,6 @@ msgstr "展開"
 msgid "[Audio.Channel.Basics.Content]Expand"
 msgstr "展開"
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Expand"
-msgstr "展開"
-
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControls]Expand Envelopes"
 msgstr "エンベロープを展開"
@@ -2457,8 +2501,20 @@ msgid "[MusicTrackControls]Expand Envelopes"
 msgstr "エンベロープを展開"
 
 #: .\engine\trackcontrols.xml
+msgid "[FolderTrackControls]Expand Envelopes"
+msgstr "エンベロープを展開"
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationTrackControls]Expand Envelopes"
 msgstr "エンベロープを展開"
+
+#: .\engine\trackcontrols.xml
+msgid "[AudioTrackControls]Expand Layers"
+msgstr "レイヤーを展開"
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControls]Expand Layers"
+msgstr "レイヤーを展開"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -2920,6 +2976,10 @@ msgstr "テンポ変更を挿入"
 msgid "[AudioInserts]Inserts"
 msgstr "ｲﾝｻｰﾄ"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Inserts"
+msgstr "インサート"
+
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Inserts"
 msgstr "インサート"
@@ -2927,6 +2987,14 @@ msgstr "インサート"
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Inserts"
 msgstr "インサート"
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Mix FX Source"
+msgstr "インサート  |  ミックスFXソース"
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Sends  |  Mix FX Source"
+msgstr "センド  |  ミックスFXソース"
 
 #: .\app\windowclasses.xml
 msgid "[Command]Inspector"
@@ -3002,6 +3070,10 @@ msgstr "インストゥルメントエディター"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioSynthBus.Small.Narrow]Instrument Editor"
+msgstr "インストゥルメントエディター"
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics.Content]Instrument Editor"
 msgstr "インストゥルメントエディター"
 
 #: .\devices\audiochannel.small.xml
@@ -3129,6 +3201,10 @@ msgid "[ChannelOrganizerSetup]Keep FX channels to the right"
 msgstr "FXチャンネルを右に固定"
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Keep VCA channels to the right"
+msgstr "VCAチャンネルを右に固定"
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Keep bus channels to the right"
 msgstr "バスチャンネルを右に固定"
 
@@ -3223,6 +3299,10 @@ msgstr "フォルダートラックの展開/折りたたみを表示/非表示�
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
 msgstr "トラックリストとコンソールの表示/非表示をリンク"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioFXRackSlotView]Link to DSP"
+msgstr "DSPにリンク"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Link to DSP"
@@ -3504,6 +3584,26 @@ msgstr "行方不明のデバイス"
 msgid "[TransportPanel]Mix"
 msgstr "ミックス"
 
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Mix FX"
+msgstr "ミックスFX"
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Mix FX"
+msgstr "ミックスFX"
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Mix FX Source"
+msgstr "ミックスFX  |  インサート  |  ミックスFXソース"
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Sends  |  Mix FX Source"
+msgstr "ミックスFX  |  インサート  |  センド  |  ミックスFXソース"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mix FX  |  Inserts  | Post Fader Inserts"
+msgstr "ミックスFX  |  インサート  |  ポストフェーダーインサート"
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Mode"
 msgstr "モード"
@@ -3522,10 +3622,6 @@ msgstr "モニター"
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
-msgstr "モニター"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Monitor"
 msgstr "モニター"
 
 #: .\app\melodyne.xml
@@ -3566,10 +3662,6 @@ msgstr "ミュート"
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Mute"
-msgstr "ミュート"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Mute"
 msgstr "ミュート"
 
 #: .\engine\editor.xml
@@ -3901,7 +3993,7 @@ msgid "[AudioChannel.Small.Narrow.Basics]Pan: @value[]"
 msgstr "パン: @value[]"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Pan: @value[]"
+msgid "[Audio.Channel.Basics.Content]Pan: @value[]"
 msgstr "パン: @value[]"
 
 #: .\engine\inspector.xml
@@ -4133,8 +4225,8 @@ msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "リアルタイム状態を維持"
 
 #: .\devices\audiomixer.xml
-msgid "[ChannelOrganizerSetup]Preserve order of busses with folder track"
-msgstr "フォルダートラックのあるバスの並び順を維持"
+msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
+msgstr "フォルダートラックのあるチャンネルの並び順を維持"
 
 #: .\ccl\browser.xml .\devices\audiofxeditor.xml
 msgid "[Command]Presets"
@@ -4344,6 +4436,10 @@ msgstr "範囲"
 msgid "[QuantizeSetup.OptionsPart]Range"
 msgstr "範囲"
 
+#: .\app\toolbar.xml
+msgid "[ToolBar]Range Tool in upper event area"
+msgstr "イベントエリア上側の範囲ツール"
+
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Re-Index Presets"
 msgstr "プリセットの索引を再作成"
@@ -4406,10 +4502,6 @@ msgstr "録音"
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Record"
-msgstr "録音"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Record"
 msgstr "録音"
 
 #: .\devices\transport.xml
@@ -4836,6 +4928,10 @@ msgstr "イメージを選択"
 msgid "[DetailedInfoTable]Select Image"
 msgstr "イメージを選択"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow1]Select Layer Color"
+msgstr "レイヤー色を選択"
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Select License File..."
 msgstr "ライセンスファイルを選択..."
@@ -4843,6 +4939,14 @@ msgstr "ライセンスファイルを選択..."
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]Select License File..."
 msgstr "ライセンスを選択..."
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Select Mix FX"
+msgstr "ミックスFXを選択"
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Select Mix FX"
+msgstr "ミックスFXを選択"
 
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Select Parameter"
@@ -5077,6 +5181,10 @@ msgid "[Command]Show Trash Bin"
 msgstr "ゴミ箱を表示"
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show VCA connections"
+msgstr "VCA接続を表示"
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show audio device controls"
 msgstr "オーディオデバイスコントロールを表示"
 
@@ -5200,10 +5308,6 @@ msgstr "ソロ（ソロ保存はShiftを使用）"
 msgid "[Audio.Channel.Basics.Content]Solo (Solo Save use Shift)"
 msgstr "ソロ（ソロ保存はShiftを使用）"
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Solo (Solo Save use Shift)"
-msgstr "ソロ（ソロ保存はShiftを使用）"
-
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Solo Layer"
 msgstr "レイヤーをソロ"
@@ -5309,7 +5413,7 @@ msgid "[MediaPoolHeader]Sort by: "
 msgstr "並び替え: "
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Sources"
+msgid "[Audio.Channel.Basics.Content]Sources"
 msgstr "ソース"
 
 #: .\engine\audioexport.xml
@@ -5576,6 +5680,10 @@ msgstr "テイクをレイヤー化"
 msgid "[TransportPanel]Tap Tempo"
 msgstr "タップテンポ"
 
+#: .\devices\audiochannel.small.xml
+msgid "[AudioVCA.Channel]Targets"
+msgstr "ターゲット"
+
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tempo"
 msgstr "テンポ"
@@ -5672,6 +5780,14 @@ msgstr "タイムベース"
 msgid "[MusicTrackInspector]Timebase"
 msgstr "タイムベース"
 
+#: .\engine\inspector.xml
+msgid "[AutomationTrackInspector]Timebase"
+msgstr "タイムベース"
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Timebase"
+msgstr "タイムベース"
+
 #: .\engine\song.xml
 msgid "[SongToolbar]Timebase"
 msgstr "タイムベース"
@@ -5764,6 +5880,10 @@ msgstr "トラック"
 msgid "[Command]Track"
 msgstr "トラック"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]Track"
+msgstr "トラック"
+
 #: .\project\project.xml
 msgid "[ProjectTrackControlsContent]Track Length"
 msgstr "トラック長さ"
@@ -5779,6 +5899,14 @@ msgstr "トラックリスト"
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Track Name"
 msgstr "トラック名"
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Track Number"
+msgstr "トラック番号"
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Track Number"
+msgstr "トラック番号"
 
 #: .\engine\trackcontrols.xml
 msgid "[AutomationMainContent]Track Number"
@@ -6000,6 +6128,22 @@ msgstr "ユーザー"
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "ユーザーデータロケーション（ソング、プロジェクト、プリセット）"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Narrow.Basics]VCA"
+msgstr "VCA"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Small.Narrow.Basics]VCA"
+msgstr "VCA"
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics]VCA"
+msgstr "VCA"
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelSelector]VCA"
+msgstr "VCA"
+
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
 msgstr "値"
@@ -6197,7 +6341,7 @@ msgid "[Setup]Zero Latency Monitoring"
 msgstr "ゼロレーテンシーモニタリング"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]Zero Latency Monitoring"
+msgid "[AudioTrack.Channel]Zero Latency Monitoring"
 msgstr "ゼロレーテンシーモニタリング"
 
 #: .\devices\audiochannel.xml

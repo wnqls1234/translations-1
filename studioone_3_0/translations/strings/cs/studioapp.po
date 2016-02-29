@@ -49,10 +49,6 @@ msgstr "zvukové soubory"
 msgid "[Options]Automation"
 msgstr "Automatizace"
 
-#: .\sidebar.cpp
-msgid "[Command]Browser"
-msgstr "Prohlížeč"
-
 #: .\soundsethandler.cpp
 msgid "[Tags]Character"
 msgstr ""
@@ -196,6 +192,10 @@ msgid "[StudioApp]Master"
 msgstr "Mástr"
 
 #: .\sidebar.cpp
+msgid "[Sidebar]Mix FX"
+msgstr ""
+
+#: .\sidebar.cpp
 msgid "[Sidebar]Multi Instruments"
 msgstr ""
 
@@ -275,33 +275,9 @@ msgstr "Prohledávání zvukových sad..."
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "Poslat do nového SampleOne"
 
-#: .\sidebar.cpp
-msgid "[Command]Show Cloud"
+#: .\automationhandler.cpp
+msgid "[AutomationHandler]Show Automation"
 msgstr ""
-
-#: .\sidebar.cpp
-msgid "[Command]Show Effects"
-msgstr "Zobrazit efekty"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Files"
-msgstr "Zobrazit soubory"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Home Page"
-msgstr "Zobrazit úvodní stránku"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Instruments"
-msgstr "Zobrazit nástroje"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Loops"
-msgstr ""
-
-#: .\sidebar.cpp
-msgid "[Command]Show Pool"
-msgstr "Zobrazit prostředky"
 
 #: .\documenthandler.cpp
 msgid "[Command]Show Project"
@@ -362,14 +338,14 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr ""
 
 #: .\soundsethandler.cpp
-msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
-msgstr "Zvuková sada \"%(1)\" se stále používá (je otevřen soubor %(2))!"
-
-#: .\soundsethandler.cpp
 msgid ""
 "[StudioApp]The following Sound Sets failed to install or are installed "
 "multiple times on your system. This can be caused by incomplete file "
 "downloads. Do you want to delete these files now?"
+msgstr ""
+
+#: .\soundsethandler.cpp
+msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
 msgstr ""
 
 #: .\soundsethandler.cpp
@@ -411,3 +387,24 @@ msgstr "Zobrazit"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Pracovní plocha"
+
+#~ msgid "[Command]Browser"
+#~ msgstr "Prohlížeč"
+
+#~ msgid "[Command]Show Effects"
+#~ msgstr "Zobrazit efekty"
+
+#~ msgid "[Command]Show Files"
+#~ msgstr "Zobrazit soubory"
+
+#~ msgid "[Command]Show Home Page"
+#~ msgstr "Zobrazit úvodní stránku"
+
+#~ msgid "[Command]Show Instruments"
+#~ msgstr "Zobrazit nástroje"
+
+#~ msgid "[Command]Show Pool"
+#~ msgstr "Zobrazit prostředky"
+
+#~ msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
+#~ msgstr "Zvuková sada \"%(1)\" se stále používá (je otevřen soubor %(2))!"

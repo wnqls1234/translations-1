@@ -192,7 +192,7 @@ msgstr "帮助主题"
 msgid "[FileDraghandler]Copy"
 msgstr "复制"
 
-#: .\editing\editor.cpp
+#: .\editing\editor.cpp .\etc\batchoperation.cpp
 msgid "[Edit]Copy"
 msgstr "复制"
 
@@ -492,6 +492,10 @@ msgstr "文件"
 #: .\etc\batchoperation.cpp
 msgid "[FileOperations]File %(1) of %(2)"
 msgstr "文件%(1) - %(2)"
+
+#: .\fileinfo\filepreviewcomponent.cpp
+msgid "[FileInfo]File information"
+msgstr "文件信息"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Flat"

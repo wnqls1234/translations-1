@@ -48,10 +48,6 @@ msgstr "音频文件"
 msgid "[Options]Automation"
 msgstr "自动控制"
 
-#: .\sidebar.cpp
-msgid "[Command]Browser"
-msgstr "浏览器"
-
 #: .\soundsethandler.cpp
 msgid "[Tags]Character"
 msgstr "特色"
@@ -185,6 +181,10 @@ msgid "[StudioApp]Master"
 msgstr "主线"
 
 #: .\sidebar.cpp
+msgid "[Sidebar]Mix FX"
+msgstr "Mix FX"
+
+#: .\sidebar.cpp
 msgid "[Sidebar]Multi Instruments"
 msgstr "多重乐器"
 
@@ -264,33 +264,9 @@ msgstr "扫描声音设置..."
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "发送到新建采样"
 
-#: .\sidebar.cpp
-msgid "[Command]Show Cloud"
-msgstr "显示云"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Effects"
-msgstr "显示效果器"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Files"
-msgstr "显示文件"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Home Page"
-msgstr "显示主页"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Instruments"
-msgstr "显示乐器"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Loops"
-msgstr "显示 Loops"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Pool"
-msgstr "显示素材池"
+#: .\automationhandler.cpp
+msgid "[AutomationHandler]Show Automation"
+msgstr "显示自动控制"
 
 #: .\documenthandler.cpp
 msgid "[Command]Show Project"
@@ -349,12 +325,12 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr "$APPNAME参考指南尚未安装。"
 
 #: .\soundsethandler.cpp
-msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
-msgstr "声音设置\"%(1)\" 仍在使用中(%(2) files open)!"
-
-#: .\soundsethandler.cpp
 msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
 msgstr "以下声音设置安装失败，或已在您的系统上已被多次安装。引起此问题的原因可能是不完整的文件下载。 是否确认删除这些文件？"
+
+#: .\soundsethandler.cpp
+msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
+msgstr "套装 \"%(1)\" 正在使用中 (%(2) 文件被打开)!"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

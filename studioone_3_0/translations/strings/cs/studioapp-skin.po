@@ -153,6 +153,10 @@ msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$title"
+msgstr ""
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewSmallToggle]$title"
 msgstr ""
 
@@ -173,12 +177,16 @@ msgid "[QuantizeSetup.Option]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]$tooltip"
-msgstr "$tooltip"
+msgid "[MicroViewSliderSizeVariant]$tooltip"
+msgstr ""
 
 #: .\app\microviews.xml
 msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
+
+#: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$tooltip"
+msgstr ""
 
 #: .\app\microviews.xml
 msgid "[MutableMicroViewSmallToggle]$tooltip"
@@ -640,6 +648,10 @@ msgstr "@cmd.title[]"
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr "@cmd.title[]"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]@cmd.title[]"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[]"
 msgstr "@cmd.title[]"
@@ -677,8 +689,8 @@ msgid "[AudioTrack.Small.Narrow]@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]@property[parent.controller.editGroup]"
-msgstr "@property[parent.controller.editGroup]"
+msgid "[AudioTrack.Channel]@property[parent.controller.editGroup]"
+msgstr ""
 
 #: .\engine\inspector.xml
 msgid "[InspectorAudioFader]@property[parent.controller.editGroup]"
@@ -693,8 +705,8 @@ msgid "[GenericMicroViewSlider]@value[]"
 msgstr "@value[]"
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]@value[]"
-msgstr "@value[]"
+msgid "[MicroViewSliderSizeVariant]@value[]"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]@value[]"
@@ -769,6 +781,10 @@ msgid "[PurchaseHandler]Activate"
 msgstr "Aktivovat"
 
 #: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Activate"
+msgstr ""
+
+#: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr "Aktivovat"
 
@@ -819,6 +835,10 @@ msgstr ""
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Activate All"
 msgstr "Aktivovat vše"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Activate All"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[PostFaderInserts]Activate All"
@@ -888,6 +908,10 @@ msgstr "Přidat externí zařízení"
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Add Insert"
 msgstr "Přidat Insert efekt"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Add Insert"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[PostFaderInserts]Add Insert"
@@ -1211,6 +1235,10 @@ msgstr "Pro všechny parametry, které se pohnou, automaticky přidat obálky"
 msgid "[EditorToolBar]Automatically apply Quantize to selected notes"
 msgstr "Automaticky použít kvantizaci na vybrané noty "
 
+#: .\app\options.xml
+msgid "[AutomationOption]Automatically create automation tracks for channels"
+msgstr ""
+
 #: .\engine\automation.xml
 msgid "[MusicEnvelopeDialog]Automation"
 msgstr "Automatizace"
@@ -1423,10 +1451,6 @@ msgstr "Vypálit"
 msgid "[BurnerSelectDialog]Burn Audio CD"
 msgstr "Vypálit zvukové CD"
 
-#: .\engine\inspector.xml
-msgid "[FolderTrackInspector]Bus"
-msgstr "Sběrnice"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Busses"
 msgstr "Sběrnice"
@@ -1504,6 +1528,10 @@ msgstr ""
 msgid "[MusicTrackInspector]Channel"
 msgstr "Kanál"
 
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel"
+msgstr ""
+
 #: .\app\shared.xml
 msgid "[MutablePlainButton]Channel Editor"
 msgstr ""
@@ -1514,10 +1542,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Channel Editor"
-msgstr ""
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Channel Editor"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -1537,12 +1561,24 @@ msgid "[MutablePlainButton]Channel Mode"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Channel Mode"
-msgstr "Režim kanálu"
+msgid "[AudioGroup.Channel]Channel Mode"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
 msgstr "Režim kanálu"
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel Number"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[AutomationMainContent]Channel Number"
@@ -1649,8 +1685,8 @@ msgid "[HoldAndClip]Clip"
 msgstr "Klip"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioChannel.Small.Narrow.Basics]Clip"
-msgstr "Klip"
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[InputLevelsContent]Clip"
@@ -1677,8 +1713,8 @@ msgid "[AudioOutput.Channel.Content]Clip / Peak Levels"
 msgstr "Klip / Úrovně špiček"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Clip / Peak Levels"
-msgstr "Klip / Úrovně špiček"
+msgid "[ChannelMeterDisplay]Clip / Peak Levels"
+msgstr ""
 
 #: .\app\shared.xml
 msgid "[DetachedFrameHeader]Close"
@@ -1860,6 +1896,10 @@ msgstr "Kopírovat"
 msgid "[MacroTargetCurve]Copy"
 msgstr "Kopírovat"
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Copy Ranges to Track"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Copy to Clipboard"
 msgstr "Kopírovat do schránky"
@@ -1925,7 +1965,7 @@ msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr "Muzikanta"
 
 #: .\devices\audiochannel.xml
-msgid "[CueMixStackAudioEffect]Cue mix"
+msgid "[CueMixStack]Cue mix"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -2073,12 +2113,8 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "Zařízení"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsFirstRow]Device"
-msgstr "Zařízení"
-
-#: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsContent]Device"
-msgstr "Zařízení"
+msgid "[AutomationMainContent]Device"
+msgstr ""
 
 #: .\project\burn.xml
 msgid "[BurnerSelectDialog]Device"
@@ -2192,6 +2228,11 @@ msgid ""
 msgstr ""
 "Dvakrát kliknout: upravit název, podržet stisknuté: vybrat barvu kanálu"
 
+#: .\engine\inspector.xml
+msgid ""
+"[ChannelLabelBig]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr ""
+
 #: .\engine\mediapool.xml
 msgid "[WebFileInfo]Download"
 msgstr "Stáhnout"
@@ -2199,6 +2240,10 @@ msgstr "Stáhnout"
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Drag FX Chain from here"
 msgstr "Přesunout řetězec efektu odsud do jiné stopy"
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Drag FX Chain from here"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[PostFaderInserts]Drag FX Chain from here"
@@ -2442,6 +2487,10 @@ msgstr ""
 msgid "[VideoPlayer]Error Loading Movie"
 msgstr "Chyba při načítání filmu"
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Event"
+msgstr ""
+
 #: .\app\options.xml
 msgid "[EditingOption]Event Appearance"
 msgstr "Vzhled události"
@@ -2495,10 +2544,6 @@ msgstr "Rozbalit"
 msgid "[Audio.Channel.Basics.Content]Expand"
 msgstr "Rozbalit"
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Expand"
-msgstr "Rozbalit"
-
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControls]Expand Envelopes"
 msgstr "Rozbalit obálky"
@@ -2508,8 +2553,20 @@ msgid "[MusicTrackControls]Expand Envelopes"
 msgstr "Rozbalit obálky"
 
 #: .\engine\trackcontrols.xml
+msgid "[FolderTrackControls]Expand Envelopes"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationTrackControls]Expand Envelopes"
 msgstr "Rozbalit obálky"
+
+#: .\engine\trackcontrols.xml
+msgid "[AudioTrackControls]Expand Layers"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControls]Expand Layers"
+msgstr ""
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -2978,6 +3035,10 @@ msgstr "Vložit změnu tempa"
 msgid "[AudioInserts]Inserts"
 msgstr "Ins. efekty"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Inserts"
+msgstr ""
+
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Inserts"
 msgstr "Ins. efekty"
@@ -2985,6 +3046,14 @@ msgstr "Ins. efekty"
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Inserts"
 msgstr "Ins. efekty"
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Sends  |  Mix FX Source"
+msgstr ""
 
 #: .\app\windowclasses.xml
 msgid "[Command]Inspector"
@@ -3064,6 +3133,10 @@ msgstr "Nástrojový editor"
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioSynthBus.Small.Narrow]Instrument Editor"
 msgstr "Nástrojový editor"
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics.Content]Instrument Editor"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioSynth.Channel]Instrument Editor"
@@ -3190,6 +3263,10 @@ msgid "[ChannelOrganizerSetup]Keep FX channels to the right"
 msgstr ""
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Keep VCA channels to the right"
+msgstr ""
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Keep bus channels to the right"
 msgstr ""
 
@@ -3284,6 +3361,10 @@ msgstr ""
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[AudioFXRackSlotView]Link to DSP"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -3566,6 +3647,27 @@ msgstr "Chybějící zařízení"
 msgid "[TransportPanel]Mix"
 msgstr "Mix"
 
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid ""
+"[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Sends  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mix FX  |  Inserts  | Post Fader Inserts"
+msgstr ""
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Mode"
 msgstr "Režim"
@@ -3584,10 +3686,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
-msgstr "Sledovat"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Monitor"
 msgstr "Sledovat"
 
 #: .\app\melodyne.xml
@@ -3628,10 +3726,6 @@ msgstr "Umlčet"
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Mute"
-msgstr "Umlčet"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Mute"
 msgstr "Umlčet"
 
 #: .\engine\editor.xml
@@ -3970,8 +4064,8 @@ msgid "[AudioChannel.Small.Narrow.Basics]Pan: @value[]"
 msgstr "Stereopozice: @value[]"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Pan: @value[]"
-msgstr "Stereopozice: @value[]"
+msgid "[Audio.Channel.Basics.Content]Pan: @value[]"
+msgstr ""
 
 #: .\engine\inspector.xml
 msgid "[InspectorAudioPanner]Pan: @value[]"
@@ -4205,7 +4299,7 @@ msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "Zachovat stav v reálném čase"
 
 #: .\devices\audiomixer.xml
-msgid "[ChannelOrganizerSetup]Preserve order of busses with folder track"
+msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
 msgstr ""
 
 #: .\ccl\browser.xml .\devices\audiofxeditor.xml
@@ -4416,6 +4510,10 @@ msgstr "Oblast výběru"
 msgid "[QuantizeSetup.OptionsPart]Range"
 msgstr "Oblast výběru"
 
+#: .\app\toolbar.xml
+msgid "[ToolBar]Range Tool in upper event area"
+msgstr ""
+
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Re-Index Presets"
 msgstr "Obnovit katalog přednastaví"
@@ -4478,10 +4576,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Record"
-msgstr "Záznam"
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Record"
 msgstr "Záznam"
 
 #: .\devices\transport.xml
@@ -4917,12 +5011,24 @@ msgstr "Vybrat obrázek"
 msgid "[DetailedInfoTable]Select Image"
 msgstr "Vybrat obraz"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow1]Select Layer Color"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Select License File..."
 msgstr ""
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]Select License File..."
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Select Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Select Mix FX"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -5158,6 +5264,10 @@ msgid "[Command]Show Trash Bin"
 msgstr "Zobrazit koš"
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show VCA connections"
+msgstr ""
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show audio device controls"
 msgstr ""
 
@@ -5281,10 +5391,6 @@ msgstr "Sólo (pro ochranu sóla, použijte Shift)"
 msgid "[Audio.Channel.Basics.Content]Solo (Solo Save use Shift)"
 msgstr "Sólo (pro ochranu sóla, použijte Shift)"
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Solo (Solo Save use Shift)"
-msgstr "Sólo (pro ochranu sóla, použijte Shift)"
-
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Solo Layer"
 msgstr "Sólo vrstvy"
@@ -5390,8 +5496,8 @@ msgid "[MediaPoolHeader]Sort by: "
 msgstr "Třídit dle:"
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Sources"
-msgstr "Zdroje"
+msgid "[Audio.Channel.Basics.Content]Sources"
+msgstr ""
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Sources"
@@ -5663,6 +5769,10 @@ msgstr ""
 msgid "[TransportPanel]Tap Tempo"
 msgstr "Naťukat tempo"
 
+#: .\devices\audiochannel.small.xml
+msgid "[AudioVCA.Channel]Targets"
+msgstr ""
+
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tempo"
 msgstr "Tempo"
@@ -5765,6 +5875,14 @@ msgstr "Jednotky času"
 msgid "[MusicTrackInspector]Timebase"
 msgstr "Jednotky času"
 
+#: .\engine\inspector.xml
+msgid "[AutomationTrackInspector]Timebase"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Timebase"
+msgstr ""
+
 #: .\engine\song.xml
 msgid "[SongToolbar]Timebase"
 msgstr "Jednotky času"
@@ -5860,6 +5978,10 @@ msgstr "Stopa"
 msgid "[Command]Track"
 msgstr "Stopa"
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]Track"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[ProjectTrackControlsContent]Track Length"
 msgstr "Délka stopy"
@@ -5875,6 +5997,14 @@ msgstr "Seznam stop"
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Track Name"
 msgstr "Název stopy"
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Track Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Track Number"
+msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[AutomationMainContent]Track Number"
@@ -6103,6 +6233,22 @@ msgstr "Uživatel"
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr "Umístění uživatelských dat (písní, projektů, přednastavení)"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Narrow.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Small.Narrow.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelSelector]VCA"
+msgstr ""
+
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
 msgstr "Hodnota"
@@ -6320,8 +6466,8 @@ msgid "[Setup]Zero Latency Monitoring"
 msgstr "Sledování bez zpoždění"
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]Zero Latency Monitoring"
-msgstr "Sledování bez zpoždění"
+msgid "[AudioTrack.Channel]Zero Latency Monitoring"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Zero Latency Monitoring"
@@ -6362,6 +6508,57 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[MutableMicroViewSlider]$tooltip"
+#~ msgstr "$tooltip"
+
+#~ msgid "[Audio.Channel]@property[parent.controller.editGroup]"
+#~ msgstr "@property[parent.controller.editGroup]"
+
+#~ msgid "[MutableMicroViewSlider]@value[]"
+#~ msgstr "@value[]"
+
+#~ msgid "[FolderTrackInspector]Bus"
+#~ msgstr "Sběrnice"
+
+#~ msgid "[AudioGroupFX.Channel]Channel Mode"
+#~ msgstr "Režim kanálu"
+
+#~ msgid "[AudioChannel.Small.Narrow.Basics]Clip"
+#~ msgstr "Klip"
+
+#~ msgid "[Audio.Channel.Basics]Clip / Peak Levels"
+#~ msgstr "Klip / Úrovně špiček"
+
+#~ msgid "[AutomationTrackControlsFirstRow]Device"
+#~ msgstr "Zařízení"
+
+#~ msgid "[AutomationTrackControlsContent]Device"
+#~ msgstr "Zařízení"
+
+#~ msgid "[Audio.Channel.Basics.Content.Selected]Expand"
+#~ msgstr "Rozbalit"
+
+#~ msgid "[Audio.Channel.Basics.Content.Selected]Monitor"
+#~ msgstr "Sledovat"
+
+#~ msgid "[Audio.Channel.Basics.Content.Selected]Mute"
+#~ msgstr "Umlčet"
+
+#~ msgid "[Audio.Channel.Basics]Pan: @value[]"
+#~ msgstr "Stereopozice: @value[]"
+
+#~ msgid "[Audio.Channel.Basics.Content.Selected]Record"
+#~ msgstr "Záznam"
+
+#~ msgid "[Audio.Channel.Basics.Content.Selected]Solo (Solo Save use Shift)"
+#~ msgstr "Sólo (pro ochranu sóla, použijte Shift)"
+
+#~ msgid "[AudioGroupFX.Channel]Sources"
+#~ msgstr "Zdroje"
+
+#~ msgid "[Audio.Channel]Zero Latency Monitoring"
+#~ msgstr "Sledování bez zpoždění"
 
 #~ msgid "[CredentialsUIPrompt]$APPNAME Security"
 #~ msgstr "Zabezpečení $APPNAME"

@@ -131,6 +131,10 @@ msgid "[MutableMicroViewToggle]$title"
 msgstr ""
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$title"
+msgstr ""
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewSmallToggle]$title"
 msgstr ""
 
@@ -151,11 +155,15 @@ msgid "[QuantizeSetup.Option]$title"
 msgstr ""
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]$tooltip"
+msgid "[MicroViewSliderSizeVariant]$tooltip"
 msgstr ""
 
 #: .\app\microviews.xml
 msgid "[MutableMicroViewToggle]$tooltip"
+msgstr ""
+
+#: .\app\microviews.xml
+msgid "[MutableMicroViewToggle2]$tooltip"
 msgstr ""
 
 #: .\app\microviews.xml
@@ -610,6 +618,10 @@ msgstr ""
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]@cmd.title[]"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[]"
 msgstr ""
@@ -647,7 +659,7 @@ msgid "[AudioTrack.Small.Narrow]@property[parent.controller.editGroup]"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]@property[parent.controller.editGroup]"
+msgid "[AudioTrack.Channel]@property[parent.controller.editGroup]"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -663,7 +675,7 @@ msgid "[GenericMicroViewSlider]@value[]"
 msgstr ""
 
 #: .\app\microviews.xml
-msgid "[MutableMicroViewSlider]@value[]"
+msgid "[MicroViewSliderSizeVariant]@value[]"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -739,6 +751,10 @@ msgid "[PurchaseHandler]Activate"
 msgstr ""
 
 #: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Activate"
+msgstr ""
+
+#: .\devices\audiochannel.xml
 msgid "[AudioFXRackSlotView]Activate"
 msgstr ""
 
@@ -788,6 +804,10 @@ msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Activate All"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Activate All"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -856,6 +876,10 @@ msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Add Insert"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Add Insert"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -1179,6 +1203,10 @@ msgstr ""
 msgid "[EditorToolBar]Automatically apply Quantize to selected notes"
 msgstr ""
 
+#: .\app\options.xml
+msgid "[AutomationOption]Automatically create automation tracks for channels"
+msgstr ""
+
 #: .\engine\automation.xml
 msgid "[MusicEnvelopeDialog]Automation"
 msgstr ""
@@ -1393,10 +1421,6 @@ msgstr ""
 msgid "[BurnerSelectDialog]Burn Audio CD"
 msgstr ""
 
-#: .\engine\inspector.xml
-msgid "[FolderTrackInspector]Bus"
-msgstr ""
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Busses"
 msgstr ""
@@ -1469,6 +1493,10 @@ msgstr ""
 msgid "[MusicTrackInspector]Channel"
 msgstr ""
 
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel"
+msgstr ""
+
 #: .\app\shared.xml
 msgid "[MutablePlainButton]Channel Editor"
 msgstr ""
@@ -1479,10 +1507,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Channel Editor"
-msgstr ""
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Channel Editor"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -1502,11 +1526,23 @@ msgid "[MutablePlainButton]Channel Mode"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Channel Mode"
+msgid "[AudioGroup.Channel]Channel Mode"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControlsContent]Channel Mode"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Channel Number"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -1615,7 +1651,7 @@ msgid "[HoldAndClip]Clip"
 msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioChannel.Small.Narrow.Basics]Clip"
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -1643,7 +1679,7 @@ msgid "[AudioOutput.Channel.Content]Clip / Peak Levels"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Clip / Peak Levels"
+msgid "[ChannelMeterDisplay]Clip / Peak Levels"
 msgstr ""
 
 #: .\app\shared.xml
@@ -1827,6 +1863,10 @@ msgstr ""
 msgid "[MacroTargetCurve]Copy"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Copy Ranges to Track"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Copy to Clipboard"
 msgstr ""
@@ -1889,7 +1929,7 @@ msgid "[AudioIOSetup.OutputDeviceInfo]Cue"
 msgstr ""
 
 #: .\devices\audiochannel.xml
-msgid "[CueMixStackAudioEffect]Cue mix"
+msgid "[CueMixStack]Cue mix"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -2037,11 +2077,7 @@ msgid "[AutomationTrackInspector]Device"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsFirstRow]Device"
-msgstr ""
-
-#: .\engine\trackcontrols.xml
-msgid "[AutomationTrackControlsContent]Device"
+msgid "[AutomationMainContent]Device"
 msgstr ""
 
 #: .\project\burn.xml
@@ -2148,12 +2184,20 @@ msgstr ""
 msgid "[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr ""
 
+#: .\engine\inspector.xml
+msgid "[ChannelLabelBig]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr ""
+
 #: .\engine\mediapool.xml
 msgid "[WebFileInfo]Download"
 msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[AudioInserts]Drag FX Chain from here"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Drag FX Chain from here"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -2394,6 +2438,10 @@ msgstr ""
 msgid "[VideoPlayer]Error Loading Movie"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[Command]Event"
+msgstr ""
+
 #: .\app\options.xml
 msgid "[EditingOption]Event Appearance"
 msgstr ""
@@ -2446,10 +2494,6 @@ msgstr ""
 msgid "[Audio.Channel.Basics.Content]Expand"
 msgstr ""
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Expand"
-msgstr ""
-
 #: .\engine\trackcontrols.xml
 msgid "[AudioTrackControls]Expand Envelopes"
 msgstr ""
@@ -2459,7 +2503,19 @@ msgid "[MusicTrackControls]Expand Envelopes"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
+msgid "[FolderTrackControls]Expand Envelopes"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationTrackControls]Expand Envelopes"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[AudioTrackControls]Expand Layers"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[MusicTrackControls]Expand Layers"
 msgstr ""
 
 #: .\app\about.xml
@@ -2928,12 +2984,24 @@ msgstr ""
 msgid "[AudioInserts]Inserts"
 msgstr ""
 
+#: .\devices\audiochannel.xml
+msgid "[AudioInsertsTall]Inserts"
+msgstr ""
+
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Inserts"
 msgstr ""
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Inserts"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Inserts  |  Sends  |  Mix FX Source"
 msgstr ""
 
 #: .\app\windowclasses.xml
@@ -3010,6 +3078,10 @@ msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioSynthBus.Small.Narrow]Instrument Editor"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics.Content]Instrument Editor"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
@@ -3137,6 +3209,10 @@ msgid "[ChannelOrganizerSetup]Keep FX channels to the right"
 msgstr ""
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Keep VCA channels to the right"
+msgstr ""
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Keep bus channels to the right"
 msgstr ""
 
@@ -3230,6 +3306,10 @@ msgstr ""
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link show/hide of Track List and Console"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[AudioFXRackSlotView]Link to DSP"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -3516,6 +3596,26 @@ msgstr ""
 msgid "[TransportPanel]Mix"
 msgstr ""
 
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Sends  |  Mix FX Source"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mix FX  |  Inserts  | Post Fader Inserts"
+msgstr ""
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Mode"
 msgstr ""
@@ -3535,10 +3635,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
-msgstr ""
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Monitor"
 msgstr ""
 
 #: .\app\melodyne.xml
@@ -3579,10 +3675,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Mute"
-msgstr ""
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Mute"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -3917,7 +4009,7 @@ msgid "[AudioChannel.Small.Narrow.Basics]Pan: @value[]"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics]Pan: @value[]"
+msgid "[Audio.Channel.Basics.Content]Pan: @value[]"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -4156,7 +4248,7 @@ msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr ""
 
 #: .\devices\audiomixer.xml
-msgid "[ChannelOrganizerSetup]Preserve order of busses with folder track"
+msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
 msgstr ""
 
 #: .\ccl\browser.xml
@@ -4369,6 +4461,10 @@ msgstr ""
 msgid "[QuantizeSetup.OptionsPart]Range"
 msgstr ""
 
+#: .\app\toolbar.xml
+msgid "[ToolBar]Range Tool in upper event area"
+msgstr ""
+
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Re-Index Presets"
 msgstr ""
@@ -4431,10 +4527,6 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Record"
-msgstr ""
-
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Record"
 msgstr ""
 
 #: .\devices\transport.xml
@@ -4864,12 +4956,24 @@ msgstr ""
 msgid "[DetailedInfoTable]Select Image"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow1]Select Layer Color"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Select License File..."
 msgstr ""
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]Select License File..."
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXStack]Select Mix FX"
+msgstr ""
+
+#: .\devices\audiochannel.xml
+msgid "[MixFXRackSlotView]Select Mix FX"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -5105,6 +5209,10 @@ msgid "[Command]Show Trash Bin"
 msgstr ""
 
 #: .\devices\audiomixer.xml
+msgid "[ChannelOrganizerSetup]Show VCA connections"
+msgstr ""
+
+#: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show audio device controls"
 msgstr ""
 
@@ -5228,10 +5336,6 @@ msgstr ""
 msgid "[Audio.Channel.Basics.Content]Solo (Solo Save use Shift)"
 msgstr ""
 
-#: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel.Basics.Content.Selected]Solo (Solo Save use Shift)"
-msgstr ""
-
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Solo Layer"
 msgstr ""
@@ -5339,7 +5443,7 @@ msgid "[MediaPoolHeader]Sort by: "
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[AudioGroupFX.Channel]Sources"
+msgid "[Audio.Channel.Basics.Content]Sources"
 msgstr ""
 
 #: .\engine\audioexport.xml
@@ -5609,6 +5713,10 @@ msgstr ""
 msgid "[TransportPanel]Tap Tempo"
 msgstr ""
 
+#: .\devices\audiochannel.small.xml
+msgid "[AudioVCA.Channel]Targets"
+msgstr ""
+
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tempo"
 msgstr ""
@@ -5705,6 +5813,14 @@ msgstr ""
 msgid "[MusicTrackInspector]Timebase"
 msgstr ""
 
+#: .\engine\inspector.xml
+msgid "[AutomationTrackInspector]Timebase"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[FolderTrackInspector]Timebase"
+msgstr ""
+
 #: .\engine\song.xml
 msgid "[SongToolbar]Timebase"
 msgstr ""
@@ -5798,6 +5914,10 @@ msgstr ""
 msgid "[Command]Track"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[LayerAspectRow2]Track"
+msgstr ""
+
 #: .\project\project.xml
 msgid "[ProjectTrackControlsContent]Track Length"
 msgstr ""
@@ -5812,6 +5932,14 @@ msgstr ""
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Track Name"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[AudioTrackInspector]Track Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[MusicTrackInspector]Track Number"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -6038,6 +6166,22 @@ msgstr ""
 msgid "[ContentLocationOption]User Data Location (Songs, Projects, Presets)"
 msgstr ""
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Narrow.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioChannel.Small.Narrow.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiochannel.small.xml
+msgid "[Audio.Channel.Basics]VCA"
+msgstr ""
+
+#: .\devices\audiomixer.xml
+msgid "[ChannelSelector]VCA"
+msgstr ""
+
 #: .\engine\eventinspector.xml
 msgid "[EnvelopePointMiniProperties.Table]Value"
 msgstr ""
@@ -6238,7 +6382,7 @@ msgid "[Setup]Zero Latency Monitoring"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
-msgid "[Audio.Channel]Zero Latency Monitoring"
+msgid "[AudioTrack.Channel]Zero Latency Monitoring"
 msgstr ""
 
 #: .\devices\audiochannel.xml

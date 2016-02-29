@@ -131,6 +131,10 @@ msgstr ""
 msgid "[ActionDescriptions]Add Track"
 msgstr ""
 
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add VCA Channel"
+msgstr ""
+
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Add..."
 msgstr ""
@@ -157,6 +161,10 @@ msgstr ""
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Arranger"
+msgstr ""
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Assign Channel To Folder"
 msgstr ""
 
 #: .\base\media\mediaattachment.cpp
@@ -193,6 +201,10 @@ msgstr ""
 
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Processing"
+msgstr ""
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Audition"
 msgstr ""
 
 #: .\automation\automationfunctions.cpp
@@ -983,8 +995,8 @@ msgstr ""
 msgid "[Command]Insert"
 msgstr ""
 
-#: .\editing\arrangereditlayer.cpp
-msgid "[Edit]Insert Arranger Section"
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Insert Arranger Section"
 msgstr ""
 
 #: .\audio\audiobend\audiobendfunctions.cpp
@@ -1165,6 +1177,10 @@ msgstr ""
 msgid "[AudioEditHandler]Logarithmic"
 msgstr ""
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Loop"
+msgstr ""
+
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Mix"
 msgstr ""
@@ -1229,6 +1245,14 @@ msgstr ""
 
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
+msgstr ""
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Merge VCA Automation"
+msgstr ""
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[TrackEdit]Merge VCA Automation"
 msgstr ""
 
 #: .\application\audioedit\audioparttasks.cpp
@@ -1562,6 +1586,10 @@ msgstr ""
 
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
+msgstr ""
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Play"
 msgstr ""
 
 #: .\pool\mediapoolbrowser.cpp
@@ -1986,6 +2014,10 @@ msgstr ""
 msgid "[Command]Select Events in Section"
 msgstr ""
 
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Select Layer Content"
+msgstr ""
+
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr ""
@@ -2012,6 +2044,14 @@ msgstr ""
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select a search folder."
+msgstr ""
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr ""
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Start to Event"
 msgstr ""
 
 #: .\pool\locatefilescomponent.cpp
@@ -2140,6 +2180,7 @@ msgstr ""
 msgid "[TimeSnapper]Snap To Events"
 msgstr ""
 
+#: .\editing\tracklayercomponent.cpp
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr ""
@@ -2234,12 +2275,20 @@ msgstr ""
 msgid "[Marker]Stop"
 msgstr ""
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Stop"
+msgstr ""
+
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
 msgstr ""
 
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
+msgstr ""
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Sync tempo"
 msgstr ""
 
 #: .\song\songdocument.cpp

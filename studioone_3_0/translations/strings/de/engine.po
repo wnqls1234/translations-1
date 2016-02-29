@@ -137,6 +137,10 @@ msgstr "Send hinzufügen:"
 msgid "[ActionDescriptions]Add Track"
 msgstr "Spur hinzufügen"
 
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add VCA Channel"
+msgstr "VCA-Kanal hinzufügen"
+
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Add..."
 msgstr "Hinzufügen..."
@@ -164,6 +168,10 @@ msgstr "Aufnahme aktivieren"
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Arranger"
 msgstr "Arranger"
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Assign Channel To Folder"
+msgstr "Kanal der Ordnerspur zuweisen"
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -200,6 +208,10 @@ msgstr "Audioparts"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Processing"
 msgstr "Audioverarbeitung"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Audition"
+msgstr "Vorhören"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Automation"
@@ -986,8 +998,8 @@ msgstr "Einfügen"
 msgid "[Command]Insert"
 msgstr "Einfügen"
 
-#: .\editing\arrangereditlayer.cpp
-msgid "[Edit]Insert Arranger Section"
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Insert Arranger Section"
 msgstr "Arranger-Bereich einfügen"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
@@ -1166,6 +1178,10 @@ msgstr "Ordner"
 msgid "[AudioEditHandler]Logarithmic"
 msgstr "Logarithmisch"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Loop"
+msgstr "Loop"
+
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Mix"
 msgstr "Loopaufnahme Mix"
@@ -1230,6 +1246,14 @@ msgstr "Mittel"
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
 msgstr "Events zusammenfassen"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Merge VCA Automation"
+msgstr "VCA-Automation zusammenfassen"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[TrackEdit]Merge VCA Automation"
+msgstr "VCA-Automation zusammenfassen"
 
 #: .\application\audioedit\audioparttasks.cpp
 msgid "[AudioEdit]Merge to Audio Part"
@@ -1562,6 +1586,10 @@ msgstr "Prozent"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Prozent"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Play"
+msgstr "Abspielen"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
@@ -1984,6 +2012,10 @@ msgstr "Events im Abschnitt auswählen"
 msgid "[Command]Select Events in Section"
 msgstr "Events im Abschnitt auswählen"
 
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Select Layer Content"
+msgstr "Ebeneninhalt auswählen"
+
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "Szene 1 auswählen"
@@ -2011,6 +2043,14 @@ msgstr "Take auswählen"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select a search folder."
 msgstr "Suchordner auswählen."
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "Von Event bis Spurende auswählen"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "Von Spuranfang bis Event auswählen"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select on Track"
@@ -2138,7 +2178,7 @@ msgstr "An Event Hotspots ausrichten"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "An Events ausrichten"
 
-#: .\editing\tracklistcomponent.cpp
+#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "Solo"
 
@@ -2231,6 +2271,10 @@ msgstr "Step-Aufnahme"
 msgid "[Marker]Stop"
 msgstr "Stopp"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Stop"
+msgstr "Stopp"
+
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
 msgstr "Stille suchen"
@@ -2238,6 +2282,10 @@ msgstr "Stille suchen"
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
 msgstr "Stille suchen"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Sync tempo"
+msgstr "Tempo anpassen"
 
 #: .\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."

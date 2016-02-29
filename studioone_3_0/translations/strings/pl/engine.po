@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]\"%(1)\" does not support the selected file format."
@@ -138,6 +137,10 @@ msgstr "Dodaj wysyłkę:"
 msgid "[ActionDescriptions]Add Track"
 msgstr "Dodaj ścieżkę"
 
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add VCA Channel"
+msgstr ""
+
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Add..."
 msgstr "Dodaj..."
@@ -165,6 +168,10 @@ msgstr "Nagrywanie i monitoring"
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Arranger"
 msgstr "Aranżer"
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Assign Channel To Folder"
+msgstr ""
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -201,6 +208,10 @@ msgstr "Partie audio"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Processing"
 msgstr "Przetwarzanie audio"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Audition"
+msgstr "Odtwarzacz"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Automation"
@@ -987,8 +998,8 @@ msgstr "Wstaw"
 msgid "[Command]Insert"
 msgstr "Wstaw"
 
-#: .\editing\arrangereditlayer.cpp
-msgid "[Edit]Insert Arranger Section"
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Insert Arranger Section"
 msgstr "Wstaw sekcję aranżera"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
@@ -1167,6 +1178,10 @@ msgstr "Lokalizacja"
 msgid "[AudioEditHandler]Logarithmic"
 msgstr "Logarytmiczne"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Loop"
+msgstr "Pętla"
+
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Mix"
 msgstr "Nagrywanie w pętli do miksu"
@@ -1231,6 +1246,14 @@ msgstr "Średni"
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
 msgstr "Scal obiekty"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Merge VCA Automation"
+msgstr ""
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[TrackEdit]Merge VCA Automation"
+msgstr ""
 
 #: .\application\audioedit\audioparttasks.cpp
 msgid "[AudioEdit]Merge to Audio Part"
@@ -1563,6 +1586,10 @@ msgstr "Procenty"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Procenty"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Play"
+msgstr "Odtwarzaj"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
@@ -1985,6 +2012,10 @@ msgstr "Zaznacz obiekty w sekcji"
 msgid "[Command]Select Events in Section"
 msgstr "Zaznacz obiekty w sekcji"
 
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Select Layer Content"
+msgstr ""
+
 #: .\editing\tracklistfilter.cpp
 msgid "[Command]Select Scene 1"
 msgstr "Wybierz scenę 1"
@@ -2012,6 +2043,14 @@ msgstr "Wybierz ujęcie"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select a search folder."
 msgstr "Wybierz przeszukiwany folder."
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "Zaznacz od obiektu do końca"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "Zaznacz od początku do obiektu"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select on Track"
@@ -2139,7 +2178,7 @@ msgstr "Dopasuj do aktywnych punktów obiektu"
 msgid "[TimeSnapper]Snap To Events"
 msgstr "Dopasuj do obiektów"
 
-#: .\editing\tracklistcomponent.cpp
+#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
 msgstr "Solo"
 
@@ -2232,6 +2271,10 @@ msgstr "Nagrywanie krokowe"
 msgid "[Marker]Stop"
 msgstr "Stop"
 
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Stop"
+msgstr "Stop"
+
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
 msgstr "Usuń ciszę"
@@ -2239,6 +2282,10 @@ msgstr "Usuń ciszę"
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
 msgstr "Usuń ciszę"
+
+#: .\pool\mediapreviewcomponent.cpp
+msgid "[MediaPreview]Sync tempo"
+msgstr ""
 
 #: .\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."

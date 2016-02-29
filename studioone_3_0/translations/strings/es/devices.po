@@ -136,6 +136,10 @@ msgstr "Agregar envío:"
 msgid "[AudioClick]Add Sound..."
 msgstr "Agregar sonido..."
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add VCA Channel"
+msgstr "Agregar canal VCA"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Todo"
@@ -151,14 +155,6 @@ msgstr "Todas las notas Off"
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Ocurrió una señal inválida"
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
-msgstr "Está seguro que desea mover estos canales a la papelera?"
-
-#: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
-msgstr "Está seguro que desea mover este canal a la papelera?"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -386,6 +382,10 @@ msgstr "Cursor sigue posición de edición"
 msgid "[Hardware]DAW Post DSP"
 msgstr "DAW Post DSP"
 
+#: .\editor\processgrapheditor.cpp
+msgid "[Command]Delete"
+msgstr "Eliminar"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Description"
 msgstr "Descripción"
@@ -418,7 +418,7 @@ msgstr "Desconectado de %(1)."
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Doble (64 Bits)"
 
-#: .\mixerconsole\mixerconsole.cpp
+#: .\editor\processgrapheditor.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Edit"
 msgstr "Editar"
 
@@ -450,6 +450,14 @@ msgstr "Editar..."
 msgid "[Channels]Effects"
 msgstr "Efectos"
 
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Enable Play Start Marker"
+msgstr "Habilitar marcado de inicio de reproducción"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Enable Play Start Marker"
+msgstr "Habilitar marcado de inicio de reproducción"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
 msgstr "Expandir"
@@ -465,6 +473,10 @@ msgstr "FX"
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Fader"
 msgstr "Fader"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Favorite"
+msgstr "Favorito"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
@@ -666,6 +678,10 @@ msgstr "Mensaje"
 #: .\audiomixer\audioclick.cpp
 msgid "[FileType]Metronome Preset"
 msgstr "Preset de metrónomo"
+
+#: .\audiomixer\audiomixfxcomponent.cpp
+msgid "[Devices]Mix FX"
+msgstr "Mezcla FX"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
@@ -991,6 +1007,14 @@ msgstr "Quitar todo"
 msgid "[Command]Remove Channel"
 msgstr "Quitar canal"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channel"
+msgstr "Quitar canal"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove Channels"
+msgstr "Quitar canales"
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
 msgstr "Quitar parámetro actual"
@@ -1040,6 +1064,10 @@ msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Restablecimiento solicitado por dispositivo de audio!"
 
 #: .\transport\transportpanel.cpp
+msgid "[Transport]Return to Start on Stop"
+msgstr "Retornar al inicio en la parada"
+
+#: .\transport\transportpanel.cpp
 msgid "[Command]Return to Start on Stop"
 msgstr "Retornar al inicio en la parada"
 
@@ -1066,6 +1094,10 @@ msgstr "Guardando dispositivo: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Pantalla"
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Select Mix FX"
+msgstr "Seleccionar mezcla FX"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
@@ -1102,6 +1134,10 @@ msgstr "Paneo de envío"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Enviar a"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Set Play Start Marker"
+msgstr "Establecer marcador de inicio de reproducción"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1332,6 +1368,10 @@ msgstr "Utilice para tocar un instrumento MIDI externo y grabe los movimientos d
 msgid "[Studio]Used by"
 msgstr "Usado por"
 
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]VCA"
+msgstr "VCA"
+
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
 msgstr "Reproductor de video"
@@ -1342,6 +1382,10 @@ msgstr "Ver"
 
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Volume"
+msgstr "Volumen"
+
+#: .\audiomixer\channels\audiovcachannel.cpp
+msgid "[AudioVCAChannel]Volume"
 msgstr "Volumen"
 
 #: .\base\automationunit.cpp

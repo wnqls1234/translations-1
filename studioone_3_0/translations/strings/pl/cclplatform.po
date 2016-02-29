@@ -28,11 +28,19 @@ msgid ""
 "A Crash Dump has been created at:\n"
 "\n"
 "%(1)"
-msgstr "Wystąpił nieoczekiwany błąd w aplikacji lub jednej z wtyczek!\nZrzut pamięci został utworzony w:\n\n%(1)"
+msgstr ""
+"Wystąpił nieoczekiwany błąd w aplikacji lub jednej z wtyczek!\n"
+"Zrzut pamięci został utworzony w:\n"
+"\n"
+"%(1)"
 
 #: .\cocoa\gui\fileselector.cocoa.mm
 msgid "[FileSelector]Do you want to replace the existing file %(1) ?"
 msgstr "Czy chcesz zastąpić istniejący plik %(1)?"
+
+#: .\win\direct2d\dxgiengine.cpp
+msgid "[Win32]Graphics hardware acceleration issue detected."
+msgstr ""
 
 #: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide"

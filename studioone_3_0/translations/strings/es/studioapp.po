@@ -48,10 +48,6 @@ msgstr "Archivos de audio"
 msgid "[Options]Automation"
 msgstr "Automatización"
 
-#: .\sidebar.cpp
-msgid "[Command]Browser"
-msgstr "Explorador"
-
 #: .\soundsethandler.cpp
 msgid "[Tags]Character"
 msgstr "Caracter"
@@ -185,6 +181,10 @@ msgid "[StudioApp]Master"
 msgstr "Master"
 
 #: .\sidebar.cpp
+msgid "[Sidebar]Mix FX"
+msgstr "Mezcla FX"
+
+#: .\sidebar.cpp
 msgid "[Sidebar]Multi Instruments"
 msgstr "Multi instrumentos"
 
@@ -264,33 +264,9 @@ msgstr "Explorando sets de sonido..."
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "Enviar a un nuevo SampleOne"
 
-#: .\sidebar.cpp
-msgid "[Command]Show Cloud"
-msgstr "Mostrar nube"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Effects"
-msgstr "Mostrar efectos"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Files"
-msgstr "Mostrar archivos"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Home Page"
-msgstr "Mostrar página de inicio"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Instruments"
-msgstr "Mostrar instrumentos"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Loops"
-msgstr "Mostrar loops"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Pool"
-msgstr "Mostrar Pool"
+#: .\automationhandler.cpp
+msgid "[AutomationHandler]Show Automation"
+msgstr "Mostrar automatización"
 
 #: .\documenthandler.cpp
 msgid "[Command]Show Project"
@@ -349,12 +325,12 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr "El manual de referencia de  $APPNAME aún no ha sido instalado."
 
 #: .\soundsethandler.cpp
-msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
-msgstr "El set de sonido \"%(1)\" todavía está en uso. (%(2) Archivos abiertos!"
-
-#: .\soundsethandler.cpp
 msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
 msgstr "Los siguientes sets de sonidos fallaron al instalarse o están instalados varias veces en su sistema. Esto puede ser causado por las descargas de archivos incompletos.Quiere eliminar estos archivos ahora?"
+
+#: .\soundsethandler.cpp
+msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
+msgstr "El paquete  \"%(1)\" aún se encuentra en uso (%(2) archivos abiertos)!"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

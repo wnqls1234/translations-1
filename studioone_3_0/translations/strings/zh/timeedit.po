@@ -154,6 +154,15 @@ msgstr "编辑"
 msgid "[TimeRulerView]Edit Time Signature"
 msgstr "编辑拍号"
 
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Enable Play Start Marker"
+msgstr "启动播放开始标记"
+
+#: .\envelopes\envelopeedithandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp
+msgid "[Events]Fine"
+msgstr "精细"
+
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]First Event"
 msgstr "首事件"
@@ -247,6 +256,14 @@ msgid "[TimeRulerView]Loop Active"
 msgstr "激活循环"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Edit]Loop Follows Selection"
+msgstr "循环与选择保持一致"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Loop Follows Selection"
+msgstr "循环与选择保持一致"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Command]Loop Selection"
 msgstr "循环区域"
 
@@ -285,6 +302,10 @@ msgstr "移动"
 #: .\base\timerulerview.cpp
 msgid "[TimeRulerView]Move Loop Range"
 msgstr "移动循环范围"
+
+#: .\base\timerulerview.cpp
+msgid "[TimeRulerView]Move Play Start Marker"
+msgstr "移动播放开始标记"
 
 #: .\envelopes\envelopedraghandler.cpp
 msgid "[Envelopes]Move Points"
@@ -342,7 +363,7 @@ msgstr "名称"
 msgid "[MusicalScale]Natural Minor"
 msgstr "自然小调音阶"
 
-#: .\events\eventeditcomponent.cpp
+#: .\base\timeeditcomponent.cpp .\events\eventeditcomponent.cpp
 msgid "[Command]Navigation"
 msgstr "导航"
 
@@ -353,6 +374,10 @@ msgstr "下一事件"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Next Event Extend"
 msgstr "延长下一事件"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Next Hotspot"
+msgstr "下一个热点"
 
 #: .\music\musiceditcomponent.cpp
 msgid "[MusicEditComponent]Note Length"
@@ -429,6 +454,10 @@ msgstr "前一事件"
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Previous Event Extend"
 msgstr "延长前一事件"
+
+#: .\base\timeeditcomponent.cpp
+msgid "[Command]Previous Hotspot"
+msgstr "前一个热点"
 
 #: .\base\timesnapper.cpp
 msgid "[TimeSnapper]Quantize"
@@ -607,6 +636,10 @@ msgid "[Edit]Snap to Cursor & Loop"
 msgstr "对齐到光标和循环"
 
 #: .\base\timeeditcomponent.cpp
+msgid "[Command]Split"
+msgstr "分离"
+
+#: .\base\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
 msgstr "在指针处分割"
 
@@ -674,6 +707,10 @@ msgstr "传输标记"
 msgid "[Events]Transform Automation"
 msgstr "变换自动控制"
 
+#: .\envelopes\envelopeeditlayer.cpp
+msgid "[Command]Transform Range"
+msgstr "变换范围"
+
 #: .\base\timeeditcomponent.cpp
 msgid "[Command]Transport"
 msgstr "走带控制"
@@ -685,6 +722,10 @@ msgstr "三连音"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
 msgstr "撤销缩放"
+
+#: .\envelopes\envelopeedithandler.cpp
+msgid "[Events]Unlock Values / Time"
+msgstr "解锁价值 / 时间"
 
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Values Locked"

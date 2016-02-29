@@ -48,10 +48,6 @@ msgstr "オーディオファイル"
 msgid "[Options]Automation"
 msgstr "オートメーション"
 
-#: .\sidebar.cpp
-msgid "[Command]Browser"
-msgstr "ブラウザー"
-
 #: .\soundsethandler.cpp
 msgid "[Tags]Character"
 msgstr "特性"
@@ -185,6 +181,10 @@ msgid "[StudioApp]Master"
 msgstr "マスター"
 
 #: .\sidebar.cpp
+msgid "[Sidebar]Mix FX"
+msgstr "ミックスFX"
+
+#: .\sidebar.cpp
 msgid "[Sidebar]Multi Instruments"
 msgstr "マルチインストゥルメント"
 
@@ -264,33 +264,9 @@ msgstr "サウンドセットをスキャンしています..."
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "新規SampleOneに送信"
 
-#: .\sidebar.cpp
-msgid "[Command]Show Cloud"
-msgstr "クラウドを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Effects"
-msgstr "エフェクトを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Files"
-msgstr "ファイルを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Home Page"
-msgstr "ホームページを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Instruments"
-msgstr "インストゥルメントを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Loops"
-msgstr "ループを表示"
-
-#: .\sidebar.cpp
-msgid "[Command]Show Pool"
-msgstr "プールを表示"
+#: .\automationhandler.cpp
+msgid "[AutomationHandler]Show Automation"
+msgstr "オートメーションを表示"
 
 #: .\documenthandler.cpp
 msgid "[Command]Show Project"
@@ -349,12 +325,12 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr "$APPNAME リファレンスマニュアルがインストールされていません。"
 
 #: .\soundsethandler.cpp
-msgid "[StudioApp]The Sound Set \"%(1)\" is still in use (%(2) files open)!"
-msgstr "サウンドセット \"%(1)\" はまだ使用中です（%(2) ファイルが開いています）。"
-
-#: .\soundsethandler.cpp
 msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
 msgstr "次のサウンドセットは、インストールに失敗したか、システムに複数回インストールされています。これは、不完全なファイルダウンロードにより起きた可能性があります。今すぐこれらのファイルを削除しますか？"
+
+#: .\soundsethandler.cpp
+msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
+msgstr "パッケージ \"%(1)\" はまだ使用中です（ %(2) ファイルが開いています）。"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"
