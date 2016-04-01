@@ -138,7 +138,7 @@ msgstr "Dodaj dźwięk..."
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add VCA Channel"
-msgstr ""
+msgstr "Dodaj kanał VCA"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
@@ -402,6 +402,7 @@ msgstr "Odebrano informacje o urządzeniu \\%(1)."
 msgid "[Studio]Device/Port"
 msgstr "Urządzenie/port"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Urządzenia"
@@ -452,11 +453,11 @@ msgstr "Efekty"
 
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
-msgstr ""
+msgstr "Włącz marker początku odtwarzania"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Enable Play Start Marker"
-msgstr ""
+msgstr "Włącz marker początku odtwarzania"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
@@ -476,7 +477,7 @@ msgstr "Tłumik"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Favorite"
-msgstr "Ulubiony"
+msgstr "Ulubione"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
@@ -539,12 +540,12 @@ msgid "[Command]Hide Channel"
 msgstr "Ukryj kanał"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "Ukryj źródła"
+msgid "[Command]Hide Related Channels"
+msgstr "Ukryj powiązane kanały"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "Ukryj źródła"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr "Ukryj powiązane kanały"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -681,7 +682,7 @@ msgstr "Zestaw metronomu"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
-msgstr ""
+msgstr "FX miksu"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
@@ -1013,7 +1014,7 @@ msgstr "Usuń kanał"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remove Channels"
-msgstr ""
+msgstr "Usuń kanały"
 
 #: .\base\automationhandler.cpp
 msgid "[Command]Remove Current Parameter"
@@ -1063,6 +1064,10 @@ msgstr "Zastąp wysyłki:"
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Zażądano resetu urządzenia audio!"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr "Przywróć ustawienia urządzenia audio"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr "Wróć na początek po zatrzymaniu"
@@ -1097,7 +1102,7 @@ msgstr "Widoczne"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Select Mix FX"
-msgstr ""
+msgstr "Wybierz FX miksu"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
@@ -1137,7 +1142,7 @@ msgstr "Wysyłaj do"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
-msgstr ""
+msgstr "Ustaw marker początku odtwarzania"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1176,12 +1181,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr "Pokaż edytor instrumentu"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "Pokaż źródła"
+msgid "[Command]Show Related Channels"
+msgstr "Pokaż powiązane kanały"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "Pokaż źródła"
+msgid "[MixerConsole]Show Related Channels"
+msgstr "Pokaż powiązane kanały"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1316,12 +1321,12 @@ msgid "[Command]Toggle Loop"
 msgstr "Włącz / Wyłącz pętlę"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "Zmień rozmiar"
+msgid "[Command]Toggle Related Channels"
+msgstr "Przełącz powiązane kanały"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "Przełącz źródła"
+msgid "[Command]Toggle Size"
+msgstr "Zmień rozmiar"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1370,7 +1375,7 @@ msgstr "Używane przez"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]VCA"
-msgstr ""
+msgstr "VCA"
 
 #: .\video\videoplayer.cpp
 msgid "[VideoPlayer]Video Player"
@@ -1395,4 +1400,19 @@ msgstr "Write"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone\n\nCzy chcesz je teraz ponownie podłączyć?"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "Ukryj źródła"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "Ukryj źródła"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "Pokaż źródła"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "Pokaż źródła"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "Przełącz źródła"
 

@@ -255,7 +255,7 @@ msgstr "Verrouiller valeurs/temps"
 msgid "[TimeRulerView]Loop Active"
 msgstr "Boucle active"
 
-#: .\base\timeeditcomponent.cpp
+#: .\base\timeeditcomponent.cpp .\base\timerulerview.cpp
 msgid "[Edit]Loop Follows Selection"
 msgstr "Boucle asservie à la sélection"
 
@@ -513,7 +513,8 @@ msgstr "Courbe en S"
 
 #: .\tempo\tempoedithandler.cpp
 msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
-msgstr "Proportionner le tempo: veuillez graduer la règle temporelle en mesures"
+msgstr ""
+"Proportionner le tempo: veuillez graduer la règle temporelle en mesures"
 
 #: .\base\timeeditcomponent.cpp
 msgid "[Command]Select All in Loop"
@@ -774,4 +775,3 @@ msgstr "Zoom sur la sélection"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "Zoom horizontal sur la sélection"
-

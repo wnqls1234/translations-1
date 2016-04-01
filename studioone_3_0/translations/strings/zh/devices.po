@@ -402,6 +402,7 @@ msgstr "已接收%(1) 设备信息"
 msgid "[Studio]Device/Port"
 msgstr "设备/端口"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "设备"
@@ -539,12 +540,12 @@ msgid "[Command]Hide Channel"
 msgstr "隐藏通道"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "隐藏来源"
+msgid "[Command]Hide Related Channels"
+msgstr "隐藏相关轨道"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "隐藏来源"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr "隐藏相关轨道"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -1063,6 +1064,10 @@ msgstr "替换发送:"
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "按所需重置音频设备!"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr "回复音频设备设置"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr "停止后返回开始处"
@@ -1176,12 +1181,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr "显示乐器编辑"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "显示来源"
+msgid "[Command]Show Related Channels"
+msgstr "显示相关轨道"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "显示来源"
+msgid "[MixerConsole]Show Related Channels"
+msgstr "显示相关轨道"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1316,12 +1321,12 @@ msgid "[Command]Toggle Loop"
 msgstr "切换循环"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "切换大小"
+msgid "[Command]Toggle Related Channels"
+msgstr "切换相关轨道"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "切换来源"
+msgid "[Command]Toggle Size"
+msgstr "切换大小"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1395,4 +1400,19 @@ msgstr "写入"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI配置已改变, 也许即插即用式MIDI设备尚未正确连接.\n\n是否重新连接外部设备?"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "隐藏来源"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "隐藏来源"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "显示来源"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "显示来源"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "切换来源"
 

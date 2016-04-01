@@ -402,6 +402,7 @@ msgstr "%(1) のデバイス情報を受信しました。"
 msgid "[Studio]Device/Port"
 msgstr "デバイス/ポート"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "デバイス"
@@ -539,12 +540,12 @@ msgid "[Command]Hide Channel"
 msgstr "チャンネルを隠す"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "ソースを隠す"
+msgid "[Command]Hide Related Channels"
+msgstr "関連チャンネルを隠す"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "ソースを隠す"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr "関連チャンネルを隠す"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -1063,6 +1064,10 @@ msgstr "センドを置換:"
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "リセットがオーディオデバイスにより要求されました。"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr "オーディオデバイス設定を復元"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr "停止時にスタートに戻る"
@@ -1176,12 +1181,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr "インストゥルメントエディターを表示"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "ソースを表示"
+msgid "[Command]Show Related Channels"
+msgstr "関連チャンネルを表示"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "ソースを表示"
+msgid "[MixerConsole]Show Related Channels"
+msgstr "関連チャンネルを表示"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1316,12 +1321,12 @@ msgid "[Command]Toggle Loop"
 msgstr "ループを切り替え"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "サイズを切り替え"
+msgid "[Command]Toggle Related Channels"
+msgstr "関連チャンネルを切り替え"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "ソースを切り替え"
+msgid "[Command]Toggle Size"
+msgstr "サイズを切り替え"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1395,4 +1400,19 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "ソースを隠す"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "ソースを隠す"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "ソースを表示"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "ソースを表示"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "ソースを切り替え"
 

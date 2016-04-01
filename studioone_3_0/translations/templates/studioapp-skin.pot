@@ -462,6 +462,10 @@ msgstr ""
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr ""
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+msgstr ""
+
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
 msgstr ""
@@ -1189,6 +1193,10 @@ msgstr ""
 
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
+msgstr ""
+
+#: .\app\options.xml
+msgid "[EditingOption]Auto-colorize tracks and layers"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -2366,6 +2374,14 @@ msgstr ""
 msgid "[AudioEventFXProperties]Enable"
 msgstr ""
 
+#: .\app\options.xml
+msgid "[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr ""
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr ""
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr ""
@@ -2923,6 +2939,10 @@ msgstr ""
 msgid "[SongSetup]Include effects when updating mastering file"
 msgstr ""
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Include sources of bus channels without Mix FX"
+msgstr ""
+
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
 msgstr ""
@@ -3181,7 +3201,11 @@ msgid "[AudioSetup]Internal Block Size"
 msgstr ""
 
 #: .\devices\devices.xml
-msgid "[MacroTargetCurve]Invert"
+msgid "[MacroTargetCurve]Invert X"
+msgstr ""
+
+#: .\devices\devices.xml
+msgid "[MacroTargetCurve]Invert Y"
 msgstr ""
 
 #: .\project\analyser.xml
@@ -4028,6 +4052,10 @@ msgstr ""
 msgid "[ParamMapper]Parameter Mapping Control"
 msgstr ""
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Passthrough"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Password"
 msgstr ""
@@ -4152,6 +4180,10 @@ msgstr ""
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Play overlaps"
+msgstr ""
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Play overlaps"
 msgstr ""
 
 #: .\app\licenser.xml
@@ -4463,6 +4495,10 @@ msgstr ""
 
 #: .\app\toolbar.xml
 msgid "[ToolBar]Range Tool in upper event area"
+msgstr ""
+
+#: .\engine\editor.xml
+msgid "[EditorToolBar]Range Tool in upper event area"
 msgstr ""
 
 #: .\ccl\browser.xml

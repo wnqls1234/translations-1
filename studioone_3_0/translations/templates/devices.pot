@@ -398,6 +398,7 @@ msgstr ""
 msgid "[Studio]Device/Port"
 msgstr ""
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp
 #: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
@@ -537,11 +538,11 @@ msgid "[Command]Hide Channel"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
+msgid "[Command]Hide Related Channels"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
+msgid "[MixerConsole]Hide Related Channels"
 msgstr ""
 
 #: .\midi\miditimecode.cpp
@@ -1062,6 +1063,10 @@ msgstr ""
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr ""
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr ""
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr ""
@@ -1175,11 +1180,11 @@ msgid "[Command]Show Instrument Editor"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
+msgid "[Command]Show Related Channels"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
+msgid "[MixerConsole]Show Related Channels"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
@@ -1315,11 +1320,11 @@ msgid "[Command]Toggle Loop"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
+msgid "[Command]Toggle Related Channels"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
+msgid "[Command]Toggle Size"
 msgstr ""
 
 #: .\transport\transportpanel.cpp

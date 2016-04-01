@@ -405,6 +405,7 @@ msgstr ""
 msgid "[Studio]Device/Port"
 msgstr "Zařízení/Port"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Zařízení"
@@ -551,12 +552,12 @@ msgid "[Command]Hide Channel"
 msgstr "Skrýt kanál"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "Skrýt zdroje"
+msgid "[Command]Hide Related Channels"
+msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "Skrýt zdroje"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr ""
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -1087,6 +1088,10 @@ msgstr ""
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Zvukové zařízení vyžaduje reset!"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr ""
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr ""
@@ -1200,12 +1205,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "Zobrazit zdroje"
+msgid "[Command]Show Related Channels"
+msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "Zobrazit zdroje"
+msgid "[MixerConsole]Show Related Channels"
+msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1362,12 +1367,12 @@ msgid "[Command]Toggle Loop"
 msgstr "Přepnout stav smyčky"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "Přepnout velikost"
+msgid "[Command]Toggle Related Channels"
+msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "Připevnit zdroje"
+msgid "[Command]Toggle Size"
+msgstr "Přepnout velikost"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1455,6 +1460,21 @@ msgstr ""
 "které dosud nebylo připojeno.\n"
 "\n"
 "Přejete si nyní připojit toto externí zařízení?"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "Skrýt zdroje"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "Skrýt zdroje"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "Zobrazit zdroje"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "Zobrazit zdroje"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "Připevnit zdroje"
 
 #~ msgid ""
 #~ "[MixerConsole]Are you sure you want to move these channels to the Trash "

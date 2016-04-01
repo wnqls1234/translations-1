@@ -468,6 +468,10 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
@@ -1195,6 +1199,10 @@ msgstr "Cola automática"
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
 msgstr "Cola automática"
+
+#: .\app\options.xml
+msgid "[EditingOption]Auto-colorize tracks and layers"
+msgstr "Auto colorear pistas y capas"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -2364,6 +2372,14 @@ msgstr "Habilitar"
 msgid "[AudioEventFXProperties]Enable"
 msgstr "Habilitar"
 
+#: .\app\options.xml
+msgid "[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr "Habilitar &apos;Reproducir superposiciones&apos; para nuevas pistas de audio "
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr "Habilitar &apos;Reproducir superposiciones&apos; para nuevas pistas de audio "
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr "Habilitar modo High DPI"
@@ -2916,6 +2932,10 @@ msgstr "In"
 msgid "[SongSetup]Include effects when updating mastering file"
 msgstr "Incluir efectos en la actualización del archivo de Mastering "
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Include sources of bus channels without Mix FX"
+msgstr "Incluir fuentes de canales de bus sin mezcla FX"
+
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
 msgstr "Info"
@@ -3173,8 +3193,12 @@ msgid "[AudioSetup]Internal Block Size"
 msgstr "Tamaño de bloque interno"
 
 #: .\devices\devices.xml
-msgid "[MacroTargetCurve]Invert"
-msgstr "Invertir"
+msgid "[MacroTargetCurve]Invert X"
+msgstr "Invertir X"
+
+#: .\devices\devices.xml
+msgid "[MacroTargetCurve]Invert Y"
+msgstr "Invertir Y"
 
 #: .\project\analyser.xml
 msgid "[Analyser]K-12"
@@ -4012,6 +4036,10 @@ msgstr "Parámetro"
 msgid "[ParamMapper]Parameter Mapping Control"
 msgstr "Control de mapeo de parámetro"
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Passthrough"
+msgstr "Paso a través"
+
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Password"
 msgstr "Contraseña"
@@ -4130,6 +4158,10 @@ msgstr "Reproducir a tempo de canción"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Play overlaps"
+msgstr "Reproducir superposiciones"
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Play overlaps"
 msgstr "Reproducir superposiciones"
 
 #: .\app\licenser.xml
@@ -4438,6 +4470,10 @@ msgstr "Rango"
 
 #: .\app\toolbar.xml
 msgid "[ToolBar]Range Tool in upper event area"
+msgstr "Herramienta de rango en la parte superior del área de evento"
+
+#: .\engine\editor.xml
+msgid "[EditorToolBar]Range Tool in upper event area"
 msgstr "Herramienta de rango en la parte superior del área de evento"
 
 #: .\ccl\browser.xml
@@ -6383,4 +6419,7 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[MacroTargetCurve]Invert"
+#~ msgstr "Invertir"
 

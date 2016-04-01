@@ -468,6 +468,10 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
@@ -1195,6 +1199,10 @@ msgstr "Queue automatique"
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Auto Tail"
 msgstr "Queue automatique"
+
+#: .\app\options.xml
+msgid "[EditingOption]Auto-colorize tracks and layers"
+msgstr "Auto-colorer pistes et couches"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -2364,6 +2372,14 @@ msgstr "Activer"
 msgid "[AudioEventFXProperties]Enable"
 msgstr "Activer"
 
+#: .\app\options.xml
+msgid "[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr "Activer &apos;Lire les chevauchements&apos; pour les nouvelles pistes audio"
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgstr "Activer &apos;Lire les chevauchements&apos; pour les nouvelles pistes audio"
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr "Activer le mode High DPI"
@@ -2916,6 +2932,10 @@ msgstr "Ent."
 msgid "[SongSetup]Include effects when updating mastering file"
 msgstr "Inclure les effets à la mise à jour du fichier de mastering"
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Include sources of bus channels without Mix FX"
+msgstr "Inclure les sources des canaux de bus sans Mix FX"
+
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Info"
 msgstr "Info"
@@ -3173,8 +3193,12 @@ msgid "[AudioSetup]Internal Block Size"
 msgstr "Bloc interne"
 
 #: .\devices\devices.xml
-msgid "[MacroTargetCurve]Invert"
-msgstr "Inverser"
+msgid "[MacroTargetCurve]Invert X"
+msgstr "Inverser X"
+
+#: .\devices\devices.xml
+msgid "[MacroTargetCurve]Invert Y"
+msgstr "Inverser Y"
 
 #: .\project\analyser.xml
 msgid "[Analyser]K-12"
@@ -4012,6 +4036,10 @@ msgstr "Paramètre"
 msgid "[ParamMapper]Parameter Mapping Control"
 msgstr "Contrôle d'affectation de paramètre"
 
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Passthrough"
+msgstr "Passage direct"
+
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Password"
 msgstr "Mot de passe"
@@ -4130,6 +4158,10 @@ msgstr "Lire au tempo du morceau"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Play overlaps"
+msgstr "Lire les chevauchements"
+
+#: .\engine\songdialogs.xml
+msgid "[NewSong]Play overlaps"
 msgstr "Lire les chevauchements"
 
 #: .\app\licenser.xml
@@ -4438,6 +4470,10 @@ msgstr "Plage"
 
 #: .\app\toolbar.xml
 msgid "[ToolBar]Range Tool in upper event area"
+msgstr "Outil plage en partie haute d'événement"
+
+#: .\engine\editor.xml
+msgid "[EditorToolBar]Range Tool in upper event area"
 msgstr "Outil plage en partie haute d'événement"
 
 #: .\ccl\browser.xml
@@ -6383,4 +6419,7 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[MacroTargetCurve]Invert"
+#~ msgstr "Inverser"
 

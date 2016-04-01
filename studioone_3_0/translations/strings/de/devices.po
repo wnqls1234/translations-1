@@ -402,6 +402,7 @@ msgstr "Geräteinformation für %(1) erhalten."
 msgid "[Studio]Device/Port"
 msgstr "Gerät/Port"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Geräte"
@@ -539,12 +540,12 @@ msgid "[Command]Hide Channel"
 msgstr "Kanal ausblenden"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "Quellen ausblenden"
+msgid "[Command]Hide Related Channels"
+msgstr "Zugehörige Kanäle verstecken"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "Quellen ausblenden"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr "Zugehörige Kanäle verstecken"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -1063,6 +1064,10 @@ msgstr "Sends ersetzen:"
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Reset von Audiogerät angefordert!"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr "Audiogeräteeinstellungen wiederherstellen"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr "Zur Startposition zurück bei Stopp"
@@ -1176,12 +1181,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr "Instrumenteneditor öffnen"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "Quellen anzeigen"
+msgid "[Command]Show Related Channels"
+msgstr "Zugehörige Kanäle anzeigen"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "Quellen anzeigen"
+msgid "[MixerConsole]Show Related Channels"
+msgstr "Zugehörige Kanäle anzeigen"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1316,12 +1321,12 @@ msgid "[Command]Toggle Loop"
 msgstr "Loop aktiv"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "Größe umschalten"
+msgid "[Command]Toggle Related Channels"
+msgstr "Zugehörige Kanäle umschalten"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "Quellen umschalten"
+msgid "[Command]Toggle Size"
+msgstr "Größe umschalten"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1395,4 +1400,19 @@ msgstr "Write"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Ihre MIDI-Konfiguration hat sich geändert. Dies kann durch ein nicht verbundenes entfernbares Gerät verursacht worden sein.\n\nMöchten Sie Ihre externen Geräte jetzt erneut anschließen?"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "Quellen ausblenden"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "Quellen ausblenden"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "Quellen anzeigen"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "Quellen anzeigen"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "Quellen umschalten"
 

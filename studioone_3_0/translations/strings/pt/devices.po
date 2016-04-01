@@ -402,6 +402,7 @@ msgstr "Informação de Dispositivo recebida para %(1)."
 msgid "[Studio]Device/Port"
 msgstr "Dispositivo/Porta"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Dispositivos"
@@ -539,12 +540,12 @@ msgid "[Command]Hide Channel"
 msgstr "Esconder Canal"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Hide Sources"
-msgstr "Esconder Fontes"
+msgid "[Command]Hide Related Channels"
+msgstr "Esconder Canais Relacionados"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Hide Sources"
-msgstr "Esconder Fontes"
+msgid "[MixerConsole]Hide Related Channels"
+msgstr "Esconder Canais Relacionados"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -1063,6 +1064,10 @@ msgstr "Substituir Envios:"
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Reinício solicitado pelo Dispositivo de Áudio!"
 
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Restore Audio Device Settings"
+msgstr "Restaurar Configurações do Dispositivo de Áudio"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Return to Start on Stop"
 msgstr "Retornar para Início ao Interromper"
@@ -1176,12 +1181,12 @@ msgid "[Command]Show Instrument Editor"
 msgstr "Exibir Editor de Instrumento"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Show Sources"
-msgstr "Exibir Fontes"
+msgid "[Command]Show Related Channels"
+msgstr "Exibir Canais Relacionados"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[MixerConsole]Show Sources"
-msgstr "Exibir Fontes"
+msgid "[MixerConsole]Show Related Channels"
+msgstr "Exibir Canais Relacionados"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1316,12 +1321,12 @@ msgid "[Command]Toggle Loop"
 msgstr "Alternar Loop"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Size"
-msgstr "Alternar Tamanho"
+msgid "[Command]Toggle Related Channels"
+msgstr "Alternar Canais Relacionados"
 
 #: .\mixerconsole\mixerconsole.cpp
-msgid "[Command]Toggle Sources"
-msgstr "Alternar Fontes"
+msgid "[Command]Toggle Size"
+msgstr "Alternar Tamanho"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Toggle Start"
@@ -1395,4 +1400,19 @@ msgstr "Escrita"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
+
+#~ msgid "[Command]Hide Sources"
+#~ msgstr "Esconder Fontes"
+
+#~ msgid "[MixerConsole]Hide Sources"
+#~ msgstr "Esconder Fontes"
+
+#~ msgid "[Command]Show Sources"
+#~ msgstr "Exibir Fontes"
+
+#~ msgid "[MixerConsole]Show Sources"
+#~ msgstr "Exibir Fontes"
+
+#~ msgid "[Command]Toggle Sources"
+#~ msgstr "Alternar Fontes"
 
