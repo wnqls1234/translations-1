@@ -1,5 +1,5 @@
 PreSonus Software Localization Guide
-Copyright (c)2012 PreSonus Software Ltd. All Rights Reserved.
+Copyright (c)2016 PreSonus Software Ltd. All Rights Reserved.
 
 INTRODUCTION
 
@@ -11,7 +11,7 @@ GETTING STARTED
 
 The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at is the "translations/strings/<language-code>" folder. It contains all .po files for the given language that make up the main part of the translation effort.
 
-For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "translations/resources/devices" and the EULA in "translations/projects/studioapp/<language-code>".
+For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "translations/resources/devices" and the EULA in "translations/eula".
 
 LOCALIZATION TOOLS
 
@@ -19,4 +19,4 @@ You can use any software localization tool compatible with the .po file format. 
 
 DEPLOYMENT
 
-Language packs for our products are hosted on PreSonus Exchange (http://studioone.presonus.com/exchange-landing/). The final step of preparing the installation file for your language pack extension will be done by PreSonus.
+Language packs for our products are hosted on PreSonus Exchange (http://studioone.presonus.com/exchange/). The final step of preparing the installation file for your language pack extension will be done by PreSonus.
