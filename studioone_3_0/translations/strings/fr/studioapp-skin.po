@@ -284,6 +284,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr "0"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -1169,8 +1173,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "Écoute de piste audio asservie à l'enregistrement"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "L'écoute de piste audio coupe le son lu (style magnéto)"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgstr "La lecture de piste audio coupe l'écoute de contrôle (style magnéto)"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1553,6 +1557,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr "Numéro de canal"
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr "Numéro de canal"
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr "Numéro de canal"
 
@@ -1636,8 +1644,16 @@ msgstr "Effacer les balises"
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Clic On/Off"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr "Clic On/Off"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr "Volume du clic"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "Volume du clic"
 
 #: .\devices\transport.xml
@@ -1653,15 +1669,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr "Cliquer+Tirer le paramètre"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "Écrêtage"
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr "Écrêtage"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "Écrêtage"
 
 #: .\engine\trackcontrols.xml
@@ -1673,7 +1681,15 @@ msgid "[Analyser]Clip"
 msgstr "Écrêtage"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr "Écrêtage/Niveaux crêtes"
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr "Écrêtage/Niveaux crêtes"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr "Écrêtage/Niveaux crêtes"
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "Périphérique"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr "Périphérique"
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr "Périphérique"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr "Périphérique"
 
 #: .\project\burn.xml
@@ -2531,6 +2555,10 @@ msgstr "Déployer les couches"
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
 msgstr "Déployer les couches"
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr "Déployer les couches après les prises d'enregistrement"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -3648,6 +3676,10 @@ msgstr "Écouter"
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "Écouter"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr "Écoute de contrôle asservie à l'enregistrement"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Plus d'infos"
@@ -4163,6 +4195,10 @@ msgstr "Lire les chevauchements"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "Lire les chevauchements"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+msgstr "La lecture coupe l'écoute de contrôle (style magnéto)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -6419,7 +6455,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[MacroTargetCurve]Invert"
-#~ msgstr "Inverser"
 

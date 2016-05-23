@@ -284,6 +284,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr "0"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -1169,8 +1173,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "Monitoração de Pista de Áudio Segue Gravação"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "Monitoração de Pista de Áudio silencia Reprodução (Estilo Fita)"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgstr "Reprodução de pistas de áudio silencia a monitoração (Estilo fita)"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1553,6 +1557,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr "Número de Canal"
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr "Número de Canal"
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr "Número de Canal"
 
@@ -1636,8 +1644,16 @@ msgstr "Limpeza de Rótulos"
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Liga/Desl. Metrônomo"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr "Liga/Desl. Metrônomo"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr "Volume do Metrônomo"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "Volume do Metrônomo"
 
 #: .\devices\transport.xml
@@ -1653,15 +1669,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr "Clicar+Arrastar Parâmetro"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "Clip"
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr "Clip"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "Clip"
 
 #: .\engine\trackcontrols.xml
@@ -1673,7 +1681,15 @@ msgid "[Analyser]Clip"
 msgstr "Clip"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr "Níveis de Clip / Pico"
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr "Níveis de Clip / Pico"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr "Níveis de Clip / Pico"
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "Dispositivo"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr "Dispositivo"
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr "Dispositivo"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr "Dispositivo"
 
 #: .\project\burn.xml
@@ -2531,6 +2555,10 @@ msgstr "Expandir Camadas"
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
 msgstr "Expandir Camadas"
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr "Expandir camadas após gravar takes"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -3648,6 +3676,10 @@ msgstr "Monitor"
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "Monitor"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr "Monitoração segue gravação"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Mais informações"
@@ -4163,6 +4195,10 @@ msgstr "Reproduzir sobreposições"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "Reproduzir sobreposições"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+msgstr "Reprodução silencia a monitoração (Estilo fita)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -6419,7 +6455,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[MacroTargetCurve]Invert"
-#~ msgstr "Inverter"
 

@@ -72,6 +72,10 @@ msgstr "Avanzado"
 msgid "[Documents]Age"
 msgstr "Edad"
 
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]All tags are valid."
+msgstr "Todas las etiquetas son válidas."
+
 #: .\application.cpp
 msgid "[Application]An instance of %(1) is already running!"
 msgstr "Una instancia de %(1) ya se está ejecutando!"
@@ -143,6 +147,14 @@ msgstr "Categoría"
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Category"
 msgstr "Categoría"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Checking files in \"%(1)\""
+msgstr "Verificando archivos en \"%(1)\""
+
+#: .\datastore\tagstore.cpp .\datastore\tagstorecomponent.cpp
+msgid "[TagStore]Cleanup Tags of Missing Files"
+msgstr "Limpiar etiquetas de archivos perdidos"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
@@ -371,6 +383,10 @@ msgstr "Desea eliminar la referencia a él desde la lista de recientes?"
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
 msgstr "Desea eliminar estas carpetas?"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Do you want to remove these tag entries for non-existing files?"
+msgstr "Desea eliminar estas entradas de etiquetas para archivos inexistentes?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
@@ -1245,6 +1261,10 @@ msgstr "Arriba"
 #: .\presets\presetmanager.cpp
 msgid "[Command]Update Plug-Ins"
 msgstr "Actualizar plug-ins"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Updated tags in %(1)\n"
+msgstr "Etiquetas actualizadas en %(1)\n"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"

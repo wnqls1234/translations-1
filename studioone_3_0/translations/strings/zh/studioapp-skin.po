@@ -284,6 +284,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr "0"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -1169,8 +1173,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "录音轨道实时监听"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "音轨监听哑音回放(Tape Style)"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgstr "音频轨道回放哑音监听（Tape方式）"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1553,6 +1557,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr "轨道数量"
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr "轨道数量"
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr "轨道数量"
 
@@ -1636,8 +1644,16 @@ msgstr "清除标签"
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "节拍器开/关"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr "节拍器开/关"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr "节拍器音量"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "节拍器音量"
 
 #: .\devices\transport.xml
@@ -1653,15 +1669,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr "点击并拖拉参数"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "剪贴"
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr "剪贴"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "剪贴"
 
 #: .\engine\trackcontrols.xml
@@ -1673,7 +1681,15 @@ msgid "[Analyser]Clip"
 msgstr "剪贴"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr "剪贴/峰值音量"
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr "剪贴/峰值音量"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr "剪贴/峰值音量"
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "设备"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr "设备"
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr "设备"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr "设备"
 
 #: .\project\burn.xml
@@ -2531,6 +2555,10 @@ msgstr "扩展层"
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
 msgstr "扩展层"
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr "录音后展开图层"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -3648,6 +3676,10 @@ msgstr "监视器"
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "监视器"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr "监听跟随录音"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "更多信息"
@@ -4163,6 +4195,10 @@ msgstr "播放重叠部分"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "播放重叠部分"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+msgstr "回放哑音监听（Tape方式）"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -6419,7 +6455,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[MacroTargetCurve]Invert"
-#~ msgstr "反转"
 

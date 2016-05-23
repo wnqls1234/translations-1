@@ -72,6 +72,10 @@ msgstr "高级"
 msgid "[Documents]Age"
 msgstr "时代"
 
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]All tags are valid."
+msgstr "所有标签均有效。"
+
 #: .\application.cpp
 msgid "[Application]An instance of %(1) is already running!"
 msgstr "实例%(1)已经运行!"
@@ -143,6 +147,14 @@ msgstr "类别"
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Category"
 msgstr "类别"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Checking files in \"%(1)\""
+msgstr "检查 \"%(1)\"中的文件"
+
+#: .\datastore\tagstore.cpp .\datastore\tagstorecomponent.cpp
+msgid "[TagStore]Cleanup Tags of Missing Files"
+msgstr "清除丢失文件的标签"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
@@ -371,6 +383,10 @@ msgstr "是否从最近使用的文件列表中移除?"
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
 msgstr "是否确认移除这些文件夹？"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Do you want to remove these tag entries for non-existing files?"
+msgstr "是否确定移除这些不存在文件的标签？"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
@@ -1245,6 +1261,10 @@ msgstr "向上"
 #: .\presets\presetmanager.cpp
 msgid "[Command]Update Plug-Ins"
 msgstr "更新插件"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Updated tags in %(1)\n"
+msgstr "更新%(1)中的标签\n"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"

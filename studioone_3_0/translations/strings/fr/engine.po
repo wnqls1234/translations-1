@@ -734,6 +734,10 @@ msgstr "Événement"
 msgid "[EventInspector]Event Color"
 msgstr "Couleur de l'événement"
 
+#: .\audioediting\audioeditextension.cpp
+msgid "[Engine]Event FX"
+msgstr "Effet"
+
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Expand Envelopes"
 msgstr "Déployer les enveloppes"
@@ -1543,6 +1547,10 @@ msgstr "N'extraire que l'audio"
 msgid "[Command]Open Arrangertrack"
 msgstr "Ouvrir piste arrangeur"
 
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Open Event FX Editor"
+msgstr "Ouvrir l'éditeur d'effet d'événement"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "Ouvrir la piste des marqueurs"
@@ -1709,10 +1717,6 @@ msgstr "Mode d'enregistrement"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Record Mode Overdub"
-msgstr "Enregistrement avec superposition"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Record Mode Overdub"
 msgstr "Enregistrement avec superposition"
 
 #: .\musicediting\musicrecordcomponent.cpp

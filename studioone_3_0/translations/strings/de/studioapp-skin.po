@@ -284,6 +284,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr "0"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -1169,8 +1173,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "Audiospur-Mithören folgt Aufnahmemodus"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "Audiospur-Mithören schaltet Wiedergabe stumm (Tape Style)"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgstr "Audiospur-Wiedergabe schaltet Mithören stumm (Tape Style)"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1553,6 +1557,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr "Kanalnummer"
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr "Kanalnummer"
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr "Kanalnummer"
 
@@ -1636,8 +1644,16 @@ msgstr "Tags löschen"
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Click an/aus"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr "Click an/aus"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr "Clicklautstärke"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "Clicklautstärke"
 
 #: .\devices\transport.xml
@@ -1653,15 +1669,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr "Parameter anklicken und ziehen"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "Clip"
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr "Clip"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "Clip"
 
 #: .\engine\trackcontrols.xml
@@ -1673,7 +1681,15 @@ msgid "[Analyser]Clip"
 msgstr "Clip"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr "Clip/Spitzenpegel"
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr "Clip/Spitzenpegel"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr "Clip/Spitzenpegel"
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "Gerät"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr "Gerät"
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr "Gerät"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr "Gerät"
 
 #: .\project\burn.xml
@@ -2531,6 +2555,10 @@ msgstr "Ebenen ausklappen"
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
 msgstr "Ebenen ausklappen"
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr "Ebenen nach Take-Aufnahme ausklappen"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -3648,6 +3676,10 @@ msgstr "Mithören"
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "Mithören"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr "Mithören folgt Aufnahmemodus"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Mehr Informationen"
@@ -4163,6 +4195,10 @@ msgstr "Überlappungen wiedergeben"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "Überlappungen wiedergeben"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+msgstr "Wiedergabe schaltet Mithören stumm (Tape Style)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -6419,7 +6455,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[MacroTargetCurve]Invert"
-#~ msgstr "Umkehren"
 

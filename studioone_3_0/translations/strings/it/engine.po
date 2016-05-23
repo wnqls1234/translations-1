@@ -734,6 +734,10 @@ msgstr "Evento"
 msgid "[EventInspector]Event Color"
 msgstr "Colore dell'evento"
 
+#: .\audioediting\audioeditextension.cpp
+msgid "[Engine]Event FX"
+msgstr "FX dell'evento"
+
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Expand Envelopes"
 msgstr "Espandi gli inviluppi"
@@ -1543,6 +1547,10 @@ msgstr "Estrai solo l'Audio"
 msgid "[Command]Open Arrangertrack"
 msgstr "Apri traccia arranger"
 
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Open Event FX Editor"
+msgstr "Apri l'Editor dell'Evento FX"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "Apri traccia Marker"
@@ -1709,10 +1717,6 @@ msgstr "Modalità di Registrazione"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Record Mode Overdub"
-msgstr "Modalità di registrazione in sovraincisione"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Record Mode Overdub"
 msgstr "Modalità di registrazione in sovraincisione"
 
 #: .\musicediting\musicrecordcomponent.cpp

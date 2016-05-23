@@ -72,6 +72,10 @@ msgstr "詳細"
 msgid "[Documents]Age"
 msgstr "時期"
 
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]All tags are valid."
+msgstr "すべてのタグは有効です。"
+
 #: .\application.cpp
 msgid "[Application]An instance of %(1) is already running!"
 msgstr "%(1) のインスタンスはすでに動作しています。"
@@ -143,6 +147,14 @@ msgstr "カテゴリ"
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Category"
 msgstr "カテゴリ"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Checking files in \"%(1)\""
+msgstr "\"%(1)\" のファイルを確認しています"
+
+#: .\datastore\tagstore.cpp .\datastore\tagstorecomponent.cpp
+msgid "[TagStore]Cleanup Tags of Missing Files"
+msgstr "行方不明のファイルのタグのクリーンアップ"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
@@ -371,6 +383,10 @@ msgstr "リストから参照を削除しますか？"
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
 msgstr "これらのフォルダーを削除しますか？"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Do you want to remove these tag entries for non-existing files?"
+msgstr "存在しないファイルに対するこれらのタグエントリを削除しますか？"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
@@ -1245,6 +1261,10 @@ msgstr "上"
 #: .\presets\presetmanager.cpp
 msgid "[Command]Update Plug-Ins"
 msgstr "プラグインを更新"
+
+#: .\datastore\tagstore.cpp
+msgid "[TagStore]Updated tags in %(1)\n"
+msgstr "%(1) で更新されたタグ\n"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"

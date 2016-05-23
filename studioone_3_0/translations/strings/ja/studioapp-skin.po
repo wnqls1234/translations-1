@@ -284,6 +284,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr "0"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -1169,8 +1173,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "選択したトラックでオーディオトラックモニターを有効"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
-msgstr "オーディオトラックモニター中にオーディオトラックの再生をミュート（テープスタイル）"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgstr "オーディオトラックの再生中にモニターをミュート（テープスタイル）"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1553,6 +1557,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr "チャンネル番号"
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr "チャンネル番号"
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr "チャンネル番号"
 
@@ -1636,8 +1644,16 @@ msgstr "タグをクリア"
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "クリックオン/オフ"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr "クリックオン/オフ"
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr "クリックボリューム"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "クリックボリューム"
 
 #: .\devices\transport.xml
@@ -1653,15 +1669,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "クリップ"
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr "クリップ"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr "クリップ"
 
 #: .\engine\trackcontrols.xml
@@ -1673,7 +1681,15 @@ msgid "[Analyser]Clip"
 msgstr "クリップ"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr "クリップ/ピークレベル"
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr "クリップ/ピークレベル"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "デバイス"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr "デバイス"
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr "デバイス"
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr "デバイス"
 
 #: .\project\burn.xml
@@ -2531,6 +2555,10 @@ msgstr "レイヤーを展開"
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
 msgstr "レイヤーを展開"
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr "テイク録音後にレイヤーを展開"
 
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
@@ -3648,6 +3676,10 @@ msgstr "モニター"
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "モニター"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr "選択したトラックでモニターを有効"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "詳細"
@@ -4163,6 +4195,10 @@ msgstr "オーバーラップを再生"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "オーバーラップを再生"
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+msgstr "トラックの再生中にモニターをミュート（テープスタイル）"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -6419,7 +6455,4 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
-
-#~ msgid "[MacroTargetCurve]Invert"
-#~ msgstr "反転"
 

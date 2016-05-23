@@ -278,6 +278,10 @@ msgstr ""
 msgid "[TransportPanel]/"
 msgstr ""
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr ""
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr ""
@@ -1164,7 +1168,7 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr ""
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
+msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
 msgstr ""
 
 #: .\devices\audiomixer.xml
@@ -1550,6 +1554,10 @@ msgid "[MusicTrackInspector]Channel Number"
 msgstr ""
 
 #: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
 msgid "[FolderTrackInspector]Channel Number"
 msgstr ""
 
@@ -1634,8 +1642,16 @@ msgstr ""
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr ""
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr ""
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr ""
 
 #: .\devices\transport.xml
@@ -1651,15 +1667,7 @@ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
 msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr ""
-
-#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
-msgstr ""
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -1671,7 +1679,15 @@ msgid "[Analyser]Clip"
 msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr ""
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
+msgstr ""
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
@@ -2085,7 +2101,15 @@ msgid "[AutomationTrackInspector]Device"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
 msgstr ""
 
 #: .\project\burn.xml
@@ -2532,6 +2556,10 @@ msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[MusicTrackControls]Expand Layers"
+msgstr ""
+
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
 msgstr ""
 
 #: .\app\about.xml
@@ -3661,6 +3689,10 @@ msgstr ""
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr ""
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr ""
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr ""
@@ -4184,6 +4216,10 @@ msgstr ""
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
+msgstr ""
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
 msgstr ""
 
 #: .\app\licenser.xml

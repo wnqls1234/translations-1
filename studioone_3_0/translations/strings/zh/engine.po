@@ -734,6 +734,10 @@ msgstr "事件"
 msgid "[EventInspector]Event Color"
 msgstr "事件颜色"
 
+#: .\audioediting\audioeditextension.cpp
+msgid "[Engine]Event FX"
+msgstr "事件FX"
+
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Expand Envelopes"
 msgstr "扩展包络线"
@@ -1543,6 +1547,10 @@ msgstr "仅提取音频"
 msgid "[Command]Open Arrangertrack"
 msgstr "打开编曲跟踪"
 
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Open Event FX Editor"
+msgstr "打开事件FX编辑器"
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "打开标记轨"
@@ -1709,10 +1717,6 @@ msgstr "录音模式"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Record Mode Overdub"
-msgstr "覆盖式录音模式"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Record Mode Overdub"
 msgstr "覆盖式录音模式"
 
 #: .\musicediting\musicrecordcomponent.cpp
