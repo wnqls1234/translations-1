@@ -32,7 +32,7 @@ msgstr "适度"
 msgid "[QuantizeDragHandler]Add Groove Pattern"
 msgstr "增加律动样式"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Automation"
 msgstr "自动控制"
 
@@ -158,8 +158,7 @@ msgstr "编辑拍号"
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr "启动播放开始标记"
 
-#: .\envelopes\envelopeedithandler.cpp
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopeedithandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Fine"
 msgstr "精细"
 
@@ -527,6 +526,14 @@ msgstr "全选-音轨"
 msgid "[Command]Select Base"
 msgstr "选择基础"
 
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "选择从Event至结束"
+
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "选择从开始至Event"
+
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Septole"
 msgstr "七连音"
@@ -703,11 +710,11 @@ msgstr "缩放切换"
 msgid "[MusicEditComponent]Transfer Notes"
 msgstr "传输标记"
 
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Transform Automation"
 msgstr "变换自动控制"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Transform Range"
 msgstr "变换范围"
 
@@ -774,3 +781,4 @@ msgstr "缩放到选区"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "水平缩放到选区"
+

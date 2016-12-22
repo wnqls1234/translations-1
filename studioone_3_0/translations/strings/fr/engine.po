@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) fichiers ont été trouvés dans %(1)"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr "(désactivé)"
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr "(Vide)"
 
@@ -306,6 +310,10 @@ msgstr "Refrain"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Cliquer+tirer sur le paramètre"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr "Codec non pris en charge !"
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Colorier l'automation"
@@ -442,6 +450,10 @@ msgstr "Créer des plages sur les pistes"
 msgid "[Command]Create Sections from Markers"
 msgstr "Créer des sections d'après les marqueurs"
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr "Recadrer sur le contenu"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "Date"
@@ -521,6 +533,18 @@ msgstr "Périphérique"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "Périphériques"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr "Désactiver"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr "Désactiver les pistes sélectionnées"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr "Désactiver la piste"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -718,6 +742,14 @@ msgstr "Éditer la valeur"
 msgid "[Command]Enable"
 msgstr "Activer"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr "Activer les pistes sélectionnées"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr "Activer la piste"
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "Fin"
@@ -838,9 +870,17 @@ msgstr "Échec de l'exportation de fichier audio."
 msgid "[Engine]File not found!"
 msgstr "Fichier non trouvé!"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr "Remplir les blancs"
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "Fin"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr "Finition"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"

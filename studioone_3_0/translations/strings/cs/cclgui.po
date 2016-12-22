@@ -49,6 +49,10 @@ msgid "[ProgressDialog]Cancelling..."
 msgstr "Rušení…"
 
 #: .\keyevent.cpp
+msgid "[VirtualKey]Caps Lock"
+msgstr ""
+
+#: .\keyevent.cpp
 msgid "[VirtualKey]Channel Down"
 msgstr "Kanál dolů"
 
@@ -293,8 +297,12 @@ msgid "[FileType]JPEG File"
 msgstr "Soubor JPEG"
 
 #: .\dialogs\commandeditor.cpp
-msgid "[CommandEditor]Key is already assigned to:\n%(1)"
-msgstr "Klávesa je již přiřazena:\n%(1)"
+msgid ""
+"[CommandEditor]Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"Klávesa je již přiřazena:\n"
+"%(1)"
 
 #: .\commands.cpp
 msgid "[FileType]Keyboard Mapping Scheme"
@@ -649,6 +657,7 @@ msgid "[Alert]Yes"
 msgstr "Ano"
 
 #: .\dialogs\useroptionmodel.cpp
-msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
+msgid ""
+"[UserOption]You have made changes to the setup. Do you want to apply the "
+"changes?"
 msgstr "Provedli jste změny v nastavení. Chcete tyto změny použít?"
-

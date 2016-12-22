@@ -448,6 +448,10 @@ msgstr "80分"
 msgid "[MusicDeviceOptions]9"
 msgstr "9"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
+msgstr "@cmd.title[Audio Device|Restore Audio Device Settings]"
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
 msgstr "@cmd.title[Audio|Apply Audio Bend]"
@@ -472,9 +476,9 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
-msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+#: .\engine\song.xml
+msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
+msgstr "@cmd.title[Device|Activate All Inserts]"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
@@ -487,6 +491,10 @@ msgstr "@cmd.title[Edit|Autoscroll]"
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Fill Gaps]"
+msgstr "@cmd.title[Event|Fill Gaps]"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Quantize on Track]"
@@ -828,6 +836,10 @@ msgstr "すべてをアクティベート"
 msgid "[PostFaderInserts]Activate All"
 msgstr "すべてをアクティベート"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioSends]Activate All"
+msgstr "すべてをアクティベート"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
 msgstr "すべてをアクティベート"
@@ -1136,13 +1148,13 @@ msgstr "オーディオ"
 msgid "[AudioBendPanel]Audio Bend"
 msgstr "オーディオベンド"
 
+#: .\app\homepage.xml .\devices\transport.xml
+msgid "[Command]Audio Device"
+msgstr "オーディオデバイス "
+
 #: .\devices\devices.xml
 msgid "[AudioSetup]Audio Device "
 msgstr "オーディオデバイス "
-
-#: .\app\homepage.xml .\devices\transport.xml
-msgid "[Command]Audio Devices"
-msgstr "オーディオデバイス"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Audio Event Properties"
@@ -1173,8 +1185,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "選択したトラックでオーディオトラックモニターを有効"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
-msgstr "オーディオトラックの再生中にモニターをミュート（テープスタイル）"
+msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
+msgstr "オーディオトラックモニター中にオーディオトラックの再生をミュート（テープスタイル）"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1211,6 +1223,10 @@ msgstr "トラックとレイヤーを自動配色"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "オートフェード"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Autofill"
+msgstr "オートフィル"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
@@ -1440,6 +1456,10 @@ msgstr "オーディオCDを書き込み"
 msgid "[ChannelSelector]Busses"
 msgstr "バス"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Buy Notion"
+msgstr "Notionを購入"
+
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
 msgstr "バイパス"
@@ -1483,6 +1503,10 @@ msgstr "キャッシュ"
 #: .\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "キャッシュアクティビティ"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Cancel"
+msgstr "キャンセル"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -1665,7 +1689,7 @@ msgid "[Metronome]Click in Precount Only"
 msgstr "プリカウントでのみクリック"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Click+Drag Parameter"
 msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1707,6 +1731,10 @@ msgstr "クリップ/ピークレベル"
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
 msgstr "クリップ/ピークレベル"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Close"
+msgstr "閉じる"
 
 #: .\app\shared.xml
 msgid "[DetachedFrameHeader]Close"
@@ -2148,6 +2176,18 @@ msgstr "デジタルリリース"
 msgid "[ProjectToolbar]Digital Release"
 msgstr "デジタルリリース"
 
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input"
+msgstr "ダイレクト入力"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input Channel"
+msgstr "ダイレクト入力チャンネル"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderDirectInput]Direct Inputs"
+msgstr "ダイレクト入力"
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
 msgstr "無効化"
@@ -2321,7 +2361,7 @@ msgid "[SongPopup.Info]Edit"
 msgstr "編集"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "オートメーションを編集 @cmd[Automation|Show Current Parameter]"
 
 #: .\devices\devices.xml
@@ -2607,6 +2647,10 @@ msgstr "FX"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade In"
 msgstr "フェードイン"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Fade Length"
+msgstr "フェード長"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade Out"
@@ -3280,6 +3324,14 @@ msgstr "言語"
 msgid "[LicenseServerLogin]Last Name"
 msgstr "姓"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Launch Notion"
+msgstr "Notionを起動"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Launch Notion on this computer"
+msgstr "このコンピューター上にNotionを起動"
+
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
 msgstr "レイヤー"
@@ -3680,8 +3732,16 @@ msgstr "モニター"
 msgid "[InplaceOptions]Monitoring follows record"
 msgstr "選択したトラックでモニターを有効"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
+msgstr "モニター中にオーディオトラックの再生をミュート（テープスタイル）"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "詳細"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]More Information"
 msgstr "詳細"
 
 #: .\engine\videoplayer.xml
@@ -3888,6 +3948,14 @@ msgstr "ノート"
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "$APPNAME 起動時にデバイスが使用不可能な場合は通知する"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
+msgstr "このコンピューター上またはネットワーク内にNotion 6以降がインストールされている必要があります。Studio OneはNotionが現在実行中であることを検出できませんでした。"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Notion on:"
+msgstr "次のNotion: "
+
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
 msgstr "オクターブ"
@@ -4057,7 +4125,7 @@ msgid "[InspectorAudioPanner]Pan: @value[]"
 msgstr "パン: @value[]"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Parameter"
 msgstr "パラメーター"
 
 #: .\engine\inspector.xml
@@ -4195,10 +4263,6 @@ msgstr "オーバーラップを再生"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "オーバーラップを再生"
-
-#: .\engine\song.xml
-msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
-msgstr "トラックの再生中にモニターをミュート（テープスタイル）"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -4448,10 +4512,6 @@ msgstr "クオンタイズ値"
 msgid "[RecordPanel.Horizontal]Quantize played notes during record"
 msgstr "録音中に再生されたノートをクオンタイズ"
 
-#: .\engine\videoplayer.xml
-msgid "[VideoPlayer]QuickTime not installed"
-msgstr "QuickTimeがインストールされていません"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Quintole"
 msgstr "5連符"
@@ -4549,7 +4609,7 @@ msgid "[DocumentBlocks]Recent Files"
 msgstr "最近使ったファイル"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Recent Parameters"
+msgid "[ParamMapper.LeftPart.Inner]Recent Parameters"
 msgstr "最近使ったパラメーター"
 
 #: .\devices\devices.xml
@@ -5072,6 +5132,10 @@ msgstr "トラック色を選択"
 msgid "[InplaceOptions]Selection"
 msgstr "選択"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send"
+msgstr "送信"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
 msgstr "センドレベル:@value[]"
@@ -5087,6 +5151,26 @@ msgstr "MIDIタイムコードを送信"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send To"
 msgstr "送信先"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio files to Notion on:"
+msgstr "オーディオファイルを次のNotionに送信: "
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio mixdown"
+msgstr "オーディオミックスダウンを送信"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of entire song"
+msgstr "ソング全体のノートデータを送信"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of selected tracks"
+msgstr "選択されているトラックのノートデータを送信"
+
+#: .\app\notion.xml
+msgid "[SendToNotionDialog]Send to Notion"
+msgstr "Notionに送信"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
@@ -5688,6 +5772,10 @@ msgstr "イベントをストレッチ"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "ストリップサイレンス"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Studio One can send instrument tracks and audio files to Notion. In Notion you can create a score and print parts for musicians."
+msgstr "Studio OneはインストゥルメントトラックとオーディオファイルをNotionに送信できます。Notionではスコアを作成してミュージシャン用にパート譜を印刷できます。"
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr "スタイル"
@@ -5799,6 +5887,10 @@ msgstr "ご購入いただきありがとうございました。購入済みア
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
 msgstr "新しいバージョンの $APPNAME が存在します。"
+
+#: .\devices\audiofxeditor.xml
+msgid "[GhostDeviceEditor]This device disabled!"
+msgstr "このデバイスは無効です。"
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device is not installed on your system!"
@@ -6268,9 +6360,17 @@ msgstr "ビデオオフセット"
 msgid "[VideoPlayer]Video Options"
 msgstr "ビデオオプション"
 
+#: .\engine\videoplayer.xml
+msgid "[VideoPlayer]Video Support Not Installed"
+msgstr "がインストールされていません"
+
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
 msgstr "表示"
+
+#: .\app\homepage.xml
+msgid "[HomePage]View Release Notes"
+msgstr "リリースノートを表示"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
@@ -6396,6 +6496,10 @@ msgstr "はい"
 msgid "[EventListDialog]Yes"
 msgstr "はい"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]You can also send audio files to Notion from the file browser."
+msgstr "ファイルブラウザーからNotionにオーディオファイルを送信することもできます。"
+
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."
 msgstr "このロケーションは後で［環境設定］ウィンドウで変更できます。"
@@ -6455,4 +6559,34 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[Command]Audio Devices"
+#~ msgstr "オーディオデバイス"
+
+#~ msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+#~ msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+
+#~ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+#~ msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
+
+#~ msgid "[FXEditorHeaderRow1]Direct Inputs"
+#~ msgstr "ダイレクト入力"
+
+#~ msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+#~ msgstr "オートメーションを編集 @cmd[Automation|Show Current Parameter]"
+
+#~ msgid "[ParamMapper.LeftPart]Parameter"
+#~ msgstr "パラメーター"
+
+#~ msgid "[ParamMapper.LeftPart]Recent Parameters"
+#~ msgstr "最近使ったパラメーター"
+
+#~ msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+#~ msgstr "オーディオトラックの再生中にモニターをミュート（テープスタイル）"
+
+#~ msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+#~ msgstr "トラックの再生中にモニターをミュート（テープスタイル）"
+
+#~ msgid "[VideoPlayer]QuickTime not installed"
+#~ msgstr "QuickTimeがインストールされていません"
 

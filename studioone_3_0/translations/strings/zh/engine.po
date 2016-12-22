@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2)文件位于%(1)中"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr "(不可用)"
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr "(空白)"
 
@@ -306,6 +310,10 @@ msgstr "合唱"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "点击并拖拉参数"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr "不支持编码解码器！"
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "自动配色"
@@ -442,6 +450,10 @@ msgstr "创建音轨范围"
 msgid "[Command]Create Sections from Markers"
 msgstr "从书签中创建选择"
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr "剪裁正文"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "日期"
@@ -521,6 +533,18 @@ msgstr "设备"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "设备"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr "禁用"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr "禁用所选曲目"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr "禁用音轨"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -718,6 +742,14 @@ msgstr "编辑音量"
 msgid "[Command]Enable"
 msgstr "开启"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr "启用所选曲目"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr "开启音轨"
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "结束"
@@ -838,9 +870,17 @@ msgstr "音频文件导出失败."
 msgid "[Engine]File not found!"
 msgstr "未找到文件!"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr "填充空隙"
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "精细"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr "完成"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"

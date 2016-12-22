@@ -184,17 +184,9 @@ msgstr "Installierte Version: %(1)"
 msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "Ungültige Installationsdatei!"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]KB/sec"
-msgstr "KB/Sek"
-
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
 msgstr "Lizenz"
-
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]MB/sec"
-msgstr "MB/Sek"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -296,6 +288,14 @@ msgstr "Upload auf"
 msgid "[TransferManager]Uploading..."
 msgstr "Hochladen..."
 
+#: .\extensions\appupdater.cpp
+msgid "[Updater]View Release Notes"
+msgstr "Versionshinweise anzeigen"
+
+#: .\extensions\appupdater.cpp
+msgid "[Command]View Release Notes"
+msgstr "Versionshinweise anzeigen"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
 msgstr "Wartet auf Deinstallation"
@@ -311,4 +311,10 @@ msgstr "Sie benötigen eine neuere Version von $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "Ihre Version ist aktuell."
+
+#~ msgid "[TransferManager]KB/sec"
+#~ msgstr "KB/Sek"
+
+#~ msgid "[TransferManager]MB/sec"
+#~ msgstr "MB/Sek"
 

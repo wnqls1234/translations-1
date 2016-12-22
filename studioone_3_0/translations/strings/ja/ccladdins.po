@@ -184,17 +184,9 @@ msgstr "インストールされているバージョン: %(1)"
 msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "無効なインストールファイルです。"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]KB/sec"
-msgstr "KB/秒"
-
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
 msgstr "ライセンス"
-
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]MB/sec"
-msgstr "MB/秒"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -296,6 +288,14 @@ msgstr "アップロード先"
 msgid "[TransferManager]Uploading..."
 msgstr "アップロードしています..."
 
+#: .\extensions\appupdater.cpp
+msgid "[Updater]View Release Notes"
+msgstr "リリースノートを表示"
+
+#: .\extensions\appupdater.cpp
+msgid "[Command]View Release Notes"
+msgstr "リリースノートを表示"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
 msgstr "アンインストール待機中です"
@@ -311,4 +311,10 @@ msgstr "新しいバージョンの $APPNAME が必要です。"
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "ご使用のバージョンは最新です。"
+
+#~ msgid "[TransferManager]KB/sec"
+#~ msgstr "KB/秒"
+
+#~ msgid "[TransferManager]MB/sec"
+#~ msgstr "MB/秒"
 

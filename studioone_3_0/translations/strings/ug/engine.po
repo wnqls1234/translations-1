@@ -30,6 +30,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr ""
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr ""
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr ""
 
@@ -306,6 +310,10 @@ msgstr ""
 msgid "[Automation]Click+Drag Parameter"
 msgstr ""
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr ""
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr ""
@@ -450,6 +458,10 @@ msgstr ""
 msgid "[Command]Create Sections from Markers"
 msgstr ""
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr ""
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr ""
@@ -528,6 +540,18 @@ msgstr ""
 
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
+msgstr ""
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
 msgstr ""
 
 #: .\automationediting\automationtrackcomponent.cpp
@@ -735,6 +759,14 @@ msgstr ""
 msgid "[Command]Enable"
 msgstr ""
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr ""
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr ""
@@ -855,8 +887,16 @@ msgstr ""
 msgid "[Engine]File not found!"
 msgstr ""
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr ""
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
+msgstr ""
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
 msgstr ""
 
 #: .\editing\eventeditmodel.cpp

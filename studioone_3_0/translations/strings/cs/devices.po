@@ -62,6 +62,10 @@ msgid ""
 "instruments"
 msgstr ""
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Activate All Inserts"
+msgstr ""
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Add %(1) to %(2)"
 msgstr ""
@@ -197,6 +201,11 @@ msgstr "Zvukové kanály"
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Audio Channels"
 msgstr "Zvukové kanály"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Audio Device"
+msgstr ""
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
@@ -397,6 +406,10 @@ msgstr "Popis"
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Zjištěné zařízení %(1)"
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Device"
+msgstr ""
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr ""
@@ -405,10 +418,29 @@ msgstr ""
 msgid "[Studio]Device/Port"
 msgstr "Zařízení/Port"
 
-#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Zařízení"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Dim"
+msgstr ""
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Disable"
+msgstr ""
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Disable"
+msgstr ""
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Disable All"
+msgstr ""
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Disabled"
+msgstr ""
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
@@ -454,12 +486,28 @@ msgstr "Upravit..."
 msgid "[Channels]Effects"
 msgstr "Efekty"
 
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Enable"
+msgstr ""
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Enable"
+msgstr ""
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Enable All"
+msgstr ""
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
 msgstr ""
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Enable Play Start Marker"
+msgstr ""
+
+#: .\audioeffects\audiofxmanager.cpp
+msgid "[AudioEffectManager]Event FX"
 msgstr ""
 
 #: .\base\devicefolder.cpp
@@ -571,6 +619,10 @@ msgstr "Vstup"
 msgid "[AudioMixer]Input"
 msgstr "Vstupy"
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Input"
+msgstr ""
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Input Controls"
 msgstr ""
@@ -578,6 +630,10 @@ msgstr ""
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
 msgstr "Vstupy"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Insert"
+msgstr ""
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert FX Chain"
@@ -594,6 +650,10 @@ msgstr ""
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
 msgstr "Ins. efekty"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instrument"
+msgstr ""
 
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Instrument"
@@ -696,6 +756,22 @@ msgstr ""
 msgid "[Devices]Mix FX"
 msgstr ""
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Monitor"
+msgstr ""
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mono"
+msgstr ""
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Mouse-Over"
+msgstr ""
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Mouse-Over"
+msgstr ""
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
 msgstr ""
@@ -716,9 +792,17 @@ msgstr ""
 msgid "[FileType]Multi Effect Preset"
 msgstr ""
 
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Multi Instrument"
+msgstr ""
+
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
 msgstr "Umlčet"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mute"
+msgstr ""
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
@@ -845,6 +929,14 @@ msgstr ""
 msgid "[Command]Open Channel"
 msgstr "Otevřít kanál"
 
+#: .\music\musicdevicemanager.cpp
+msgid "[Command]Open Qwerty Keyboard"
+msgstr ""
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Output"
+msgstr ""
+
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
 msgstr "Výstupy"
@@ -952,6 +1044,10 @@ msgstr "Předchozí scéna"
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr ""
 
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]RGB"
+msgstr ""
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
 msgstr "Čtení"
@@ -967,6 +1063,18 @@ msgstr "Přijímat z"
 #: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
 msgstr "Poslední parametry"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Recently Touched"
+msgstr ""
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Recently Touched"
+msgstr ""
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Record"
+msgstr ""
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Record"
@@ -1084,6 +1192,10 @@ msgstr ""
 msgid "[AudioSendSlot]Replace Sends:"
 msgstr ""
 
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Reset"
+msgstr ""
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Zvukové zařízení vyžaduje reset!"
@@ -1123,6 +1235,10 @@ msgstr "Ukládání zařízení: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Obrazovka"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Select"
+msgstr ""
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Select Mix FX"
@@ -1246,6 +1362,18 @@ msgid ""
 "anyway?"
 msgstr "Některé kanály jsou ještě používány! Přejete si je přesto odebrat?"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker A"
+msgstr ""
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker B"
+msgstr ""
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker C"
+msgstr ""
+
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
 msgstr "Rychlost:"
@@ -1282,12 +1410,24 @@ msgstr "Uložit efektový řetězec..."
 msgid "[AudioMixer]Sub"
 msgstr "Sub"
 
+#: .\audiosynths\combinator\combinatorsynthfolder.cpp
+msgid "[SynthCombinator]Sub Instrument"
+msgstr ""
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
 msgstr "Přepnout na zvukové zařízení %(1)..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Talkback"
+msgstr ""
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"
+msgstr ""
+
+#: .\macrocontrol\macrocontrolsetup.cpp
+msgid "[MacroControlSetup]Target not connected"
 msgstr ""
 
 #: .\music\setup\musicdevicesetup.cpp
@@ -1406,6 +1546,10 @@ msgstr "Pohyb"
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Transport"
 msgstr "Pohyb"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Type"
+msgstr ""
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

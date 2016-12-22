@@ -100,6 +100,10 @@ msgstr "ドキュメント"
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "Melodyneで編集"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Edit with VocALign"
+msgstr "VocALignで編集"
+
 #: .\appoptions.cpp
 msgid "[Options]Editing"
 msgstr "編集"
@@ -252,6 +256,10 @@ msgstr "最近使ったファイル"
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Melodyneを削除"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Remove VocALign"
+msgstr "VocALignを削除"
+
 #: .\documenthandler.cpp
 msgid "[Command]Save As Template"
 msgstr "テンプレートとして保存"
@@ -263,6 +271,14 @@ msgstr "サウンドセットをスキャンしています..."
 #: .\samplerextension.cpp
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "新規SampleOneに送信"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]Send to Notion"
+msgstr "Notionに送信"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Send to Notion"
+msgstr "Notionに送信"
 
 #: .\automationhandler.cpp
 msgid "[AutomationHandler]Show Automation"
@@ -287,6 +303,10 @@ msgstr "コンソールに表示"
 #: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Routing"
 msgstr "ルーティングに表示"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Song"
+msgstr "ソング"
 
 #: .\documenthandler.cpp
 msgid "[StudioApp]Songs"
@@ -331,6 +351,10 @@ msgstr "次のサウンドセットは、インストールに失敗したか、
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
 msgstr "パッケージ \"%(1)\" はまだ使用中です（ %(2) ファイルが開いています）。"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]This computer"
+msgstr "このコンピューター"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

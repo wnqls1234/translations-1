@@ -185,17 +185,9 @@ msgstr ""
 msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "Neplatný instalační soubor!"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]KB/sec"
-msgstr "KB/sec"
-
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
 msgstr "Licence"
-
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]MB/sec"
-msgstr "MB/sec"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -299,6 +291,14 @@ msgstr "Nahrát na"
 msgid "[TransferManager]Uploading..."
 msgstr "Nahrávání…"
 
+#: .\extensions\appupdater.cpp
+msgid "[Updater]View Release Notes"
+msgstr ""
+
+#: .\extensions\appupdater.cpp
+msgid "[Command]View Release Notes"
+msgstr ""
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
 msgstr "Čeká se na odinstalaci"
@@ -314,6 +314,12 @@ msgstr "Potřebujete novou vezi $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr ""
+
+#~ msgid "[TransferManager]KB/sec"
+#~ msgstr "KB/sec"
+
+#~ msgid "[TransferManager]MB/sec"
+#~ msgstr "MB/sec"
 
 #~ msgid "[Security]Do you want to save the credentials in Windows Vault?"
 #~ msgstr "Přejete si vaše pověření uložit do Windows Valut?"

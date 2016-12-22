@@ -60,6 +60,10 @@ msgstr "Esiste già un dispositivo con questo nome"
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr "Il divisore dell'evento nota può essere inserito per 3 o più strumenti"
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Activate All Inserts"
+msgstr "Attiva tutti gli Insert"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Add %(1) to %(2)"
 msgstr "Aggiungi %(1) a %(2)"
@@ -195,6 +199,11 @@ msgstr "Canali Audio"
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Audio Channels"
 msgstr "Canali Audio"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Audio Device"
+msgstr "Periferica Audio"
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
@@ -394,6 +403,10 @@ msgstr "Descrizione"
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Dispositivo Rilevato %(1)"
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Device"
+msgstr "Periferica"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr "Informazione periferica %(1) ricevuta."
@@ -402,10 +415,29 @@ msgstr "Informazione periferica %(1) ricevuta."
 msgid "[Studio]Device/Port"
 msgstr "Dispositivo/Porta"
 
-#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Periferiche"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Dim"
+msgstr "Dim"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Disable"
+msgstr "Disabilita"
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Disable"
+msgstr "Disabilita"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Disable All"
+msgstr "Disabilita tutto"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Disabled"
+msgstr "Disabilitato"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
@@ -451,6 +483,18 @@ msgstr "Modifica..."
 msgid "[Channels]Effects"
 msgstr "Effetti"
 
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Enable"
+msgstr "Abilita"
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Enable"
+msgstr "Abilita"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Enable All"
+msgstr "Abilita tutto"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
 msgstr "Abilita il Play Start Marker"
@@ -458,6 +502,10 @@ msgstr "Abilita il Play Start Marker"
 #: .\transport\transportpanel.cpp
 msgid "[Command]Enable Play Start Marker"
 msgstr "Abilita il Play Start Marker"
+
+#: .\audioeffects\audiofxmanager.cpp
+msgid "[AudioEffectManager]Event FX"
+msgstr "FX dell'evento"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
@@ -559,6 +607,10 @@ msgstr "In"
 msgid "[AudioMixer]Input"
 msgstr "Ingresso"
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Input"
+msgstr "Ingresso"
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Input Controls"
 msgstr "Controlli di input"
@@ -566,6 +618,10 @@ msgstr "Controlli di input"
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
 msgstr "Ingressi"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Insert"
+msgstr "Insert"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert FX Chain"
@@ -582,6 +638,10 @@ msgstr "Divisore insert"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
 msgstr "Inserts"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instrument"
+msgstr "Strumento"
 
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Instrument"
@@ -684,6 +744,22 @@ msgstr "Preset Metronomo"
 msgid "[Devices]Mix FX"
 msgstr "Mix FX"
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Monitor"
+msgstr "Monitor"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mono"
+msgstr "Mono"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Mouse-Over"
+msgstr "Mouse-Over"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Mouse-Over"
+msgstr "Mouse-Over"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
 msgstr "Sposta Dispositivo \"%(1)\""
@@ -704,8 +780,16 @@ msgstr "Sposta Strumento \"%(1)\""
 msgid "[FileType]Multi Effect Preset"
 msgstr "Preset Multi Effetto"
 
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Multi Instrument"
+msgstr "Multi Instrument"
+
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
+msgstr "Mute"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mute"
 msgstr "Mute"
 
 #: .\editor\performancemonitor.cpp
@@ -832,6 +916,14 @@ msgstr "DSP Onboard"
 msgid "[Command]Open Channel"
 msgstr "Apri il canale"
 
+#: .\music\musicdevicemanager.cpp
+msgid "[Command]Open Qwerty Keyboard"
+msgstr "Apri la tastiera qwerty"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Output"
+msgstr "Uscita"
+
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
 msgstr "Uscite"
@@ -928,6 +1020,10 @@ msgstr "Scena precedente"
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr "Analisi informazione periferica %(1)..."
 
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]RGB"
+msgstr "RGB"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
 msgstr "Leggi"
@@ -943,6 +1039,18 @@ msgstr "Ricevi da"
 #: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
 msgstr "Parametri recenti"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Recently Touched"
+msgstr "Toccato recentemente"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Recently Touched"
+msgstr "Toccato recentemente"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Record"
+msgstr "Record"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Record"
@@ -1060,6 +1168,10 @@ msgstr "Sostituisci Strumento"
 msgid "[AudioSendSlot]Replace Sends:"
 msgstr "Sostituisci Sends:"
 
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Reset"
+msgstr "Azzera"
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "E' richiesto il reset della periferica audio!"
@@ -1099,6 +1211,10 @@ msgstr "Salvataggio Dispositivo: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Schermo"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Select"
+msgstr "Seleziona"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Select Mix FX"
@@ -1220,6 +1336,18 @@ msgstr "Piccolo"
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Alcuni canali sono ancora in uso! Vuoi rimuoverli comunque?"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker A"
+msgstr "Speaker A"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker B"
+msgstr "Speaker B"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker C"
+msgstr "Speaker C"
+
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
 msgstr "Velocità:"
@@ -1256,13 +1384,25 @@ msgstr "Memorizza catena FX..."
 msgid "[AudioMixer]Sub"
 msgstr "Sub"
 
+#: .\audiosynths\combinator\combinatorsynthfolder.cpp
+msgid "[SynthCombinator]Sub Instrument"
+msgstr "Strumento Sub"
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
 msgstr "Passa alla periferica Audio %(1)..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Talkback"
+msgstr "Talkback"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"
 msgstr "Destinazione"
+
+#: .\macrocontrol\macrocontrolsetup.cpp
+msgid "[MacroControlSetup]Target not connected"
+msgstr "Target non connesso"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
@@ -1360,6 +1500,10 @@ msgstr "Trasporto"
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Transport"
 msgstr "Trasporto"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Type"
+msgstr "Digita"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

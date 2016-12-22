@@ -32,7 +32,7 @@ msgstr "順応"
 msgid "[QuantizeDragHandler]Add Groove Pattern"
 msgstr "グルーヴパターンを追加"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Automation"
 msgstr "オートメーション"
 
@@ -158,8 +158,7 @@ msgstr "拍子を編集"
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr "再生スタートマーカーを有効化"
 
-#: .\envelopes\envelopeedithandler.cpp
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopeedithandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Fine"
 msgstr "ファイン"
 
@@ -527,6 +526,14 @@ msgstr "トラック上のすべてを選択"
 msgid "[Command]Select Base"
 msgstr "ベースを選択"
 
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "イベントからエンドまでを選択"
+
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "スタートからイベントまでを選択"
+
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Septole"
 msgstr "7連符"
@@ -703,11 +710,11 @@ msgstr "ズームを切り替え"
 msgid "[MusicEditComponent]Transfer Notes"
 msgstr "ノートを転送"
 
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Transform Automation"
 msgstr "オートメーションを変形"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Transform Range"
 msgstr "範囲を変換"
 
@@ -774,3 +781,4 @@ msgstr "選択へズーム"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
+

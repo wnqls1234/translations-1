@@ -32,7 +32,7 @@ msgstr "Adaptatif"
 msgid "[QuantizeDragHandler]Add Groove Pattern"
 msgstr "Ajouter un pattern de Groove"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Automation"
 msgstr "Automation"
 
@@ -158,8 +158,7 @@ msgstr "Éditer la signature rythmique"
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr "Activer le marqueur de début de lecture"
 
-#: .\envelopes\envelopeedithandler.cpp
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopeedithandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Fine"
 msgstr "Fin"
 
@@ -513,8 +512,7 @@ msgstr "Courbe en S"
 
 #: .\tempo\tempoedithandler.cpp
 msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
-msgstr ""
-"Proportionner le tempo: veuillez graduer la règle temporelle en mesures"
+msgstr "Proportionner le tempo: veuillez graduer la règle temporelle en mesures"
 
 #: .\base\timeeditcomponent.cpp
 msgid "[Command]Select All in Loop"
@@ -527,6 +525,14 @@ msgstr "Tout sélectionner sur les pistes"
 #: .\quantize\quantizecomponent.cpp
 msgid "[Command]Select Base"
 msgstr "Sélectionner la base"
+
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr "Sélectionner de l'événement à la fin"
+
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr "Sélectionner du début à l'événement"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Septole"
@@ -704,11 +710,11 @@ msgstr "Alterner le zoom"
 msgid "[MusicEditComponent]Transfer Notes"
 msgstr "Transférer les notes"
 
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Transform Automation"
 msgstr "Transformer l'automation"
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Transform Range"
 msgstr "Transformer la plage"
 
@@ -775,3 +781,4 @@ msgstr "Zoom sur la sélection"
 #: .\base\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "Zoom horizontal sur la sélection"
+

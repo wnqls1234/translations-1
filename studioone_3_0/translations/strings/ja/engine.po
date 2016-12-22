@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) つのファイルが %(1) に見つかりました"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr "（無効）"
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr "（空）"
 
@@ -306,6 +310,10 @@ msgstr "コーラス"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "トラックへドラッグしてこのパラメーターのオートメーショントラックを作成"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr "コーデックをサポートしていません。"
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "オートメーションに色を付ける"
@@ -442,6 +450,10 @@ msgstr "トラックに範囲を作成"
 msgid "[Command]Create Sections from Markers"
 msgstr "マーカーからセクションを作成"
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr "コンテンツにクロップ"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "日付"
@@ -521,6 +533,18 @@ msgstr "デバイス"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "デバイス"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr "無効化"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr "選択されているトラックを無効化"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr "トラックを無効化"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -718,6 +742,14 @@ msgstr "値を編集"
 msgid "[Command]Enable"
 msgstr "有効化"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr "選択されているトラックを有効化"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr "トラックを有効化"
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "エンド"
@@ -838,9 +870,17 @@ msgstr "オーディオファイルのエクスポートに失敗しました。
 msgid "[Engine]File not found!"
 msgstr "ファイルが見つかりませんでした。"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr "ギャップを埋める"
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "ファイン"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr "終了しています"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"

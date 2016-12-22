@@ -60,6 +60,10 @@ msgstr "Ya existe un dispositivo con este nombre."
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr "Un divisor de evento de nota puede ser insertado para 3 o más instrumentos"
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Activate All Inserts"
+msgstr " Activar todos los inserts"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Add %(1) to %(2)"
 msgstr "Agregar %(1) a %(2)"
@@ -195,6 +199,11 @@ msgstr "Canales de audio"
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Audio Channels"
 msgstr "Canales de audio"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
+msgid "[Command]Audio Device"
+msgstr "Dispositivo de audio"
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
@@ -394,6 +403,10 @@ msgstr "Descripción"
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Detectado dispositivo %(1)"
 
+#: .\application\ultimatestudioenvironment.cpp
+msgid "[Command]Device"
+msgstr "Dispositivo"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr "Información de dispositivo para %(1) recibida."
@@ -402,10 +415,29 @@ msgstr "Información de dispositivo para %(1) recibida."
 msgid "[Studio]Device/Port"
 msgstr "Dispositivo/Puerto"
 
-#: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
 msgstr "Dispositivos"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Dim"
+msgstr "Atenuar"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Disable"
+msgstr "Desactivar"
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Disable"
+msgstr "Desactivar"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Disable All"
+msgstr "Deshabilitar todo"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Disabled"
+msgstr "Deshabilitado"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
@@ -451,6 +483,18 @@ msgstr "Editar..."
 msgid "[Channels]Effects"
 msgstr "Efectos"
 
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Enable"
+msgstr "Habilitar"
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Enable"
+msgstr "Habilitar"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Enable All"
+msgstr "Habilitar todo"
+
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
 msgstr "Habilitar marcado de inicio de reproducción"
@@ -458,6 +502,10 @@ msgstr "Habilitar marcado de inicio de reproducción"
 #: .\transport\transportpanel.cpp
 msgid "[Command]Enable Play Start Marker"
 msgstr "Habilitar marcado de inicio de reproducción"
+
+#: .\audioeffects\audiofxmanager.cpp
+msgid "[AudioEffectManager]Event FX"
+msgstr "Evento FX"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
@@ -559,6 +607,10 @@ msgstr "Entrada"
 msgid "[AudioMixer]Input"
 msgstr "Entrada"
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Input"
+msgstr "Entrada"
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Input Controls"
 msgstr "Controles de entrada"
@@ -566,6 +618,10 @@ msgstr "Controles de entrada"
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
 msgstr "Entradas"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Insert"
+msgstr "Insert"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert FX Chain"
@@ -582,6 +638,10 @@ msgstr "Insertar divisor"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
 msgstr "Inserts"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instrument"
+msgstr "Instrumento"
 
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Instrument"
@@ -684,6 +744,22 @@ msgstr "Preset de metrónomo"
 msgid "[Devices]Mix FX"
 msgstr "Mezcla FX"
 
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Monitor"
+msgstr "Monitoreo"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mono"
+msgstr "Mono"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Mouse-Over"
+msgstr "Deslizar mouse"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Mouse-Over"
+msgstr "Deslizar mouse"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move Device \"%(1)\""
 msgstr "Mover dispositivo \"%(1)\""
@@ -704,8 +780,16 @@ msgstr "Mover instrumento \"%(1)\""
 msgid "[FileType]Multi Effect Preset"
 msgstr "Preset multi efecto"
 
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Multi Instrument"
+msgstr "Multi instrumento"
+
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
+msgstr "Mutear"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Mute"
 msgstr "Mutear"
 
 #: .\editor\performancemonitor.cpp
@@ -832,6 +916,14 @@ msgstr "DSP Onboard"
 msgid "[Command]Open Channel"
 msgstr "Abrir canal"
 
+#: .\music\musicdevicemanager.cpp
+msgid "[Command]Open Qwerty Keyboard"
+msgstr "Abrir teclado Qwerty"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Output"
+msgstr "Salida"
+
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Outputs"
 msgstr "Salidas"
@@ -928,6 +1020,10 @@ msgstr "Escena anterior"
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr "Consulta de información de dispositivo para %(1)..."
 
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]RGB"
+msgstr "RGB"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
 msgstr "Leer"
@@ -943,6 +1039,18 @@ msgstr "Recibir desde"
 #: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
 msgstr "Parámetros recientes"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Recently Touched"
+msgstr "Tocada recientemente"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Recently Touched"
+msgstr "Tocada recientemente"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Record"
+msgstr "Grabar"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Record"
@@ -1060,6 +1168,10 @@ msgstr "Reemplazar instrumento"
 msgid "[AudioSendSlot]Replace Sends:"
 msgstr "Reemplazar envíos"
 
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Reset"
+msgstr "Restablecer"
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Reset requested by Audio Device!"
 msgstr "Restablecimiento solicitado por dispositivo de audio!"
@@ -1099,6 +1211,10 @@ msgstr "Guardando dispositivo: %(1)"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
 msgstr "Pantalla"
+
+#: .\mixer\mixercontrollable.cpp
+msgid "[Channel]Select"
+msgstr "Seleccionar"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Select Mix FX"
@@ -1220,6 +1336,18 @@ msgstr "Pequeña"
 msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Algunos canales todavía están en uso! Desea quitarlos de todos modos?"
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker A"
+msgstr "Altavoz A"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker B"
+msgstr "Altavoz B"
+
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Speaker C"
+msgstr "Altavoz C"
+
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
 msgstr "Velocidad:"
@@ -1256,13 +1384,25 @@ msgstr "Almacenar cadena de FX..."
 msgid "[AudioMixer]Sub"
 msgstr "Sub"
 
+#: .\audiosynths\combinator\combinatorsynthfolder.cpp
+msgid "[SynthCombinator]Sub Instrument"
+msgstr "Sub instrumento"
+
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
 msgstr "Cambiando a dispositivo de audio %(1)..."
 
+#: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+msgid "[Command]Talkback"
+msgstr "Talkback"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"
 msgstr "Objetivo"
+
+#: .\macrocontrol\macrocontrolsetup.cpp
+msgid "[MacroControlSetup]Target not connected"
+msgstr "Objetivo no conectado"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
@@ -1360,6 +1500,10 @@ msgstr "Transporte"
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Transport"
 msgstr "Transporte"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Type"
+msgstr "Tipo"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

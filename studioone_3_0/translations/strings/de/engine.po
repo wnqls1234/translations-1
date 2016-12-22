@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) Dateien wurden in %(1) gefunden"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr "(deaktiviert)"
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr "(leer)"
 
@@ -306,6 +310,10 @@ msgstr "Chorus"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Parameter anklicken und ziehen"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr "Codec nicht unterstützt!"
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Automation einfärben"
@@ -442,6 +450,10 @@ msgstr "Bereichsauswahl auf Spuren erzeugen"
 msgid "[Command]Create Sections from Markers"
 msgstr "Bereiche aus Markern erstellen"
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr "Auf Inhalt zuschneiden"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "Datum"
@@ -521,6 +533,18 @@ msgstr "Gerät"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "Geräte"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr "Deaktivieren"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr "Ausgewählte Spur deaktivieren"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr "Spur deaktivieren"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -718,6 +742,14 @@ msgstr "Wert bearbeiten"
 msgid "[Command]Enable"
 msgstr "Aktivieren"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr "Ausgewählte Spuren aktivieren"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr "Track aktivieren"
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "Ende"
@@ -816,7 +848,7 @@ msgstr "Fade In bis Cursor"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Fade Out from Cursor"
-msgstr "Fade Out ab Cursor"
+msgstr "Fade-out ab Cursor"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fade-in"
@@ -838,9 +870,17 @@ msgstr "Export der Audiodatei fehlgeschlagen."
 msgid "[Engine]File not found!"
 msgstr "Datei nicht gefunden!"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr "Lücken füllen"
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "Fein"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr "Fertigstellen"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"

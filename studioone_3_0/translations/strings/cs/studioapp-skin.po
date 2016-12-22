@@ -300,6 +300,10 @@ msgstr "..."
 msgid "[TransportPanel]/"
 msgstr "/"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]0"
+msgstr ""
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]0"
 msgstr "0"
@@ -468,6 +472,10 @@ msgstr "80 Min"
 msgid "[MusicDeviceOptions]9"
 msgstr "9"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
+msgstr ""
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
 msgstr "@cmd.title[Audio|Apply Audio Bend]"
@@ -492,8 +500,8 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+#: .\engine\song.xml
+msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -507,6 +515,10 @@ msgstr "@cmd.title[Edit|Autoscroll]"
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Fill Gaps]"
+msgstr ""
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Quantize on Track]"
@@ -848,6 +860,10 @@ msgstr ""
 msgid "[PostFaderInserts]Activate All"
 msgstr "Aktivovat vše"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioSends]Activate All"
+msgstr ""
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
 msgstr "Aktivovat vše"
@@ -1158,13 +1174,13 @@ msgstr "Zvuk"
 msgid "[AudioBendPanel]Audio Bend"
 msgstr "Ohyb zvuku"
 
+#: .\app\homepage.xml .\devices\transport.xml
+msgid "[Command]Audio Device"
+msgstr ""
+
 #: .\devices\devices.xml
 msgid "[AudioSetup]Audio Device "
 msgstr "Zvukové zařízení"
-
-#: .\app\homepage.xml .\devices\transport.xml
-msgid "[Command]Audio Devices"
-msgstr "Zvuková zařízení"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Audio Event Properties"
@@ -1233,6 +1249,10 @@ msgstr ""
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "Automatické pozvolné zesilování/zeslabování"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Autofill"
+msgstr ""
 
 #: .\app\options.xml
 msgid ""
@@ -1463,6 +1483,10 @@ msgstr "Vypálit zvukové CD"
 msgid "[ChannelSelector]Busses"
 msgstr "Sběrnice"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Buy Notion"
+msgstr ""
+
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
 msgstr ""
@@ -1506,6 +1530,10 @@ msgstr "Vyrovnávací paměť"
 #: .\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "Aktivita vyrovnávací paměti"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Cancel"
+msgstr ""
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -1582,6 +1610,10 @@ msgstr ""
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Channel Number"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[InspectorChannelNumberDelegate]Channel Number"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -1668,9 +1700,17 @@ msgstr ""
 msgid "[AudioOutput.Channel.Content]Click On/Off"
 msgstr "Vypnutí/zapnutí metronomu"
 
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click On/Off"
+msgstr ""
+
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Click Volume"
 msgstr "Hlasitost metronomu"
+
+#: .\engine\inspector.xml
+msgid "[AutomationInspectorButtonTable]Click Volume"
+msgstr ""
 
 #: .\devices\transport.xml
 msgid "[Metronome]Click in Play"
@@ -1681,20 +1721,12 @@ msgid "[Metronome]Click in Precount Only"
 msgstr "Metronom pouze během odpočítávání dob"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
-msgstr "Kliknout+posunout parametr"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[AudioMeter.Narrow]Clip"
-msgstr "Klip"
+msgid "[ParamMapper.LeftPart.Inner]Click+Drag Parameter"
+msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip"
 msgstr "Klip"
-
-#: .\devices\audiochannel.narrow.xml
-msgid "[ChannelMeterDisplay.Small.Narrow]Clip"
-msgstr ""
 
 #: .\engine\trackcontrols.xml
 msgid "[InputLevelsContent]Clip"
@@ -1705,8 +1737,16 @@ msgid "[Analyser]Clip"
 msgstr "Klip"
 
 #: .\devices\audiochannel.narrow.xml
+msgid "[AudioMeter.Narrow]Clip / Peak Levels"
+msgstr ""
+
+#: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
 msgstr "Klip / Úrovně špiček"
+
+#: .\devices\audiochannel.narrow.xml
+msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
+msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioChannel.SmallLevels]Clip / Peak Levels"
@@ -1722,6 +1762,10 @@ msgstr "Klip / Úrovně špiček"
 
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Close"
 msgstr ""
 
 #: .\app\shared.xml
@@ -2121,8 +2165,16 @@ msgid "[AutomationTrackInspector]Device"
 msgstr "Zařízení"
 
 #: .\engine\trackcontrols.xml
-msgid "[AutomationMainContent]Device"
+msgid "[TrackAutomationContent]Device"
 msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[FolderTrackAutomationContent]Device"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[AutomationTrackControlsContent]Device"
+msgstr "Zařízení"
 
 #: .\project\burn.xml
 msgid "[BurnerSelectDialog]Device"
@@ -2159,6 +2211,18 @@ msgstr "Vydat digitálně"
 #: .\project\project.xml
 msgid "[ProjectToolbar]Digital Release"
 msgstr "Vydat digitálně"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input Channel"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderDirectInput]Direct Inputs"
+msgstr ""
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
@@ -2345,8 +2409,9 @@ msgstr "Upravit"
 
 #: .\devices\devices.xml
 msgid ""
-"[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
-msgstr "Upravit automatizaci @cmd[Automation|Show Current Parameter]"
+"[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current "
+"Parameter]"
+msgstr ""
 
 #: .\devices\devices.xml
 msgid "[ParamMapper.MappingPart]Edit Device"
@@ -2585,6 +2650,10 @@ msgstr ""
 msgid "[MusicTrackControls]Expand Layers"
 msgstr ""
 
+#: .\app\options.xml
+msgid "[EditingOption]Expand layers after recording takes"
+msgstr ""
+
 #: .\app\about.xml
 msgid "[LicenseZone]Expiration Date:"
 msgstr "Datum vypršení:"
@@ -2632,6 +2701,10 @@ msgstr "Efekt"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade In"
 msgstr "Pozvolna zesilovat"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Fade Length"
+msgstr ""
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade Out"
@@ -3315,6 +3388,14 @@ msgstr "Jazyk"
 msgid "[LicenseServerLogin]Last Name"
 msgstr "Poslední název"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Launch Notion"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Launch Notion on this computer"
+msgstr ""
+
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
 msgstr "Vrstvy"
@@ -3713,9 +3794,21 @@ msgstr ""
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "Sledovat"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring follows record"
+msgstr ""
+
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
+msgstr ""
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Více informací"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]More Information"
+msgstr ""
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
@@ -3922,6 +4015,17 @@ msgid ""
 "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "Při startu $APPNAME mě upozornit, pokud nejsou zařízení k dispozici"
 
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionNoTargets]Notion 6 or later must be installed on this computer "
+"or in the network. Studio One could not detect that Notion is currently "
+"running."
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Notion on:"
+msgstr ""
+
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
 msgstr "Oktáva"
@@ -4097,8 +4201,8 @@ msgid "[InspectorAudioPanner]Pan: @value[]"
 msgstr "Stereopozice: @value[]"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Parameter"
-msgstr "Parametr"
+msgid "[ParamMapper.LeftPart.Inner]Parameter"
+msgstr ""
 
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Parameter"
@@ -4487,10 +4591,6 @@ msgstr "Hodnota kvantizace"
 msgid "[RecordPanel.Horizontal]Quantize played notes during record"
 msgstr ""
 
-#: .\engine\videoplayer.xml
-msgid "[VideoPlayer]QuickTime not installed"
-msgstr "QuickTime není nainstalován"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Quintole"
 msgstr "Kvintola"
@@ -4588,8 +4688,8 @@ msgid "[DocumentBlocks]Recent Files"
 msgstr "Poslední soubory"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Recent Parameters"
-msgstr "Poslední parametry"
+msgid "[ParamMapper.LeftPart.Inner]Recent Parameters"
+msgstr ""
 
 #: .\devices\devices.xml
 msgid "[Command]Reconnect"
@@ -5120,6 +5220,10 @@ msgstr "Vybrat barvu stopy"
 msgid "[InplaceOptions]Selection"
 msgstr ""
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send"
+msgstr ""
+
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
 msgstr "Úroveň Sendu: @value[]"
@@ -5135,6 +5239,26 @@ msgstr "Vyslat MIDI Timecode"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send To"
 msgstr "Vysílat do"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio files to Notion on:"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio mixdown"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of entire song"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of selected tracks"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionDialog]Send to Notion"
+msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
@@ -5736,6 +5860,12 @@ msgstr "Natáhnout události"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "Lišta ticha"
 
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionNoTargets]Studio One can send instrument tracks and audio files "
+"to Notion. In Notion you can create a score and print parts for musicians."
+msgstr ""
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr "Styly"
@@ -5859,6 +5989,10 @@ msgstr ""
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
 msgstr "K dispozici je nová verze $APPNAME."
+
+#: .\devices\audiofxeditor.xml
+msgid "[GhostDeviceEditor]This device disabled!"
+msgstr ""
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device is not installed on your system!"
@@ -6338,9 +6472,17 @@ msgstr "Video kompenzace"
 msgid "[VideoPlayer]Video Options"
 msgstr "Možnosti videa"
 
+#: .\engine\videoplayer.xml
+msgid "[VideoPlayer]Video Support Not Installed"
+msgstr ""
+
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
 msgstr "Zobrazit"
+
+#: .\app\homepage.xml
+msgid "[HomePage]View Release Notes"
+msgstr ""
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
@@ -6474,6 +6616,12 @@ msgstr "Ano"
 msgid "[EventListDialog]Yes"
 msgstr "Ano"
 
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionInner]You can also send audio files to Notion from the file "
+"browser."
+msgstr ""
+
 #: .\ccl\common.xml
 msgid ""
 "[ContentLocationSelector]You can change this location later in the "
@@ -6546,6 +6694,29 @@ msgstr "x"
 msgid "[DetailedInfoTable]x"
 msgstr "x"
 
+#~ msgid "[Command]Audio Devices"
+#~ msgstr "Zvuková zařízení"
+
+#~ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+#~ msgstr "Kliknout+posunout parametr"
+
+#~ msgid ""
+#~ "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current "
+#~ "Parameter]"
+#~ msgstr "Upravit automatizaci @cmd[Automation|Show Current Parameter]"
+
+#~ msgid "[ParamMapper.LeftPart]Parameter"
+#~ msgstr "Parametr"
+
+#~ msgid "[ParamMapper.LeftPart]Recent Parameters"
+#~ msgstr "Poslední parametry"
+
+#~ msgid "[VideoPlayer]QuickTime not installed"
+#~ msgstr "QuickTime není nainstalován"
+
+#~ msgid "[AudioMeter.Narrow]Clip"
+#~ msgstr "Klip"
+
 #~ msgid "[MutableMicroViewSlider]$tooltip"
 #~ msgstr "$tooltip"
 
@@ -6568,9 +6739,6 @@ msgstr "x"
 #~ msgstr "Klip / Úrovně špiček"
 
 #~ msgid "[AutomationTrackControlsFirstRow]Device"
-#~ msgstr "Zařízení"
-
-#~ msgid "[AutomationTrackControlsContent]Device"
 #~ msgstr "Zařízení"
 
 #~ msgid "[Audio.Channel.Basics.Content.Selected]Expand"

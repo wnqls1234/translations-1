@@ -34,7 +34,7 @@ msgstr "[ExtensionManager](编辑模式)"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](disabled)"
-msgstr "[ExtensionManager](不可用)"
+msgstr "(不可用)"
 
 #: .\extensions\contentinstaller.cpp .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
@@ -184,17 +184,9 @@ msgstr "已安装版本： %(1)"
 msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "无效的安装文件！"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]KB/sec"
-msgstr "KB/秒"
-
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
 msgstr "许可"
-
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]MB/sec"
-msgstr "MB/秒"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -296,6 +288,14 @@ msgstr "上传到"
 msgid "[TransferManager]Uploading..."
 msgstr "上传中..."
 
+#: .\extensions\appupdater.cpp
+msgid "[Updater]View Release Notes"
+msgstr "浏览发布的Note"
+
+#: .\extensions\appupdater.cpp
+msgid "[Command]View Release Notes"
+msgstr "浏览发布的Note"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
 msgstr "等待卸载"
@@ -311,4 +311,10 @@ msgstr "需要更新版本的$APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "您使用的是最新版本。"
+
+#~ msgid "[TransferManager]KB/sec"
+#~ msgstr "KB/秒"
+
+#~ msgid "[TransferManager]MB/sec"
+#~ msgstr "MB/秒"
 

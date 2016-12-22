@@ -100,6 +100,10 @@ msgstr "文档"
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "使用Melodyne编辑"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Edit with VocALign"
+msgstr "使用VocALign编辑"
+
 #: .\appoptions.cpp
 msgid "[Options]Editing"
 msgstr "编辑中"
@@ -252,6 +256,10 @@ msgstr "最近使用的文件"
 msgid "[StudioApp]Remove Melodyne"
 msgstr "移除Melodyne"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Remove VocALign"
+msgstr "移除VocALign"
+
 #: .\documenthandler.cpp
 msgid "[Command]Save As Template"
 msgstr "另存为模板"
@@ -263,6 +271,14 @@ msgstr "扫描声音设置..."
 #: .\samplerextension.cpp
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "发送到新建采样"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]Send to Notion"
+msgstr "发送至Notion"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Send to Notion"
+msgstr "发送至Notion"
 
 #: .\automationhandler.cpp
 msgid "[AutomationHandler]Show Automation"
@@ -287,6 +303,10 @@ msgstr "控制台中显示"
 #: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Routing"
 msgstr "在路由中显示"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Song"
+msgstr "乐曲"
 
 #: .\documenthandler.cpp
 msgid "[StudioApp]Songs"
@@ -331,6 +351,10 @@ msgstr "以下声音设置安装失败，或已在您的系统上已被多次安
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
 msgstr "套装 \"%(1)\" 正在使用中 (%(2) 文件被打开)!"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]This computer"
+msgstr "此台电脑"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

@@ -100,6 +100,10 @@ msgstr "Documenti"
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "Modifica con Melodyne"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Edit with VocALign"
+msgstr "Modifica con VocALign"
+
 #: .\appoptions.cpp
 msgid "[Options]Editing"
 msgstr "Modifica"
@@ -252,6 +256,10 @@ msgstr "File recenti"
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Rimuovi Melodyne"
 
+#: .\vocalignextension.cpp
+msgid "[StudioApp]Remove VocALign"
+msgstr "Rimuovi VocALign"
+
 #: .\documenthandler.cpp
 msgid "[Command]Save As Template"
 msgstr "Salva come modello"
@@ -263,6 +271,14 @@ msgstr "Scansiona sound set..."
 #: .\samplerextension.cpp
 msgid "[StudioApp]Send To new SampleOne"
 msgstr "Manda a nuovo SampleOne"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]Send to Notion"
+msgstr "Invia a Notion"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Send to Notion"
+msgstr "Invia a Notion"
 
 #: .\automationhandler.cpp
 msgid "[AutomationHandler]Show Automation"
@@ -287,6 +303,10 @@ msgstr "Mostra in Console"
 #: .\devicepresetrevealer.cpp
 msgid "[DevicePresets]Show in Routing"
 msgstr "Mostra nel routing"
+
+#: .\notionexportcomponent.cpp
+msgid "[Command]Song"
+msgstr "Song"
 
 #: .\documenthandler.cpp
 msgid "[StudioApp]Songs"
@@ -331,6 +351,10 @@ msgstr "L'installazione del seguente set di suoni è fallita o sono stati instal
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
 msgstr "Il pacchetto \"%(1)\" è ancora in uso (%(2) file aperto)!"
+
+#: .\notionexportcomponent.cpp
+msgid "[NotionExportComponent]This computer"
+msgstr "Questo computer"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Type"

@@ -186,17 +186,9 @@ msgstr "Zainstalowana wersja: %(1)"
 msgid "[ExtensionManager]Invalid Installation File!"
 msgstr "Nieprawidłowy plik instalacyjny!"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]KB/sec"
-msgstr "KB/s"
-
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
 msgstr "Licencja"
-
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]MB/sec"
-msgstr "MB/s"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -266,7 +258,8 @@ msgstr "Status"
 msgid ""
 "[Installer]The installed content will be available next time you start "
 "$APPNAME."
-msgstr "Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
+msgstr ""
+"Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"
@@ -300,6 +293,14 @@ msgstr "Wyślij do"
 msgid "[TransferManager]Uploading..."
 msgstr "Wysyłanie..."
 
+#: .\extensions\appupdater.cpp
+msgid "[Updater]View Release Notes"
+msgstr ""
+
+#: .\extensions\appupdater.cpp
+msgid "[Command]View Release Notes"
+msgstr ""
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
 msgstr "Odczekiwanie na deinstalację"
@@ -315,3 +316,9 @@ msgstr "Wymagana jest nowsza wersja $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "Twoja wersja jest aktualna."
+
+#~ msgid "[TransferManager]KB/sec"
+#~ msgstr "KB/s"
+
+#~ msgid "[TransferManager]MB/sec"
+#~ msgstr "MB/s"

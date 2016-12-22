@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) soubory byly nalezeny v %(1)"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr ""
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr ""
 
@@ -312,6 +316,10 @@ msgstr ""
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Kliknout+posunout parametr"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr ""
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Obarvit automatizaci"
@@ -464,6 +472,10 @@ msgstr "Vytvořit oblast výběru ve stopách"
 msgid "[Command]Create Sections from Markers"
 msgstr ""
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr ""
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "Datum"
@@ -543,6 +555,18 @@ msgstr "Zařízení"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "Zařízení"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr ""
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -754,6 +778,14 @@ msgstr "Upravit hodnotu"
 msgid "[Command]Enable"
 msgstr "Povolit"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr ""
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "Konec"
@@ -769,6 +801,10 @@ msgstr "Událost"
 #: .\editing\eventinspector.cpp
 msgid "[EventInspector]Event Color"
 msgstr "Barva události"
+
+#: .\audioediting\audioeditextension.cpp
+msgid "[Engine]Event FX"
+msgstr ""
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Expand Envelopes"
@@ -870,9 +906,17 @@ msgstr "Zvukový soubor se nepodařilo vyexportovat."
 msgid "[Engine]File not found!"
 msgstr "Soubor nebyl nalezen!"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr ""
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "Jemné"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr ""
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"
@@ -1591,6 +1635,10 @@ msgstr "Pouze získat zvuk"
 msgid "[Command]Open Arrangertrack"
 msgstr ""
 
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Open Event FX Editor"
+msgstr ""
+
 #: .\song\songmarker.cpp
 msgid "[Command]Open Markertrack"
 msgstr "Otevřít stopu značek"
@@ -1757,10 +1805,6 @@ msgstr "Režim záznamu"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Record Mode Overdub"
-msgstr "Režim záznamu – přidat"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Record Mode Overdub"
 msgstr "Režim záznamu – přidat"
 
 #: .\musicediting\musicrecordcomponent.cpp
@@ -2709,3 +2753,6 @@ msgstr "použito %(1) krát"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "použito %(1) krát"
+
+#~ msgid "[Command]Record Mode Overdub"
+#~ msgstr "Režim záznamu – přidat"

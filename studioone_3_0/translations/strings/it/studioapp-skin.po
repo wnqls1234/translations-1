@@ -448,6 +448,10 @@ msgstr "80 Min"
 msgid "[MusicDeviceOptions]9"
 msgstr "9"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
+msgstr "@cmd.title[Audio Device|Restore Audio Device Settings]"
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
 msgstr "@cmd.title[Audio|Apply Audio Bend]"
@@ -472,9 +476,9 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
-msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+#: .\engine\song.xml
+msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
+msgstr "@cmd.title[Device|Activate All Inserts]"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
@@ -487,6 +491,10 @@ msgstr "@cmd.title[Edit|Autoscroll]"
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Fill Gaps]"
+msgstr "@cmd.title[Event|Fill Gaps]"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Quantize on Track]"
@@ -828,6 +836,10 @@ msgstr "Attiva tutto"
 msgid "[PostFaderInserts]Activate All"
 msgstr "Attiva tutto"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioSends]Activate All"
+msgstr "Attiva tutto"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
 msgstr "Attiva tutto"
@@ -1136,12 +1148,12 @@ msgstr "Audio"
 msgid "[AudioBendPanel]Audio Bend"
 msgstr "Audio Bend"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Audio Device "
+#: .\app\homepage.xml .\devices\transport.xml
+msgid "[Command]Audio Device"
 msgstr "Periferica Audio"
 
-#: .\app\homepage.xml .\devices\transport.xml
-msgid "[Command]Audio Devices"
+#: .\devices\devices.xml
+msgid "[AudioSetup]Audio Device "
 msgstr "Periferica Audio"
 
 #: .\engine\eventinspector.xml
@@ -1173,8 +1185,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "Monitoraggio traccia audio segue la registrazione"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
-msgstr "Il playback della traccia audio mette in mute il monitoring (Tape style)"
+msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
+msgstr "Monitoraggio traccia audio mette in mute la riproduzione"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1211,6 +1223,10 @@ msgstr "Colora automaticamente tracce e layers"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "Dissolvenze automatiche"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Autofill"
+msgstr "Autofill"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
@@ -1440,6 +1456,10 @@ msgstr "Masterizza Cd Audio"
 msgid "[ChannelSelector]Busses"
 msgstr "Busses"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Buy Notion"
+msgstr "Acquista Notion"
+
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
 msgstr "Bypass"
@@ -1483,6 +1503,10 @@ msgstr "Cache"
 #: .\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "Attività Cache"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Cancel"
+msgstr "Annulla"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -1665,7 +1689,7 @@ msgid "[Metronome]Click in Precount Only"
 msgstr "Click in solo Precount"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Click+Drag Parameter"
 msgstr "Click+Trascina il Parametro"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1707,6 +1731,10 @@ msgstr "Clip / Livelli di Picco"
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
 msgstr "Clip / Livelli di Picco"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Close"
+msgstr "Chiudi"
 
 #: .\app\shared.xml
 msgid "[DetachedFrameHeader]Close"
@@ -2148,6 +2176,18 @@ msgstr "Rilascia digitale"
 msgid "[ProjectToolbar]Digital Release"
 msgstr "Rilascia digitale"
 
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input"
+msgstr "Direct Input"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input Channel"
+msgstr "Canale Direct Input"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderDirectInput]Direct Inputs"
+msgstr "Direct Input"
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
 msgstr "Disabilita"
@@ -2321,7 +2361,7 @@ msgid "[SongPopup.Info]Edit"
 msgstr "Modifica"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "Modifica Automazione @cmd[Automation|Show Current Parameter]"
 
 #: .\devices\devices.xml
@@ -2607,6 +2647,10 @@ msgstr "FX"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade In"
 msgstr "Fade In"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Fade Length"
+msgstr "Lunghezza del fade"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade Out"
@@ -3280,6 +3324,14 @@ msgstr "Lingua"
 msgid "[LicenseServerLogin]Last Name"
 msgstr "Cognome"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Launch Notion"
+msgstr "Avvia Notion"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Launch Notion on this computer"
+msgstr "Avvia Notion su questo computer"
+
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
 msgstr "Layers"
@@ -3680,8 +3732,16 @@ msgstr "Monitor"
 msgid "[InplaceOptions]Monitoring follows record"
 msgstr "Il monitoring segue la registrazione"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
+msgstr "Monitoring mutes playback (Tape style)"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "Maggiori informazioni"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]More Information"
 msgstr "Maggiori informazioni"
 
 #: .\engine\videoplayer.xml
@@ -3888,6 +3948,14 @@ msgstr "Note"
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "Avvisa se i dispositivi non sono disponibili quando $APPNAME inizia"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
+msgstr "Notion 6 (o una versionie successiva) devoeessere installate su questo computer o nel network. Studio One potrebbe non rilevare che Notion è attualmente in esecuzione."
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Notion on:"
+msgstr "Notion on:"
+
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
 msgstr "Ottava"
@@ -4057,7 +4125,7 @@ msgid "[InspectorAudioPanner]Pan: @value[]"
 msgstr "Pan: @value[]"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Parameter"
 msgstr "Parametro"
 
 #: .\engine\inspector.xml
@@ -4195,10 +4263,6 @@ msgstr "Riproduci le sovrapposizioni"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "Riproduci le sovrapposizioni"
-
-#: .\engine\song.xml
-msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
-msgstr "Playback mette in mute il monitoraggio (Tape style)"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -4448,10 +4512,6 @@ msgstr "Valore di quantizzazione"
 msgid "[RecordPanel.Horizontal]Quantize played notes during record"
 msgstr "Quantizza le note suonate durante la registrazione"
 
-#: .\engine\videoplayer.xml
-msgid "[VideoPlayer]QuickTime not installed"
-msgstr "QuickTime non è installato"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Quintole"
 msgstr "Quintina"
@@ -4549,7 +4609,7 @@ msgid "[DocumentBlocks]Recent Files"
 msgstr "File recenti"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Recent Parameters"
+msgid "[ParamMapper.LeftPart.Inner]Recent Parameters"
 msgstr "Parametri recenti"
 
 #: .\devices\devices.xml
@@ -5072,6 +5132,10 @@ msgstr "Seleziona colore traccia"
 msgid "[InplaceOptions]Selection"
 msgstr "Selezione"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send"
+msgstr "Invia"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
 msgstr "Livello di Sends: @value[]"
@@ -5087,6 +5151,26 @@ msgstr "manda il MIDI Timecode"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send To"
 msgstr "Invia a"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio files to Notion on:"
+msgstr "Invia i file audio a Notion:"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio mixdown"
+msgstr "Invia il mixdown audio"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of entire song"
+msgstr "Invia i dati di nota dell'intera song"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of selected tracks"
+msgstr "Invia i dati di nota delle tracce selezionate"
+
+#: .\app\notion.xml
+msgid "[SendToNotionDialog]Send to Notion"
+msgstr "Invia a Notion"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
@@ -5688,6 +5772,10 @@ msgstr "Allunga eventi"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "Togli i silenzi"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Studio One can send instrument tracks and audio files to Notion. In Notion you can create a score and print parts for musicians."
+msgstr "Studio One può inviare le tracce strumento e i file audio a Notion. In Notion puoi creare la partitura e stampare le parti per i musicisti."
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr "Stili"
@@ -5799,6 +5887,10 @@ msgstr "Grazie per il tuo acquisto. Gli articoli acquistati sono pronti per esse
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
 msgstr "C'è una nuova versione di $APPNAME disponibile."
+
+#: .\devices\audiofxeditor.xml
+msgid "[GhostDeviceEditor]This device disabled!"
+msgstr "Periferica disabilitata!"
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device is not installed on your system!"
@@ -6268,9 +6360,17 @@ msgstr "Offset Video"
 msgid "[VideoPlayer]Video Options"
 msgstr "Opzioni del video"
 
+#: .\engine\videoplayer.xml
+msgid "[VideoPlayer]Video Support Not Installed"
+msgstr "Supporto video non è installato"
+
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
 msgstr "Vista"
+
+#: .\app\homepage.xml
+msgid "[HomePage]View Release Notes"
+msgstr "Leggi le note di rilascio"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
@@ -6396,6 +6496,10 @@ msgstr "Si"
 msgid "[EventListDialog]Yes"
 msgstr "Si"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]You can also send audio files to Notion from the file browser."
+msgstr "Puoi inviare anche i file audio a Notion dal browser dei file"
+
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."
 msgstr "È possibile modificare questa posizione in seguito dalla finestra Preferenze."
@@ -6455,4 +6559,34 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[Command]Audio Devices"
+#~ msgstr "Periferica Audio"
+
+#~ msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+#~ msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+
+#~ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+#~ msgstr "Click+Trascina il Parametro"
+
+#~ msgid "[FXEditorHeaderRow1]Direct Inputs"
+#~ msgstr "Direct Input"
+
+#~ msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+#~ msgstr "Modifica Automazione @cmd[Automation|Show Current Parameter]"
+
+#~ msgid "[ParamMapper.LeftPart]Parameter"
+#~ msgstr "Parametro"
+
+#~ msgid "[ParamMapper.LeftPart]Recent Parameters"
+#~ msgstr "Parametri recenti"
+
+#~ msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+#~ msgstr "Il playback della traccia audio mette in mute il monitoring (Tape style)"
+
+#~ msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+#~ msgstr "Playback mette in mute il monitoraggio (Tape style)"
+
+#~ msgid "[VideoPlayer]QuickTime not installed"
+#~ msgstr "QuickTime non è installato"
 

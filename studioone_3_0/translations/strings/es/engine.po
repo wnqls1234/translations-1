@@ -33,6 +33,10 @@ msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) archivos fueron encontrados en %(1)"
 
 #: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Disabled)"
+msgstr "(deshabilitado)"
+
+#: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
 msgstr "(Vacío)"
 
@@ -306,6 +310,10 @@ msgstr "Chorus"
 msgid "[Automation]Click+Drag Parameter"
 msgstr "Clic+arrastrar parámetro"
 
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Codec not supported!"
+msgstr "Codec no soportado! "
+
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
 msgstr "Colorear automatización"
@@ -442,6 +450,10 @@ msgstr "Crear rangos en las pistas"
 msgid "[Command]Create Sections from Markers"
 msgstr "Crear selección desde marcadores"
 
+#: .\application\eventedit\croptask.cpp
+msgid "[Edit]Crop to Content"
+msgstr "Cortar al contenido"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
 msgstr "Día"
@@ -521,6 +533,18 @@ msgstr "Dispositivo"
 #: .\song\songdocument.cpp
 msgid "[Engine]Devices"
 msgstr "Dispositivos"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Disable"
+msgstr "Desactivar"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Selected Tracks"
+msgstr "Deshabilitar pistas seleccionadas"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Disable Track"
+msgstr "Deshabilitar pista"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -718,6 +742,14 @@ msgstr "Editar valor"
 msgid "[Command]Enable"
 msgstr "Habilitar"
 
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Selected Tracks"
+msgstr "Habilitar pistas seleccionadas"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Enable Track"
+msgstr "Habilitar pista"
+
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
 msgstr "Fin"
@@ -838,9 +870,17 @@ msgstr "Falló al exportar archivo de audio."
 msgid "[Engine]File not found!"
 msgstr "Archivo no encontrado!"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Fill Gaps"
+msgstr "Llenar espacios"
+
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
 msgstr "Fino"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Finishing"
+msgstr "Finalizando"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"

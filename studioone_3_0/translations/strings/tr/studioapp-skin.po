@@ -464,6 +464,10 @@ msgstr ""
 msgid "[MusicDeviceOptions]9"
 msgstr ""
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
+msgstr ""
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
 msgstr ""
@@ -488,8 +492,8 @@ msgstr ""
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr ""
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+#: .\engine\song.xml
+msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -502,6 +506,10 @@ msgstr ""
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[Edit|Autoscroll]"
+msgstr ""
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Fill Gaps]"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -844,6 +852,10 @@ msgstr ""
 msgid "[PostFaderInserts]Activate All"
 msgstr ""
 
+#: .\devices\audiochannel.xml
+msgid "[AudioSends]Activate All"
+msgstr ""
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
 msgstr ""
@@ -1153,12 +1165,12 @@ msgstr ""
 msgid "[AudioBendPanel]Audio Bend"
 msgstr ""
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Audio Device "
+#: .\app\homepage.xml .\devices\transport.xml
+msgid "[Command]Audio Device"
 msgstr ""
 
-#: .\app\homepage.xml .\devices\transport.xml
-msgid "[Command]Audio Devices"
+#: .\devices\devices.xml
+msgid "[AudioSetup]Audio Device "
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -1190,7 +1202,7 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr ""
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
 msgstr ""
 
 #: .\devices\audiomixer.xml
@@ -1227,6 +1239,10 @@ msgstr ""
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
+msgstr ""
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Autofill"
 msgstr ""
 
 #: .\app\options.xml
@@ -1458,6 +1474,10 @@ msgstr ""
 msgid "[ChannelSelector]Busses"
 msgstr ""
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Buy Notion"
+msgstr ""
+
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
 msgstr ""
@@ -1500,6 +1520,10 @@ msgstr ""
 
 #: .\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Cancel"
 msgstr ""
 
 #: .\ccl\common.xml
@@ -1686,7 +1710,7 @@ msgid "[Metronome]Click in Precount Only"
 msgstr ""
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Click+Drag Parameter"
 msgstr ""
 
 #: .\devices\audiochannel.narrow.xml
@@ -1727,6 +1751,10 @@ msgstr ""
 
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Close"
 msgstr ""
 
 #: .\app\shared.xml
@@ -2171,6 +2199,18 @@ msgstr ""
 msgid "[ProjectToolbar]Digital Release"
 msgstr ""
 
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input Channel"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderDirectInput]Direct Inputs"
+msgstr ""
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
 msgstr ""
@@ -2353,7 +2393,8 @@ msgstr ""
 
 #: .\devices\devices.xml
 msgid ""
-"[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+"[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current "
+"Parameter]"
 msgstr ""
 
 #: .\devices\devices.xml
@@ -2643,6 +2684,10 @@ msgstr ""
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade In"
+msgstr ""
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Fade Length"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -3326,6 +3371,14 @@ msgstr ""
 msgid "[LicenseServerLogin]Last Name"
 msgstr ""
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Launch Notion"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Launch Notion on this computer"
+msgstr ""
+
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
 msgstr ""
@@ -3728,8 +3781,16 @@ msgstr ""
 msgid "[InplaceOptions]Monitoring follows record"
 msgstr ""
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
+msgstr ""
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]More Information"
 msgstr ""
 
 #: .\engine\videoplayer.xml
@@ -3937,6 +3998,17 @@ msgid ""
 "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr ""
 
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionNoTargets]Notion 6 or later must be installed on this computer "
+"or in the network. Studio One could not detect that Notion is currently "
+"running."
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Notion on:"
+msgstr ""
+
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
 msgstr ""
@@ -4109,7 +4181,7 @@ msgid "[InspectorAudioPanner]Pan: @value[]"
 msgstr ""
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Parameter"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -4246,10 +4318,6 @@ msgstr ""
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
-msgstr ""
-
-#: .\engine\song.xml
-msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
 msgstr ""
 
 #: .\app\licenser.xml
@@ -4503,10 +4571,6 @@ msgstr ""
 msgid "[RecordPanel.Horizontal]Quantize played notes during record"
 msgstr ""
 
-#: .\engine\videoplayer.xml
-msgid "[VideoPlayer]QuickTime not installed"
-msgstr ""
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Quintole"
 msgstr ""
@@ -4604,7 +4668,7 @@ msgid "[DocumentBlocks]Recent Files"
 msgstr ""
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Recent Parameters"
+msgid "[ParamMapper.LeftPart.Inner]Recent Parameters"
 msgstr ""
 
 #: .\devices\devices.xml
@@ -5134,6 +5198,10 @@ msgstr ""
 msgid "[InplaceOptions]Selection"
 msgstr ""
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send"
+msgstr ""
+
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
 msgstr ""
@@ -5148,6 +5216,26 @@ msgstr ""
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send To"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio files to Notion on:"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio mixdown"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of entire song"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of selected tracks"
+msgstr ""
+
+#: .\app\notion.xml
+msgid "[SendToNotionDialog]Send to Notion"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -5750,6 +5838,12 @@ msgstr ""
 msgid "[StripSilencePanel]Strip Silence"
 msgstr ""
 
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionNoTargets]Studio One can send instrument tracks and audio files "
+"to Notion. In Notion you can create a score and print parts for musicians."
+msgstr ""
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr ""
@@ -5872,6 +5966,10 @@ msgstr ""
 
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[GhostDeviceEditor]This device disabled!"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -6349,8 +6447,16 @@ msgstr ""
 msgid "[VideoPlayer]Video Options"
 msgstr ""
 
+#: .\engine\videoplayer.xml
+msgid "[VideoPlayer]Video Support Not Installed"
+msgstr ""
+
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
+msgstr ""
+
+#: .\app\homepage.xml
+msgid "[HomePage]View Release Notes"
 msgstr ""
 
 #: .\devices\audiomixer.xml
@@ -6480,6 +6586,12 @@ msgstr ""
 
 #: .\ccl\common.xml
 msgid "[EventListDialog]Yes"
+msgstr ""
+
+#: .\app\notion.xml
+msgid ""
+"[SendToNotionInner]You can also send audio files to Notion from the file "
+"browser."
 msgstr ""
 
 #: .\ccl\common.xml

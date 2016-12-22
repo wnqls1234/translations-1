@@ -29,7 +29,7 @@ msgstr ""
 msgid "[QuantizeDragHandler]Add Groove Pattern"
 msgstr ""
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Automation"
 msgstr ""
 
@@ -155,8 +155,7 @@ msgstr ""
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr ""
 
-#: .\envelopes\envelopeedithandler.cpp
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopeedithandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Fine"
 msgstr ""
 
@@ -524,6 +523,14 @@ msgstr ""
 msgid "[Command]Select Base"
 msgstr ""
 
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Event to End"
+msgstr ""
+
+#: .\events\eventeditcomponent.cpp
+msgid "[Command]Select from Start to Event"
+msgstr ""
+
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Septole"
 msgstr ""
@@ -700,11 +707,11 @@ msgstr ""
 msgid "[MusicEditComponent]Transfer Notes"
 msgstr ""
 
-#: .\envelopes\envelopetransformhandler.cpp
+#: .\envelopes\envelopetransformhandler.cpp .\events\eventtransform.cpp
 msgid "[Events]Transform Automation"
 msgstr ""
 
-#: .\envelopes\envelopeeditlayer.cpp
+#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Transform Range"
 msgstr ""
 

@@ -448,6 +448,10 @@ msgstr "80 分钟"
 msgid "[MusicDeviceOptions]9"
 msgstr "9"
 
+#: .\devices\audiomixer.xml
+msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
+msgstr "@cmd.title[Audio Device|Restore Audio Device Settings]"
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
 msgstr "@cmd.title[Audio|Apply Audio Bend]"
@@ -472,9 +476,9 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
-msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+#: .\engine\song.xml
+msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
+msgstr "@cmd.title[Device|Activate All Inserts]"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]@cmd.title[Edit|Autoscroll]"
@@ -487,6 +491,10 @@ msgstr "@cmd.title[Edit|Autoscroll]"
 #: .\project\project.xml
 msgid "[ProjectToolbar]@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Fill Gaps]"
+msgstr "@cmd.title[Event|Fill Gaps]"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]@cmd.title[Event|Quantize on Track]"
@@ -828,6 +836,10 @@ msgstr "全部激活"
 msgid "[PostFaderInserts]Activate All"
 msgstr "全部激活"
 
+#: .\devices\audiochannel.xml
+msgid "[AudioSends]Activate All"
+msgstr "全部激活"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
 msgstr "全部激活"
@@ -1136,13 +1148,13 @@ msgstr "音频"
 msgid "[AudioBendPanel]Audio Bend"
 msgstr "音频弯曲"
 
+#: .\app\homepage.xml .\devices\transport.xml
+msgid "[Command]Audio Device"
+msgstr "音频设备 "
+
 #: .\devices\devices.xml
 msgid "[AudioSetup]Audio Device "
 msgstr "音频设备 "
-
-#: .\app\homepage.xml .\devices\transport.xml
-msgid "[Command]Audio Devices"
-msgstr "音频设备"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Audio Event Properties"
@@ -1173,8 +1185,8 @@ msgid "[ConsoleOption]Audio track monitoring follows record"
 msgstr "录音轨道实时监听"
 
 #: .\app\options.xml
-msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
-msgstr "音频轨道回放哑音监听（Tape方式）"
+msgid "[ConsoleOption]Audio track monitoring mutes playback (Tape style)"
+msgstr "音轨监听哑音回放(Tape Style)"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Audition"
@@ -1211,6 +1223,10 @@ msgstr "自动为轨道和图层标色"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
 msgstr "自动淡入淡出"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Autofill"
+msgstr "自动填充"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
@@ -1440,6 +1456,10 @@ msgstr "刻录音频CD"
 msgid "[ChannelSelector]Busses"
 msgstr "总线"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Buy Notion"
+msgstr "购买Notion"
+
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
 msgstr "旁通"
@@ -1483,6 +1503,10 @@ msgstr "缓存"
 #: .\devices\transport.xml
 msgid "[TransportPanel.CacheActivity]Cache Activity"
 msgstr "激活缓存"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Cancel"
+msgstr "取消"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -1665,7 +1689,7 @@ msgid "[Metronome]Click in Precount Only"
 msgstr "仅重计时启动节拍器"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Click+Drag Parameter"
 msgstr "点击并拖拉参数"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1707,6 +1731,10 @@ msgstr "剪贴/峰值音量"
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
 msgstr "剪贴/峰值音量"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Close"
+msgstr "关闭"
 
 #: .\app\shared.xml
 msgid "[DetachedFrameHeader]Close"
@@ -2148,6 +2176,18 @@ msgstr "数码发布"
 msgid "[ProjectToolbar]Digital Release"
 msgstr "数码发布"
 
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input"
+msgstr "直接输入"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputItem]Direct Input Channel"
+msgstr "直接输入轨道"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderDirectInput]Direct Inputs"
+msgstr "直接输入"
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
 msgstr "无效"
@@ -2321,7 +2361,7 @@ msgid "[SongPopup.Info]Edit"
 msgstr "编辑"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "编辑自动控制@cmd[Automation|Show Current Parameter]"
 
 #: .\devices\devices.xml
@@ -2607,6 +2647,10 @@ msgstr "FX"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade In"
 msgstr "淡入"
+
+#: .\engine\audioediting.xml
+msgid "[AudioBendPanel.ActionPart]Fade Length"
+msgstr "淡出长度"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade Out"
@@ -3280,6 +3324,14 @@ msgstr "语言"
 msgid "[LicenseServerLogin]Last Name"
 msgstr "姓"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Launch Notion"
+msgstr "启动Notion"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Launch Notion on this computer"
+msgstr "启动本台电脑上的Notion"
+
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
 msgstr "分层"
@@ -3680,8 +3732,16 @@ msgstr "监视器"
 msgid "[InplaceOptions]Monitoring follows record"
 msgstr "监听跟随录音"
 
+#: .\engine\song.xml
+msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
+msgstr "监听哑音回放（tape方式）"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
+msgstr "更多信息"
+
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]More Information"
 msgstr "更多信息"
 
 #: .\engine\videoplayer.xml
@@ -3888,6 +3948,14 @@ msgstr "标记"
 msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "启动$APPNAME时若设备不可用则给予提示"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
+msgstr "Notion 6或更高版本须安装在此台电脑或网络上。Studio One监察不到Notion处于运行状态。"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Notion on:"
+msgstr "Notion开启："
+
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
 msgstr "八度"
@@ -4057,7 +4125,7 @@ msgid "[InspectorAudioPanner]Pan: @value[]"
 msgstr "声像: @value[]"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Parameter"
+msgid "[ParamMapper.LeftPart.Inner]Parameter"
 msgstr "参数"
 
 #: .\engine\inspector.xml
@@ -4195,10 +4263,6 @@ msgstr "播放重叠部分"
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Play overlaps"
 msgstr "播放重叠部分"
-
-#: .\engine\song.xml
-msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
-msgstr "回放哑音监听（Tape方式）"
 
 #: .\app\licenser.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
@@ -4448,10 +4512,6 @@ msgstr "量化值"
 msgid "[RecordPanel.Horizontal]Quantize played notes during record"
 msgstr "在录音中量化播放的备注"
 
-#: .\engine\videoplayer.xml
-msgid "[VideoPlayer]QuickTime not installed"
-msgstr "QuickTime尚未安装"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Quintole"
 msgstr "五连音"
@@ -4549,7 +4609,7 @@ msgid "[DocumentBlocks]Recent Files"
 msgstr "最近使用文件"
 
 #: .\devices\devices.xml
-msgid "[ParamMapper.LeftPart]Recent Parameters"
+msgid "[ParamMapper.LeftPart.Inner]Recent Parameters"
 msgstr "最近使用的参数"
 
 #: .\devices\devices.xml
@@ -5072,6 +5132,10 @@ msgstr "音轨配色"
 msgid "[InplaceOptions]Selection"
 msgstr "选择"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send"
+msgstr "发送"
+
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
 msgstr "发送电平: @value[]"
@@ -5087,6 +5151,26 @@ msgstr "发送MIDI时间码"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Send To"
 msgstr "发送到"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio files to Notion on:"
+msgstr "发送音频文件至Notion开启："
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send audio mixdown"
+msgstr "发送音频混合"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of entire song"
+msgstr "发送整个音乐的音符数据"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Send note data of selected tracks"
+msgstr "发送已选音轨的音符数据"
+
+#: .\app\notion.xml
+msgid "[SendToNotionDialog]Send to Notion"
+msgstr "发送至Notion"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
@@ -5688,6 +5772,10 @@ msgstr "拉伸事件"
 msgid "[StripSilencePanel]Strip Silence"
 msgstr "消除无声"
 
+#: .\app\notion.xml
+msgid "[SendToNotionNoTargets]Studio One can send instrument tracks and audio files to Notion. In Notion you can create a score and print parts for musicians."
+msgstr "Studio One可以发送乐器音轨和音频文件至Notion。在Notion中你可以创建配乐并为音乐家们打印其中的部分。"
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr "风格"
@@ -5799,6 +5887,10 @@ msgstr "感谢您的购买。您的购买产品现已可以在此台电脑上被
 #: .\app\homepage.xml
 msgid "[HomePage]There is a new version of $APPNAME available."
 msgstr " $APPNAME 有可用新版本。"
+
+#: .\devices\audiofxeditor.xml
+msgid "[GhostDeviceEditor]This device disabled!"
+msgstr "此设备无效！"
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device is not installed on your system!"
@@ -6268,9 +6360,17 @@ msgstr "视频偏移"
 msgid "[VideoPlayer]Video Options"
 msgstr "视频选项"
 
+#: .\engine\videoplayer.xml
+msgid "[VideoPlayer]Video Support Not Installed"
+msgstr "尚未安装"
+
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
 msgstr "视图"
+
+#: .\app\homepage.xml
+msgid "[HomePage]View Release Notes"
+msgstr "浏览发布的Note"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
@@ -6396,6 +6496,10 @@ msgstr "是的"
 msgid "[EventListDialog]Yes"
 msgstr "是的"
 
+#: .\app\notion.xml
+msgid "[SendToNotionInner]You can also send audio files to Notion from the file browser."
+msgstr "您还可以通过浏览器将音频文件发送至Notion。"
+
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."
 msgstr "稍后您可在参考窗口中更改此定位."
@@ -6455,4 +6559,34 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[Command]Audio Devices"
+#~ msgstr "音频设备"
+
+#~ msgid "[MixerManager]@cmd.title[Devices|Restore Audio Device Settings]"
+#~ msgstr "@cmd.title[Devices|Restore Audio Device Settings]"
+
+#~ msgid "[ParamMapper.LeftPart]Click+Drag Parameter"
+#~ msgstr "点击并拖拉参数"
+
+#~ msgid "[FXEditorHeaderRow1]Direct Inputs"
+#~ msgstr "直接输入"
+
+#~ msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
+#~ msgstr "编辑自动控制@cmd[Automation|Show Current Parameter]"
+
+#~ msgid "[ParamMapper.LeftPart]Parameter"
+#~ msgstr "参数"
+
+#~ msgid "[ParamMapper.LeftPart]Recent Parameters"
+#~ msgstr "最近使用的参数"
+
+#~ msgid "[ConsoleOption]Audio track playback mutes monitoring (Tape style)"
+#~ msgstr "音频轨道回放哑音监听（Tape方式）"
+
+#~ msgid "[InplaceOptions]Playback mutes monitoring (Tape style)"
+#~ msgstr "回放哑音监听（Tape方式）"
+
+#~ msgid "[VideoPlayer]QuickTime not installed"
+#~ msgstr "QuickTime尚未安装"
 
