@@ -97,6 +97,10 @@ msgstr "Dodaj / Usuń..."
 msgid "[Engine:AutomationFunctions]Add Automation"
 msgstr "Dodaj automatykę"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Add Automation Lane"
+msgstr ""
+
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add Bus Channel"
 msgstr "Dodaj kanał szyny"
@@ -223,6 +227,7 @@ msgstr "Automatyka"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Automation"
 msgstr "Automatyka"
 
@@ -363,8 +368,16 @@ msgid "[ActionDescriptions]Copy Event"
 msgstr "Kopiuj obiekt"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event Shared"
+msgstr ""
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
 msgstr "Kopiuj obiekty"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events Shared"
+msgstr ""
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -537,6 +550,10 @@ msgstr "Urządzenia"
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "Wyłącz"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Disable Event FX"
+msgstr ""
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
@@ -742,6 +759,10 @@ msgstr "Edytuj wartość"
 msgid "[Command]Enable"
 msgstr "Włącz"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Enable Event FX"
+msgstr ""
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
 msgstr ""
@@ -813,6 +834,10 @@ msgstr "Eksportuj pętlę muzyczną"
 #: .\application\musicedit\musicexporttask.cpp
 msgid "[MusicPartEdit]Export Parts to MIDI File"
 msgstr "Eksportuj partie do pliku MIDI"
+
+#: .\application\eventedit\exporttask.cpp
+msgid "[Edit]Export Selection"
+msgstr ""
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
@@ -997,6 +1022,10 @@ msgstr "Importuj pliki"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
 msgstr "Importuj pliki do puli:"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Import Tempo"
+msgstr ""
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -1256,6 +1285,7 @@ msgstr "MIDI"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Manage Parameters"
 msgstr "Zarządzaj parametrami"
 
@@ -1319,6 +1349,10 @@ msgstr "Minimalny"
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "Brakujący instrument: %(1)"
 
+#: .\application\eventedit\mixdowntask.cpp
+msgid "[Edit]Mixdown Selection"
+msgstr ""
+
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
 msgstr "Tryb"
@@ -1366,6 +1400,18 @@ msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
 msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
+
+#: .\editing\arrangerfunctions.cpp
+msgid "[Edit]Move Arranger Section only"
+msgstr ""
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Move Automation"
+msgstr ""
+
+#: .\automationediting\automationeditextension.cpp
+msgid "[Automation]Move Automation to \"%(1)\""
+msgstr ""
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1800,6 +1846,10 @@ msgstr "Usuń sekcję aranżera"
 msgid "[Engine:AutomationFunctions]Remove Automation"
 msgstr "Usuń automatykę"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Automation Lane"
+msgstr ""
+
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
 msgstr "Usuń markery Audio Bend"
@@ -1819,6 +1869,10 @@ msgstr "Usuń warstwę"
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
 msgstr "Usuń warstwę"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Parameter"
+msgstr ""
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2112,6 +2166,10 @@ msgstr "Zaznacz na ścieżce"
 msgid "[ActionDescriptions]Set Edit Group"
 msgstr "Ustaw grupę edycji"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Event FX Tail"
+msgstr ""
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "Ustaw typ markera"
@@ -2131,6 +2189,10 @@ msgstr "Ustaw opóźnienie ścieżki"
 #: .\videoediting\songvideo.cpp
 msgid "[Command]Set Video Offset"
 msgstr "Ustaw przesunięcie wideo"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Volume after Event FX"
+msgstr ""
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
@@ -2430,9 +2492,10 @@ msgstr "Touch"
 #: .\application\audioedit\audiotracktransformtask.cpp
 #: .\application\musicedit\musictracktransformtask.cpp
 #: .\editing\editgroupscomponent.cpp .\editing\foldertrackcomponent.cpp
-#: .\editing\monitorfollower.cpp .\editing\trackcontroller.cpp
-#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
-#: .\editing\tracklistfilter.cpp .\song\songcontroller.cpp
+#: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
+#: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
+#: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
+#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "Ścieżka"
 
@@ -2465,8 +2528,8 @@ msgstr "Ścieżki"
 msgid "[StemRenderer]Tracks"
 msgstr "Ścieżki"
 
-#: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Transfer Automation"
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Transfer Automation"
 msgstr "Prześlij automatykę"
 
 #: .\application\musicedit\musictracktransformtask.cpp
@@ -2548,6 +2611,14 @@ msgstr "Wyłącz wyciszenie obiektu"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Events"
 msgstr "Wyłącz wyciszenie obiektów"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Unpack Layers to Tracks"
+msgstr ""
+
+#: .\editing\layereditlayer.cpp
+msgid "[Command]Unpack Layers to Tracks"
+msgstr ""
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes"

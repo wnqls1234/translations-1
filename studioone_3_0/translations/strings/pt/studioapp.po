@@ -16,10 +16,6 @@ msgstr "Song do $APPNAME"
 msgid "[FileType]$APPNAME Song Template"
 msgstr "Modelo de Song do $APPNAME"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]$APPNAME can not shutdown right now!"
-msgstr "O $APPNAME não pode encerrar-se agora!"
-
 #: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "Adicionar ao Projeto"
@@ -59,6 +55,10 @@ msgstr "Núvem"
 #: .\appoptions.cpp
 msgid "[Options]Console"
 msgstr "Console"
+
+#: .\sidebar.cpp
+msgid "[Sidebar]Construction Kits"
+msgstr "Construction Kits"
 
 #: .\appoptions.cpp
 msgid "[Options]Create a New Song"
@@ -131,10 +131,6 @@ msgstr "Tipos de Arquivos"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "Arquivos"
-
-#: .\studioapp.cpp
-msgid "[StudioApp]Files are being transferred in background."
-msgstr "Arquivos estão sendo transferidos em segundo plano."
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -317,6 +313,10 @@ msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "O Sound Set \"%(1)\" falhou ao instalar."
 
 #: .\soundsethandler.cpp
+msgid "[StudioApp]Sound Set \"%(1)\" has been updated to version %(2)."
+msgstr "O Sound Set \"%(1)\" foi atualizado para a versão %(2)."
+
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "O Sound Set \"%(1)\" já está instalado."
 
@@ -395,4 +395,10 @@ msgstr "Visualizar"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Espaço de Trabalho"
+
+#~ msgid "[StudioApp]$APPNAME can not shutdown right now!"
+#~ msgstr "O $APPNAME não pode encerrar-se agora!"
+
+#~ msgid "[StudioApp]Files are being transferred in background."
+#~ msgstr "Arquivos estão sendo transferidos em segundo plano."
 

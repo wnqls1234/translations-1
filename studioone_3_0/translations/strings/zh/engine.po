@@ -97,6 +97,10 @@ msgstr "添加/移除..."
 msgid "[Engine:AutomationFunctions]Add Automation"
 msgstr "添加自动控制"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Add Automation Lane"
+msgstr "添加自动化滑槽"
+
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add Bus Channel"
 msgstr "添加总线通道1"
@@ -223,6 +227,7 @@ msgstr "自动控制"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Automation"
 msgstr "自动控制"
 
@@ -363,8 +368,16 @@ msgid "[ActionDescriptions]Copy Event"
 msgstr "复制事件"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event Shared"
+msgstr "分享拷贝事件"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
 msgstr "复制事件"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events Shared"
+msgstr "分享拷贝事件"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -537,6 +550,10 @@ msgstr "设备"
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "禁用"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Disable Event FX"
+msgstr "禁用事件FX"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
@@ -742,6 +759,10 @@ msgstr "编辑音量"
 msgid "[Command]Enable"
 msgstr "开启"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Enable Event FX"
+msgstr "启用事件FX"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
 msgstr "启用所选曲目"
@@ -813,6 +834,10 @@ msgstr "导出音乐循环"
 #: .\application\musicedit\musicexporttask.cpp
 msgid "[MusicPartEdit]Export Parts to MIDI File"
 msgstr "将部分导出为MIDI文件"
+
+#: .\application\eventedit\exporttask.cpp
+msgid "[Edit]Export Selection"
+msgstr "输出选择"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
@@ -997,6 +1022,10 @@ msgstr "导入文件"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
 msgstr "文件导入素材池:"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Import Tempo"
+msgstr "导入节奏"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -1256,6 +1285,7 @@ msgstr "MIDI"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Manage Parameters"
 msgstr "参数管理"
 
@@ -1319,6 +1349,10 @@ msgstr "最小值"
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "缺失乐器: %(1)"
 
+#: .\application\eventedit\mixdowntask.cpp
+msgid "[Edit]Mixdown Selection"
+msgstr "混缩选择"
+
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
 msgstr "模式"
@@ -1366,6 +1400,18 @@ msgstr "移动\"%(1)\"的自动控制\n从%(3)到%(2)"
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
 msgstr "移动\"%(1)\"的自动控制\n到%(2)"
+
+#: .\editing\arrangerfunctions.cpp
+msgid "[Edit]Move Arranger Section only"
+msgstr "只移动曲作家选项"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Move Automation"
+msgstr "移动自动化"
+
+#: .\automationediting\automationeditextension.cpp
+msgid "[Automation]Move Automation to \"%(1)\""
+msgstr "移动自动化至 \"%(1)\""
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1800,6 +1846,10 @@ msgstr "移除编曲章节"
 msgid "[Engine:AutomationFunctions]Remove Automation"
 msgstr "移除自动控制"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Automation Lane"
+msgstr "移除自动化滑槽"
+
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
 msgstr "移除弯曲标记"
@@ -1819,6 +1869,10 @@ msgstr "移除层"
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
 msgstr "移除层"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Parameter"
+msgstr "移除参数"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2112,6 +2166,10 @@ msgstr "音轨中选择"
 msgid "[ActionDescriptions]Set Edit Group"
 msgstr "设置编辑编组"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Event FX Tail"
+msgstr "设置事件 FX 跟踪"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "选择标记类别"
@@ -2131,6 +2189,10 @@ msgstr "设置音轨延迟"
 #: .\videoediting\songvideo.cpp
 msgid "[Command]Set Video Offset"
 msgstr "设置视频偏移"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Volume after Event FX"
+msgstr "设置事件 FX 后音量"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
@@ -2430,9 +2492,10 @@ msgstr "触碰"
 #: .\application\audioedit\audiotracktransformtask.cpp
 #: .\application\musicedit\musictracktransformtask.cpp
 #: .\editing\editgroupscomponent.cpp .\editing\foldertrackcomponent.cpp
-#: .\editing\monitorfollower.cpp .\editing\trackcontroller.cpp
-#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
-#: .\editing\tracklistfilter.cpp .\song\songcontroller.cpp
+#: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
+#: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
+#: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
+#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "音轨"
 
@@ -2465,8 +2528,8 @@ msgstr "音轨"
 msgid "[StemRenderer]Tracks"
 msgstr "音轨"
 
-#: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Transfer Automation"
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Transfer Automation"
 msgstr "传输自动控制"
 
 #: .\application\musicedit\musictracktransformtask.cpp
@@ -2548,6 +2611,14 @@ msgstr "取消事件静音"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Events"
 msgstr "取消事件静音"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Unpack Layers to Tracks"
+msgstr "拆解分层至轨"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Command]Unpack Layers to Tracks"
+msgstr "拆解分层至轨"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes"
@@ -2677,4 +2748,7 @@ msgstr "已使用%(1)次"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "已使用%(1)次"
+
+#~ msgid "[Automation]Transfer Automation"
+#~ msgstr "传输自动控制"
 

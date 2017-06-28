@@ -16,10 +16,6 @@ msgstr "$APPNAME Song"
 msgid "[FileType]$APPNAME Song Template"
 msgstr "$APPNAME Modello della Song"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]$APPNAME can not shutdown right now!"
-msgstr "$APPNAME Non spegnere!"
-
 #: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "Aggiungi al progetto"
@@ -59,6 +55,10 @@ msgstr "Cloud"
 #: .\appoptions.cpp
 msgid "[Options]Console"
 msgstr "Console"
+
+#: .\sidebar.cpp
+msgid "[Sidebar]Construction Kits"
+msgstr "Construction Kits"
 
 #: .\appoptions.cpp
 msgid "[Options]Create a New Song"
@@ -131,10 +131,6 @@ msgstr "Tipi di file"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "File"
-
-#: .\studioapp.cpp
-msgid "[StudioApp]Files are being transferred in background."
-msgstr "I file vengono trasferiti in background."
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -317,6 +313,10 @@ msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "Non è possibile installare il set di suoni \"%(1)\"."
 
 #: .\soundsethandler.cpp
+msgid "[StudioApp]Sound Set \"%(1)\" has been updated to version %(2)."
+msgstr "Imposta il suono\"%(1)\" aggiornato alla versione %(2)."
+
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "Il set di suoni \"%(1)\" è già installato."
 
@@ -395,4 +395,10 @@ msgstr "Vista"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Spazio di lavoro"
+
+#~ msgid "[StudioApp]$APPNAME can not shutdown right now!"
+#~ msgstr "$APPNAME Non spegnere!"
+
+#~ msgid "[StudioApp]Files are being transferred in background."
+#~ msgstr "I file vengono trasferiti in background."
 

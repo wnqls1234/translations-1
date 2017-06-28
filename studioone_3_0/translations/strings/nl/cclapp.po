@@ -1,6 +1,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
+#: .\application.cpp
+msgid "[Application]$APPNAME can not shutdown right now!"
+msgstr ""
+
 #: .\options\filetypeselector.cpp
 msgid "[FileType]%(1) File"
 msgstr ""
@@ -365,6 +369,10 @@ msgstr ""
 msgid "[Autosave]Do you want to keep the backup as a version?"
 msgstr ""
 
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Do you want to merge into %(1)?"
+msgstr ""
+
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to move these files to \"%(1)\"?"
 msgstr ""
@@ -411,7 +419,7 @@ msgid ""
 msgstr ""
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
+msgid "[Documents]Do you want to save a copy of %(1) as file format \"%(2)\"?"
 msgstr ""
 
 #: .\documents\documentmanager.cpp
@@ -635,10 +643,6 @@ msgstr ""
 msgid "[Presets]Load Preset File..."
 msgstr ""
 
-#: .\documents\documentmanager.cpp
-msgid "[Documents]Loading %(1) canceled."
-msgstr ""
-
 #: .\documents\packagedocument.cpp
 msgid "[Documents]Loading %(1)..."
 msgstr ""
@@ -653,6 +657,14 @@ msgstr ""
 
 #: .\options\mainoption.cpp .\options\useroption.cpp
 msgid "[UserOption]Locations"
+msgstr ""
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merge"
+msgstr ""
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merging %(1)..."
 msgstr ""
 
 #: .\browser\filedraghandler.cpp
@@ -1145,6 +1157,10 @@ msgid "[Documents]The file %(1) could not be found!"
 msgstr ""
 
 #: .\documents\documentmanager.cpp
+msgid "[Documents]The file format may not preserve all content."
+msgstr ""
+
+#: .\documents\documentmanager.cpp
 msgid ""
 "[Documents]The file has been created with an older version of $APPNAME. "
 "After saving the file you will not be able to load it in the old version "
@@ -1294,6 +1310,10 @@ msgstr ""
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]Updated tags in %(1)\n"
+msgstr ""
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Use %(1) Format"
 msgstr ""
 
 #: .\options\mainoption.cpp

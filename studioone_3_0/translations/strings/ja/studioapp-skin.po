@@ -17,10 +17,6 @@ msgid "[UserLicenseExpired]$APPCOMPANY Forum"
 msgstr "$APPCOMPANY フォーラム"
 
 #: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPCOMPANY Login"
-msgstr "$APPCOMPANY ログイン"
-
-#: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Shop"
 msgstr "$APPCOMPANY ショップ"
 
@@ -83,10 +79,6 @@ msgstr "$APPNAME ウェブサイト"
 #: .\ccl\contentinstaller.xml
 msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
 msgstr "$APPNAME には、ループ、サンプル、サードパーティ製プラグインを含む追加コンテンツが付属しています。インストールするパッケージを下から選択してください。"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要があります。メールアドレス/ユーザー名とパスワードを使用してログインしてください。"
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
@@ -236,6 +228,14 @@ msgstr "-"
 msgid "[VideoOffset]-"
 msgstr "-"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]-10 dBV"
+msgstr "-10 dBV"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]-10 dBV"
+msgstr "-10 dBV"
+
 #: .\app\homepage.xml
 msgid "[ArtistProfile]..."
 msgstr "..."
@@ -375,6 +375,10 @@ msgstr "11"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]12"
 msgstr "12"
+
+#: .\project\analyser.xml
+msgid "[Analyser]12th"
+msgstr "12th"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]13"
@@ -640,6 +644,10 @@ msgstr "@cmd.title[]"
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr "@cmd.title[]"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]@cmd.title[]"
+msgstr "@cmd.title[]"
+
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow2]@cmd.title[]"
 msgstr "@cmd.title[]"
@@ -820,6 +828,10 @@ msgstr "アクティベート"
 msgid "[AutomationAspectFirstRow]Activate"
 msgstr "アクティベート"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Activate"
+msgstr "アクティベート"
+
 #: .\app\licenser.xml
 msgid "[ActivationMode.Free]Activate $APPNAMEFREE"
 msgstr "$APPNAMEFREE をアクティベート"
@@ -887,6 +899,10 @@ msgstr "追加（ステレオ）"
 #: .\engine\editor.xml
 msgid "[EnvelopeLane]Add / Remove..."
 msgstr "追加/削除..."
+
+#: .\engine\editor.xml
+msgid "[Command]Add Automation Lane"
+msgstr "オートメーションレーンを追加"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]Add Automation Track"
@@ -960,6 +976,14 @@ msgstr "トラックを追加 @cmd[]"
 msgid "[RecordPanel.Horizontal]Add a layer for every new take"
 msgstr "新規テイクごとにレイヤーを追加"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add artist to file name"
+msgstr "アーティストをファイル名に追加"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add track numbers to file name"
+msgstr "トラック番号をファイル名に追加"
+
 #: .\app\options.xml
 msgid "[SoundSetOption]Add..."
 msgstr "追加..."
@@ -982,6 +1006,10 @@ msgstr "アルバム"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Album"
+msgstr "アルバム"
+
+#: .\project\project.xml
+msgid "[Project]Album"
 msgstr "アルバム"
 
 #: .\app\windowclasses.xml
@@ -1023,14 +1051,6 @@ msgstr "すべて"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]All Notes Off"
 msgstr "オールノートオフ"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Amount:"
-msgstr "アマウント:"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Amount:"
-msgstr "アマウント:"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Analyze"
@@ -1093,19 +1113,19 @@ msgid "[Project]Artist"
 msgstr "アーティスト"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist"
+msgid "[DetailedInfoTable]Artist"
 msgstr "アーティスト"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Artist Name"
-msgstr "アーティスト名"
 
 #: .\project\project.xml
 msgid "[Project]Artist(s) or Performer(s)"
 msgstr "アーティストまたは演奏者"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+msgid "[ProjectTrackControlsContentMedium]Artist(s) or Performer(s)"
+msgstr "アーティストまたは演奏者"
+
+#: .\project\project.xml
+msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "アーティストまたは演奏者"
 
 #: .\engine\songdialogs.xml
@@ -1153,7 +1173,7 @@ msgid "[Command]Audio Device"
 msgstr "オーディオデバイス "
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Audio Device "
+msgid "[AudioSetup.Device]Audio Device"
 msgstr "オーディオデバイス "
 
 #: .\engine\eventinspector.xml
@@ -1171,6 +1191,10 @@ msgstr "選択したトラックでオーディオ入力を有効"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Audio Input follows Selection"
 msgstr "選択したトラックでオーディオ入力を有効"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Audio Roundtrip"
+msgstr "オーディオラウンドトリップ"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Audio Tracks"
@@ -1248,6 +1272,10 @@ msgstr "オートメーション"
 msgid "[AutomationTrackDialog]Automation"
 msgstr "オートメーション"
 
+#: .\engine\editor.xml
+msgid "[Command]Automation"
+msgstr "オートメーション"
+
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Automation"
 msgstr "オートメーション"
@@ -1297,12 +1325,12 @@ msgid "[InplaceOptions]Automation follows events"
 msgstr "オートメーションはイベントに従う"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Average"
-msgstr "平均"
+msgid "[SpectrumMeterSettings]Averaging Speed"
+msgstr "平均スピード"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Averaging Speed"
-msgstr "平均スピード"
+msgid "[SpectrumMeterSettings]Avg."
+msgstr "平均"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]B"
@@ -1315,10 +1343,6 @@ msgstr "戻る"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Back to Activation"
 msgstr "アクティベーションに戻る"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Back to Log in"
-msgstr "ログインに戻る"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Main]Background"
@@ -1381,7 +1405,7 @@ msgid "[TrackExport]Between Song Start/End Marker"
 msgstr "ソングスタート/エンドマーカー間"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Bit Depth"
+msgid "[AudioSetup.Device]Bit Depth"
 msgstr "ビット深度"
 
 #: .\engine\musicdialogs.xml
@@ -1473,7 +1497,7 @@ msgid "[SlotNodeEditHeader]Bypass (automatable)"
 msgstr "バイパス（オートメーション可能）"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Bypass Master Effects"
+msgid "[AudioExport]Bypass master effects"
 msgstr "マスターエフェクトをバイパス"
 
 #: .\engine\quantize.xml
@@ -1483,6 +1507,14 @@ msgstr "C"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]CC Automation Interval"
 msgstr "CCオートメーション間隔"
+
+#: .\app\windowclasses.xml
+msgid "[ProjectCDProtocol]CD Protocol"
+msgstr "CDプロトコル"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]CD Protocol"
+msgstr "CDプロトコル"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Meters]CPU"
@@ -1510,10 +1542,6 @@ msgstr "キャンセル"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
-msgstr "キャンセル"
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Cancel"
 msgstr "キャンセル"
 
 #: .\engine\mediapool.xml
@@ -1701,7 +1729,7 @@ msgid "[InputLevelsContent]Clip"
 msgstr "クリップ"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Clip"
+msgid "[HoldValues]Clip"
 msgstr "クリップ"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1844,6 +1872,10 @@ msgstr "コメント"
 msgid "[DetailedInfoTable]Comment"
 msgstr "コメント"
 
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Compact View"
+msgstr "コンパクト表示"
+
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Compare"
 msgstr "比較"
@@ -1889,7 +1921,7 @@ msgid "[ParamMapper.MappingPart]Control"
 msgstr "Control"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Control Panel"
+msgid "[AudioSetup.Device]Control Panel"
 msgstr "コントロールパネル"
 
 #: .\devices\musicdevices.xml
@@ -1940,14 +1972,6 @@ msgstr "著作権"
 msgid "[Analyser]Corr"
 msgstr "修正"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Country"
-msgstr "国"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
-msgstr "$APPCOMPANY アカウントを作成"
-
 #: .\app\homepage.xml
 msgid "[HomePage]Create a new Project"
 msgstr "新規プロジェクトを作成"
@@ -1996,6 +2020,10 @@ msgstr "キューミックスパン: @value[]"
 msgid "[InplaceOptions]Cursor follows Edit Position"
 msgstr "カーソルは編集位置に追従"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Curve"
+msgstr "カーブ"
+
 #: .\app\options.xml
 msgid "[MusicOption]Cut long notes at part end"
 msgstr "長いノートをパートエンドでカット"
@@ -2005,20 +2033,12 @@ msgid "[QuantizeSetup.PresetPart]D"
 msgstr "D"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]DC L"
-msgstr "DC L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DC R"
-msgstr "DC R"
+msgid "[LoudnessInfoTable]DC"
+msgstr "DC"
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]DDP"
 msgstr "DDP"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DR"
-msgstr "DR"
 
 #: .\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Data Zoom"
@@ -2108,14 +2128,6 @@ msgstr "取り外す"
 msgid "[LicenseZone]Details..."
 msgstr "詳細..."
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Detect Loudness"
-msgstr "ラウドネスを検出"
-
-#: .\project\project.xml
-msgid "[Command]Detect Loudness"
-msgstr "ラウドネスを検出"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Detection"
 msgstr "検出"
@@ -2145,7 +2157,7 @@ msgid "[BurnerSelectDialog]Device"
 msgstr "デバイス"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Device Block Size"
+msgid "[AudioSetup.Device]Device Block Size"
 msgstr "デバイスブロックサイズ"
 
 #: .\devices\musicdevices.xml
@@ -2204,10 +2216,6 @@ msgstr "オートメーションエンベロープのイベントを無効化"
 msgid "[PerformanceMonitor.Meters]Disc"
 msgstr "ディスク"
 
-#: .\project\project.xml
-msgid "[Project]Disc"
-msgstr "ディスク"
-
 #: .\devices\transport.xml
 msgid "[TransportPanel.PerformancePart]Disc Overload"
 msgstr "ディスク過負荷"
@@ -2227,10 +2235,6 @@ msgstr "ディスプレイオフセット"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
 msgstr "この拡張をインストールしますか？"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
-msgstr "$APPCOMPANY アカウントをお持ちでない場合"
 
 #: .\app\options.xml
 msgid "[EditingOption]Don&apos;t show event names"
@@ -2304,6 +2308,14 @@ msgstr "追加サウンドを選択するにはファイルをここにドラッ
 msgid "[EditingOption]Draw events translucent (grid shines through)"
 msgstr "透明イベントを描画（グリッド透過）"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Dropout Protection"
+msgstr "ドロップアウト保護"
+
+#: .\devices\transport.xml
+msgid "[PerformanceMonitor]Dropout Protection"
+msgstr "ドロップアウト保護"
+
 #: .\engine\inspector.xml
 msgid "[ArrangerTrackInspector]Duplicate"
 msgstr "複製"
@@ -2317,28 +2329,16 @@ msgid "[LayerAspectRow1]Duplicate Layer"
 msgstr "レイヤーを複製"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Duration:"
-msgstr "長さ:"
+msgid "[AudioExport]Duration"
+msgstr "長さ"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Duration:"
-msgstr "長さ:"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Dynamic Range"
-msgstr "ダイナミックレンジ"
+msgid "[TrackExport]Duration"
+msgstr "長さ"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]E"
 msgstr "E"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail"
-msgstr "メールアドレス"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail or username"
-msgstr "メールまたはユーザー名"
 
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN"
@@ -2347,6 +2347,22 @@ msgstr "EAN"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN/UPC code"
 msgstr "EAN/UPCコード"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]EBU"
+msgstr "EBU"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18"
+msgstr "EBU +18"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18 Metering"
+msgstr "EBU +18メータリング"
+
+#: .\project\analyser.xml
+msgid "[Analyser]EBU R128"
+msgstr "EBU R128"
 
 #: .\app\windowclasses.xml .\engine\inspector.xml
 msgid "[Command]Edit"
@@ -2387,10 +2403,6 @@ msgstr "音名を編集"
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Edit Remote Bank"
 msgstr "リモートバンクを編集"
-
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Edit Song"
-msgstr "ソングを編集"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Edit..."
@@ -2444,17 +2456,41 @@ msgstr "新規オーディオトラックの&apos;再生オーバーラップ&ap
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "新規オーディオトラックの&apos;再生オーバーラップ&apos;を有効化"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
+msgstr "ハードウェアモニタリングを有効化"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Hardware Monitoring"
+msgstr "ハードウェアモニタリングを有効化"
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr "高DPIモードを有効化"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Enable Multi-Processing"
-msgstr "マルチプロセッシングを有効化"
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Low Latency Monitoring"
+msgstr "低レーテンシーモニタリングを有効化"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Low Latency Monitoring"
+msgstr "低レーテンシーモニタリングを有効化"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Enable Low Latency Monitoring"
+msgstr "低レーテンシーモニタリングを有効化"
+
+#: .\devices\synthrack.xml
+msgid "[SynthRack]Enable Low Latency Monitoring"
+msgstr "低レーテンシーモニタリングを有効化"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Enable Program"
 msgstr "プログラムを有効化"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable Smoothing"
+msgstr "スムージングを有効化"
 
 #: .\app\options.xml
 msgid "[EditingOption]Enable crosshair cursor for tools"
@@ -2463,6 +2499,14 @@ msgstr "ツールの十字カーソルを有効化"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Enable crosshair cursor for tools"
 msgstr "ツールの十字カーソルを有効化"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Enable low latency monitoring for instruments"
+msgstr "インストゥルメントの低レーテンシーモニタリングを有効化"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
+msgstr "スロープ補正を有効化 (ピンクノイズに +3dB/oct.)"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2712,16 +2756,12 @@ msgstr "ファイル"
 msgid "[MusicDeviceOptions]Filter"
 msgstr "フィルター"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]First Name"
-msgstr "名"
-
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Fix Tail"
+msgid "[MusicTransformDialog]Fixed Tail"
 msgstr "固定テイル"
 
 #: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Fix Tail"
+msgid "[AudioTransformDialog]Fixed Tail"
 msgstr "固定テイル"
 
 #: .\devices\audiofxeditor.xml
@@ -2747,10 +2787,6 @@ msgstr "クオンタイズに従う"
 #: .\app\about.xml
 msgid "[AboutApplication]Fonts"
 msgstr "フォント"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Forgot your password?"
-msgstr "パスワードをお忘れですか？"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
@@ -2779,6 +2815,10 @@ msgstr "ルーラーとメインタイムディスプレイのフォーマット
 #: .\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
 msgstr "フレームレート"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Freeze"
+msgstr "フリーズ"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Frequency Split"
@@ -2904,6 +2944,14 @@ msgstr "グループ化"
 msgid "[AudioBendPanel.TrackPart]Guides"
 msgstr "ガイド"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Hardware Monitoring Available"
+msgstr "ハードウェアモニタリング使用可能"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Height"
+msgstr "高さ"
+
 #: .\app\about.xml .\app\homepage.xml .\app\toolbar.xml
 msgid "[Command]Help"
 msgstr "ヘルプ"
@@ -2917,7 +2965,7 @@ msgid "[Command]History"
 msgstr "履歴"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Hold"
+msgid "[SpectrumMeterSettings]Hold"
 msgstr "ホールド"
 
 #: .\app\homepage.xml
@@ -2948,13 +2996,17 @@ msgstr "承諾"
 msgid "[MixerManager]I/O"
 msgstr "I/O"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]INT"
+msgstr "INT"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]INT"
+msgstr "INT"
+
 #: .\project\project.xml
 msgid "[DetailedInfoTable]ISRC"
 msgstr "ISRC"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
-msgstr "ITU-BS-1770 / R128 ラウドネス"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
@@ -2985,12 +3037,16 @@ msgid "[VideoPlayer]Import Video"
 msgstr "ビデオをインポート"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Import to Track"
+msgid "[AudioExport]Import to track"
 msgstr "トラックにインポート"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Import to Track"
+msgid "[TrackExport]Import to track"
 msgstr "トラックにインポート"
+
+#: .\project\project.xml
+msgid "[NewProject]Import tracks from DDP Image"
+msgstr "トラックをDDPイメージからインポート"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]In"
@@ -3033,7 +3089,7 @@ msgid "[NewSong]Initial time signature of song"
 msgstr "ソングの元の拍子"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Input Latency"
+msgid "[AudioSetup.Device]Input Latency"
 msgstr "入力レーテンシー"
 
 #: .\devices\musicfxeditor.xml
@@ -3135,6 +3191,10 @@ msgstr "インストールはバックグラウンドで継続されます。今
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Instr."
 msgstr "インスト..."
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Instrument"
+msgstr "インストゥルメント"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Instrument"
@@ -3256,13 +3316,17 @@ msgstr "インストゥルメント"
 msgid "[SynthRack]Instruments"
 msgstr "インストゥルメント"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Integrated (EBU R128)"
+msgstr "インテグレーテッド (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Integrated (EBU R128)"
+msgstr "インテグレーテッド (EBU R128)"
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
 msgstr "インターフェース"
-
-#: .\devices\devices.xml
-msgid "[AudioSetup]Internal Block Size"
-msgstr "内部ブロックサイズ"
 
 #: .\devices\devices.xml
 msgid "[MacroTargetCurve]Invert X"
@@ -3316,13 +3380,37 @@ msgstr "キーボードマッピングスキーム"
 msgid "[TransportPanel.LoopPart]L"
 msgstr "L"
 
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]L"
+msgstr "L"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LRA"
+msgstr "LRA"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LRA"
+msgstr "LRA"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LU"
+msgstr "LU"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LU"
+msgstr "LU"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LUFS"
+msgstr "LUFS"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LUFS"
+msgstr "LUFS"
+
 #: .\ccl\common.xml
 msgid "[LocaleOption]Language"
 msgstr "言語"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Last Name"
-msgstr "姓"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Launch Notion"
@@ -3353,16 +3441,16 @@ msgid "[MusicTrackInspector]Layers follow events"
 msgstr "レイヤーはイベントに従う"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Left Channel Average RMS (3 seconds integration)"
 msgstr "左チャンネル平均RMS（3秒統合）"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel DC Offset"
+msgid "[LoudnessInfoTable]Left Channel DC Offset"
 msgstr "左チャンネルDCオフセット"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Peak"
-msgstr "左チャンネルピーク"
+msgid "[LoudnessInfoTable]Left Channel True Peak"
+msgstr "左チャンネルトゥルーピーク"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Length"
@@ -3372,13 +3460,17 @@ msgstr "長さ"
 msgid "[NoteEventProperties]Length"
 msgstr "長さ"
 
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Length"
-msgstr "長さ"
-
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Level"
 msgstr "レベル"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Max"
+msgstr "レベル最高"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Min"
+msgstr "レベル最低"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Levels"
@@ -3464,10 +3556,6 @@ msgstr "ロケーション"
 msgid "[SoundSetOption]Locations"
 msgstr "ロケーション"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Lock"
-msgstr "ロック"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Lock Active Scene"
 msgstr "アクティブなシーンをロック"
@@ -3479,10 +3567,6 @@ msgstr "アクティブなシーンをロック"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Lock level and pan to channel"
 msgstr "レベルとパンをチャンネルにロック"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Login"
-msgstr "ログイン"
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[AudioPreviewPlayer]Loop"
@@ -3511,6 +3595,30 @@ msgstr "ループ"
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Loudness Information"
 msgstr "ラウドネス情報"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Loudness Range (EBU R128)"
+msgstr "ラウドネスレンジ (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Loudness Range (EBU R128)"
+msgstr "ラウドネスレンジ (EBU R128)"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency"
+msgstr "低レイテンシ"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency Instrument Monitoring Active"
+msgstr "低レイテンシーインストゥルメントモニタリング有効"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioTrack.Channel]Low Latency Monitoring Enabled"
+msgstr "低レーテンシーモニタリング有効"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioSynth.Channel]Low Latency Monitoring Enabled"
+msgstr "低レーテンシーモニタリング有効"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Luminance"
@@ -3564,6 +3672,10 @@ msgstr "マクロコントロールマッピング"
 msgid "[SynthCombinatorPageSelector]Macro Controls Mapping"
 msgstr "マクロコントロールマッピング"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Magnitude Range"
+msgstr "振幅範囲"
+
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Make Default"
 msgstr "デフォルトを作成"
@@ -3571,6 +3683,10 @@ msgstr "デフォルトを作成"
 #: .\project\audiofile.xml
 msgid "[ImageMaker]Make Image"
 msgstr "イメージを作成"
+
+#: .\engine\editor.xml
+msgid "[Command]Manage Parameters"
+msgstr "パラメーターを管理"
 
 #: .\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Manage Plug-Ins"
@@ -3605,8 +3721,8 @@ msgid "[TransportPanel.MasterPart]Master Volume"
 msgstr "マスターボリューム"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Mastering File Status"
-msgstr "マスタリングファイルステータス"
+msgid "[ProjectTrackIcon]Mastering File Status / Edit Song"
+msgstr "マスタリングファイルステータス/ソングを編集"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Material"
@@ -3635,6 +3751,10 @@ msgstr "メディアプール"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Merge"
 msgstr "結合"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Merge into open document"
+msgstr "開いているドキュメントに結合"
 
 #: .\app\startup.xml
 msgid "[MessageWindow]Messages"
@@ -3716,6 +3836,10 @@ msgstr "モード"
 msgid "[PresetFileInfo]Modified:"
 msgstr "変更日:"
 
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Momentary"
+msgstr "モメンタリ"
+
 #: .\app\shared.xml
 msgid "[TCMutablePlainButton]Monitor"
 msgstr "モニター"
@@ -3727,6 +3851,10 @@ msgstr "モニター"
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "モニター"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Monitoring Latencies"
+msgstr "モニタリングレーテンシー"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Monitoring follows record"
@@ -3800,13 +3928,13 @@ msgstr "出力をミュート"
 msgid "[ExtensionManager.FilterTabs]My Extensions"
 msgstr "お客様のエクステンション"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Naming:"
-msgstr "名前設定:"
-
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Narrow / Normal"
 msgstr "狭/標準"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Native Low Latency Monitoring Available"
+msgstr "ネイティブ低レーテンシーモニタリング有効"
 
 #: .\app\windowclasses.xml .\ccl\navigator.xml
 msgid "[Navigator]Navigator"
@@ -3996,6 +4124,10 @@ msgstr "開く"
 msgid "[Song]Open Arrangertrack"
 msgstr "アレンジトラックを開く"
 
+#: .\app\windowclasses.xml
+msgid "[Command]Open CD Protocol"
+msgstr "CDプロトコルを開く"
+
 #: .\devices\transport.xml
 msgid "[TransportPanel.MidiActivityPart]Open MIDI Monitor"
 msgstr "MIDIモニターを開く"
@@ -4076,13 +4208,13 @@ msgstr "また、 $APPNAME をよりよいものにするため、弊社では�
 msgid "[MusicTrackInspector]Out"
 msgstr "アウト"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Output Latency"
-msgstr "出力レーテンシー"
-
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Output:"
-msgstr "出力:"
+msgid "[AudioExport]Output"
+msgstr "出力"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Output Latency"
+msgstr "出力レーテンシー"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Outputs"
@@ -4140,10 +4272,6 @@ msgstr "パラメーターマッピングコントロール"
 msgid "[FXEditorHeaderRow1]Passthrough"
 msgstr "パススルー"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Password"
-msgstr "パスワード"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "ペースト"
@@ -4153,8 +4281,8 @@ msgid "[MacroTargetCurve]Paste"
 msgstr "ペースト"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Pause"
-msgstr "一時停止"
+msgid "[ProjectTrackControlsContentMedium]Pause (Pre Track)"
+msgstr "一時停止 (プリトラック)"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
@@ -4165,15 +4293,15 @@ msgid "[AudioOutput.Channel.Content]Peak Hold (dB)"
 msgstr "ピークホールド（dB）"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Hold Speed"
+msgid "[SpectrumMeterSettings]Peak Hold Speed"
 msgstr "ピークホールドスピード"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Left [dB]"
+msgid "[HoldValues]Peak Left [dB]"
 msgstr "ピーク左 [dB]"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Right [dB]"
+msgid "[HoldValues]Peak Right [dB]"
 msgstr "ピーク右 [dB]"
 
 #: .\devices\transport.xml
@@ -4207,14 +4335,6 @@ msgstr "ピッチ"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Pitch Bend"
 msgstr "ピッチベンド"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk L"
-msgstr "Pk L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk R"
-msgstr "Pk R"
 
 #: .\project\analyser.xml
 msgid "[Analyser]PkRMS"
@@ -4264,17 +4384,13 @@ msgstr "オーバーラップを再生"
 msgid "[NewSong]Play overlaps"
 msgstr "オーバーラップを再生"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
-msgstr "連絡先情報を入力し、登録してください。アカウントのアクティベート用リンクを記載したメールが送信されます。"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Playback Device"
+msgstr "再生デバイス"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "変更を有効にするには $APPNAME を再起動してください。"
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Please wait..."
-msgstr "お待ちください..."
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Plug-In:"
@@ -4300,9 +4416,17 @@ msgstr "ソングを開く際にポップアップ"
 msgid "[PostFaderInserts]Post"
 msgstr "ポスト"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Post FX"
+msgstr "ポストFX"
+
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Post-Roll"
 msgstr "ポストロール"
+
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Pre FX"
+msgstr "プリFX"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
@@ -4348,13 +4472,13 @@ msgstr "プリロール @cmd[Transport|Preroll]"
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
 msgstr "インストゥルメントトラック状態を維持"
 
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Preserve Mono Tracks"
-msgstr "モノトラックを維持"
-
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "リアルタイム状態を維持"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Preserve mono tracks"
+msgstr "モノトラックを維持"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
@@ -4389,20 +4513,20 @@ msgid "[AutomationTrackDialog]Previous Track"
 msgstr "前のトラック"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Process Precision"
+msgid "[AudioSetup.Engine]Process Block Size"
+msgstr "プロセスブロックサイズ"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Process Precision"
 msgstr "処理精度"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Process Volume after Event Effects"
 msgstr "イベントエフェクト後にボリュームを処理"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
-msgstr "オーディオをセーフモードで処理（高レーテンシー）"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Processing:"
-msgstr "プロセッシング:"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Processing"
+msgstr "プロセッシング"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -4525,7 +4649,11 @@ msgid "[TransportPanel.LoopPart]R"
 msgstr "R"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]R128"
+msgid "[LoudnessInfoTable]R"
+msgstr "R"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]R128"
 msgstr "R128"
 
 #: .\devices\transport.xml
@@ -4541,19 +4669,15 @@ msgid "[TransportPanel.PerformancePart]RAM Overload"
 msgstr "RAM過負荷"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS L"
-msgstr "RMS L"
+msgid "[LoudnessInfoTable]RMS"
+msgstr "RMS"
 
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Left [dB]"
+msgid "[HoldValues]RMS Left [dB]"
 msgstr "RMS左 [dB]"
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS R"
-msgstr "RMS R"
-
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Right [dB]"
+msgid "[HoldValues]RMS Right [dB]"
 msgstr "RMS右 [dB]"
 
 #: .\devices\synthcombinator.xml
@@ -4562,6 +4686,10 @@ msgstr "範囲"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.OptionsPart]Range"
+msgstr "範囲"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Range"
 msgstr "範囲"
 
 #: .\app\toolbar.xml
@@ -4579,22 +4707,6 @@ msgstr "プリセットの索引を再作成"
 #: .\ccl\browser.xml
 msgid "[Command]Re-Index Presets"
 msgstr "プリセットの索引を再作成"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Realtime Processing"
-msgstr "リアルタイムプロセッシング"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Realtime Processing"
-msgstr "リアルタイムプロセッシング"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Realtime Processing"
-msgstr "リアルタイムプロセッシング"
-
-#: .\project\audiofile.xml
-msgid "[ImageMaker]Realtime Processing"
-msgstr "リアルタイムプロセッシング"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Receive From"
@@ -4688,8 +4800,12 @@ msgstr "テイクを録音"
 msgid "[AudioEngineOption]Record tempo information to audio files"
 msgstr "テンポ情報をオーディオファイルに記録"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Release audio device in background"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Recording Device"
+msgstr "レコーディングデバイス"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Release audio device in background"
 msgstr "オーディオデバイスをバックグラウンドで解除"
 
 #: .\app\windowclasses.xml .\devices\transport.xml
@@ -4707,10 +4823,6 @@ msgstr "録音残時間"
 #: .\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
 msgstr "録音残時間（低）"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "認証情報を保存"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Remote"
@@ -4755,6 +4867,14 @@ msgstr "アクティブなシーンを削除"
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Remove Active Scene"
 msgstr "アクティブなシーンを削除"
+
+#: .\engine\editor.xml
+msgid "[Command]Remove Automation Lane"
+msgstr "オートメーションレーンを削除"
+
+#: .\engine\editor.xml
+msgid "[EnvelopeLane]Remove Automation Lane"
+msgstr "オートメーションレーンを削除"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Remove File..."
@@ -4836,10 +4956,6 @@ msgstr "アクセントをリピート"
 msgid "[RecordPanel.Horizontal]Repeat Key"
 msgstr "リピートキー"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Repeat Password"
-msgstr "パスワードを再入力"
-
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Replace"
 msgstr "置換"
@@ -4862,6 +4978,10 @@ msgstr "リセット"
 
 #: .\engine\musicdialogs.xml
 msgid "[PitchNameEditor]Reset"
+msgstr "リセット"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Reset"
 msgstr "リセット"
 
 #: .\engine\songdialogs.xml
@@ -4921,16 +5041,16 @@ msgid "[ProjectTransport]Rewind"
 msgstr "巻戻す"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Right Channel Average RMS (3 seconds integration)"
 msgstr "右チャンネル平均RMS（3秒統合）"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel DC Offset"
+msgid "[LoudnessInfoTable]Right Channel DC Offset"
 msgstr "右チャンネルDCオフセット"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Peak"
-msgstr "右チャンネルピーク"
+msgid "[LoudnessInfoTable]Right Channel True Peak"
+msgstr "右チャンネルトゥルーピーク"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Root"
@@ -4949,7 +5069,7 @@ msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited 
 msgstr "$APPNAMEFREE を実行 - 機能制限付き無償版"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Sample Rate"
+msgid "[AudioSetup.Device]Sample Rate"
 msgstr "サンプルレート"
 
 #: .\devices\transport.xml
@@ -4991,6 +5111,10 @@ msgstr "彩度"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Save As Template"
 msgstr "テンプレートとして保存"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Save As..."
+msgstr "別名で保存..."
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceDialog.Icon]Save Attachment"
@@ -5039,6 +5163,14 @@ msgstr "検索:"
 #: .\ccl\browser.xml
 msgid "[Command]SearchTag"
 msgstr "タグを検索"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Segment Height"
+msgstr "セグメント高さ"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Segments"
+msgstr "セグメント"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Select"
@@ -5128,6 +5260,10 @@ msgstr "トラック色を選択"
 msgid "[TrackControls]Select Track Color"
 msgstr "トラック色を選択"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Select Track Color"
+msgstr "トラック色を選択"
+
 #: .\engine\song.xml
 msgid "[InplaceOptions]Selection"
 msgstr "選択"
@@ -5176,6 +5312,14 @@ msgstr "Notionに送信"
 msgid "[AudioSends]Sends"
 msgstr "センド"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Sensitivity"
+msgstr "感度"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Sensitivity"
+msgstr "感度"
+
 #: .\devices\devices.xml
 msgid "[MidiMonitor]Sent"
 msgstr "送信済"
@@ -5207,6 +5351,10 @@ msgstr "設定 一般"
 #: .\engine\songdialogs.xml
 msgid "[Command]Setup Meta Information"
 msgstr "設定 メタ情報"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Short-Term"
+msgstr "ショートターム"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Show"
@@ -5276,6 +5424,10 @@ msgstr "インストゥルメントとNote FXを表示"
 msgid "[Command]Show Loops"
 msgstr "ループを表示"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Show Loudness Meter"
+msgstr "ラウドネスメーターを表示"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Outputs"
 msgstr "出力を表示"
@@ -5332,10 +5484,6 @@ msgstr "サムネイルを表示"
 msgid "[CloudBrowserHeader]Show Thumbnails"
 msgstr "サムネイルを表示"
 
-#: .\app\windowclasses.xml
-msgid "[Command]Show Trash Bin"
-msgstr "ゴミ箱を表示"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show VCA connections"
 msgstr "VCA接続を表示"
@@ -5364,10 +5512,6 @@ msgstr "インストールされているエフェクトを表示"
 msgid "[AudioSynthBus.Channel]Show sub channels"
 msgstr "サブチャンネルを表示"
 
-#: .\ccl\webfsbrowser.xml
-msgid "[TransferManager]Show when new transfer starts"
-msgstr "新規転送開始時に表示"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr "ベンドマーカーを表示/隠す"
@@ -5380,6 +5524,10 @@ msgstr "イベントエフェクトを表示/隠す"
 msgid "[FolderTrackControls]Show/Hide Tracks"
 msgstr "トラックを表示/隠す"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]Show/hide Automation Lanes"
+msgstr "オートメーションレーンを表示/隠す"
+
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Show/hide Loudness Information"
 msgstr "ラウドネス情報を表示/隠す"
@@ -5389,7 +5537,7 @@ msgid "[Project]Show/hide more"
 msgstr "さらに表示/隠す"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Show/hide more"
+msgid "[TrackControls]Show/hide more"
 msgstr "さらに表示/隠す"
 
 #: .\devices\audiofxeditor.xml
@@ -5400,9 +5548,17 @@ msgstr "サイドチェーン"
 msgid "[MusicBounceDialog]Skip Track"
 msgstr "トラックをスキップ"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Slope"
+msgstr "スロープ"
+
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Small / Large"
 msgstr "大/小"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Smooth"
+msgstr "スムーズ"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Snap"
@@ -5628,6 +5784,10 @@ msgstr "スプリッター"
 msgid "[SynthCombinatorRouting]Splitter"
 msgstr "スプリッター"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Standard"
+msgstr "スタンダード"
+
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Start"
 msgstr "スタート"
@@ -5811,6 +5971,14 @@ msgstr "システム エクスクルーシブ"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]System Realtime"
 msgstr "システム リアルタイム"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]TP"
+msgstr "TP"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]TP"
+msgstr "TP"
 
 #: .\ccl\browser.xml
 msgid "[TagPalette]Tag Palette"
@@ -6024,6 +6192,10 @@ msgstr "この機能を使用するには、$APPCOMPANY アカウントが必要
 msgid "[HardwareStereoInputControls]Toggle L/R Channel"
 msgstr "左/右チャンネルを切り替え"
 
+#: .\project\project.xml
+msgid "[Project]Toggle Track Height"
+msgstr "トラック高さを切り替え"
+
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
 msgstr "全体"
@@ -6049,7 +6221,7 @@ msgid "[LayerAspectRow2]Track"
 msgstr "トラック"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track Length"
+msgid "[ProjectTrackControlsLength]Track Length"
 msgstr "トラック長さ"
 
 #: .\app\windowclasses.xml
@@ -6080,16 +6252,12 @@ msgstr "トラック番号"
 msgid "[TrackControlsMainContent]Track Number"
 msgstr "トラック番号"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Track Numbers"
-msgstr "トラック番号"
-
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Track Time"
 msgstr "トラック時間"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track is disabled"
+msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "トラックは無効化されています"
 
 #: .\app\windowclasses.xml
@@ -6112,7 +6280,7 @@ msgstr "トラック"
 msgid "[SongUpdater]Tracks"
 msgstr "トラック"
 
-#: .\app\windowclasses.xml .\ccl\webfsbrowser.xml
+#: .\app\windowclasses.xml
 msgid "[TransferManager]Transfers"
 msgstr "転送"
 
@@ -6168,18 +6336,6 @@ msgstr "トランスポーズ"
 msgid "[MusicTrackInspector]Transpose"
 msgstr "トランスポーズ"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]Trash"
-msgstr "ゴミ箱"
-
-#: .\app\toolbar.xml
-msgid "[HistoryPanel]Trash Bin"
-msgstr "ゴミ箱"
-
-#: .\devices\audiomixer.xml
-msgid "[DeviceTrashBin]Trash Bin"
-msgstr "ゴミ箱"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Triplet"
 msgstr "3連符"
@@ -6187,6 +6343,10 @@ msgstr "3連符"
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Triplet"
 msgstr "3連符"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]True Peak"
+msgstr "トゥルーピーク"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
@@ -6225,6 +6385,10 @@ msgid "[ProjectToolbar]Update"
 msgstr "更新"
 
 #: .\project\project.xml
+msgid "[ProjectTrackInspector]Update Loudness"
+msgstr "ラウドネスを更新"
+
+#: .\project\project.xml
 msgid "[Command]Update Mastering Files"
 msgstr "マスタリングファイルを更新"
 
@@ -6256,10 +6420,6 @@ msgstr "アップグレード"
 msgid "[BurnerSelectDialog]Use Burnproof"
 msgstr "バーンプルーフを使用"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Use CPU Cores"
-msgstr "CPUコアを使用"
-
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Use MIDI Clock Start"
 msgstr "MIDIクロックスタートを使用"
@@ -6271,6 +6431,26 @@ msgstr "キャッシュをタイムストレッチされたオーディオファ
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use dithering for playback and audio file export"
 msgstr "再生とオーディオファイルのエクスポートにディザリングを使用"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
+msgstr "ハードウェアモニタリングの代わりにネイティブ低レーテンシーモニタリングを使用"
+
+#: .\engine\audioexport.xml
+msgid "[AudioExport]Use realtime processing"
+msgstr "リアルタイムプロセッシングを使用"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Use realtime processing"
+msgstr "リアルタイムプロセッシングを使用"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use realtime processing"
+msgstr "リアルタイムプロセッシングを使用"
+
+#: .\project\audiofile.xml
+msgid "[ImageMaker]Use realtime processing"
+msgstr "リアルタイムプロセッシングを使用"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use realtime processing to update mastering files"
@@ -6457,20 +6637,12 @@ msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness
 msgstr "Melodyneでは、オーディオ素材内の各音のピッチ、タイミング、音量、その他のプロパティを操作し、イントネーションの修正から大幅な加工までさまざまな変更が行えます。"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Write Tempo"
-msgstr "テンポを書き出す"
+msgid "[AudioExport]Write tempo to audio files"
+msgstr "テンポをオーディオファイルに書き込み"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Write Tempo"
-msgstr "テンポを書き出す"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Write tempo information to exported audio files"
-msgstr "テンポ情報をエクスポートされるオーディオファイルに書き出す"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Write tempo information to exported audio files"
-msgstr "テンポ情報をエクスポートされるオーディオファイルに書き出す"
+msgid "[TrackExport]Write tempo to audio files"
+msgstr "テンポをオーディオファイルに書き込み"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]X"
@@ -6516,29 +6688,13 @@ msgstr "お客様のデモの使用期間は終了しました。 $APPNAME の�
 msgid "[Setup]Zero Latency Monitoring"
 msgstr "ゼロレーテンシーモニタリング"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioTrack.Channel]Zero Latency Monitoring"
-msgstr "ゼロレーテンシーモニタリング"
-
-#: .\devices\audiochannel.xml
-msgid "[CueMixRackSlotView]Zero Latency Monitoring"
-msgstr "ゼロレーテンシーモニタリング"
-
 #: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Left [dB]"
-msgstr "絶対ピーク左 [dB]"
+msgid "[FixedEBUR128Display]dB"
+msgstr "dB"
 
-#: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Right [dB]"
-msgstr "絶対ピーク右 [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Left [dB]"
-msgstr "絶対RMS左 [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Right [dB]"
-msgstr "絶対RMS右 [dB]"
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]dB"
+msgstr "dB"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]mix"
@@ -6559,6 +6715,324 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SpectrumMeterSettings]Seg."
+#~ msgstr "セグメント"
+
+#~ msgid "[AudioSetup.Engine]Used CPU Cores"
+#~ msgstr "使用されているCPUコア"
+
+#~ msgid "[EnvelopeLane]X"
+#~ msgstr "X"
+
+#~ msgid "[LicenseServerLogin]$APPCOMPANY Login"
+#~ msgstr "$APPCOMPANY ログイン"
+
+#~ msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+#~ msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要があります。メールアドレス/ユーザー名とパスワードを使用してログインしてください。"
+
+#~ msgid "[AudioExport]Amount:"
+#~ msgstr "アマウント:"
+
+#~ msgid "[TrackExport]Amount:"
+#~ msgstr "アマウント:"
+
+#~ msgid "[ProjectTrackControlsContent]Artist"
+#~ msgstr "アーティスト"
+
+#~ msgid "[AudioFilePublisher]Artist Name"
+#~ msgstr "アーティスト名"
+
+#~ msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+#~ msgstr "アーティストまたは演奏者"
+
+#~ msgid "[AudioSetup]Audio Device "
+#~ msgstr "オーディオデバイス "
+
+#~ msgid "[Analyser]Average"
+#~ msgstr "平均"
+
+#~ msgid "[Analyser]Averaging Speed"
+#~ msgstr "平均スピード"
+
+#~ msgid "[LicenseServerLogin]Back to Log in"
+#~ msgstr "ログインに戻る"
+
+#~ msgid "[AudioSetup]Bit Depth"
+#~ msgstr "ビット深度"
+
+#~ msgid "[AudioExport]Bypass Master Effects"
+#~ msgstr "マスターエフェクトをバイパス"
+
+#~ msgid "[ProgressDialogView]Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "[Analyser]Clip"
+#~ msgstr "クリップ"
+
+#~ msgid "[AudioSetup]Control Panel"
+#~ msgstr "コントロールパネル"
+
+#~ msgid "[LicenseServerLogin]Country"
+#~ msgstr "国"
+
+#~ msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
+#~ msgstr "$APPCOMPANY アカウントを作成"
+
+#~ msgid "[ProjectTrackInspector]DC L"
+#~ msgstr "DC L"
+
+#~ msgid "[ProjectTrackInspector]DC R"
+#~ msgstr "DC R"
+
+#~ msgid "[ProjectTrackInspector]DR"
+#~ msgstr "DR"
+
+#~ msgid "[ProjectTrackInspector]Detect Loudness"
+#~ msgstr "ラウドネスを検出"
+
+#~ msgid "[Command]Detect Loudness"
+#~ msgstr "ラウドネスを検出"
+
+#~ msgid "[AudioSetup]Device Block Size"
+#~ msgstr "デバイスブロックサイズ"
+
+#~ msgid "[Project]Disc"
+#~ msgstr "ディスク"
+
+#~ msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
+#~ msgstr "$APPCOMPANY アカウントをお持ちでない場合"
+
+#~ msgid "[AudioExport]Duration:"
+#~ msgstr "長さ:"
+
+#~ msgid "[TrackExport]Duration:"
+#~ msgstr "長さ:"
+
+#~ msgid "[ProjectTrackInspector]Dynamic Range"
+#~ msgstr "ダイナミックレンジ"
+
+#~ msgid "[LicenseServerLogin]E-Mail"
+#~ msgstr "メールアドレス"
+
+#~ msgid "[LicenseServerLogin]E-Mail or username"
+#~ msgstr "メールまたはユーザー名"
+
+#~ msgid "[ProjectTrackControlsContent]Edit Song"
+#~ msgstr "ソングを編集"
+
+#~ msgid "[AudioSetup]Enable Multi-Processing"
+#~ msgstr "マルチプロセッシングを有効化"
+
+#~ msgid "[LicenseServerLogin]First Name"
+#~ msgstr "名"
+
+#~ msgid "[MusicTransformDialog]Fix Tail"
+#~ msgstr "固定テイル"
+
+#~ msgid "[AudioTransformDialog]Fix Tail"
+#~ msgstr "固定テイル"
+
+#~ msgid "[LicenseServerLogin]Forgot your password?"
+#~ msgstr "パスワードをお忘れですか？"
+
+#~ msgid "[Analyser]Hold"
+#~ msgstr "ホールド"
+
+#~ msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
+#~ msgstr "ITU-BS-1770 / R128 ラウドネス"
+
+#~ msgid "[AudioExport]Import to Track"
+#~ msgstr "トラックにインポート"
+
+#~ msgid "[TrackExport]Import to Track"
+#~ msgstr "トラックにインポート"
+
+#~ msgid "[AudioSetup]Input Latency"
+#~ msgstr "入力レーテンシー"
+
+#~ msgid "[AudioSetup]Internal Block Size"
+#~ msgstr "内部ブロックサイズ"
+
+#~ msgid "[LicenseServerLogin]Last Name"
+#~ msgstr "姓"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+#~ msgstr "左チャンネル平均RMS（3秒統合）"
+
+#~ msgid "[ProjectTrackInspector]Left Channel DC Offset"
+#~ msgstr "左チャンネルDCオフセット"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Peak"
+#~ msgstr "左チャンネルピーク"
+
+#~ msgid "[ProjectTrackControlsContent]Length"
+#~ msgstr "長さ"
+
+#~ msgid "[AudioSetup]Lock"
+#~ msgstr "ロック"
+
+#~ msgid "[LicenseServerLogin]Login"
+#~ msgstr "ログイン"
+
+#~ msgid "[ProjectTrackControlsContent]Mastering File Status"
+#~ msgstr "マスタリングファイルステータス"
+
+#~ msgid "[AudioFilePublisher]Naming:"
+#~ msgstr "名前設定:"
+
+#~ msgid "[AudioSetup]Output Latency"
+#~ msgstr "出力レーテンシー"
+
+#~ msgid "[AudioExport]Output:"
+#~ msgstr "出力:"
+
+#~ msgid "[LicenseServerLogin]Password"
+#~ msgstr "パスワード"
+
+#~ msgid "[ProjectTrackControlsContent]Pause"
+#~ msgstr "一時停止"
+
+#~ msgid "[Analyser]Peak Hold Speed"
+#~ msgstr "ピークホールドスピード"
+
+#~ msgid "[Analyser]Peak Left [dB]"
+#~ msgstr "ピーク左 [dB]"
+
+#~ msgid "[Analyser]Peak Right [dB]"
+#~ msgstr "ピーク右 [dB]"
+
+#~ msgid "[ProjectTrackInspector]Pk L"
+#~ msgstr "Pk L"
+
+#~ msgid "[ProjectTrackInspector]Pk R"
+#~ msgstr "Pk R"
+
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgstr "連絡先情報を入力し、登録してください。アカウントのアクティベート用リンクを記載したメールが送信されます。"
+
+#~ msgid "[ProgressDialogView]Please wait..."
+#~ msgstr "お待ちください..."
+
+#~ msgid "[TrackExport]Preserve Mono Tracks"
+#~ msgstr "モノトラックを維持"
+
+#~ msgid "[AudioSetup]Process Precision"
+#~ msgstr "処理精度"
+
+#~ msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
+#~ msgstr "オーディオをセーフモードで処理（高レーテンシー）"
+
+#~ msgid "[AudioFilePublisher]Processing:"
+#~ msgstr "プロセッシング:"
+
+#~ msgid "[ProjectTrackInspector]R128"
+#~ msgstr "R128"
+
+#~ msgid "[ProjectTrackInspector]RMS L"
+#~ msgstr "RMS L"
+
+#~ msgid "[Analyser]RMS Left [dB]"
+#~ msgstr "RMS左 [dB]"
+
+#~ msgid "[ProjectTrackInspector]RMS R"
+#~ msgstr "RMS R"
+
+#~ msgid "[Analyser]RMS Right [dB]"
+#~ msgstr "RMS右 [dB]"
+
+#~ msgid "[AudioExport]Realtime Processing"
+#~ msgstr "リアルタイムプロセッシング"
+
+#~ msgid "[TrackExport]Realtime Processing"
+#~ msgstr "リアルタイムプロセッシング"
+
+#~ msgid "[AudioFilePublisher]Realtime Processing"
+#~ msgstr "リアルタイムプロセッシング"
+
+#~ msgid "[ImageMaker]Realtime Processing"
+#~ msgstr "リアルタイムプロセッシング"
+
+#~ msgid "[AudioEngineOption]Release audio device in background"
+#~ msgstr "オーディオデバイスをバックグラウンドで解除"
+
+#~ msgid "[LicenseServerLogin]Remember my credentials"
+#~ msgstr "認証情報を保存"
+
+#~ msgid "[LicenseServerLogin]Repeat Password"
+#~ msgstr "パスワードを再入力"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+#~ msgstr "右チャンネル平均RMS（3秒統合）"
+
+#~ msgid "[ProjectTrackInspector]Right Channel DC Offset"
+#~ msgstr "右チャンネルDCオフセット"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Peak"
+#~ msgstr "右チャンネルピーク"
+
+#~ msgid "[AudioSetup]Sample Rate"
+#~ msgstr "サンプルレート"
+
+#~ msgid "[Command]Show Trash Bin"
+#~ msgstr "ゴミ箱を表示"
+
+#~ msgid "[TransferManager]Show when new transfer starts"
+#~ msgstr "新規転送開始時に表示"
+
+#~ msgid "[ProjectTrackControlsContent]Show/hide more"
+#~ msgstr "さらに表示/隠す"
+
+#~ msgid "[ProjectTrackControlsContent]Track Length"
+#~ msgstr "トラック長さ"
+
+#~ msgid "[AudioFilePublisher]Track Numbers"
+#~ msgstr "トラック番号"
+
+#~ msgid "[ProjectTrackControlsContent]Track is disabled"
+#~ msgstr "トラックは無効化されています"
+
+#~ msgid "[MixerManager]Trash"
+#~ msgstr "ゴミ箱"
+
+#~ msgid "[HistoryPanel]Trash Bin"
+#~ msgstr "ゴミ箱"
+
+#~ msgid "[DeviceTrashBin]Trash Bin"
+#~ msgstr "ゴミ箱"
+
+#~ msgid "[AudioSetup]Use CPU Cores"
+#~ msgstr "CPUコアを使用"
+
+#~ msgid "[AudioExport]Write Tempo"
+#~ msgstr "テンポを書き出す"
+
+#~ msgid "[TrackExport]Write Tempo"
+#~ msgstr "テンポを書き出す"
+
+#~ msgid "[AudioExport]Write tempo information to exported audio files"
+#~ msgstr "テンポ情報をエクスポートされるオーディオファイルに書き出す"
+
+#~ msgid "[TrackExport]Write tempo information to exported audio files"
+#~ msgstr "テンポ情報をエクスポートされるオーディオファイルに書き出す"
+
+#~ msgid "[AudioTrack.Channel]Zero Latency Monitoring"
+#~ msgstr "ゼロレーテンシーモニタリング"
+
+#~ msgid "[CueMixRackSlotView]Zero Latency Monitoring"
+#~ msgstr "ゼロレーテンシーモニタリング"
+
+#~ msgid "[Analyser]abs. Peak Left [dB]"
+#~ msgstr "絶対ピーク左 [dB]"
+
+#~ msgid "[Analyser]abs. Peak Right [dB]"
+#~ msgstr "絶対ピーク右 [dB]"
+
+#~ msgid "[Analyser]abs. RMS Left [dB]"
+#~ msgstr "絶対RMS左 [dB]"
+
+#~ msgid "[Analyser]abs. RMS Right [dB]"
+#~ msgstr "絶対RMS右 [dB]"
 
 #~ msgid "[Command]Audio Devices"
 #~ msgstr "オーディオデバイス"

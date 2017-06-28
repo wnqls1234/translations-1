@@ -16,10 +16,6 @@ msgstr "Morceau $APPNAME"
 msgid "[FileType]$APPNAME Song Template"
 msgstr "Modèle de morceau $APPNAME"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]$APPNAME can not shutdown right now!"
-msgstr "$APPNAME ne peut pas se fermer maintenant!"
-
 #: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "Ajouter au projet"
@@ -59,6 +55,10 @@ msgstr "Cloud"
 #: .\appoptions.cpp
 msgid "[Options]Console"
 msgstr "Console"
+
+#: .\sidebar.cpp
+msgid "[Sidebar]Construction Kits"
+msgstr "Construction Kits"
 
 #: .\appoptions.cpp
 msgid "[Options]Create a New Song"
@@ -131,10 +131,6 @@ msgstr "Types de fichier"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "Fichiers"
-
-#: .\studioapp.cpp
-msgid "[StudioApp]Files are being transferred in background."
-msgstr "Les fichiers seront transférés en tâche de fond."
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -317,6 +313,10 @@ msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "Échec de l'installation du jeu de sons \"%(1)\" ."
 
 #: .\soundsethandler.cpp
+msgid "[StudioApp]Sound Set \"%(1)\" has been updated to version %(2)."
+msgstr "Le jeu de sons \"%(1)\" a été mis à jour en version %(2)."
+
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "Le jeu de sons \"%(1)\" est déjà installé."
 
@@ -395,4 +395,10 @@ msgstr "Affichage"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Espace de travail"
+
+#~ msgid "[StudioApp]$APPNAME can not shutdown right now!"
+#~ msgstr "$APPNAME ne peut pas se fermer maintenant!"
+
+#~ msgid "[StudioApp]Files are being transferred in background."
+#~ msgstr "Les fichiers seront transférés en tâche de fond."
 

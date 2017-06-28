@@ -13,12 +13,20 @@ msgid "[MacroControls]%(1) Macro"
 msgstr "%(1) マクロ"
 
 #: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) is currently unresponsive."
+msgstr "%(1) は現在反応しません。"
+
+#: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]%(1) mixer available in network"
 msgstr "ネットワーク上に %(1) つのミキサーがあります"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]%(1) mixers available in network"
 msgstr "ネットワーク上に %(1) つのミキサーがあります"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]%(1) of %(2)"
+msgstr "%(2) 中 %(1)"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]%(1) samples"
@@ -60,9 +68,33 @@ msgstr "この名前のデバイスはすでに存在します。"
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr "3以上のインストゥルメントにノートイベントスプリッターを挿入できます。"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Activate %(1)"
+msgstr "%(1) を有効化"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All %(1)"
+msgstr "すべての %(1) を有効化"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Activate All Devices"
+msgstr "すべてのデバイスを有効化"
+
 #: .\application\ultimatestudioenvironment.cpp
 msgid "[Command]Activate All Inserts"
 msgstr "すべてのインサートを有効化"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Activate Devices"
+msgstr "デバイスを有効化"
+
+#: .\audiosynths\audiosyntheditfunctions.cpp
+msgid "[ActionDescriptions]Activate Output of '%(1)'"
+msgstr "'%(1)' の出力を有効化"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Add %(1)"
+msgstr "%(1) を追加"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Add %(1) to %(2)"
@@ -88,14 +120,6 @@ msgstr "デバイスを追加"
 msgid "[MappingHandler]Add Device"
 msgstr "デバイスを追加"
 
-#: .\base\devicefolder.cpp
-msgid "[DeviceFolder]Add Device:"
-msgstr "デバイスを追加:"
-
-#: .\audioeffects\audiofxfolder.cpp
-msgid "[AudioFX]Add Effect:"
-msgstr "エフェクトを追加:"
-
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add FX Channel"
 msgstr "FXチャンネルを追加"
@@ -116,25 +140,21 @@ msgstr "グループチャンネルを追加"
 msgid "[Command]Add Insert"
 msgstr "インサートを追加"
 
-#: .\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Add Instrument:"
-msgstr "インストゥルメントを追加:"
-
-#: .\audiosynths\combinator\combinatorsynthfolder.cpp
-msgid "[SynthCombinator]Add Instrument:"
-msgstr "インストゥルメントを追加:"
+#: .\macrocontrol\macrocontroledit.cpp
+msgid "[ActionDescriptions]Add Macro Target '%(1)'"
+msgstr "マクロターゲット '%(1)' を追加"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Post Fader Insert"
 msgstr "ポストフェーダーインサートを追加"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Add Send"
+msgstr "センドを追加"
+
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Send"
 msgstr "センドを追加"
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[AudioSendSlot]Add Send:"
-msgstr "センドを追加:"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Add Sound..."
@@ -225,6 +245,10 @@ msgstr "オーディオI/O設定"
 msgid "[AudioSetup]Audio Setup"
 msgstr "オーディオ設定"
 
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Audio engine dropout has occured."
+msgstr "オーディオエンジンのドロップアウトが生じました。"
+
 #: .\audio\watchdogcomponent.cpp
 msgid "[Devices]Audio engine overload."
 msgstr "オーディオエンジンの過負荷です。"
@@ -248,6 +272,10 @@ msgstr "オートパンチイン"
 #: .\transport\transportpanel.cpp
 msgid "[Command]Autopunch Out"
 msgstr "オートパンチアウト"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]Available"
+msgstr "使用可能"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
@@ -306,6 +334,14 @@ msgstr "%(1) 接続をクリア (%(2))"
 msgid "[Command]Click"
 msgstr "クリック"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Click Active"
+msgstr "クリック有効"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Click Volume"
+msgstr "クリックボリューム"
+
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "クリッピングが生じました。信号が %float(1:2) dB上回りました。"
@@ -314,9 +350,17 @@ msgstr "クリッピングが生じました。信号が %float(1:2) dB上回り
 msgid "[DeviceFolder]Collapse"
 msgstr "折りたたむ"
 
-#: .\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Combine Instrument \"%(1)\""
-msgstr "インストゥルメント \"%(1)\" を結合"
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Color"
+msgstr "色"
+
+#: .\base\processgraph.cpp
+msgid "[ProcessGraph]Color"
+msgstr "色"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Combine %(1)"
+msgstr "%(1) を結合"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Configure..."
@@ -325,6 +369,10 @@ msgstr "設定..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "%(1) を %(2) マクロコントロールに接続"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Connect Channel"
+msgstr ""
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Connected to %(1)."
@@ -360,20 +408,12 @@ msgid "[ParamSelector]Controller"
 msgstr "コントローラー"
 
 #: .\base\devicefolder.cpp
-msgid "[DeviceFolder]Copy Device \"%(1)\""
-msgstr "デバイス \"%(1)\" をコピー"
+msgid "[DeviceFolder]Copy %(1)"
+msgstr "%(1) をコピー"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Copy Effect"
 msgstr "エフェクトをコピー"
-
-#: .\audioeffects\audiofxfolder.cpp
-msgid "[AudioFX]Copy Effect \"%(1)\""
-msgstr "エフェクト \"%(1)\" をコピー"
-
-#: .\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Copy Instrument \"%(1)\""
-msgstr "インストゥルメント \"%(1)\" をコピー"
 
 #: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix Level"
@@ -383,6 +423,14 @@ msgstr "キューミックスレベル"
 msgid "[CueMixSlot]Cue mix Pan"
 msgstr "キューミックスパン"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Cue mix: Off"
+msgstr "キューミックス: オフ"
+
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Cue mix: On"
+msgstr "キューミックス: オン"
+
 #: .\transport\transportoptions.cpp
 msgid "[Command]Cursor follows Edit Position"
 msgstr "カーソルは編集位置に追従"
@@ -390,6 +438,26 @@ msgstr "カーソルは編集位置に追従"
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]DAW Post DSP"
 msgstr "DAWポストDSP"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Deactivate %(1)"
+msgstr "%(1) を無効化"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Deactivate All %(1)"
+msgstr "すべての %(1) を無効化"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Deactivate All Devices"
+msgstr "すべてのデバイスを無効化"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Deactivate Devices"
+msgstr "デバイスを無効化"
+
+#: .\audiosynths\audiosyntheditfunctions.cpp
+msgid "[ActionDescriptions]Deactivate Output of '%(1)'"
+msgstr "'%(1)' の出力を無効化"
 
 #: .\editor\processgrapheditor.cpp
 msgid "[Command]Delete"
@@ -407,6 +475,10 @@ msgstr "検出されたデバイス %(1)"
 msgid "[Command]Device"
 msgstr "デバイス"
 
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Device"
+msgstr "デバイス"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr "%(1) のデバイス情報を受信しました。"
@@ -414,6 +486,10 @@ msgstr "%(1) のデバイス情報を受信しました。"
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Device/Port"
 msgstr "デバイス/ポート"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Devices"
+msgstr "デバイス"
 
 #: .\music\musicdevicemanager.cpp .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Devices"
@@ -431,9 +507,21 @@ msgstr "無効化"
 msgid "[ProcessGraph]Disable"
 msgstr "無効化"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Disable %(1)"
+msgstr "%(1) を無効化"
+
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Disable All"
 msgstr "すべてを無効化"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Disable All %(1)"
+msgstr "すべての %(1) を無効化"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Disable Channel"
+msgstr "チャンネルを無効化"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Disabled"
@@ -471,6 +559,18 @@ msgstr "デバイスを編集"
 msgid "[Command]Edit Device"
 msgstr "デバイスを編集"
 
+#: .\macrocontrol\macrocontroledit.cpp
+msgid "[ActionDescriptions]Edit Macro Transformation '%(1)'"
+msgstr "マクロ変換 '%(1)' を編集"
+
+#: .\base\deviceactions.cpp
+msgid "[DeviceActions]Edit Multiple Parameters"
+msgstr "複数のパラメーターを編集"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Edit Multiple Parameters"
+msgstr "複数のパラメーターを編集"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Edit..."
 msgstr "編集..."
@@ -478,6 +578,14 @@ msgstr "編集..."
 #: .\base\processgraph.cpp
 msgid "[ProcessGraph]Edit..."
 msgstr "編集..."
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Effect"
+msgstr "エフェクト"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Effects"
+msgstr "エフェクト"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Effects"
@@ -491,9 +599,21 @@ msgstr "有効化"
 msgid "[ProcessGraph]Enable"
 msgstr "有効化"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Enable %(1)"
+msgstr "%(1) を有効化"
+
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Enable All"
 msgstr "すべてを有効化"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Enable All %(1)"
+msgstr "すべての %(1) を有効化"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Enable Channel"
+msgstr "チャンネルを有効化"
 
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
@@ -514,6 +634,14 @@ msgstr "展開"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]External Devices"
 msgstr "外部デバイス"
+
+#: .\audiosynths\audiosyntheditfunctions.cpp
+msgid "[ActionDescriptions]Extract '%(1)'"
+msgstr "'%(1)' を抽出"
+
+#: .\audiosynths\combinator\synthcombinatorgraph.cpp
+msgid "[SynthCombinator]Extract Instrument"
+msgstr "インストゥルメントを抽出"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
@@ -579,6 +707,10 @@ msgstr "時間へ移動"
 msgid "[Command]Goto Time"
 msgstr "時間へ移動"
 
+#: .\hardware\hardwaremixermanager.cpp
+msgid "[Hardware]Hardware Monitoring"
+msgstr "ハードウェアモニタリング"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide"
 msgstr "隠す"
@@ -594,6 +726,10 @@ msgstr "関連チャンネルを隠す"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide Related Channels"
 msgstr "関連チャンネルを隠す"
+
+#: .\audio\audiosetup.cpp
+msgid "[DropoutProtection]High"
+msgstr "高"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -614,6 +750,10 @@ msgstr "入力"
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Input Controls"
 msgstr "入力コントロール"
+
+#: .\musicmixer\musicfxfolder.cpp
+msgid "[MusicFXFolder]Input Mode"
+msgstr "入力モード"
 
 #: .\mixerconsole\channelclassifier.cpp
 msgid "[Channels]Inputs"
@@ -643,6 +783,7 @@ msgstr "インサート"
 msgid "[AudioSynth]Instrument"
 msgstr "インストゥルメント"
 
+#: .\audiosynths\combinator\combinatorsynthfolder.cpp
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Instrument"
 msgstr "インストゥルメント"
@@ -668,6 +809,7 @@ msgstr "インストゥルメント"
 msgid "[AudioSynth]Instruments"
 msgstr "インストゥルメント"
 
+#: .\audiosynths\combinator\combinatorsynthfolder.cpp
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 msgid "[SynthCombinator]Instruments"
 msgstr "インストゥルメント"
@@ -675,6 +817,10 @@ msgstr "インストゥルメント"
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Invert"
 msgstr "反転"
+
+#: .\macrocontrol\macrocontrolsetup.cpp
+msgid "[MacroControlSetup]Invert '%(1)' Transformation"
+msgstr "'%(1)' 変換を反転"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
@@ -696,6 +842,10 @@ msgstr "ラッチ"
 msgid "[PerformanceMonitor]Latency"
 msgstr "レーテンシー"
 
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Load FX Chain"
+msgstr "FXチェーンをロード"
+
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Load Preset"
 msgstr "プリセットを読み込む"
@@ -703,6 +853,10 @@ msgstr "プリセットを読み込む"
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Load Preset"
 msgstr "プリセットを読み込む"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Load Preset %(1)"
+msgstr "プリセット %(1) をロード"
 
 #: .\surfaces\surfacedatapool.cpp
 msgid "[Surface]Loading Control Surface Data..."
@@ -716,6 +870,14 @@ msgstr "デバイスを読み込み中: %(1)"
 msgid "[Environment]Loading Device: %(1)"
 msgstr "デバイスを読み込み中: %(1)"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Lock"
+msgstr "ロック"
+
+#: .\audio\audiosetup.cpp
+msgid "[DropoutProtection]Low"
+msgstr "低"
+
 #: .\midi\midiengine.cpp
 msgid "[Devices]MIDI Engine reset requested!"
 msgstr "MIDIエンジンリセットが要求されました。"
@@ -728,9 +890,13 @@ msgstr "デバイス %(1) のMIDIポートが見つかりませんでした。"
 msgid "[AudioMixer]Main"
 msgstr "メイン"
 
-#: .\base\devicefolder.cpp
-msgid "[DeviceFolder]Merge Device \"%(1)\""
-msgstr "デバイス \"%(1)\" をマージ"
+#: .\audio\audiosetup.cpp
+msgid "[DropoutProtection]Maximum"
+msgstr "最大"
+
+#: .\audio\audiosetup.cpp
+msgid "[DropoutProtection]Medium"
+msgstr "中"
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Message"
@@ -740,6 +906,10 @@ msgstr "メッセージ"
 msgid "[FileType]Metronome Preset"
 msgstr "メトロノームプリセット"
 
+#: .\audio\audiosetup.cpp
+msgid "[DropoutProtection]Minimum"
+msgstr "最小"
+
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
 msgstr "ミックスFX"
@@ -747,6 +917,10 @@ msgstr "ミックスFX"
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Monitor"
 msgstr "モニター"
+
+#: .\audio\audiolowlatencygraph.cpp
+msgid "[MonitorProcessing]Monitor FX"
+msgstr "FXをモニター"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mono"
@@ -760,21 +934,21 @@ msgstr "マウスオーバー"
 msgid "[Command]Mouse-Over"
 msgstr "マウスオーバー"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Move %(1)"
+msgstr "'%(1)' を移動"
+
 #: .\base\devicefolder.cpp
-msgid "[DeviceFolder]Move Device \"%(1)\""
-msgstr "デバイス \"%(1)\" を移動"
+msgid "[DeviceFolder]Move %(1)"
+msgstr "'%(1)' を移動"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Move Effect"
 msgstr "エフェクトを移動"
 
-#: .\audioeffects\audiofxfolder.cpp
-msgid "[AudioFX]Move Effect \"%(1)\""
-msgstr "エフェクト \"%(1)\" を移動"
-
-#: .\audiosynths\audiosynthfolder.cpp
-msgid "[AudioSynth]Move Instrument \"%(1)\""
-msgstr "インストゥルメント \"%(1)\" を移動"
+#: .\macrocontrol\macrocontroledit.cpp
+msgid "[ActionDescriptions]Move Macro Target '%(1)'"
+msgstr "マクロターゲット '%(1)' を移動"
 
 #: .\audiosynths\combinator\synthcombinatorplugin.cpp
 msgid "[FileType]Multi Effect Preset"
@@ -788,9 +962,25 @@ msgstr "マルチインストゥルメント"
 msgid "[AudioChannel]Mute"
 msgstr "ミュート"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Mute"
+msgstr "ミュート"
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mute"
 msgstr "ミュート"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Mute Split Branch"
+msgstr "分割分岐をミュート"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]N/A"
+msgstr "N/A"
+
+#: .\hardware\hardwaremixermanager.cpp
+msgid "[Hardware]N/A"
+msgstr "N/A"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
@@ -803,6 +993,10 @@ msgstr "名前"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Narrow"
 msgstr "狭"
+
+#: .\hardware\hardwaremixermanager.cpp
+msgid "[Hardware]Native Monitoring"
+msgstr "ネイティブモニタリング"
 
 #: .\editor\deviceslotselector.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Navigation"
@@ -869,7 +1063,7 @@ msgid "[MusicDeviceSetup]Not connected"
 msgstr "接続されていません"
 
 #: .\musicmixer\musicfxfolder.cpp
-msgid "[MusicFXolder]Note FX"
+msgid "[MusicFXFolder]Note FX"
 msgstr "Note FX"
 
 #: .\musicmixer\musiceffect.cpp
@@ -944,6 +1138,14 @@ msgstr "ページ上へ移動スキップ"
 msgid "[AudioChannel]Pan"
 msgstr "パン"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Pan"
+msgstr "パン"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Parameter"
+msgstr "パラメーター"
+
 #: .\editor\paramselector.cpp
 msgid "[ParamSelector]Parameter"
 msgstr "パラメーター"
@@ -952,13 +1154,13 @@ msgstr "パラメーター"
 msgid "[MacroControlSetup]Parameter %(1)"
 msgstr "パラメーター %(1)"
 
+#: .\base\deviceclipboard.cpp
+msgid "[DeviceClipboard]Paste - %(1)"
+msgstr "ペースト - %(1)"
+
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Path"
 msgstr "パス"
-
-#: .\externaleffects\externaleffectcomponent.cpp
-msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
-msgstr "Pipelineプラグイン初期化の失敗です。デバイスバッファーサイズが処理中のバッファーサイズに一致しません。オーディオデバイス設定を変更してください（バッファーサイズをハードウェアにロック）。"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Play from Loop Start"
@@ -1092,6 +1294,14 @@ msgstr "削除"
 msgid "[SurfaceControl]Remove"
 msgstr "削除"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Remove %(1)"
+msgstr "%(1) を削除"
+
+#: .\editor\devicerack.cpp
+msgid "[DeviceRack]Remove %(1)"
+msgstr "%(1) を削除"
+
 #: .\base\automationhandler.cpp
 msgid "[Automation]Remove %(1) Automation"
 msgstr "%(1) オートメーションを削除"
@@ -1100,10 +1310,6 @@ msgstr "%(1) オートメーションを削除"
 msgid "[MacroControls]Remove %(1) Automation"
 msgstr "%(1) オートメーションを削除"
 
-#: .\audioeffects\audiofxfolder.cpp
-msgid "[AudioFX]Remove All"
-msgstr "すべてを削除"
-
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
 msgstr "すべてを削除"
@@ -1111,6 +1317,18 @@ msgstr "すべてを削除"
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]Remove All"
 msgstr "すべてを削除"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Remove All %(1)"
+msgstr "すべての %(1) を削除"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Remove All %(1)"
+msgstr "すべての %(1) を削除"
+
+#: .\mixer\mixereditfunctions.cpp
+msgid "[MixerEditFunctions]Remove Channel"
+msgstr "チャンネルを削除"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Remove Channel"
@@ -1128,6 +1346,26 @@ msgstr "チャンネルを削除"
 msgid "[Command]Remove Current Parameter"
 msgstr "現在のパラメーターを削除"
 
+#: .\macrocontrol\macrocontroledit.cpp
+msgid "[ActionDescriptions]Remove Macro Target '%(1)'"
+msgstr "マクロターゲット '%(1)' を削除"
+
+#: .\audiosynths\combinator\synthcombinatorgraph.cpp
+msgid "[SynthCombinator]Remove Note Event Splitter"
+msgstr "ノートイベントスプリッターを削除"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Remove Splitter"
+msgstr "スプリッターを削除"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Rename %(1)"
+msgstr "%(1) の名前を変更"
+
+#: .\mixer\channel.cpp
+msgid "[Channel]Rename Channel"
+msgstr "チャンネル名を変更"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "デバイス名を変更"
@@ -1140,17 +1378,17 @@ msgstr "名前を変更..."
 msgid "[ProcessGraph]Rename..."
 msgstr "名前を変更..."
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Reorder %(1)"
+msgstr "%(1) を並べ替え"
+
 #: .\base\devicefolder.cpp
-msgid "[DeviceFolder]Replace Device:"
-msgstr "デバイスを置換:"
+msgid "[DeviceFolder]Replace %(1)"
+msgstr "%(1) を置換"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace Effect"
 msgstr "エフェクトを置換"
-
-#: .\audioeffects\audiofxfolder.cpp
-msgid "[AudioFX]Replace Effect:"
-msgstr "エフェクトを置換:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace FX Chain"
@@ -1165,16 +1403,16 @@ msgid "[SynthCombinator]Replace Instrument"
 msgstr "インストゥルメントを置換"
 
 #: .\audiomixer\audiosendfolder.cpp
-msgid "[AudioSendSlot]Replace Sends:"
-msgstr "センドを置換:"
+msgid "[AudioSendSlot]Replace Sends"
+msgstr "センドを置換"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Reset"
 msgstr "リセット"
 
 #: .\audio\audioengine.cpp
-msgid "[Devices]Reset requested by Audio Device!"
-msgstr "リセットがオーディオデバイスにより要求されました。"
+msgid "[Devices]Restart requested by Audio Device!"
+msgstr "再起動がオーディオデバイスにより要求されました。"
 
 #: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 msgid "[Command]Restore Audio Device Settings"
@@ -1216,6 +1454,10 @@ msgstr "画面"
 msgid "[Channel]Select"
 msgstr "選択"
 
+#: .\audiomixer\audiomixfxcomponent.cpp
+msgid "[Devices]Select Mix FX"
+msgstr "ミックスFXを選択"
+
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Select Mix FX"
 msgstr "ミックスFXを選択"
@@ -1252,13 +1494,53 @@ msgstr "センドミュート"
 msgid "[AudioSendSlot]Send Pan"
 msgstr "センドパン"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Slot"
+msgstr "センドスロット"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Slots"
+msgstr "センドスロット"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "送信先"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Set '%(1)'"
+msgstr "'%(1)' を設定"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Set '%(1)' to '%(2)'"
+msgstr "'%(1)' を '%(2)' に設定"
+
+#: .\mixer\channel.cpp
+msgid "[Channel]Set Channel Color"
+msgstr "チャンネル色を設定"
+
+#: .\audiosynths\audiosynthdirectinput.cpp
+msgid "[AudioSynthDirectInput]Set Direct Input"
+msgstr "ダイレクト入力を設定"
+
+#: .\mixer\recordchannel.cpp
+msgid "[ChannelRecordUnit]Set Input"
+msgstr "入力を設定"
+
+#: .\mixer\channel.cpp
+msgid "[Channel]Set Output"
+msgstr "出力を設定"
+
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
 msgstr "再生スタートマーカーを設定"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Set Send Target"
+msgstr "センドターゲットを設定"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Set Split Count"
+msgstr "分割数を設定"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1352,6 +1634,22 @@ msgstr "スピーカーC"
 msgid "[AudioRenderEngine]Speed:"
 msgstr "スピード:"
 
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Split Count"
+msgstr "分割数"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Split Frequency"
+msgstr "分割周波数"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Split Mode"
+msgstr "分割モード"
+
+#: .\audioeffects\audiofxgraph.cpp
+msgid "[AudioFXGraph]Split Volume"
+msgstr "分割ボリューム"
+
 #: .\transport\transportpanel.cpp
 msgid "[Command]Start"
 msgstr "スタート"
@@ -1387,6 +1685,10 @@ msgstr "サブ"
 #: .\audiosynths\combinator\combinatorsynthfolder.cpp
 msgid "[SynthCombinator]Sub Instrument"
 msgstr "サブインストゥルメント"
+
+#: .\macrocontrol\macrocontroledit.cpp
+msgid "[ActionDescriptions]Swap Macro Controls"
+msgstr "マクロコントロールをスワップ"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
@@ -1537,6 +1839,10 @@ msgstr "ボリューム"
 msgid "[AudioVCAChannel]Volume"
 msgstr "ボリューム"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Volume"
+msgstr "ボリューム"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "ライト"
@@ -1544,4 +1850,64 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
+#~ msgid "[DeviceFolder]Add Device:"
+#~ msgstr "デバイスを追加:"
+
+#~ msgid "[AudioFX]Add Effect:"
+#~ msgstr "エフェクトを追加:"
+
+#~ msgid "[AudioSynth]Add Instrument:"
+#~ msgstr "インストゥルメントを追加:"
+
+#~ msgid "[SynthCombinator]Add Instrument:"
+#~ msgstr "インストゥルメントを追加:"
+
+#~ msgid "[AudioSendSlot]Add Send:"
+#~ msgstr "センドを追加:"
+
+#~ msgid "[AudioSynth]Combine Instrument \"%(1)\""
+#~ msgstr "インストゥルメント \"%(1)\" を結合"
+
+#~ msgid "[DeviceFolder]Copy Device \"%(1)\""
+#~ msgstr "デバイス \"%(1)\" をコピー"
+
+#~ msgid "[AudioFX]Copy Effect \"%(1)\""
+#~ msgstr "エフェクト \"%(1)\" をコピー"
+
+#~ msgid "[AudioSynth]Copy Instrument \"%(1)\""
+#~ msgstr "インストゥルメント \"%(1)\" をコピー"
+
+#~ msgid "[DeviceFolder]Merge Device \"%(1)\""
+#~ msgstr "デバイス \"%(1)\" をマージ"
+
+#~ msgid "[DeviceFolder]Move Device \"%(1)\""
+#~ msgstr "デバイス \"%(1)\" を移動"
+
+#~ msgid "[AudioFX]Move Effect \"%(1)\""
+#~ msgstr "エフェクト \"%(1)\" を移動"
+
+#~ msgid "[AudioSynth]Move Instrument \"%(1)\""
+#~ msgstr "インストゥルメント \"%(1)\" を移動"
+
+#~ msgid "[MusicFXolder]Note FX"
+#~ msgstr "Note FX"
+
+#~ msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
+#~ msgstr "Pipelineプラグイン初期化の失敗です。デバイスバッファーサイズが処理中のバッファーサイズに一致しません。オーディオデバイス設定を変更してください（バッファーサイズをハードウェアにロック）。"
+
+#~ msgid "[AudioFX]Remove All"
+#~ msgstr "すべてを削除"
+
+#~ msgid "[DeviceFolder]Replace Device:"
+#~ msgstr "デバイスを置換:"
+
+#~ msgid "[AudioFX]Replace Effect:"
+#~ msgstr "エフェクトを置換:"
+
+#~ msgid "[AudioSendSlot]Replace Sends:"
+#~ msgstr "センドを置換:"
+
+#~ msgid "[Devices]Reset requested by Audio Device!"
+#~ msgstr "リセットがオーディオデバイスにより要求されました。"
 

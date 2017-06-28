@@ -16,6 +16,10 @@ msgstr "(未知标题)"
 msgid "[BurnerDialog]A blank CD is found and you can start to burn"
 msgstr "找到空白CD, 可以开始刻录"
 
+#: .\editing\projectdraghandler.cpp
+msgid "[ProjectEditHandler]Add Event to Track"
+msgstr "添加事件至音频"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Add Marker"
 msgstr "添加记录"
@@ -31,6 +35,10 @@ msgstr "编曲"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Artist / Performer"
 msgstr "演奏者"
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Bounce Track"
+msgstr "内部混缩音轨"
 
 #: .\publish\projectburner.cpp
 msgid "[Command]Burn Audio CD"
@@ -56,6 +64,18 @@ msgstr "CD名称"
 msgid "[ProjectFunctions]Colorize Track"
 msgstr "音轨彩色化"
 
+#: .\base\projectfunctions.cpp
+msgid "[ProjectFunctions]Combine Tracks"
+msgstr "组合音频"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Combine Tracks"
+msgstr "组合音频"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Combine with next Track"
+msgstr "与下一个音频组合"
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Comment"
 msgstr "评论"
@@ -63,6 +83,10 @@ msgstr "评论"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Composer"
 msgstr "作曲家"
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Copy Metadata to all Tracks"
+msgstr "拷贝元数据至所有音轨"
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher]Could not create audio files."
@@ -104,6 +128,10 @@ msgstr "禁用音轨"
 msgid "[ProjectFunctions]Disable Tracks"
 msgstr "禁用音轨"
 
+#: .\editing\projecttrackcomponent.cpp
+msgid "[ProjectTrack]Do you want to apply incrementing ISRC codes for all tracks?"
+msgstr "是否希望将递增的ISRC代码应用到所有音频上？"
+
 #: .\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
 msgstr "是否创建一个DDP图像?\n\n图像: %(1)\n位置: %(2)"
@@ -114,6 +142,10 @@ msgstr "EAN/UPC"
 
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Edit Song"
+msgstr "编辑乐曲"
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Edit Song"
 msgstr "编辑乐曲"
 
 #: .\base\projectfunctions.cpp
@@ -148,6 +180,10 @@ msgstr "生成"
 msgid "[AudioDiscPublisher]ISRC"
 msgstr "ISRC"
 
+#: .\publish\ddpdocumenthandler.cpp
+msgid "[DDP]Import DDP"
+msgstr "导入DDP"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Import File"
 msgstr "导入文件"
@@ -175,6 +211,14 @@ msgstr "插入"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
 msgstr "长度"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)"
+msgstr "长度: %(1)"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)  Pause: %(2)"
+msgstr "长度： %(1)  暂停： %(2)"
 
 #: .\project\projectcomponent.cpp
 msgid "[Command]Locate Missing Devices"
@@ -204,9 +248,41 @@ msgstr "混音速度: %float(1:1)"
 msgid "[ProjectFunctions]Modify Attribute"
 msgstr "修改属性"
 
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker"
+msgstr "移动结束标记"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker only"
+msgstr "只移动结束标记"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Resize Track"
+msgstr "移动事件与改变大小的音频"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Track Start"
+msgstr "移动事件和音轨的起始"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event only"
+msgstr "只移动事件"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Move Marker"
 msgstr "移动标记"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker"
+msgstr "移动起始标记"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker only"
+msgstr "只移动起始标记"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start and End Marker"
+msgstr "移动起始和结束标记"
 
 #: .\base\projectfunctions.cpp
 msgid "[ActionDescriptions]Move Track"
@@ -252,14 +328,14 @@ msgstr "素材池"
 msgid "[AudioDiscPublisher]Preparing..."
 msgstr "准备..."
 
-#: .\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Project"
+#: .\editing\projecteditcomponent.cpp .\project\projectcomponent.cpp
+#: .\publish\audiofilepublisher.cpp .\publish\ddpimagemaker.cpp
+#: .\publish\imagemaker.cpp .\publish\projectburner.cpp
+msgid "[Command]Project"
 msgstr "项目"
 
-#: .\project\projectcomponent.cpp .\publish\audiofilepublisher.cpp
-#: .\publish\ddpimagemaker.cpp .\publish\imagemaker.cpp
-#: .\publish\projectburner.cpp
-msgid "[Command]Project"
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Project"
 msgstr "项目"
 
 #: .\project\projectdocument.cpp
@@ -295,8 +371,12 @@ msgid "[ProjectFunctions]Replace File"
 msgstr "替换文件"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Reset Marker"
-msgstr "重设标记"
+msgid "[Project]Reset Pause"
+msgstr "重设暂停"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Reset Track Markers to Content"
+msgstr "重设内容的音轨记录"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Resize Track"
@@ -309,6 +389,14 @@ msgstr "设置音轨暂停"
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "分离音轨"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Split Track"
+msgstr "分离音轨"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "在光标处分裂音轨"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Edit]Split at Cursor"
@@ -362,6 +450,10 @@ msgstr "全部播放时间"
 msgid "[ProjectMarker]Track %(1)"
 msgstr "Track %(1)"
 
+#: .\publish\audiodiscpublisher.cpp
+msgid "[AudioDiscPublisher]Track %(1)"
+msgstr "Track %(1)"
+
 #: .\project\projectdocumentinfo.cpp
 msgid "[ProjectInfo]Tracks"
 msgstr "音轨"
@@ -373,6 +465,10 @@ msgstr "音轨"
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Update Mastering File"
 msgstr "更新主线文件"
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Update Mastering File"
+msgstr "更新混缩文件"
 
 #: .\project\projectcomponent.cpp
 msgid "[Command]Update Mastering Files"
@@ -389,4 +485,7 @@ msgstr "更新已取消."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "将%(1)-%(2)主线文件更新到%(3)."
+
+#~ msgid "[Project]Reset Marker"
+#~ msgstr "重设标记"
 

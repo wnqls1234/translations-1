@@ -4,6 +4,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: .\application.cpp
+msgid "[Application]$APPNAME can not shutdown right now!"
+msgstr "$APPNAME Non spegnere!"
+
 #: .\options\filetypeselector.cpp
 msgid "[FileType]%(1) File"
 msgstr "%(1) file"
@@ -360,6 +364,10 @@ msgstr "Vuoi eliminare questo preset?"
 msgid "[Autosave]Do you want to keep the backup as a version?"
 msgstr "Volete mantenere il backup come una versione?"
 
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Do you want to merge into %(1)?"
+msgstr "Vuoi unire in %(1)?"
+
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to move these files to \"%(1)\"?"
 msgstr "Vuoi spostare questi file in \"%(1)\"?"
@@ -401,8 +409,8 @@ msgid "[UserOption]Do you want to revert the keyboard mapping scheme to \"%(1)\"
 msgstr "Vuoi ripristinare la mappatura della tastiera a \"%(1)\"?"
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
-msgstr "Vuoi salvare una copia di % (1) nel formato di %(2)?"
+msgid "[Documents]Do you want to save a copy of %(1) as file format \"%(2)\"?"
+msgstr "Vuoi salvare una copia di %(1) come formato file \"%(2)\"?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save your changes in %(1)?"
@@ -625,10 +633,6 @@ msgstr "Carica Preset File"
 msgid "[Presets]Load Preset File..."
 msgstr "Carica file di Preset..."
 
-#: .\documents\documentmanager.cpp
-msgid "[Documents]Loading %(1) canceled."
-msgstr "Caricamento di %(1) annullato."
-
 #: .\documents\packagedocument.cpp
 msgid "[Documents]Loading %(1)..."
 msgstr "Caricamento di %(1)..."
@@ -644,6 +648,14 @@ msgstr "Locale"
 #: .\options\mainoption.cpp .\options\useroption.cpp
 msgid "[UserOption]Locations"
 msgstr "Posizioni cartelle"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merge"
+msgstr "Merge"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merging %(1)..."
+msgstr "Sto unendo %(1)..."
 
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move"
@@ -1127,6 +1139,10 @@ msgid "[Documents]The file %(1) could not be found!"
 msgstr "Il file %(1) non è stato trovato!"
 
 #: .\documents\documentmanager.cpp
+msgid "[Documents]The file format may not preserve all content."
+msgstr "Il formato del file non può preservare tutto il contenuto."
+
+#: .\documents\documentmanager.cpp
 msgid "[Documents]The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n\nAre you sure you want to continue?"
 msgstr "Il file è stato creato con una versione precedente di $APPNAME. Dopo aver salvato il file non si sarà in grado di caricare la vecchia versione di nuovo.\n\nSei sicuro di voler continuare?"
 
@@ -1266,6 +1282,10 @@ msgstr "Aggiorna plug-in"
 msgid "[TagStore]Updated tags in %(1)\n"
 msgstr "Tag aggiornati in %(1)\n"
 
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Use %(1) Format"
+msgstr "Usa il Formato %(1)"
+
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"
 msgstr "Dati utente"
@@ -1313,4 +1333,10 @@ msgstr "predefinito"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "altro"
+
+#~ msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
+#~ msgstr "Vuoi salvare una copia di % (1) nel formato di %(2)?"
+
+#~ msgid "[Documents]Loading %(1) canceled."
+#~ msgstr "Caricamento di %(1) annullato."
 

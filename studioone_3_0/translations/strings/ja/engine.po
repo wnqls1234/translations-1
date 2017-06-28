@@ -97,6 +97,10 @@ msgstr "追加/削除..."
 msgid "[Engine:AutomationFunctions]Add Automation"
 msgstr "オートメーションを追加"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Add Automation Lane"
+msgstr "オートメーションレーンを追加"
+
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add Bus Channel"
 msgstr "バスチャンネルを追加"
@@ -223,6 +227,7 @@ msgstr "オートメーション"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Automation"
 msgstr "オートメーション"
 
@@ -363,8 +368,16 @@ msgid "[ActionDescriptions]Copy Event"
 msgstr "イベントをコピー"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event Shared"
+msgstr "共有イベントをコピー"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
 msgstr "イベントをコピー"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events Shared"
+msgstr "共有イベントをコピー"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -537,6 +550,10 @@ msgstr "デバイス"
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "無効化"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Disable Event FX"
+msgstr "イベントFXを無効化"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
@@ -742,6 +759,10 @@ msgstr "値を編集"
 msgid "[Command]Enable"
 msgstr "有効化"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Enable Event FX"
+msgstr "イベントFXを有効化"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
 msgstr "選択されているトラックを有効化"
@@ -813,6 +834,10 @@ msgstr "Musicloopをエクスポート"
 #: .\application\musicedit\musicexporttask.cpp
 msgid "[MusicPartEdit]Export Parts to MIDI File"
 msgstr "パートをMIDIファイルにエクスポート"
+
+#: .\application\eventedit\exporttask.cpp
+msgid "[Edit]Export Selection"
+msgstr "選択をエクスポート"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
@@ -997,6 +1022,10 @@ msgstr "ファイルをインポート"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
 msgstr "ファイルをプールへインポート:"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Import Tempo"
+msgstr "テンポをインポート"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -1256,6 +1285,7 @@ msgstr "MIDI"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Manage Parameters"
 msgstr "パラメーターを管理"
 
@@ -1319,6 +1349,10 @@ msgstr "ミニマル"
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "行方不明のインストゥルメント: %(1)"
 
+#: .\application\eventedit\mixdowntask.cpp
+msgid "[Edit]Mixdown Selection"
+msgstr "ミックスダウン選択"
+
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
 msgstr "モード"
@@ -1366,6 +1400,18 @@ msgstr "\"%(1)\" オートメーションを%(3) から %(2) へ移動"
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
 msgstr "\"%(1)\" オートメーションを\r\n%(2) へ移動"
+
+#: .\editing\arrangerfunctions.cpp
+msgid "[Edit]Move Arranger Section only"
+msgstr "アレンジセクションのみを移動"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Move Automation"
+msgstr "オートメーションを移動"
+
+#: .\automationediting\automationeditextension.cpp
+msgid "[Automation]Move Automation to \"%(1)\""
+msgstr "オートメーションを \"%(1)\" に移動"
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1800,6 +1846,10 @@ msgstr "アレンジセクションを削除"
 msgid "[Engine:AutomationFunctions]Remove Automation"
 msgstr "オートメーションを削除"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Automation Lane"
+msgstr "オートメーションレーンを削除"
+
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
 msgstr "ベンドマーカーを削除"
@@ -1819,6 +1869,10 @@ msgstr "レイヤーを削除"
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
 msgstr "レイヤーを削除"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Parameter"
+msgstr "パラメーターを削除"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2112,6 +2166,10 @@ msgstr "トラックで選択"
 msgid "[ActionDescriptions]Set Edit Group"
 msgstr "編集グループを設定"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Event FX Tail"
+msgstr "イベントFXテイルを設定"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "マーカータイプを設定"
@@ -2131,6 +2189,10 @@ msgstr "トラックディレイを設定"
 #: .\videoediting\songvideo.cpp
 msgid "[Command]Set Video Offset"
 msgstr "ビデオオフセットを設定"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Volume after Event FX"
+msgstr "イベントFX後にボリュームを設定"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
@@ -2430,9 +2492,10 @@ msgstr "タッチ"
 #: .\application\audioedit\audiotracktransformtask.cpp
 #: .\application\musicedit\musictracktransformtask.cpp
 #: .\editing\editgroupscomponent.cpp .\editing\foldertrackcomponent.cpp
-#: .\editing\monitorfollower.cpp .\editing\trackcontroller.cpp
-#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
-#: .\editing\tracklistfilter.cpp .\song\songcontroller.cpp
+#: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
+#: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
+#: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
+#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "トラック"
 
@@ -2465,8 +2528,8 @@ msgstr "トラック"
 msgid "[StemRenderer]Tracks"
 msgstr "トラック"
 
-#: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Transfer Automation"
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Transfer Automation"
 msgstr "オートメーションを転送"
 
 #: .\application\musicedit\musictracktransformtask.cpp
@@ -2548,6 +2611,14 @@ msgstr "イベントのミュートを解除"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Events"
 msgstr "イベントのミュートを解除"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Unpack Layers to Tracks"
+msgstr "レイヤーをトラックに展開"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Command]Unpack Layers to Tracks"
+msgstr "レイヤーをトラックに展開"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes"
@@ -2677,4 +2748,7 @@ msgstr "%(1) 回使用"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) 回使用"
+
+#~ msgid "[Automation]Transfer Automation"
+#~ msgstr "オートメーションを転送"
 

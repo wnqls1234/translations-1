@@ -13,6 +13,10 @@ msgstr ""
 msgid "[BurnerDialog]A blank CD is found and you can start to burn"
 msgstr ""
 
+#: .\editing\projectdraghandler.cpp
+msgid "[ProjectEditHandler]Add Event to Track"
+msgstr ""
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Add Marker"
 msgstr ""
@@ -27,6 +31,10 @@ msgstr ""
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Artist / Performer"
+msgstr ""
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Bounce Track"
 msgstr ""
 
 #: .\publish\projectburner.cpp
@@ -53,12 +61,28 @@ msgstr ""
 msgid "[ProjectFunctions]Colorize Track"
 msgstr ""
 
+#: .\base\projectfunctions.cpp
+msgid "[ProjectFunctions]Combine Tracks"
+msgstr ""
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Combine Tracks"
+msgstr ""
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Combine with next Track"
+msgstr ""
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Comment"
 msgstr ""
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Composer"
+msgstr ""
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Copy Metadata to all Tracks"
 msgstr ""
 
 #: .\publish\audiofilepublisher.cpp
@@ -101,6 +125,11 @@ msgstr ""
 msgid "[ProjectFunctions]Disable Tracks"
 msgstr ""
 
+#: .\editing\projecttrackcomponent.cpp
+msgid ""
+"[ProjectTrack]Do you want to apply incrementing ISRC codes for all tracks?"
+msgstr ""
+
 #: .\publish\ddpimagemaker.cpp
 msgid ""
 "[DDPImageMaker]Do you want to create a DDP image?\n"
@@ -115,6 +144,10 @@ msgstr ""
 
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Edit Song"
+msgstr ""
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Edit Song"
 msgstr ""
 
 #: .\base\projectfunctions.cpp
@@ -149,6 +182,10 @@ msgstr ""
 msgid "[AudioDiscPublisher]ISRC"
 msgstr ""
 
+#: .\publish\ddpdocumenthandler.cpp
+msgid "[DDP]Import DDP"
+msgstr ""
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Import File"
 msgstr ""
@@ -175,6 +212,14 @@ msgstr ""
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)  Pause: %(2)"
 msgstr ""
 
 #: .\project\projectcomponent.cpp
@@ -205,8 +250,40 @@ msgstr ""
 msgid "[ProjectFunctions]Modify Attribute"
 msgstr ""
 
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker only"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Resize Track"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Track Start"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event only"
+msgstr ""
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Move Marker"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker only"
+msgstr ""
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start and End Marker"
 msgstr ""
 
 #: .\base\projectfunctions.cpp
@@ -257,14 +334,14 @@ msgstr ""
 msgid "[AudioDiscPublisher]Preparing..."
 msgstr ""
 
-#: .\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Project"
+#: .\editing\projecteditcomponent.cpp .\project\projectcomponent.cpp
+#: .\publish\audiofilepublisher.cpp .\publish\ddpimagemaker.cpp
+#: .\publish\imagemaker.cpp .\publish\projectburner.cpp
+msgid "[Command]Project"
 msgstr ""
 
-#: .\project\projectcomponent.cpp .\publish\audiofilepublisher.cpp
-#: .\publish\ddpimagemaker.cpp .\publish\imagemaker.cpp
-#: .\publish\projectburner.cpp
-msgid "[Command]Project"
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Project"
 msgstr ""
 
 #: .\project\projectdocument.cpp
@@ -300,7 +377,11 @@ msgid "[ProjectFunctions]Replace File"
 msgstr ""
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Reset Marker"
+msgid "[Project]Reset Pause"
+msgstr ""
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Reset Track Markers to Content"
 msgstr ""
 
 #: .\base\projectfunctions.cpp
@@ -313,6 +394,14 @@ msgstr ""
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
+msgstr ""
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Split Track"
+msgstr ""
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
 msgstr ""
 
 #: .\editing\projecteditcomponent.cpp
@@ -381,6 +470,10 @@ msgstr ""
 msgid "[ProjectMarker]Track %(1)"
 msgstr ""
 
+#: .\publish\audiodiscpublisher.cpp
+msgid "[AudioDiscPublisher]Track %(1)"
+msgstr ""
+
 #: .\project\projectdocumentinfo.cpp
 msgid "[ProjectInfo]Tracks"
 msgstr ""
@@ -391,6 +484,10 @@ msgstr ""
 
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Update Mastering File"
+msgstr ""
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Update Mastering File"
 msgstr ""
 
 #: .\project\projectcomponent.cpp

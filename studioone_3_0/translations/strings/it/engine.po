@@ -97,6 +97,10 @@ msgstr "Aggiungi / Rimuovi..."
 msgid "[Engine:AutomationFunctions]Add Automation"
 msgstr "Aggiungi Automazione"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Add Automation Lane"
+msgstr "Aggiungi traccia automazione"
+
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add Bus Channel"
 msgstr "Aggiungi canale Bus"
@@ -223,6 +227,7 @@ msgstr "Automazione"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Automation"
 msgstr "Automazione"
 
@@ -363,8 +368,16 @@ msgid "[ActionDescriptions]Copy Event"
 msgstr "Copia Evento"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event Shared"
+msgstr "Copia l'evento condiviso"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
 msgstr "Copia Eventi"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events Shared"
+msgstr "Copia gli eventi condivisi"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -537,6 +550,10 @@ msgstr "Periferiche"
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "Disabilita"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Disable Event FX"
+msgstr "Disabilita evento FX"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
@@ -742,6 +759,10 @@ msgstr "Modifica il valore"
 msgid "[Command]Enable"
 msgstr "Abilita"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Enable Event FX"
+msgstr "Abilita Evento FX"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
 msgstr "Abilita le tracce selezionate"
@@ -813,6 +834,10 @@ msgstr "Esporta Musicloop"
 #: .\application\musicedit\musicexporttask.cpp
 msgid "[MusicPartEdit]Export Parts to MIDI File"
 msgstr "Esporta parti su un file MIDI"
+
+#: .\application\eventedit\exporttask.cpp
+msgid "[Edit]Export Selection"
+msgstr "Esporta Selezione"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
@@ -997,6 +1022,10 @@ msgstr "Importa i File"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
 msgstr "Importa i File nel Pool:"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Import Tempo"
+msgstr "Importa Tempo"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -1256,6 +1285,7 @@ msgstr "MIDI"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Manage Parameters"
 msgstr "Gestisci i Parametri"
 
@@ -1319,6 +1349,10 @@ msgstr "Minimo"
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "Strumento mancante: %(1)"
 
+#: .\application\eventedit\mixdowntask.cpp
+msgid "[Edit]Mixdown Selection"
+msgstr "Effettua Mixdown della Selezione"
+
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
 msgstr "Modalità"
@@ -1366,6 +1400,18 @@ msgstr "Sposta \"%(1)\" Automazione\nda %(3) a %(2)"
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]Move \"%(1)\" Automation\nto %(2)"
 msgstr "Sposta \"%(1)\" Automazione\na %(2)"
+
+#: .\editing\arrangerfunctions.cpp
+msgid "[Edit]Move Arranger Section only"
+msgstr "Sposta solo la sezione Arranger"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Move Automation"
+msgstr "Sposta Automazione"
+
+#: .\automationediting\automationeditextension.cpp
+msgid "[Automation]Move Automation to \"%(1)\""
+msgstr "Sposta automazione a \"%(1)\""
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1800,6 +1846,10 @@ msgstr "Rimuovi la Sezione Arranger"
 msgid "[Engine:AutomationFunctions]Remove Automation"
 msgstr "Rimuovi Automazione"
 
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Automation Lane"
+msgstr "Rimuovi traccia automazione"
+
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
 msgstr "Rimuovi Marker Bend"
@@ -1819,6 +1869,10 @@ msgstr "Rimuovi Layer"
 #: .\editing\tracklayercomponent.cpp
 msgid "[Command]Remove Layer"
 msgstr "Rimuovi Layer"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Command]Remove Parameter"
+msgstr "Rimuovi Parametro"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2112,6 +2166,10 @@ msgstr "Seleziona sulla traccia"
 msgid "[ActionDescriptions]Set Edit Group"
 msgstr "Imposta gruppo di modifica"
 
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Event FX Tail"
+msgstr "Imposta l'evento Tail FX"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "Imposta il tipo di Marker"
@@ -2131,6 +2189,10 @@ msgstr "Imposta la traccia delay"
 #: .\videoediting\songvideo.cpp
 msgid "[Command]Set Video Offset"
 msgstr "Imposta l'Offset Video"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Set Volume after Event FX"
+msgstr "Imposta il Volume dopo l'evento FX"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
@@ -2430,9 +2492,10 @@ msgstr "Tocca"
 #: .\application\audioedit\audiotracktransformtask.cpp
 #: .\application\musicedit\musictracktransformtask.cpp
 #: .\editing\editgroupscomponent.cpp .\editing\foldertrackcomponent.cpp
-#: .\editing\monitorfollower.cpp .\editing\trackcontroller.cpp
-#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
-#: .\editing\tracklistfilter.cpp .\song\songcontroller.cpp
+#: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
+#: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
+#: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
+#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "Traccia"
 
@@ -2465,8 +2528,8 @@ msgstr "Tracce"
 msgid "[StemRenderer]Tracks"
 msgstr "Tracce"
 
-#: .\automationediting\paramdraghandler.cpp
-msgid "[Automation]Transfer Automation"
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Transfer Automation"
 msgstr "Trasferisci Automazione"
 
 #: .\application\musicedit\musictracktransformtask.cpp
@@ -2548,6 +2611,14 @@ msgstr "Attiva Eevento"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Events"
 msgstr "Attiva Eventi"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Layer]Unpack Layers to Tracks"
+msgstr "Estrai i Layers sulle tracce"
+
+#: .\editing\layereditlayer.cpp
+msgid "[Command]Unpack Layers to Tracks"
+msgstr "Estrai i Layers sulle tracce"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes"
@@ -2677,4 +2748,7 @@ msgstr "usato %(1) volte"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "usato %(1) volte"
+
+#~ msgid "[Automation]Transfer Automation"
+#~ msgstr "Trasferisci Automazione"
 

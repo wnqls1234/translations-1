@@ -8,6 +8,10 @@ msgstr ""
 msgid "[Sampler]%(1) programs"
 msgstr "%(1) 项目"
 
+#: .\gui\spectrum\spectrumcomponent.cpp
+msgid "[SpectrumMeter]12th Octave"
+msgstr "12个八度"
+
 #: .\process\sampler\storage\usfcodec.cpp
 msgid "[FileType]EXS24 File"
 msgstr "EXS24文件"
@@ -48,6 +52,14 @@ msgstr "导入中..."
 msgid "[SamplerUserOption]Instrument Library"
 msgstr "乐器库"
 
+#: .\gui\level\levelmeterdisplay.cpp
+msgid "[LevelMeterDisplay]Integrated: %(1:1) LU"
+msgstr "整体: %(1:1) LU"
+
+#: .\gui\level\levelmeterdisplay.cpp
+msgid "[LevelMeterDisplay]Integrated: %(1:1) LUFS"
+msgstr "整合： %(1:1) LUFS"
+
 #: .\process\sampler\storage\usfcodec.cpp
 msgid "[FileType]Kontakt File"
 msgstr "Kontakt文件"
@@ -59,6 +71,10 @@ msgstr "电平"
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Long"
 msgstr "较长"
+
+#: .\gui\level\levelmeterdisplay.cpp
+msgid "[LevelMeterDisplay]Loudness Range: %(1:1) LU"
+msgstr "响度范围: %(1:1) LU"
 
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Medium"
@@ -114,8 +130,16 @@ msgid "[Sampler]Searching Samples"
 msgstr "搜索采样"
 
 #: .\gui\spectrum\spectrumcomponent.cpp
+msgid "[SpectrumMeter]Segments"
+msgstr "分割"
+
+#: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Short"
 msgstr "快照"
+
+#: .\gui\level\levelmeterdisplay.cpp
+msgid "[LevelMeterDisplay]Short-Term | Momentary"
+msgstr "短期 | 瞬间"
 
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Slow"

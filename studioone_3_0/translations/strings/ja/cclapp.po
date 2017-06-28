@@ -4,6 +4,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: .\application.cpp
+msgid "[Application]$APPNAME can not shutdown right now!"
+msgstr "$APPNAME は現在終了できません。"
+
 #: .\options\filetypeselector.cpp
 msgid "[FileType]%(1) File"
 msgstr "%(1) ファイル"
@@ -360,6 +364,10 @@ msgstr "このプリセットを削除しますか？"
 msgid "[Autosave]Do you want to keep the backup as a version?"
 msgstr "バックアップをバージョンとして保存しますか？"
 
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Do you want to merge into %(1)?"
+msgstr "%(1) に結合しますか？"
+
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to move these files to \"%(1)\"?"
 msgstr "これらのファイルを \"%(1)\" へ移動しますか？"
@@ -401,8 +409,8 @@ msgid "[UserOption]Do you want to revert the keyboard mapping scheme to \"%(1)\"
 msgstr "キーボードマッピングスキームを \"%(1)\" へ戻しますか？"
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
-msgstr "%(1) のコピーを %(2) フォーマットとして保存しますか？"
+msgid "[Documents]Do you want to save a copy of %(1) as file format \"%(2)\"?"
+msgstr "%(1) のコピーをファイルフォーマット \"%(2)\" として保存しますか？"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save your changes in %(1)?"
@@ -625,10 +633,6 @@ msgstr "プリセットファイルをロード"
 msgid "[Presets]Load Preset File..."
 msgstr "プリセットファイルをロード..."
 
-#: .\documents\documentmanager.cpp
-msgid "[Documents]Loading %(1) canceled."
-msgstr "%(1) の読み込みはキャンセルされました。"
-
 #: .\documents\packagedocument.cpp
 msgid "[Documents]Loading %(1)..."
 msgstr "%(1) を読み込んでいます..."
@@ -644,6 +648,14 @@ msgstr "ローカル"
 #: .\options\mainoption.cpp .\options\useroption.cpp
 msgid "[UserOption]Locations"
 msgstr "ロケーション"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merge"
+msgstr "結合"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Merging %(1)..."
+msgstr "%(1) に結合中..."
 
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move"
@@ -1127,6 +1139,10 @@ msgid "[Documents]The file %(1) could not be found!"
 msgstr "ファイル %(1) は見つかりませんでした。"
 
 #: .\documents\documentmanager.cpp
+msgid "[Documents]The file format may not preserve all content."
+msgstr "このファイルフォーマットはすべてのコンテンツを保存しない可能性があります。"
+
+#: .\documents\documentmanager.cpp
 msgid "[Documents]The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n\nAre you sure you want to continue?"
 msgstr "このファイルは以前のバージョンの $APPNAME で作成されています。ファイルを保存すると、以前のバージョンでは使用できなくなります。\r\n\r\n続けますか？"
 
@@ -1266,6 +1282,10 @@ msgstr "プラグインを更新"
 msgid "[TagStore]Updated tags in %(1)\n"
 msgstr "%(1) で更新されたタグ\n"
 
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Use %(1) Format"
+msgstr "%(1) フォーマットを使用"
+
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"
 msgstr "ユーザーデータ"
@@ -1313,4 +1333,10 @@ msgstr "デフォルト"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "その他"
+
+#~ msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
+#~ msgstr "%(1) のコピーを %(2) フォーマットとして保存しますか？"
+
+#~ msgid "[Documents]Loading %(1) canceled."
+#~ msgstr "%(1) の読み込みはキャンセルされました。"
 

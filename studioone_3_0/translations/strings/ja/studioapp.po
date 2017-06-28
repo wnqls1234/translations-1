@@ -16,10 +16,6 @@ msgstr "$APPNAME ソング"
 msgid "[FileType]$APPNAME Song Template"
 msgstr "$APPNAME ソングテンプレート"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]$APPNAME can not shutdown right now!"
-msgstr "$APPNAME は現在終了できません。"
-
 #: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "プロジェクトに追加"
@@ -59,6 +55,10 @@ msgstr "クラウド"
 #: .\appoptions.cpp
 msgid "[Options]Console"
 msgstr "コンソール"
+
+#: .\sidebar.cpp
+msgid "[Sidebar]Construction Kits"
+msgstr "コンストラクションキット"
 
 #: .\appoptions.cpp
 msgid "[Options]Create a New Song"
@@ -131,10 +131,6 @@ msgstr "ファイルタイプ"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "ファイル"
-
-#: .\studioapp.cpp
-msgid "[StudioApp]Files are being transferred in background."
-msgstr "ファイルはバックグラウンドで転送中です。"
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -317,6 +313,10 @@ msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "サウンドセット \"%(1)\" のインストールに失敗しました。"
 
 #: .\soundsethandler.cpp
+msgid "[StudioApp]Sound Set \"%(1)\" has been updated to version %(2)."
+msgstr "セット \"%(1)\" はバージョン %(2) に更新されました。"
+
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "サウンドセット \"%(1)\" はすでにインストールされています。"
 
@@ -395,4 +395,10 @@ msgstr "表示"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "ワークスペース"
+
+#~ msgid "[StudioApp]$APPNAME can not shutdown right now!"
+#~ msgstr "$APPNAME は現在終了できません。"
+
+#~ msgid "[StudioApp]Files are being transferred in background."
+#~ msgstr "ファイルはバックグラウンドで転送中です。"
 

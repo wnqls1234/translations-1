@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\extensions\contentinstaller.cpp
-msgid "[Installer]$APPCOMPANY Account"
-msgstr "$APPCOMPANY アカウント"
-
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
 msgstr "%(1) つの拡張がインストールされています。"
@@ -131,6 +127,10 @@ msgstr "拡張"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "失敗しました。"
+
+#: .\webfs\transfermanagerui.cpp
+msgid "[TransferManager]Files are being transferred in background."
+msgstr "ファイルはバックグラウンドで転送中です。"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Full Installation"
@@ -311,6 +311,9 @@ msgstr "新しいバージョンの $APPNAME が必要です。"
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "ご使用のバージョンは最新です。"
+
+#~ msgid "[Installer]$APPCOMPANY Account"
+#~ msgstr "$APPCOMPANY アカウント"
 
 #~ msgid "[TransferManager]KB/sec"
 #~ msgstr "KB/秒"

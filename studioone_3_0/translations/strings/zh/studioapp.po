@@ -16,10 +16,6 @@ msgstr "$APPNAME乐曲"
 msgid "[FileType]$APPNAME Song Template"
 msgstr "$APPNAME乐曲模板"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]$APPNAME can not shutdown right now!"
-msgstr "$APPNAME无法正常关闭!"
-
 #: .\documenthandler.cpp
 msgid "[StudioApp]Add to Project"
 msgstr "添加到项目中"
@@ -59,6 +55,10 @@ msgstr "云"
 #: .\appoptions.cpp
 msgid "[Options]Console"
 msgstr "控制台"
+
+#: .\sidebar.cpp
+msgid "[Sidebar]Construction Kits"
+msgstr "建构组件"
 
 #: .\appoptions.cpp
 msgid "[Options]Create a New Song"
@@ -131,10 +131,6 @@ msgstr "文件类型"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "文件"
-
-#: .\studioapp.cpp
-msgid "[StudioApp]Files are being transferred in background."
-msgstr "文件将在后台进行传送。"
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -317,6 +313,10 @@ msgid "[StudioApp]Sound Set \"%(1)\" failed to install."
 msgstr "声音设置 \"%(1)\" 安装失败."
 
 #: .\soundsethandler.cpp
+msgid "[StudioApp]Sound Set \"%(1)\" has been updated to version %(2)."
+msgstr "声音设置 \"%(1)\" 已被更新至版本 %(2)。"
+
+#: .\soundsethandler.cpp
 msgid "[StudioApp]Sound Set \"%(1)\" is already installed."
 msgstr "声音设置 \"%(1)\" 已经安装."
 
@@ -395,4 +395,10 @@ msgstr "视图"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "工作区"
+
+#~ msgid "[StudioApp]$APPNAME can not shutdown right now!"
+#~ msgstr "$APPNAME无法正常关闭!"
+
+#~ msgid "[StudioApp]Files are being transferred in background."
+#~ msgstr "文件将在后台进行传送。"
 

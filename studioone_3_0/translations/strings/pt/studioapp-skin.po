@@ -17,10 +17,6 @@ msgid "[UserLicenseExpired]$APPCOMPANY Forum"
 msgstr "Forum $APPCOMPANY "
 
 #: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPCOMPANY Login"
-msgstr "Login $APPCOMPANY"
-
-#: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Shop"
 msgstr "Loja $APPCOMPANY"
 
@@ -83,10 +79,6 @@ msgstr "Site do $APPNAME"
 #: .\ccl\contentinstaller.xml
 msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
 msgstr "O $APPNAME possui conteúdos adicionais, incluindo loops, samples e plug-ins de terceiros. Selecione abaixo os pacotes que deseja instalar."
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "O $APPNAME precisa de acesso à sua Conta $APPCOMPANY. Faça login abaixo com seu e-mail/nome de usuário e senha."
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
@@ -236,6 +228,14 @@ msgstr "-"
 msgid "[VideoOffset]-"
 msgstr "-"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]-10 dBV"
+msgstr "-10 dBV"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]-10 dBV"
+msgstr "-10 dBV"
+
 #: .\app\homepage.xml
 msgid "[ArtistProfile]..."
 msgstr "..."
@@ -375,6 +375,10 @@ msgstr "11"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]12"
 msgstr "12"
+
+#: .\project\analyser.xml
+msgid "[Analyser]12th"
+msgstr "12‘"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]13"
@@ -640,6 +644,10 @@ msgstr "@cmd.title[]"
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr "@cmd.title[]"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]@cmd.title[]"
+msgstr "@cmd.title[]"
+
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow2]@cmd.title[]"
 msgstr "@cmd.title[]"
@@ -820,6 +828,10 @@ msgstr "Ativar"
 msgid "[AutomationAspectFirstRow]Activate"
 msgstr "Ativar"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Activate"
+msgstr "Ativar"
+
 #: .\app\licenser.xml
 msgid "[ActivationMode.Free]Activate $APPNAMEFREE"
 msgstr "Ativação do $APPNAMEFREE"
@@ -887,6 +899,10 @@ msgstr "Adicionar (Estéreo)"
 #: .\engine\editor.xml
 msgid "[EnvelopeLane]Add / Remove..."
 msgstr "Adicionar / Remover..."
+
+#: .\engine\editor.xml
+msgid "[Command]Add Automation Lane"
+msgstr "Adicionar Linha de Automação"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]Add Automation Track"
@@ -960,6 +976,14 @@ msgstr "Adicionar Pistas @cmd[]"
 msgid "[RecordPanel.Horizontal]Add a layer for every new take"
 msgstr "Adicionar uma camada para cada novo take"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add artist to file name"
+msgstr "Adicionar artista ao nome do arquivo"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add track numbers to file name"
+msgstr "Adicionar número da música ao nome do arquivo"
+
 #: .\app\options.xml
 msgid "[SoundSetOption]Add..."
 msgstr "Adicionar..."
@@ -982,6 +1006,10 @@ msgstr "Álbum"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Album"
+msgstr "Álbum"
+
+#: .\project\project.xml
+msgid "[Project]Album"
 msgstr "Álbum"
 
 #: .\app\windowclasses.xml
@@ -1023,14 +1051,6 @@ msgstr "Tudo"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]All Notes Off"
 msgstr "Todas as Notas Desl."
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Amount:"
-msgstr "Duração"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Amount:"
-msgstr "Duração"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Analyze"
@@ -1093,19 +1113,19 @@ msgid "[Project]Artist"
 msgstr "Artista"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist"
+msgid "[DetailedInfoTable]Artist"
 msgstr "Artista"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Artist Name"
-msgstr "Nome do Artista"
 
 #: .\project\project.xml
 msgid "[Project]Artist(s) or Performer(s)"
 msgstr "Artista(s) ou Intérprete(s)"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+msgid "[ProjectTrackControlsContentMedium]Artist(s) or Performer(s)"
+msgstr "Artista(s) ou Intérprete(s)"
+
+#: .\project\project.xml
+msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "Artista(s) ou Intérprete(s)"
 
 #: .\engine\songdialogs.xml
@@ -1153,7 +1173,7 @@ msgid "[Command]Audio Device"
 msgstr "Dispositivo de Áudio"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Audio Device "
+msgid "[AudioSetup.Device]Audio Device"
 msgstr "Dispositivo de Áudio"
 
 #: .\engine\eventinspector.xml
@@ -1171,6 +1191,10 @@ msgstr "Entrada de Áudio Segue Seleção"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Audio Input follows Selection"
 msgstr "Entrada de Áudio Segue Seleção"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Audio Roundtrip"
+msgstr "Ciclo do Áudio"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Audio Tracks"
@@ -1248,6 +1272,10 @@ msgstr "Automação"
 msgid "[AutomationTrackDialog]Automation"
 msgstr "Automação"
 
+#: .\engine\editor.xml
+msgid "[Command]Automation"
+msgstr "Automação"
+
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Automation"
 msgstr "Automação"
@@ -1297,12 +1325,12 @@ msgid "[InplaceOptions]Automation follows events"
 msgstr "Automação segue eventos"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Average"
-msgstr "Média"
+msgid "[SpectrumMeterSettings]Averaging Speed"
+msgstr "Velocidade Média"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Averaging Speed"
-msgstr "Velocidade Média"
+msgid "[SpectrumMeterSettings]Avg."
+msgstr "Média"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]B"
@@ -1315,10 +1343,6 @@ msgstr "Voltar"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Back to Activation"
 msgstr "Voltar à Ativação"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Back to Log in"
-msgstr "Voltar ao Log In"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Main]Background"
@@ -1381,7 +1405,7 @@ msgid "[TrackExport]Between Song Start/End Marker"
 msgstr "Entre os Marcadores de Início/Fim do Song"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Bit Depth"
+msgid "[AudioSetup.Device]Bit Depth"
 msgstr "Resolução"
 
 #: .\engine\musicdialogs.xml
@@ -1473,7 +1497,7 @@ msgid "[SlotNodeEditHeader]Bypass (automatable)"
 msgstr "Ignorar (automatizável)"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Bypass Master Effects"
+msgid "[AudioExport]Bypass master effects"
 msgstr "Ignorar Efeitos Master"
 
 #: .\engine\quantize.xml
@@ -1483,6 +1507,14 @@ msgstr "C"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]CC Automation Interval"
 msgstr "Intervalo de Automação CC"
+
+#: .\app\windowclasses.xml
+msgid "[ProjectCDProtocol]CD Protocol"
+msgstr "Protocolo do CD"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]CD Protocol"
+msgstr "Protocolo do CD"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Meters]CPU"
@@ -1510,10 +1542,6 @@ msgstr "Cancelar"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
-msgstr "Cancelar"
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Cancel"
 msgstr "Cancelar"
 
 #: .\engine\mediapool.xml
@@ -1701,7 +1729,7 @@ msgid "[InputLevelsContent]Clip"
 msgstr "Clip"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Clip"
+msgid "[HoldValues]Clip"
 msgstr "Clip"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1844,6 +1872,10 @@ msgstr "Comentário"
 msgid "[DetailedInfoTable]Comment"
 msgstr "Comentário"
 
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Compact View"
+msgstr "Visão Compacta"
+
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Compare"
 msgstr "Comparar"
@@ -1889,7 +1921,7 @@ msgid "[ParamMapper.MappingPart]Control"
 msgstr "Controle"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Control Panel"
+msgid "[AudioSetup.Device]Control Panel"
 msgstr "Painel de Controle"
 
 #: .\devices\musicdevices.xml
@@ -1940,14 +1972,6 @@ msgstr "Direitos Autorais"
 msgid "[Analyser]Corr"
 msgstr "Corr"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Country"
-msgstr "País"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
-msgstr "Criar Conta $APPCOMPANY"
-
 #: .\app\homepage.xml
 msgid "[HomePage]Create a new Project"
 msgstr "Criar um Novo Projeto"
@@ -1996,6 +2020,10 @@ msgstr "Pan da mixagem Guia: @value[]"
 msgid "[InplaceOptions]Cursor follows Edit Position"
 msgstr "Cursor Segue Posição de Edição"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Curve"
+msgstr "Curva"
+
 #: .\app\options.xml
 msgid "[MusicOption]Cut long notes at part end"
 msgstr "Cortar notas longas no final da parte"
@@ -2005,20 +2033,12 @@ msgid "[QuantizeSetup.PresetPart]D"
 msgstr "D"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]DC L"
-msgstr "DC L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DC R"
-msgstr "DC R"
+msgid "[LoudnessInfoTable]DC"
+msgstr "DC"
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]DDP"
 msgstr "DDP"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DR"
-msgstr "DR"
 
 #: .\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Data Zoom"
@@ -2108,14 +2128,6 @@ msgstr "Destacar"
 msgid "[LicenseZone]Details..."
 msgstr "Detalhes..."
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Detect Loudness"
-msgstr "Detectar Loudness"
-
-#: .\project\project.xml
-msgid "[Command]Detect Loudness"
-msgstr "Detectar Loudness"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Detection"
 msgstr "Detecção"
@@ -2145,7 +2157,7 @@ msgid "[BurnerSelectDialog]Device"
 msgstr "Dispositivo"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Device Block Size"
+msgid "[AudioSetup.Device]Device Block Size"
 msgstr "Tamanho de Bloco do Dispositivo"
 
 #: .\devices\musicdevices.xml
@@ -2204,10 +2216,6 @@ msgstr "Desativar eventos em envelopes de automação"
 msgid "[PerformanceMonitor.Meters]Disc"
 msgstr "Disco"
 
-#: .\project\project.xml
-msgid "[Project]Disc"
-msgstr "Disco"
-
 #: .\devices\transport.xml
 msgid "[TransportPanel.PerformancePart]Disc Overload"
 msgstr "Sobrecarga de Disco"
@@ -2227,10 +2235,6 @@ msgstr "Desloc. de Visor"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
 msgstr "Deseja instalar esta extensão?"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
-msgstr "Não possui uma Conta $APPCOMPANY ainda?"
 
 #: .\app\options.xml
 msgid "[EditingOption]Don&apos;t show event names"
@@ -2304,6 +2308,14 @@ msgstr "Arraste o arquívo aquí para selecionar som adicional"
 msgid "[EditingOption]Draw events translucent (grid shines through)"
 msgstr "Arrastar eventos translúcido (grid brilha através)"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Dropout Protection"
+msgstr "Proteção contra Dropout"
+
+#: .\devices\transport.xml
+msgid "[PerformanceMonitor]Dropout Protection"
+msgstr "Proteção contra Dropout"
+
 #: .\engine\inspector.xml
 msgid "[ArrangerTrackInspector]Duplicate"
 msgstr "Duplicar"
@@ -2317,28 +2329,16 @@ msgid "[LayerAspectRow1]Duplicate Layer"
 msgstr "Duplicar Camada"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Duration:"
-msgstr "Duração:"
+msgid "[AudioExport]Duration"
+msgstr "Duração"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Duration:"
-msgstr "Duração:"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Dynamic Range"
-msgstr "Faixa Dinâmica"
+msgid "[TrackExport]Duration"
+msgstr "Duração"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]E"
 msgstr "E"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail"
-msgstr "E-Mail"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail or username"
-msgstr "E-Mail ou nome de usuário"
 
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN"
@@ -2347,6 +2347,22 @@ msgstr "EAN"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN/UPC code"
 msgstr "Código EAN/UPC"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]EBU"
+msgstr "EBU"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18"
+msgstr "EBU +18"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18 Metering"
+msgstr "Medição EBU +18"
+
+#: .\project\analyser.xml
+msgid "[Analyser]EBU R128"
+msgstr "EBU R128"
 
 #: .\app\windowclasses.xml .\engine\inspector.xml
 msgid "[Command]Edit"
@@ -2387,10 +2403,6 @@ msgstr "Editar Nomes das Notas"
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Edit Remote Bank"
 msgstr "Editar Banco Remoto"
-
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Edit Song"
-msgstr "Editar Song"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Edit..."
@@ -2444,17 +2456,41 @@ msgstr "Ativar &apos;Reproduzir Sobreposições&apos; para novas pistas de áudi
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "Ativar &apos;Reproduzir Sobreposições&apos; para novas pistas de áudio"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
+msgstr "Ativar Monitoração por Hardware"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Hardware Monitoring"
+msgstr "Ativar Monitoração por Hardware"
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr "Ativar Modo de DPI Alto"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Enable Multi-Processing"
-msgstr "Ativar Multi-Processamento"
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Low Latency Monitoring"
+msgstr "Ativar Monitoração de Baixa Latência"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Low Latency Monitoring"
+msgstr "Ativar Monitoração de Baixa Latência"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Enable Low Latency Monitoring"
+msgstr "Ativar Monitoração de Baixa Latência"
+
+#: .\devices\synthrack.xml
+msgid "[SynthRack]Enable Low Latency Monitoring"
+msgstr "Ativar Monitoração de Baixa Latência"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Enable Program"
 msgstr "Ativar Programa"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable Smoothing"
+msgstr "Ativar Suavização"
 
 #: .\app\options.xml
 msgid "[EditingOption]Enable crosshair cursor for tools"
@@ -2463,6 +2499,14 @@ msgstr "Ativar cursor de cruz para ferramentas"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Enable crosshair cursor for tools"
 msgstr "Ativar cursor de cruz para ferramentas"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Enable low latency monitoring for instruments"
+msgstr "Ativar monitoração de baixa latência para instrumentos"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
+msgstr "Ativar compensação de declíneo (+3dB/oit. em Ruído Rosa)"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2712,17 +2756,13 @@ msgstr "Arquivos"
 msgid "[MusicDeviceOptions]Filter"
 msgstr "Filtrar"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]First Name"
-msgstr "Primeiro Nome"
-
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Fix Tail"
-msgstr "Fixar Cauda"
+msgid "[MusicTransformDialog]Fixed Tail"
+msgstr "Cauda Fixa"
 
 #: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Fix Tail"
-msgstr "Fixar Cauda"
+msgid "[AudioTransformDialog]Fixed Tail"
+msgstr "Cauda Fixa"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SurfaceMapping]Focus Device"
@@ -2747,10 +2787,6 @@ msgstr "Seguir Quantização"
 #: .\app\about.xml
 msgid "[AboutApplication]Fonts"
 msgstr "Fontes"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Forgot your password?"
-msgstr "Esqueceu sua senha?"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
@@ -2779,6 +2815,10 @@ msgstr "Formato da régua e visor de tempo principal"
 #: .\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
 msgstr "Taxa de Quadros"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Freeze"
+msgstr "Congelar"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Frequency Split"
@@ -2904,6 +2944,14 @@ msgstr "Agrupamento"
 msgid "[AudioBendPanel.TrackPart]Guides"
 msgstr "Guias"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Hardware Monitoring Available"
+msgstr "Monitoração por Hardware Disponível"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Height"
+msgstr "Altura"
+
 #: .\app\about.xml .\app\homepage.xml .\app\toolbar.xml
 msgid "[Command]Help"
 msgstr "Ajuda"
@@ -2917,7 +2965,7 @@ msgid "[Command]History"
 msgstr "Histórico"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Hold"
+msgid "[SpectrumMeterSettings]Hold"
 msgstr "Manter"
 
 #: .\app\homepage.xml
@@ -2948,13 +2996,17 @@ msgstr "Prometo que terei cuidado!"
 msgid "[MixerManager]I/O"
 msgstr "E/S"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]INT"
+msgstr "INT"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]INT"
+msgstr "INT"
+
 #: .\project\project.xml
 msgid "[DetailedInfoTable]ISRC"
 msgstr "ISRC"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
-msgstr "ITU-BS-1770 / R128 Loudness"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
@@ -2985,12 +3037,16 @@ msgid "[VideoPlayer]Import Video"
 msgstr "Importar Vídeo"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Import to Track"
+msgid "[AudioExport]Import to track"
 msgstr "Imp. p/Pista"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Import to Track"
-msgstr "Importar para nova Pista"
+msgid "[TrackExport]Import to track"
+msgstr "Imp. p/Pista"
+
+#: .\project\project.xml
+msgid "[NewProject]Import tracks from DDP Image"
+msgstr "Importar Músicas de Imagem DDP"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]In"
@@ -3033,7 +3089,7 @@ msgid "[NewSong]Initial time signature of song"
 msgstr "Fórmula de compasso inicial do Song"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Input Latency"
+msgid "[AudioSetup.Device]Input Latency"
 msgstr "Latência - Entrada"
 
 #: .\devices\musicfxeditor.xml
@@ -3135,6 +3191,10 @@ msgstr "A instalação continuará em segundo plano. Você pode escolher pular e
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Instr."
 msgstr "Instr."
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Instrument"
+msgstr "Instrumento"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Instrument"
@@ -3256,13 +3316,17 @@ msgstr "Instrumentos"
 msgid "[SynthRack]Instruments"
 msgstr "Instrumentos"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Integrated (EBU R128)"
+msgstr "Integrado (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Integrated (EBU R128)"
+msgstr "Integrado (EBU R128)"
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
 msgstr "Interfaces"
-
-#: .\devices\devices.xml
-msgid "[AudioSetup]Internal Block Size"
-msgstr "Tamanho de Bloco Interno"
 
 #: .\devices\devices.xml
 msgid "[MacroTargetCurve]Invert X"
@@ -3316,13 +3380,37 @@ msgstr "Esquema de mapa de teclado"
 msgid "[TransportPanel.LoopPart]L"
 msgstr "L"
 
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]L"
+msgstr "L"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LRA"
+msgstr "LRA"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LRA"
+msgstr "LRA"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LU"
+msgstr "LU"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LU"
+msgstr "LU"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LUFS"
+msgstr "LUFS"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LUFS"
+msgstr "LUFS"
+
 #: .\ccl\common.xml
 msgid "[LocaleOption]Language"
 msgstr "Idioma"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Last Name"
-msgstr "Último Nome"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Launch Notion"
@@ -3353,16 +3441,16 @@ msgid "[MusicTrackInspector]Layers follow events"
 msgstr "Camadas seguem eventos"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Left Channel Average RMS (3 seconds integration)"
 msgstr "RMS médio do Canal Esquerdo (integração de 3 segundos)"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel DC Offset"
+msgid "[LoudnessInfoTable]Left Channel DC Offset"
 msgstr "DC Offset do Canal Esquerdo"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Peak"
-msgstr "Pico do Canal Esquerdo"
+msgid "[LoudnessInfoTable]Left Channel True Peak"
+msgstr "Pico Real Canal Esquerdo"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Length"
@@ -3372,13 +3460,17 @@ msgstr "Duração"
 msgid "[NoteEventProperties]Length"
 msgstr "Duração"
 
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Length"
-msgstr "Duração"
-
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Level"
 msgstr "Nível"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Max"
+msgstr "Nível Max."
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Min"
+msgstr "Nível Min."
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Levels"
@@ -3464,10 +3556,6 @@ msgstr "Local"
 msgid "[SoundSetOption]Locations"
 msgstr "Locais"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Lock"
-msgstr "Bloquear"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Lock Active Scene"
 msgstr "Travar Cena Ativa"
@@ -3479,10 +3567,6 @@ msgstr "Travar Cena Ativa"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Lock level and pan to channel"
 msgstr "Bloqueio de nível e pan ao canal"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Login"
-msgstr "Login"
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[AudioPreviewPlayer]Loop"
@@ -3511,6 +3595,30 @@ msgstr "Loops"
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Loudness Information"
 msgstr "Informação de Loudness"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Loudness Range (EBU R128)"
+msgstr "Faixa de Loudness (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Loudness Range (EBU R128)"
+msgstr "Faixa de Loudness (EBU R128)"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency"
+msgstr "Baixa Latência"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency Instrument Monitoring Active"
+msgstr "Monitoração de baixa latência para instrumentos Ativa"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioTrack.Channel]Low Latency Monitoring Enabled"
+msgstr "Monitoração de baixa latência Ativada"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioSynth.Channel]Low Latency Monitoring Enabled"
+msgstr "Monitoração de baixa latência Ativada"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Luminance"
@@ -3564,6 +3672,10 @@ msgstr "Mapeamento de Controles Macro"
 msgid "[SynthCombinatorPageSelector]Macro Controls Mapping"
 msgstr "Mapeamento de Controles Macro"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Magnitude Range"
+msgstr "Faixa de Magnitude"
+
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Make Default"
 msgstr "Tornar Padrão"
@@ -3571,6 +3683,10 @@ msgstr "Tornar Padrão"
 #: .\project\audiofile.xml
 msgid "[ImageMaker]Make Image"
 msgstr "Criar Imagem"
+
+#: .\engine\editor.xml
+msgid "[Command]Manage Parameters"
+msgstr "Administrar Parâmetros"
 
 #: .\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Manage Plug-Ins"
@@ -3605,8 +3721,8 @@ msgid "[TransportPanel.MasterPart]Master Volume"
 msgstr "Volume Master"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Mastering File Status"
-msgstr "Estado do Arquivo de Masterização"
+msgid "[ProjectTrackIcon]Mastering File Status / Edit Song"
+msgstr "Estado do Arquivo de Masterização / Edição do Song"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Material"
@@ -3635,6 +3751,10 @@ msgstr "Pool de Mídia"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Merge"
 msgstr "Mesclar"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Merge into open document"
+msgstr "Mesclar em documento aberto"
 
 #: .\app\startup.xml
 msgid "[MessageWindow]Messages"
@@ -3716,6 +3836,10 @@ msgstr "Modo"
 msgid "[PresetFileInfo]Modified:"
 msgstr "Modificado:"
 
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Momentary"
+msgstr "Momentâneo"
+
 #: .\app\shared.xml
 msgid "[TCMutablePlainButton]Monitor"
 msgstr "Monitor"
@@ -3727,6 +3851,10 @@ msgstr "Monitor"
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "Monitor"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Monitoring Latencies"
+msgstr "Latências de Monitoração"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Monitoring follows record"
@@ -3800,13 +3928,13 @@ msgstr "SIlenciar Saída"
 msgid "[ExtensionManager.FilterTabs]My Extensions"
 msgstr "Minhas Extensões"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Naming:"
-msgstr "Nomeclatura:"
-
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Narrow / Normal"
 msgstr "Estreito / Normal"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Native Low Latency Monitoring Available"
+msgstr "Monitoração Nativa de Baixa Latência Disponível"
 
 #: .\app\windowclasses.xml .\ccl\navigator.xml
 msgid "[Navigator]Navigator"
@@ -3996,6 +4124,10 @@ msgstr "Abrir"
 msgid "[Song]Open Arrangertrack"
 msgstr "Abrir Pista de Arranjador"
 
+#: .\app\windowclasses.xml
+msgid "[Command]Open CD Protocol"
+msgstr "Abrir Protocolo CD"
+
 #: .\devices\transport.xml
 msgid "[TransportPanel.MidiActivityPart]Open MIDI Monitor"
 msgstr "Abrir Monitor MIDI"
@@ -4076,13 +4208,13 @@ msgstr "Caso contrário, esperamos suas sugestões de como podemos melhorar o $A
 msgid "[MusicTrackInspector]Out"
 msgstr "Saída"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Output Latency"
-msgstr "Latência - Saída"
-
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Output:"
-msgstr "Saída:"
+msgid "[AudioExport]Output"
+msgstr "Saída"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Output Latency"
+msgstr "Latência - Saída"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Outputs"
@@ -4140,10 +4272,6 @@ msgstr "Controle de Mapeamento de Parâmetros"
 msgid "[FXEditorHeaderRow1]Passthrough"
 msgstr "Passar através"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Password"
-msgstr "Senha"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "Colar"
@@ -4153,8 +4281,8 @@ msgid "[MacroTargetCurve]Paste"
 msgstr "Colar"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Pause"
-msgstr "Pausa"
+msgid "[ProjectTrackControlsContentMedium]Pause (Pre Track)"
+msgstr "Pausa (Pré Pista)"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
@@ -4165,15 +4293,15 @@ msgid "[AudioOutput.Channel.Content]Peak Hold (dB)"
 msgstr "Manter Pico (dB)"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Hold Speed"
+msgid "[SpectrumMeterSettings]Peak Hold Speed"
 msgstr "Velocidade da Manutenção de Picos"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Left [dB]"
+msgid "[HoldValues]Peak Left [dB]"
 msgstr "Pico Esquerdo (dB)"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Right [dB]"
+msgid "[HoldValues]Peak Right [dB]"
 msgstr "Pico Direito (dB)"
 
 #: .\devices\transport.xml
@@ -4207,14 +4335,6 @@ msgstr "Nota"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Pitch Bend"
 msgstr "Pitch Bend"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk L"
-msgstr "Pk L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk R"
-msgstr "Pk R"
 
 #: .\project\analyser.xml
 msgid "[Analyser]PkRMS"
@@ -4264,17 +4384,13 @@ msgstr "Reproduzir sobreposições"
 msgid "[NewSong]Play overlaps"
 msgstr "Reproduzir sobreposições"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
-msgstr "Insira seus dados de contato para inscrever-se agora. Você receberá um E-mail com um link para ativar sua conta."
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Playback Device"
+msgstr "Dispositivo de Reprodução"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "Reinicie o $APPNAME para que as mudanças tenham efeito."
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Please wait..."
-msgstr "Aguarde por favor..."
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Plug-In:"
@@ -4300,9 +4416,17 @@ msgstr "Exibir na abertura do Song"
 msgid "[PostFaderInserts]Post"
 msgstr "Pós"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Post FX"
+msgstr "Pós FX"
+
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Post-Roll"
 msgstr "Pós-Rolag."
+
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Pre FX"
+msgstr "Pré FX"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
@@ -4348,13 +4472,13 @@ msgstr "Pré-Rolag. @cmd[Transport|Preroll]"
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
 msgstr "Preservar Estado da Pista de Instrumento"
 
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Preserve Mono Tracks"
-msgstr "Manter Pistas Mono"
-
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "Preservar Estado de Tempo Real"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Preserve mono tracks"
+msgstr "Manter Pistas Mono"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
@@ -4389,20 +4513,20 @@ msgid "[AutomationTrackDialog]Previous Track"
 msgstr "Pista Anterior"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Process Precision"
+msgid "[AudioSetup.Engine]Process Block Size"
+msgstr "Tamaho de Bloco Processado"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Process Precision"
 msgstr "Processamento"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Process Volume after Event Effects"
 msgstr "Processar Volume após Efeitos de Eventos"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
-msgstr "Processar áudio em modo seguro (maior latência)"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Processing:"
-msgstr "Processando:"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Processing"
+msgstr "Processando"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -4525,7 +4649,11 @@ msgid "[TransportPanel.LoopPart]R"
 msgstr "R"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]R128"
+msgid "[LoudnessInfoTable]R"
+msgstr "R"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]R128"
 msgstr "R128"
 
 #: .\devices\transport.xml
@@ -4541,19 +4669,15 @@ msgid "[TransportPanel.PerformancePart]RAM Overload"
 msgstr "Sobrecarga de RAM"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS L"
-msgstr "RMS L"
+msgid "[LoudnessInfoTable]RMS"
+msgstr "RMS"
 
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Left [dB]"
+msgid "[HoldValues]RMS Left [dB]"
 msgstr "RMS Esquerdo (dB)"
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS R"
-msgstr "RMS R"
-
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Right [dB]"
+msgid "[HoldValues]RMS Right [dB]"
 msgstr "RMS Direito (dB)"
 
 #: .\devices\synthcombinator.xml
@@ -4562,6 +4686,10 @@ msgstr "Região"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.OptionsPart]Range"
+msgstr "Região"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Range"
 msgstr "Região"
 
 #: .\app\toolbar.xml
@@ -4579,22 +4707,6 @@ msgstr "Reindexar Presets"
 #: .\ccl\browser.xml
 msgid "[Command]Re-Index Presets"
 msgstr "Reindexar Presets"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Realtime Processing"
-msgstr "Processamento em Tempo Real"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Realtime Processing"
-msgstr "Processamento em Tempo Real"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Realtime Processing"
-msgstr "Processamento em Tempo Real"
-
-#: .\project\audiofile.xml
-msgid "[ImageMaker]Realtime Processing"
-msgstr "Processamento em Tempo Real"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Receive From"
@@ -4688,8 +4800,12 @@ msgstr "Gravação de Takes"
 msgid "[AudioEngineOption]Record tempo information to audio files"
 msgstr "Gravar informação de tempo em arquivos de áudio"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Release audio device in background"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Recording Device"
+msgstr "Dispositivo de Gravação"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Release audio device in background"
 msgstr "Liberar dispositivo de áudio em segundo plano"
 
 #: .\app\windowclasses.xml .\devices\transport.xml
@@ -4707,10 +4823,6 @@ msgstr "Tempo de gravação restante"
 #: .\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
 msgstr "Tempo de gravação restante (baixo)"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "Lembrar das minhas credenciais"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Remote"
@@ -4755,6 +4867,14 @@ msgstr "Remover Cena Ativa"
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Remove Active Scene"
 msgstr "Remover Cena Ativa"
+
+#: .\engine\editor.xml
+msgid "[Command]Remove Automation Lane"
+msgstr "Remover Linha de Automação"
+
+#: .\engine\editor.xml
+msgid "[EnvelopeLane]Remove Automation Lane"
+msgstr "Remover Linha de Automação"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Remove File..."
@@ -4836,10 +4956,6 @@ msgstr "Repetição de Acento"
 msgid "[RecordPanel.Horizontal]Repeat Key"
 msgstr "Repetir Afinação"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Repeat Password"
-msgstr "Repetir Senha"
-
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Replace"
 msgstr "Substituir"
@@ -4862,6 +4978,10 @@ msgstr "Reiniciar"
 
 #: .\engine\musicdialogs.xml
 msgid "[PitchNameEditor]Reset"
+msgstr "Reiniciar"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Reset"
 msgstr "Reiniciar"
 
 #: .\engine\songdialogs.xml
@@ -4921,16 +5041,16 @@ msgid "[ProjectTransport]Rewind"
 msgstr "Retroceder"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Right Channel Average RMS (3 seconds integration)"
 msgstr "RMS Médio do Canal Direito (3 segundos de integração)"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel DC Offset"
+msgid "[LoudnessInfoTable]Right Channel DC Offset"
 msgstr "DC Offset do Canal Direito"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Peak"
-msgstr "Pico do Canal DIreito"
+msgid "[LoudnessInfoTable]Right Channel True Peak"
+msgstr "Pico Real Canal Direito"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Root"
@@ -4949,7 +5069,7 @@ msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited 
 msgstr "Executar o $APPNAMEFREE - a versão GRÁTIS com recursos limitados"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Sample Rate"
+msgid "[AudioSetup.Device]Sample Rate"
 msgstr "Amostragem"
 
 #: .\devices\transport.xml
@@ -4991,6 +5111,10 @@ msgstr "Saturação"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Save As Template"
 msgstr "Salvar Como Modelo"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Save As..."
+msgstr "Salvar como..."
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceDialog.Icon]Save Attachment"
@@ -5039,6 +5163,14 @@ msgstr "Pesquisa:"
 #: .\ccl\browser.xml
 msgid "[Command]SearchTag"
 msgstr "Tag de Pesquisa"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Segment Height"
+msgstr "Altura do Segmento"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Segments"
+msgstr "Segmentos"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Select"
@@ -5128,6 +5260,10 @@ msgstr "Selecionar Cor da Pista"
 msgid "[TrackControls]Select Track Color"
 msgstr "Selecionar Cor da Pista"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Select Track Color"
+msgstr "Selecionar Cor da Pista"
+
 #: .\engine\song.xml
 msgid "[InplaceOptions]Selection"
 msgstr "Seleção"
@@ -5176,6 +5312,14 @@ msgstr "Enviar ao Notion"
 msgid "[AudioSends]Sends"
 msgstr "Envios"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Sensitivity"
+msgstr "Sensibilidade"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Sensitivity"
+msgstr "Sensibilidade"
+
 #: .\devices\devices.xml
 msgid "[MidiMonitor]Sent"
 msgstr "Enviado"
@@ -5207,6 +5351,10 @@ msgstr "Configuração Geral"
 #: .\engine\songdialogs.xml
 msgid "[Command]Setup Meta Information"
 msgstr "Configuração de Meta-Informações"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Short-Term"
+msgstr "Curto Prazo"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Show"
@@ -5276,6 +5424,10 @@ msgstr "Exibir Efeitos de Instrumentos e Nota"
 msgid "[Command]Show Loops"
 msgstr "Exibir Loops"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Show Loudness Meter"
+msgstr "Exibir Medidor de Loudness"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Outputs"
 msgstr "Exibir Saídas"
@@ -5332,10 +5484,6 @@ msgstr "Exibir Miniaturas"
 msgid "[CloudBrowserHeader]Show Thumbnails"
 msgstr "Exibir Miniaturas"
 
-#: .\app\windowclasses.xml
-msgid "[Command]Show Trash Bin"
-msgstr "Exibir Lixeira"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show VCA connections"
 msgstr "Exibir Conexões VCA"
@@ -5364,10 +5512,6 @@ msgstr "Exibir Efeitos instalados"
 msgid "[AudioSynthBus.Channel]Show sub channels"
 msgstr "Mostrar sub-canais"
 
-#: .\ccl\webfsbrowser.xml
-msgid "[TransferManager]Show when new transfer starts"
-msgstr "Exibir quando uma nova transferência for iniciada"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr "Exibir/Esconder Marcador de Bend"
@@ -5380,6 +5524,10 @@ msgstr "Exibir/Esconder Efeitos de Evento"
 msgid "[FolderTrackControls]Show/Hide Tracks"
 msgstr "Exibir/Esconder Pistas"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]Show/hide Automation Lanes"
+msgstr "Mostrar/Esconder Linhas de Automação"
+
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Show/hide Loudness Information"
 msgstr "Exibir/Esconder Informações de Loudness"
@@ -5389,7 +5537,7 @@ msgid "[Project]Show/hide more"
 msgstr "Exibir/Esconder mais"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Show/hide more"
+msgid "[TrackControls]Show/hide more"
 msgstr "Exibir/Esconder mais"
 
 #: .\devices\audiofxeditor.xml
@@ -5400,9 +5548,17 @@ msgstr "Sidechain"
 msgid "[MusicBounceDialog]Skip Track"
 msgstr "Pular Pista"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Slope"
+msgstr "Declive"
+
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Small / Large"
 msgstr "Pequeno / Grande"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Smooth"
+msgstr "Suave"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Snap"
@@ -5628,6 +5784,10 @@ msgstr "Divisor"
 msgid "[SynthCombinatorRouting]Splitter"
 msgstr "Divisor"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Standard"
+msgstr "Padrão"
+
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Start"
 msgstr "Início"
@@ -5811,6 +5971,14 @@ msgstr "Exclusivos do Sistema"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]System Realtime"
 msgstr "Tempo Real do Sistema"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]TP"
+msgstr "TP"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]TP"
+msgstr "TP"
 
 #: .\ccl\browser.xml
 msgid "[TagPalette]Tag Palette"
@@ -6024,6 +6192,10 @@ msgstr "Para utilizar esta função, uma Conta $APPCOMPANY é necessária. Ative
 msgid "[HardwareStereoInputControls]Toggle L/R Channel"
 msgstr "Alternar Canal E/D"
 
+#: .\project\project.xml
+msgid "[Project]Toggle Track Height"
+msgstr "Alternar Altura da Pista"
+
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
 msgstr "Total"
@@ -6049,7 +6221,7 @@ msgid "[LayerAspectRow2]Track"
 msgstr "Pista"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track Length"
+msgid "[ProjectTrackControlsLength]Track Length"
 msgstr "Duração da Pìsta"
 
 #: .\app\windowclasses.xml
@@ -6080,16 +6252,12 @@ msgstr "Número da Pista"
 msgid "[TrackControlsMainContent]Track Number"
 msgstr "Número da Pista"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Track Numbers"
-msgstr "Números das Pistas"
-
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Track Time"
 msgstr "Tempo da Pista"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track is disabled"
+msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "Pista está desativada"
 
 #: .\app\windowclasses.xml
@@ -6112,7 +6280,7 @@ msgstr "Pistas"
 msgid "[SongUpdater]Tracks"
 msgstr "Pistas"
 
-#: .\app\windowclasses.xml .\ccl\webfsbrowser.xml
+#: .\app\windowclasses.xml
 msgid "[TransferManager]Transfers"
 msgstr "Transferências"
 
@@ -6168,18 +6336,6 @@ msgstr "Transposição"
 msgid "[MusicTrackInspector]Transpose"
 msgstr "Transposição"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]Trash"
-msgstr "Lixeira"
-
-#: .\app\toolbar.xml
-msgid "[HistoryPanel]Trash Bin"
-msgstr "Lixeira"
-
-#: .\devices\audiomixer.xml
-msgid "[DeviceTrashBin]Trash Bin"
-msgstr "Lixeira"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Triplet"
 msgstr "Tercina"
@@ -6187,6 +6343,10 @@ msgstr "Tercina"
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Triplet"
 msgstr "Tercina"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]True Peak"
+msgstr "Pico Real"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
@@ -6225,6 +6385,10 @@ msgid "[ProjectToolbar]Update"
 msgstr "Atualizar"
 
 #: .\project\project.xml
+msgid "[ProjectTrackInspector]Update Loudness"
+msgstr "Atualizar Loudness"
+
+#: .\project\project.xml
 msgid "[Command]Update Mastering Files"
 msgstr "Atualizar Arquivos de Masterização"
 
@@ -6256,10 +6420,6 @@ msgstr "Upgrade"
 msgid "[BurnerSelectDialog]Use Burnproof"
 msgstr "Usar Burnproof"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Use CPU Cores"
-msgstr "Núcleos de CPU Utilizados"
-
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Use MIDI Clock Start"
 msgstr "Utilizar Início de Clock MIDI"
@@ -6271,6 +6431,26 @@ msgstr "Utilizar cache para arquivos de áudio com timestretch"
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use dithering for playback and audio file export"
 msgstr "Utilizar dither para reprodução e exportação de arquivos de áudio"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
+msgstr "Utilizar monitoração nativa de baixa latência ao invés de monitoração por hardware"
+
+#: .\engine\audioexport.xml
+msgid "[AudioExport]Use realtime processing"
+msgstr "Utilizar processamento em tempo real"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Use realtime processing"
+msgstr "Utilizar processamento em tempo real"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use realtime processing"
+msgstr "Utilizar processamento em tempo real"
+
+#: .\project\audiofile.xml
+msgid "[ImageMaker]Use realtime processing"
+msgstr "Utilizar processamento em tempo real"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use realtime processing to update mastering files"
@@ -6457,20 +6637,12 @@ msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness
 msgstr "Com o Melodyne, você pode modificar afinação, tempo, volume e outras propriedades de notas únicas em seu material de áudio, desde uma leve correção de afinação até retrabalhos mais complexos."
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Write Tempo"
-msgstr "Incl. Tempo"
+msgid "[AudioExport]Write tempo to audio files"
+msgstr "Escrever andamento nos arquívos de áudio"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Write Tempo"
-msgstr "Incl. Tempo"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Write tempo information to exported audio files"
-msgstr "Escrever informações de andamento em arquivos de áudio exportados"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Write tempo information to exported audio files"
-msgstr "Escrever informações de andamento em arquivos de áudio exportados"
+msgid "[TrackExport]Write tempo to audio files"
+msgstr "Escrever andamento nos arquívos de áudio"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]X"
@@ -6516,29 +6688,13 @@ msgstr "Seu período de demonstração acabou. Esperamos que tenha gostado do $A
 msgid "[Setup]Zero Latency Monitoring"
 msgstr "Monitoração com Latência Zero"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioTrack.Channel]Zero Latency Monitoring"
-msgstr "Monitoração com Latência Zero"
-
-#: .\devices\audiochannel.xml
-msgid "[CueMixRackSlotView]Zero Latency Monitoring"
-msgstr "Monitoração com Latência Zero"
-
 #: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Left [dB]"
-msgstr "abs. Pico Esquerdo [dB]"
+msgid "[FixedEBUR128Display]dB"
+msgstr "dB"
 
-#: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Right [dB]"
-msgstr "abs. Pico Direito [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Left [dB]"
-msgstr "abs. RMS Esquerdo [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Right [dB]"
-msgstr "abs. RMS Direito [dB]"
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]dB"
+msgstr "dB"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]mix"
@@ -6559,6 +6715,324 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SpectrumMeterSettings]Seg."
+#~ msgstr "Seg."
+
+#~ msgid "[AudioSetup.Engine]Used CPU Cores"
+#~ msgstr "Núcleos de CPU utilizados"
+
+#~ msgid "[EnvelopeLane]X"
+#~ msgstr "X"
+
+#~ msgid "[LicenseServerLogin]$APPCOMPANY Login"
+#~ msgstr "Login $APPCOMPANY"
+
+#~ msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+#~ msgstr "O $APPNAME precisa de acesso à sua Conta $APPCOMPANY. Faça login abaixo com seu e-mail/nome de usuário e senha."
+
+#~ msgid "[AudioExport]Amount:"
+#~ msgstr "Duração"
+
+#~ msgid "[TrackExport]Amount:"
+#~ msgstr "Duração"
+
+#~ msgid "[ProjectTrackControlsContent]Artist"
+#~ msgstr "Artista"
+
+#~ msgid "[AudioFilePublisher]Artist Name"
+#~ msgstr "Nome do Artista"
+
+#~ msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+#~ msgstr "Artista(s) ou Intérprete(s)"
+
+#~ msgid "[AudioSetup]Audio Device "
+#~ msgstr "Dispositivo de Áudio"
+
+#~ msgid "[Analyser]Average"
+#~ msgstr "Média"
+
+#~ msgid "[Analyser]Averaging Speed"
+#~ msgstr "Velocidade Média"
+
+#~ msgid "[LicenseServerLogin]Back to Log in"
+#~ msgstr "Voltar ao Log In"
+
+#~ msgid "[AudioSetup]Bit Depth"
+#~ msgstr "Resolução"
+
+#~ msgid "[AudioExport]Bypass Master Effects"
+#~ msgstr "Ignorar Efeitos Master"
+
+#~ msgid "[ProgressDialogView]Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "[Analyser]Clip"
+#~ msgstr "Clip"
+
+#~ msgid "[AudioSetup]Control Panel"
+#~ msgstr "Painel de Controle"
+
+#~ msgid "[LicenseServerLogin]Country"
+#~ msgstr "País"
+
+#~ msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
+#~ msgstr "Criar Conta $APPCOMPANY"
+
+#~ msgid "[ProjectTrackInspector]DC L"
+#~ msgstr "DC L"
+
+#~ msgid "[ProjectTrackInspector]DC R"
+#~ msgstr "DC R"
+
+#~ msgid "[ProjectTrackInspector]DR"
+#~ msgstr "DR"
+
+#~ msgid "[ProjectTrackInspector]Detect Loudness"
+#~ msgstr "Detectar Loudness"
+
+#~ msgid "[Command]Detect Loudness"
+#~ msgstr "Detectar Loudness"
+
+#~ msgid "[AudioSetup]Device Block Size"
+#~ msgstr "Tamanho de Bloco do Dispositivo"
+
+#~ msgid "[Project]Disc"
+#~ msgstr "Disco"
+
+#~ msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
+#~ msgstr "Não possui uma Conta $APPCOMPANY ainda?"
+
+#~ msgid "[AudioExport]Duration:"
+#~ msgstr "Duração:"
+
+#~ msgid "[TrackExport]Duration:"
+#~ msgstr "Duração:"
+
+#~ msgid "[ProjectTrackInspector]Dynamic Range"
+#~ msgstr "Faixa Dinâmica"
+
+#~ msgid "[LicenseServerLogin]E-Mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "[LicenseServerLogin]E-Mail or username"
+#~ msgstr "E-Mail ou nome de usuário"
+
+#~ msgid "[ProjectTrackControlsContent]Edit Song"
+#~ msgstr "Editar Song"
+
+#~ msgid "[AudioSetup]Enable Multi-Processing"
+#~ msgstr "Ativar Multi-Processamento"
+
+#~ msgid "[LicenseServerLogin]First Name"
+#~ msgstr "Primeiro Nome"
+
+#~ msgid "[MusicTransformDialog]Fix Tail"
+#~ msgstr "Fixar Cauda"
+
+#~ msgid "[AudioTransformDialog]Fix Tail"
+#~ msgstr "Fixar Cauda"
+
+#~ msgid "[LicenseServerLogin]Forgot your password?"
+#~ msgstr "Esqueceu sua senha?"
+
+#~ msgid "[Analyser]Hold"
+#~ msgstr "Manter"
+
+#~ msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
+#~ msgstr "ITU-BS-1770 / R128 Loudness"
+
+#~ msgid "[AudioExport]Import to Track"
+#~ msgstr "Imp. p/Pista"
+
+#~ msgid "[TrackExport]Import to Track"
+#~ msgstr "Importar para nova Pista"
+
+#~ msgid "[AudioSetup]Input Latency"
+#~ msgstr "Latência - Entrada"
+
+#~ msgid "[AudioSetup]Internal Block Size"
+#~ msgstr "Tamanho de Bloco Interno"
+
+#~ msgid "[LicenseServerLogin]Last Name"
+#~ msgstr "Último Nome"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+#~ msgstr "RMS médio do Canal Esquerdo (integração de 3 segundos)"
+
+#~ msgid "[ProjectTrackInspector]Left Channel DC Offset"
+#~ msgstr "DC Offset do Canal Esquerdo"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Peak"
+#~ msgstr "Pico do Canal Esquerdo"
+
+#~ msgid "[ProjectTrackControlsContent]Length"
+#~ msgstr "Duração"
+
+#~ msgid "[AudioSetup]Lock"
+#~ msgstr "Bloquear"
+
+#~ msgid "[LicenseServerLogin]Login"
+#~ msgstr "Login"
+
+#~ msgid "[ProjectTrackControlsContent]Mastering File Status"
+#~ msgstr "Estado do Arquivo de Masterização"
+
+#~ msgid "[AudioFilePublisher]Naming:"
+#~ msgstr "Nomeclatura:"
+
+#~ msgid "[AudioSetup]Output Latency"
+#~ msgstr "Latência - Saída"
+
+#~ msgid "[AudioExport]Output:"
+#~ msgstr "Saída:"
+
+#~ msgid "[LicenseServerLogin]Password"
+#~ msgstr "Senha"
+
+#~ msgid "[ProjectTrackControlsContent]Pause"
+#~ msgstr "Pausa"
+
+#~ msgid "[Analyser]Peak Hold Speed"
+#~ msgstr "Velocidade da Manutenção de Picos"
+
+#~ msgid "[Analyser]Peak Left [dB]"
+#~ msgstr "Pico Esquerdo (dB)"
+
+#~ msgid "[Analyser]Peak Right [dB]"
+#~ msgstr "Pico Direito (dB)"
+
+#~ msgid "[ProjectTrackInspector]Pk L"
+#~ msgstr "Pk L"
+
+#~ msgid "[ProjectTrackInspector]Pk R"
+#~ msgstr "Pk R"
+
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgstr "Insira seus dados de contato para inscrever-se agora. Você receberá um E-mail com um link para ativar sua conta."
+
+#~ msgid "[ProgressDialogView]Please wait..."
+#~ msgstr "Aguarde por favor..."
+
+#~ msgid "[TrackExport]Preserve Mono Tracks"
+#~ msgstr "Manter Pistas Mono"
+
+#~ msgid "[AudioSetup]Process Precision"
+#~ msgstr "Processamento"
+
+#~ msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
+#~ msgstr "Processar áudio em modo seguro (maior latência)"
+
+#~ msgid "[AudioFilePublisher]Processing:"
+#~ msgstr "Processando:"
+
+#~ msgid "[ProjectTrackInspector]R128"
+#~ msgstr "R128"
+
+#~ msgid "[ProjectTrackInspector]RMS L"
+#~ msgstr "RMS L"
+
+#~ msgid "[Analyser]RMS Left [dB]"
+#~ msgstr "RMS Esquerdo (dB)"
+
+#~ msgid "[ProjectTrackInspector]RMS R"
+#~ msgstr "RMS R"
+
+#~ msgid "[Analyser]RMS Right [dB]"
+#~ msgstr "RMS Direito (dB)"
+
+#~ msgid "[AudioExport]Realtime Processing"
+#~ msgstr "Processamento em Tempo Real"
+
+#~ msgid "[TrackExport]Realtime Processing"
+#~ msgstr "Processamento em Tempo Real"
+
+#~ msgid "[AudioFilePublisher]Realtime Processing"
+#~ msgstr "Processamento em Tempo Real"
+
+#~ msgid "[ImageMaker]Realtime Processing"
+#~ msgstr "Processamento em Tempo Real"
+
+#~ msgid "[AudioEngineOption]Release audio device in background"
+#~ msgstr "Liberar dispositivo de áudio em segundo plano"
+
+#~ msgid "[LicenseServerLogin]Remember my credentials"
+#~ msgstr "Lembrar das minhas credenciais"
+
+#~ msgid "[LicenseServerLogin]Repeat Password"
+#~ msgstr "Repetir Senha"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+#~ msgstr "RMS Médio do Canal Direito (3 segundos de integração)"
+
+#~ msgid "[ProjectTrackInspector]Right Channel DC Offset"
+#~ msgstr "DC Offset do Canal Direito"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Peak"
+#~ msgstr "Pico do Canal DIreito"
+
+#~ msgid "[AudioSetup]Sample Rate"
+#~ msgstr "Amostragem"
+
+#~ msgid "[Command]Show Trash Bin"
+#~ msgstr "Exibir Lixeira"
+
+#~ msgid "[TransferManager]Show when new transfer starts"
+#~ msgstr "Exibir quando uma nova transferência for iniciada"
+
+#~ msgid "[ProjectTrackControlsContent]Show/hide more"
+#~ msgstr "Exibir/Esconder mais"
+
+#~ msgid "[ProjectTrackControlsContent]Track Length"
+#~ msgstr "Duração da Pìsta"
+
+#~ msgid "[AudioFilePublisher]Track Numbers"
+#~ msgstr "Números das Pistas"
+
+#~ msgid "[ProjectTrackControlsContent]Track is disabled"
+#~ msgstr "Pista está desativada"
+
+#~ msgid "[MixerManager]Trash"
+#~ msgstr "Lixeira"
+
+#~ msgid "[HistoryPanel]Trash Bin"
+#~ msgstr "Lixeira"
+
+#~ msgid "[DeviceTrashBin]Trash Bin"
+#~ msgstr "Lixeira"
+
+#~ msgid "[AudioSetup]Use CPU Cores"
+#~ msgstr "Núcleos de CPU Utilizados"
+
+#~ msgid "[AudioExport]Write Tempo"
+#~ msgstr "Incl. Tempo"
+
+#~ msgid "[TrackExport]Write Tempo"
+#~ msgstr "Incl. Tempo"
+
+#~ msgid "[AudioExport]Write tempo information to exported audio files"
+#~ msgstr "Escrever informações de andamento em arquivos de áudio exportados"
+
+#~ msgid "[TrackExport]Write tempo information to exported audio files"
+#~ msgstr "Escrever informações de andamento em arquivos de áudio exportados"
+
+#~ msgid "[AudioTrack.Channel]Zero Latency Monitoring"
+#~ msgstr "Monitoração com Latência Zero"
+
+#~ msgid "[CueMixRackSlotView]Zero Latency Monitoring"
+#~ msgstr "Monitoração com Latência Zero"
+
+#~ msgid "[Analyser]abs. Peak Left [dB]"
+#~ msgstr "abs. Pico Esquerdo [dB]"
+
+#~ msgid "[Analyser]abs. Peak Right [dB]"
+#~ msgstr "abs. Pico Direito [dB]"
+
+#~ msgid "[Analyser]abs. RMS Left [dB]"
+#~ msgstr "abs. RMS Esquerdo [dB]"
+
+#~ msgid "[Analyser]abs. RMS Right [dB]"
+#~ msgstr "abs. RMS Direito [dB]"
 
 #~ msgid "[Command]Audio Devices"
 #~ msgstr "Dispositivos de Áudio"

@@ -16,6 +16,10 @@ msgstr "（不明なタイトル）"
 msgid "[BurnerDialog]A blank CD is found and you can start to burn"
 msgstr "空のCDが見つかりました。書き込みを開始できます。"
 
+#: .\editing\projectdraghandler.cpp
+msgid "[ProjectEditHandler]Add Event to Track"
+msgstr "イベントをトラックに追加"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Add Marker"
 msgstr "マーカーを追加"
@@ -31,6 +35,10 @@ msgstr "編曲者"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Artist / Performer"
 msgstr "アーティスト/演奏者"
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Bounce Track"
+msgstr "トラックをバウンス"
 
 #: .\publish\projectburner.cpp
 msgid "[Command]Burn Audio CD"
@@ -56,6 +64,18 @@ msgstr "CDタイトル"
 msgid "[ProjectFunctions]Colorize Track"
 msgstr "トラックに色を付ける"
 
+#: .\base\projectfunctions.cpp
+msgid "[ProjectFunctions]Combine Tracks"
+msgstr "トラックを結合"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Combine Tracks"
+msgstr "トラックを結合"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Combine with next Track"
+msgstr "次のトラックと結合"
+
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Comment"
 msgstr "コメント"
@@ -63,6 +83,10 @@ msgstr "コメント"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Composer"
 msgstr "作曲者"
+
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Copy Metadata to all Tracks"
+msgstr "メタデータをすべてのトラックにコピー"
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher]Could not create audio files."
@@ -104,6 +128,10 @@ msgstr "トラックを無効化"
 msgid "[ProjectFunctions]Disable Tracks"
 msgstr "トラックを無効化"
 
+#: .\editing\projecttrackcomponent.cpp
+msgid "[ProjectTrack]Do you want to apply incrementing ISRC codes for all tracks?"
+msgstr "昇順のISRCコードをすべてのトラックに適用しますか？"
+
 #: .\publish\ddpimagemaker.cpp
 msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
 msgstr "DDPイメージを作成しますか？\n\nイメージ: %(1)\nロケーション: %(2)"
@@ -114,6 +142,10 @@ msgstr "EAN/UPC"
 
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Edit Song"
+msgstr "ソングを編集"
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Edit Song"
 msgstr "ソングを編集"
 
 #: .\base\projectfunctions.cpp
@@ -148,6 +180,10 @@ msgstr "ジェネレーター"
 msgid "[AudioDiscPublisher]ISRC"
 msgstr "ISRC"
 
+#: .\publish\ddpdocumenthandler.cpp
+msgid "[DDP]Import DDP"
+msgstr "DDPをインポート"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Import File"
 msgstr "ファイルをインポート"
@@ -175,6 +211,14 @@ msgstr "挿入"
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Length"
 msgstr "時間"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)"
+msgstr "長さ: %(1)"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Length: %(1)  Pause: %(2)"
+msgstr "長さ: %(1)  一時停止: %(2)"
 
 #: .\project\projectcomponent.cpp
 msgid "[Command]Locate Missing Devices"
@@ -204,9 +248,41 @@ msgstr "ミックスダウンスピード: %float(1:1)"
 msgid "[ProjectFunctions]Modify Attribute"
 msgstr "属性を変更"
 
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker"
+msgstr "エンドマーカーを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move End Marker only"
+msgstr "エンドマーカーのみを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Resize Track"
+msgstr "イベントを移動してトラックのサイズを変更"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event and Track Start"
+msgstr "イベントとトラックスタートを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Event only"
+msgstr "イベントのみを移動"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Move Marker"
 msgstr "マーカーを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker"
+msgstr "スタートマーカーを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start Marker only"
+msgstr "スタートマーカーのみを移動"
+
+#: .\editing\projectedithandler.cpp
+msgid "[ProjectEditHandler]Move Start and End Marker"
+msgstr "スタートマーカーとエンドマーカーを移動"
 
 #: .\base\projectfunctions.cpp
 msgid "[ActionDescriptions]Move Track"
@@ -252,14 +328,14 @@ msgstr "プール"
 msgid "[AudioDiscPublisher]Preparing..."
 msgstr "準備しています..."
 
-#: .\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Project"
+#: .\editing\projecteditcomponent.cpp .\project\projectcomponent.cpp
+#: .\publish\audiofilepublisher.cpp .\publish\ddpimagemaker.cpp
+#: .\publish\imagemaker.cpp .\publish\projectburner.cpp
+msgid "[Command]Project"
 msgstr "プロジェクト"
 
-#: .\project\projectcomponent.cpp .\publish\audiofilepublisher.cpp
-#: .\publish\ddpimagemaker.cpp .\publish\imagemaker.cpp
-#: .\publish\projectburner.cpp
-msgid "[Command]Project"
+#: .\editing\projectedittasks.cpp
+msgid "[ProjectEdit]Project"
 msgstr "プロジェクト"
 
 #: .\project\projectdocument.cpp
@@ -295,8 +371,12 @@ msgid "[ProjectFunctions]Replace File"
 msgstr "ファイルを置換"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Reset Marker"
-msgstr "マーカーをリセット"
+msgid "[Project]Reset Pause"
+msgstr "一時停止をリセット"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Reset Track Markers to Content"
+msgstr "トラックマーカーをコンテンツにリセット"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Resize Track"
@@ -309,6 +389,14 @@ msgstr "トラックの一時停止を設定"
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "トラックを分割"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Command]Split Track"
+msgstr "トラックを分割"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "トラックをカーソルで分割"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Edit]Split at Cursor"
@@ -362,6 +450,10 @@ msgstr "合計再生時間"
 msgid "[ProjectMarker]Track %(1)"
 msgstr "Track %(1)"
 
+#: .\publish\audiodiscpublisher.cpp
+msgid "[AudioDiscPublisher]Track %(1)"
+msgstr "Track %(1)"
+
 #: .\project\projectdocumentinfo.cpp
 msgid "[ProjectInfo]Tracks"
 msgstr "トラック"
@@ -372,6 +464,10 @@ msgstr "トラック"
 
 #: .\editing\projecttrackcomponent.cpp
 msgid "[ProjectTrack]Update Mastering File"
+msgstr "マスタリングファイルを更新"
+
+#: .\project\projectpoolbrowser.cpp
+msgid "[Project]Update Mastering File"
 msgstr "マスタリングファイルを更新"
 
 #: .\project\projectcomponent.cpp
@@ -389,4 +485,7 @@ msgstr "更新はキャンセルされました。"
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(3) のマスタリングファイル %(2) つのうち %(1) つを更新しました。"
+
+#~ msgid "[Project]Reset Marker"
+#~ msgstr "マーカーをリセット"
 

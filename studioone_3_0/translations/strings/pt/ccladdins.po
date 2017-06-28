@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\extensions\contentinstaller.cpp
-msgid "[Installer]$APPCOMPANY Account"
-msgstr "Conta $APPCOMPANY"
-
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
 msgstr "%(1) Extensões instaladas."
@@ -131,6 +127,10 @@ msgstr "Extensões"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "Falhou!"
+
+#: .\webfs\transfermanagerui.cpp
+msgid "[TransferManager]Files are being transferred in background."
+msgstr "Arquivos estão sendo transferidos em segundo plano."
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Full Installation"
@@ -311,6 +311,9 @@ msgstr "Você precisa de uma nova versão do $APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "Sua versão está atualizada."
+
+#~ msgid "[Installer]$APPCOMPANY Account"
+#~ msgstr "Conta $APPCOMPANY"
 
 #~ msgid "[TransferManager]KB/sec"
 #~ msgstr "KB/seg"

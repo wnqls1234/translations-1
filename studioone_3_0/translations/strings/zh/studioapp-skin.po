@@ -17,10 +17,6 @@ msgid "[UserLicenseExpired]$APPCOMPANY Forum"
 msgstr "$APPCOMPANY Forum"
 
 #: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPCOMPANY Login"
-msgstr "$APPCOMPANY 登陆"
-
-#: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Shop"
 msgstr "$APPCOMPANY 商店"
 
@@ -83,10 +79,6 @@ msgstr "$APPNAME网站"
 #: .\ccl\contentinstaller.xml
 msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
 msgstr "$APPNAME 带有附加内容，包括loops、采样和第三方插件。请在下列选项中选择您想安装的程序包。"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "$APPNAME 需要登陆您的 $APP公司 账号。请填写您的电子邮件/用户名。"
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
@@ -236,6 +228,14 @@ msgstr "-"
 msgid "[VideoOffset]-"
 msgstr "-"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]-10 dBV"
+msgstr "-10 dBV"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]-10 dBV"
+msgstr "-10 dBV"
+
 #: .\app\homepage.xml
 msgid "[ArtistProfile]..."
 msgstr "..."
@@ -374,6 +374,10 @@ msgstr "11"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]12"
+msgstr "12"
+
+#: .\project\analyser.xml
+msgid "[Analyser]12th"
 msgstr "12"
 
 #: .\devices\musicdevices.xml
@@ -640,6 +644,10 @@ msgstr "@cmd.title[]"
 msgid "[AudioBendPanel.MarkerPart]@cmd.title[]"
 msgstr "@cmd.title[]"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]@cmd.title[]"
+msgstr "@cmd.title[]"
+
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow2]@cmd.title[]"
 msgstr "@cmd.title[]"
@@ -820,6 +828,10 @@ msgstr "激活"
 msgid "[AutomationAspectFirstRow]Activate"
 msgstr "激活"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Activate"
+msgstr "激活"
+
 #: .\app\licenser.xml
 msgid "[ActivationMode.Free]Activate $APPNAMEFREE"
 msgstr "激活 $APPNAMEFREE"
@@ -887,6 +899,10 @@ msgstr "添加 (立体声)"
 #: .\engine\editor.xml
 msgid "[EnvelopeLane]Add / Remove..."
 msgstr "添加/移除..."
+
+#: .\engine\editor.xml
+msgid "[Command]Add Automation Lane"
+msgstr "添加自动化滑槽"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]Add Automation Track"
@@ -960,6 +976,14 @@ msgstr "添加音轨 @cmd[]"
 msgid "[RecordPanel.Horizontal]Add a layer for every new take"
 msgstr "为每个新选择添加一个分层"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add artist to file name"
+msgstr "添加艺术家至文件名"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Add track numbers to file name"
+msgstr "添加音频数量至文件名"
+
 #: .\app\options.xml
 msgid "[SoundSetOption]Add..."
 msgstr "添加..."
@@ -982,6 +1006,10 @@ msgstr "唱片"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Info]Album"
+msgstr "唱片"
+
+#: .\project\project.xml
+msgid "[Project]Album"
 msgstr "唱片"
 
 #: .\app\windowclasses.xml
@@ -1023,14 +1051,6 @@ msgstr "全部"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]All Notes Off"
 msgstr "关闭所有备注"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Amount:"
-msgstr "数量："
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Amount:"
-msgstr "数量："
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Analyze"
@@ -1093,19 +1113,19 @@ msgid "[Project]Artist"
 msgstr "作者"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist"
+msgid "[DetailedInfoTable]Artist"
 msgstr "作者"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Artist Name"
-msgstr "作者姓名"
 
 #: .\project\project.xml
 msgid "[Project]Artist(s) or Performer(s)"
 msgstr "作者或演奏者"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+msgid "[ProjectTrackControlsContentMedium]Artist(s) or Performer(s)"
+msgstr "作者或演奏者"
+
+#: .\project\project.xml
+msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "作者或演奏者"
 
 #: .\engine\songdialogs.xml
@@ -1153,7 +1173,7 @@ msgid "[Command]Audio Device"
 msgstr "音频设备 "
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Audio Device "
+msgid "[AudioSetup.Device]Audio Device"
 msgstr "音频设备 "
 
 #: .\engine\eventinspector.xml
@@ -1171,6 +1191,10 @@ msgstr "音频输入遵循选项的设置"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Audio Input follows Selection"
 msgstr "音频输入遵循选项的设置"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Audio Roundtrip"
+msgstr "音频往返"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Audio Tracks"
@@ -1248,6 +1272,10 @@ msgstr "自动控制"
 msgid "[AutomationTrackDialog]Automation"
 msgstr "自动控制"
 
+#: .\engine\editor.xml
+msgid "[Command]Automation"
+msgstr "自动控制"
+
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Automation"
 msgstr "自动控制"
@@ -1297,12 +1325,12 @@ msgid "[InplaceOptions]Automation follows events"
 msgstr "自动跟踪事件"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Average"
-msgstr "平均"
+msgid "[SpectrumMeterSettings]Averaging Speed"
+msgstr "平均速率"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Averaging Speed"
-msgstr "平均速率"
+msgid "[SpectrumMeterSettings]Avg."
+msgstr "平均值"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]B"
@@ -1315,10 +1343,6 @@ msgstr "返回"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Back to Activation"
 msgstr "回到激活页面"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Back to Log in"
-msgstr "回到登陆页面"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Main]Background"
@@ -1381,7 +1405,7 @@ msgid "[TrackExport]Between Song Start/End Marker"
 msgstr "乐曲开始/结束标记之间"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Bit Depth"
+msgid "[AudioSetup.Device]Bit Depth"
 msgstr "位率"
 
 #: .\engine\musicdialogs.xml
@@ -1473,7 +1497,7 @@ msgid "[SlotNodeEditHeader]Bypass (automatable)"
 msgstr "直通 (自动)"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Bypass Master Effects"
+msgid "[AudioExport]Bypass master effects"
 msgstr "直通总线效果器"
 
 #: .\engine\quantize.xml
@@ -1483,6 +1507,14 @@ msgstr "C"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]CC Automation Interval"
 msgstr "CC 自动化隔离"
+
+#: .\app\windowclasses.xml
+msgid "[ProjectCDProtocol]CD Protocol"
+msgstr "CD协议"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]CD Protocol"
+msgstr "CD协议"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Meters]CPU"
@@ -1510,10 +1542,6 @@ msgstr "取消"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Cancel"
-msgstr "取消"
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Cancel"
 msgstr "取消"
 
 #: .\engine\mediapool.xml
@@ -1701,7 +1729,7 @@ msgid "[InputLevelsContent]Clip"
 msgstr "剪贴"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Clip"
+msgid "[HoldValues]Clip"
 msgstr "剪贴"
 
 #: .\devices\audiochannel.narrow.xml
@@ -1844,6 +1872,10 @@ msgstr "注释"
 msgid "[DetailedInfoTable]Comment"
 msgstr "评论"
 
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Compact View"
+msgstr "紧凑视图"
+
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Compare"
 msgstr "对照"
@@ -1889,7 +1921,7 @@ msgid "[ParamMapper.MappingPart]Control"
 msgstr "控制"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Control Panel"
+msgid "[AudioSetup.Device]Control Panel"
 msgstr "控制面板"
 
 #: .\devices\musicdevices.xml
@@ -1940,14 +1972,6 @@ msgstr "版权"
 msgid "[Analyser]Corr"
 msgstr "更正"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Country"
-msgstr "国家"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
-msgstr "创建 $APPCOMPANY 账户"
-
 #: .\app\homepage.xml
 msgid "[HomePage]Create a new Project"
 msgstr "新建项目"
@@ -1996,6 +2020,10 @@ msgstr "混合包络声像: @value[]"
 msgid "[InplaceOptions]Cursor follows Edit Position"
 msgstr "光标遵循编辑位置"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Curve"
+msgstr "曲线"
+
 #: .\app\options.xml
 msgid "[MusicOption]Cut long notes at part end"
 msgstr "切长音部分结尾"
@@ -2005,20 +2033,12 @@ msgid "[QuantizeSetup.PresetPart]D"
 msgstr "D"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]DC L"
-msgstr "DC L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DC R"
-msgstr "DC R"
+msgid "[LoudnessInfoTable]DC"
+msgstr "DC"
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]DDP"
 msgstr "DDP"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]DR"
-msgstr "DR"
 
 #: .\app\shared.xml
 msgid "[TimeScrollBar+Zoom]Data Zoom"
@@ -2108,14 +2128,6 @@ msgstr "分离"
 msgid "[LicenseZone]Details..."
 msgstr "详细资料..."
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Detect Loudness"
-msgstr "检测响度"
-
-#: .\project\project.xml
-msgid "[Command]Detect Loudness"
-msgstr "检测响度"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Detection"
 msgstr "检测"
@@ -2145,7 +2157,7 @@ msgid "[BurnerSelectDialog]Device"
 msgstr "设备"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Device Block Size"
+msgid "[AudioSetup.Device]Device Block Size"
 msgstr "设备区块大小"
 
 #: .\devices\musicdevices.xml
@@ -2204,10 +2216,6 @@ msgstr "自动控制包络下禁止事件"
 msgid "[PerformanceMonitor.Meters]Disc"
 msgstr "磁盘"
 
-#: .\project\project.xml
-msgid "[Project]Disc"
-msgstr "磁盘"
-
 #: .\devices\transport.xml
 msgid "[TransportPanel.PerformancePart]Disc Overload"
 msgstr "磁盘过载"
@@ -2227,10 +2235,6 @@ msgstr "显示偏移"
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
 msgstr "是否要安装此分机?"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
-msgstr " 尚未拥有一个$APPCOMPANY 账户?"
 
 #: .\app\options.xml
 msgid "[EditingOption]Don&apos;t show event names"
@@ -2304,6 +2308,14 @@ msgstr "将文件拖拽至此，选择附加声音"
 msgid "[EditingOption]Draw events translucent (grid shines through)"
 msgstr "绘制透明事件 (透过栅格)"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Dropout Protection"
+msgstr "退出保护"
+
+#: .\devices\transport.xml
+msgid "[PerformanceMonitor]Dropout Protection"
+msgstr "退出保护"
+
 #: .\engine\inspector.xml
 msgid "[ArrangerTrackInspector]Duplicate"
 msgstr "副本"
@@ -2317,28 +2329,16 @@ msgid "[LayerAspectRow1]Duplicate Layer"
 msgstr "布局副本"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Duration:"
-msgstr "时值:"
+msgid "[AudioExport]Duration"
+msgstr "持续"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Duration:"
-msgstr "时值:"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Dynamic Range"
-msgstr "动态范围"
+msgid "[TrackExport]Duration"
+msgstr "持续"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]E"
 msgstr "E"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail"
-msgstr "电子邮件"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]E-Mail or username"
-msgstr "电子邮件或用户名"
 
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN"
@@ -2347,6 +2347,22 @@ msgstr "EAN"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]EAN/UPC code"
 msgstr "EAN/UPC编码"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]EBU"
+msgstr "EBU"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18"
+msgstr "EBU +18"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]EBU +18 Metering"
+msgstr "EBU +18 计量"
+
+#: .\project\analyser.xml
+msgid "[Analyser]EBU R128"
+msgstr "EBU R128"
 
 #: .\app\windowclasses.xml .\engine\inspector.xml
 msgid "[Command]Edit"
@@ -2387,10 +2403,6 @@ msgstr "编辑音色名称"
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Edit Remote Bank"
 msgstr "编辑远程库"
-
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Edit Song"
-msgstr "编辑乐曲"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceSetup]Edit..."
@@ -2444,17 +2456,41 @@ msgstr "启动 &apos;播放重叠部分&apos;为新音轨"
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "启动 &apos;播放重叠部分&apos;为新音轨"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
+msgstr "启用硬件监听"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Hardware Monitoring"
+msgstr "启用硬件监听"
+
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
 msgstr "启动高DPI模式"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Enable Multi-Processing"
-msgstr "开启多线程处理"
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Enable Low Latency Monitoring"
+msgstr "启用低延迟监听"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Enable Low Latency Monitoring"
+msgstr "启用低延迟监听"
+
+#: .\devices\audiofxeditor.xml
+msgid "[FXEditorHeaderRow1]Enable Low Latency Monitoring"
+msgstr "启用低延迟监听"
+
+#: .\devices\synthrack.xml
+msgid "[SynthRack]Enable Low Latency Monitoring"
+msgstr "启用低延迟监听"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Enable Program"
 msgstr "开启程序"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable Smoothing"
+msgstr "启用平滑"
 
 #: .\app\options.xml
 msgid "[EditingOption]Enable crosshair cursor for tools"
@@ -2463,6 +2499,14 @@ msgstr "开启十字光标"
 #: .\engine\song.xml
 msgid "[InplaceOptions]Enable crosshair cursor for tools"
 msgstr "开启十字光标"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Enable low latency monitoring for instruments"
+msgstr "启用乐器低延迟监听"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
+msgstr "启用斜率补偿 (+3dB/oct. 粉噪音)"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2712,17 +2756,13 @@ msgstr "文件"
 msgid "[MusicDeviceOptions]Filter"
 msgstr "过滤器"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]First Name"
-msgstr "名字"
-
 #: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Fix Tail"
-msgstr "尾部"
+msgid "[MusicTransformDialog]Fixed Tail"
+msgstr "固定追踪"
 
 #: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Fix Tail"
-msgstr "尾部"
+msgid "[AudioTransformDialog]Fixed Tail"
+msgstr "固定追踪"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SurfaceMapping]Focus Device"
@@ -2747,10 +2787,6 @@ msgstr "跟随量化"
 #: .\app\about.xml
 msgid "[AboutApplication]Fonts"
 msgstr "字体"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Forgot your password?"
-msgstr "忘记密码了吗？"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
@@ -2779,6 +2815,10 @@ msgstr "ruler和主时间显示的格式"
 #: .\engine\songdialogs.xml
 msgid "[SongSetup]Frame Rate"
 msgstr "帧率"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Freeze"
+msgstr "冻结"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Frequency Split"
@@ -2904,6 +2944,14 @@ msgstr "分组"
 msgid "[AudioBendPanel.TrackPart]Guides"
 msgstr "指南"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Hardware Monitoring Available"
+msgstr "硬件监听可用"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Height"
+msgstr "高度"
+
 #: .\app\about.xml .\app\homepage.xml .\app\toolbar.xml
 msgid "[Command]Help"
 msgstr "帮助"
@@ -2917,7 +2965,7 @@ msgid "[Command]History"
 msgstr "历史"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Hold"
+msgid "[SpectrumMeterSettings]Hold"
 msgstr "控制"
 
 #: .\app\homepage.xml
@@ -2948,13 +2996,17 @@ msgstr "我保证会小心 !"
 msgid "[MixerManager]I/O"
 msgstr "输入/输出"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]INT"
+msgstr "INT"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]INT"
+msgstr "INT"
+
 #: .\project\project.xml
 msgid "[DetailedInfoTable]ISRC"
 msgstr "ISRC"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
-msgstr "ITU-BS-1770 / R128 Loudness"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
@@ -2985,12 +3037,16 @@ msgid "[VideoPlayer]Import Video"
 msgstr "导入视频"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Import to Track"
+msgid "[AudioExport]Import to track"
 msgstr "导入到音轨"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Import to Track"
+msgid "[TrackExport]Import to track"
 msgstr "导入到音轨"
+
+#: .\project\project.xml
+msgid "[NewProject]Import tracks from DDP Image"
+msgstr "从DDP图像中导入音频"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]In"
@@ -3033,7 +3089,7 @@ msgid "[NewSong]Initial time signature of song"
 msgstr "乐曲原始时间信号"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Input Latency"
+msgid "[AudioSetup.Device]Input Latency"
 msgstr "输入延时"
 
 #: .\devices\musicfxeditor.xml
@@ -3134,6 +3190,10 @@ msgstr "后台安装。您可以选择跳过此步骤并在未来任意时间从
 
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Instr."
+msgstr "乐器"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Instrument"
 msgstr "乐器"
 
 #: .\engine\editor.xml
@@ -3256,13 +3316,17 @@ msgstr "乐器"
 msgid "[SynthRack]Instruments"
 msgstr "乐器"
 
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Integrated (EBU R128)"
+msgstr "整合 (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Integrated (EBU R128)"
+msgstr "整合 (EBU R128)"
+
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
 msgstr "接口"
-
-#: .\devices\devices.xml
-msgid "[AudioSetup]Internal Block Size"
-msgstr "内部区块大小"
 
 #: .\devices\devices.xml
 msgid "[MacroTargetCurve]Invert X"
@@ -3316,13 +3380,37 @@ msgstr "键盘映射方案"
 msgid "[TransportPanel.LoopPart]L"
 msgstr "L"
 
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]L"
+msgstr "L"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LRA"
+msgstr "LRA"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LRA"
+msgstr "LRA"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LU"
+msgstr "LU"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LU"
+msgstr "LU"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]LUFS"
+msgstr "LUFS"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]LUFS"
+msgstr "LUFS"
+
 #: .\ccl\common.xml
 msgid "[LocaleOption]Language"
 msgstr "语言"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Last Name"
-msgstr "姓"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Launch Notion"
@@ -3353,16 +3441,16 @@ msgid "[MusicTrackInspector]Layers follow events"
 msgstr "分层遵循事件"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Left Channel Average RMS (3 seconds integration)"
 msgstr "左轨道平均输出功率（3秒集成）"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel DC Offset"
+msgid "[LoudnessInfoTable]Left Channel DC Offset"
 msgstr "左轨道DC抵消"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Left Channel Peak"
-msgstr "左轨道峰值"
+msgid "[LoudnessInfoTable]Left Channel True Peak"
+msgstr "左音轨实际峰值"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Length"
@@ -3372,13 +3460,17 @@ msgstr "长度"
 msgid "[NoteEventProperties]Length"
 msgstr "长度"
 
-#: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Length"
-msgstr "长度"
-
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Level"
 msgstr "电平"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Max"
+msgstr "离开 Max"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Level Min"
+msgstr "离开 Min"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Levels"
@@ -3464,10 +3556,6 @@ msgstr "位置"
 msgid "[SoundSetOption]Locations"
 msgstr "位置"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Lock"
-msgstr "锁定"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Lock Active Scene"
 msgstr "锁定有效场景"
@@ -3479,10 +3567,6 @@ msgstr "锁定有效场景"
 #: .\devices\audiochannel.xml
 msgid "[CueMixRackSlotView]Lock level and pan to channel"
 msgstr "锁定通道的电平和声像"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Login"
-msgstr "登陆"
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[AudioPreviewPlayer]Loop"
@@ -3511,6 +3595,30 @@ msgstr "Loops"
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Loudness Information"
 msgstr "音量信息"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Loudness Range (EBU R128)"
+msgstr "响度范围 (EBU R128)"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]Loudness Range (EBU R128)"
+msgstr "响度范围 (EBU R128)"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency"
+msgstr "低延迟"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Low Latency Instrument Monitoring Active"
+msgstr "启用低延迟乐器监听"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioTrack.Channel]Low Latency Monitoring Enabled"
+msgstr "低延迟监听可用"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioSynth.Channel]Low Latency Monitoring Enabled"
+msgstr "低延迟监听可用"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Luminance"
@@ -3564,6 +3672,10 @@ msgstr "宏观控制地图"
 msgid "[SynthCombinatorPageSelector]Macro Controls Mapping"
 msgstr "宏观控制地图"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Magnitude Range"
+msgstr "量值范围"
+
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Make Default"
 msgstr "设为默认"
@@ -3571,6 +3683,10 @@ msgstr "设为默认"
 #: .\project\audiofile.xml
 msgid "[ImageMaker]Make Image"
 msgstr "创建图像"
+
+#: .\engine\editor.xml
+msgid "[Command]Manage Parameters"
+msgstr "参数管理"
 
 #: .\ccl\browser.xml
 msgid "[PlugInBrowserHeader]Manage Plug-Ins"
@@ -3605,8 +3721,8 @@ msgid "[TransportPanel.MasterPart]Master Volume"
 msgstr "主线音量"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Mastering File Status"
-msgstr "主线文件状态"
+msgid "[ProjectTrackIcon]Mastering File Status / Edit Song"
+msgstr "母带文件状态 / 编辑歌曲"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Material"
@@ -3635,6 +3751,10 @@ msgstr "媒体池"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Merge"
 msgstr "合并"
+
+#: .\app\notion.xml
+msgid "[SendToNotionInner]Merge into open document"
+msgstr "融合至打开的文件"
 
 #: .\app\startup.xml
 msgid "[MessageWindow]Messages"
@@ -3716,6 +3836,10 @@ msgstr "模式"
 msgid "[PresetFileInfo]Modified:"
 msgstr "修改:"
 
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Momentary"
+msgstr "瞬间"
+
 #: .\app\shared.xml
 msgid "[TCMutablePlainButton]Monitor"
 msgstr "监视器"
@@ -3727,6 +3851,10 @@ msgstr "监视器"
 #: .\devices\audiochannel.small.xml
 msgid "[Audio.Channel.Basics.Content]Monitor"
 msgstr "监视器"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Monitoring Latencies"
+msgstr "监听潜伏"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Monitoring follows record"
@@ -3800,13 +3928,13 @@ msgstr "输出哑音"
 msgid "[ExtensionManager.FilterTabs]My Extensions"
 msgstr "我的扩展"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Naming:"
-msgstr "命名:"
-
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Narrow / Normal"
 msgstr "窄/正常"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Native Low Latency Monitoring Available"
+msgstr "自带低延迟监听可用"
 
 #: .\app\windowclasses.xml .\ccl\navigator.xml
 msgid "[Navigator]Navigator"
@@ -3996,6 +4124,10 @@ msgstr "打开"
 msgid "[Song]Open Arrangertrack"
 msgstr "打开编曲跟踪"
 
+#: .\app\windowclasses.xml
+msgid "[Command]Open CD Protocol"
+msgstr "打开CD槽"
+
 #: .\devices\transport.xml
 msgid "[TransportPanel.MidiActivityPart]Open MIDI Monitor"
 msgstr "打开MIDI监视器"
@@ -4076,13 +4208,13 @@ msgstr "我们期待着您的反馈，以便能够更好地让$APPNAME为您服�
 msgid "[MusicTrackInspector]Out"
 msgstr "输出"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Output Latency"
-msgstr "输出延时"
-
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Output:"
-msgstr "输出:"
+msgid "[AudioExport]Output"
+msgstr "输出"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Output Latency"
+msgstr "输出延时"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Outputs"
@@ -4140,10 +4272,6 @@ msgstr "参数映射控制"
 msgid "[FXEditorHeaderRow1]Passthrough"
 msgstr "转移"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Password"
-msgstr "密码"
-
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
 msgstr "粘贴"
@@ -4153,8 +4281,8 @@ msgid "[MacroTargetCurve]Paste"
 msgstr "粘贴"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Pause"
-msgstr "暂停"
+msgid "[ProjectTrackControlsContentMedium]Pause (Pre Track)"
+msgstr "暂停 （各音轨）"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
@@ -4165,15 +4293,15 @@ msgid "[AudioOutput.Channel.Content]Peak Hold (dB)"
 msgstr "峰值保持"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Hold Speed"
+msgid "[SpectrumMeterSettings]Peak Hold Speed"
 msgstr "峰值保持速率"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Left [dB]"
+msgid "[HoldValues]Peak Left [dB]"
 msgstr "左声道峰值 [dB]"
 
 #: .\project\analyser.xml
-msgid "[Analyser]Peak Right [dB]"
+msgid "[HoldValues]Peak Right [dB]"
 msgstr "右声道峰值 [dB]"
 
 #: .\devices\transport.xml
@@ -4207,14 +4335,6 @@ msgstr "音高"
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Pitch Bend"
 msgstr "弯音轮"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk L"
-msgstr "PK L"
-
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]Pk R"
-msgstr "PK R"
 
 #: .\project\analyser.xml
 msgid "[Analyser]PkRMS"
@@ -4264,17 +4384,13 @@ msgstr "播放重叠部分"
 msgid "[NewSong]Play overlaps"
 msgstr "播放重叠部分"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
-msgstr "请键入您的联系方式以便注册。一封带有可激活账户链接的电子邮件将发送至您。"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Playback Device"
+msgstr "回放设备"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "请重启$APPCOMPANY以使更改生效"
-
-#: .\ccl\overlays.xml
-msgid "[ProgressDialogView]Please wait..."
-msgstr "请稍候..."
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Plug-In:"
@@ -4300,9 +4416,17 @@ msgstr "乐曲打开时弹出"
 msgid "[PostFaderInserts]Post"
 msgstr "推子后"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Post FX"
+msgstr "后 FX"
+
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Post-Roll"
 msgstr "后置式"
+
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Pre FX"
+msgstr "前 FX"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
@@ -4348,13 +4472,13 @@ msgstr "预卷屏@cmd[Transport|Preroll]"
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
 msgstr "保持乐器轨道状态"
 
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Preserve Mono Tracks"
-msgstr "保持单声道"
-
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "保持实时状态"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Preserve mono tracks"
+msgstr "保持单声道"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Preserve order of channels with folder track"
@@ -4389,20 +4513,20 @@ msgid "[AutomationTrackDialog]Previous Track"
 msgstr "上一条音轨"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Process Precision"
+msgid "[AudioSetup.Engine]Process Block Size"
+msgstr "处理障碍物体积"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Process Precision"
 msgstr "处理精度"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Process Volume after Event Effects"
 msgstr "处理量在事件的影响"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
-msgstr "使用不同的线程处理音频 (较安全, 但是延时稍长)"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Processing:"
-msgstr "正在处理:"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Processing"
+msgstr "处理中"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -4525,7 +4649,11 @@ msgid "[TransportPanel.LoopPart]R"
 msgstr "R"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]R128"
+msgid "[LoudnessInfoTable]R"
+msgstr "R"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]R128"
 msgstr "R128"
 
 #: .\devices\transport.xml
@@ -4541,19 +4669,15 @@ msgid "[TransportPanel.PerformancePart]RAM Overload"
 msgstr "RAM超载"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS L"
-msgstr "RMS L"
+msgid "[LoudnessInfoTable]RMS"
+msgstr "输出功率"
 
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Left [dB]"
+msgid "[HoldValues]RMS Left [dB]"
 msgstr "左声道RMS [dB]"
 
-#: .\project\project.xml
-msgid "[ProjectTrackInspector]RMS R"
-msgstr "RMS R"
-
 #: .\project\analyser.xml
-msgid "[Analyser]RMS Right [dB]"
+msgid "[HoldValues]RMS Right [dB]"
 msgstr "右声道RMS [dB]"
 
 #: .\devices\synthcombinator.xml
@@ -4562,6 +4686,10 @@ msgstr "范围"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.OptionsPart]Range"
+msgstr "范围"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Range"
 msgstr "范围"
 
 #: .\app\toolbar.xml
@@ -4579,22 +4707,6 @@ msgstr "重置索引的预设"
 #: .\ccl\browser.xml
 msgid "[Command]Re-Index Presets"
 msgstr "重建索引预设"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Realtime Processing"
-msgstr "实时处理"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Realtime Processing"
-msgstr "实时处理"
-
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Realtime Processing"
-msgstr "实时处理"
-
-#: .\project\audiofile.xml
-msgid "[ImageMaker]Realtime Processing"
-msgstr "实时处理"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Receive From"
@@ -4688,8 +4800,12 @@ msgstr "准备录音"
 msgid "[AudioEngineOption]Record tempo information to audio files"
 msgstr "将速度信息录制到音频文件"
 
-#: .\app\options.xml
-msgid "[AudioEngineOption]Release audio device in background"
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Recording Device"
+msgstr "录制设备"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Device]Release audio device in background"
 msgstr "后台共享音频设备"
 
 #: .\app\windowclasses.xml .\devices\transport.xml
@@ -4707,10 +4823,6 @@ msgstr "剩余录音时间"
 #: .\devices\transport.xml
 msgid "[TransportPanel]Remaining Record Time (Low)"
 msgstr "剩余录音时 (Low)"
-
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "记住我的证书"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelSelector]Remote"
@@ -4755,6 +4867,14 @@ msgstr "移除活动场景"
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Remove Active Scene"
 msgstr "移除活动场景"
+
+#: .\engine\editor.xml
+msgid "[Command]Remove Automation Lane"
+msgstr "移除自动化滑槽"
+
+#: .\engine\editor.xml
+msgid "[EnvelopeLane]Remove Automation Lane"
+msgstr "移除自动化滑槽"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Remove File..."
@@ -4836,10 +4956,6 @@ msgstr "重复重音"
 msgid "[RecordPanel.Horizontal]Repeat Key"
 msgstr "重复Key"
 
-#: .\app\licenser.xml
-msgid "[LicenseServerLogin]Repeat Password"
-msgstr "再次输入密码"
-
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Replace"
 msgstr "替换"
@@ -4862,6 +4978,10 @@ msgstr "重置"
 
 #: .\engine\musicdialogs.xml
 msgid "[PitchNameEditor]Reset"
+msgstr "重置"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]Reset"
 msgstr "重置"
 
 #: .\engine\songdialogs.xml
@@ -4921,16 +5041,16 @@ msgid "[ProjectTransport]Rewind"
 msgstr "倒带"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+msgid "[LoudnessInfoTable]Right Channel Average RMS (3 seconds integration)"
 msgstr "右轨道平均RMS（3秒集成）"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel DC Offset"
+msgid "[LoudnessInfoTable]Right Channel DC Offset"
 msgstr "右轨道DC抵消"
 
 #: .\project\project.xml
-msgid "[ProjectTrackInspector]Right Channel Peak"
-msgstr "右轨道峰值"
+msgid "[LoudnessInfoTable]Right Channel True Peak"
+msgstr "右音轨实际峰值"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Root"
@@ -4949,7 +5069,7 @@ msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited 
 msgstr "运行 $APPNAMEFREE - 有限功能免费版本"
 
 #: .\devices\devices.xml
-msgid "[AudioSetup]Sample Rate"
+msgid "[AudioSetup.Device]Sample Rate"
 msgstr "采样率"
 
 #: .\devices\transport.xml
@@ -4991,6 +5111,10 @@ msgstr "饱和度"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Save As Template"
 msgstr "另存为模板"
+
+#: .\project\audiofile.xml
+msgid "[CDProtocol]Save As..."
+msgstr "另存为..."
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceDialog.Icon]Save Attachment"
@@ -5039,6 +5163,14 @@ msgstr "搜索:"
 #: .\ccl\browser.xml
 msgid "[Command]SearchTag"
 msgstr "搜索标签"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Segment Height"
+msgstr "分割高度"
+
+#: .\project\analyser.xml
+msgid "[Analyser]Segments"
+msgstr "分割"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Select"
@@ -5128,6 +5260,10 @@ msgstr "音轨配色"
 msgid "[TrackControls]Select Track Color"
 msgstr "音轨配色"
 
+#: .\project\project.xml
+msgid "[ProjectTrackInspector]Select Track Color"
+msgstr "音轨配色"
+
 #: .\engine\song.xml
 msgid "[InplaceOptions]Selection"
 msgstr "选择"
@@ -5176,6 +5312,14 @@ msgstr "发送至Notion"
 msgid "[AudioSends]Sends"
 msgstr "发送"
 
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControls]Sensitivity"
+msgstr "灵敏度"
+
+#: .\devices\audiochannel.xml
+msgid "[HardwareInputControlsSingle]Sensitivity"
+msgstr "灵敏度"
+
 #: .\devices\devices.xml
 msgid "[MidiMonitor]Sent"
 msgstr "发送"
@@ -5207,6 +5351,10 @@ msgstr "常规设置"
 #: .\engine\songdialogs.xml
 msgid "[Command]Setup Meta Information"
 msgstr "设置元信息"
+
+#: .\project\analyser.xml
+msgid "[EBUDetailValues]Short-Term"
+msgstr "短期"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Show"
@@ -5276,6 +5424,10 @@ msgstr "显示乐器和备注 FX"
 msgid "[Command]Show Loops"
 msgstr "显示 Loops"
 
+#: .\project\analyser.xml
+msgid "[Analyser]Show Loudness Meter"
+msgstr "显示响度计表"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Outputs"
 msgstr "显示输出"
@@ -5332,10 +5484,6 @@ msgstr "显示缩略图"
 msgid "[CloudBrowserHeader]Show Thumbnails"
 msgstr "显示缩略图"
 
-#: .\app\windowclasses.xml
-msgid "[Command]Show Trash Bin"
-msgstr "显示回收站"
-
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Show VCA connections"
 msgstr "显示VCA连接"
@@ -5364,10 +5512,6 @@ msgstr "显示已安装的效果"
 msgid "[AudioSynthBus.Channel]Show sub channels"
 msgstr "显示编组轨道"
 
-#: .\ccl\webfsbrowser.xml
-msgid "[TransferManager]Show when new transfer starts"
-msgstr "当新传输开始时显示"
-
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr "显示/隐藏弯曲标记"
@@ -5380,6 +5524,10 @@ msgstr "显示/隐藏事件效果"
 msgid "[FolderTrackControls]Show/Hide Tracks"
 msgstr "显示/隐藏轨道"
 
+#: .\engine\editor.xml
+msgid "[MusicEditor]Show/hide Automation Lanes"
+msgstr "显示/隐藏自动化滑槽"
+
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Show/hide Loudness Information"
 msgstr "显示/隐藏响度信息"
@@ -5389,7 +5537,7 @@ msgid "[Project]Show/hide more"
 msgstr "显示/隐藏更多"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Show/hide more"
+msgid "[TrackControls]Show/hide more"
 msgstr "显示/隐藏更多"
 
 #: .\devices\audiofxeditor.xml
@@ -5400,9 +5548,17 @@ msgstr "旁链"
 msgid "[MusicBounceDialog]Skip Track"
 msgstr "跳过音轨"
 
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Slope"
+msgstr "倾斜"
+
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Small / Large"
 msgstr "小/大"
+
+#: .\project\analyser.xml
+msgid "[SpectrumMeterSettings]Smooth"
+msgstr "顺滑"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Snap"
@@ -5628,6 +5784,10 @@ msgstr "分流器"
 msgid "[SynthCombinatorRouting]Splitter"
 msgstr "分流器"
 
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Standard"
+msgstr "标准的"
+
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Start"
 msgstr "开始"
@@ -5811,6 +5971,14 @@ msgstr "系统专属"
 #: .\devices\devices.xml
 msgid "[MidiMonitor]System Realtime"
 msgstr "系统实时"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]TP"
+msgstr "TP"
+
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]TP"
+msgstr "TP"
 
 #: .\ccl\browser.xml
 msgid "[TagPalette]Tag Palette"
@@ -6024,6 +6192,10 @@ msgstr "使用此功能须 $APPCOMPANY 账户。请在 $APPNAME有效设置菜�
 msgid "[HardwareStereoInputControls]Toggle L/R Channel"
 msgstr "触发左/右轨道"
 
+#: .\project\project.xml
+msgid "[Project]Toggle Track Height"
+msgstr "切换音轨高度"
+
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
 msgstr "全部"
@@ -6049,7 +6221,7 @@ msgid "[LayerAspectRow2]Track"
 msgstr "音轨"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track Length"
+msgid "[ProjectTrackControlsLength]Track Length"
 msgstr "音轨长度"
 
 #: .\app\windowclasses.xml
@@ -6080,16 +6252,12 @@ msgstr "轨道数量"
 msgid "[TrackControlsMainContent]Track Number"
 msgstr "轨道数量"
 
-#: .\project\audiofile.xml
-msgid "[AudioFilePublisher]Track Numbers"
-msgstr "轨道数量"
-
 #: .\devices\transport.xml
 msgid "[ProjectTransport]Track Time"
 msgstr "音轨时间"
 
 #: .\project\project.xml
-msgid "[ProjectTrackControlsContent]Track is disabled"
+msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "音轨已禁用"
 
 #: .\app\windowclasses.xml
@@ -6112,7 +6280,7 @@ msgstr "音轨"
 msgid "[SongUpdater]Tracks"
 msgstr "音轨"
 
-#: .\app\windowclasses.xml .\ccl\webfsbrowser.xml
+#: .\app\windowclasses.xml
 msgid "[TransferManager]Transfers"
 msgstr "传输"
 
@@ -6168,18 +6336,6 @@ msgstr "变调"
 msgid "[MusicTrackInspector]Transpose"
 msgstr "变调"
 
-#: .\devices\audiomixer.xml
-msgid "[MixerManager]Trash"
-msgstr "垃圾"
-
-#: .\app\toolbar.xml
-msgid "[HistoryPanel]Trash Bin"
-msgstr "回收站"
-
-#: .\devices\audiomixer.xml
-msgid "[DeviceTrashBin]Trash Bin"
-msgstr "回收站"
-
 #: .\engine\editor.xml
 msgid "[MusicStepRecordPanel]Triplet"
 msgstr "三连音"
@@ -6187,6 +6343,10 @@ msgstr "三连音"
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.TypePart]Triplet"
 msgstr "三连音"
+
+#: .\project\analyser.xml
+msgid "[FixedEBUR128Display]True Peak"
+msgstr "实际峰值"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
@@ -6225,6 +6385,10 @@ msgid "[ProjectToolbar]Update"
 msgstr "更新"
 
 #: .\project\project.xml
+msgid "[ProjectTrackInspector]Update Loudness"
+msgstr "更新响度"
+
+#: .\project\project.xml
 msgid "[Command]Update Mastering Files"
 msgstr "更新主线文件"
 
@@ -6256,10 +6420,6 @@ msgstr "更新"
 msgid "[BurnerSelectDialog]Use Burnproof"
 msgstr "使用刻录小样"
 
-#: .\devices\devices.xml
-msgid "[AudioSetup]Use CPU Cores"
-msgstr "使用多核CPU"
-
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Use MIDI Clock Start"
 msgstr "使用MIDI时钟开始"
@@ -6271,6 +6431,26 @@ msgstr "使用音频文件时间伸缩缓存"
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use dithering for playback and audio file export"
 msgstr "回放和音频文件扩展使用抖动"
+
+#: .\devices\devices.xml
+msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
+msgstr "使用自带低延迟监听代替硬件监听"
+
+#: .\engine\audioexport.xml
+msgid "[AudioExport]Use realtime processing"
+msgstr "使用实时处理"
+
+#: .\engine\audioexport.xml
+msgid "[TrackExport]Use realtime processing"
+msgstr "使用实时处理"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use realtime processing"
+msgstr "使用实时处理"
+
+#: .\project\audiofile.xml
+msgid "[ImageMaker]Use realtime processing"
+msgstr "使用实时处理"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use realtime processing to update mastering files"
@@ -6457,20 +6637,12 @@ msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness
 msgstr "利用Melodyne你可以修改音高，时间，声音，和你音频资料中，单独音符的其他属性，小到音准，大到完成重写。"
 
 #: .\engine\audioexport.xml
-msgid "[AudioExport]Write Tempo"
-msgstr "撰写拍子"
+msgid "[AudioExport]Write tempo to audio files"
+msgstr "撰写拍子至音频文件"
 
 #: .\engine\audioexport.xml
-msgid "[TrackExport]Write Tempo"
-msgstr "撰写拍子"
-
-#: .\engine\audioexport.xml
-msgid "[AudioExport]Write tempo information to exported audio files"
-msgstr "撰写拍子信息用以输出音频文件"
-
-#: .\engine\audioexport.xml
-msgid "[TrackExport]Write tempo information to exported audio files"
-msgstr "撰写拍子信息用以输出音频文件"
+msgid "[TrackExport]Write tempo to audio files"
+msgstr "撰写拍子至音频文件"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]X"
@@ -6516,29 +6688,13 @@ msgstr "您的演示时期已经结束。我们希望您喜欢使用$APPNAME和�
 msgid "[Setup]Zero Latency Monitoring"
 msgstr "零延时监听"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioTrack.Channel]Zero Latency Monitoring"
-msgstr "零延时监听"
-
-#: .\devices\audiochannel.xml
-msgid "[CueMixRackSlotView]Zero Latency Monitoring"
-msgstr "零延时监听"
-
 #: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Left [dB]"
-msgstr "左声道相对峰值 [dB]"
+msgid "[FixedEBUR128Display]dB"
+msgstr "dB"
 
-#: .\project\analyser.xml
-msgid "[Analyser]abs. Peak Right [dB]"
-msgstr "右声道相对峰值 [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Left [dB]"
-msgstr "左声道相对峰值 [dB]"
-
-#: .\project\analyser.xml
-msgid "[Analyser]abs. RMS Right [dB]"
-msgstr "右声道相对峰值 [dB]"
+#: .\project\project.xml
+msgid "[LoudnessInfoTable]dB"
+msgstr "dB"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]mix"
@@ -6559,6 +6715,324 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SpectrumMeterSettings]Seg."
+#~ msgstr "分割"
+
+#~ msgid "[AudioSetup.Engine]Used CPU Cores"
+#~ msgstr "占用的CPU内核"
+
+#~ msgid "[EnvelopeLane]X"
+#~ msgstr "X"
+
+#~ msgid "[LicenseServerLogin]$APPCOMPANY Login"
+#~ msgstr "$APPCOMPANY 登陆"
+
+#~ msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+#~ msgstr "$APPNAME 需要登陆您的 $APP公司 账号。请填写您的电子邮件/用户名。"
+
+#~ msgid "[AudioExport]Amount:"
+#~ msgstr "数量："
+
+#~ msgid "[TrackExport]Amount:"
+#~ msgstr "数量："
+
+#~ msgid "[ProjectTrackControlsContent]Artist"
+#~ msgstr "作者"
+
+#~ msgid "[AudioFilePublisher]Artist Name"
+#~ msgstr "作者姓名"
+
+#~ msgid "[ProjectTrackControlsContent]Artist(s) or Performer(s)"
+#~ msgstr "作者或演奏者"
+
+#~ msgid "[AudioSetup]Audio Device "
+#~ msgstr "音频设备 "
+
+#~ msgid "[Analyser]Average"
+#~ msgstr "平均"
+
+#~ msgid "[Analyser]Averaging Speed"
+#~ msgstr "平均速率"
+
+#~ msgid "[LicenseServerLogin]Back to Log in"
+#~ msgstr "回到登陆页面"
+
+#~ msgid "[AudioSetup]Bit Depth"
+#~ msgstr "位率"
+
+#~ msgid "[AudioExport]Bypass Master Effects"
+#~ msgstr "直通总线效果器"
+
+#~ msgid "[ProgressDialogView]Cancel"
+#~ msgstr "取消"
+
+#~ msgid "[Analyser]Clip"
+#~ msgstr "剪贴"
+
+#~ msgid "[AudioSetup]Control Panel"
+#~ msgstr "控制面板"
+
+#~ msgid "[LicenseServerLogin]Country"
+#~ msgstr "国家"
+
+#~ msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
+#~ msgstr "创建 $APPCOMPANY 账户"
+
+#~ msgid "[ProjectTrackInspector]DC L"
+#~ msgstr "DC L"
+
+#~ msgid "[ProjectTrackInspector]DC R"
+#~ msgstr "DC R"
+
+#~ msgid "[ProjectTrackInspector]DR"
+#~ msgstr "DR"
+
+#~ msgid "[ProjectTrackInspector]Detect Loudness"
+#~ msgstr "检测响度"
+
+#~ msgid "[Command]Detect Loudness"
+#~ msgstr "检测响度"
+
+#~ msgid "[AudioSetup]Device Block Size"
+#~ msgstr "设备区块大小"
+
+#~ msgid "[Project]Disc"
+#~ msgstr "磁盘"
+
+#~ msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
+#~ msgstr " 尚未拥有一个$APPCOMPANY 账户?"
+
+#~ msgid "[AudioExport]Duration:"
+#~ msgstr "时值:"
+
+#~ msgid "[TrackExport]Duration:"
+#~ msgstr "时值:"
+
+#~ msgid "[ProjectTrackInspector]Dynamic Range"
+#~ msgstr "动态范围"
+
+#~ msgid "[LicenseServerLogin]E-Mail"
+#~ msgstr "电子邮件"
+
+#~ msgid "[LicenseServerLogin]E-Mail or username"
+#~ msgstr "电子邮件或用户名"
+
+#~ msgid "[ProjectTrackControlsContent]Edit Song"
+#~ msgstr "编辑乐曲"
+
+#~ msgid "[AudioSetup]Enable Multi-Processing"
+#~ msgstr "开启多线程处理"
+
+#~ msgid "[LicenseServerLogin]First Name"
+#~ msgstr "名字"
+
+#~ msgid "[MusicTransformDialog]Fix Tail"
+#~ msgstr "尾部"
+
+#~ msgid "[AudioTransformDialog]Fix Tail"
+#~ msgstr "尾部"
+
+#~ msgid "[LicenseServerLogin]Forgot your password?"
+#~ msgstr "忘记密码了吗？"
+
+#~ msgid "[Analyser]Hold"
+#~ msgstr "控制"
+
+#~ msgid "[ProjectTrackInspector]ITU-BS-1770 / R128 Loudness"
+#~ msgstr "ITU-BS-1770 / R128 Loudness"
+
+#~ msgid "[AudioExport]Import to Track"
+#~ msgstr "导入到音轨"
+
+#~ msgid "[TrackExport]Import to Track"
+#~ msgstr "导入到音轨"
+
+#~ msgid "[AudioSetup]Input Latency"
+#~ msgstr "输入延时"
+
+#~ msgid "[AudioSetup]Internal Block Size"
+#~ msgstr "内部区块大小"
+
+#~ msgid "[LicenseServerLogin]Last Name"
+#~ msgstr "姓"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+#~ msgstr "左轨道平均输出功率（3秒集成）"
+
+#~ msgid "[ProjectTrackInspector]Left Channel DC Offset"
+#~ msgstr "左轨道DC抵消"
+
+#~ msgid "[ProjectTrackInspector]Left Channel Peak"
+#~ msgstr "左轨道峰值"
+
+#~ msgid "[ProjectTrackControlsContent]Length"
+#~ msgstr "长度"
+
+#~ msgid "[AudioSetup]Lock"
+#~ msgstr "锁定"
+
+#~ msgid "[LicenseServerLogin]Login"
+#~ msgstr "登陆"
+
+#~ msgid "[ProjectTrackControlsContent]Mastering File Status"
+#~ msgstr "主线文件状态"
+
+#~ msgid "[AudioFilePublisher]Naming:"
+#~ msgstr "命名:"
+
+#~ msgid "[AudioSetup]Output Latency"
+#~ msgstr "输出延时"
+
+#~ msgid "[AudioExport]Output:"
+#~ msgstr "输出:"
+
+#~ msgid "[LicenseServerLogin]Password"
+#~ msgstr "密码"
+
+#~ msgid "[ProjectTrackControlsContent]Pause"
+#~ msgstr "暂停"
+
+#~ msgid "[Analyser]Peak Hold Speed"
+#~ msgstr "峰值保持速率"
+
+#~ msgid "[Analyser]Peak Left [dB]"
+#~ msgstr "左声道峰值 [dB]"
+
+#~ msgid "[Analyser]Peak Right [dB]"
+#~ msgstr "右声道峰值 [dB]"
+
+#~ msgid "[ProjectTrackInspector]Pk L"
+#~ msgstr "PK L"
+
+#~ msgid "[ProjectTrackInspector]Pk R"
+#~ msgstr "PK R"
+
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgstr "请键入您的联系方式以便注册。一封带有可激活账户链接的电子邮件将发送至您。"
+
+#~ msgid "[ProgressDialogView]Please wait..."
+#~ msgstr "请稍候..."
+
+#~ msgid "[TrackExport]Preserve Mono Tracks"
+#~ msgstr "保持单声道"
+
+#~ msgid "[AudioSetup]Process Precision"
+#~ msgstr "处理精度"
+
+#~ msgid "[AudioEngineOption]Process audio in safe mode (higher latency)"
+#~ msgstr "使用不同的线程处理音频 (较安全, 但是延时稍长)"
+
+#~ msgid "[AudioFilePublisher]Processing:"
+#~ msgstr "正在处理:"
+
+#~ msgid "[ProjectTrackInspector]R128"
+#~ msgstr "R128"
+
+#~ msgid "[ProjectTrackInspector]RMS L"
+#~ msgstr "RMS L"
+
+#~ msgid "[Analyser]RMS Left [dB]"
+#~ msgstr "左声道RMS [dB]"
+
+#~ msgid "[ProjectTrackInspector]RMS R"
+#~ msgstr "RMS R"
+
+#~ msgid "[Analyser]RMS Right [dB]"
+#~ msgstr "右声道RMS [dB]"
+
+#~ msgid "[AudioExport]Realtime Processing"
+#~ msgstr "实时处理"
+
+#~ msgid "[TrackExport]Realtime Processing"
+#~ msgstr "实时处理"
+
+#~ msgid "[AudioFilePublisher]Realtime Processing"
+#~ msgstr "实时处理"
+
+#~ msgid "[ImageMaker]Realtime Processing"
+#~ msgstr "实时处理"
+
+#~ msgid "[AudioEngineOption]Release audio device in background"
+#~ msgstr "后台共享音频设备"
+
+#~ msgid "[LicenseServerLogin]Remember my credentials"
+#~ msgstr "记住我的证书"
+
+#~ msgid "[LicenseServerLogin]Repeat Password"
+#~ msgstr "再次输入密码"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+#~ msgstr "右轨道平均RMS（3秒集成）"
+
+#~ msgid "[ProjectTrackInspector]Right Channel DC Offset"
+#~ msgstr "右轨道DC抵消"
+
+#~ msgid "[ProjectTrackInspector]Right Channel Peak"
+#~ msgstr "右轨道峰值"
+
+#~ msgid "[AudioSetup]Sample Rate"
+#~ msgstr "采样率"
+
+#~ msgid "[Command]Show Trash Bin"
+#~ msgstr "显示回收站"
+
+#~ msgid "[TransferManager]Show when new transfer starts"
+#~ msgstr "当新传输开始时显示"
+
+#~ msgid "[ProjectTrackControlsContent]Show/hide more"
+#~ msgstr "显示/隐藏更多"
+
+#~ msgid "[ProjectTrackControlsContent]Track Length"
+#~ msgstr "音轨长度"
+
+#~ msgid "[AudioFilePublisher]Track Numbers"
+#~ msgstr "轨道数量"
+
+#~ msgid "[ProjectTrackControlsContent]Track is disabled"
+#~ msgstr "音轨已禁用"
+
+#~ msgid "[MixerManager]Trash"
+#~ msgstr "垃圾"
+
+#~ msgid "[HistoryPanel]Trash Bin"
+#~ msgstr "回收站"
+
+#~ msgid "[DeviceTrashBin]Trash Bin"
+#~ msgstr "回收站"
+
+#~ msgid "[AudioSetup]Use CPU Cores"
+#~ msgstr "使用多核CPU"
+
+#~ msgid "[AudioExport]Write Tempo"
+#~ msgstr "撰写拍子"
+
+#~ msgid "[TrackExport]Write Tempo"
+#~ msgstr "撰写拍子"
+
+#~ msgid "[AudioExport]Write tempo information to exported audio files"
+#~ msgstr "撰写拍子信息用以输出音频文件"
+
+#~ msgid "[TrackExport]Write tempo information to exported audio files"
+#~ msgstr "撰写拍子信息用以输出音频文件"
+
+#~ msgid "[AudioTrack.Channel]Zero Latency Monitoring"
+#~ msgstr "零延时监听"
+
+#~ msgid "[CueMixRackSlotView]Zero Latency Monitoring"
+#~ msgstr "零延时监听"
+
+#~ msgid "[Analyser]abs. Peak Left [dB]"
+#~ msgstr "左声道相对峰值 [dB]"
+
+#~ msgid "[Analyser]abs. Peak Right [dB]"
+#~ msgstr "右声道相对峰值 [dB]"
+
+#~ msgid "[Analyser]abs. RMS Left [dB]"
+#~ msgstr "左声道相对峰值 [dB]"
+
+#~ msgid "[Analyser]abs. RMS Right [dB]"
+#~ msgstr "右声道相对峰值 [dB]"
 
 #~ msgid "[Command]Audio Devices"
 #~ msgstr "音频设备"

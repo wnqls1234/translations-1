@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\extensions\contentinstaller.cpp
-msgid "[Installer]$APPCOMPANY Account"
-msgstr "$APPCOMPANY 账户"
-
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
 msgstr "%(1)已安装扩展包."
@@ -131,6 +127,10 @@ msgstr "扩展包"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "失败！"
+
+#: .\webfs\transfermanagerui.cpp
+msgid "[TransferManager]Files are being transferred in background."
+msgstr "文件将在后台进行传送。"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Full Installation"
@@ -311,6 +311,9 @@ msgstr "需要更新版本的$APPNAME."
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
 msgstr "您使用的是最新版本。"
+
+#~ msgid "[Installer]$APPCOMPANY Account"
+#~ msgstr "$APPCOMPANY 账户"
 
 #~ msgid "[TransferManager]KB/sec"
 #~ msgstr "KB/秒"
