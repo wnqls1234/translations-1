@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\song\publisherselector.cpp
 msgid "[Engine]\"%(1)\" does not support the selected file format."
@@ -34,7 +35,7 @@ msgstr "Znaleziono %(2) plików w %(1)"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Disabled)"
-msgstr "(wyłączone)"
+msgstr "(Wyłączone)"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Empty)"
@@ -99,7 +100,7 @@ msgstr "Dodaj automatykę"
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Add Automation Lane"
-msgstr ""
+msgstr "Dodaj pasek automatyki"
 
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add Bus Channel"
@@ -317,7 +318,7 @@ msgstr "Kliknij + przeciągnij parametr"
 
 #: .\video\videoclip.cpp
 msgid "[VideoClip]Codec not supported!"
-msgstr ""
+msgstr "Nieobsługiwany kodek!"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Colorize Automation"
@@ -369,7 +370,7 @@ msgstr "Kopiuj obiekt"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Event Shared"
-msgstr ""
+msgstr "Kopiuj współdzielony obiekt"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
@@ -377,7 +378,7 @@ msgstr "Kopiuj obiekty"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events Shared"
-msgstr ""
+msgstr "Kopiuj współdzielone obiekty"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -465,7 +466,7 @@ msgstr "Utwórz sekcje z markerów"
 
 #: .\application\eventedit\croptask.cpp
 msgid "[Edit]Crop to Content"
-msgstr ""
+msgstr "Dopasuj do zawartości"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Date"
@@ -537,7 +538,7 @@ msgstr "Odznacz wszystko na ścieżkach"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Detect Transients"
-msgstr "Wykryj transjenty"
+msgstr "Wykrywanie transjentów"
 
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Device"
@@ -553,15 +554,15 @@ msgstr "Wyłącz"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Disable Event FX"
-msgstr ""
+msgstr "Wyłącz FX obiektu"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
-msgstr ""
+msgstr "Wyłącz zaznaczone ścieżki"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Track"
-msgstr "Wyłącz utwór"
+msgstr "Wyłącz ścieżkę"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -761,11 +762,11 @@ msgstr "Włącz"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Enable Event FX"
-msgstr ""
+msgstr "Włącz FX obiektu"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
-msgstr ""
+msgstr "Włącz zaznaczone ścieżki"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Track"
@@ -837,7 +838,7 @@ msgstr "Eksportuj partie do pliku MIDI"
 
 #: .\application\eventedit\exporttask.cpp
 msgid "[Edit]Export Selection"
-msgstr ""
+msgstr "Eksportuj zaznaczenie"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
@@ -897,7 +898,7 @@ msgstr "Nie można odnaleźć pliku!"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Fill Gaps"
-msgstr ""
+msgstr "Wypełnij przerwy"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fine"
@@ -905,7 +906,7 @@ msgstr "Precyzyjnie"
 
 #: .\application\audioedit\audiobendaddin.cpp
 msgid "[Engine]Finishing"
-msgstr ""
+msgstr "Kończenie"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"
@@ -1025,7 +1026,7 @@ msgstr "Importuj pliki do puli:"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit]Import Tempo"
-msgstr ""
+msgstr "Importuj tempo"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
@@ -1351,7 +1352,7 @@ msgstr "Brakujący instrument: %(1)"
 
 #: .\application\eventedit\mixdowntask.cpp
 msgid "[Edit]Mixdown Selection"
-msgstr ""
+msgstr "Wybór do miksu"
 
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
@@ -1403,15 +1404,15 @@ msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Move Arranger Section only"
-msgstr ""
+msgstr "Przenieś tylko sekcję aranżera"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Move Automation"
-msgstr ""
+msgstr "Przenieś automatykę"
 
 #: .\automationediting\automationeditextension.cpp
 msgid "[Automation]Move Automation to \"%(1)\""
-msgstr ""
+msgstr "Przenieś automatykę do \"%(1)\""
 
 #: .\audio\audiobend\audiobendfunctions.cpp
 msgid "[Engine:AudioBendActions]Move Bend Marker"
@@ -1848,7 +1849,7 @@ msgstr "Usuń automatykę"
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Remove Automation Lane"
-msgstr ""
+msgstr "Usuń pasek automatyki"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Remove Bend Markers"
@@ -1872,7 +1873,7 @@ msgstr "Usuń warstwę"
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Command]Remove Parameter"
-msgstr ""
+msgstr "Usuń parametr"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Remove Selected Tracks"
@@ -2168,7 +2169,7 @@ msgstr "Ustaw grupę edycji"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Event FX Tail"
-msgstr ""
+msgstr "Ustaw ogon FX obiektu"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Marker Type"
@@ -2192,7 +2193,7 @@ msgstr "Ustaw przesunięcie wideo"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Volume after Event FX"
-msgstr ""
+msgstr "Ustaw głośność po FX obiektu"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
@@ -2614,11 +2615,11 @@ msgstr "Wyłącz wyciszenie obiektów"
 
 #: .\editing\layereditlayer.cpp
 msgid "[Layer]Unpack Layers to Tracks"
-msgstr ""
+msgstr "Rozpakuj warstwy na ścieżki"
 
 #: .\editing\layereditlayer.cpp
 msgid "[Command]Unpack Layers to Tracks"
-msgstr ""
+msgstr "Rozpakuj warstwy na ścieżki"
 
 #: .\editing\takelist.cpp
 msgid "[Edit]Unpack Takes"

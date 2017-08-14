@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\application.cpp
 msgid "[Application]$APPNAME can not shutdown right now!"
@@ -78,7 +79,7 @@ msgstr "Wiek"
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]All tags are valid."
-msgstr "Wszystkie tagi są prawidłowe."
+msgstr "Wszystkie tagi są poprawne."
 
 #: .\application.cpp
 msgid "[Application]An instance of %(1) is already running!"
@@ -158,7 +159,7 @@ msgstr "Sprawdzanie plików w \"%(1)\""
 
 #: .\datastore\tagstore.cpp .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Cleanup Tags of Missing Files"
-msgstr "Czyszczenie tagów brakujących plików"
+msgstr "Wyczyść tagi brakujących plików"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
@@ -366,7 +367,7 @@ msgstr "Czy chcesz zachować kopię zapasową jako wersję?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to merge into %(1)?"
-msgstr ""
+msgstr "Czy chcesz scalić do %(1)?"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to move these files to \"%(1)\"?"
@@ -394,7 +395,7 @@ msgstr "Czy chcesz usunąć te foldery?"
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]Do you want to remove these tag entries for non-existing files?"
-msgstr "Czy chcesz usunąć te wpisy tagów nieistniejących plików?"
+msgstr "Czy chcesz usunąć te wpisy tagów nieistniejący6ch plików?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
@@ -410,7 +411,7 @@ msgstr "Czy chcesz przywrócić schemat mapowania klawiatury do \"%(1)\"?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save a copy of %(1) as file format \"%(2)\"?"
-msgstr ""
+msgstr "Czy chcesz zapisać kopię %(1) w formacie %(2)?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save your changes in %(1)?"
@@ -655,7 +656,7 @@ msgstr "Scal"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Merging %(1)..."
-msgstr ""
+msgstr "Scalanie %(1)..."
 
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move"
@@ -1140,7 +1141,7 @@ msgstr "Nie można odnaleźć pliku %(1)!"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file format may not preserve all content."
-msgstr ""
+msgstr "Ten format plików może nie zachować całej zawartości."
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n\nAre you sure you want to continue?"
@@ -1280,11 +1281,11 @@ msgstr "Aktualizuj wtyczki"
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]Updated tags in %(1)\n"
-msgstr "Zaktualizowano tagi w %(1)\n"
+msgstr "Zaktualizowane tagi w %(1)\n"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Use %(1) Format"
-msgstr ""
+msgstr "Użyj formatu %(1)"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"

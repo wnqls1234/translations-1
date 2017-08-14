@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]%(1) FPS"
@@ -14,7 +15,7 @@ msgstr "Makro %(1)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]%(1) is currently unresponsive."
-msgstr ""
+msgstr "%(1) nie odpowiada"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]%(1) mixer available in network"
@@ -70,31 +71,31 @@ msgstr "Rozdzielacz nut może być umieszczony dla 3 lub więcej instrumentów"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Activate %(1)"
-msgstr ""
+msgstr "Aktywuj %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
-msgstr ""
+msgstr "Aktywuj wszystkie %(1)"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Activate All Devices"
-msgstr ""
+msgstr "Aktywuj wszystkie urządzenia"
 
 #: .\application\ultimatestudioenvironment.cpp
 msgid "[Command]Activate All Inserts"
-msgstr ""
+msgstr "Aktywuj wszystkie wtyczki"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Activate Devices"
-msgstr ""
+msgstr "Aktywuj urządzenia"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Activate Output of '%(1)'"
-msgstr ""
+msgstr "Aktywuj wyjście '%(1)'"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Add %(1)"
-msgstr ""
+msgstr "Dodaj %(1)"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Add %(1) to %(2)"
@@ -142,7 +143,7 @@ msgstr "Dodaj insert"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Add Macro Target '%(1)'"
-msgstr ""
+msgstr "Dodaj parametr makra '%(1)'"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Post Fader Insert"
@@ -223,7 +224,7 @@ msgstr "Kanały audio"
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 #: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 msgid "[Command]Audio Device"
-msgstr ""
+msgstr "Urządzenie audio"
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
@@ -247,7 +248,7 @@ msgstr "Konfiguracja audio"
 
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Audio engine dropout has occured."
-msgstr ""
+msgstr "Wystąpiły zaniki sygnału w silniku audio"
 
 #: .\audio\watchdogcomponent.cpp
 msgid "[Devices]Audio engine overload."
@@ -275,7 +276,7 @@ msgstr "Autopunch Out"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Available"
-msgstr ""
+msgstr "Dostępne"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
@@ -336,7 +337,7 @@ msgstr "Włącz / Wyłącz metronom"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Click Active"
-msgstr ""
+msgstr "Aktywność metronomu"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Click Volume"
@@ -360,7 +361,7 @@ msgstr "Kolor"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Combine %(1)"
-msgstr ""
+msgstr "Połącz %(1)"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Configure..."
@@ -372,7 +373,7 @@ msgstr "Połącz %(1) z kontrolką makro %(2)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
-msgstr ""
+msgstr "Połącz kanał"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Connected to %(1)."
@@ -409,7 +410,7 @@ msgstr "Kontroler"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Copy %(1)"
-msgstr ""
+msgstr "Kopiuj %(1)"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Copy Effect"
@@ -425,11 +426,11 @@ msgstr "Panorama sub-miksu"
 
 #: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix: Off"
-msgstr ""
+msgstr "Sub-miks: Wł."
 
 #: .\audiomixer\cuemix\cuemixfolder.cpp
 msgid "[CueMixSlot]Cue mix: On"
-msgstr ""
+msgstr "Sub-miks: Wył."
 
 #: .\transport\transportoptions.cpp
 msgid "[Command]Cursor follows Edit Position"
@@ -441,23 +442,23 @@ msgstr "DAW Post DSP"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Deactivate %(1)"
-msgstr ""
+msgstr "Dezaktywuj %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Deactivate All %(1)"
-msgstr ""
+msgstr "Dezaktywuj wszystkie %(1)"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Deactivate All Devices"
-msgstr ""
+msgstr "Dezaktywuj wszystkie urządzenia"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Deactivate Devices"
-msgstr ""
+msgstr "Dezaktywuj urządzenia"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Deactivate Output of '%(1)'"
-msgstr ""
+msgstr "Dezaktywuj wyjście '%(1)'"
 
 #: .\editor\processgrapheditor.cpp
 msgid "[Command]Delete"
@@ -497,7 +498,7 @@ msgstr "Urządzenia"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Dim"
-msgstr ""
+msgstr "[Command]Dim"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Disable"
@@ -509,23 +510,23 @@ msgstr "Wyłącz"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Disable %(1)"
-msgstr ""
+msgstr "Wyłącz %(1)"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Disable All"
-msgstr ""
+msgstr "Wyłącz wszystkie"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Disable All %(1)"
-msgstr ""
+msgstr "Wyłącz wszystkie %(1)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Disable Channel"
-msgstr ""
+msgstr "Wyłącz kanał"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Disabled"
-msgstr ""
+msgstr "Wyłączone"
 
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
@@ -561,15 +562,15 @@ msgstr "Edytuj urządzenie"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Edit Macro Transformation '%(1)'"
-msgstr ""
+msgstr "Edytuj przekształcenie makr '%(1)'"
 
 #: .\base\deviceactions.cpp
 msgid "[DeviceActions]Edit Multiple Parameters"
-msgstr ""
+msgstr "Edycja wielu parametrów"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Edit Multiple Parameters"
-msgstr ""
+msgstr "Edycja wielu parametrów"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Edit..."
@@ -581,7 +582,7 @@ msgstr "Edytuj..."
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Effect"
-msgstr ""
+msgstr "Efekt"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Effects"
@@ -601,19 +602,19 @@ msgstr "Włącz"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Enable %(1)"
-msgstr ""
+msgstr "Włącz %(1)"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Enable All"
-msgstr ""
+msgstr "Włącz wszystkie"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Enable All %(1)"
-msgstr ""
+msgstr "Włącz wszystkie %(1)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Enable Channel"
-msgstr ""
+msgstr "Włącz kanał"
 
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Enable Play Start Marker"
@@ -637,11 +638,11 @@ msgstr "Urządzenia zdalne"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Extract '%(1)'"
-msgstr ""
+msgstr "Wypakuj '%(1)'"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Extract Instrument"
-msgstr ""
+msgstr "Wypakuj instrument"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]FX"
@@ -709,7 +710,7 @@ msgstr "Przejdź do czasu"
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Hardware Monitoring"
-msgstr ""
+msgstr "Monitoring sprzętowy"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Hide"
@@ -729,7 +730,7 @@ msgstr "Ukryj powiązane kanały"
 
 #: .\audio\audiosetup.cpp
 msgid "[DropoutProtection]High"
-msgstr ""
+msgstr "Wysoka"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -769,11 +770,11 @@ msgstr "Wstaw łańcuch FX"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Insert Note Event Splitter"
-msgstr "Wstaw Note Event Splitter"
+msgstr "Wstaw rozdzielacz nut"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert Splitter"
-msgstr "Wstaw Splitter"
+msgstr "Wstaw rozdzielacz"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
@@ -781,7 +782,7 @@ msgstr "Inserty"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Instrument"
-msgstr "instrumentu"
+msgstr "Instrument"
 
 #: .\audiosynths\combinator\combinatorsynthfolder.cpp
 #: .\audiosynths\combinator\synthcombinatorcomponent.cpp
@@ -820,7 +821,7 @@ msgstr "Odwróć"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Invert '%(1)' Transformation"
-msgstr ""
+msgstr "Odwróć przekształcenie '%(1)'"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
@@ -844,7 +845,7 @@ msgstr "Latencja"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Load FX Chain"
-msgstr ""
+msgstr "Wczytaj łańcuch FX"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Load Preset"
@@ -856,7 +857,7 @@ msgstr "Wczytaj zestaw"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Load Preset %(1)"
-msgstr ""
+msgstr "Wczytaj zestaw %(1)"
 
 #: .\surfaces\surfacedatapool.cpp
 msgid "[Surface]Loading Control Surface Data..."
@@ -876,7 +877,7 @@ msgstr "Zablokuj"
 
 #: .\audio\audiosetup.cpp
 msgid "[DropoutProtection]Low"
-msgstr ""
+msgstr "Niska"
 
 #: .\midi\midiengine.cpp
 msgid "[Devices]MIDI Engine reset requested!"
@@ -892,11 +893,11 @@ msgstr "Suma"
 
 #: .\audio\audiosetup.cpp
 msgid "[DropoutProtection]Maximum"
-msgstr ""
+msgstr "Maksymalna"
 
 #: .\audio\audiosetup.cpp
 msgid "[DropoutProtection]Medium"
-msgstr "Średnio"
+msgstr "Średnia"
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Message"
@@ -908,7 +909,7 @@ msgstr "Zestaw metronomu"
 
 #: .\audio\audiosetup.cpp
 msgid "[DropoutProtection]Minimum"
-msgstr ""
+msgstr "Minimalna"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
@@ -920,7 +921,7 @@ msgstr "Monitor"
 
 #: .\audio\audiolowlatencygraph.cpp
 msgid "[MonitorProcessing]Monitor FX"
-msgstr ""
+msgstr "Monitor FX"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mono"
@@ -928,19 +929,19 @@ msgstr "Mono"
 
 #: .\base\automationhandler.cpp
 msgid "[Automation]Mouse-Over"
-msgstr ""
+msgstr "Pod myszką"
 
 #: .\base\automationhandler.cpp
 msgid "[Command]Mouse-Over"
-msgstr ""
+msgstr "Pod myszką"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Move %(1)"
-msgstr ""
+msgstr "Przenieś %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Move %(1)"
-msgstr ""
+msgstr "Przenieś %(1)"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Move Effect"
@@ -948,7 +949,7 @@ msgstr "Przenieś efekt"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Move Macro Target '%(1)'"
-msgstr ""
+msgstr "Przenieś parametr makro '%(1)'"
 
 #: .\audiosynths\combinator\synthcombinatorplugin.cpp
 msgid "[FileType]Multi Effect Preset"
@@ -956,7 +957,7 @@ msgstr "Zestaw multi-efektu"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Multi Instrument"
-msgstr ""
+msgstr "Multi-instrument"
 
 #: .\audiomixer\audiochannel.cpp
 msgid "[AudioChannel]Mute"
@@ -972,15 +973,15 @@ msgstr "Wycisz"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Mute Split Branch"
-msgstr ""
+msgstr "Wycisz tor podziału"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]N/A"
-msgstr ""
+msgstr "B/D"
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]N/A"
-msgstr ""
+msgstr "B/D"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Name"
@@ -996,7 +997,7 @@ msgstr "Wąski"
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Native Monitoring"
-msgstr ""
+msgstr "Wbudowany monitoring"
 
 #: .\editor\deviceslotselector.cpp .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Navigation"
@@ -1112,7 +1113,7 @@ msgstr "Otwórz kanał"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[Command]Open Qwerty Keyboard"
-msgstr ""
+msgstr "Otwórz klawiaturę Qwerty"
 
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Output"
@@ -1144,7 +1145,7 @@ msgstr "Panorama"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Parameter"
-msgstr "Parametry"
+msgstr "Parametr"
 
 #: .\editor\paramselector.cpp
 msgid "[ParamSelector]Parameter"
@@ -1156,7 +1157,7 @@ msgstr "Parametr %(1)"
 
 #: .\base\deviceclipboard.cpp
 msgid "[DeviceClipboard]Paste - %(1)"
-msgstr ""
+msgstr "Wklej - %(1)"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Path"
@@ -1224,7 +1225,7 @@ msgstr "Zbieranie informacje o urządzeniu %(1)."
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]RGB"
-msgstr ""
+msgstr "RGB"
 
 #: .\base\automationunit.cpp
 msgid "[Automation]Read"
@@ -1244,11 +1245,11 @@ msgstr "Ostatnie parametry"
 
 #: .\base\automationhandler.cpp
 msgid "[Automation]Recently Touched"
-msgstr ""
+msgstr "Ostatnio poruszony"
 
 #: .\base\automationhandler.cpp
 msgid "[Command]Recently Touched"
-msgstr ""
+msgstr "Ostatnio poruszony"
 
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Record"
@@ -1296,11 +1297,11 @@ msgstr "Usuń"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Remove %(1)"
-msgstr ""
+msgstr "Usuń %(1)"
 
 #: .\editor\devicerack.cpp
 msgid "[DeviceRack]Remove %(1)"
-msgstr ""
+msgstr "Usuń %(1)"
 
 #: .\base\automationhandler.cpp
 msgid "[Automation]Remove %(1) Automation"
@@ -1320,11 +1321,11 @@ msgstr "Usuń wszystko"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Remove All %(1)"
-msgstr ""
+msgstr "Usuń wszystkie %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All %(1)"
-msgstr ""
+msgstr "Usuń wszystkie %(1)"
 
 #: .\mixer\mixereditfunctions.cpp
 msgid "[MixerEditFunctions]Remove Channel"
@@ -1348,23 +1349,23 @@ msgstr "Usuń bieżący parametr"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Remove Macro Target '%(1)'"
-msgstr ""
+msgstr "Usuń parametr makro '%(1)'"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Remove Note Event Splitter"
-msgstr ""
+msgstr "Usuń rozdzielacz nut"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Remove Splitter"
-msgstr ""
+msgstr "Usuń rozdzielacz"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Rename %(1)"
-msgstr ""
+msgstr "Zmień nazwę %(1)"
 
 #: .\mixer\channel.cpp
 msgid "[Channel]Rename Channel"
-msgstr ""
+msgstr "Zmień nazwę kanału"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
@@ -1380,11 +1381,11 @@ msgstr "Zmień nazwę..."
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Reorder %(1)"
-msgstr ""
+msgstr "Zmień kolejność %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace %(1)"
-msgstr ""
+msgstr "Zastąp %(1)"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Replace Effect"
@@ -1404,7 +1405,7 @@ msgstr "Zastąp instrument"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Replace Sends"
-msgstr ""
+msgstr "Zastąp wysyłki"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Reset"
@@ -1412,7 +1413,7 @@ msgstr "Resetuj"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Restart requested by Audio Device!"
-msgstr ""
+msgstr "Urządzeni audio żąda restartu!"
 
 #: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 msgid "[Command]Restore Audio Device Settings"
@@ -1496,11 +1497,11 @@ msgstr "Panorama wysyłki"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slot"
-msgstr ""
+msgstr "Gniazdo wysyłki"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slots"
-msgstr ""
+msgstr "Gniazda wysyłek"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
@@ -1508,27 +1509,27 @@ msgstr "Wysyłaj do"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Set '%(1)'"
-msgstr ""
+msgstr "Ustaw '%(1)'"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Set '%(1)' to '%(2)'"
-msgstr ""
+msgstr "Ustaw '%(1)' na '%(2)'"
 
 #: .\mixer\channel.cpp
 msgid "[Channel]Set Channel Color"
-msgstr ""
+msgstr "Ustaw kolor kanału"
 
 #: .\audiosynths\audiosynthdirectinput.cpp
 msgid "[AudioSynthDirectInput]Set Direct Input"
-msgstr ""
+msgstr "Ustaw bezpośrednie wejście"
 
 #: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Set Input"
-msgstr ""
+msgstr "Ustaw wejście"
 
 #: .\mixer\channel.cpp
 msgid "[Channel]Set Output"
-msgstr ""
+msgstr "Ustaw wyjście"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
@@ -1536,11 +1537,11 @@ msgstr "Ustaw marker początku odtwarzania"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Set Send Target"
-msgstr ""
+msgstr "Ustaw przeznaczenie wysyłki"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Set Split Count"
-msgstr ""
+msgstr "Ustaw liczbę podziałów"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Setup..."
@@ -1620,15 +1621,15 @@ msgstr "Niektóre kanały są nadal w użyciu! Czy chcesz je mimo to usunąć?"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Speaker A"
-msgstr ""
+msgstr "Głośnik A"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Speaker B"
-msgstr ""
+msgstr "Głośnik B"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Speaker C"
-msgstr ""
+msgstr "Głośnik C"
 
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]Speed:"
@@ -1636,11 +1637,11 @@ msgstr "Prędkość:"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Split Count"
-msgstr ""
+msgstr "Liczba podziałów"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Split Frequency"
-msgstr ""
+msgstr "Częśtotliwość podziałów"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Split Mode"
@@ -1648,7 +1649,7 @@ msgstr "Tryb podziału"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Split Volume"
-msgstr ""
+msgstr "Głośność podziłu"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Start"
@@ -1684,11 +1685,11 @@ msgstr "Pomocnicze"
 
 #: .\audiosynths\combinator\combinatorsynthfolder.cpp
 msgid "[SynthCombinator]Sub Instrument"
-msgstr ""
+msgstr "Pod-instrument"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Swap Macro Controls"
-msgstr ""
+msgstr "Zamień kontrolki makro"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
@@ -1696,7 +1697,7 @@ msgstr "Przełączanie na urządzenie audio %(1)..."
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Talkback"
-msgstr ""
+msgstr "Talkback"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"
@@ -1704,7 +1705,7 @@ msgstr "Przypisane parametry"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target not connected"
-msgstr ""
+msgstr "Nie połączono z aparametrem"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Tc"
@@ -1764,7 +1765,7 @@ msgstr "Włącz / Wyłącz pętlę"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Related Channels"
-msgstr "Przełącz powiązane kanały"
+msgstr "Włącz / Wyłącz powiązane kanały"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Toggle Size"

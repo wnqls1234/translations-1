@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\app\options.xml
 msgid "[SoundSetOption] ..."
@@ -230,11 +231,11 @@ msgstr "-"
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareInputControls]-10 dBV"
-msgstr ""
+msgstr "-10 dBV"
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareInputControlsSingle]-10 dBV"
-msgstr ""
+msgstr "-10 dBV"
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]..."
@@ -378,7 +379,7 @@ msgstr "12"
 
 #: .\project\analyser.xml
 msgid "[Analyser]12th"
-msgstr ""
+msgstr "1/12"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]13"
@@ -422,7 +423,7 @@ msgstr "3. Wybierz pobrany plik licencji lub przeciągnij go do tego okna."
 
 #: .\project\analyser.xml
 msgid "[Analyser]3rd Oct"
-msgstr "3 okt."
+msgstr "1/3 okt."
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]4"
@@ -454,7 +455,7 @@ msgstr "9"
 
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]@cmd.title[Audio Device|Restore Audio Device Settings]"
-msgstr ""
+msgstr "@cmd.title[Audio Device|Restore Audio Device Settings]"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.Inplace]@cmd.title[Audio|Apply Audio Bend]"
@@ -690,7 +691,7 @@ msgstr "@property[parent.controller.editGroup]"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioTrack.Channel]@property[parent.controller.editGroup]"
-msgstr "[AudioTrack.Channel]@property[parent.controller.editGroup]"
+msgstr "@property[parent.controller.editGroup]"
 
 #: .\engine\inspector.xml
 msgid "[InspectorAudioFader]@property[parent.controller.editGroup]"
@@ -706,7 +707,7 @@ msgstr "@value[]"
 
 #: .\app\microviews.xml
 msgid "[MicroViewSliderSizeVariant]@value[]"
-msgstr "[MicroViewSliderSizeVariant]@value[]"
+msgstr "@value[]"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]@value[]"
@@ -850,7 +851,7 @@ msgstr "Aktywuj wszystko"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Activate All"
-msgstr "Aktywuj wszystko"
+msgstr "Aktywuj wszystkie"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventInserts]Activate All"
@@ -902,7 +903,7 @@ msgstr "Dodaj / Usuń..."
 
 #: .\engine\editor.xml
 msgid "[Command]Add Automation Lane"
-msgstr ""
+msgstr "Dodaj pasek automatyki"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]Add Automation Track"
@@ -978,11 +979,11 @@ msgstr "Dodaj warstwę dla każdego nowego ujęcia"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Add artist to file name"
-msgstr ""
+msgstr "Dodaj artystę do nazwy pliku"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Add track numbers to file name"
-msgstr ""
+msgstr "Dodaj numerację do nazwy pliku"
 
 #: .\app\options.xml
 msgid "[SoundSetOption]Add..."
@@ -1170,11 +1171,11 @@ msgstr "Audio Bend"
 
 #: .\app\homepage.xml .\devices\transport.xml
 msgid "[Command]Audio Device"
-msgstr ""
+msgstr "Urządzenie audio"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Audio Device"
-msgstr ""
+msgstr "Urządzenie audio"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Audio Event Properties"
@@ -1194,7 +1195,7 @@ msgstr "Włącz nagrywanie i monitoring po zaznaczeniu ścieżki audio"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Audio Roundtrip"
-msgstr ""
+msgstr "Tor audio"
 
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Audio Tracks"
@@ -1242,7 +1243,7 @@ msgstr "Automatyczny ogon"
 
 #: .\app\options.xml
 msgid "[EditingOption]Auto-colorize tracks and layers"
-msgstr "Automatyczny kolor ścieżek i warstw"
+msgstr "Auto-kolor ścieżek i warstw"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofades"
@@ -1250,7 +1251,7 @@ msgstr "Auto-zanikanie i narastanie"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Autofill"
-msgstr ""
+msgstr "Auto-wypełnienie"
 
 #: .\app\options.xml
 msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
@@ -1330,7 +1331,7 @@ msgstr "Prędkość średniej"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Avg."
-msgstr ""
+msgstr "Śr."
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]B"
@@ -1482,7 +1483,7 @@ msgstr "Szyny"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Buy Notion"
-msgstr ""
+msgstr "Zakup Notion"
 
 #: .\app\microviews.xml
 msgid "[MutableMicroViewBypass]Bypass"
@@ -1734,19 +1735,19 @@ msgstr "Przester"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioMeter.Narrow]Clip / Peak Levels"
-msgstr "Przester / Poziom szczytowy"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[HoldAndClip]Clip / Peak Levels"
-msgstr "Przester / Poziom szczytowy"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[ChannelMeterDisplay.Small.Narrow]Clip / Peak Levels"
-msgstr "Przester / Poziom szczytowy"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioChannel.SmallLevels]Clip / Peak Levels"
-msgstr "Przester / Poziom szczytowy"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioInput.Channel.Content]Clip / Peak Levels"
@@ -1754,11 +1755,11 @@ msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Clip / Peak Levels"
-msgstr "Przester / Poziom szczytowy"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\devices\audiochannel.small.xml
 msgid "[ChannelMeterDisplay]Clip / Peak Levels"
-msgstr "Poziomy szczytowe / przester"
+msgstr "Przestery / Poziomy szczytowe"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Close"
@@ -1874,7 +1875,7 @@ msgstr "Komentarz"
 
 #: .\project\audiofile.xml
 msgid "[CDProtocol]Compact View"
-msgstr ""
+msgstr "Widok kompaktowy"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Compare"
@@ -2022,7 +2023,7 @@ msgstr "Przenoś kursor do edytowanej pozycji"
 
 #: .\project\analyser.xml
 msgid "[Analyser]Curve"
-msgstr ""
+msgstr "Krzywa"
 
 #: .\app\options.xml
 msgid "[MusicOption]Cut long notes at part end"
@@ -2034,7 +2035,7 @@ msgstr "D"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]DC"
-msgstr ""
+msgstr "DC"
 
 #: .\project\project.xml
 msgid "[ProjectToolbar]DDP"
@@ -2190,15 +2191,15 @@ msgstr "Wydanie cyfrowe"
 
 #: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input"
-msgstr ""
+msgstr "Bezpośrednie wejście"
 
 #: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input Channel"
-msgstr ""
+msgstr "Kanał bezpośredniego wejścia"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderDirectInput]Direct Inputs"
-msgstr ""
+msgstr "Bezpośrednie wejścia"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Disable"
@@ -2286,11 +2287,11 @@ msgstr "Przeciągnij stąd łańcuch FX"
 
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Drag New Splitter From Here"
-msgstr "Przeciągnij stąd nowy Splitter"
+msgstr "Przeciągnij stąd nowy rozdzielacz"
 
 #: .\devices\synthcombinator.xml
 msgid "[SynthCombinatorRouting]Drag New Splitter From Here"
-msgstr "Przeciągnij stąd nowy Splitter"
+msgstr "Przeciągnij stąd nowy rozdzielacz"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Drag Preset from here"
@@ -2310,11 +2311,11 @@ msgstr "Półprzezroczyste obiekty (z widoczną siatką)"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Dropout Protection"
-msgstr ""
+msgstr "Ochrona przed przerwami"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor]Dropout Protection"
-msgstr ""
+msgstr "Ochrona przed przerwami"
 
 #: .\engine\inspector.xml
 msgid "[ArrangerTrackInspector]Duplicate"
@@ -2330,11 +2331,11 @@ msgstr "Powiel warstwę"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Duration"
-msgstr ""
+msgstr "Długość"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Duration"
-msgstr ""
+msgstr "Długość"
 
 #: .\engine\quantize.xml
 msgid "[QuantizeSetup.PresetPart]E"
@@ -2350,19 +2351,19 @@ msgstr "Kod EAN/UPC"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]EBU"
-msgstr ""
+msgstr "EBU"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]EBU +18"
-msgstr ""
+msgstr "EBU +18"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]EBU +18 Metering"
-msgstr ""
+msgstr "EBU +18 Metering"
 
 #: .\project\analyser.xml
 msgid "[Analyser]EBU R128"
-msgstr ""
+msgstr "EBU R128"
 
 #: .\app\windowclasses.xml .\engine\inspector.xml
 msgid "[Command]Edit"
@@ -2450,19 +2451,19 @@ msgstr "Włącz"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
-msgstr "Włącz opcje &apos;Odtwarzaj nałożone obiekty&apos; dla nowych ścieżek"
+msgstr "Włącz opcję &apos;Odtwarzaj nałożone obiekty&apos; dla nowych ścieżek audio"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
-msgstr "Włącz opcje &apos;Odtwarzaj nałożone obiekty&apos; dla nowych ścieżek"
+msgstr "Włącz opcję &apos;Odtwarzaj nałożone obiekty&apos; dla nowych ścieżek audio"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
-msgstr ""
+msgstr "Włącz monitoring sprzętowy"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Enable Hardware Monitoring"
-msgstr ""
+msgstr "Włącz monitoring sprzętowy"
 
 #: .\ccl\common.xml
 msgid "[DpiAwarenessOption]Enable High DPI Mode"
@@ -2470,19 +2471,19 @@ msgstr "Tryb wysokiej rozdzielczości"
 
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioOutput.Narrow]Enable Low Latency Monitoring"
-msgstr ""
+msgstr "Włącz monitoring o niskiej latencji"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioOutput.Channel.Content]Enable Low Latency Monitoring"
-msgstr ""
+msgstr "Włącz monitoring o niskiej latencji"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Enable Low Latency Monitoring"
-msgstr ""
+msgstr "Włącz monitoring o niskiej latencji"
 
 #: .\devices\synthrack.xml
 msgid "[SynthRack]Enable Low Latency Monitoring"
-msgstr ""
+msgstr "Włącz monitoring o niskiej latencji"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector.ProgramSelector]Enable Program"
@@ -2490,7 +2491,7 @@ msgstr "Włącz program"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Enable Smoothing"
-msgstr ""
+msgstr "Włącz wygładzanie"
 
 #: .\app\options.xml
 msgid "[EditingOption]Enable crosshair cursor for tools"
@@ -2502,11 +2503,11 @@ msgstr "Wyświetlaj linie współrzędnych kursora dla narzędzi"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Enable low latency monitoring for instruments"
-msgstr ""
+msgstr "Włącz monitoring o niskiej latencji dla instrumentów"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
-msgstr ""
+msgstr "Włącz kompensację nachylenia (+3dB/okt. dla szumu różowego)"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2694,7 +2695,7 @@ msgstr "Narastanie"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Fade Length"
-msgstr ""
+msgstr "Długość zanikania i narastania"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Fade Out"
@@ -2758,11 +2759,11 @@ msgstr "Filtr"
 
 #: .\engine\musicdialogs.xml
 msgid "[MusicTransformDialog]Fixed Tail"
-msgstr ""
+msgstr "Ustalony ogon"
 
 #: .\engine\songdialogs.xml
 msgid "[AudioTransformDialog]Fixed Tail"
-msgstr ""
+msgstr "Ustalony ogon"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SurfaceMapping]Focus Device"
@@ -2818,7 +2819,7 @@ msgstr "Klatek na sekundę"
 
 #: .\project\analyser.xml
 msgid "[Analyser]Freeze"
-msgstr ""
+msgstr "Zamróź"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Frequency Split"
@@ -2946,11 +2947,11 @@ msgstr "Przegląd"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Hardware Monitoring Available"
-msgstr ""
+msgstr "Monitoring sprzętowy jest dostępny"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Height"
-msgstr ""
+msgstr "Wysokość"
 
 #: .\app\about.xml .\app\homepage.xml .\app\toolbar.xml
 msgid "[Command]Help"
@@ -2998,11 +2999,11 @@ msgstr "We./Wy."
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]INT"
-msgstr ""
+msgstr "INT"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]INT"
-msgstr ""
+msgstr "INT"
 
 #: .\project\project.xml
 msgid "[DetailedInfoTable]ISRC"
@@ -3046,7 +3047,7 @@ msgstr "Importuj do ścieżki"
 
 #: .\project\project.xml
 msgid "[NewProject]Import tracks from DDP Image"
-msgstr ""
+msgstr "Importuj utwory z obrazu DDP"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]In"
@@ -3194,7 +3195,7 @@ msgstr "Instr."
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Instrument"
-msgstr "instrumentu"
+msgstr "Instrumenty"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Instrument"
@@ -3318,11 +3319,11 @@ msgstr "Instrumenty"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]Integrated (EBU R128)"
-msgstr ""
+msgstr "Zintegrowany (EBU R128)"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]Integrated (EBU R128)"
-msgstr ""
+msgstr "Zintegrowany (EBU R128)"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Interfaces"
@@ -3386,27 +3387,27 @@ msgstr "L"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]LRA"
-msgstr ""
+msgstr "LRA"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]LRA"
-msgstr ""
+msgstr "LRA"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]LU"
-msgstr ""
+msgstr "LU"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]LU"
-msgstr ""
+msgstr "LU"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]LUFS"
-msgstr ""
+msgstr "LUFS"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]LUFS"
-msgstr ""
+msgstr "LUFS"
 
 #: .\ccl\common.xml
 msgid "[LocaleOption]Language"
@@ -3414,11 +3415,11 @@ msgstr "Język"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Launch Notion"
-msgstr ""
+msgstr "Uruchom Notion"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Launch Notion on this computer"
-msgstr ""
+msgstr "Uruchom Notion na tym komputerze"
 
 #: .\engine\inspector.xml
 msgid "[AudioTrackInspector]Layers"
@@ -3450,7 +3451,7 @@ msgstr "Przesunięcie DC lewego kanału"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]Left Channel True Peak"
-msgstr ""
+msgstr "Rzeczywisty szczytowy poziom lewego kanału"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Length"
@@ -3466,11 +3467,11 @@ msgstr "Poziom"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Level Max"
-msgstr ""
+msgstr "Maksymalny poziom"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Level Min"
-msgstr ""
+msgstr "Minimalny poziom"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Levels"
@@ -3598,27 +3599,27 @@ msgstr "Informacje o głośności"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]Loudness Range (EBU R128)"
-msgstr ""
+msgstr "Zakres głośności (EBU R128)"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]Loudness Range (EBU R128)"
-msgstr ""
+msgstr "Zakres głośności (EBU R128)"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Low Latency"
-msgstr ""
+msgstr "Niska latencja"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Low Latency Instrument Monitoring Active"
-msgstr ""
+msgstr "Monitoring niskiej latencji instrumentów jest aktywny"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioTrack.Channel]Low Latency Monitoring Enabled"
-msgstr ""
+msgstr "Monitoring o niskiej latencji jest włączony"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioSynth.Channel]Low Latency Monitoring Enabled"
-msgstr ""
+msgstr "Monitoring o niskiej latencji jest włączony"
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Luminance"
@@ -3674,7 +3675,7 @@ msgstr "Mapowanie kontrolerek makro"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Magnitude Range"
-msgstr ""
+msgstr "Zakres wielkości"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup]Make Default"
@@ -3722,7 +3723,7 @@ msgstr "Głośność sumy"
 
 #: .\project\project.xml
 msgid "[ProjectTrackIcon]Mastering File Status / Edit Song"
-msgstr ""
+msgstr "Status pliku masteringu / Edytuj utwór"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.DetectionPart]Material"
@@ -3754,7 +3755,7 @@ msgstr "Scal"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Merge into open document"
-msgstr ""
+msgstr "Scal do otwartego dokumentu"
 
 #: .\app\startup.xml
 msgid "[MessageWindow]Messages"
@@ -3838,7 +3839,7 @@ msgstr "Zmodyfikowano:"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Momentary"
-msgstr ""
+msgstr "Natychmiastowo"
 
 #: .\app\shared.xml
 msgid "[TCMutablePlainButton]Monitor"
@@ -3854,11 +3855,11 @@ msgstr "Monitor"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Monitoring Latencies"
-msgstr ""
+msgstr "Latencje monitoringu"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Monitoring follows record"
-msgstr "Automatyczny monitoring po włączeniu nagrywania"
+msgstr "Monitoring podąża  za nagrywaniem"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
@@ -3934,7 +3935,7 @@ msgstr "Wąski / Normalny"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Native Low Latency Monitoring Available"
-msgstr ""
+msgstr "Wbudowany monitoring o niskiej latencji jest dostępny"
 
 #: .\app\windowclasses.xml .\ccl\navigator.xml
 msgid "[Navigator]Navigator"
@@ -4078,11 +4079,11 @@ msgstr "Powiadom mnie, jeżeli przy uruchamianiu $APPNAME urządzenia nie będą
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
-msgstr ""
+msgstr "Na komuterze lub w sieci musi być zainstalowany Notion 6 lub nowszy. Studio One nie może wykryć Notion, jeżeli jest on uruchomiony."
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Notion on:"
-msgstr ""
+msgstr "Notion na:"
 
 #: .\project\analyser.xml
 msgid "[Analyser]Octave"
@@ -4126,7 +4127,7 @@ msgstr "Otwórz ścieżkę aranżera"
 
 #: .\app\windowclasses.xml
 msgid "[Command]Open CD Protocol"
-msgstr ""
+msgstr "Otwórz protokół CD"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel.MidiActivityPart]Open MIDI Monitor"
@@ -4258,7 +4259,7 @@ msgstr "Panorama: @value[]"
 
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart.Inner]Parameter"
-msgstr "Parametry"
+msgstr "Parametr"
 
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Parameter"
@@ -4270,7 +4271,7 @@ msgstr "Mapowanie parametrów"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow1]Passthrough"
-msgstr "Przejście przez"
+msgstr "Kontrola przez"
 
 #: .\devices\audiofxeditor.xml
 msgid "[FXEditorHeaderRow2]Paste"
@@ -4282,7 +4283,7 @@ msgstr "Wklej"
 
 #: .\project\project.xml
 msgid "[ProjectTrackControlsContentMedium]Pause (Pre Track)"
-msgstr ""
+msgstr "Pauza (przed utworem)"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioInput.Channel.Content]Peak Hold (dB)"
@@ -4386,7 +4387,7 @@ msgstr "Odtwarzaj nałożone obiekty"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Playback Device"
-msgstr ""
+msgstr "Urządzenie odtwarzające"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
@@ -4418,7 +4419,7 @@ msgstr "Po tłumiku"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Post FX"
-msgstr ""
+msgstr "Post FX"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Post-Roll"
@@ -4426,7 +4427,7 @@ msgstr "Czas po"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Pre FX"
-msgstr ""
+msgstr "Pre FX"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Pre-Roll"
@@ -4514,7 +4515,7 @@ msgstr "Poprzednia ścieżka"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Process Block Size"
-msgstr ""
+msgstr "Bufor pracy"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Process Precision"
@@ -4526,7 +4527,7 @@ msgstr "Dopasuj głośność po efektach obiektu"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Processing"
-msgstr ""
+msgstr "Przetwarzanie"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -4670,7 +4671,7 @@ msgstr "Przeciążenie RAM"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]RMS"
-msgstr ""
+msgstr "RMS"
 
 #: .\project\analyser.xml
 msgid "[HoldValues]RMS Left [dB]"
@@ -4802,7 +4803,7 @@ msgstr "Zapisuj informacje o tempie do plików audio"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Recording Device"
-msgstr ""
+msgstr "Urządzenie nagrywające"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Release audio device in background"
@@ -4870,11 +4871,11 @@ msgstr "Usuń aktywną scenę"
 
 #: .\engine\editor.xml
 msgid "[Command]Remove Automation Lane"
-msgstr ""
+msgstr "Usuń pasek automatyki"
 
 #: .\engine\editor.xml
 msgid "[EnvelopeLane]Remove Automation Lane"
-msgstr ""
+msgstr "Usuń pasek automatyki"
 
 #: .\engine\mediapool.xml
 msgid "[LocateMissingFiles]Remove File..."
@@ -5050,7 +5051,7 @@ msgstr "Przesunięcie DC prawego kanału"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]Right Channel True Peak"
-msgstr ""
+msgstr "Rzeczywisty szczytowy poziom lewego kanału"
 
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]Root"
@@ -5166,11 +5167,11 @@ msgstr "SearchTag"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Segment Height"
-msgstr ""
+msgstr "Wysokość segmentu"
 
 #: .\project\analyser.xml
 msgid "[Analyser]Segments"
-msgstr ""
+msgstr "Segmenty"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Select"
@@ -5270,7 +5271,7 @@ msgstr "Wybór"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Send"
-msgstr ""
+msgstr "Wyślij"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSendRackSlotView]Send Level: @value[]"
@@ -5290,23 +5291,23 @@ msgstr "Wysyłaj do"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Send audio files to Notion on:"
-msgstr ""
+msgstr "Wyślij pliki audio do Notion na:"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Send audio mixdown"
-msgstr ""
+msgstr "Wyślij miks audio"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Send note data of entire song"
-msgstr ""
+msgstr "Wyślij dane nut z całego utworu"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Send note data of selected tracks"
-msgstr ""
+msgstr "Wyślij dane nut z zaznaczonych ścieżek"
 
 #: .\app\notion.xml
 msgid "[SendToNotionDialog]Send to Notion"
-msgstr ""
+msgstr "Wyślij do Notion"
 
 #: .\devices\audiochannel.xml
 msgid "[AudioSends]Sends"
@@ -5314,11 +5315,11 @@ msgstr "Wysyłki"
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareInputControls]Sensitivity"
-msgstr ""
+msgstr "Czułość"
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareInputControlsSingle]Sensitivity"
-msgstr ""
+msgstr "Czułość"
 
 #: .\devices\devices.xml
 msgid "[MidiMonitor]Sent"
@@ -5354,7 +5355,7 @@ msgstr "Konfiguracja informacji"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Short-Term"
-msgstr ""
+msgstr "Krótki czas"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorConflictPopup]Show"
@@ -5426,7 +5427,7 @@ msgstr "Pokaż pętle"
 
 #: .\project\analyser.xml
 msgid "[Analyser]Show Loudness Meter"
-msgstr ""
+msgstr "Pokaż miernik głośności"
 
 #: .\app\windowclasses.xml
 msgid "[Command]Show Outputs"
@@ -5526,7 +5527,7 @@ msgstr "Pokaż / Ukryj ścieżki"
 
 #: .\engine\editor.xml
 msgid "[MusicEditor]Show/hide Automation Lanes"
-msgstr ""
+msgstr "Pokaż / Ukryj paski automatyki"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Show/hide Loudness Information"
@@ -5550,7 +5551,7 @@ msgstr "Pomiń ścieżkę"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Slope"
-msgstr ""
+msgstr "Nachylenie"
 
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Small / Large"
@@ -5558,7 +5559,7 @@ msgstr "Mały / Duży"
 
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Smooth"
-msgstr ""
+msgstr "Gładkość"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Snap"
@@ -5778,15 +5779,15 @@ msgstr "Podziały"
 
 #: .\devices\audiofxeditor.xml
 msgid "[RoutingEditView]Splitter"
-msgstr "Splitter"
+msgstr "Rozdzielacz"
 
 #: .\devices\synthcombinator.xml
 msgid "[SynthCombinatorRouting]Splitter"
-msgstr "Splitter"
+msgstr "Rozdzielacz"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Standard"
-msgstr "Standardowy"
+msgstr "Standard"
 
 #: .\app\toolbar.xml
 msgid "[PerspectiveSelector]Start"
@@ -5934,7 +5935,7 @@ msgstr "Usuń ciszę"
 
 #: .\app\notion.xml
 msgid "[SendToNotionNoTargets]Studio One can send instrument tracks and audio files to Notion. In Notion you can create a score and print parts for musicians."
-msgstr ""
+msgstr "Studio One może wysłać ścieżki instrumentów i pliki audio do Notion. W Notion możesz utworzyć zapis nutowy i wydrukować partie dla muzyków."
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
@@ -5974,11 +5975,11 @@ msgstr "System Realtime"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]TP"
-msgstr ""
+msgstr "TP"
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]TP"
-msgstr ""
+msgstr "TP"
 
 #: .\ccl\browser.xml
 msgid "[TagPalette]Tag Palette"
@@ -6010,7 +6011,7 @@ msgstr "Nabij tempo"
 
 #: .\devices\audiochannel.small.xml
 msgid "[AudioVCA.Channel]Targets"
-msgstr "Doceloe kanały"
+msgstr "Docelowe kanały"
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Tempo"
@@ -6058,7 +6059,7 @@ msgstr "Jest dostępna nowsza wersja $APPNAME."
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device disabled!"
-msgstr ""
+msgstr "To urządzenie jest wyłączone!"
 
 #: .\devices\audiofxeditor.xml
 msgid "[GhostDeviceEditor]This device is not installed on your system!"
@@ -6194,7 +6195,7 @@ msgstr "Przełącz kanały L/R"
 
 #: .\project\project.xml
 msgid "[Project]Toggle Track Height"
-msgstr ""
+msgstr "Zmień wysokość utworu"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
@@ -6346,7 +6347,7 @@ msgstr "Triola"
 
 #: .\project\analyser.xml
 msgid "[FixedEBUR128Display]True Peak"
-msgstr ""
+msgstr "Rzeczywisty szczytowy poziom sygnału"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
@@ -6386,7 +6387,7 @@ msgstr "Aktualizuj"
 
 #: .\project\project.xml
 msgid "[ProjectTrackInspector]Update Loudness"
-msgstr ""
+msgstr "Zaktualizuj głośność"
 
 #: .\project\project.xml
 msgid "[Command]Update Mastering Files"
@@ -6434,23 +6435,23 @@ msgstr "Użyj ditheringu dla odtwarzania i eksportu plików audio"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
-msgstr ""
+msgstr "Użyj wbudowanego monitoringu o niskiej latencji zamiast monitoringu sprzętowego"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Use realtime processing"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Use realtime processing"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: .\project\audiofile.xml
 msgid "[AudioFilePublisher]Use realtime processing"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: .\project\audiofile.xml
 msgid "[ImageMaker]Use realtime processing"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: .\app\options.xml
 msgid "[AudioEngineOption]Use realtime processing to update mastering files"
@@ -6542,7 +6543,7 @@ msgstr "Opcje wideo"
 
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Video Support Not Installed"
-msgstr "Nie zainstalowano obsługa wideo"
+msgstr "Obsługa wideo nie jest zainstalowana"
 
 #: .\app\toolbar.xml .\app\windowclasses.xml .\devices\transport.xml
 msgid "[Command]View"
@@ -6550,7 +6551,7 @@ msgstr "Widok"
 
 #: .\app\homepage.xml
 msgid "[HomePage]View Release Notes"
-msgstr ""
+msgstr "Pokaż informacje o wersji"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Visibility"
@@ -6638,11 +6639,11 @@ msgstr "Z Melodyne możesz modyfikować wysokość, timing, głośność i inne 
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Write tempo to audio files"
-msgstr ""
+msgstr "Zapisz tempo do plików audio"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Write tempo to audio files"
-msgstr ""
+msgstr "Zapisz tempo do plików audio"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]X"
@@ -6670,7 +6671,7 @@ msgstr "Tak"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]You can also send audio files to Notion from the file browser."
-msgstr ""
+msgstr "Możesz także wysłać pliki audio do Notion z przeglądarki plików."
 
 #: .\ccl\common.xml
 msgid "[ContentLocationSelector]You can change this location later in the Preference window."
