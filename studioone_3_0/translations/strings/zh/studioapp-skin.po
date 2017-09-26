@@ -204,6 +204,10 @@ msgstr "<< 添加"
 msgid "[SearchBar](Not searchable)"
 msgstr "（无法查找）"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]+"
+msgstr "+"
+
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]+"
 msgstr "+"
@@ -219,6 +223,10 @@ msgstr "+"
 #: .\engine\videoplayer.xml
 msgid "[VideoOffset]+"
 msgstr "+"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]-"
+msgstr "-"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorInplaceView]-"
@@ -479,6 +487,10 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
+
+#: .\devices\transport.xml
+msgid "[TransportPanel.MasterPart]@cmd.title[Console|Mono]"
+msgstr "@cmd.title[Console|Mono]"
 
 #: .\engine\song.xml
 msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
@@ -1000,12 +1012,16 @@ msgstr "添加..."
 msgid "[MusicDeviceOptions]Aftertouch"
 msgstr "触后"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Album"
+msgstr "唱片"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Album"
 msgstr "唱片"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Album"
+msgid "[TitleAlbumNotes]Album"
 msgstr "唱片"
 
 #: .\project\project.xml
@@ -1100,12 +1116,16 @@ msgstr "作曲家"
 msgid "[DetailedInfoTable]Arranger"
 msgstr "作曲家"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artist"
+msgstr "作者"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artist"
 msgstr "作者"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Artist"
+msgid "[TitleAlbumNotes]Artist"
 msgstr "作者"
 
 #: .\project\project.xml
@@ -1127,6 +1147,10 @@ msgstr "作者或演奏者"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "作者或演奏者"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artwork"
+msgstr "美工"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artwork"
@@ -1700,13 +1724,17 @@ msgstr "节拍器开/关"
 msgid "[AutomationInspectorButtonTable]Click On/Off"
 msgstr "节拍器开/关"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioOutput.Channel.Content]Click Volume"
-msgstr "节拍器音量"
-
 #: .\engine\inspector.xml
 msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "节拍器音量"
+
+#: .\app\shared.xml
+msgid "[PopupSliderMetronomeVolume]Click Volume: @value[]"
+msgstr "点击音量: @value[]"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Click Volume: @value[]"
+msgstr "点击音量: @value[]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Click in Play"
@@ -2372,10 +2400,6 @@ msgstr "编辑"
 msgid "[TransportPanel]Edit"
 msgstr "编辑"
 
-#: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Edit"
-msgstr "编辑"
-
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "编辑自动控制@cmd[Automation|Show Current Parameter]"
@@ -2456,6 +2480,10 @@ msgstr "启动 &apos;播放重叠部分&apos;为新音轨"
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "启动 &apos;播放重叠部分&apos;为新音轨"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Enable Content Protection"
+msgstr "启用内容保护"
+
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
 msgstr "启用硬件监听"
@@ -2507,6 +2535,10 @@ msgstr "启用乐器低延迟监听"
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
 msgstr "启用斜率补偿 (+3dB/oct. 粉噪音)"
+
+#: .\app\options.xml
+msgid "[ConsoleOption]Enable undo"
+msgstr "启用还原"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2844,6 +2876,10 @@ msgstr "制作"
 msgid "[ArtistProfile]Genre"
 msgstr "风格"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Genre"
+msgstr "类型"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Genre"
 msgstr "风格"
@@ -3011,6 +3047,10 @@ msgstr "ISRC"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
 msgstr "图标"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Identifier"
+msgstr "标识符"
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
@@ -3864,6 +3904,14 @@ msgstr "监听跟随录音"
 msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
 msgstr "监听哑音回放（tape方式）"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Mono"
+msgstr "单声道"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mono"
+msgstr "单声道"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "更多信息"
@@ -3875,6 +3923,10 @@ msgstr "更多信息"
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
 msgstr "动画未加载"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Multitrack File Properties"
+msgstr "多轨道文件属性"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartProperties]Music Part Properties"
@@ -4070,6 +4122,10 @@ msgstr "重复记录"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
+msgstr "标记"
+
+#: .\engine\songdialogs.xml
+msgid "[TitleAlbumNotes]Notes"
 msgstr "标记"
 
 #: .\devices\musicdevices.xml
@@ -4760,6 +4816,10 @@ msgstr "输入录音"
 msgid "[AudioTrackControlsContent]Record Input"
 msgstr "输入录音"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Record Label"
+msgstr "唱片公司"
+
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Record Level"
 msgstr "录音电平"
@@ -4803,6 +4863,10 @@ msgstr "将速度信息录制到音频文件"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Recording Device"
 msgstr "录制设备"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Release Year"
+msgstr "发行年份"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Release audio device in background"
@@ -4882,6 +4946,10 @@ msgstr "移除文件..."
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Remove Image"
+msgstr "移除图像"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Remove Image"
 msgstr "移除图像"
 
 #: .\ccl\common.xml
@@ -5178,6 +5246,10 @@ msgstr "选择"
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Select Image"
+msgstr "选择图像"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Select Image"
 msgstr "选择图像"
 
 #: .\ccl\common.xml
@@ -6168,6 +6240,10 @@ msgstr "时间拉伸"
 msgid "[TransportPanel]Timing"
 msgstr "时间"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Title"
+msgstr "标题"
+
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Title"
 msgstr "标题"
@@ -6177,7 +6253,7 @@ msgid "[SongMetaInfoOption]Title"
 msgstr "标题"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Title"
+msgid "[TitleAlbumNotes]Title"
 msgstr "标题"
 
 #: .\app\melodyne.xml
@@ -6259,6 +6335,10 @@ msgstr "音轨时间"
 #: .\project\project.xml
 msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "音轨已禁用"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Track range"
+msgstr "轨迹距离"
 
 #: .\app\windowclasses.xml
 msgid "[TrackList]TrackList"
@@ -6380,6 +6460,10 @@ msgstr "卸载"
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
 msgstr "卸载乐器并将其从机架上卸除。此选项只在没有其他轨道使用此乐器下可用。"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Update"
+msgstr "更新"
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]Update"
 msgstr "更新"
@@ -6435,6 +6519,14 @@ msgstr "回放和音频文件扩展使用抖动"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
 msgstr "使用自带低延迟监听代替硬件监听"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of events"
+msgstr "使用范围的事件"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of track markers"
+msgstr "使用轨迹标记的范围"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Use realtime processing"
@@ -6561,7 +6653,7 @@ msgid "[InplaceOptions]Visibility"
 msgstr "可视性"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Visit Artist Website"
+msgid "[ArtworkPage]Visit Artist Website"
 msgstr "访问作者主页"
 
 #: .\engine\mediapool.xml
@@ -6653,7 +6745,7 @@ msgid "[SongMetaInfoOption]Year"
 msgstr "年份"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Year"
+msgid "[TitleAlbumNotes]Year"
 msgstr "年份"
 
 #: .\project\project.xml
@@ -6715,6 +6807,27 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SongPopup.Info]Album"
+#~ msgstr "唱片"
+
+#~ msgid "[SongPopup.Info]Artist"
+#~ msgstr "作者"
+
+#~ msgid "[AudioOutput.Channel.Content]Click Volume"
+#~ msgstr "节拍器音量"
+
+#~ msgid "[SongPopup.Info]Edit"
+#~ msgstr "编辑"
+
+#~ msgid "[SongPopup.Info]Title"
+#~ msgstr "标题"
+
+#~ msgid "[SongPopup.Info]Visit Artist Website"
+#~ msgstr "访问作者主页"
+
+#~ msgid "[SongPopup.Info]Year"
+#~ msgstr "年份"
 
 #~ msgid "[SpectrumMeterSettings]Seg."
 #~ msgstr "分割"

@@ -46,6 +46,10 @@ msgstr ""
 msgid "[StemRenderer](Muted)"
 msgstr ""
 
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Protected)"
+msgstr ""
+
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
 msgstr ""
@@ -149,6 +153,10 @@ msgstr ""
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
+msgstr ""
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]An error occurred during bounce."
 msgstr ""
 
 #: .\audio\audioeventtheme.cpp
@@ -259,6 +267,14 @@ msgstr ""
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
+msgstr ""
+
+#: .\audio\audiobouncer.cpp
+msgid "[AudioBouncer]Cannot bounce protected content."
+msgstr ""
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Cannot create mixdown with protected content."
 msgstr ""
 
 #: .\base\model\actiondescriptions.cpp

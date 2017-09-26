@@ -52,6 +52,10 @@ msgstr "(Dejar parte)"
 msgid "[StemRenderer](Muted)"
 msgstr "(Muteado)"
 
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Protected)"
+msgstr "(Protegido)"
+
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
 msgstr "(Copia compartida)"
@@ -156,6 +160,10 @@ msgstr "Agregar..."
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "Ya está en el pool:"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]An error occurred during bounce."
+msgstr "Ocurrió un error durante el bounce."
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
@@ -266,6 +274,14 @@ msgstr "Puente"
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "Creando vista previa..."
+
+#: .\audio\audiobouncer.cpp
+msgid "[AudioBouncer]Cannot bounce protected content."
+msgstr "No se puede hacer bounce de contenido protegido."
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Cannot create mixdown with protected content."
+msgstr "No es posible crear una mezcla con contenido protegido."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"

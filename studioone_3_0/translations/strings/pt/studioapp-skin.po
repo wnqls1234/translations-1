@@ -204,6 +204,10 @@ msgstr "&lt;&lt; Adicionar"
 msgid "[SearchBar](Not searchable)"
 msgstr "(Não pesquisável)"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]+"
+msgstr "+"
+
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]+"
 msgstr "+"
@@ -219,6 +223,10 @@ msgstr "+"
 #: .\engine\videoplayer.xml
 msgid "[VideoOffset]+"
 msgstr "+"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]-"
+msgstr "-"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorInplaceView]-"
@@ -479,6 +487,10 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
+
+#: .\devices\transport.xml
+msgid "[TransportPanel.MasterPart]@cmd.title[Console|Mono]"
+msgstr "@cmd.title[Console|Mono]"
 
 #: .\engine\song.xml
 msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
@@ -1000,12 +1012,16 @@ msgstr "Adicionar..."
 msgid "[MusicDeviceOptions]Aftertouch"
 msgstr "Aftertouch"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Album"
+msgstr "Álbum"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Album"
 msgstr "Álbum"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Album"
+msgid "[TitleAlbumNotes]Album"
 msgstr "Álbum"
 
 #: .\project\project.xml
@@ -1100,12 +1116,16 @@ msgstr "Arranjador"
 msgid "[DetailedInfoTable]Arranger"
 msgstr "Arranjador"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artist"
+msgstr "Artista"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artist"
 msgstr "Artista"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Artist"
+msgid "[TitleAlbumNotes]Artist"
 msgstr "Artista"
 
 #: .\project\project.xml
@@ -1127,6 +1147,10 @@ msgstr "Artista(s) ou Intérprete(s)"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "Artista(s) ou Intérprete(s)"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artwork"
+msgstr "Arte"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artwork"
@@ -1700,13 +1724,17 @@ msgstr "Liga/Desl. Metrônomo"
 msgid "[AutomationInspectorButtonTable]Click On/Off"
 msgstr "Liga/Desl. Metrônomo"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioOutput.Channel.Content]Click Volume"
-msgstr "Volume do Metrônomo"
-
 #: .\engine\inspector.xml
 msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "Volume do Metrônomo"
+
+#: .\app\shared.xml
+msgid "[PopupSliderMetronomeVolume]Click Volume: @value[]"
+msgstr "Volume do Click: @value[]"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Click Volume: @value[]"
+msgstr "Volume do Click: @value[]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Click in Play"
@@ -2372,10 +2400,6 @@ msgstr "Edição"
 msgid "[TransportPanel]Edit"
 msgstr "Edição"
 
-#: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Edit"
-msgstr "Edição"
-
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "Editar Automação @cmd[Automation|Show Current Parameter]"
@@ -2456,6 +2480,10 @@ msgstr "Ativar &apos;Reproduzir Sobreposições&apos; para novas pistas de áudi
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "Ativar &apos;Reproduzir Sobreposições&apos; para novas pistas de áudio"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Enable Content Protection"
+msgstr "Ativar Proteção de Conteúdo"
+
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
 msgstr "Ativar Monitoração por Hardware"
@@ -2507,6 +2535,10 @@ msgstr "Ativar monitoração de baixa latência para instrumentos"
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
 msgstr "Ativar compensação de declíneo (+3dB/oit. em Ruído Rosa)"
+
+#: .\app\options.xml
+msgid "[ConsoleOption]Enable undo"
+msgstr "Ativar Desfazer"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2844,6 +2876,10 @@ msgstr "Gerador"
 msgid "[ArtistProfile]Genre"
 msgstr "Gênero"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Genre"
+msgstr "Gênero"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Genre"
 msgstr "Gênero"
@@ -3011,6 +3047,10 @@ msgstr "ISRC"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
 msgstr "Ícone"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Identifier"
+msgstr "Identificador"
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
@@ -3864,6 +3904,14 @@ msgstr "Monitoração segue gravação"
 msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
 msgstr "Monitoração silencia reprodução (Estilo Fita)"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Mono"
+msgstr "Mono"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mono"
+msgstr "Mono"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Mais informações"
@@ -3875,6 +3923,10 @@ msgstr "Mais informações"
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
 msgstr "Filme não Carregado"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Multitrack File Properties"
+msgstr "Propriedades do Arquivo Multipista"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartProperties]Music Part Properties"
@@ -4070,6 +4122,10 @@ msgstr "Repetir Nota"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
+msgstr "Notas"
+
+#: .\engine\songdialogs.xml
+msgid "[TitleAlbumNotes]Notes"
 msgstr "Notas"
 
 #: .\devices\musicdevices.xml
@@ -4760,6 +4816,10 @@ msgstr "Entrada de Gravação"
 msgid "[AudioTrackControlsContent]Record Input"
 msgstr "Entrada de Gravação"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Record Label"
+msgstr "Selo da Gravação"
+
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Record Level"
 msgstr "Nível de Gravação"
@@ -4803,6 +4863,10 @@ msgstr "Gravar informação de tempo em arquivos de áudio"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Recording Device"
 msgstr "Dispositivo de Gravação"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Release Year"
+msgstr "Ano de Lançamento"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Release audio device in background"
@@ -4882,6 +4946,10 @@ msgstr "Remover Arquivo"
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Remove Image"
+msgstr "Remover Imagem"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Remove Image"
 msgstr "Remover Imagem"
 
 #: .\ccl\common.xml
@@ -5178,6 +5246,10 @@ msgstr "Selecionar"
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Select Image"
+msgstr "Selecionar Imagem"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Select Image"
 msgstr "Selecionar Imagem"
 
 #: .\ccl\common.xml
@@ -6168,6 +6240,10 @@ msgstr "Timestretch"
 msgid "[TransportPanel]Timing"
 msgstr "Fórmula"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Title"
+msgstr "Título"
+
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Title"
 msgstr "Título"
@@ -6177,7 +6253,7 @@ msgid "[SongMetaInfoOption]Title"
 msgstr "Título"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Title"
+msgid "[TitleAlbumNotes]Title"
 msgstr "Título"
 
 #: .\app\melodyne.xml
@@ -6259,6 +6335,10 @@ msgstr "Tempo da Pista"
 #: .\project\project.xml
 msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "Pista está desativada"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Track range"
+msgstr "Faixa da pista"
 
 #: .\app\windowclasses.xml
 msgid "[TrackList]TrackList"
@@ -6380,6 +6460,10 @@ msgstr "Desinstalar"
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
 msgstr "Remover instrumento e retirá-lo do rack. Esta opção só está disponível se outras pistas não estiverem utilizando o instrumento."
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Update"
+msgstr "Atualizar"
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]Update"
 msgstr "Atualizar"
@@ -6435,6 +6519,14 @@ msgstr "Utilizar dither para reprodução e exportação de arquivos de áudio"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
 msgstr "Utilizar monitoração nativa de baixa latência ao invés de monitoração por hardware"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of events"
+msgstr "Utilizar faixa dos eventos"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of track markers"
+msgstr "Utilizar faixa dos marcadores de pista"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Use realtime processing"
@@ -6561,7 +6653,7 @@ msgid "[InplaceOptions]Visibility"
 msgstr "Visibilidade"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Visit Artist Website"
+msgid "[ArtworkPage]Visit Artist Website"
 msgstr "Visitar Página do Artista"
 
 #: .\engine\mediapool.xml
@@ -6653,7 +6745,7 @@ msgid "[SongMetaInfoOption]Year"
 msgstr "Ano"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Year"
+msgid "[TitleAlbumNotes]Year"
 msgstr "Ano"
 
 #: .\project\project.xml
@@ -6715,6 +6807,27 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SongPopup.Info]Album"
+#~ msgstr "Álbum"
+
+#~ msgid "[SongPopup.Info]Artist"
+#~ msgstr "Artista"
+
+#~ msgid "[AudioOutput.Channel.Content]Click Volume"
+#~ msgstr "Volume do Metrônomo"
+
+#~ msgid "[SongPopup.Info]Edit"
+#~ msgstr "Edição"
+
+#~ msgid "[SongPopup.Info]Title"
+#~ msgstr "Título"
+
+#~ msgid "[SongPopup.Info]Visit Artist Website"
+#~ msgstr "Visitar Página do Artista"
+
+#~ msgid "[SongPopup.Info]Year"
+#~ msgstr "Ano"
 
 #~ msgid "[SpectrumMeterSettings]Seg."
 #~ msgstr "Seg."

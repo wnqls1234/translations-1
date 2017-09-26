@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\localization\localeinfo.cpp
 msgid "[Locales]%(1) days ago"
@@ -12,6 +11,10 @@ msgstr "%(1) dni temu"
 #: .\plugins\servicemanager.cpp
 msgid "[ServiceManager]%(1) failed!"
 msgstr "%(1) nie działa!"
+
+#: .\plugins\plugcollect.cpp
+msgid "[PlugIns]%(1) ignored, because it crashed before."
+msgstr "Zignorowano %(1), ponieważ generował błędy. "
 
 #: .\localization\localeinfo.cpp
 msgid "[Locales]%(1) months ago"
@@ -192,3 +195,4 @@ msgstr "min"
 #: .\localization\localeinfo.cpp
 msgid "[Locales]sec"
 msgstr "s"
+

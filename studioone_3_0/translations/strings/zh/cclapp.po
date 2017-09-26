@@ -381,8 +381,8 @@ msgid "[FileOperations]Do you want to move this folder to \"%(1)\"?"
 msgstr "是否将文件夹移至\"%(1)\"?"
 
 #: .\documents\autosaver.cpp
-msgid "[Autosave]Do you want to open the backup? The original file will be kept as a version then."
-msgstr "是否打开备份？打开后源文件将被保存为一个版本。"
+msgid "[Autosave]Do you want to open the backup?"
+msgstr "是否打开备份？"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
@@ -1158,6 +1158,10 @@ msgstr "文件正在使用."
 msgid "[ImageSelector]The image size is limited to %(1) x %(2). Do you want to scale the image?"
 msgstr "图像大小限制为%(1) x %(2). 是否进行调整?"
 
+#: .\documents\autosaver.cpp
+msgid "[Autosave]The original file will be kept as a version then."
+msgstr "打开后源文件将被保存为一个版本。"
+
 #: .\documents\documenttemplates.cpp
 msgid "[Documents]The template could not be saved!"
 msgstr "无法保存此模板!"
@@ -1333,6 +1337,9 @@ msgstr "默认"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "其他"
+
+#~ msgid "[Autosave]Do you want to open the backup? The original file will be kept as a version then."
+#~ msgstr "是否打开备份？打开后源文件将被保存为一个版本。"
 
 #~ msgid "[Documents]Do you want to save a copy of %(1) as format %(2)?"
 #~ msgstr "是否将%(1)的副本保存为格式%(2)?"

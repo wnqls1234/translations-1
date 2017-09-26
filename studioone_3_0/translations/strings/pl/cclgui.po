@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -298,9 +297,7 @@ msgid "[FileType]JPEG File"
 msgstr "Plik JPEG"
 
 #: .\dialogs\commandeditor.cpp
-msgid ""
-"[CommandEditor]Key is already assigned to:\n"
-"%(1)"
+msgid "[CommandEditor]Key is already assigned to:\n%(1)"
 msgstr "Klawisz jest już przypisany do:\n%(1)"
 
 #: .\commands.cpp
@@ -495,6 +492,10 @@ msgstr "Nagrywaj"
 msgid "[WebView]Reload Page"
 msgstr "Przeładuj stronę"
 
+#: .\itemviews\dropbox.cpp
+msgid "[DropBox]Remove %(1)"
+msgstr "Usuń %(1)"
+
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Button"
 msgstr "Usuń przycisk"
@@ -656,7 +657,6 @@ msgid "[Alert]Yes"
 msgstr "Tak"
 
 #: .\dialogs\useroptionmodel.cpp
-msgid ""
-"[UserOption]You have made changes to the setup. Do you want to apply the "
-"changes?"
+msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
 msgstr "Dokonałeś zmian w konfiguracji. Czy chcesz zastosować zmiany?"
+

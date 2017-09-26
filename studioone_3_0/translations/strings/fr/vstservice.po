@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\vst2\vstplugregistry.cpp
-msgid "[VST]%(1) ignored, because it crashed before. "
-msgstr "[VST]%(1) ignoré pour cause de plantage antérieur. "
-
 #: .\vst3\vst3loader.cpp
 msgid "[VST]Adding VST3 Plug-In %(1)..."
 msgstr "Ajout du Plug-In VST3  %(1)..."
@@ -71,3 +67,6 @@ msgstr "Programme VST2"
 #: .\vst3\vst3presethandler.cpp
 msgid "[FileType]VST3 Preset"
 msgstr "Preset VST3"
+
+#~ msgid "[VST]%(1) ignored, because it crashed before. "
+#~ msgstr "[VST]%(1) ignoré pour cause de plantage antérieur. "

@@ -52,6 +52,10 @@ msgstr "(空白部分)"
 msgid "[StemRenderer](Muted)"
 msgstr "(静音)"
 
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Protected)"
+msgstr "(受保护的)"
+
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
 msgstr "(共享复制)"
@@ -156,6 +160,10 @@ msgstr "添加..."
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "已在素材池中:"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]An error occurred during bounce."
+msgstr "弹起时出现错误。"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
@@ -266,6 +274,14 @@ msgstr "桥"
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "创建预览..."
+
+#: .\audio\audiobouncer.cpp
+msgid "[AudioBouncer]Cannot bounce protected content."
+msgstr "无法弹起受保护内容。"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Cannot create mixdown with protected content."
+msgstr "无法针对受保护内容创建混音。"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"

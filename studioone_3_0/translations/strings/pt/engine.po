@@ -52,6 +52,10 @@ msgstr "(Deixar Parte)"
 msgid "[StemRenderer](Muted)"
 msgstr "(Silenciado)"
 
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Protected)"
+msgstr "(Protegido)"
+
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
 msgstr "(Cópia Compartilhada)"
@@ -156,6 +160,10 @@ msgstr "Adicionar..."
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "Já no Pool:"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]An error occurred during bounce."
+msgstr "Ocorreu um erro durante a consolidação."
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
@@ -266,6 +274,14 @@ msgstr "Passagem"
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "Previsão da Construção..."
+
+#: .\audio\audiobouncer.cpp
+msgid "[AudioBouncer]Cannot bounce protected content."
+msgstr "Não permitido consolidar conteúdo protegido."
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Cannot create mixdown with protected content."
+msgstr "Não permitido criar mixagem com conteúdo protegido."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"

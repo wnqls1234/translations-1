@@ -4,17 +4,17 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\vst2\vstplugregistry.cpp
-msgid "[VST]%(1) ignored, because it crashed before. "
-msgstr "%(1) è stato ignorato, perché è andato in crash prima."
-
 #: .\vst3\vst3loader.cpp
 msgid "[VST]Adding VST3 Plug-In %(1)..."
 msgstr "Aggiunta di plug-in VST3 %(1)..."
 
 #: .\vstuseroption.cpp
-msgid "[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize on next startup?"
-msgstr "Al prossimo avvio, vuoi una nuova scansione dei plug-in VST che non sono stati inizializzati?"
+msgid ""
+"[VSTUserOption]Do you want to rescan VST Plug-Ins which failed to initialize "
+"on next startup?"
+msgstr ""
+"Al prossimo avvio, vuoi una nuova scansione dei plug-in VST che non sono "
+"stati inizializzati?"
 
 #: .\vst2\vstplugregistry.cpp
 msgid "[VST]Found Plug-In Shell %(1)..."
@@ -68,3 +68,5 @@ msgstr "Programma VST2"
 msgid "[FileType]VST3 Preset"
 msgstr "Preset VST3"
 
+#~ msgid "[VST]%(1) ignored, because it crashed before. "
+#~ msgstr "%(1) è stato ignorato, perché è andato in crash prima."

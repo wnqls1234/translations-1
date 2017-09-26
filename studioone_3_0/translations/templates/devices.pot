@@ -300,6 +300,10 @@ msgstr ""
 msgid "[PerformanceMonitor]CPU"
 msgstr ""
 
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Cannot render protected content: %(1)"
+msgstr ""
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
 msgstr ""
@@ -921,6 +925,7 @@ msgid "[MonitorProcessing]Monitor FX"
 msgstr ""
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Mono"
 msgstr ""
 

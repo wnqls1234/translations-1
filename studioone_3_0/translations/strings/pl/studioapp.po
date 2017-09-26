@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\projectdocument.cpp
 msgid "[FileType]$APPNAME Project"
@@ -44,6 +43,10 @@ msgstr "Pliki audio"
 #: .\appoptions.cpp
 msgid "[Options]Automation"
 msgstr "Automatyka"
+
+#: .\sidebar.cpp
+msgid "[Command]Browser"
+msgstr "Przeglądarka"
 
 #: .\soundsethandler.cpp
 msgid "[Tags]Character"
@@ -189,6 +192,10 @@ msgstr "FX miksu"
 msgid "[Sidebar]Multi Instruments"
 msgstr "Multi-instrumenty"
 
+#: .\sidebar.cpp
+msgid "[Sidebar]Multitrack Files"
+msgstr ""
+
 #: .\sidebar.filetypes.cpp
 msgid "[FileType]Musical Files"
 msgstr "Pliki muzyczne"
@@ -280,6 +287,34 @@ msgstr "Wyślij do Notion"
 #: .\automationhandler.cpp
 msgid "[AutomationHandler]Show Automation"
 msgstr "Pokaż automatykę"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Cloud"
+msgstr "Pokaż chmurę"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Effects"
+msgstr "Pokaż efekty"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Files"
+msgstr "Pokaż pliki"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Home Page"
+msgstr "Pokaż stronę startową przeglądarki"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Instruments"
+msgstr "Pokaż instrumenty"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Loops"
+msgstr "Pokaż pętle"
+
+#: .\sidebar.cpp
+msgid "[Command]Show Pool"
+msgstr "Pokaż pulę"
 
 #: .\documenthandler.cpp
 msgid "[Command]Show Project"

@@ -306,6 +306,10 @@ msgstr "CH:"
 msgid "[PerformanceMonitor]CPU"
 msgstr "CPU"
 
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Cannot render protected content: %(1)"
+msgstr "No se puede renderizar contenido protegido:%(1)"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
 msgstr "Ch"
@@ -372,7 +376,7 @@ msgstr "Conectar %(1) al %(2) Control Macro"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
-msgstr ""
+msgstr "Conectar Canal"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Connected to %(1)."
@@ -923,6 +927,7 @@ msgid "[MonitorProcessing]Monitor FX"
 msgstr "Monitor FX"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Mono"
 msgstr "Mono"
 

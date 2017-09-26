@@ -52,6 +52,10 @@ msgstr "（パートを出る）"
 msgid "[StemRenderer](Muted)"
 msgstr "（ミュート）"
 
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Protected)"
+msgstr "(保護)"
+
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
 msgstr "（共有されているコピー）"
@@ -156,6 +160,10 @@ msgstr "追加..."
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Already in Pool:"
 msgstr "プールにすでに存在:"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]An error occurred during bounce."
+msgstr "バウンス中にエラーが発生しました。"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
@@ -266,6 +274,14 @@ msgstr "ブリッジ"
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "プレビューを作成しています..."
+
+#: .\audio\audiobouncer.cpp
+msgid "[AudioBouncer]Cannot bounce protected content."
+msgstr "保護されたコンテンツはバウンスできません。"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Cannot create mixdown with protected content."
+msgstr "保護されたコンテンツでミックスダウンを作成することはできません。"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"

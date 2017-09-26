@@ -13,8 +13,12 @@ msgid "[FileType]%(1) File"
 msgstr "%(1) fichier"
 
 #: .\documents\documenttemplates.cpp
-msgid "[Documents]%(1) already exists.\nDo you want to replace it?"
-msgstr "%(1) existe déjà.\nVoulez-vous le remplacer?"
+msgid ""
+"[Documents]%(1) already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%(1) existe déjà.\n"
+"Voulez-vous le remplacer?"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]%(1) preset files were imported."
@@ -34,7 +38,8 @@ msgstr "Une copie de sauvegarde du fichier d'origine a été trouvée."
 
 #: .\documents\autosaver.cpp
 msgid "[Autosave]A backup that is newer than the original file has been found."
-msgstr "Une copie de sauvegarde plus récente que le fichier d'origine a été trouvée."
+msgstr ""
+"Une copie de sauvegarde plus récente que le fichier d'origine a été trouvée."
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]A file with this name already exists."
@@ -113,8 +118,11 @@ msgid "[Documents]Are you sure you want to revert all changes?"
 msgstr "Êtes-vous sûr de vouloir annuler tous les changements?"
 
 #: .\browser\pluginnodes.cpp
-msgid "[Browser]Are you sure you want to revert your last plug-in browser changes?"
-msgstr "Êtes-vous sûr de vouloir annuler vos derniers changements dans le navigateur de plug-ins?"
+msgid ""
+"[Browser]Are you sure you want to revert your last plug-in browser changes?"
+msgstr ""
+"Êtes-vous sûr de vouloir annuler vos derniers changements dans le navigateur "
+"de plug-ins?"
 
 #: .\browser\browser.cpp
 msgid "[Command]Ascend Root"
@@ -325,8 +333,14 @@ msgid "[UserOption]Disable"
 msgstr "Désactiver"
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
-msgstr "Voulez-vous vraiment effacer l'historique d'annulation?\n\nCette action ne peut pas être annulée."
+msgid ""
+"[Documents]Do you really want to delete the Undo History?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"Voulez-vous vraiment effacer l'historique d'annulation?\n"
+"\n"
+"Cette action ne peut pas être annulée."
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to copy these files to \"%(1)\"?"
@@ -341,7 +355,8 @@ msgid "[FileOperations]Do you want to copy this folder to \"%(1)\"?"
 msgstr "Voulez-vous copier ce dossier dans \"%(1)\"?"
 
 #: .\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to delete these files permanently from disk?"
+msgid ""
+"[FileOperations]Do you want to delete these files permanently from disk?"
 msgstr "Voulez-vous définitivement supprimer ces fichiers du disque?"
 
 #: .\presets\presetnode.cpp
@@ -353,7 +368,8 @@ msgid "[FileOperations]Do you want to delete this file permanently from disk?"
 msgstr "Voulez-vous définitivement supprimer ce fichier du disque?"
 
 #: .\fileinfo\fileoperations.cpp
-msgid "[FileOperations]Do you want to delete this folder permanently from disk?"
+msgid ""
+"[FileOperations]Do you want to delete this folder permanently from disk?"
 msgstr "Voulez-vous définitivement supprimer ce dossier du disque?"
 
 #: .\presets\presetnode.cpp
@@ -381,11 +397,12 @@ msgid "[FileOperations]Do you want to move this folder to \"%(1)\"?"
 msgstr "Voulez-vous déplacer ce dossier dans \"%(1)\"?"
 
 #: .\documents\autosaver.cpp
-msgid "[Autosave]Do you want to open the backup? The original file will be kept as a version then."
-msgstr "Voulez-vous ouvrir la copie de sauvegarde? Le fichier d'origine sera alors conservé comme version."
+msgid "[Autosave]Do you want to open the backup?"
+msgstr "Voulez-vous ouvrir la copie de sauvegarde?"
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
+msgid ""
+"[Documents]Do you want to remove the reference to it from the Recent list?"
 msgstr "Voulez-vous effacer sa référence de la liste des fichiers récents?"
 
 #: .\browser\pluginnodes.cpp
@@ -393,8 +410,11 @@ msgid "[Browser]Do you want to remove these folders?"
 msgstr "Souhaitez-vous retirer ces dossiers?"
 
 #: .\datastore\tagstore.cpp
-msgid "[TagStore]Do you want to remove these tag entries for non-existing files?"
-msgstr "Voulez-vous supprimer les balises référencées pour des fichiers n'existant pas?"
+msgid ""
+"[TagStore]Do you want to remove these tag entries for non-existing files?"
+msgstr ""
+"Voulez-vous supprimer les balises référencées pour des fichiers n'existant "
+"pas?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove this folder?"
@@ -405,12 +425,14 @@ msgid "[Application]Do you want to restart $APPNAME now?"
 msgstr "Voulez-vous faire redémarrer $APPNAME maintenant?"
 
 #: .\options\commandoption.cpp
-msgid "[UserOption]Do you want to revert the keyboard mapping scheme to \"%(1)\"?"
+msgid ""
+"[UserOption]Do you want to revert the keyboard mapping scheme to \"%(1)\"?"
 msgstr "Voulez-vous ramener le plan d'affectation de clavier sur \"%(1)\"?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save a copy of %(1) as file format \"%(2)\"?"
-msgstr "Voulez-vous sauvegarder une copie de %(1) au format de fichier \"%(2)\"?"
+msgstr ""
+"Voulez-vous sauvegarder une copie de %(1) au format de fichier \"%(2)\"?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to save your changes in %(1)?"
@@ -798,8 +820,12 @@ msgid "[Documents]Pin document to Recent Files list"
 msgstr "Attacher le document à la liste Fichiers récents"
 
 #: .\options\mainoption.cpp
-msgid "[UserOption]Please note that third party plug-ins will appear smaller if they do not support scaling."
-msgstr "Veuillez noter que les plug-ins de tierce partie apparaîtront plus petits s'ils n'acceptent pas la mise à l'échelle."
+msgid ""
+"[UserOption]Please note that third party plug-ins will appear smaller if "
+"they do not support scaling."
+msgstr ""
+"Veuillez noter que les plug-ins de tierce partie apparaîtront plus petits "
+"s'ils n'acceptent pas la mise à l'échelle."
 
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
@@ -1039,8 +1065,14 @@ msgid "[Command]Search"
 msgstr "Chercher"
 
 #: .\options\pathlist.cpp
-msgid "[PathList]Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
-msgstr "La recherche dans le dossier racine d'un volume peut être très longue.\n\nVoulez-vous vraiment ajouter %(1)?"
+msgid ""
+"[PathList]Searching the root folder of a volume might be very slow.\n"
+"\n"
+"Do you really want to add %(1)?"
+msgstr ""
+"La recherche dans le dossier racine d'un volume peut être très longue.\n"
+"\n"
+"Voulez-vous vraiment ajouter %(1)?"
 
 #: .\editing\editor.cpp
 msgid "[Edit]Select All"
@@ -1131,8 +1163,14 @@ msgid "[Command]Store as Default Preset"
 msgstr "Mémoriser comme preset par défaut"
 
 #: .\fileinfo\fileoperations.cpp
-msgid "[FileOperations]The file \"%(1)\" could not be moved to trash.\n\nDo you want to permanently delete it?"
-msgstr "Le fichier \"%(1)\" n'a pas pu être mis à la corbeille.\n\nVoulez-vous définitivement le supprimer?"
+msgid ""
+"[FileOperations]The file \"%(1)\" could not be moved to trash.\n"
+"\n"
+"Do you want to permanently delete it?"
+msgstr ""
+"Le fichier \"%(1)\" n'a pas pu être mis à la corbeille.\n"
+"\n"
+"Voulez-vous définitivement le supprimer?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file %(1) could not be found!"
@@ -1143,8 +1181,18 @@ msgid "[Documents]The file format may not preserve all content."
 msgstr "Le format de fichier peut ne pas préserver tout le contenu."
 
 #: .\documents\documentmanager.cpp
-msgid "[Documents]The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n\nAre you sure you want to continue?"
-msgstr "Le fichier a été créé avec une version plus ancienne de $APPNAME. Après sauvegarde du fichier, vous ne pourrez plus le recharger dans l'ancienne version.\n\nÊtes-vous sûr de vouloir continuer?"
+msgid ""
+"[Documents]The file has been created with an older version of $APPNAME. "
+"After saving the file you will not be able to load it in the old version "
+"again.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Le fichier a été créé avec une version plus ancienne de $APPNAME. Après "
+"sauvegarde du fichier, vous ne pourrez plus le recharger dans l'ancienne "
+"version.\n"
+"\n"
+"Êtes-vous sûr de vouloir continuer?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file is broken or could not be opened."
@@ -1155,8 +1203,16 @@ msgid "[Documents]The file is in use."
 msgstr "Le fichier est en service."
 
 #: .\options\imageselector.cpp
-msgid "[ImageSelector]The image size is limited to %(1) x %(2). Do you want to scale the image?"
-msgstr "La taille d' image est limitée à %(1) x %(2). Voulez-vous redimensionner l'image?"
+msgid ""
+"[ImageSelector]The image size is limited to %(1) x %(2). Do you want to "
+"scale the image?"
+msgstr ""
+"La taille d' image est limitée à %(1) x %(2). Voulez-vous redimensionner "
+"l'image?"
+
+#: .\documents\autosaver.cpp
+msgid "[Autosave]The original file will be kept as a version then."
+msgstr "Le fichier d'origine sera alors conservé comme version."
 
 #: .\documents\documenttemplates.cpp
 msgid "[Documents]The template could not be saved!"
@@ -1175,8 +1231,18 @@ msgid "[Presets]This file could not be imported:"
 msgstr "Ce fichier n'a pas pu être importé:"
 
 #: .\documents\packagedocument.cpp
-msgid "[Documents]This file is not compatible because it has been created with a newer version of $APPNAME.\n\nThis version: %(1)\nGenerator: %(2)"
-msgstr "Ce fichier n'est pas compatible car il a été créé avec une version plus récente de $APPNAME.\n\nCette version: %(1)\nCréateur: %(2)"
+msgid ""
+"[Documents]This file is not compatible because it has been created with a "
+"newer version of $APPNAME.\n"
+"\n"
+"This version: %(1)\n"
+"Generator: %(2)"
+msgstr ""
+"Ce fichier n'est pas compatible car il a été créé avec une version plus "
+"récente de $APPNAME.\n"
+"\n"
+"Cette version: %(1)\n"
+"Créateur: %(2)"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]This file type already exists."
@@ -1320,7 +1386,8 @@ msgstr "Bienvenue dans %(1)!"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]You do not have write permissions at this file location."
-msgstr "Vous n'avez pas les permissions pour écrire à cet emplacement de fichier."
+msgstr ""
+"Vous n'avez pas les permissions pour écrire à cet emplacement de fichier."
 
 #: .\options\serviceoption.cpp
 msgid "[UserOption]Your changes will be applied next time you start $APPNAME."
@@ -1339,4 +1406,3 @@ msgstr "autre"
 
 #~ msgid "[Documents]Loading %(1) canceled."
 #~ msgstr "Chargement %(1) annulé."
-

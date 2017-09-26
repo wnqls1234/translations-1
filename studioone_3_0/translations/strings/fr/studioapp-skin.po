@@ -204,6 +204,10 @@ msgstr "&lt;&lt; Ajouter"
 msgid "[SearchBar](Not searchable)"
 msgstr "(non recherchable)"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]+"
+msgstr "+"
+
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]+"
 msgstr "+"
@@ -219,6 +223,10 @@ msgstr "+"
 #: .\engine\videoplayer.xml
 msgid "[VideoOffset]+"
 msgstr "+"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]-"
+msgstr "-"
 
 #: .\ccl\common.xml
 msgid "[CommandEditorInplaceView]-"
@@ -479,6 +487,10 @@ msgstr "@cmd.title[Audio|Strip Silence]"
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.Detached]@cmd.title[Audio|Strip Silence]"
 msgstr "@cmd.title[Audio|Strip Silence]"
+
+#: .\devices\transport.xml
+msgid "[TransportPanel.MasterPart]@cmd.title[Console|Mono]"
+msgstr "@cmd.title[Console|Mono]"
 
 #: .\engine\song.xml
 msgid "[TrackList]@cmd.title[Device|Activate All Inserts]"
@@ -1000,12 +1012,16 @@ msgstr "Ajouter..."
 msgid "[MusicDeviceOptions]Aftertouch"
 msgstr "Aftertouch"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Album"
+msgstr "Album"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Album"
 msgstr "Album"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Album"
+msgid "[TitleAlbumNotes]Album"
 msgstr "Album"
 
 #: .\project\project.xml
@@ -1100,12 +1116,16 @@ msgstr "Arrangeur"
 msgid "[DetailedInfoTable]Arranger"
 msgstr "Arrangeur"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artist"
+msgstr "Artiste"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artist"
 msgstr "Artiste"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Artist"
+msgid "[TitleAlbumNotes]Artist"
 msgstr "Artiste"
 
 #: .\project\project.xml
@@ -1127,6 +1147,10 @@ msgstr "Artiste(s) ou interprète(s)"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]Artist(s) or Performer(s)"
 msgstr "Artiste(s) ou interprète(s)"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Artwork"
+msgstr "Pochette"
 
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Artwork"
@@ -1700,13 +1724,17 @@ msgstr "Clic On/Off"
 msgid "[AutomationInspectorButtonTable]Click On/Off"
 msgstr "Clic On/Off"
 
-#: .\devices\audiochannel.small.xml
-msgid "[AudioOutput.Channel.Content]Click Volume"
-msgstr "Volume du clic"
-
 #: .\engine\inspector.xml
 msgid "[AutomationInspectorButtonTable]Click Volume"
 msgstr "Volume du clic"
+
+#: .\app\shared.xml
+msgid "[PopupSliderMetronomeVolume]Click Volume: @value[]"
+msgstr "Volume du clic: @value[]"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Click Volume: @value[]"
+msgstr "Volume du clic: @value[]"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Click in Play"
@@ -2372,10 +2400,6 @@ msgstr "Éditer"
 msgid "[TransportPanel]Edit"
 msgstr "Éditer"
 
-#: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Edit"
-msgstr "Éditer"
-
 #: .\devices\devices.xml
 msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "Éditer l'automation @cmd[Automation|Show Current Parameter]"
@@ -2456,6 +2480,10 @@ msgstr "Activer &apos;Lire les chevauchements&apos; pour les nouvelles pistes au
 msgid "[NewSong]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "Activer &apos;Lire les chevauchements&apos; pour les nouvelles pistes audio"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Enable Content Protection"
+msgstr "Activer la protection de contenu"
+
 #: .\devices\audiochannel.narrow.xml
 msgid "[AudioOutput.Narrow]Enable Hardware Monitoring"
 msgstr "Activer l'écoute matérielle"
@@ -2507,6 +2535,10 @@ msgstr "Activer l'écoute à faible latence des instruments"
 #: .\project\analyser.xml
 msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
 msgstr "Activer la compensation de pente (+3dB/oct. pour le bruit rose)"
+
+#: .\app\options.xml
+msgid "[ConsoleOption]Enable undo"
+msgstr "Activer l'annulation"
 
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]End"
@@ -2844,6 +2876,10 @@ msgstr "Générateur"
 msgid "[ArtistProfile]Genre"
 msgstr "Genre"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Genre"
+msgstr "Genre"
+
 #: .\engine\songdialogs.xml
 msgid "[SongMetaInfoOption]Genre"
 msgstr "Genre"
@@ -3011,6 +3047,10 @@ msgstr "ISRC"
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Icon"
 msgstr "Icône"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Identifier"
+msgstr "Identifiant"
 
 #: .\app\licenser.xml
 msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
@@ -3864,6 +3904,14 @@ msgstr "Écoute de contrôle asservie à l'enregistrement"
 msgid "[InplaceOptions]Monitoring mutes playback (Tape style)"
 msgstr "L'écoute de contrôle coupe le son lu (style magnéto)"
 
+#: .\devices\audiochannel.narrow.xml
+msgid "[AudioOutput.Narrow]Mono"
+msgstr "Mono"
+
+#: .\devices\audiochannel.small.xml
+msgid "[AudioOutput.Channel.Content]Mono"
+msgstr "Mono"
+
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder.Link]More Information"
 msgstr "Plus d'infos"
@@ -3875,6 +3923,10 @@ msgstr "Plus d'infos"
 #: .\engine\videoplayer.xml
 msgid "[VideoPlayer]Movie Not Loaded"
 msgstr "Vidéo non chargée"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Multitrack File Properties"
+msgstr "Propriétés de fichier multipiste"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartProperties]Music Part Properties"
@@ -4070,6 +4122,10 @@ msgstr "Répéter notes"
 
 #: .\engine\songdialogs.xml
 msgid "[SongPopup.Notes]Notes"
+msgstr "Notes"
+
+#: .\engine\songdialogs.xml
+msgid "[TitleAlbumNotes]Notes"
 msgstr "Notes"
 
 #: .\devices\musicdevices.xml
@@ -4760,6 +4816,10 @@ msgstr "Entrée d'enregistrement"
 msgid "[AudioTrackControlsContent]Record Input"
 msgstr "Entrée d'enregistrement"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Record Label"
+msgstr "Label d'enregistrement"
+
 #: .\engine\musicdialogs.xml
 msgid "[MusicBounceDialog]Record Level"
 msgstr "Niveau d'enregistrement"
@@ -4803,6 +4863,10 @@ msgstr "Enregistrer les informations de tempo dans les fichiers audio"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Recording Device"
 msgstr "Périphérique d'enregistrement"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Release Year"
+msgstr "Année de sortie"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Device]Release audio device in background"
@@ -4882,6 +4946,10 @@ msgstr "Supprimer le fichier..."
 
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Remove Image"
+msgstr "Supprimer l'image"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Remove Image"
 msgstr "Supprimer l'image"
 
 #: .\ccl\common.xml
@@ -5179,6 +5247,10 @@ msgstr "Sélectionner"
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Select Image"
 msgstr "Sélectionner une image"
+
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Select Image"
+msgstr "Sélectionner l'image"
 
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Select Image"
@@ -6168,6 +6240,10 @@ msgstr "Timestretch"
 msgid "[TransportPanel]Timing"
 msgstr "Timing"
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Title"
+msgstr "Intitulé"
+
 #: .\ccl\common.xml
 msgid "[DocumentTemplateSaveDialog]Title"
 msgstr "Titre"
@@ -6177,8 +6253,8 @@ msgid "[SongMetaInfoOption]Title"
 msgstr "Titre"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Title"
-msgstr "Titre"
+msgid "[TitleAlbumNotes]Title"
+msgstr "Intitulé"
 
 #: .\app\melodyne.xml
 msgid "[MelodynePlaceholder]To activate this capability please install Melodyne."
@@ -6259,6 +6335,10 @@ msgstr "Temps de piste"
 #: .\project\project.xml
 msgid "[ProjectTrackControlsLength]Track is disabled"
 msgstr "La piste est désactivée"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Track range"
+msgstr "Plage de piste"
 
 #: .\app\windowclasses.xml
 msgid "[TrackList]TrackList"
@@ -6380,6 +6460,10 @@ msgstr "Désinstaller"
 msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
 msgstr "Décharger l'instrument et le retirer du rack. Cette option n'est disponible que si aucune autre piste n'utilise l'instrument."
 
+#: .\app\multitrack.xml
+msgid "[MultitrackPropertyEditor]Update"
+msgstr "Mettre à jour"
+
 #: .\project\project.xml
 msgid "[ProjectToolbar]Update"
 msgstr "Mettre à jour"
@@ -6435,6 +6519,14 @@ msgstr "Utiliser le dithering pour la lecture et l'exportation de fichier audio"
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
 msgstr "Utiliser l'écoute native à faible latence à la place de l'écoute matérielle"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of events"
+msgstr "Utiliser la plage d'événements"
+
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Use range of track markers"
+msgstr "Utiliser la plage des marqueurs de piste"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Use realtime processing"
@@ -6561,7 +6653,7 @@ msgid "[InplaceOptions]Visibility"
 msgstr "Visibilité"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Visit Artist Website"
+msgid "[ArtworkPage]Visit Artist Website"
 msgstr "Visiter le site web de l'artiste"
 
 #: .\engine\mediapool.xml
@@ -6653,7 +6745,7 @@ msgid "[SongMetaInfoOption]Year"
 msgstr "Année"
 
 #: .\engine\songdialogs.xml
-msgid "[SongPopup.Info]Year"
+msgid "[TitleAlbumNotes]Year"
 msgstr "Année"
 
 #: .\project\project.xml
@@ -6715,6 +6807,27 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[SongPopup.Info]Album"
+#~ msgstr "Album"
+
+#~ msgid "[SongPopup.Info]Artist"
+#~ msgstr "Artiste"
+
+#~ msgid "[AudioOutput.Channel.Content]Click Volume"
+#~ msgstr "Volume du clic"
+
+#~ msgid "[SongPopup.Info]Edit"
+#~ msgstr "Éditer"
+
+#~ msgid "[SongPopup.Info]Title"
+#~ msgstr "Titre"
+
+#~ msgid "[SongPopup.Info]Visit Artist Website"
+#~ msgstr "Visiter le site web de l'artiste"
+
+#~ msgid "[SongPopup.Info]Year"
+#~ msgstr "Année"
 
 #~ msgid "[SpectrumMeterSettings]Seg."
 #~ msgstr "Seg."

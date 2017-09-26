@@ -12,6 +12,10 @@ msgstr "%(1)天之前"
 msgid "[ServiceManager]%(1) failed!"
 msgstr "%(1)失败!"
 
+#: .\plugins\plugcollect.cpp
+msgid "[PlugIns]%(1) ignored, because it crashed before."
+msgstr "%(1)已忽略, 因为之前已经崩溃."
+
 #: .\localization\localeinfo.cpp
 msgid "[Locales]%(1) months ago"
 msgstr "%(1)个月之前"

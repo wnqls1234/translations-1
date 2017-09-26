@@ -306,6 +306,10 @@ msgstr "Can.:"
 msgid "[PerformanceMonitor]CPU"
 msgstr "Processeur"
 
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Cannot render protected content: %(1)"
+msgstr "Impossible de convertir un contenu protégé: %(1)"
+
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Ch"
 msgstr "Can."
@@ -372,7 +376,7 @@ msgstr "Connecter %(1) à la macrocommande %(2)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
-msgstr ""
+msgstr "Connecter le canal"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Connected to %(1)."
@@ -923,6 +927,7 @@ msgid "[MonitorProcessing]Monitor FX"
 msgstr "Effet d'écoute"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
+#: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Mono"
 msgstr "Mono"
 
