@@ -76,6 +76,10 @@ msgid "[ActionDescriptions]Activate %(1)"
 msgstr "Aktywuj %(1)"
 
 #: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All"
+msgstr ""
+
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
 msgstr "Aktywuj wszystkie %(1)"
 
@@ -111,6 +115,10 @@ msgstr "Dodaj / Usuń parametry..."
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Dodaj kanał szyny"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Bus Channel"
+msgstr ""
+
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Dodaj kanał"
@@ -134,10 +142,6 @@ msgstr "Dodaj kanał FX"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Dodaj FX na kanale \"%(1)\""
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[Command]Add Group Channel"
-msgstr "Dodaj grupę kanałów"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -377,6 +381,10 @@ msgstr "Skonfiguruj..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Połącz %(1) z kontrolką makro %(2)"
+
+#: .\macrocontrol\macrocontrolset.cpp
+msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgstr ""
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -1387,6 +1395,18 @@ msgstr "Zmień nazwę %(1)"
 msgid "[Channel]Rename Channel"
 msgstr "Zmień nazwę kanału"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Rename Channel"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channel"
+msgstr ""
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channels"
+msgstr ""
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Zmień nazwę urządzenia"
@@ -1907,3 +1927,6 @@ msgstr ""
 "teraz podłączone\n"
 "\n"
 "Czy chcesz je teraz ponownie podłączyć?"
+
+#~ msgid "[Command]Add Group Channel"
+#~ msgstr "Dodaj grupę kanałów"

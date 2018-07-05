@@ -73,6 +73,10 @@ msgid "[ActionDescriptions]Activate %(1)"
 msgstr "%(1) einschalten"
 
 #: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All"
+msgstr "Alle einschalten"
+
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
 msgstr "Alle %(1) einschalten"
 
@@ -108,6 +112,10 @@ msgstr "Parameter hinzufügen/entfernen..."
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Buskanal hinzufügen"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Bus Channel"
+msgstr "Buskanal hinzufügen"
+
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Kanal hinzufügen"
@@ -131,10 +139,6 @@ msgstr "Effektkanal hinzufügen"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Effekt auf Kanal \"%(1)\" hinzufügen"
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[Command]Add Group Channel"
-msgstr "Buskanal hinzufügen"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -373,6 +377,10 @@ msgstr "Einstellen..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Verbinde %(1) mit %(2) Makro-Steuerung"
+
+#: .\macrocontrol\macrocontrolset.cpp
+msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgstr "Verbinde %(1) mit %(2) Makro-Steuerung %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -1371,6 +1379,18 @@ msgstr "%(1) umbenennen"
 msgid "[Channel]Rename Channel"
 msgstr "Kanal umbenennen"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Rename Channel"
+msgstr "Kanal umbenennen"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channel"
+msgstr "Kanal umbenennen"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channels"
+msgstr "Kanäle umbenennen"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Gerät umbenennen"
@@ -1665,7 +1685,7 @@ msgstr "Starte Audio-Engine..."
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Starting External Devices..."
-msgstr "Starte externen Geräte..."
+msgstr "Starte externe Geräte..."
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Starting Hardware Integration..."
@@ -1855,6 +1875,9 @@ msgstr "Write"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Ihre MIDI-Konfiguration hat sich geändert. Dies kann durch ein nicht verbundenes entfernbares Gerät verursacht worden sein.\n\nMöchten Sie Ihre externen Geräte jetzt erneut anschließen?"
+
+#~ msgid "[Command]Add Group Channel"
+#~ msgstr "Buskanal hinzufügen"
 
 #~ msgid "[DeviceFolder]Add Device:"
 #~ msgstr "Gerät hinzufügen:"

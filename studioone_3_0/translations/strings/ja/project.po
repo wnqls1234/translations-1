@@ -386,6 +386,10 @@ msgstr "トラックのサイズを変更"
 msgid "[ProjectFunctions]Set Track Pause"
 msgstr "トラックの一時停止を設定"
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Event at Cursor"
+msgstr "イベントをカーソル位置で分割"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "トラックを分割"
@@ -395,12 +399,16 @@ msgid "[Command]Split Track"
 msgstr "トラックを分割"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track at Cursor"
-msgstr "トラックをカーソルで分割"
+msgid "[Command]Split Track and Event"
+msgstr "トラックとインストゥルメントを分割"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Edit]Split at Cursor"
-msgstr "カーソル位置で分割"
+msgid "[Project]Split Track and Event at Cursor"
+msgstr "トラックとイベントをカーソル位置で分割"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "トラックをカーソルで分割"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Start to burn audio disc at %(1) times"
@@ -485,6 +493,9 @@ msgstr "更新はキャンセルされました。"
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(3) のマスタリングファイル %(2) つのうち %(1) つを更新しました。"
+
+#~ msgid "[Edit]Split at Cursor"
+#~ msgstr "カーソル位置で分割"
 
 #~ msgid "[Project]Reset Marker"
 #~ msgstr "マーカーをリセット"

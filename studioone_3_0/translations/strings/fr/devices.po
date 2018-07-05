@@ -73,6 +73,10 @@ msgid "[ActionDescriptions]Activate %(1)"
 msgstr "Activer %(1)"
 
 #: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All"
+msgstr "Tout activer"
+
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
 msgstr "Tout activer %(1)"
 
@@ -108,6 +112,10 @@ msgstr "Ajouter/Supprimer des paramètres..."
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Ajouter un canal de bus"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Bus Channel"
+msgstr "Ajouter un canal de bus"
+
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Ajouter un canal"
@@ -131,10 +139,6 @@ msgstr "Ajouter un canal d'effet"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Ajouter un effet sur le canal \"%(1)\""
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[Command]Add Group Channel"
-msgstr "Ajouter un canal de groupe"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -373,6 +377,10 @@ msgstr "Configurer..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Connecter %(1) à la macrocommande %(2)"
+
+#: .\macrocontrol\macrocontrolset.cpp
+msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgstr "Connecter %(1) à la macrocommande %(2) %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -1371,6 +1379,18 @@ msgstr "Renommer %(1)"
 msgid "[Channel]Rename Channel"
 msgstr "Renommer le canal"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Rename Channel"
+msgstr "Renommer le canal"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channel"
+msgstr "Renommer le canal"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channels"
+msgstr "Renommer le canaux"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Renommer le périphérique"
@@ -1855,6 +1875,9 @@ msgstr "Écriture"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Votre configuration MIDI a changé. Cela peut être dû à des périphériques amovibles actuellement non branchés.\n\nVoulez-vous reconnecter maintenant vos périphériques externes?"
+
+#~ msgid "[Command]Add Group Channel"
+#~ msgstr "Ajouter un canal de groupe"
 
 #~ msgid "[DeviceFolder]Add Device:"
 #~ msgstr "Ajouter un périphérique:"

@@ -386,6 +386,10 @@ msgstr "Tracklänge anpassen"
 msgid "[ProjectFunctions]Set Track Pause"
 msgstr "Trackpause einstellen"
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Event at Cursor"
+msgstr "Event am Cursor schneiden"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "Track teilen"
@@ -395,12 +399,16 @@ msgid "[Command]Split Track"
 msgstr "Track teilen"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track at Cursor"
-msgstr "Track am Cursor schneiden"
+msgid "[Command]Split Track and Event"
+msgstr "Track und Event schneiden"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Edit]Split at Cursor"
-msgstr "Am Cursor schneiden"
+msgid "[Project]Split Track and Event at Cursor"
+msgstr "Track und Event am Cursor schneiden"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "Track am Cursor schneiden"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Start to burn audio disc at %(1) times"
@@ -485,6 +493,9 @@ msgstr "Die Aktualisierung wurde abgebrochen."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(1) von %(2) Masterdateien wurden in %(3) aktualisiert."
+
+#~ msgid "[Edit]Split at Cursor"
+#~ msgstr "Am Cursor schneiden"
 
 #~ msgid "[Project]Reset Marker"
 #~ msgstr "Marker zurücksetzen"

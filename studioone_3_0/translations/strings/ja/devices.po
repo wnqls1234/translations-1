@@ -73,6 +73,10 @@ msgid "[ActionDescriptions]Activate %(1)"
 msgstr "%(1) を有効化"
 
 #: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All"
+msgstr "すべてをアクティベート"
+
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
 msgstr "すべての %(1) を有効化"
 
@@ -108,6 +112,10 @@ msgstr "パラメーターを追加/削除..."
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "バスチャンネルを追加"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Bus Channel"
+msgstr "バスチャンネルを追加"
+
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "チャンネルを追加"
@@ -131,10 +139,6 @@ msgstr "FXチャンネルを追加"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "チャンネル \"%(1)\" にFXを追加"
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[Command]Add Group Channel"
-msgstr "グループチャンネルを追加"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -373,6 +377,10 @@ msgstr "設定..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "%(1) を %(2) マクロコントロールに接続"
+
+#: .\macrocontrol\macrocontrolset.cpp
+msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgstr "%(1) を %(2) マクロコントロールに接続 %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -1371,6 +1379,18 @@ msgstr "%(1) の名前を変更"
 msgid "[Channel]Rename Channel"
 msgstr "チャンネル名を変更"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Rename Channel"
+msgstr "チャンネル名を変更"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channel"
+msgstr "チャンネル名を変更"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channels"
+msgstr "チャンネル名を変更"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "デバイス名を変更"
@@ -1855,6 +1875,9 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
+#~ msgid "[Command]Add Group Channel"
+#~ msgstr "グループチャンネルを追加"
 
 #~ msgid "[DeviceFolder]Add Device:"
 #~ msgstr "デバイスを追加:"

@@ -386,6 +386,10 @@ msgstr "重置音轨大小"
 msgid "[ProjectFunctions]Set Track Pause"
 msgstr "设置音轨暂停"
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Event at Cursor"
+msgstr "在光标处分离事件"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "分离音轨"
@@ -395,12 +399,16 @@ msgid "[Command]Split Track"
 msgstr "分离音轨"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track at Cursor"
-msgstr "在光标处分裂音轨"
+msgid "[Command]Split Track and Event"
+msgstr "分离轨道和事件"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Edit]Split at Cursor"
-msgstr "在指针处分割"
+msgid "[Project]Split Track and Event at Cursor"
+msgstr "在光标处分离轨道和事件"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "在光标处分裂音轨"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Start to burn audio disc at %(1) times"
@@ -485,6 +493,9 @@ msgstr "更新已取消."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "将%(1)-%(2)主线文件更新到%(3)."
+
+#~ msgid "[Edit]Split at Cursor"
+#~ msgstr "在指针处分割"
 
 #~ msgid "[Project]Reset Marker"
 #~ msgstr "重设标记"

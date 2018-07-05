@@ -73,6 +73,10 @@ msgid "[ActionDescriptions]Activate %(1)"
 msgstr "Attiva %(1)"
 
 #: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Activate All"
+msgstr "Attiva tutto"
+
+#: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Activate All %(1)"
 msgstr "Attiva tutto %(1)"
 
@@ -108,6 +112,10 @@ msgstr "Aggiungi / Rimuovi Parametri..."
 msgid "[AudioMixer]Add Bus Channel"
 msgstr "Aggiungi canale Bus"
 
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Bus Channel"
+msgstr "Aggiungi canale Bus"
+
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add Channel"
 msgstr "Aggiungi Canale"
@@ -131,10 +139,6 @@ msgstr "Aggiungi Canale FX"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Aggiungi FX sul Canale \"%(1)\""
-
-#: .\audiomixer\audiosendfolder.cpp
-msgid "[Command]Add Group Channel"
-msgstr "Aggiungi Canale Gruppo"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -373,6 +377,10 @@ msgstr "Configura..."
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
 msgstr "Connetti %(1) a %(2) Macro Control"
+
+#: .\macrocontrol\macrocontrolset.cpp
+msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgstr "Connetti %(1) a %(2) Macro Control %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -657,7 +665,7 @@ msgstr "Fader"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Favorite"
-msgstr "favorito"
+msgstr "Preferiti"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Focus:"
@@ -1371,6 +1379,18 @@ msgstr "Rinomina %(1)"
 msgid "[Channel]Rename Channel"
 msgstr "Rinomina il canale"
 
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Rename Channel"
+msgstr "Rinomina il canale"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channel"
+msgstr "Rinomina il canale"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Rename Channels"
+msgstr "Rinomina il canali"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Rinomina Dispositivo"
@@ -1855,6 +1875,9 @@ msgstr "Scrivi"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "La configurazione MIDI è cambiata. Questo potrebbe essere dovuto a dispositivi rimossi e attualmente non inseriti. \n\n Vuoi ricollegare le periferiche esterne ora?"
+
+#~ msgid "[Command]Add Group Channel"
+#~ msgstr "Aggiungi Canale Gruppo"
 
 #~ msgid "[DeviceFolder]Add Device:"
 #~ msgstr "Aggiungi periferica"

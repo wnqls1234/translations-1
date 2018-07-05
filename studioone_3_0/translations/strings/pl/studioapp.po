@@ -25,7 +25,8 @@ msgid "[Command]Add to Project"
 msgstr "Dodaj do projektu"
 
 #: .\appmigration.cpp
-msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
+msgid ""
+"[StudioApp]An older version of $APPNAME has been found on this computer."
 msgstr "Znaleziono starszą wersję $APPNAME na tym komputerze."
 
 #: .\studioapp.cpp
@@ -77,16 +78,26 @@ msgid "[Options]Do Nothing"
 msgstr "Nic nie rób"
 
 #: .\appmigration.cpp
-msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
+msgid ""
+"[StudioApp]Do you want to import the settings from the old version of "
+"$APPNAME?"
 msgstr "Czy chcesz zaimportować ustawienia ze starej wersji $APPNAME?"
 
 #: .\projectdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
-msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych projektów?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Projects?"
+msgstr ""
+"Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych "
+"projektów?"
 
 #: .\songdocument.cpp
-msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
-msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych utworów?"
+msgid ""
+"[StudioApp]Do you want to make the current I/O Setup the default for new "
+"Songs?"
+msgstr ""
+"Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych "
+"utworów?"
 
 #: .\documenthandler.cpp
 msgid "[Command]Document"
@@ -135,6 +146,10 @@ msgstr "Typy plików"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "Pliki"
+
+#: .\studioapp.cpp
+msgid "[Command]Help"
+msgstr ""
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Home"
@@ -373,7 +388,17 @@ msgid "[Tags]Style"
 msgstr "Styl"
 
 #: .\studioapp.cpp
-msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
+msgid "[StudioApp]System Information"
+msgstr ""
+
+#: .\studioapp.cpp
+msgid "[Command]System Information"
+msgstr ""
+
+#: .\studioapp.cpp
+msgid ""
+"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
+"left."
 msgstr "Dziękujemy za wypróbowanie $APPNAME. Pozostało Ci %(1) uruchomień."
 
 #: .\studioapp.cpp
@@ -381,8 +406,14 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr "Podręcznik $APPNAME nie został jeszcze zainstalowany."
 
 #: .\soundsethandler.cpp
-msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
-msgstr "Nie udało się zainstalować następujących sound setów lub zostały one kilkakrotnie instalowane na Twoim systemie. Może to być spowodowane niepełną operacją pobierania. Czy chcesz usunąć teraz te pliki?"
+msgid ""
+"[StudioApp]The following Sound Sets failed to install or are installed "
+"multiple times on your system. This can be caused by incomplete file "
+"downloads. Do you want to delete these files now?"
+msgstr ""
+"Nie udało się zainstalować następujących sound setów lub zostały one "
+"kilkakrotnie instalowane na Twoim systemie. Może to być spowodowane niepełną "
+"operacją pobierania. Czy chcesz usunąć teraz te pliki?"
 
 #: .\soundsethandler.cpp
 msgid "[StudioApp]The package \"%(1)\" is still in use (%(2) files open)!"
@@ -431,4 +462,3 @@ msgstr "Widok"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Obszar roboczy"
-

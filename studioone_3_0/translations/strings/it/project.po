@@ -386,6 +386,10 @@ msgstr "Ridimensiona traccia"
 msgid "[ProjectFunctions]Set Track Pause"
 msgstr "Imposta pausa traccia"
 
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Event at Cursor"
+msgstr "Dividi Evento al Cursore"
+
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
 msgstr "Dividi Traccia"
@@ -395,12 +399,16 @@ msgid "[Command]Split Track"
 msgstr "Dividi Traccia"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track at Cursor"
-msgstr "Split Traccia al cursore"
+msgid "[Command]Split Track and Event"
+msgstr "Dividi Traccia ed Evento"
 
 #: .\editing\projecteditcomponent.cpp
-msgid "[Edit]Split at Cursor"
-msgstr "Dividi al cursore"
+msgid "[Project]Split Track and Event at Cursor"
+msgstr "Dividi Traccia ed Evento al Cursore"
+
+#: .\editing\projecteditcomponent.cpp
+msgid "[Project]Split Track at Cursor"
+msgstr "Split Traccia al cursore"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Start to burn audio disc at %(1) times"
@@ -485,6 +493,9 @@ msgstr "L'aggiornamento è stato annullato."
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
 msgstr "File di mastering aggiornati %(1) di %(2) nel totale %(3)."
+
+#~ msgid "[Edit]Split at Cursor"
+#~ msgstr "Dividi al cursore"
 
 #~ msgid "[Project]Reset Marker"
 #~ msgstr "Azzera Marker"
