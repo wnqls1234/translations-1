@@ -1827,6 +1827,10 @@ msgstr "Musicloop"
 msgid "[Command]Mute"
 msgstr "Stummschalten"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Mute"
+msgstr "Stumm"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Mute Event"
 msgstr "Event stummschalten"
@@ -2072,6 +2076,10 @@ msgstr "Prozent"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Prozent"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Pitch"
+msgstr "Tonhöhe"
 
 #: .\pool\mediapreviewcomponent.cpp
 msgid "[MediaPreview]Play"
@@ -2511,6 +2519,14 @@ msgstr "Eventlänge anpassen"
 msgid "[ActionDescriptions]Resize Events"
 msgstr "Eventlängen anpassen"
 
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Resolution"
+msgstr "Auflösung"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Resolution"
+msgstr "Auflösung"
+
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Restore Event FX"
 msgstr "Event-FX wiederherstellen"
@@ -2813,6 +2829,10 @@ msgstr "An Events ausrichten"
 msgid "[Command]Solo"
 msgstr "Solo"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Solo"
+msgstr "Solo"
+
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Solo Layer"
 msgstr "Ebene solo"
@@ -2902,6 +2922,14 @@ msgstr "Step-Aufnahme"
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Step Record"
 msgstr "Step-Aufnahme"
+
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Steps"
+msgstr "Steps"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Steps"
+msgstr "Steps"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]Stop"

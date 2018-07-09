@@ -1827,6 +1827,10 @@ msgstr "音乐loop"
 msgid "[Command]Mute"
 msgstr "静音"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Mute"
+msgstr "静音"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Mute Event"
 msgstr "事件静音"
@@ -2072,6 +2076,10 @@ msgstr "百分比"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "百分比"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Pitch"
+msgstr "音高"
 
 #: .\pool\mediapreviewcomponent.cpp
 msgid "[MediaPreview]Play"
@@ -2511,6 +2519,14 @@ msgstr "重置事件"
 msgid "[ActionDescriptions]Resize Events"
 msgstr "重置事件"
 
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Resolution"
+msgstr "精度"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Resolution"
+msgstr "精度"
+
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Restore Event FX"
 msgstr "存储事件FX"
@@ -2813,6 +2829,10 @@ msgstr "对齐至事件"
 msgid "[Command]Solo"
 msgstr "独奏"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Solo"
+msgstr "独奏"
+
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Solo Layer"
 msgstr "层独奏"
@@ -2902,6 +2922,14 @@ msgstr "步骤记录"
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Step Record"
 msgstr "步骤记录"
+
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Steps"
+msgstr "步骤"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Steps"
+msgstr "步骤"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]Stop"

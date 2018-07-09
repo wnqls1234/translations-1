@@ -1827,6 +1827,10 @@ msgstr "Musicloop"
 msgid "[Command]Mute"
 msgstr "Silenciar (Mute)"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Mute"
+msgstr "Silenciar"
+
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Mute Event"
 msgstr "Silenciar Evento"
@@ -2072,6 +2076,10 @@ msgstr "Percentual"
 #: .\musicediting\musiceditor.cpp
 msgid "[EnvelopeValuePresentation]Percent"
 msgstr "Percentual"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Pitch"
+msgstr "Nota"
 
 #: .\pool\mediapreviewcomponent.cpp
 msgid "[MediaPreview]Play"
@@ -2511,6 +2519,14 @@ msgstr "Ajustar Tamanho do Evento"
 msgid "[ActionDescriptions]Resize Events"
 msgstr "Ajustar Tamanho dos Eventos"
 
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Resolution"
+msgstr "Resolução"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Resolution"
+msgstr "Resolução"
+
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Restore Event FX"
 msgstr "Restaurar Efeitos de Evento"
@@ -2813,6 +2829,10 @@ msgstr "Snap (imã) nos Eventos"
 msgid "[Command]Solo"
 msgstr "Solo"
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Solo"
+msgstr "Solo"
+
 #: .\editing\tracklayercomponent.cpp
 msgid "[TrackLayers]Solo Layer"
 msgstr "Camada Solo"
@@ -2902,6 +2922,14 @@ msgstr "Gravação Passo-a-Passo"
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Step Record"
 msgstr "Gravação Passo-a-Passo"
+
+#: .\musicediting\patternbankcomponent.cpp
+msgid "[PatternSequence]Steps"
+msgstr "Passos"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Steps"
+msgstr "Passos"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]Stop"
