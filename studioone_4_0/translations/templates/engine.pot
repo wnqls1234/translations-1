@@ -971,12 +971,17 @@ msgstr ""
 msgid "[MusicPatternPartEditor]Edit Pattern Automation \"%(1)\""
 msgstr ""
 
+#: .\musicediting\patterneditcomponent.cpp
 #: .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Edit Pattern Step"
 msgstr ""
 
 #: .\musicediting\musiceditextension.cpp
 msgid "[Command]Edit Previous Pattern"
+msgstr ""
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[MusicPatternPartEditor]Edit Step Accent"
 msgstr ""
 
 #: .\editing\trackcontroller.cpp
@@ -1388,6 +1393,10 @@ msgstr ""
 msgid "[Edit]Insert Chord"
 msgstr ""
 
+#: .\musicediting\musiceditextension.cpp
+msgid "[Edit]Insert Instrument"
+msgstr ""
+
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
 msgstr ""
@@ -1581,14 +1590,6 @@ msgstr ""
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Mix"
-msgstr ""
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Erase"
-msgstr ""
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Repeat"
 msgstr ""
 
 #: .\musicediting\musicrecordcomponent.cpp
@@ -1962,10 +1963,6 @@ msgstr ""
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
-msgstr ""
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Note Repeat"
 msgstr ""
 
 #: .\song\stemrenderer.cpp
@@ -2725,6 +2722,10 @@ msgstr ""
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Shift Lane"
+msgstr ""
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[Command]Shift Lane Back"
 msgstr ""
 
 #: .\automationediting\automationtrackcomponent.cpp

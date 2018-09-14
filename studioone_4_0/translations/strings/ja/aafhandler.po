@@ -28,9 +28,17 @@ msgstr "イベントにレンダー済みでないEvent FXがあります。"
 msgid "[AAF]Audio files from content packages can not be exported."
 msgstr "コンテンツパッケージのオーディオファイルはエクスポートできません。"
 
-#: .\aafhandler.cpp
-msgid "[AAF]Only Wave and AIFF audio files can be exported."
-msgstr "WaveとAIFFのオーディオファイルのみエクスポートできます。"
+#: .\aafwriter.cpp
+msgid "[AAF]Converting %(1)"
+msgstr "%(1) を変換しています"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Embedding %(1)"
+msgstr "%(1) を埋め込んでいます"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Step %(1) of %(2)"
+msgstr "手順 %(2) 中 %(1)"
 
 #: .\aafhandler.cpp
 msgid "[AAF]The AAF export has the following issues:"
@@ -43,4 +51,7 @@ msgstr "イベントは単なるオーディオイベントではありません
 #: .\aafhandler.cpp
 msgid "[AAF]The file is not on your disk."
 msgstr "ファイルはディスク上にありません。"
+
+#~ msgid "[AAF]Only Wave and AIFF audio files can be exported."
+#~ msgstr "WaveとAIFFのオーディオファイルのみエクスポートできます。"
 

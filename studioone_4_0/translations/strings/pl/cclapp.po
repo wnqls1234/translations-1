@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
+"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,9 +17,7 @@ msgstr "Plik %(1)"
 msgid ""
 "[Documents]%(1) already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%(1) już istnieje.\n"
-"Czy chcesz go zastąpić?"
+msgstr "%(1) już istnieje.\nCzy chcesz go zastąpić?"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]%(1) preset files were imported."
@@ -335,10 +333,7 @@ msgid ""
 "[Documents]Do you really want to delete the Undo History?\n"
 "\n"
 "This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz wyczyścić historię?\n"
-"\n"
-"Tej operacji nie można cofnąć."
+msgstr "Czy na pewno chcesz wyczyścić historię?\n\nTej operacji nie można cofnąć."
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Do you want to copy these files to \"%(1)\"?"
@@ -401,9 +396,7 @@ msgstr "Czy chcesz otworzyć kopię zapasową?"
 #: .\documents\documentmanager.cpp
 msgid ""
 "[Documents]Do you want to remove the reference to it from the Recent list?"
-msgstr ""
-"Czy chcesz usunąć z listy ostatnio otwieranych dokumentów odniesienia do "
-"tego pliku?"
+msgstr "Czy chcesz usunąć z listy ostatnio otwieranych dokumentów odniesienia do tego pliku?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
@@ -422,7 +415,7 @@ msgstr "Czy chcesz usunąć ten folder?"
 msgid ""
 "[Presets]Do you want to rescan blacklisted plug-ins next time you start "
 "$APPNAME?"
-msgstr ""
+msgstr "Czy chcesz przeskanować wtyczki z czarnej listy przy następnym uruchomieniu $APPNAME?"
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
@@ -464,7 +457,7 @@ msgstr "Edytuj"
 
 #: .\documents\notepad.cpp
 msgid "[Notepad]Edit Note..."
-msgstr ""
+msgstr "Edytuj notatkę..."
 
 #: .\actions\trashbinpanel.cpp
 msgid "[TrashBin]Empty Trash Bin"
@@ -584,9 +577,7 @@ msgstr "Ukryj"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]High DPI Mode will be changed next time you start $APPNAME."
-msgstr ""
-"Tryb wysokiej rozdzielczości zostanie zmieniony przy następnym uruchomieniu "
-"$APPNAME."
+msgstr "Tryb wysokiej rozdzielczości zostanie zmieniony przy następnym uruchomieniu $APPNAME."
 
 #: .\navigation\navigatorbase.cpp
 msgid "[Command]Home"
@@ -694,7 +685,7 @@ msgstr "Przenieś"
 
 #: .\editing\scaleview.cpp
 msgid "[Scale]Move"
-msgstr ""
+msgstr "Przenieś"
 
 #: .\browser\filedraghandler.cpp
 msgid "[FileDraghandler]Move to \"%(1)\""
@@ -710,7 +701,7 @@ msgstr "Przenieś do folderu głównego"
 
 #: .\editing\scaleview.cpp
 msgid "[Scale]Move, Zoom"
-msgstr ""
+msgstr "Przenieś, powiększ"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving %(1)"
@@ -838,11 +829,9 @@ msgstr "Przypnij dokument do listy ostatnio otwieranych plików"
 
 #: .\options\mainoption.cpp
 msgid ""
-"[UserOption]Please note that third party plug-ins will appear smaller if "
+"[UserOption]Please note that third-party plug-ins will appear smaller if "
 "they do not support scaling."
-msgstr ""
-"Należy pamiętać, że pluginy innych firm będą mniejsze, jeśli nie obsługują "
-"skalowania."
+msgstr "Zwróć uwagę, że interfejs wtyczek innych producentów może być mniejszy, jeżeli te nie obsługują skalowania."
 
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
@@ -870,7 +859,7 @@ msgstr "Kolekcja zestawów"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]Preset file export failed."
-msgstr ""
+msgstr "Nie udało się wyeksportować zestawu."
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Preset:"
@@ -1007,7 +996,7 @@ msgstr "Resetuj"
 
 #: .\presets\presetmanager.cpp
 msgid "[Command]Reset Blacklist"
-msgstr ""
+msgstr "Resetuj czarną listę"
 
 #: .\browser\browser.cpp
 msgid "[Browser]Reset Root"
@@ -1094,10 +1083,7 @@ msgid ""
 "[PathList]Searching the root folder of a volume might be very slow.\n"
 "\n"
 "Do you really want to add %(1)?"
-msgstr ""
-"Przeszukiwanie folderu głównego woluminu może być bardzo powolne.\n"
-"\n"
-"Czy naprawdę chcesz dodać %(1)?"
+msgstr "Przeszukiwanie folderu głównego woluminu może być bardzo powolne.\n\nCzy naprawdę chcesz dodać %(1)?"
 
 #: .\editing\editor.cpp
 msgid "[Edit]Select All"
@@ -1161,7 +1147,7 @@ msgstr "Nie można przenieść niektórych plików."
 
 #: .\presets\presetmanager.cpp
 msgid "[Presets]Some plug-ins will be updated next time you start $APPNAME."
-msgstr ""
+msgstr "niektóre wtyczki zostaną zaktualizowane po następnym uruchomieniu $APPNAME."
 
 #: .\etc\multiprogress.cpp
 msgid "[MultiProgress]Step %(1) of %(2)"
@@ -1196,10 +1182,7 @@ msgid ""
 "[FileOperations]The file \"%(1)\" could not be moved to trash.\n"
 "\n"
 "Do you want to permanently delete it?"
-msgstr ""
-"Plik \"%(1)\" nie może zostać przeniesiony do kosza.\n"
-"\n"
-"Czy chcesz go trwale usunąć?"
+msgstr "Plik \"%(1)\" nie może zostać przeniesiony do kosza.\n\nCzy chcesz go trwale usunąć?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file %(1) could not be found!"
@@ -1216,11 +1199,7 @@ msgid ""
 "again.\n"
 "\n"
 "Are you sure you want to continue?"
-msgstr ""
-"Ten plik został utworzony w starszej wersji $APPNAME. Po zapisaniu pliku nie "
-"będzie mógł go już otworzyć w starej wersji.\n"
-"\n"
-"Czy na pewno chcesz kontynuować?"
+msgstr "Ten plik został utworzony w starszej wersji $APPNAME. Po zapisaniu pliku nie będzie mógł go już otworzyć w starej wersji.\n\nCzy na pewno chcesz kontynuować?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]The file is broken or could not be opened."
@@ -1234,9 +1213,7 @@ msgstr "Plik jest w użyciu."
 msgid ""
 "[ImageSelector]The image size is limited to %(1) x %(2). Do you want to "
 "scale the image?"
-msgstr ""
-"Rozmiar obrazu jest ograniczony do %(1) x %(2). Czy chcesz przeskalować "
-"obraz?"
+msgstr "Rozmiar obrazu jest ograniczony do %(1) x %(2). Czy chcesz przeskalować obraz?"
 
 #: .\documents\autosaver.cpp
 msgid "[Autosave]The original file will be kept as a version then."
@@ -1265,12 +1242,7 @@ msgid ""
 "\n"
 "This version: %(1)\n"
 "Generator: %(2)"
-msgstr ""
-"Ten plik nie jest kompatybilny, ponieważ został utworzony w nowszej wersji "
-"$APPNAME.\n"
-"\n"
-"Ta wersja: %(1)\n"
-"Generator: %(2)"
+msgstr "Ten plik nie jest kompatybilny, ponieważ został utworzony w nowszej wersji $APPNAME.\n\nTa wersja: %(1)\nGenerator: %(2)"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]This file type already exists."
@@ -1422,7 +1394,7 @@ msgstr "Zmiany zostaną wprowadzone przy następnym uruchomieniu  $APPNAME."
 
 #: .\editing\scaleview.cpp
 msgid "[Scale]Zoom"
-msgstr ""
+msgstr "Powiększenie"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]default"
@@ -1431,3 +1403,10 @@ msgstr "domyślne"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "pozostałe"
+
+#~ msgid ""
+#~ "[UserOption]Please note that third party plug-ins will appear smaller if "
+#~ "they do not support scaling."
+#~ msgstr ""
+#~ "Należy pamiętać, że pluginy innych firm będą mniejsze, jeśli nie "
+#~ "obsługują skalowania."

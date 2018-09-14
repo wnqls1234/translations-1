@@ -139,11 +139,7 @@ msgid ""
 "\n"
 "Image: %(1)\n"
 "Location: %(2)"
-msgstr ""
-"Czy chcesz utworzyć obraz DDP?\n"
-"\n"
-"Obraz: %(1)\n"
-"Lokalizacja: %(2)"
+msgstr "Czy chcesz utworzyć obraz DDP?\n\nObraz: %(1)\nLokalizacja: %(2)"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]EAN/UPC"
@@ -305,17 +301,13 @@ msgstr "Brak urządzenia"
 msgid ""
 "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
 "an audio disc can only be 80 minutes long."
-msgstr ""
-"Nie wszystkie utwory mogą zostać dodane na dysk audio, ponieważ te mogą mieć "
-"do 80 minut długości."
+msgstr "Nie wszystkie utwory mogą zostać dodane na dysk audio, ponieważ te mogą mieć do 80 minut długości."
 
 #: .\publish\audiodiscpublisher.cpp
 msgid ""
 "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
 "an audio disc can only contain up to 99 tracks."
-msgstr ""
-"Nie wszystkie utwory mogą zostać dodane na dysk audio, ponieważ te mogą "
-"zawierać do 99 utworów."
+msgstr "Nie wszystkie utwory mogą zostać dodane na dysk audio, ponieważ te mogą zawierać do 99 utworów."
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
@@ -405,7 +397,7 @@ msgstr "Ustaw pauzę utworu"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Event at Cursor"
-msgstr ""
+msgstr "Podziel obiekt przy kursorze"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
@@ -417,11 +409,11 @@ msgstr "Podziel utwór"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Command]Split Track and Event"
-msgstr ""
+msgstr "Podziel utwór i obiekt"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Track and Event at Cursor"
-msgstr ""
+msgstr "Podziel utwór i obiekt przy kursorze"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Track at Cursor"
@@ -445,14 +437,7 @@ msgid ""
 "\n"
 "If you have a UPC, you just need to add 0 at the beginning to form a valid "
 "EAN code."
-msgstr ""
-"Kod EAN nie jest poprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 13 znaków numerycznych.\n"
-"\n"
-"Przykład: 036000291452\n"
-"\n"
-"Jeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
+msgstr "Kod EAN nie jest poprawnie sformatowany.\n\nPowinien on zawierać 13 znaków numerycznych.\n\nPrzykład: 036000291452\n\nJeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
 
 #: .\editing\projecttrackcomponent.cpp
 msgid ""
@@ -462,12 +447,7 @@ msgid ""
 "characters.\n"
 "\n"
 "Example: USPR37300012"
-msgstr ""
-"Kod ISRC jest niepoprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 12 znaków alfanumerycznych.\n"
-"\n"
-"Przykład: USPR37300012"
+msgstr "Kod ISRC jest niepoprawnie sformatowany.\n\nPowinien on zawierać 12 znaków alfanumerycznych.\n\nPrzykład: USPR37300012"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"

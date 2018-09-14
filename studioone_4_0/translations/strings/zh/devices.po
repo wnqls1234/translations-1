@@ -68,6 +68,10 @@ msgstr "设备名称已经存在."
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr "备注项目可以被安插进3个或更多的工具中"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Activate"
+msgstr "激活"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Activate %(1)"
 msgstr "启动 %(1)"
@@ -95,6 +99,10 @@ msgstr "启用设备"
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Activate Output of '%(1)'"
 msgstr "启用 '%(1)' 的输出"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Active"
+msgstr "启用"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Add %(1)"
@@ -167,6 +175,14 @@ msgstr "增加声音..."
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add VCA Channel"
 msgstr "增加VCA音轨"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Aftertouch"
+msgstr "触后"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Aftertouch"
+msgstr "触后"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
@@ -284,6 +300,10 @@ msgstr "自动穿插-出"
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Available"
 msgstr "可用"
+
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Browser"
+msgstr "浏览器"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
@@ -684,6 +704,14 @@ msgstr "小节快进"
 msgid "[AudioFXGraph]Frequency Split"
 msgstr "分离频率"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate"
+msgstr "Gate"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate %f(1:1)"
+msgstr "门限 %f(1:1)"
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
 msgstr "常规MIDI控制界面, 使用了未知的传输类型. 此设备模型功能设置为MIDI获悉."
@@ -784,6 +812,10 @@ msgstr "插入FX Chain"
 msgid "[SynthCombinator]Insert Note Event Splitter"
 msgstr "插入备注事件分离器"
 
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Insert Selected Instrument"
+msgstr "插入已选择的乐器"
+
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert Splitter"
 msgstr "插入分离器"
@@ -834,6 +866,18 @@ msgstr "反转"
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Invert '%(1)' Transformation"
 msgstr "反转 '%(1)' 变形"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Erase Mode"
+msgstr "键盘消除模式"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Key Remote"
+msgstr "键盘遥控"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Remote"
+msgstr "键盘遥控"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
@@ -1076,6 +1120,10 @@ msgstr "标准"
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "尚未连接"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Erase"
+msgstr "消除记录"
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Note FX"
 msgstr "备注 FX"
@@ -1083,6 +1131,14 @@ msgstr "备注 FX"
 #: .\musicmixer\musiceffect.cpp
 msgid "[FileType]Note FX Preset"
 msgstr "备注 FX 预设"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Repeat"
+msgstr "重复记录"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Note Repeat"
+msgstr "重复记录"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge"
@@ -1236,6 +1292,14 @@ msgstr "上一个通道"
 msgid "[Command]Previous Scene"
 msgstr "上一个场景"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Quantize"
+msgstr "量化"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Quantize"
+msgstr "量化"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr "查询 %(1)设备信息"
@@ -1287,6 +1351,14 @@ msgstr "相对"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remote"
 msgstr "遥控"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Base Pitch"
+msgstr "遥控基音音高"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Range"
+msgstr "遥控范围"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Remove"
@@ -1411,6 +1483,10 @@ msgstr "重命名..."
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Reorder %(1)"
 msgstr "录音器 %(1)"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Repeat Rate"
+msgstr "重复音符长度"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace %(1)"
@@ -1552,6 +1628,10 @@ msgstr "设置音轨颜色"
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr "设置直接输入"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Gate %(1)"
+msgstr "设置门限 %(1)"
+
 #: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Set Input"
 msgstr "设置输入"
@@ -1563,6 +1643,10 @@ msgstr "设置输出"
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
 msgstr "设置播放开始标记"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Rate %(1)"
+msgstr "设置门限 %(1)"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Set Send Target"
@@ -1636,9 +1720,33 @@ msgstr "控制台中显示"
 msgid "[AudioInsert]Sidechains"
 msgstr "侧链"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single"
+msgstr "单独的"
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "单精度 (32位)"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Base Pitch"
+msgstr "单独的基音音高"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Mode"
+msgstr "Single 模式"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Single Mode"
+msgstr "Single 模式"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Pitch Symbolic"
+msgstr "Single 音高符号"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Repeat Pitch"
+msgstr "Single 重复音高"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Small"
@@ -1727,6 +1835,10 @@ msgstr "切换为音频设备%(1)..."
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Talkback"
 msgstr "回放"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Tap Tempo"
+msgstr "节拍速度"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"

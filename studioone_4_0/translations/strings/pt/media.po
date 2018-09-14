@@ -32,6 +32,10 @@ msgstr "Aumentado"
 msgid "[MediaTime]Bars"
 msgstr "Compassos"
 
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "Batida-Linear"
+
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
 msgstr "Pontos de Bend"
@@ -260,6 +264,10 @@ msgstr "Deslocamento (Nudge)"
 msgid "[Media]Off"
 msgstr "Desl."
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "Pad %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
 msgstr "Arquivo de Padrão"
@@ -335,6 +343,14 @@ msgstr "Estéreo"
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
 msgstr "Endireitar Curva"
+
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "Tempo"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "Tempo-Linear"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"

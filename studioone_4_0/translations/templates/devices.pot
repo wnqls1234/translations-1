@@ -62,6 +62,10 @@ msgstr ""
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Activate"
+msgstr ""
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Activate %(1)"
 msgstr ""
@@ -88,6 +92,10 @@ msgstr ""
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Activate Output of '%(1)'"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Active"
 msgstr ""
 
 #: .\base\devicefolder.cpp
@@ -160,6 +168,14 @@ msgstr ""
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add VCA Channel"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Aftertouch"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Aftertouch"
 msgstr ""
 
 #: .\music\setup\musicdevicesetup.cpp
@@ -277,6 +293,10 @@ msgstr ""
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Available"
+msgstr ""
+
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Browser"
 msgstr ""
 
 #: .\audiomixer\audiochanneldescription.cpp
@@ -682,6 +702,14 @@ msgstr ""
 msgid "[AudioFXGraph]Frequency Split"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate %f(1:1)"
+msgstr ""
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
 msgstr ""
@@ -782,6 +810,10 @@ msgstr ""
 msgid "[SynthCombinator]Insert Note Event Splitter"
 msgstr ""
 
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Insert Selected Instrument"
+msgstr ""
+
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert Splitter"
 msgstr ""
@@ -831,6 +863,18 @@ msgstr ""
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Invert '%(1)' Transformation"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Erase Mode"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Key Remote"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Remote"
 msgstr ""
 
 #: .\music\setup\musicdeviceadddialog.cpp
@@ -1075,12 +1119,24 @@ msgstr ""
 msgid "[MusicDeviceSetup]Not connected"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Erase"
+msgstr ""
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Note FX"
 msgstr ""
 
 #: .\musicmixer\musiceffect.cpp
 msgid "[FileType]Note FX Preset"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Repeat"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Note Repeat"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
@@ -1235,6 +1291,14 @@ msgstr ""
 msgid "[Command]Previous Scene"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Quantize"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Quantize"
+msgstr ""
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr ""
@@ -1285,6 +1349,14 @@ msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remote"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Base Pitch"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Range"
 msgstr ""
 
 #: .\audioeffects\audiofxgraph.cpp
@@ -1409,6 +1481,10 @@ msgstr ""
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Reorder %(1)"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Repeat Rate"
 msgstr ""
 
 #: .\base\devicefolder.cpp
@@ -1551,6 +1627,10 @@ msgstr ""
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Gate %(1)"
+msgstr ""
+
 #: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Set Input"
 msgstr ""
@@ -1561,6 +1641,10 @@ msgstr ""
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Rate %(1)"
 msgstr ""
 
 #: .\audiomixer\audiosendfolder.cpp
@@ -1635,8 +1719,32 @@ msgstr ""
 msgid "[AudioInsert]Sidechains"
 msgstr ""
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single"
+msgstr ""
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Base Pitch"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Mode"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Single Mode"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Pitch Symbolic"
+msgstr ""
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Repeat Pitch"
 msgstr ""
 
 #: .\mixerconsole\mixerconsole.cpp
@@ -1725,6 +1833,10 @@ msgstr ""
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Talkback"
+msgstr ""
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Tap Tempo"
 msgstr ""
 
 #: .\macrocontrol\macrocontrolsetup.cpp

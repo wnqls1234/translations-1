@@ -123,10 +123,6 @@ msgid "[MutableMicroViewTitle]$title"
 msgstr ""
 
 #: .\app\microviews.xml
-msgid "[MutablePanelSlider]$title"
-msgstr ""
-
-#: .\app\microviews.xml
 msgid "[MicroViewSliderSizeVariant]$title"
 msgstr ""
 
@@ -142,6 +138,10 @@ msgstr ""
 msgid "[MutableMicroViewSmallToggle]$title"
 msgstr ""
 
+#: .\app\microviews.xml
+msgid "[MutablePanelSlider]$title"
+msgstr ""
+
 #: .\app\shared.xml
 msgid "[InspectorPropertyRadioBox]$title"
 msgstr ""
@@ -152,6 +152,18 @@ msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[PlugInSelectorMenuWide]$title"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[MutableNoteRepeatSlider]$title"
+msgstr ""
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceEditorButton]$title"
+msgstr ""
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceEditorToggle]$title"
 msgstr ""
 
 #: .\engine\quantize.xml
@@ -180,6 +192,10 @@ msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[SendMicroViewSimpleSlider]$tooltip"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[MutableNoteRepeatSlider]$tooltip"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -654,6 +670,10 @@ msgstr ""
 msgid "[Song]@cmd.title[View|Inspector]"
 msgstr ""
 
+#: .\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[View|Note Repeat]"
+msgstr ""
+
 #: .\devices\transport.xml
 msgid "[TransportPanel]@cmd.title[View|Record Panel]"
 msgstr ""
@@ -742,10 +762,6 @@ msgstr ""
 msgid "[RecordPanel.Horizontal]@cmd[Record Functions|Undo Last Loop]"
 msgstr ""
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd[Record Mode|Note Repeat]"
-msgstr ""
-
 #: .\engine\song.xml
 msgid "[InplaceOptions]@cmd[Track|Audio Input follows Selection]"
 msgstr ""
@@ -783,11 +799,11 @@ msgid "[GenericMicroViewSlider]@value[]"
 msgstr ""
 
 #: .\app\microviews.xml
-msgid "[MutablePanelSlider]@value[]"
+msgid "[MicroViewSliderSizeVariant]@value[]"
 msgstr ""
 
 #: .\app\microviews.xml
-msgid "[MicroViewSliderSizeVariant]@value[]"
+msgid "[MutablePanelSlider]@value[]"
 msgstr ""
 
 #: .\devices\audiochannel.xml
@@ -808,6 +824,10 @@ msgstr ""
 
 #: .\devices\devices.xml
 msgid "[MacroControlFocusCell]@value[]"
+msgstr ""
+
+#: .\engine\inspector.xml
+msgid "[AutomationTrackInspector]@value[]"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -962,6 +982,10 @@ msgstr ""
 msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
 msgstr ""
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Active"
+msgstr ""
+
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Active"
 msgstr ""
@@ -1088,6 +1112,10 @@ msgstr ""
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Aftertouch"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Aftertouch"
 msgstr ""
 
 #: .\app\multitrack.xml
@@ -1473,6 +1501,18 @@ msgstr ""
 
 #: .\devices\transport.xml
 msgid "[Metronome]Bars"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base Pitch for Key Remote"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base Pitch for Single Mode"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -2199,6 +2239,10 @@ msgstr ""
 msgid "[CueMixRackSlotView]Cue mix Pan: @value[]"
 msgstr ""
 
+#: .\app\options.xml
+msgid "[ConsoleOption]Cue mix mute follows channel"
+msgstr ""
+
 #: .\engine\song.xml
 msgid "[InplaceOptions]Cursor follows Edit Position"
 msgstr ""
@@ -2232,7 +2276,7 @@ msgid "[TimeScrollBar+Zoom]Data Zoom"
 msgstr ""
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Data Zoom"
+msgid "[MusicPatternPartEditorContent]Data Zoom"
 msgstr ""
 
 #: .\engine\mediapool.xml
@@ -2427,6 +2471,10 @@ msgstr ""
 msgid "[Project]Disc Title"
 msgstr ""
 
+#: .\engine\songdialogs.xml
+msgid "[SongSetup]Display Mode"
+msgstr ""
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
 msgstr ""
@@ -2520,7 +2568,7 @@ msgid "[MusicEditor]Drum Mode"
 msgstr ""
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Drum Mode"
+msgid "[MusicPatternPartEditorContent]Drum Mode"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -2589,7 +2637,7 @@ msgid "[MusicEditor]Edit"
 msgstr ""
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Edit"
+msgid "[MusicPatternPartEditorContent]Edit"
 msgstr ""
 
 #: .\devices\devices.xml
@@ -2801,12 +2849,8 @@ msgstr ""
 msgid "[BurnerSelectDialog]Erase"
 msgstr ""
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Erase Key"
-msgstr ""
-
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
 msgstr ""
 
 #: .\engine\videoplayer.xml
@@ -3059,10 +3103,6 @@ msgstr ""
 msgid "[ChordTrackControls]Follow:"
 msgstr ""
 
-#: .\app\about.xml
-msgid "[AboutApplication]Fonts"
-msgstr ""
-
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
 msgstr ""
@@ -3109,6 +3149,10 @@ msgstr ""
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Gain"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Gate"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -3607,10 +3651,6 @@ msgstr ""
 msgid "[MusicTrackControlsContent]Instrument Output"
 msgstr ""
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Instrument Recording Tools"
-msgstr ""
-
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Instrument Tracks"
 msgstr ""
@@ -3705,6 +3745,14 @@ msgstr ""
 
 #: .\devices\transport.xml
 msgid "[TransportPanel]Key"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Key Range for Key Remote"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Key Remote"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -4099,6 +4147,10 @@ msgstr ""
 msgid "[VideoPlayer]Maximize"
 msgstr ""
 
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]Maximum BPM"
+msgstr ""
+
 #: .\app\importsongdata.xml
 msgid "[ImportSongDataOptions]Media Options"
 msgstr ""
@@ -4112,7 +4164,7 @@ msgid "[MusicEditor]Melodic Mode"
 msgstr ""
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Melodic Mode"
+msgid "[MusicPatternPartEditorContent]Melodic Mode"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -4161,6 +4213,10 @@ msgstr ""
 
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome Setup"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]Minimum BPM"
 msgstr ""
 
 #: .\engine\audioediting.xml
@@ -4402,6 +4458,10 @@ msgid "[NoEventProperties]No event selected"
 msgstr ""
 
 #: .\engine\editor.xml
+msgid "[NoPatternView]No pattern selected"
+msgstr ""
+
+#: .\engine\editor.xml
 msgid "[NoTrackEditor]No track selected"
 msgstr ""
 
@@ -4433,8 +4493,8 @@ msgstr ""
 msgid "[MusicEditor.ToolGroup2]Note Coloring Scheme"
 msgstr ""
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Note Erase"
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Note Erase"
 msgstr ""
 
 #: .\devices\synthcombinator.xml
@@ -4465,8 +4525,21 @@ msgstr ""
 msgid "[MidiMonitor]Note On/Off"
 msgstr ""
 
+#: .\app\windowclasses.xml
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Note Repeat"
+msgstr ""
+
+#: .\app\windowclasses.xml
+msgid "[Command]Note Repeat"
+msgstr ""
+
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Note Repeat Active @cmd[Record Mode|Note Repeat]"
 msgstr ""
 
 #: .\engine\songdialogs.xml
@@ -4759,6 +4832,10 @@ msgstr ""
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareInputControlsSingle]Phantom Power"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Pitch"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -5068,6 +5145,10 @@ msgstr ""
 msgid "[ImageMaker]Publishing"
 msgstr ""
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Quantize"
+msgstr ""
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Quantize"
 msgstr ""
@@ -5156,6 +5237,10 @@ msgstr ""
 msgid "[HoldValues]RMS Right [dB]"
 msgstr ""
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Range"
+msgstr ""
+
 #: .\devices\synthcombinator.xml
 msgid "[SynthNodeEditView]Range"
 msgstr ""
@@ -5174,6 +5259,10 @@ msgstr ""
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Range Tool in upper event area"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Rate"
 msgstr ""
 
 #: .\ccl\browser.xml
@@ -5442,8 +5531,16 @@ msgstr ""
 msgid "[Metronome]Repeat Accent"
 msgstr ""
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Repeat Pitch for Single Mode"
+msgstr ""
+
 #: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Repeat Key"
+msgid "[RecordPanel.Horizontal]Repeat Pitch for Single Mode"
+msgstr ""
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Repeat Rate"
 msgstr ""
 
 #: .\engine\recordpanel.xml
@@ -6103,6 +6200,10 @@ msgstr ""
 msgid "[FXEditorHeaderRow1]Sidechain"
 msgstr ""
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Single Mode"
+msgstr ""
+
 #: .\app\plugscanner.xml
 msgid "[PlugInScanner]Skip"
 msgstr ""
@@ -6682,7 +6783,7 @@ msgid "[TimeScrollBar+Zoom]Time Zoom"
 msgstr ""
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Time Zoom"
+msgid "[MusicPatternPartEditorContent]Time Zoom"
 msgstr ""
 
 #: .\devices\transport.xml
@@ -7358,6 +7459,14 @@ msgstr ""
 
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]dB"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]max"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]min"
 msgstr ""
 
 #: .\devices\audiomixer.xml

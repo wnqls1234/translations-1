@@ -112,6 +112,10 @@ msgstr "ドキュメント"
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "Melodyneで編集"
 
+#: .\revoiceextension.cpp
+msgid "[StudioApp]Edit with Revoice Pro"
+msgstr "Revoice Proで編集"
+
 #: .\vocalignextension.cpp
 msgid "[StudioApp]Edit with VocALign"
 msgstr "VocALignで編集"
@@ -127,6 +131,10 @@ msgstr "エフェクト"
 #: .\songdocument.cpp
 msgid "[StudioApp]Empty Song"
 msgstr "空のソング"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]Enable System DPI Scaling"
+msgstr "システムDPIスケーリングを有効化"
 
 #: .\studioapp.cpp
 msgid "[SystemInfo]Ethernet Adapter"
@@ -147,6 +155,10 @@ msgstr "ファイルタイプ"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "ファイル"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]For complete high-DPI compatibility the plug-in needs to be updated by the vendor."
+msgstr "完全な高DPI互換にはプラグインがベンダーにより更新される必要があります。"
 
 #: .\studioapp.cpp
 msgid "[Command]Help"
@@ -264,6 +276,10 @@ msgstr "デフォルトのソング/プロジェクトを開く"
 msgid "[Options]Open Last Song/Project"
 msgstr "前回のソング/プロジェクトを開く"
 
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]Please note that System DPI Scaling might cause graphical glitches in third-party plug-ins that $APPNAME can't fix."
+msgstr "システムDPIスケーリングによりサードパーティ製プラグインのグラフィックに$APPNAMEが修復できない不具合が生じる場合があります。"
+
 #: .\sidebar.cpp
 msgid "[Sidebar]Pool"
 msgstr "プール"
@@ -291,6 +307,10 @@ msgstr "最近使ったファイル"
 #: .\melodyneextension.cpp
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Melodyneを削除"
+
+#: .\revoiceextension.cpp
+msgid "[StudioApp]Remove Revoice Pro"
+msgstr "Revoice Proを削除"
 
 #: .\vocalignextension.cpp
 msgid "[StudioApp]Remove VocALign"
@@ -411,6 +431,10 @@ msgstr "スタイル"
 #: .\studioapp.cpp
 msgid "[SystemInfo]System"
 msgstr "システム"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]System DPI Scaling for third-party plug-ins requires Windows 10 version 1803 or later."
+msgstr "サードパーティ製プラグインのシステムDPIスケーリングにはWindows 10バージョン1803以降が必要です。"
 
 #: .\studioapp.cpp
 msgid "[SystemInfo]System ID"

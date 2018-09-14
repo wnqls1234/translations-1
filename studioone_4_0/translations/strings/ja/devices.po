@@ -68,6 +68,10 @@ msgstr "この名前のデバイスはすでに存在します。"
 msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 msgstr "3以上のインストゥルメントにノートイベントスプリッターを挿入できます。"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Activate"
+msgstr "アクティベート"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Activate %(1)"
 msgstr "%(1) を有効化"
@@ -95,6 +99,10 @@ msgstr "デバイスを有効化"
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Activate Output of '%(1)'"
 msgstr "'%(1)' の出力を有効化"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Active"
+msgstr "有効"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Add %(1)"
@@ -167,6 +175,14 @@ msgstr "サウンドを追加..."
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add VCA Channel"
 msgstr "VCAチャンネルを追加"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Aftertouch"
+msgstr "アフタータッチ"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Aftertouch"
+msgstr "アフタータッチ"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
@@ -284,6 +300,10 @@ msgstr "オートパンチアウト"
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Available"
 msgstr "使用可能"
+
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Browser"
+msgstr "ブラウザー"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Bus"
@@ -684,6 +704,14 @@ msgstr "小節単位で先へ進む"
 msgid "[AudioFXGraph]Frequency Split"
 msgstr "周波数分割"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate"
+msgstr "ゲート"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Gate %f(1:1)"
+msgstr "ゲート %f(1:1)"
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
 msgstr "Generic MIDIコントロールサーフェス、不明な機器に使用します。このデバイスモデルはMIDI Learn機能を搭載しています。"
@@ -784,6 +812,10 @@ msgstr "FXチェーンを挿入"
 msgid "[SynthCombinator]Insert Note Event Splitter"
 msgstr "ノートイベントスプリッターを挿入"
 
+#: .\editor\devicebrowser.cpp
+msgid "[Command]Insert Selected Instrument"
+msgstr "選択されているインストゥルメントを挿入"
+
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Insert Splitter"
 msgstr "スプリッターを挿入"
@@ -834,6 +866,18 @@ msgstr "反転"
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Invert '%(1)' Transformation"
 msgstr "'%(1)' 変換を反転"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Erase Mode"
+msgstr "キーイレースモード"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Key Remote"
+msgstr "キーリモート"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Key Remote"
+msgstr "キーリモート"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Keyboard"
@@ -1076,6 +1120,10 @@ msgstr "標準"
 msgid "[MusicDeviceSetup]Not connected"
 msgstr "接続されていません"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Erase"
+msgstr "ノートイレース"
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Note FX"
 msgstr "Note FX"
@@ -1083,6 +1131,14 @@ msgstr "Note FX"
 #: .\musicmixer\musiceffect.cpp
 msgid "[FileType]Note FX Preset"
 msgstr "Note FXプリセット"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Note Repeat"
+msgstr "ノートリピート"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Note Repeat"
+msgstr "ノートリピート"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge"
@@ -1236,6 +1292,14 @@ msgstr "前のチャンネル"
 msgid "[Command]Previous Scene"
 msgstr "前のシーン"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Quantize"
+msgstr "クオンタイズ"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Quantize"
+msgstr "クオンタイズ"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Querying device information for %(1)..."
 msgstr "%(1) のデバイス情報のクエリを実行しています..."
@@ -1287,6 +1351,14 @@ msgstr "相対"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Remote"
 msgstr "リモート"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Base Pitch"
+msgstr "リモートベースピッチ"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Remote Range"
+msgstr "リモートレンジ"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Remove"
@@ -1411,6 +1483,10 @@ msgstr "名前を変更..."
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Reorder %(1)"
 msgstr "%(1) を並べ替え"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Repeat Rate"
+msgstr "リピートレート"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Replace %(1)"
@@ -1552,6 +1628,10 @@ msgstr "チャンネル色を設定"
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr "ダイレクト入力を設定"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Gate %(1)"
+msgstr "ゲート %(1) を設定"
+
 #: .\mixer\recordchannel.cpp
 msgid "[ChannelRecordUnit]Set Input"
 msgstr "入力を設定"
@@ -1563,6 +1643,10 @@ msgstr "出力を設定"
 #: .\transport\transportpanel.cpp
 msgid "[Command]Set Play Start Marker"
 msgstr "再生スタートマーカーを設定"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Set Rate %(1)"
+msgstr "レート %(1) を設定"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Set Send Target"
@@ -1636,9 +1720,33 @@ msgstr "コンソールに表示"
 msgid "[AudioInsert]Sidechains"
 msgstr "サイドチェーン"
 
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single"
+msgstr "シングル"
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
 msgstr "シングル（32ビット）"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Base Pitch"
+msgstr "シングルベースピッチ"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Mode"
+msgstr "シングルモード"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[Command]Single Mode"
+msgstr "シングルモード"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Pitch Symbolic"
+msgstr "シングルピッチシンボリック"
+
+#: .\music\musicnoterepeater.cpp
+msgid "[MusicNoteRepeater]Single Repeat Pitch"
+msgstr "シングルリピートピッチ"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Small"
@@ -1727,6 +1835,10 @@ msgstr "オーディオデバイス %(1) に切り替えています..."
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Talkback"
 msgstr "トークバック"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Tap Tempo"
+msgstr "タップテンポ"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Target"

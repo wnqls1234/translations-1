@@ -32,6 +32,10 @@ msgstr "Augmenté"
 msgid "[MediaTime]Bars"
 msgstr "Mesures"
 
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "Linéaire (battements)"
+
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
 msgstr "Points d'inflexion"
@@ -260,6 +264,10 @@ msgstr "Reculer"
 msgid "[Media]Off"
 msgstr "Off"
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "Pad %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
 msgstr "Fichier de pattern"
@@ -335,6 +343,14 @@ msgstr "Stéréo"
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
 msgstr "Tracé rectiligne"
+
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "Tempo"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "Linéaire (temps)"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"

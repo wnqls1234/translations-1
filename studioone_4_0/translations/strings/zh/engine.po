@@ -970,13 +970,17 @@ msgstr "編輯下一個模式"
 msgid "[MusicPatternPartEditor]Edit Pattern Automation \"%(1)\""
 msgstr "表南极模式自动化 “%(1)”"
 
-#: .\musicediting\patterneditviews.cpp
+#: .\musicediting\patterneditcomponent.cpp .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Edit Pattern Step"
 msgstr "编辑模式步骤"
 
 #: .\musicediting\musiceditextension.cpp
 msgid "[Command]Edit Previous Pattern"
 msgstr "編輯以前的模式"
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[MusicPatternPartEditor]Edit Step Accent"
+msgstr "编辑步骤特点"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Edit Track"
@@ -1387,6 +1391,10 @@ msgstr "插入弯曲标记"
 msgid "[Edit]Insert Chord"
 msgstr "插入和弦"
 
+#: .\musicediting\musiceditextension.cpp
+msgid "[Edit]Insert Instrument"
+msgstr "插入乐器"
+
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
 msgstr "将乐器插入%(1):"
@@ -1579,14 +1587,6 @@ msgstr "循环录音混合"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Mix"
 msgstr "循环录音混合"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Erase"
-msgstr "消除循环录音记录"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "重复循环录音记录"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Takes"
@@ -1958,10 +1958,6 @@ msgstr "不设置"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
 msgstr "消除记录"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Note Repeat"
-msgstr "重复记录"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
@@ -2719,6 +2715,10 @@ msgstr "移动Lane"
 msgid "[Command]Shift Lane"
 msgstr "移动Lane"
 
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[Command]Shift Lane Back"
+msgstr "将Lane切换回来"
+
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
 msgstr "显示 \"%(1)\""
@@ -3347,6 +3347,15 @@ msgstr "已使用%(1)次"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "已使用%(1)次"
+
+#~ msgid "[RecordMode]Loop Record Note Erase"
+#~ msgstr "消除循环录音记录"
+
+#~ msgid "[RecordMode]Loop Record Note Repeat"
+#~ msgstr "重复循环录音记录"
+
+#~ msgid "[Command]Note Repeat"
+#~ msgstr "重复记录"
 
 #~ msgid "[Marker]Marker"
 #~ msgstr "标记"

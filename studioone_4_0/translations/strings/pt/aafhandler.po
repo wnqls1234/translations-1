@@ -28,9 +28,17 @@ msgstr "Um evento possui FX não renderizado."
 msgid "[AAF]Audio files from content packages can not be exported."
 msgstr "Os arquivos de áudio dos pacotes do conteúdo não podem ser exportados."
 
-#: .\aafhandler.cpp
-msgid "[AAF]Only Wave and AIFF audio files can be exported."
-msgstr "Apenas arquivos de áudio Wave e AIFF podem ser exportados."
+#: .\aafwriter.cpp
+msgid "[AAF]Converting %(1)"
+msgstr "Convertendo %(1)"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Embedding %(1)"
+msgstr "Incorporando %(1)"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Step %(1) of %(2)"
+msgstr "Passo %(1) de %(2)"
 
 #: .\aafhandler.cpp
 msgid "[AAF]The AAF export has the following issues:"
@@ -43,4 +51,7 @@ msgstr "O evento não é um evento de áudio simples."
 #: .\aafhandler.cpp
 msgid "[AAF]The file is not on your disk."
 msgstr "O arquivo não está no seu disco."
+
+#~ msgid "[AAF]Only Wave and AIFF audio files can be exported."
+#~ msgstr "Apenas arquivos de áudio Wave e AIFF podem ser exportados."
 

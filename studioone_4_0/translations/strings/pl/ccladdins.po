@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <<translator email>>\n"
+"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr "Liczba zainstalowanych rozszerzeń: %(1)"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]%(1) is already installed!"
-msgstr ""
+msgstr "%(1) jest już zainstalowany!"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]%(1) is not compatible with $APPNAME!"
@@ -172,7 +172,7 @@ msgstr "Anulowano instalację!"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
-msgstr ""
+msgstr "Instalacja nie powiodła się!"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Installed"
@@ -184,7 +184,7 @@ msgstr "Zainstalowana wersja: %(1)"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Invalid Installation File!"
-msgstr ""
+msgstr "Nieprawidłowy plik instalacyjny!"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
@@ -192,7 +192,7 @@ msgstr "Licencja"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Migrating Extension %(1)..."
-msgstr ""
+msgstr "Migracja rozszerzenia %(1)..."
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
@@ -248,7 +248,7 @@ msgstr "Skanowanie rozszerzeń..."
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Signature Verification"
-msgstr ""
+msgstr "Weryfikacja podpisu"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Size"
@@ -260,14 +260,13 @@ msgstr "Status"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]The installation file is not compatible with this platform."
-msgstr ""
+msgstr "Plik instalatora nie jest kompatybilny z tą platformą."
 
 #: .\extensions\contentinstaller.cpp
 msgid ""
 "[Installer]The installed content will be available next time you start "
 "$APPNAME."
-msgstr ""
-"Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
+msgstr "Zainstalowana zawartość będzie dostępna po następnym uruchomieniu $APPNAME."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"
@@ -283,7 +282,7 @@ msgstr "Dostępna jest nowa wersja."
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]This file does not have a valid digital signature."
-msgstr ""
+msgstr "Ten plik nie ma prawidłowego podpisu cyfrowego."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"

@@ -32,6 +32,10 @@ msgstr "增和弦"
 msgid "[MediaTime]Bars"
 msgstr "小节"
 
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "节拍线性"
+
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
 msgstr "弯音点"
@@ -260,6 +264,10 @@ msgstr "微调"
 msgid "[Media]Off"
 msgstr "关"
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "Pad %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
 msgstr "模式文件"
@@ -335,6 +343,14 @@ msgstr "立体声"
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
 msgstr "伸直曲线"
+
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "速度"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "时间线性"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"

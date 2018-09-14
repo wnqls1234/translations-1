@@ -32,6 +32,10 @@ msgstr "Übermäßig"
 msgid "[MediaTime]Bars"
 msgstr "Takte"
 
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "Zählzeitlinear"
+
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
 msgstr "Punkte verbiegen"
@@ -260,6 +264,10 @@ msgstr "Verschieben"
 msgid "[Media]Off"
 msgstr "Aus"
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "Pad %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
 msgstr "Pattern-Datei"
@@ -335,6 +343,14 @@ msgstr "Stereo"
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
 msgstr "Kurve glätten"
+
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "Tempo"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "Sekundenlinear"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"

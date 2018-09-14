@@ -970,13 +970,17 @@ msgstr "次のパートを編集"
 msgid "[MusicPatternPartEditor]Edit Pattern Automation \"%(1)\""
 msgstr "パターンオートメーション \"%(1)\" を編集"
 
-#: .\musicediting\patterneditviews.cpp
+#: .\musicediting\patterneditcomponent.cpp .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Edit Pattern Step"
 msgstr "パターンステップを編集"
 
 #: .\musicediting\musiceditextension.cpp
 msgid "[Command]Edit Previous Pattern"
 msgstr "前のパートを編集"
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[MusicPatternPartEditor]Edit Step Accent"
+msgstr "ステップアクセントを編集"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Edit Track"
@@ -1387,6 +1391,10 @@ msgstr "ベンドマーカーを挿入"
 msgid "[Edit]Insert Chord"
 msgstr "コードを挿入"
 
+#: .\musicediting\musiceditextension.cpp
+msgid "[Edit]Insert Instrument"
+msgstr "インストゥルメントを挿入"
+
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
 msgstr "インストゥルメントを %(1) に挿入:"
@@ -1579,14 +1587,6 @@ msgstr "ミックスをループ録音"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Mix"
 msgstr "ミックスをループ録音"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Erase"
-msgstr "ノートイレースをループ録音"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "ノートリピートをループ録音"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Takes"
@@ -1958,10 +1958,6 @@ msgstr "未設定"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
 msgstr "ノートイレース"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Note Repeat"
-msgstr "ノートリピート"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
@@ -2719,6 +2715,10 @@ msgstr "レーンをシフト"
 msgid "[Command]Shift Lane"
 msgstr "レーンをシフト"
 
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[Command]Shift Lane Back"
+msgstr "レーンを後にずらす"
+
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
 msgstr "%(1) を表示"
@@ -3347,6 +3347,15 @@ msgstr "%(1) 回使用"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) 回使用"
+
+#~ msgid "[RecordMode]Loop Record Note Erase"
+#~ msgstr "ノートイレースをループ録音"
+
+#~ msgid "[RecordMode]Loop Record Note Repeat"
+#~ msgstr "ノートリピートをループ録音"
+
+#~ msgid "[Command]Note Repeat"
+#~ msgstr "ノートリピート"
 
 #~ msgid "[Marker]Marker"
 #~ msgstr "マーカー"

@@ -970,13 +970,17 @@ msgstr "Éditer la pattern suivante"
 msgid "[MusicPatternPartEditor]Edit Pattern Automation \"%(1)\""
 msgstr "Éditer l'automation de pattern \"%(1)\""
 
-#: .\musicediting\patterneditviews.cpp
+#: .\musicediting\patterneditcomponent.cpp .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Edit Pattern Step"
 msgstr "Éditer le pas de pattern"
 
 #: .\musicediting\musiceditextension.cpp
 msgid "[Command]Edit Previous Pattern"
 msgstr "Éditer la pattern précédente"
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[MusicPatternPartEditor]Edit Step Accent"
+msgstr "Éditer l'accent de pas"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Edit Track"
@@ -1387,6 +1391,10 @@ msgstr "Insérer un marqueur d'étirement"
 msgid "[Edit]Insert Chord"
 msgstr "Insérer un accord"
 
+#: .\musicediting\musiceditextension.cpp
+msgid "[Edit]Insert Instrument"
+msgstr "Insérer un instrument"
+
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
 msgstr "Insérer l'instrument dans %(1):"
@@ -1579,14 +1587,6 @@ msgstr "Enregistrement superposant en boucle"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Mix"
 msgstr "Enregistrement superposant en boucle"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Erase"
-msgstr "Effacement de notes en boucle"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "Répétition de notes en boucle"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Takes"
@@ -1958,10 +1958,6 @@ msgstr "Non fixé"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
 msgstr "Effacer notes"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Note Repeat"
-msgstr "Répéter notes"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
@@ -2719,6 +2715,10 @@ msgstr "Décaler la ligne"
 msgid "[Command]Shift Lane"
 msgstr "Décaler la ligne"
 
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[Command]Shift Lane Back"
+msgstr "Reculer la ligne"
+
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
 msgstr "Afficher \"%(1)\""
@@ -3347,6 +3347,15 @@ msgstr "utilisé %(1) fois"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "utilisé %(1) fois"
+
+#~ msgid "[RecordMode]Loop Record Note Erase"
+#~ msgstr "Effacement de notes en boucle"
+
+#~ msgid "[RecordMode]Loop Record Note Repeat"
+#~ msgstr "Répétition de notes en boucle"
+
+#~ msgid "[Command]Note Repeat"
+#~ msgstr "Répéter notes"
 
 #~ msgid "[Marker]Marker"
 #~ msgstr "Marqueur"

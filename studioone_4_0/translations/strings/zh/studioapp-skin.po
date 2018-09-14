@@ -21,13 +21,8 @@ msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
 msgstr "$APPCOMPANY 商店及其他服务"
 
 #: .\app\licenser.xml
-msgid ""
-"[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party "
-"plug-ins for $APPNAME. To authorize these items, please take the following "
-"steps, either now or any time later:"
-msgstr ""
-"$APPCOMPANY为$APPNAME提供附加内容以及第三方插件.操作以下步骤，在任意时间对其"
-"授权:"
+msgid "[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
+msgstr "$APPCOMPANY为$APPNAME提供附加内容以及第三方插件.操作以下步骤，在任意时间对其授权:"
 
 #: .\app\licenser.xml
 msgid "[AppStoreWelcome]$APPNAME"
@@ -78,22 +73,12 @@ msgid "[AboutFooter]$APPNAME Website"
 msgstr "$APPNAME网站"
 
 #: .\ccl\contentinstaller.xml
-msgid ""
-"[ContentInstaller]$APPNAME comes with additional content, including loops, "
-"samples, and third-party plug-ins. Please select the packages you want to "
-"install below."
-msgstr ""
-"$APPNAME 带有附加内容，包括loops、采样和第三方插件。请在下列选项中选择您想安"
-"装的程序包。"
+msgid "[ContentInstaller]$APPNAME comes with additional content, including loops, samples, and third-party plug-ins. Please select the packages you want to install below."
+msgstr "$APPNAME 带有附加内容，包括loops、采样和第三方插件。请在下列选项中选择您想安装的程序包。"
 
 #: .\ccl\common.xml
-msgid ""
-"[ContentLocationSelector]$APPNAME will help to keep your media files "
-"organized. All your data like Songs, Projects and Presets will be stored in "
-"a single location."
-msgstr ""
-"$APPNAME将帮助您保管理音频文件.您所有的数据，例如歌曲、项目以及预置，都将被分"
-"别保存在一个位置."
+msgid "[ContentLocationSelector]$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
+msgstr "$APPNAME将帮助您保管理音频文件.您所有的数据，例如歌曲、项目以及预置，都将被分别保存在一个位置."
 
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterLevel]$idx"
@@ -144,10 +129,6 @@ msgid "[MutableMicroViewTitle]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
-msgid "[MutablePanelSlider]$title"
-msgstr "$title"
-
-#: .\app\microviews.xml
 msgid "[MicroViewSliderSizeVariant]$title"
 msgstr "$title"
 
@@ -163,6 +144,10 @@ msgstr "$title"
 msgid "[MutableMicroViewSmallToggle]$title"
 msgstr "$title"
 
+#: .\app\microviews.xml
+msgid "[MutablePanelSlider]$title"
+msgstr "$title"
+
 #: .\app\shared.xml
 msgid "[InspectorPropertyRadioBox]$title"
 msgstr "$title"
@@ -173,6 +158,18 @@ msgstr "$title"
 
 #: .\devices\audiochannel.xml
 msgid "[PlugInSelectorMenuWide]$title"
+msgstr "$title"
+
+#: .\devices\musicdevices.xml
+msgid "[MutableNoteRepeatSlider]$title"
+msgstr "$title"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceEditorButton]$title"
+msgstr "$title"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceEditorToggle]$title"
 msgstr "$title"
 
 #: .\engine\quantize.xml
@@ -201,6 +198,10 @@ msgstr "$tooltip"
 
 #: .\devices\audiochannel.xml
 msgid "[SendMicroViewSimpleSlider]$tooltip"
+msgstr "$tooltip"
+
+#: .\devices\musicdevices.xml
+msgid "[MutableNoteRepeatSlider]$tooltip"
 msgstr "$tooltip"
 
 #: .\engine\audioediting.xml
@@ -352,9 +353,7 @@ msgid "[MusicDeviceOptions]1"
 msgstr "1"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.OfflinePage]1. Follow this guide for complete Offline "
-"Activation instructions."
+msgid "[UserLicenseDialog.OfflinePage]1. Follow this guide for complete Offline Activation instructions."
 msgstr "1. 按照此指引进行完整的线下激活指导。"
 
 #: .\app\licenser.xml
@@ -458,9 +457,7 @@ msgid "[AppStoreWelcome]2. Click &apos;Activate&apos; to activate $APPNAME."
 msgstr "2. 点击&apos;激活&apos; 进行激活 $APPNAME."
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.OfflinePage]2. You will need the following Activation "
-"Code:"
+msgid "[UserLicenseDialog.OfflinePage]2. You will need the following Activation Code:"
 msgstr "2. 您需要下列激活码："
 
 #: .\devices\musicdevices.xml
@@ -468,15 +465,11 @@ msgid "[MusicDeviceOptions]3"
 msgstr "3"
 
 #: .\app\licenser.xml
-msgid ""
-"[AppStoreWelcome]3. If you do not already have a $APPCOMPANY Account, please "
-"follow the instructions to create a new account."
+msgid "[AppStoreWelcome]3. If you do not already have a $APPCOMPANY Account, please follow the instructions to create a new account."
 msgstr "3. 如果您尚未拥有一个 $APPCOMPANY 账户，请跟随指导创建新用户。"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.OfflinePage]3. Select the license file you downloaded or "
-"drag it onto this window."
+msgid "[UserLicenseDialog.OfflinePage]3. Select the license file you downloaded or drag it onto this window."
 msgstr "3. 请选择您下载的证书，或将其拖拽到此窗口内。"
 
 #: .\project\analyser.xml
@@ -683,6 +676,10 @@ msgstr "@cmd.title[View|Inspector]"
 msgid "[Song]@cmd.title[View|Inspector]"
 msgstr "@cmd.title[View|Inspector]"
 
+#: .\engine\recordpanel.xml
+msgid "[RecordPanel.Horizontal]@cmd.title[View|Note Repeat]"
+msgstr "@cmd.title[View|Note Repeat]"
+
 #: .\devices\transport.xml
 msgid "[TransportPanel]@cmd.title[View|Record Panel]"
 msgstr "@cmd.title[View|Record Panel]"
@@ -771,10 +768,6 @@ msgstr "@cmd[Record Functions|Undo All]"
 msgid "[RecordPanel.Horizontal]@cmd[Record Functions|Undo Last Loop]"
 msgstr "@cmd[Record Functions|Undo Last Loop]"
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]@cmd[Record Mode|Note Repeat]"
-msgstr "@cmd[Record Mode|Note Repeat]"
-
 #: .\engine\song.xml
 msgid "[InplaceOptions]@cmd[Track|Audio Input follows Selection]"
 msgstr "@cmd[Track|Audio Input follows Selection]"
@@ -812,11 +805,11 @@ msgid "[GenericMicroViewSlider]@value[]"
 msgstr "@value[]"
 
 #: .\app\microviews.xml
-msgid "[MutablePanelSlider]@value[]"
+msgid "[MicroViewSliderSizeVariant]@value[]"
 msgstr "@value[]"
 
 #: .\app\microviews.xml
-msgid "[MicroViewSliderSizeVariant]@value[]"
+msgid "[MutablePanelSlider]@value[]"
 msgstr "@value[]"
 
 #: .\devices\audiochannel.xml
@@ -837,6 +830,10 @@ msgstr "@value[]"
 
 #: .\devices\devices.xml
 msgid "[MacroControlFocusCell]@value[]"
+msgstr "@value[]"
+
+#: .\engine\inspector.xml
+msgid "[AutomationTrackInspector]@value[]"
 msgstr "@value[]"
 
 #: .\engine\trackcontrols.xml
@@ -988,9 +985,12 @@ msgid "[PurchaseHandler]Activate Purchased Items"
 msgstr "激活购买产品"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
 msgstr "激活我所购买的$APPNAME版本"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Active"
+msgstr "启用"
 
 #: .\engine\audioexport.xml
 msgid "[TrackExport]Active"
@@ -1118,6 +1118,10 @@ msgstr "触后"
 
 #: .\devices\musicdevices.xml
 msgid "[MusicDeviceOptions]Aftertouch"
+msgstr "触后"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Aftertouch"
 msgstr "触后"
 
 #: .\app\multitrack.xml
@@ -1393,8 +1397,7 @@ msgid "[AudioBendPanel.ActionPart]Autofill"
 msgstr "自动填充"
 
 #: .\app\options.xml
-msgid ""
-"[AutomationOption]Automatically add envelopes for all touched parameters"
+msgid "[AutomationOption]Automatically add envelopes for all touched parameters"
 msgstr "为触摸到的所有参数自动添加包络"
 
 #: .\engine\editor.xml
@@ -1504,6 +1507,18 @@ msgstr "小节补偿"
 #: .\devices\transport.xml
 msgid "[Metronome]Bars"
 msgstr "小节"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base"
+msgstr "基音"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base Pitch for Key Remote"
+msgstr "键盘遥控的基础音高"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Base Pitch for Single Mode"
+msgstr "Single 模式的基础音高"
 
 #: .\engine\eventinspector.xml
 msgid "[ChordSelectorMiniParts]Bass"
@@ -1706,13 +1721,8 @@ msgid "[PlugInFileInfo]Category:"
 msgstr "类别:"
 
 #: .\ccl\common.xml
-msgid ""
-"[ServiceOption]Changing these advanced settings might lead to improper "
-"function of $APPNAME. You should only continue if you are sure of what you "
-"are doing."
-msgstr ""
-"改变已有的设置可能会导致$APPNAME出现异常. 请在确保无误和有把握的前提下进行此"
-"操作."
+msgid "[ServiceOption]Changing these advanced settings might lead to improper function of $APPNAME. You should only continue if you are sure of what you are doing."
+msgstr "改变已有的设置可能会导致$APPNAME出现异常. 请在确保无误和有把握的前提下进行此操作."
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Channel"
@@ -2191,12 +2201,8 @@ msgid "[HomePage]Create a new Song"
 msgstr "新建乐曲"
 
 #: .\engine\musicdialogs.xml
-msgid ""
-"[MusicTransformDialog]Create audio tracks for all instrument outputs. If "
-"disengaged, only the output assigned in the track inspector is rendered."
-msgstr ""
-"为所有乐器输出创建新的音频轨道。If disengaged, only the output assigned in "
-"the track inspector is rendered."
+msgid "[MusicTransformDialog]Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
+msgstr "为所有乐器输出创建新的音频轨道。If disengaged, only the output assigned in the track inspector is rendered."
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Create lead sheet"
@@ -2234,6 +2240,10 @@ msgstr "混合包络音量: @value[]"
 msgid "[CueMixRackSlotView]Cue mix Pan: @value[]"
 msgstr "混合包络声像: @value[]"
 
+#: .\app\options.xml
+msgid "[ConsoleOption]Cue mix mute follows channel"
+msgstr "为所有通道配备 Cue mix 哑音"
+
 #: .\engine\song.xml
 msgid "[InplaceOptions]Cursor follows Edit Position"
 msgstr "光标遵循编辑位置"
@@ -2267,7 +2277,7 @@ msgid "[TimeScrollBar+Zoom]Data Zoom"
 msgstr "数据变焦"
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Data Zoom"
+msgid "[MusicPatternPartEditorContent]Data Zoom"
 msgstr "数据变焦"
 
 #: .\engine\mediapool.xml
@@ -2462,6 +2472,10 @@ msgstr "光盘属性"
 msgid "[Project]Disc Title"
 msgstr "光盘标题"
 
+#: .\engine\songdialogs.xml
+msgid "[SongSetup]Display Mode"
+msgstr "展示模式"
+
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
 msgstr "是否要安装此分机?"
@@ -2483,25 +2497,19 @@ msgid "[ChannelLabel]Double Click: Edit Name"
 msgstr "双击：编辑名称"
 
 #: .\devices\audiochannel.narrow.xml
-msgid ""
-"[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel "
-"Color"
+msgid "[ChannelLabelNarrow]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
 
 #: .\devices\audiochannel.small.xml
-msgid ""
-"[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgid "[ChannelLabel]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
 
 #: .\devices\synthcombinator.xml
-msgid ""
-"[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select "
-"Channel Color"
+msgid "[CombinatorSynthChannelSelect]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
 
 #: .\engine\inspector.xml
-msgid ""
-"[ChannelLabelBig]Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgid "[ChannelLabelBig]Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
 
 #: .\engine\mediapool.xml
@@ -2537,9 +2545,7 @@ msgid "[FXEditorHeaderRow1]Drag Preset from here"
 msgstr "从此处拖拽效果链"
 
 #: .\devices\musicdevices.xml
-msgid ""
-"[SurfacePlacementEditor]Drag devices between groups to change their "
-"placement."
+msgid "[SurfacePlacementEditor]Drag devices between groups to change their placement."
 msgstr "在编组之间拖拽设备以改变其位置."
 
 #: .\devices\transport.xml
@@ -2563,7 +2569,7 @@ msgid "[MusicEditor]Drum Mode"
 msgstr "鼓模式"
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Drum Mode"
+msgid "[MusicPatternPartEditorContent]Drum Mode"
 msgstr "鼓模式"
 
 #: .\engine\inspector.xml
@@ -2631,13 +2637,11 @@ msgid "[MusicEditor]Edit"
 msgstr "编辑"
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Edit"
+msgid "[MusicPatternPartEditorContent]Edit"
 msgstr "编辑"
 
 #: .\devices\devices.xml
-msgid ""
-"[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current "
-"Parameter]"
+msgid "[ParamMapper.LeftPart.Inner]Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "编辑自动控制@cmd[Automation|Show Current Parameter]"
 
 #: .\devices\devices.xml
@@ -2733,8 +2737,7 @@ msgid "[AudioEventFXProperties]Enable"
 msgstr "有效"
 
 #: .\app\options.xml
-msgid ""
-"[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
+msgid "[AudioEngineOption]Enable &apos;Play overlaps&apos; for new audio tracks"
 msgstr "启动 &apos;播放重叠部分&apos;为新音轨"
 
 #: .\engine\songdialogs.xml
@@ -2778,8 +2781,7 @@ msgid "[MusicTrackInspector.ProgramSelector]Enable Program"
 msgstr "开启程序"
 
 #: .\engine\editor.xml
-msgid ""
-"[MusicPatternToolsHeader]Enable Record / Step Record @cmd[Step Record|Enable]"
+msgid "[MusicPatternToolsHeader]Enable Record / Step Record @cmd[Step Record|Enable]"
 msgstr "启动录制/单步语音@cmd[Step Record|Enable]"
 
 #: .\project\analyser.xml
@@ -2799,8 +2801,7 @@ msgid "[AudioSetup.Engine]Enable low latency monitoring for instruments"
 msgstr "启用乐器低延迟监听"
 
 #: .\project\analyser.xml
-msgid ""
-"[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
+msgid "[SpectrumMeterSettings]Enable slope compensation (+3dB/oct. for Pink Noise)"
 msgstr "启用斜率补偿 (+3dB/oct. 粉噪音)"
 
 #: .\app\options.xml
@@ -2836,8 +2837,7 @@ msgid "[QuantizeSetup.OptionsPart]End"
 msgstr "结束"
 
 #: .\app\options.xml
-msgid ""
-"[MusicOption]Enlarge record part to reveal notes recorded during precount"
+msgid "[MusicOption]Enlarge record part to reveal notes recorded during precount"
 msgstr "放大录音局部，显示预计数时的录音记录"
 
 #: .\engine\tracklistinspector.xml
@@ -2848,14 +2848,8 @@ msgstr "包络"
 msgid "[BurnerSelectDialog]Erase"
 msgstr "擦除"
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Erase Key"
-msgstr "擦除键"
-
-#: .\engine\recordpanel.xml
-msgid ""
-"[RecordPanel.Horizontal]Erase Notes in Record Mix Mode @cmd[Record Mode|Note "
-"Erase]"
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
 msgstr "使用消除录音混音模式中的备注@cmd[Record Mode|Note Erase]"
 
 #: .\engine\videoplayer.xml
@@ -2875,8 +2869,7 @@ msgid "[AudioEventFXProperties]Event Effects are currently offline"
 msgstr "事件效果当下离线"
 
 #: .\engine\eventinspector.xml
-msgid ""
-"[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
 msgstr "事件效果实时进程，点击进行渲染"
 
 #: .\engine\eventinspector.xml
@@ -3107,10 +3100,6 @@ msgstr "跟随和弦"
 msgid "[ChordTrackControls]Follow:"
 msgstr "跟随："
 
-#: .\app\about.xml
-msgid "[AboutApplication]Fonts"
-msgstr "字体"
-
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Format"
 msgstr "格式"
@@ -3158,6 +3147,10 @@ msgstr "小工具"
 #: .\engine\eventinspector.xml
 msgid "[AudioEventProperties]Gain"
 msgstr "增益"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Gate"
+msgstr "Gate"
 
 #: .\engine\editor.xml
 msgid "[MusicPatternToolsHeader]Gate"
@@ -3348,18 +3341,11 @@ msgid "[MultitrackPropertyEditor]Identifier"
 msgstr "标识符"
 
 #: .\app\licenser.xml
-msgid ""
-"[PurchaseHandler]If your computer is not connected to the Internet, please "
-"download the License File from your $APPCOMPANY Account separately and "
-"select it here or drag it onto this window."
-msgstr ""
-"如果您的电脑未连接至网络，则请从您的$APPCOMPANY 账户下载授权文件并在此选择，"
-"或将其拖拽至此窗口内。"
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+msgstr "如果您的电脑未连接至网络，则请从您的$APPCOMPANY 账户下载授权文件并在此选择，或将其拖拽至此窗口内。"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.OfflinePage]If your computer is not connected to the "
-"Internet, please take the following steps to activate $APPNAME:"
+msgid "[UserLicenseDialog.OfflinePage]If your computer is not connected to the Internet, please take the following steps to activate $APPNAME:"
 msgstr "如果您的电脑未连接至网络，则请跟随下列步骤激活 $APPNAME："
 
 #: .\engine\song.xml
@@ -3367,8 +3353,7 @@ msgid "[InplaceOptions]Ignore Plug-In Latency"
 msgstr "忽略插件延时"
 
 #: .\app\options.xml
-msgid ""
-"[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
+msgid "[AudioEngineOption]Ignore audio device timestamps (use system clock instead)"
 msgstr "忽略音频设备时间标志（使用系统时钟）"
 
 #: .\project\project.xml
@@ -3544,12 +3529,8 @@ msgid "[ExtensionManager]Install..."
 msgstr "安装..."
 
 #: .\ccl\contentinstaller.xml
-msgid ""
-"[ContentInstaller]Installation will continue in background. You can choose "
-"to skip this step now and install the content any time later from the "
-"$APPNAME menu."
-msgstr ""
-"后台安装。您可以选择跳过此步骤并在未来任意时间从$APPNAME菜单中安装内容。"
+msgid "[ContentInstaller]Installation will continue in background. You can choose to skip this step now and install the content any time later from the $APPNAME menu."
+msgstr "后台安装。您可以选择跳过此步骤并在未来任意时间从$APPNAME菜单中安装内容。"
 
 #: .\devices\audiomixer.xml
 msgid "[MixerManager]Instr."
@@ -3663,10 +3644,6 @@ msgstr "乐器输出"
 msgid "[MusicTrackControlsContent]Instrument Output"
 msgstr "乐器输出"
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Instrument Recording Tools"
-msgstr "乐器录制工具"
-
 #: .\engine\tracklistinspector.xml
 msgid "[TrackListInspectorPanel]Instrument Tracks"
 msgstr "乐器轨道"
@@ -3762,6 +3739,14 @@ msgstr "保持母轨道在右侧"
 #: .\devices\transport.xml
 msgid "[TransportPanel]Key"
 msgstr "键值"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Key Range for Key Remote"
+msgstr "键盘遥控的的键盘范围"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Key Remote"
+msgstr "键盘遥控"
 
 #: .\engine\inspector.xml
 msgid "[ChordTrackInspector]Key Signature"
@@ -3892,8 +3877,7 @@ msgid "[ColorSchemeOption.Levels]Light"
 msgstr "浅色"
 
 #: .\devices\audiomixer.xml
-msgid ""
-"[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
+msgid "[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
 msgstr "使用显示/隐藏链接文件夹轨道扩展/折叠"
 
 #: .\devices\audiomixer.xml
@@ -4152,6 +4136,10 @@ msgstr "最大化"
 msgid "[VideoPlayer]Maximize"
 msgstr "最大化"
 
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]Maximum BPM"
+msgstr "最大化 BPM"
+
 #: .\app\importsongdata.xml
 msgid "[ImportSongDataOptions]Media Options"
 msgstr "媒体选项"
@@ -4165,7 +4153,7 @@ msgid "[MusicEditor]Melodic Mode"
 msgstr "旋律模式"
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Melodic Mode"
+msgid "[MusicPatternPartEditorContent]Melodic Mode"
 msgstr "旋律模式"
 
 #: .\engine\audioediting.xml
@@ -4215,6 +4203,10 @@ msgstr "设置节拍器"
 #: .\devices\transport.xml
 msgid "[Metronome]Metronome Setup"
 msgstr "设置节拍器"
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]Minimum BPM"
+msgstr "最小化 BPM"
 
 #: .\engine\audioediting.xml
 msgid "[StripSilencePanel.EventsPart]Minimum Length"
@@ -4453,6 +4445,10 @@ msgid "[NoEventProperties]No event selected"
 msgstr "尚未选择事件"
 
 #: .\engine\editor.xml
+msgid "[NoPatternView]No pattern selected"
+msgstr "未选择模式"
+
+#: .\engine\editor.xml
 msgid "[NoTrackEditor]No track selected"
 msgstr "尚未选择音轨"
 
@@ -4484,8 +4480,8 @@ msgstr "记录颜色"
 msgid "[MusicEditor.ToolGroup2]Note Coloring Scheme"
 msgstr "记录颜色表格"
 
-#: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Note Erase"
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Note Erase"
 msgstr "消除记录"
 
 #: .\devices\synthcombinator.xml
@@ -4516,27 +4512,33 @@ msgstr "标记FX编辑器"
 msgid "[MidiMonitor]Note On/Off"
 msgstr "记录 开/关"
 
+#: .\app\windowclasses.xml .\devices\musicdevices.xml
+msgid "[NoteRepeater]Note Repeat"
+msgstr "重复记录"
+
+#: .\app\windowclasses.xml
+msgid "[Command]Note Repeat"
+msgstr "重复记录"
+
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Note Repeat"
 msgstr "重复记录"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Note Repeat Active @cmd[Record Mode|Note Repeat]"
+msgstr "开启音符重复 @cmd[Record Mode|Note Repeat]"
 
 #: .\engine\songdialogs.xml
 msgid "[TitleAlbumNotes]Notes"
 msgstr "标记"
 
 #: .\devices\musicdevices.xml
-msgid ""
-"[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
+msgid "[MusicDeviceSetup]Notify me if devices are unavailable when $APPNAME starts"
 msgstr "启动$APPNAME时若设备不可用则给予提示"
 
 #: .\app\notion.xml
-msgid ""
-"[SendToNotionNoTargets]Notion 6 or later must be installed on this computer "
-"or in the network. Studio One could not detect that Notion is currently "
-"running."
-msgstr ""
-"Notion 6或更高版本须安装在此台电脑或网络上。Studio One监察不到Notion处于运行"
-"状态。"
+msgid "[SendToNotionNoTargets]Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
+msgstr "Notion 6或更高版本须安装在此台电脑或网络上。Studio One监察不到Notion处于运行状态。"
 
 #: .\app\notion.xml
 msgid "[SendToNotionInner]Notion on:"
@@ -4671,13 +4673,8 @@ msgid "[BurnerSelectDialog]Options"
 msgstr "选项"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseExpired]Otherwise, we look forward to your feedback on how we "
-"can make $APPNAME better for you. Please visit our forums with any feature "
-"requests."
-msgstr ""
-"我们期待着您的反馈，以便能够更好地让$APPNAME为您服务。如果您有任何关于特性的"
-"要求，请浏览我们的论坛"
+msgid "[UserLicenseExpired]Otherwise, we look forward to your feedback on how we can make $APPNAME better for you. Please visit our forums with any feature requests."
+msgstr "我们期待着您的反馈，以便能够更好地让$APPNAME为您服务。如果您有任何关于特性的要求，请浏览我们的论坛"
 
 #: .\engine\inspector.xml
 msgid "[MusicTrackInspector]Out"
@@ -4819,6 +4816,10 @@ msgstr "幻象电源"
 msgid "[HardwareInputControlsSingle]Phantom Power"
 msgstr "幻象电源"
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Pitch"
+msgstr "音高"
+
 #: .\engine\editor.xml
 msgid "[NoteEventProperties]Pitch"
 msgstr "音高"
@@ -4892,8 +4893,7 @@ msgid "[MusicPreviewPlayer]Playing on"
 msgstr "演奏"
 
 #: .\ccl\extensionmanager.xml
-msgid ""
-"[ExtensionManager]Please restart $APPNAME for the changes to take effect."
+msgid "[ExtensionManager]Please restart $APPNAME for the changes to take effect."
 msgstr "请重启$APPCOMPANY以使更改生效"
 
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
@@ -5120,6 +5120,10 @@ msgstr "发布"
 msgid "[ImageMaker]Publishing"
 msgstr "发布"
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Quantize"
+msgstr "量化"
+
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Quantize"
 msgstr "量化"
@@ -5208,6 +5212,10 @@ msgstr "左声道RMS [dB]"
 msgid "[HoldValues]RMS Right [dB]"
 msgstr "右声道RMS [dB]"
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Range"
+msgstr "范围"
+
 #: .\devices\synthcombinator.xml
 msgid "[SynthNodeEditView]Range"
 msgstr "范围"
@@ -5227,6 +5235,10 @@ msgstr "在上一个项目区域中的范围工具"
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Range Tool in upper event area"
 msgstr "在上一个项目区域中的范围工具"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Rate"
+msgstr "音符长度"
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Re-Index Presets"
@@ -5485,18 +5497,24 @@ msgid "[RenderClick]Render Range"
 msgstr "渲染范围"
 
 #: .\engine\musicdialogs.xml
-msgid ""
-"[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts "
-"are kept for realtime processing and automation."
+msgid "[MusicTransformDialog]Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
 msgstr "将插入效果渲染至音频。插入将被保存为实时处理和自动化。"
 
 #: .\devices\transport.xml
 msgid "[Metronome]Repeat Accent"
 msgstr "重复重音"
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeater]Repeat Pitch for Single Mode"
+msgstr "在Single Mode中设置 重复音高"
+
 #: .\engine\recordpanel.xml
-msgid "[RecordPanel.Horizontal]Repeat Key"
-msgstr "重复Key"
+msgid "[RecordPanel.Horizontal]Repeat Pitch for Single Mode"
+msgstr "在Single Mode中设置 重复音高"
+
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Repeat Rate"
+msgstr "重复音符长度"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Replace"
@@ -5507,9 +5525,7 @@ msgid "[DocumentTemplateSaveDialog]Replace Existing..."
 msgstr "替换现有的..."
 
 #: .\engine\recordpanel.xml
-msgid ""
-"[RecordPanel.Horizontal]Replace overlapping data in record @cmd[Record Mode|"
-"Record Mode Replace]"
+msgid "[RecordPanel.Horizontal]Replace overlapping data in record @cmd[Record Mode|Record Mode Replace]"
 msgstr "在命令行中替换重叠数据@cmd[Record Mode|Record Mode Replace]"
 
 #: .\ccl\common.xml
@@ -5637,9 +5653,7 @@ msgid "[SynthCombinatorPageSelector]Routing"
 msgstr "路由"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited "
-"FREE version"
+msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
 msgstr "运行 $APPNAMEFREE - 有限功能免费版本"
 
 #: .\devices\devices.xml
@@ -6158,6 +6172,10 @@ msgstr "显示/隐藏更多"
 msgid "[FXEditorHeaderRow1]Sidechain"
 msgstr "旁链"
 
+#: .\devices\musicdevices.xml
+msgid "[NoteRepeatMasterControls]Single Mode"
+msgstr "Single 模式"
+
 #: .\app\plugscanner.xml
 msgid "[PlugInScanner]Skip"
 msgstr "跳过"
@@ -6555,21 +6573,15 @@ msgid "[StripSilencePanel]Strip Silence"
 msgstr "消除无声"
 
 #: .\app\notion.xml
-msgid ""
-"[SendToNotionNoTargets]Studio One can send instrument tracks and audio files "
-"to Notion. In Notion you can create a score and print parts for musicians."
-msgstr ""
-"Studio One可以发送乐器音轨和音频文件至Notion。在Notion中你可以创建配乐并为音"
-"乐家们打印其中的部分。"
+msgid "[SendToNotionNoTargets]Studio One can send instrument tracks and audio files to Notion. In Notion you can create a score and print parts for musicians."
+msgstr "Studio One可以发送乐器音轨和音频文件至Notion。在Notion中你可以创建配乐并为音乐家们打印其中的部分。"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Styles"
 msgstr "风格"
 
 #: .\engine\songdialogs.xml
-msgid ""
-"[AudioTransformDialog]Support retransformation to audio track with insert "
-"effects."
+msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
 msgstr "支持带有插入效果的音轨变回原形。"
 
 #: .\engine\musicdialogs.xml
@@ -6589,21 +6601,15 @@ msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "摇摆"
 
 #: .\engine\musicdialogs.xml
-msgid ""
-"[MusicTransformDialog]Switch between automatic tail detection and fixed tail "
-"of given length."
+msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "在自动结尾检测和为所给长度确定结尾之间切换。"
 
 #: .\engine\songdialogs.xml
-msgid ""
-"[AudioTransformDialog]Switch between automatic tail detection and fixed tail "
-"of given length."
+msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "在自动结尾检测和为所给长度确定结尾之间切换。"
 
 #: .\engine\editor.xml
-msgid ""
-"[EditorToolBar]Synchronize Editor to Arrangement @cmd[Edit|Synchronize "
-"Editor to Arrangement]"
+msgid "[EditorToolBar]Synchronize Editor to Arrangement @cmd[Edit|Synchronize Editor to Arrangement]"
 msgstr "将编辑器同步至改编 @cmd[Edit|Synchronize Editor to Arrangement]"
 
 #: .\devices\devices.xml
@@ -6687,21 +6693,15 @@ msgid "[BurnerSelectDialog]Test Write"
 msgstr "测试写入"
 
 #: .\app\licenser.xml
-msgid ""
-"[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac "
-"App Store."
+msgid "[AuthorizationHandlerError]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "感谢您从Mac App Store购买$APPNAME."
 
 #: .\app\licenser.xml
-msgid ""
-"[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App "
-"Store."
+msgid "[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "感谢您从Mac App Store购买$APPNAME."
 
 #: .\app\licenser.xml
-msgid ""
-"[PurchaseHandler]Thank you for your purchase. Your purchased items are ready "
-"to be activated on this computer."
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
 msgstr "感谢您的购买。您的购买产品现已可以在此台电脑上被激活。"
 
 #: .\app\homepage.xml
@@ -6749,7 +6749,7 @@ msgid "[TimeScrollBar+Zoom]Time Zoom"
 msgstr "时间区"
 
 #: .\engine\editor.xml
-msgid "[MusicPatternPartEditor]Time Zoom"
+msgid "[MusicPatternPartEditorContent]Time Zoom"
 msgstr "时间区"
 
 #: .\devices\transport.xml
@@ -6841,16 +6841,12 @@ msgid "[TitleAlbumNotes]Title"
 msgstr "标题"
 
 #: .\app\melodyne.xml
-msgid ""
-"[MelodynePlaceholder]To activate this capability please install Melodyne."
+msgid "[MelodynePlaceholder]To activate this capability please install Melodyne."
 msgstr "激活此功能请安装Melodne"
 
 #: .\app\licenser.xml
-msgid ""
-"[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is "
-"required. Please activate $APPNAME from the $APPNAME Activation menu first."
-msgstr ""
-"使用此功能须 $APPCOMPANY 账户。请在 $APPNAME有效设置菜单中设置激活 $APPNAME。"
+msgid "[AuthorizationHandlerError]To use this function a $APPCOMPANY Account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
+msgstr "使用此功能须 $APPCOMPANY 账户。请在 $APPNAME有效设置菜单中设置激活 $APPNAME。"
 
 #: .\devices\audiochannel.xml
 msgid "[HardwareStereoInputControls]Toggle L/R Channel"
@@ -7033,9 +7029,7 @@ msgid "[FixedEBUR128Display]True Peak"
 msgstr "实际峰值"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.ActivationPage]Try the full version for a time limited "
-"demo period"
+msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
 msgstr "尝试限制时长的完整版本"
 
 #: .\engine\eventinspector.xml
@@ -7079,9 +7073,7 @@ msgid "[ExtensionManager]Uninstall"
 msgstr "卸载"
 
 #: .\engine\musicdialogs.xml
-msgid ""
-"[MusicTransformDialog]Unload instrument and remove it from the rack. This "
-"option is only available, if no other tracks are using the instrument."
+msgid "[MusicTransformDialog]Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
 msgstr "卸载乐器并将其从机架上卸除。此选项只在没有其他轨道使用此乐器下可用。"
 
 #: .\app\multitrack.xml
@@ -7141,9 +7133,7 @@ msgid "[AudioEngineOption]Use dithering for playback and audio file export"
 msgstr "回放和音频文件扩展使用抖动"
 
 #: .\devices\devices.xml
-msgid ""
-"[AudioSetup.Engine]Use native low latency monitoring instead of hardware "
-"monitoring"
+msgid "[AudioSetup.Engine]Use native low latency monitoring instead of hardware monitoring"
 msgstr "使用自带低延迟监听代替硬件监听"
 
 #: .\project\audiofile.xml
@@ -7351,9 +7341,7 @@ msgid "[SongMetaInfoOption]Website"
 msgstr "网站"
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseDialog.ActivationPage]Welcome! To authorize this computer for "
-"the use of $APPNAME, please select your version and activate it below."
+msgid "[UserLicenseDialog.ActivationPage]Welcome! To authorize this computer for the use of $APPNAME, please select your version and activate it below."
 msgstr "欢迎！为了让此台电脑可以使用 $APPNAME，请选择您的版本信息并进行激活。"
 
 #: .\app\options.xml
@@ -7361,13 +7349,8 @@ msgid "[StartupOption]When $APPNAME starts"
 msgstr "启动$APPNAME时"
 
 #: .\app\melodyne.xml
-msgid ""
-"[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, "
-"and other properties of single notes in your audio material, from tiny "
-"intonation correction up to complete reworking."
-msgstr ""
-"利用Melodyne你可以修改音高，时间，声音，和你音频资料中，单独音符的其他属性，"
-"小到音准，大到完成重写。"
+msgid "[MelodynePlaceholder]With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."
+msgstr "利用Melodyne你可以修改音高，时间，声音，和你音频资料中，单独音符的其他属性，小到音准，大到完成重写。"
 
 #: .\engine\audioexport.xml
 msgid "[AudioExport]Write tempo to audio files"
@@ -7402,31 +7385,20 @@ msgid "[EventListDialog]Yes"
 msgstr "是的"
 
 #: .\app\notion.xml
-msgid ""
-"[SendToNotionInner]You can also send audio files to Notion from the file "
-"browser."
+msgid "[SendToNotionInner]You can also send audio files to Notion from the file browser."
 msgstr "您还可以通过浏览器将音频文件发送至Notion。"
 
 #: .\ccl\common.xml
-msgid ""
-"[ContentLocationSelector]You can change this location later in the "
-"Preference window."
+msgid "[ContentLocationSelector]You can change this location later in the Preference window."
 msgstr "稍后您可在参考窗口中更改此定位."
 
 #: .\app\licenser.xml
-msgid ""
-"[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME "
-"menu to install the additional content."
+msgid "[AppStoreWelcome]You can then select $APPNAME Installation from the $APPNAME menu to install the additional content."
 msgstr "你可以从$APPNAME菜单选择$APPNAME安装附加内容."
 
 #: .\app\licenser.xml
-msgid ""
-"[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using "
-"$APPNAME and made some great music. If you would like to purchase a copy of "
-"$APPNAME now, please visit our shop or a local dealer."
-msgstr ""
-"您的演示时期已经结束。我们希望您喜欢使用$APPNAME和取得了一些伟大的音乐。如果"
-"你想购买一美元现在$APPNAME的副本，请访问我们的商店或当地经销商"
+msgid "[UserLicenseExpired]Your demo period has ended. We hope you enjoyed using $APPNAME and made some great music. If you would like to purchase a copy of $APPNAME now, please visit our shop or a local dealer."
+msgstr "您的演示时期已经结束。我们希望您喜欢使用$APPNAME和取得了一些伟大的音乐。如果你想购买一美元现在$APPNAME的副本，请访问我们的商店或当地经销商"
 
 #: .\app\homepage.xml
 msgid "[Setup]Zero Latency Monitoring"
@@ -7447,6 +7419,14 @@ msgstr "dB"
 #: .\project\project.xml
 msgid "[LoudnessInfoTable]dB"
 msgstr "dB"
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]max"
+msgstr "最大"
+
+#: .\engine\trackcontrols.xml
+msgid "[TempoTrackControls]min"
+msgstr "分"
 
 #: .\devices\audiomixer.xml
 msgid "[AudioIOSetup.OutputDeviceInfo]mix"
@@ -7475,6 +7455,42 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[RecordPanel.Horizontal]@cmd[Record Mode|Note Repeat]"
+#~ msgstr "@cmd[Record Mode|Note Repeat]"
+
+#~ msgid "[MusicPatternPartEditor]Data Zoom"
+#~ msgstr "数据变焦"
+
+#~ msgid "[MusicPatternPartEditor]Drum Mode"
+#~ msgstr "鼓模式"
+
+#~ msgid "[MusicPatternPartEditor]Edit"
+#~ msgstr "编辑"
+
+#~ msgid "[RecordPanel.Horizontal]Erase Key"
+#~ msgstr "擦除键"
+
+#~ msgid "[RecordPanel.Horizontal]Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
+#~ msgstr "使用消除录音混音模式中的备注@cmd[Record Mode|Note Erase]"
+
+#~ msgid "[AboutApplication]Fonts"
+#~ msgstr "字体"
+
+#~ msgid "[RecordPanel.Horizontal]Instrument Recording Tools"
+#~ msgstr "乐器录制工具"
+
+#~ msgid "[MusicPatternPartEditor]Melodic Mode"
+#~ msgstr "旋律模式"
+
+#~ msgid "[RecordPanel.Horizontal]Note Erase"
+#~ msgstr "消除记录"
+
+#~ msgid "[RecordPanel.Horizontal]Repeat Key"
+#~ msgstr "重复Key"
+
+#~ msgid "[MusicPatternPartEditor]Time Zoom"
+#~ msgstr "时间区"
 
 #~ msgid "[SoundSetOption] ..."
 #~ msgstr " ..."
@@ -7599,12 +7615,10 @@ msgstr "x"
 #~ msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Mix FX Source"
 #~ msgstr "Mix FX  | 插入  |  Mix FX 源"
 
-#~ msgid ""
-#~ "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Sends  |  Mix FX Source"
+#~ msgid "[InsertsSendsMixFXIndicator]Mix FX  |  Inserts  |  Sends  |  Mix FX Source"
 #~ msgstr "Mix FX  |  插入  |  发送  |  Mix FX 源"
 
-#~ msgid ""
-#~ "[AudioOutput.Channel.Content]Mix FX  |  Inserts  | Post Fader Inserts"
+#~ msgid "[AudioOutput.Channel.Content]Mix FX  |  Inserts  | Post Fader Inserts"
 #~ msgstr "Mix FX  |  插入  | 快速推子插入"
 
 #~ msgid "[Audio.Channel.Basics.Content]Monitor"
@@ -7736,9 +7750,7 @@ msgstr "x"
 #~ msgid "[LicenseServerLogin]$APPCOMPANY Login"
 #~ msgstr "$APPCOMPANY 登陆"
 
-#~ msgid ""
-#~ "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. "
-#~ "Please login with your e-mail/username and password below."
+#~ msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 #~ msgstr "$APPNAME 需要登陆您的 $APP公司 账号。请填写您的电子邮件/用户名。"
 
 #~ msgid "[AudioExport]Amount:"
@@ -7867,8 +7879,7 @@ msgstr "x"
 #~ msgid "[LicenseServerLogin]Last Name"
 #~ msgstr "姓"
 
-#~ msgid ""
-#~ "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
+#~ msgid "[ProjectTrackInspector]Left Channel Average RMS (3 seconds integration)"
 #~ msgstr "左轨道平均输出功率（3秒集成）"
 
 #~ msgid "[ProjectTrackInspector]Left Channel DC Offset"
@@ -7919,11 +7930,8 @@ msgstr "x"
 #~ msgid "[ProjectTrackInspector]Pk R"
 #~ msgstr "PK R"
 
-#~ msgid ""
-#~ "[LicenseServerLogin]Please enter your contact data to sign up now. An E-"
-#~ "mail will be sent to you with a link to activate your account."
-#~ msgstr ""
-#~ "请键入您的联系方式以便注册。一封带有可激活账户链接的电子邮件将发送至您。"
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgstr "请键入您的联系方式以便注册。一封带有可激活账户链接的电子邮件将发送至您。"
 
 #~ msgid "[ProgressDialogView]Please wait..."
 #~ msgstr "请稍候..."
@@ -7976,8 +7984,7 @@ msgstr "x"
 #~ msgid "[LicenseServerLogin]Repeat Password"
 #~ msgstr "再次输入密码"
 
-#~ msgid ""
-#~ "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
+#~ msgid "[ProjectTrackInspector]Right Channel Average RMS (3 seconds integration)"
 #~ msgstr "右轨道平均RMS（3秒集成）"
 
 #~ msgid "[ProjectTrackInspector]Right Channel DC Offset"
@@ -8061,9 +8068,7 @@ msgstr "x"
 #~ msgid "[FXEditorHeaderRow1]Direct Inputs"
 #~ msgstr "直接输入"
 
-#~ msgid ""
-#~ "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current "
-#~ "Parameter]"
+#~ msgid "[ParamMapper.LeftPart]Edit Automation @cmd[Automation|Show Current Parameter]"
 #~ msgstr "编辑自动控制@cmd[Automation|Show Current Parameter]"
 
 #~ msgid "[ParamMapper.LeftPart]Parameter"
@@ -8080,3 +8085,4 @@ msgstr "x"
 
 #~ msgid "[VideoPlayer]QuickTime not installed"
 #~ msgstr "QuickTime尚未安装"
+

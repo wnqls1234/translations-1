@@ -112,6 +112,10 @@ msgstr "文档"
 msgid "[StudioApp]Edit with Melodyne"
 msgstr "使用Melodyne编辑"
 
+#: .\revoiceextension.cpp
+msgid "[StudioApp]Edit with Revoice Pro"
+msgstr "使用 Revoice Pro 编辑"
+
 #: .\vocalignextension.cpp
 msgid "[StudioApp]Edit with VocALign"
 msgstr "使用VocALign编辑"
@@ -127,6 +131,10 @@ msgstr "效果器"
 #: .\songdocument.cpp
 msgid "[StudioApp]Empty Song"
 msgstr "空白乐曲"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]Enable System DPI Scaling"
+msgstr "启用系统分辨率缩放"
 
 #: .\studioapp.cpp
 msgid "[SystemInfo]Ethernet Adapter"
@@ -147,6 +155,10 @@ msgstr "文件类型"
 #: .\sidebar.cpp
 msgid "[Sidebar]Files"
 msgstr "文件"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]For complete high-DPI compatibility the plug-in needs to be updated by the vendor."
+msgstr "为了得到完整的高分辨率兼容性，插件需由供应商进行升级。"
 
 #: .\studioapp.cpp
 msgid "[Command]Help"
@@ -264,6 +276,10 @@ msgstr "打开默认的乐曲/项目"
 msgid "[Options]Open Last Song/Project"
 msgstr "打开最后的乐曲/项目"
 
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]Please note that System DPI Scaling might cause graphical glitches in third-party plug-ins that $APPNAME can't fix."
+msgstr "请注意，系统分辨率缩放比例或会引起 $APPNAME 无法修复的第三方图形化故障。"
+
 #: .\sidebar.cpp
 msgid "[Sidebar]Pool"
 msgstr "素材池"
@@ -291,6 +307,10 @@ msgstr "最近使用的文件"
 #: .\melodyneextension.cpp
 msgid "[StudioApp]Remove Melodyne"
 msgstr "移除Melodyne"
+
+#: .\revoiceextension.cpp
+msgid "[StudioApp]Remove Revoice Pro"
+msgstr "移除 Revoice Pro"
 
 #: .\vocalignextension.cpp
 msgid "[StudioApp]Remove VocALign"
@@ -411,6 +431,10 @@ msgstr "样式"
 #: .\studioapp.cpp
 msgid "[SystemInfo]System"
 msgstr "系统"
+
+#: .\devicepresetrevealer.cpp
+msgid "[SystemScaling]System DPI Scaling for third-party plug-ins requires Windows 10 version 1803 or later."
+msgstr "使用第三方插件要求Windows 10 版本1803或更高系统分辨率缩放比率。"
 
 #: .\studioapp.cpp
 msgid "[SystemInfo]System ID"

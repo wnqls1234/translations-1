@@ -28,9 +28,17 @@ msgstr "一个事件并未被Event FX着色。"
 msgid "[AAF]Audio files from content packages can not be exported."
 msgstr "内容包转内的音频文件无法被导出。"
 
-#: .\aafhandler.cpp
-msgid "[AAF]Only Wave and AIFF audio files can be exported."
-msgstr "只有Wave和AIFF音频文件可被导出。"
+#: .\aafwriter.cpp
+msgid "[AAF]Converting %(1)"
+msgstr "正在转换%(1)"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Embedding %(1)"
+msgstr "正在嵌入 %(1)"
+
+#: .\aafwriter.cpp
+msgid "[AAF]Step %(1) of %(2)"
+msgstr "步骤%(1) - %(2)"
 
 #: .\aafhandler.cpp
 msgid "[AAF]The AAF export has the following issues:"
@@ -43,4 +51,7 @@ msgstr "此事件并非纯音频事件。"
 #: .\aafhandler.cpp
 msgid "[AAF]The file is not on your disk."
 msgstr "文件不在硬盘上。"
+
+#~ msgid "[AAF]Only Wave and AIFF audio files can be exported."
+#~ msgstr "只有Wave和AIFF音频文件可被导出。"
 

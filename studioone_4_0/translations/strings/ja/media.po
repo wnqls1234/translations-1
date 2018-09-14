@@ -32,6 +32,10 @@ msgstr "オーギュメント"
 msgid "[MediaTime]Bars"
 msgstr "小節"
 
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "ビートリニア"
+
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
 msgstr "ベンドポイント"
@@ -260,6 +264,10 @@ msgstr "ナッジ"
 msgid "[Media]Off"
 msgstr "オフ"
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "パッド %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
 msgstr "パターンファイル"
@@ -335,6 +343,14 @@ msgstr "ステレオ"
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
 msgstr "カーブを直線に"
+
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "テンポ"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "タイムリニア"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"

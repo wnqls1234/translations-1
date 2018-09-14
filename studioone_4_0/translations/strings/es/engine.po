@@ -970,13 +970,17 @@ msgstr "Editar siguiente patrón"
 msgid "[MusicPatternPartEditor]Edit Pattern Automation \"%(1)\""
 msgstr "Editar patrón de automatización \"%(1)\""
 
-#: .\musicediting\patterneditviews.cpp
+#: .\musicediting\patterneditcomponent.cpp .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Edit Pattern Step"
 msgstr "Editar paso del patrón"
 
 #: .\musicediting\musiceditextension.cpp
 msgid "[Command]Edit Previous Pattern"
 msgstr "Editar patrón previa"
+
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[MusicPatternPartEditor]Edit Step Accent"
+msgstr "Editar acento del paso"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Edit Track"
@@ -1387,6 +1391,10 @@ msgstr "Insertar marcador bend"
 msgid "[Edit]Insert Chord"
 msgstr "Insertar acorde"
 
+#: .\musicediting\musiceditextension.cpp
+msgid "[Edit]Insert Instrument"
+msgstr "Insertar instrumento"
+
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Insert Instrument on %(1):"
 msgstr "Insertar instrumento en %(1):"
@@ -1579,14 +1587,6 @@ msgstr "Loop de mezcla grabada"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Loop Record Mix"
 msgstr "Loop de mezcla grabada"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Erase"
-msgstr "Borrar nota de loop de grabación"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[RecordMode]Loop Record Note Repeat"
-msgstr "Repetir nota de loop de grabación"
 
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[RecordMode]Loop Record Takes"
@@ -1958,10 +1958,6 @@ msgstr "No establecido"
 #: .\musicediting\musicrecordcomponent.cpp
 msgid "[Command]Note Erase"
 msgstr "Borrar nota"
-
-#: .\musicediting\musicrecordcomponent.cpp
-msgid "[Command]Note Repeat"
-msgstr "Repetir nota"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
@@ -2719,6 +2715,10 @@ msgstr "Cambiar de pista"
 msgid "[Command]Shift Lane"
 msgstr "Cambiar de pista"
 
+#: .\musicediting\patterneditcomponent.cpp
+msgid "[Command]Shift Lane Back"
+msgstr "Volver a la pista anterior"
+
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Show \"%(1)\""
 msgstr "Mostrar \"%(1)\""
@@ -3347,6 +3347,15 @@ msgstr "utilizado %(1) veces"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "utilizado %(1) veces"
+
+#~ msgid "[RecordMode]Loop Record Note Erase"
+#~ msgstr "Borrar nota de loop de grabación"
+
+#~ msgid "[RecordMode]Loop Record Note Repeat"
+#~ msgstr "Repetir nota de loop de grabación"
+
+#~ msgid "[Command]Note Repeat"
+#~ msgstr "Repetir nota"
 
 #~ msgid "[Marker]Marker"
 #~ msgstr "Marcador"

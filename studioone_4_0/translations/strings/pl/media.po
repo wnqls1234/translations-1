@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\audiofile\audiocodecs\aiffaudiocodec.cpp
 msgid "[FileType]AIFC File"
@@ -15,7 +15,7 @@ msgstr "Plik AIFF"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Add Pattern"
-msgstr ""
+msgstr "Dodaj schemat"
 
 #: .\audiofile\audiocodecs\aiffaudiocodec.cpp
 msgid "[FileType]Apple Impulse File"
@@ -27,11 +27,15 @@ msgstr "Pętla audio"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Augmented"
-msgstr ""
+msgstr "Zwiększony"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Bars"
 msgstr "Takty"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Beat-Linear"
+msgstr "Bity - liniowo"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
@@ -39,11 +43,11 @@ msgstr "Punkty Audio Bend"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Blues"
-msgstr ""
+msgstr "Bluesowa"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Chromatic"
-msgstr ""
+msgstr "Chromatyczna"
 
 #: .\audiofile\audiofileconverter.cpp
 msgid "[AudioFileConverter]Converting %(1)"
@@ -75,11 +79,11 @@ msgstr "Usuń obiekt"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Diminished"
-msgstr ""
+msgstr "Zmniejszony"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Dorian"
-msgstr ""
+msgstr "Dorycka"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Edit Value"
@@ -91,15 +95,15 @@ msgstr "Klatki"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Freeze Quantize"
-msgstr "Zamroź kwantyzację"
+msgstr "Zamróź kwantyzację"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Freeze Velocity"
-msgstr "Zamroź dynamikę"
+msgstr "Zamróź dynamikę"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Harmonic Minor"
-msgstr ""
+msgstr "Minorowa chromatyczna"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Insert Event"
@@ -131,47 +135,47 @@ msgstr "Plik MIDI"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Major"
-msgstr ""
+msgstr "Majorowy"
 
 #: .\music\keysignature.cpp
 msgid "[KeySignature]Major"
-msgstr ""
+msgstr "Majorowa"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Major"
-msgstr ""
+msgstr "Majorowa"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Major Pentatonic"
-msgstr ""
+msgstr "Majorowa pentatoniczna"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Melodic Minor"
-msgstr ""
+msgstr "Minorowa melodyczna"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Minor"
-msgstr ""
+msgstr "Minorowy"
 
 #: .\music\keysignature.cpp
 msgid "[KeySignature]Minor"
-msgstr ""
+msgstr "Minorowa"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Minor Pentatonic"
-msgstr ""
+msgstr "Minorowa pentatoniczna"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Mixolydian"
-msgstr ""
+msgstr "Miksolidyjska"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Accent"
-msgstr ""
+msgstr "Modyfikuj akcent"
 
 #: .\music\chordfunctions.cpp
 msgid "[Edit]Modify Chord"
-msgstr ""
+msgstr "Modyfikuj akord"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Modify Event"
@@ -179,35 +183,35 @@ msgstr "Modyfikuj obiekt"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Accent Strength"
-msgstr ""
+msgstr "Modyfikuj siłę akcentu schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Gate"
-msgstr ""
+msgstr "Modyfikuj bramkę schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Resolution"
-msgstr ""
+msgstr "Modyfikuj rozdzielczość schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Swing"
-msgstr ""
+msgstr "Modyfikuj swing schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Type"
-msgstr ""
+msgstr "Modyfikuj typ schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Probability"
-msgstr ""
+msgstr "Modyfikuj prawdopodobieństwo"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Repeat"
-msgstr ""
+msgstr "Modyfikuj powtarzanie"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Step Count"
-msgstr ""
+msgstr "Modyfikuj liczbę kroków"
 
 #: .\time\mediatimeactions.cpp
 msgid "[MediaTimeAction]Modify Tempo"
@@ -251,7 +255,7 @@ msgstr "Wycisz obiekt"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Natural Minor"
-msgstr ""
+msgstr "Minorowa naturalna"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Nudge"
@@ -261,13 +265,17 @@ msgstr "Przesuń"
 msgid "[Media]Off"
 msgstr "Wyłącz"
 
+#: .\public\mediaformatter.cpp
+msgid "[Media]Pad %(1)"
+msgstr "Pad %(1)"
+
 #: .\music\patternperformance.cpp
 msgid "[FileType]Pattern File"
-msgstr ""
+msgstr "Plik schematu"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Phrygian"
-msgstr ""
+msgstr "Frygijska"
 
 #: .\music\pitchnamelist.cpp
 msgid "[FileType]Pitch Names"
@@ -275,7 +283,7 @@ msgstr "Nazwy wysokości nut"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Power Chord"
-msgstr ""
+msgstr "Dwudźwięk"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Quantize"
@@ -283,7 +291,7 @@ msgstr "Kwantyzacja"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Remove Pattern"
-msgstr ""
+msgstr "Usuń schemat"
 
 #: .\time\mediatimeactions.cpp
 msgid "[MediaTimeAction]Remove Tempo"
@@ -295,11 +303,11 @@ msgstr "Usuń metrum"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Rename Pattern"
-msgstr ""
+msgstr "Zmień nazwę schematu"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Reorder Pattern"
-msgstr ""
+msgstr "Zmień porządek schematu"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Resize Event"
@@ -337,6 +345,14 @@ msgstr "Stereo"
 msgid "[Events]Straighten Curve"
 msgstr "Prostowanie krzywej"
 
+#: .\time\tempoenvelope.cpp
+msgid "[Tempo]Tempo"
+msgstr "Tempo"
+
+#: .\time\mediatimeparams.cpp
+msgid "[MediaTime]Time-Linear"
+msgstr "Czas - liniowo"
+
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"
 msgstr "Transpozycja"
@@ -347,8 +363,9 @@ msgstr "Plik Wave"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]sus2"
-msgstr ""
+msgstr "Zawieszony sus2"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]sus4"
-msgstr ""
+msgstr "Zawieszony sus4"
+
