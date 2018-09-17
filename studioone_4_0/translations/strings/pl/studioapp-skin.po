@@ -1515,11 +1515,11 @@ msgstr "Podstawa"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Base Pitch for Key Remote"
-msgstr "Bazowa wysokość dla klawiszy zdalnych"
+msgstr "Bazowa wysokość klawiatury zewnętrznej"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Base Pitch for Single Mode"
-msgstr "Bazowa wysokość dla trybu pojedynczego"
+msgstr "Bazowa wysokość trybu niezależnego"
 
 #: .\engine\eventinspector.xml
 msgid "[ChordSelectorMiniParts]Bass"
@@ -2243,7 +2243,7 @@ msgstr "Panorama sub-miksu: @value[]"
 
 #: .\app\options.xml
 msgid "[ConsoleOption]Cue mix mute follows channel"
-msgstr "Sub-miks podąża za kanałem"
+msgstr "Wyciszenie sub-miksu podąża za kanałem"
 
 #: .\engine\song.xml
 msgid "[InplaceOptions]Cursor follows Edit Position"
@@ -2475,7 +2475,7 @@ msgstr "Tytuł dysku"
 
 #: .\engine\songdialogs.xml
 msgid "[SongSetup]Display Mode"
-msgstr "Wyświetlanie"
+msgstr "Ścieżka tempa"
 
 #: .\ccl\extensionmanager.xml
 msgid "[ExtensionAskInstallBox]Do you want to install this Extension?"
@@ -3743,7 +3743,7 @@ msgstr "Tonacja"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Key Range for Key Remote"
-msgstr "Zakres klawiszy dla klawiszy zdalnych"
+msgstr "Zakres klawiszy klawiatury zewnętrznej"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeatMasterControls]Key Remote"
@@ -4527,7 +4527,7 @@ msgstr "Powtarzaj nuty"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeatMasterControls]Note Repeat Active @cmd[Record Mode|Note Repeat]"
-msgstr "Note Repeat Active @cmd[Record Mode|Note Repeat]"
+msgstr "Aktywne powtarzanie nut @cmd[Record Mode|Note Repeat]"
 
 #: .\engine\songdialogs.xml
 msgid "[TitleAlbumNotes]Notes"
@@ -5507,11 +5507,11 @@ msgstr "Powtarzaj akcent"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Repeat Pitch for Single Mode"
-msgstr "Wysokość powtarzania dla trybu pojedynczego"
+msgstr "Wysokość powtarzania trybu niezależnego"
 
 #: .\engine\recordpanel.xml
 msgid "[RecordPanel.Horizontal]Repeat Pitch for Single Mode"
-msgstr "Wysokość powtarzania dla trybu pojedynczego"
+msgstr "Wysokość powtarzania trybu niezależnego"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeatMasterControls]Repeat Rate"
@@ -6175,7 +6175,7 @@ msgstr "Kluczowanie"
 
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeatMasterControls]Single Mode"
-msgstr "Pojedynczy"
+msgstr "Niezależnie"
 
 #: .\app\plugscanner.xml
 msgid "[PlugInScanner]Skip"
