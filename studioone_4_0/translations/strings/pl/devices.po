@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: <translator name> <<translator email>>\n"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]%(1) FPS"
@@ -208,6 +207,10 @@ msgstr "Przypisz %(1) do%(2)"
 #: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "Przypisz %(1) do %(2) na %(3)"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Assign Command..."
+msgstr "Przypisz polecenie..."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
@@ -1873,6 +1876,10 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia."
 
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr ""
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Tego urządzenia nie można teraz usunąć!"
@@ -1957,6 +1964,10 @@ msgstr "Transport"
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Type"
 msgstr "Typ"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Unassign"
+msgstr "Usuń przypisanie"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

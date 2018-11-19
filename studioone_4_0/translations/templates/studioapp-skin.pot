@@ -875,6 +875,10 @@ msgid "[HistoryPanel]Actions"
 msgstr ""
 
 #: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Activate"
+msgstr ""
+
+#: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Activate"
 msgstr ""
 
@@ -955,7 +959,7 @@ msgid "[AudioSends]Activate All"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Activate All"
+msgid "[AudioEventFXInserts]Activate All"
 msgstr ""
 
 #: .\engine\inspector.xml
@@ -979,7 +983,7 @@ msgid "[PurchaseHandler]Activate Purchased Items"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+msgid "[UserLicenseDialog.ActivationOptions]Activate my purchased version of $APPNAME"
 msgstr ""
 
 #: .\devices\musicdevices.xml
@@ -1039,7 +1043,7 @@ msgid "[PostFaderInserts]Add Insert"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Add Insert"
+msgid "[AudioEventFXInserts]Add Insert"
 msgstr ""
 
 #: .\devices\synthrack.xml
@@ -1448,6 +1452,10 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
+msgid "[AutomationModeBoxNarrow]Automation Mode"
+msgstr ""
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationModeBox]Automation Mode"
 msgstr ""
 
@@ -1536,7 +1544,7 @@ msgid "[AudioBendPanel.MarkerPart]Bend Marker"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Bend Marker"
+msgid "[AudioEventPropertiesList]Bend Marker"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -1597,10 +1605,6 @@ msgstr ""
 
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Browse $APPNAME loop libraries"
-msgstr ""
-
-#: .\devices\audiofxeditor.xml
-msgid "[FXEditorHeaderRow1]Browse Presets"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -2340,7 +2344,7 @@ msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
-msgid "[TempoTrackControls]Delete Selected Tempo Changes"
+msgid "[TempoTrackControls]Delete Tempo Change"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -2428,7 +2432,15 @@ msgid "[ChordSelectorParts]Diminished"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input"
+msgstr ""
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input Channel"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -2448,7 +2460,7 @@ msgid "[ExtensionManager]Disable"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Disable"
+msgid "[AudioEventFXAndPropertiesList]Disable"
 msgstr ""
 
 #: .\app\options.xml
@@ -2528,7 +2540,7 @@ msgid "[PostFaderInserts]Drag FX Chain from here"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Drag FX Chain from here"
+msgid "[AudioEventFXInserts]Drag FX Chain from here"
 msgstr ""
 
 #: .\devices\audiofxeditor.xml
@@ -2734,7 +2746,7 @@ msgid "[MusicStepRecordPanel]Enable"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Enable"
+msgid "[AudioEventFXAndPropertiesList]Enable"
 msgstr ""
 
 #: .\app\options.xml
@@ -2822,7 +2834,7 @@ msgid "[ChordEventProperties]End"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]End"
+msgid "[AudioEventPropertiesList]End"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -2866,27 +2878,27 @@ msgid "[EditingOption]Event Appearance"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects are currently offline"
+msgid "[AudioEventFXAndPropertiesList]Event Effects are currently offline"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgid "[AudioEventFXAndPropertiesList]Event Effects processing in realtime, click to render"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
+msgid "[AudioEventFXAndPropertiesList]Event Effects rendered, click to restore"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to activate"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to activate"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to disable"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to disable"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event FX"
+msgid "[AudioEventFXAndPropertiesList]Event FX"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -3004,11 +3016,11 @@ msgid "[StripSilencePanel.EventsPart]Fade Out"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-In"
+msgid "[AudioEventPropertiesList]Fade-In"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-Out"
+msgid "[AudioEventPropertiesList]Fade-Out"
 msgstr ""
 
 #: .\app\options.xml
@@ -3032,7 +3044,7 @@ msgid "[Command]File"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]File Tempo"
+msgid "[AudioEventPropertiesList]File Tempo"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -3148,7 +3160,7 @@ msgid "[GadgetNavigator]Gadgets"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Gain"
+msgid "[AudioEventPropertiesList]Gain"
 msgstr ""
 
 #: .\devices\musicdevices.xml
@@ -3484,7 +3496,7 @@ msgid "[RoutingEditView]Inserts"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Inserts"
+msgid "[AudioEventFXInserts]Inserts"
 msgstr ""
 
 #: .\devices\audiochannel.small.xml
@@ -3881,6 +3893,10 @@ msgstr ""
 
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Light"
+msgstr ""
+
+#: .\engine\editor.xml
+msgid "[MusicPatternPartEditorContent]Link Horizontal and Vertical Zoom"
 msgstr ""
 
 #: .\devices\audiomixer.xml
@@ -4482,7 +4498,7 @@ msgid "[SplitterEditView]Normal"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Normalize"
+msgid "[AudioEventPropertiesList]Normalize"
 msgstr ""
 
 #: .\engine\editor.xml
@@ -4571,7 +4587,7 @@ msgid "[Metronome]Offbeat"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Offline"
+msgid "[AudioEventFXAndPropertiesList]Offline"
 msgstr ""
 
 #: .\app\licenser.xml
@@ -5061,11 +5077,15 @@ msgid "[AudioSetup.Engine]Process Precision"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Process Volume after Event Effects"
+msgid "[AudioEventFXInserts]Process Volume after Event Effects"
 msgstr ""
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Processing"
+msgstr ""
+
+#: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Product Key"
 msgstr ""
 
 #: .\app\licenser.xml
@@ -5496,7 +5516,7 @@ msgid "[Metronome]Render"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Render"
+msgid "[AudioEventFXAndPropertiesList]Render"
 msgstr ""
 
 #: .\engine\musicdialogs.xml
@@ -5608,7 +5628,7 @@ msgid "[AudioBendPanel.MarkerPart]Restore"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Restore"
+msgid "[AudioEventFXAndPropertiesList]Restore"
 msgstr ""
 
 #: .\ccl\common.xml
@@ -5680,7 +5700,7 @@ msgid "[SynthCombinatorPageSelector]Routing"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+msgid "[UserLicenseDialog.ActivationOptions]Run $APPNAMEFREE - the feature limited FREE version"
 msgstr ""
 
 #: .\devices\devices.xml
@@ -6169,7 +6189,7 @@ msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Show/Hide Event Effects"
+msgid "[AudioEventFXAndPropertiesList]Show/Hide Event Effects"
 msgstr ""
 
 #: .\engine\trackcontrols.xml
@@ -6420,7 +6440,7 @@ msgid "[BurnerSelectDialog]Speed"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Speedup"
+msgid "[AudioEventPropertiesList]Speedup"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -6472,7 +6492,7 @@ msgid "[ChordEventProperties]Start"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Start"
+msgid "[AudioEventPropertiesList]Start"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -6683,7 +6703,7 @@ msgid "[TagInspector]Tags:"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Tail"
+msgid "[AudioEventFXInserts]Tail"
 msgstr ""
 
 #: .\engine\recordpanel.xml
@@ -6755,7 +6775,7 @@ msgid "[AudioBendPanel.MarkerPart]Threshold"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Threshold"
+msgid "[AudioEventPropertiesList]Threshold"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -7031,7 +7051,7 @@ msgid "[SynthNodeEditView]Transpose"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Transpose"
+msgid "[AudioEventPropertiesList]Transpose"
 msgstr ""
 
 #: .\engine\eventinspector.xml
@@ -7067,11 +7087,11 @@ msgid "[FixedEBUR128Display]True Peak"
 msgstr ""
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+msgid "[UserLicenseDialog.ActivationOptions]Try the full version for a time limited demo period"
 msgstr ""
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Tune"
+msgid "[AudioEventPropertiesList]Tune"
 msgstr ""
 
 #: .\engine\eventinspector.xml

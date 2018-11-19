@@ -208,6 +208,10 @@ msgstr "%(1) を %(2) にアサイン"
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "%(1) を %(3) の %(2) へアサイン"
 
+#: .\music\padsection.cpp
+msgid "[PadSection]Assign Command..."
+msgstr "コマンドをアサイン..."
+
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "コマンドをアサイン..."
@@ -1872,6 +1876,10 @@ msgstr "オーディオデバイス %(1) は前回正しく起動できません
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr "オーディオエンジンの過負荷によりシステムが反応しなくなったため、オーディオエンジンは停止しました。"
 
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr "デフォルトのオーディオ出力はそれ専用に使用されており、ビデオ再生用に開くことはできません。"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "このデバイスは現在削除できません。"
@@ -1956,6 +1964,10 @@ msgstr "トランスポート"
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Type"
 msgstr "タイプ"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Unassign"
+msgstr "アサインを解除"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

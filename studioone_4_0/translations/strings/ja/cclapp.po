@@ -324,6 +324,10 @@ msgstr "デスクトップ"
 msgid "[UserOption]Disable"
 msgstr "無効化"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Discard"
+msgstr "破棄"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "取り消し履歴を削除しますか？この操作は取り消せません。"
@@ -797,6 +801,10 @@ msgstr "オプション"
 msgid "[UserOption]Options"
 msgstr "オプション"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Original"
+msgstr "オリジナル"
+
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Packages"
 msgstr "パッケージ"
@@ -966,6 +974,10 @@ msgstr "タブ名を変更"
 msgid "[Command]Rename Tab"
 msgstr "タブ名を変更"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Replace"
+msgstr "置換"
+
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Replace Preset"
 msgstr "プリセットを置換"
@@ -997,6 +1009,10 @@ msgstr "復元"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "バージョンを復元"
+
+#: .\documents\documentversions.cpp
+msgid "[Documents]Restoring version \"%(1)\".\n\nDo you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
+msgstr "バージョン \"%(1)\" を復元しています。\n\n保存したバージョン \"%(2)\" と現在の状態を置換しますか、それとも現在の状態を破棄しますか？"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Revert"

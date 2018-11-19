@@ -324,6 +324,10 @@ msgstr "桌面"
 msgid "[UserOption]Disable"
 msgstr "禁用"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Discard"
+msgstr "放弃"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "确认要删除撤销记录吗?\n\n此操作无法恢复."
@@ -797,6 +801,10 @@ msgstr "选项"
 msgid "[UserOption]Options"
 msgstr "选项"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Original"
+msgstr "原始文档"
+
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Packages"
 msgstr "文件包"
@@ -966,6 +974,10 @@ msgstr "标签重命名"
 msgid "[Command]Rename Tab"
 msgstr "标签重命名"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Replace"
+msgstr "替换"
+
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Replace Preset"
 msgstr "替换预置"
@@ -997,6 +1009,10 @@ msgstr "存储"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "存储版本"
+
+#: .\documents\documentversions.cpp
+msgid "[Documents]Restoring version \"%(1)\".\n\nDo you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
+msgstr "正在还原版本 \"%(1)\".\n\n是否要讲保存的版本 \"%(2)\" 替换为当前状态，还是放弃当前状态？"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Revert"

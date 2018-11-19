@@ -208,6 +208,10 @@ msgstr "Assegna %(1) a %(2)"
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "Assegna %(1) a %(2) su %(3)"
 
+#: .\music\padsection.cpp
+msgid "[PadSection]Assign Command..."
+msgstr "Assegna Comando..."
+
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "Assegna Comando..."
@@ -1872,6 +1876,10 @@ msgstr "Il dispositivo audio %(1) non è stato avviato correttamente. Vuoi prova
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr "Il motore audio è stato interrotto, perché il sistema non risponde a causa di un sovraccarico del motore audio."
 
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr "L'uscita audio predefinita viene utilizzata in modo esclusivo e non può essere aperta per la riproduzione video."
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Questo dispositivo non può essere rimosso in questo momento!"
@@ -1956,6 +1964,10 @@ msgstr "Trasporto"
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Type"
 msgstr "Digita"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Unassign"
+msgstr "Annulla Assegnazione"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

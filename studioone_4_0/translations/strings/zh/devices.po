@@ -208,6 +208,10 @@ msgstr "分配 %(1) 至 %(2)"
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "%(1) %(2) 分配至 %(3)"
 
+#: .\music\padsection.cpp
+msgid "[PadSection]Assign Command..."
+msgstr "指配命令..."
+
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "指配命令..."
@@ -1872,6 +1876,10 @@ msgstr "音频设备%(1)开启失败. 是否重试?"
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr "音频引擎已停止. 系统无应答或资源不足."
 
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr "音频输出默认是独立使用的，无法用于查看视频回放。"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "设备无法移除!"
@@ -1956,6 +1964,10 @@ msgstr "走带控制"
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Type"
 msgstr "类型"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Unassign"
+msgstr "取消分配"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

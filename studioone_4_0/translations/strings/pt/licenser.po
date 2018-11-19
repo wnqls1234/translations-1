@@ -93,6 +93,10 @@ msgstr "Gerenciar Ativações"
 msgid "[Licenser]No purchased items installed."
 msgstr "Não há itens comprados instalados."
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr "Verifique o estado da assinatura no aplicativo Splice."
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "Insira a Chave de Produto da versão do $APPNAME que você adquiriu."
@@ -142,7 +146,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr "Obrigado! O $APPNAME está ativado para este computador!"
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "Obrigado! Um E-Mail lhe foi enviado com um link para ativação de sua conta."
 
 #: .\application\usercomponent.cpp
@@ -170,12 +174,20 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "Esta cópia é licenciada para %(1)"
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr "Esta chave de produto requer uma licença adicional que não foi encontrada neste computador."
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "Licença de Usuário não encontrada! Selecione um novo Arquivo de Licença."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Verificando Licença de Usuário..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr "Sua licença Splice do $APPNAME é inválida."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

@@ -208,6 +208,10 @@ msgstr "%(1) auf %(2) zuweisen"
 msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
 msgstr "%(1) %(2) an %(3) zuweisen"
 
+#: .\music\padsection.cpp
+msgid "[PadSection]Assign Command..."
+msgstr "Befehl zuweisen..."
+
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Command..."
 msgstr "Befehl zuweisen..."
@@ -1872,6 +1876,10 @@ msgstr "Das Audiogerät %(1) konnte zuvor nicht gestartet werden. Möchten Sie e
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr "Die Audio-Engine wurde angehalten, da das System wegen Überlastung der Engine nicht reagiert hat."
 
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr "Das Standardaudiogerät wird exklusiv verwendet und kann nicht für die Videowiedergabe geöffnet werden."
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Das Gerät kann derzeit nicht entfernt werden!"
@@ -1956,6 +1964,10 @@ msgstr "Transport"
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Type"
 msgstr "Typ"
+
+#: .\music\padsection.cpp
+msgid "[PadSection]Unassign"
+msgstr "Lösen"
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Unassign"

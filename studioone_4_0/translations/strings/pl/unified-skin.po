@@ -9,9 +9,11 @@ msgid "[LicenseServerLogin]$APPCOMPANY Login"
 msgstr "Zaloguj się do $APPCOMPANY"
 
 #: .\login.xml
-msgid ""
-"[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. "
-"Please login with your e-mail/username and password below."
+msgid "[LicenseServerLogin]$APPCOMPANY Terms of Use"
+msgstr ""
+
+#: .\login.xml
+msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 msgstr "$APPNAME wymaga dostępu do Twojego konta $APPCOMPANY. Zaloguj się poniżej z pomocą Twojego adrsu e-mail/nazwy użytkownika i hasła."
 
 #: .\cclcommon.xml
@@ -51,11 +53,11 @@ msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
 msgstr "Nie masz jeszcze konta $&APPCOMPANY?"
 
 #: .\login.xml
-msgid "[LicenseServerLogin]E-Mail"
+msgid "[LicenseServerLogin]Email"
 msgstr "E-mail"
 
 #: .\login.xml
-msgid "[LicenseServerLogin]E-Mail or username"
+msgid "[LicenseServerLogin]Email or username"
 msgstr "E-mail lub nazwa użytkownika"
 
 #: .\cclcommon.xml
@@ -69,6 +71,14 @@ msgstr "Imię"
 #: .\login.xml
 msgid "[LicenseServerLogin]Forgot your password?"
 msgstr "Nie pamiętasz hasła?"
+
+#: .\login.xml
+msgid "[LicenseServerLogin]I have read and agree to the latest Terms of Use."
+msgstr ""
+
+#: .\login.xml
+msgid "[LicenseServerLogin]I would like to receive occasional updates from $APPCOMPANY via e-mail."
+msgstr ""
 
 #: .\cclcommon.xml
 msgid "[CommandSchemeOption]Keyboard mapping scheme"
@@ -95,9 +105,7 @@ msgid "[LicenseServerLogin]Password"
 msgstr "Hasło"
 
 #: .\login.xml
-msgid ""
-"[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail "
-"will be sent to you with a link to activate your account."
+msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
 msgstr "Podaj swoje dane kontaktowe aby się zarejestrować. Otrzymasz e-mail z odnośnikiem aktywującym Twoje konto."
 
 #: .\login.xml
@@ -131,3 +139,7 @@ msgstr "Pokaż po rozpoczęciu nowego transferu"
 #: .\transfers.xml
 msgid "[TransferManager]Transfers"
 msgstr "Transfery"
+
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgstr "Podaj swoje dane kontaktowe aby się zarejestrować. Otrzymasz e-mail z odnośnikiem aktywującym Twoje konto."
+

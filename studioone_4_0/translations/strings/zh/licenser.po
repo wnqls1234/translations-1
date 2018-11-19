@@ -93,6 +93,10 @@ msgstr "管理激活"
 msgid "[Licenser]No purchased items installed."
 msgstr "没有购买产品被安装。"
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr "请检查您在拼接应用中查看您的租赁状态。"
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "请键入您所购买的$APPNAME 激活码。"
@@ -142,7 +146,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr "感谢注册! $APPNAME已经激活!"
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "谢谢！一个带有启动连接的邮件已经被发送至您的邮箱"
 
 #: .\application\usercomponent.cpp
@@ -170,12 +174,20 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "此副本授权给 %(1)"
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr "此产品密钥要求一个附加的许可证，然而在此台电脑上无法找到此许可证。"
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "没有找到授权许可! 请重新选择授权文件."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "校验授权许可..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr "您的拼接许可证对于 $APPNAME 是无效的。"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

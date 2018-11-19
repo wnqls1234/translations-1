@@ -72,7 +72,9 @@ msgstr "Pobierz"
 msgid ""
 "[WebAPI]Failed to connect to the server.\n"
 "Please check your Internet connection and try again."
-msgstr "Nie można połączyć się z serwerem.\nSprawdź połączenie z Internetem i spróbuj ponownie."
+msgstr ""
+"Nie można połączyć się z serwerem.\n"
+"Sprawdź połączenie z Internetem i spróbuj ponownie."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Invalid License File!"
@@ -97,6 +99,10 @@ msgstr "Zarządzaj aktywacjami"
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]No purchased items installed."
 msgstr "Nie zainstalowano żadnych zakupionych elementów."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr ""
 
 #: .\application\activationhandler.cpp
 msgid ""
@@ -151,9 +157,10 @@ msgstr "Dziękujemy! $APPNAME zostało aktywowane na tym komputerze."
 
 #: .\application\loginhandler.cpp
 msgid ""
-"[Licenser]Thank You! An E-Mail has been sent to you with a link to activate "
+"[Licenser]Thank You! An e-mail has been sent to you with a link to activate "
 "your account."
-msgstr "Dziękujemy! Został wysłany do Ciebie email z odnośnikiem aktywacji konta."
+msgstr ""
+"Dziękujemy! Został wysłany do Ciebie email z odnośnikiem aktywacji konta."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]The License has expired!"
@@ -175,11 +182,19 @@ msgstr "Żądanie nie powiodło się (%(1))."
 msgid ""
 "[Licenser]This computer has been de-activated for use with $APPNAME. You can "
 "manage activations in your $APPCOMPANY Account."
-msgstr "Ten komputer został dezaktywowany do pracy z $APPNAME. Możesz zarządzać aktywacjami na swoim koncie $APPCOMPANY."
+msgstr ""
+"Ten komputer został dezaktywowany do pracy z $APPNAME. Możesz zarządzać "
+"aktywacjami na swoim koncie $APPCOMPANY."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "Właścicielem licencji dla tej kopii jest %(1)"
+
+#: .\application\usercomponent.cpp
+msgid ""
+"[Licenser]This product key requires an additional license that could not be "
+"found on this computer."
+msgstr ""
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
@@ -188,6 +203,10 @@ msgstr "Nie znaleziono licencji użytkownika! Wybierz nowy plik licencji."
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Weryfikacja licencji użytkownika..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr ""
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

@@ -93,6 +93,10 @@ msgstr "Aktivierungen verwalten"
 msgid "[Licenser]No purchased items installed."
 msgstr "Keine gekauften Artikel installiert."
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr "Bitte überprüfen Sie Ihren Rent-to-Own-Status in der Splice App."
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "Geben Sie bitte den Produktschlüssel der von Ihnen erworbenen $APPNAME-Version ein."
@@ -142,7 +146,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr "Vielen Dank! $APPNAME wurde auf diesem Computer freigeschaltet."
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "Vielen Dank! Sie erhalten eine E-Mail mit einem Link, um Ihren Account zu aktivieren."
 
 #: .\application\usercomponent.cpp
@@ -170,12 +174,20 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "Diese Kopie ist lizenziert für %(1)"
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr "Dieser Produktschlüssel erfordert eine zusätzliche Lizenz, die auf diesem Computer nicht gefunden wurde."
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "Die Benutzerlizenz wurde nicht gefunden! Bitte wählen Sie eine neue Lizenzdatei."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Überprüfe Benutzerlizenz..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr "Ihre Splice-Lizenz für $APPNAME ist ungültig."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

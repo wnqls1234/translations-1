@@ -93,6 +93,10 @@ msgstr "Gérer les activations"
 msgid "[Licenser]No purchased items installed."
 msgstr "Aucun article acheté installé."
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr "Veuillez vérifier votre statut de location avec option d'achat dans l'appli Splice."
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "Veuillez saisir la clé de produit de la version de $APPNAME que vous avez achetée."
@@ -142,7 +146,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr "Merci! $APPNAME a été activé pour fonctionner sur cet ordinateur."
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "Merci! Un e-mail vous a été envoyé avec un lien pour activer votre compte."
 
 #: .\application\usercomponent.cpp
@@ -170,12 +174,20 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "La licence de cette copie est accordée à %(1)"
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr "Cette clé de produit nécessite une licence supplémentaire qui n'a pas pu être trouvée sur cet ordinateur."
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "Licence utilisateur non trouvée! Veuillez sélectionner un nouveau fichier de licence."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Vérification de la licence utilisateur..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr "Votre licence Splice pour $APPNAME n'est pas valable."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

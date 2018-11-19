@@ -93,6 +93,10 @@ msgstr "Gestisci Attivazioni"
 msgid "[Licenser]No purchased items installed."
 msgstr "Non ci sono articoli acquistati installati."
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr "Controlla il tuo Rent-to-Own nell'app Splice."
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "Si prega di inserire il Product Key della versione $APPNAME acquistata."
@@ -142,7 +146,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr "Grazie! $APPNAME è stato attivato per l'esecuzione su questo computer."
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "Grazie! Una e-mail è stata inviata con un link per attivare l'account."
 
 #: .\application\usercomponent.cpp
@@ -170,12 +174,20 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "Questa copia è concessa in licenza a %(1)"
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr "Questo codice prodotto richiede una licenza aggiuntiva che non è stata trovata su questo computer."
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr "Licenza dell'utente non trovata! Si prega di selezionare un nuovo file di licenza."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Verifica della licenza utente ..."
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
+msgstr "La tua licenza Splice per $APPNAME non è valida."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."

@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator: <translator name> <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,15 +89,11 @@ msgid "[Options]Do Nothing"
 msgstr "Nic nie rób"
 
 #: .\projectdocument.cpp
-msgid ""
-"[StudioApp]Do you want to make the current I/O Setup the default for new "
-"Projects?"
+msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Projects?"
 msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych projektów?"
 
 #: .\songdocument.cpp
-msgid ""
-"[StudioApp]Do you want to make the current I/O Setup the default for new "
-"Songs?"
+msgid "[StudioApp]Do you want to make the current I/O Setup the default for new Songs?"
 msgstr "Czy chcesz ustawić bieżącą konfigurację we./wy. jako domyślną dla nowych utworów?"
 
 #: .\documenthandler.cpp
@@ -162,9 +157,7 @@ msgid "[Sidebar]Files"
 msgstr "Pliki"
 
 #: .\devicepresetrevealer.cpp
-msgid ""
-"[SystemScaling]For complete high-DPI compatibility the plug-in has to be "
-"updated by the vendor."
+msgid "[SystemScaling]For complete high-DPI compatibility the plug-in needs to be updated by the vendor."
 msgstr "Aby zapewnić kompatybilność z wysokim DPI, producent powinien zaktualizować wtyczkę."
 
 #: .\studioapp.cpp
@@ -284,9 +277,7 @@ msgid "[Options]Open Last Song/Project"
 msgstr "Otwórz ostatni utwór / projekt"
 
 #: .\devicepresetrevealer.cpp
-msgid ""
-"[SystemScaling]Please note that System DPI Scaling might cause graphical "
-"glitches in third-party plug-ins that $APPNAME can't fix."
+msgid "[SystemScaling]Please note that System DPI Scaling might cause graphical glitches in third-party plug-ins that $APPNAME can't fix."
 msgstr "Zwróć uwagę, że skalowanie DPI może spowodować zniekształcenia grafiki wtyczek innych producentów, czego $APPNAME nie może skorygować."
 
 #: .\sidebar.cpp
@@ -442,9 +433,7 @@ msgid "[SystemInfo]System"
 msgstr "System"
 
 #: .\devicepresetrevealer.cpp
-msgid ""
-"[SystemScaling]System DPI Scaling for third-party plug-ins requires Windows "
-"10 version 1803 or later."
+msgid "[SystemScaling]System DPI Scaling for third-party plug-ins requires Windows 10 version 1803 or later."
 msgstr "Skalowanie DPI wtyczek innych producentów wymaga Windows 10 w wersji 1803 lub nowszej."
 
 #: .\studioapp.cpp
@@ -464,9 +453,7 @@ msgid "[SongDataImporter]Tempo & Time Signature"
 msgstr "Tempo i metrum"
 
 #: .\studioapp.cpp
-msgid ""
-"[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts "
-"left."
+msgid "[StudioApp]Thank you for checking out $APPNAME. You have %(1) program starts left."
 msgstr "Dziękujemy za wypróbowanie $APPNAME. Pozostało Ci %(1) uruchomień."
 
 #: .\studioapp.cpp
@@ -474,10 +461,7 @@ msgid "[StudioApp]The $APPNAME Reference Manual has not been installed yet."
 msgstr "Podręcznik $APPNAME nie został jeszcze zainstalowany."
 
 #: .\soundsethandler.cpp
-msgid ""
-"[StudioApp]The following Sound Sets failed to install or are installed "
-"multiple times on your system. This can be caused by incomplete file "
-"downloads. Do you want to delete these files now?"
+msgid "[StudioApp]The following Sound Sets failed to install or are installed multiple times on your system. This can be caused by incomplete file downloads. Do you want to delete these files now?"
 msgstr "Nie udało się zainstalować następujących sound setów lub zostały one kilkakrotnie instalowane na Twoim systemie. Może to być spowodowane niepełną operacją pobierania. Czy chcesz usunąć teraz te pliki?"
 
 #: .\soundsethandler.cpp
@@ -532,11 +516,12 @@ msgstr "Widok"
 msgid "[StudioApp]Workspace"
 msgstr "Obszar roboczy"
 
-#~ msgid ""
-#~ "[StudioApp]An older version of $APPNAME has been found on this computer."
+#~ msgid "[SystemScaling]For complete high-DPI compatibility the plug-in has to be updated by the vendor."
+#~ msgstr "Aby zapewnić kompatybilność z wysokim DPI, producent powinien zaktualizować wtyczkę."
+
+#~ msgid "[StudioApp]An older version of $APPNAME has been found on this computer."
 #~ msgstr "Znaleziono starszą wersję $APPNAME na tym komputerze."
 
-#~ msgid ""
-#~ "[StudioApp]Do you want to import the settings from the old version of "
-#~ "$APPNAME?"
+#~ msgid "[StudioApp]Do you want to import the settings from the old version of $APPNAME?"
 #~ msgstr "Czy chcesz zaimportować ustawienia ze starej wersji $APPNAME?"
+

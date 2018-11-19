@@ -881,6 +881,10 @@ msgid "[HistoryPanel]Actions"
 msgstr "Actions"
 
 #: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Activate"
+msgstr "Activer"
+
+#: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Activate"
 msgstr "Activer"
 
@@ -961,7 +965,7 @@ msgid "[AudioSends]Activate All"
 msgstr "Tout activer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Activate All"
+msgid "[AudioEventFXInserts]Activate All"
 msgstr "Tout activer"
 
 #: .\engine\inspector.xml
@@ -985,7 +989,7 @@ msgid "[PurchaseHandler]Activate Purchased Items"
 msgstr "Activer les articles achetés"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+msgid "[UserLicenseDialog.ActivationOptions]Activate my purchased version of $APPNAME"
 msgstr "Activer ma version achetée de $APPNAME"
 
 #: .\devices\musicdevices.xml
@@ -1045,7 +1049,7 @@ msgid "[PostFaderInserts]Add Insert"
 msgstr "Ajouter un insert"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Add Insert"
+msgid "[AudioEventFXInserts]Add Insert"
 msgstr "Ajouter un insert"
 
 #: .\devices\synthrack.xml
@@ -1453,6 +1457,10 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr "Mode d'automation"
 
 #: .\engine\trackcontrols.xml
+msgid "[AutomationModeBoxNarrow]Automation Mode"
+msgstr "Mode d'automation"
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationModeBox]Automation Mode"
 msgstr "Mode d'automation"
 
@@ -1541,7 +1549,7 @@ msgid "[AudioBendPanel.MarkerPart]Bend Marker"
 msgstr "Marqueur d'étirement"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Bend Marker"
+msgid "[AudioEventPropertiesList]Bend Marker"
 msgstr "Marqueur d'étirement"
 
 #: .\engine\eventinspector.xml
@@ -1603,10 +1611,6 @@ msgstr "Parcourir"
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Browse $APPNAME loop libraries"
 msgstr "Parcourir les bibliothèques de boucles de $APPNAME"
-
-#: .\devices\audiofxeditor.xml
-msgid "[FXEditorHeaderRow1]Browse Presets"
-msgstr "Parcourir les presets"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SlotNodeEditHeader]Browse Presets"
@@ -2341,8 +2345,8 @@ msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
 msgstr "Supprimer les marqueurs sélectionnés @cmd[Edit|Delete]"
 
 #: .\engine\trackcontrols.xml
-msgid "[TempoTrackControls]Delete Selected Tempo Changes"
-msgstr "Supprimer les changements de tempo sélectionnés"
+msgid "[TempoTrackControls]Delete Tempo Change"
+msgstr "Supprimer le changement de tempo"
 
 #: .\engine\editor.xml
 msgid "[Command]Delete Variation"
@@ -2429,8 +2433,16 @@ msgid "[ChordSelectorParts]Diminished"
 msgstr "Diminué"
 
 #: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input"
+msgstr "Entrée directe"
+
+#: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input"
 msgstr "Entrée directe"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input Channel"
+msgstr "Canal d'entrée directe"
 
 #: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input Channel"
@@ -2449,7 +2461,7 @@ msgid "[ExtensionManager]Disable"
 msgstr "Désactiver"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Disable"
+msgid "[AudioEventFXAndPropertiesList]Disable"
 msgstr "Désactiver"
 
 #: .\app\options.xml
@@ -2529,7 +2541,7 @@ msgid "[PostFaderInserts]Drag FX Chain from here"
 msgstr "D'ici, faites glisser la chaîne d'effets"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Drag FX Chain from here"
+msgid "[AudioEventFXInserts]Drag FX Chain from here"
 msgstr "D'ici, faites glisser la chaîne d'effets"
 
 #: .\devices\audiofxeditor.xml
@@ -2733,7 +2745,7 @@ msgid "[MusicStepRecordPanel]Enable"
 msgstr "Activer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Enable"
+msgid "[AudioEventFXAndPropertiesList]Enable"
 msgstr "Activer"
 
 #: .\app\options.xml
@@ -2821,7 +2833,7 @@ msgid "[ChordEventProperties]End"
 msgstr "Fin"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]End"
+msgid "[AudioEventPropertiesList]End"
 msgstr "Fin"
 
 #: .\engine\eventinspector.xml
@@ -2865,27 +2877,27 @@ msgid "[EditingOption]Event Appearance"
 msgstr "Aspect des événements"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects are currently offline"
+msgid "[AudioEventFXAndPropertiesList]Event Effects are currently offline"
 msgstr "Les effets d'événement sont actuellement hors ligne"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgid "[AudioEventFXAndPropertiesList]Event Effects processing in realtime, click to render"
 msgstr "Traitement des effets d'événement en temps réel, cliquer pour convertir"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
+msgid "[AudioEventFXAndPropertiesList]Event Effects rendered, click to restore"
 msgstr "Effets d'événement convertis, cliquer pour restaurer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to activate"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to activate"
 msgstr "Effets d'événement, cliquer pour activer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to disable"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to disable"
 msgstr "Effets d'événement, cliquer pour désactiver"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event FX"
+msgid "[AudioEventFXAndPropertiesList]Event FX"
 msgstr "Effet"
 
 #: .\engine\eventinspector.xml
@@ -3001,11 +3013,11 @@ msgid "[StripSilencePanel.EventsPart]Fade Out"
 msgstr "Fondu de sortie"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-In"
+msgid "[AudioEventPropertiesList]Fade-In"
 msgstr "Fondu d'entrée"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-Out"
+msgid "[AudioEventPropertiesList]Fade-Out"
 msgstr "Fondu de sortie"
 
 #: .\app\options.xml
@@ -3029,7 +3041,7 @@ msgid "[Command]File"
 msgstr "Fichier"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]File Tempo"
+msgid "[AudioEventPropertiesList]File Tempo"
 msgstr "Tempo fichier"
 
 #: .\engine\eventinspector.xml
@@ -3145,7 +3157,7 @@ msgid "[GadgetNavigator]Gadgets"
 msgstr "Gadgets"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Gain"
+msgid "[AudioEventPropertiesList]Gain"
 msgstr "Gain"
 
 #: .\devices\musicdevices.xml
@@ -3477,7 +3489,7 @@ msgid "[RoutingEditView]Inserts"
 msgstr "Inserts"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Inserts"
+msgid "[AudioEventFXInserts]Inserts"
 msgstr "Inserts"
 
 #: .\devices\audiochannel.small.xml
@@ -3875,6 +3887,10 @@ msgstr "Licence accordée à:"
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Light"
 msgstr "Clair"
+
+#: .\engine\editor.xml
+msgid "[MusicPatternPartEditorContent]Link Horizontal and Vertical Zoom"
+msgstr "Lier le zoom horizontal et le zoom vertical"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
@@ -4469,7 +4485,7 @@ msgid "[SplitterEditView]Normal"
 msgstr "Normal"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Normalize"
+msgid "[AudioEventPropertiesList]Normalize"
 msgstr "Normaliser"
 
 #: .\engine\editor.xml
@@ -4557,7 +4573,7 @@ msgid "[Metronome]Offbeat"
 msgstr "Temps faible"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Offline"
+msgid "[AudioEventFXAndPropertiesList]Offline"
 msgstr "Hors ligne"
 
 #: .\app\licenser.xml
@@ -5037,12 +5053,16 @@ msgid "[AudioSetup.Engine]Process Precision"
 msgstr "Traitement"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Process Volume after Event Effects"
+msgid "[AudioEventFXInserts]Process Volume after Event Effects"
 msgstr "Traiter le volume après les effets d'événement"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Processing"
 msgstr "Traitement"
+
+#: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Product Key"
+msgstr "Clé de produit"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -5469,7 +5489,7 @@ msgid "[Metronome]Render"
 msgstr "Convertir"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Render"
+msgid "[AudioEventFXAndPropertiesList]Render"
 msgstr "Convertir"
 
 #: .\engine\musicdialogs.xml
@@ -5581,7 +5601,7 @@ msgid "[AudioBendPanel.MarkerPart]Restore"
 msgstr "Restaurer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Restore"
+msgid "[AudioEventFXAndPropertiesList]Restore"
 msgstr "Restaurer"
 
 #: .\ccl\common.xml
@@ -5653,7 +5673,7 @@ msgid "[SynthCombinatorPageSelector]Routing"
 msgstr "Routage"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+msgid "[UserLicenseDialog.ActivationOptions]Run $APPNAMEFREE - the feature limited FREE version"
 msgstr "Lancer $APPNAMEFREE - la version GRATUITE aux fonctions limitées"
 
 #: .\devices\devices.xml
@@ -6141,7 +6161,7 @@ msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr "Afficher/Masquer les marqueurs d'étirement"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Show/Hide Event Effects"
+msgid "[AudioEventFXAndPropertiesList]Show/Hide Event Effects"
 msgstr "Afficher/Masquer les effets d'événement"
 
 #: .\engine\trackcontrols.xml
@@ -6389,7 +6409,7 @@ msgid "[BurnerSelectDialog]Speed"
 msgstr "Vitesse"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Speedup"
+msgid "[AudioEventPropertiesList]Speedup"
 msgstr "Vitesse (x)"
 
 #: .\engine\eventinspector.xml
@@ -6441,7 +6461,7 @@ msgid "[ChordEventProperties]Start"
 msgstr "Début"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Start"
+msgid "[AudioEventPropertiesList]Start"
 msgstr "Début"
 
 #: .\engine\eventinspector.xml
@@ -6649,7 +6669,7 @@ msgid "[TagInspector]Tags:"
 msgstr "Balises:"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Tail"
+msgid "[AudioEventFXInserts]Tail"
 msgstr "Queue"
 
 #: .\engine\recordpanel.xml
@@ -6721,7 +6741,7 @@ msgid "[AudioBendPanel.MarkerPart]Threshold"
 msgstr "Seuil"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Threshold"
+msgid "[AudioEventPropertiesList]Threshold"
 msgstr "Seuil"
 
 #: .\engine\eventinspector.xml
@@ -6993,7 +7013,7 @@ msgid "[SynthNodeEditView]Transpose"
 msgstr "Transposer"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Transpose"
+msgid "[AudioEventPropertiesList]Transpose"
 msgstr "Transposer"
 
 #: .\engine\eventinspector.xml
@@ -7029,11 +7049,11 @@ msgid "[FixedEBUR128Display]True Peak"
 msgstr "True Peak"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+msgid "[UserLicenseDialog.ActivationOptions]Try the full version for a time limited demo period"
 msgstr "Essayez la version complète pendant une période limitée de démo"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Tune"
+msgid "[AudioEventPropertiesList]Tune"
 msgstr "Accorder"
 
 #: .\engine\eventinspector.xml
@@ -7456,6 +7476,111 @@ msgstr "x"
 msgid "[DetailedInfoTable]x"
 msgstr "x"
 
+#~ msgid "[AudioEventInserts]Activate All"
+#~ msgstr "Tout activer"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+#~ msgstr "Activer ma version achetée de $APPNAME"
+
+#~ msgid "[AudioEventInserts]Add Insert"
+#~ msgstr "Ajouter un insert"
+
+#~ msgid "[AudioEventProperties]Bend Marker"
+#~ msgstr "Marqueur d'étirement"
+
+#~ msgid "[FXEditorHeaderRow1]Browse Presets"
+#~ msgstr "Parcourir les presets"
+
+#~ msgid "[TempoTrackControls]Delete Selected Tempo Changes"
+#~ msgstr "Supprimer les changements de tempo sélectionnés"
+
+#~ msgid "[AudioEventFXProperties]Disable"
+#~ msgstr "Désactiver"
+
+#~ msgid "[AudioEventInserts]Drag FX Chain from here"
+#~ msgstr "D'ici, faites glisser la chaîne d'effets"
+
+#~ msgid "[AudioEventFXProperties]Enable"
+#~ msgstr "Activer"
+
+#~ msgid "[AudioEventProperties]End"
+#~ msgstr "Fin"
+
+#~ msgid "[AudioEventFXProperties]Event Effects are currently offline"
+#~ msgstr "Les effets d'événement sont actuellement hors ligne"
+
+#~ msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+#~ msgstr "Traitement des effets d'événement en temps réel, cliquer pour convertir"
+
+#~ msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
+#~ msgstr "Effets d'événement convertis, cliquer pour restaurer"
+
+#~ msgid "[AudioEventFXProperties]Event Effects, click to activate"
+#~ msgstr "Effets d'événement, cliquer pour activer"
+
+#~ msgid "[AudioEventFXProperties]Event Effects, click to disable"
+#~ msgstr "Effets d'événement, cliquer pour désactiver"
+
+#~ msgid "[AudioEventFXProperties]Event FX"
+#~ msgstr "Effet"
+
+#~ msgid "[AudioEventProperties]Fade-In"
+#~ msgstr "Fondu d'entrée"
+
+#~ msgid "[AudioEventProperties]Fade-Out"
+#~ msgstr "Fondu de sortie"
+
+#~ msgid "[AudioEventProperties]File Tempo"
+#~ msgstr "Tempo fichier"
+
+#~ msgid "[AudioEventProperties]Gain"
+#~ msgstr "Gain"
+
+#~ msgid "[AudioEventInserts]Inserts"
+#~ msgstr "Inserts"
+
+#~ msgid "[AudioEventProperties]Normalize"
+#~ msgstr "Normaliser"
+
+#~ msgid "[AudioEventFXProperties]Offline"
+#~ msgstr "Hors ligne"
+
+#~ msgid "[AudioEventInserts]Process Volume after Event Effects"
+#~ msgstr "Traiter le volume après les effets d'événement"
+
+#~ msgid "[AudioEventFXProperties]Render"
+#~ msgstr "Convertir"
+
+#~ msgid "[AudioEventFXProperties]Restore"
+#~ msgstr "Restaurer"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+#~ msgstr "Lancer $APPNAMEFREE - la version GRATUITE aux fonctions limitées"
+
+#~ msgid "[AudioEventFXProperties]Show/Hide Event Effects"
+#~ msgstr "Afficher/Masquer les effets d'événement"
+
+#~ msgid "[AudioEventProperties]Speedup"
+#~ msgstr "Vitesse (x)"
+
+#~ msgid "[AudioEventProperties]Start"
+#~ msgstr "Début"
+
+#~ msgid "[AudioEventInserts]Tail"
+#~ msgstr "Queue"
+
+#~ msgid "[AudioEventProperties]Threshold"
+#~ msgstr "Seuil"
+
+#~ msgid "[AudioEventProperties]Transpose"
+#~ msgstr "Transposer"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+#~ msgstr "Essayez la version complète pendant une période limitée de démo"
+
+#~ msgid "[AudioEventProperties]Tune"
+#~ msgstr "Accorder"
+
 #~ msgid "[RecordPanel.Horizontal]@cmd[Record Mode|Note Repeat]"
 #~ msgstr "@cmd[Record Mode|Note Repeat]"
 
@@ -7834,10 +7959,10 @@ msgstr "x"
 #~ msgid "[ProjectTrackInspector]Dynamic Range"
 #~ msgstr "Plage dynamique"
 
-#~ msgid "[LicenseServerLogin]E-Mail"
+#~ msgid "[LicenseServerLogin]Email"
 #~ msgstr "E-mail"
 
-#~ msgid "[LicenseServerLogin]E-Mail or username"
+#~ msgid "[LicenseServerLogin]Email or username"
 #~ msgstr "E-mail ou nom d'utilisateur"
 
 #~ msgid "[ProjectTrackControlsContent]Edit Song"
@@ -7930,7 +8055,7 @@ msgstr "x"
 #~ msgid "[ProjectTrackInspector]Pk R"
 #~ msgstr "Crt D"
 
-#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
 #~ msgstr "Veuillez saisir vos données de contact pour vous inscrire maintenant. Un e-mail vous sera envoyé avec un lien pour activer votre compte."
 
 #~ msgid "[ProgressDialogView]Please wait..."

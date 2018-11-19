@@ -324,6 +324,10 @@ msgstr "Área de Trabalho"
 msgid "[UserOption]Disable"
 msgstr "Desativar"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Discard"
+msgstr "Descartar"
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "Você realmente deseja excluir o histórico das ações desfeitas?\n\nEssa ação não pode ser desfeita."
@@ -797,6 +801,10 @@ msgstr "Opções"
 msgid "[UserOption]Options"
 msgstr "Opções"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Original"
+msgstr "Original"
+
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Packages"
 msgstr "Pacotes"
@@ -966,6 +974,10 @@ msgstr "Renomear Aba"
 msgid "[Command]Rename Tab"
 msgstr "Renomear Aba"
 
+#: .\documents\documentversions.cpp
+msgid "[Documents]Replace"
+msgstr "Substituir"
+
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Replace Preset"
 msgstr "Substituir Preset"
@@ -997,6 +1009,10 @@ msgstr "Restaurar"
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
 msgstr "Restaurar Versão"
+
+#: .\documents\documentversions.cpp
+msgid "[Documents]Restoring version \"%(1)\".\n\nDo you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
+msgstr "Restaurando versão \"%(1)\".\n\nDeseja substituir a versão salva \"%(2)\" pelo estado atual, ou descartar o estado atual?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Revert"

@@ -88,6 +88,10 @@ msgstr ""
 msgid "[Licenser]No purchased items installed."
 msgstr ""
 
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Please check your Rent-to-Own status in the Splice App."
+msgstr ""
+
 #: .\application\activationhandler.cpp
 msgid "[Licenser]Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr ""
@@ -137,7 +141,7 @@ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer.
 msgstr ""
 
 #: .\application\loginhandler.cpp
-msgid "[Licenser]Thank You! An E-Mail has been sent to you with a link to activate your account."
+msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr ""
 
 #: .\application\usercomponent.cpp
@@ -165,11 +169,19 @@ msgid "[Licenser]This copy is licensed to %(1)"
 msgstr ""
 
 #: .\application\usercomponent.cpp
+msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+msgstr ""
+
+#: .\application\usercomponent.cpp
 msgid "[Licenser]User License not found! Please select a new License File."
 msgstr ""
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
+msgstr ""
+
+#: .\schemes\splice\splicelease.cpp
+msgid "[Licenser]Your Splice license for $APPNAME is invalid."
 msgstr ""
 
 #: .\web\licenseserver.cpp

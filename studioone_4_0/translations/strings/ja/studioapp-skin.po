@@ -881,6 +881,10 @@ msgid "[HistoryPanel]Actions"
 msgstr "アクション"
 
 #: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Activate"
+msgstr "アクティベート"
+
+#: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Activate"
 msgstr "アクティベート"
 
@@ -961,7 +965,7 @@ msgid "[AudioSends]Activate All"
 msgstr "すべてをアクティベート"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Activate All"
+msgid "[AudioEventFXInserts]Activate All"
 msgstr "すべてをアクティベート"
 
 #: .\engine\inspector.xml
@@ -985,7 +989,7 @@ msgid "[PurchaseHandler]Activate Purchased Items"
 msgstr "購入済みアイテムをアクティベート"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+msgid "[UserLicenseDialog.ActivationOptions]Activate my purchased version of $APPNAME"
 msgstr "購入した $APPNAME をアクティベート"
 
 #: .\devices\musicdevices.xml
@@ -1045,7 +1049,7 @@ msgid "[PostFaderInserts]Add Insert"
 msgstr "インサートを追加"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Add Insert"
+msgid "[AudioEventFXInserts]Add Insert"
 msgstr "インサートを追加"
 
 #: .\devices\synthrack.xml
@@ -1453,6 +1457,10 @@ msgid "[TrackInspectorAutomationControls]Automation Mode"
 msgstr "オートメーションモード"
 
 #: .\engine\trackcontrols.xml
+msgid "[AutomationModeBoxNarrow]Automation Mode"
+msgstr "オートメーションモード"
+
+#: .\engine\trackcontrols.xml
 msgid "[AutomationModeBox]Automation Mode"
 msgstr "オートメーションモード"
 
@@ -1541,7 +1549,7 @@ msgid "[AudioBendPanel.MarkerPart]Bend Marker"
 msgstr "ベンドマーカー"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Bend Marker"
+msgid "[AudioEventPropertiesList]Bend Marker"
 msgstr "ベンドマーカー"
 
 #: .\engine\eventinspector.xml
@@ -1603,10 +1611,6 @@ msgstr "ブラウズ"
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Browse $APPNAME loop libraries"
 msgstr "$APPNAME ループライブラリをブラウズ"
-
-#: .\devices\audiofxeditor.xml
-msgid "[FXEditorHeaderRow1]Browse Presets"
-msgstr "プリセットをブラウズ"
 
 #: .\devices\audiofxeditor.xml
 msgid "[SlotNodeEditHeader]Browse Presets"
@@ -2341,8 +2345,8 @@ msgid "[MarkerTrackControls]Delete Selected Markers @cmd[Edit|Delete]"
 msgstr "選択されているマーカーを削除 @cmd[Edit|Delete]"
 
 #: .\engine\trackcontrols.xml
-msgid "[TempoTrackControls]Delete Selected Tempo Changes"
-msgstr "選択されているテンポ変更を削除"
+msgid "[TempoTrackControls]Delete Tempo Change"
+msgstr "テンポ変更を削除"
 
 #: .\engine\editor.xml
 msgid "[Command]Delete Variation"
@@ -2429,8 +2433,16 @@ msgid "[ChordSelectorParts]Diminished"
 msgstr "ディミニッシュ"
 
 #: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input"
+msgstr "ダイレクト入力"
+
+#: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input"
 msgstr "ダイレクト入力"
+
+#: .\devices\audiofxeditor.xml
+msgid "[DirectInputPopupItem]Direct Input Channel"
+msgstr "ダイレクト入力チャンネル"
 
 #: .\devices\audiofxeditor.xml
 msgid "[DirectInputItem]Direct Input Channel"
@@ -2449,7 +2461,7 @@ msgid "[ExtensionManager]Disable"
 msgstr "無効化"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Disable"
+msgid "[AudioEventFXAndPropertiesList]Disable"
 msgstr "無効化"
 
 #: .\app\options.xml
@@ -2529,7 +2541,7 @@ msgid "[PostFaderInserts]Drag FX Chain from here"
 msgstr "FXチェーンをここからドラッグ"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Drag FX Chain from here"
+msgid "[AudioEventFXInserts]Drag FX Chain from here"
 msgstr "FXチェーンをここからドラッグ"
 
 #: .\devices\audiofxeditor.xml
@@ -2733,7 +2745,7 @@ msgid "[MusicStepRecordPanel]Enable"
 msgstr "有効化"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Enable"
+msgid "[AudioEventFXAndPropertiesList]Enable"
 msgstr "有効化"
 
 #: .\app\options.xml
@@ -2821,7 +2833,7 @@ msgid "[ChordEventProperties]End"
 msgstr "エンド"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]End"
+msgid "[AudioEventPropertiesList]End"
 msgstr "エンド"
 
 #: .\engine\eventinspector.xml
@@ -2865,27 +2877,27 @@ msgid "[EditingOption]Event Appearance"
 msgstr "イベントアピアランス"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects are currently offline"
+msgid "[AudioEventFXAndPropertiesList]Event Effects are currently offline"
 msgstr "イベントエフェクトは現在オフラインです"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+msgid "[AudioEventFXAndPropertiesList]Event Effects processing in realtime, click to render"
 msgstr "リアルタイムイベントエフェクト処理、クリックしてレンダリング"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
+msgid "[AudioEventFXAndPropertiesList]Event Effects rendered, click to restore"
 msgstr "レンダリングされたイベントエフェクト処理、クリックして復元"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to activate"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to activate"
 msgstr "イベントエフェクト、クリックして有効化"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event Effects, click to disable"
+msgid "[AudioEventFXAndPropertiesList]Event Effects, click to disable"
 msgstr "イベントエフェクト、クリックして無効化"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Event FX"
+msgid "[AudioEventFXAndPropertiesList]Event FX"
 msgstr "イベントFX"
 
 #: .\engine\eventinspector.xml
@@ -3001,11 +3013,11 @@ msgid "[StripSilencePanel.EventsPart]Fade Out"
 msgstr "フェードアウト"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-In"
+msgid "[AudioEventPropertiesList]Fade-In"
 msgstr "フェードイン"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Fade-Out"
+msgid "[AudioEventPropertiesList]Fade-Out"
 msgstr "フェードアウト"
 
 #: .\app\options.xml
@@ -3029,7 +3041,7 @@ msgid "[Command]File"
 msgstr "ファイル"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]File Tempo"
+msgid "[AudioEventPropertiesList]File Tempo"
 msgstr "ファイルテンポ"
 
 #: .\engine\eventinspector.xml
@@ -3145,7 +3157,7 @@ msgid "[GadgetNavigator]Gadgets"
 msgstr "ガジェット"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Gain"
+msgid "[AudioEventPropertiesList]Gain"
 msgstr "ゲイン"
 
 #: .\devices\musicdevices.xml
@@ -3477,7 +3489,7 @@ msgid "[RoutingEditView]Inserts"
 msgstr "インサート"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Inserts"
+msgid "[AudioEventFXInserts]Inserts"
 msgstr "インサート"
 
 #: .\devices\audiochannel.small.xml
@@ -3875,6 +3887,10 @@ msgstr "ライセンス先:"
 #: .\ccl\common.xml
 msgid "[ColorSchemeOption.Levels]Light"
 msgstr "明"
+
+#: .\engine\editor.xml
+msgid "[MusicPatternPartEditorContent]Link Horizontal and Vertical Zoom"
+msgstr "水平方向と垂直方向のズームをリンク"
 
 #: .\devices\audiomixer.xml
 msgid "[ChannelOrganizerSetup]Link expand/collapse of folder tracks with show/hide"
@@ -4469,7 +4485,7 @@ msgid "[SplitterEditView]Normal"
 msgstr "標準"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Normalize"
+msgid "[AudioEventPropertiesList]Normalize"
 msgstr "ノーマライズ"
 
 #: .\engine\editor.xml
@@ -4557,7 +4573,7 @@ msgid "[Metronome]Offbeat"
 msgstr "オフビート"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Offline"
+msgid "[AudioEventFXAndPropertiesList]Offline"
 msgstr "オフライン"
 
 #: .\app\licenser.xml
@@ -5037,12 +5053,16 @@ msgid "[AudioSetup.Engine]Process Precision"
 msgstr "処理精度"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Process Volume after Event Effects"
+msgid "[AudioEventFXInserts]Process Volume after Event Effects"
 msgstr "イベントエフェクト後にボリュームを処理"
 
 #: .\devices\devices.xml
 msgid "[AudioSetup.Engine]Processing"
 msgstr "プロセッシング"
+
+#: .\app\licenser.xml
+msgid "[UserLicenseDialog.SpliceActivation]Product Key"
+msgstr "プロダクトキー"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Product Key"
@@ -5469,7 +5489,7 @@ msgid "[Metronome]Render"
 msgstr "レンダー"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Render"
+msgid "[AudioEventFXAndPropertiesList]Render"
 msgstr "レンダー"
 
 #: .\engine\musicdialogs.xml
@@ -5581,7 +5601,7 @@ msgid "[AudioBendPanel.MarkerPart]Restore"
 msgstr "復元"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Restore"
+msgid "[AudioEventFXAndPropertiesList]Restore"
 msgstr "復元"
 
 #: .\ccl\common.xml
@@ -5653,7 +5673,7 @@ msgid "[SynthCombinatorPageSelector]Routing"
 msgstr "ルーティング"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+msgid "[UserLicenseDialog.ActivationOptions]Run $APPNAMEFREE - the feature limited FREE version"
 msgstr "$APPNAMEFREE を実行 - 機能制限付き無償版"
 
 #: .\devices\devices.xml
@@ -6141,7 +6161,7 @@ msgid "[AudioBendPanel.MarkerPart]Show/Hide Bend Marker"
 msgstr "ベンドマーカーを表示/隠す"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventFXProperties]Show/Hide Event Effects"
+msgid "[AudioEventFXAndPropertiesList]Show/Hide Event Effects"
 msgstr "イベントエフェクトを表示/隠す"
 
 #: .\engine\trackcontrols.xml
@@ -6389,7 +6409,7 @@ msgid "[BurnerSelectDialog]Speed"
 msgstr "スピード"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Speedup"
+msgid "[AudioEventPropertiesList]Speedup"
 msgstr "スピードアップ"
 
 #: .\engine\eventinspector.xml
@@ -6441,7 +6461,7 @@ msgid "[ChordEventProperties]Start"
 msgstr "スタート"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Start"
+msgid "[AudioEventPropertiesList]Start"
 msgstr "スタート"
 
 #: .\engine\eventinspector.xml
@@ -6649,7 +6669,7 @@ msgid "[TagInspector]Tags:"
 msgstr "タグ:"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventInserts]Tail"
+msgid "[AudioEventFXInserts]Tail"
 msgstr "テイル"
 
 #: .\engine\recordpanel.xml
@@ -6721,7 +6741,7 @@ msgid "[AudioBendPanel.MarkerPart]Threshold"
 msgstr "スレッショルド"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Threshold"
+msgid "[AudioEventPropertiesList]Threshold"
 msgstr "スレッショルド"
 
 #: .\engine\eventinspector.xml
@@ -6993,7 +7013,7 @@ msgid "[SynthNodeEditView]Transpose"
 msgstr "トランスポーズ"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Transpose"
+msgid "[AudioEventPropertiesList]Transpose"
 msgstr "トランスポーズ"
 
 #: .\engine\eventinspector.xml
@@ -7029,11 +7049,11 @@ msgid "[FixedEBUR128Display]True Peak"
 msgstr "トゥルーピーク"
 
 #: .\app\licenser.xml
-msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+msgid "[UserLicenseDialog.ActivationOptions]Try the full version for a time limited demo period"
 msgstr "期間限定でフルバージョンを試用"
 
 #: .\engine\eventinspector.xml
-msgid "[AudioEventProperties]Tune"
+msgid "[AudioEventPropertiesList]Tune"
 msgstr "チューン"
 
 #: .\engine\eventinspector.xml
@@ -7456,6 +7476,111 @@ msgstr "x"
 msgid "[DetailedInfoTable]x"
 msgstr "x"
 
+#~ msgid "[AudioEventInserts]Activate All"
+#~ msgstr "すべてをアクティベート"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Activate my purchased version of $APPNAME"
+#~ msgstr "購入した $APPNAME をアクティベート"
+
+#~ msgid "[AudioEventInserts]Add Insert"
+#~ msgstr "インサートを追加"
+
+#~ msgid "[AudioEventProperties]Bend Marker"
+#~ msgstr "ベンドマーカー"
+
+#~ msgid "[FXEditorHeaderRow1]Browse Presets"
+#~ msgstr "プリセットをブラウズ"
+
+#~ msgid "[TempoTrackControls]Delete Selected Tempo Changes"
+#~ msgstr "選択されているテンポ変更を削除"
+
+#~ msgid "[AudioEventFXProperties]Disable"
+#~ msgstr "無効化"
+
+#~ msgid "[AudioEventInserts]Drag FX Chain from here"
+#~ msgstr "FXチェーンをここからドラッグ"
+
+#~ msgid "[AudioEventFXProperties]Enable"
+#~ msgstr "有効化"
+
+#~ msgid "[AudioEventProperties]End"
+#~ msgstr "エンド"
+
+#~ msgid "[AudioEventFXProperties]Event Effects are currently offline"
+#~ msgstr "イベントエフェクトは現在オフラインです"
+
+#~ msgid "[AudioEventFXProperties]Event Effects processing in realtime, click to render"
+#~ msgstr "リアルタイムイベントエフェクト処理、クリックしてレンダリング"
+
+#~ msgid "[AudioEventFXProperties]Event Effects rendered, click to restore"
+#~ msgstr "レンダリングされたイベントエフェクト処理、クリックして復元"
+
+#~ msgid "[AudioEventFXProperties]Event Effects, click to activate"
+#~ msgstr "イベントエフェクト、クリックして有効化"
+
+#~ msgid "[AudioEventFXProperties]Event Effects, click to disable"
+#~ msgstr "イベントエフェクト、クリックして無効化"
+
+#~ msgid "[AudioEventFXProperties]Event FX"
+#~ msgstr "イベントFX"
+
+#~ msgid "[AudioEventProperties]Fade-In"
+#~ msgstr "フェードイン"
+
+#~ msgid "[AudioEventProperties]Fade-Out"
+#~ msgstr "フェードアウト"
+
+#~ msgid "[AudioEventProperties]File Tempo"
+#~ msgstr "ファイルテンポ"
+
+#~ msgid "[AudioEventProperties]Gain"
+#~ msgstr "ゲイン"
+
+#~ msgid "[AudioEventInserts]Inserts"
+#~ msgstr "インサート"
+
+#~ msgid "[AudioEventProperties]Normalize"
+#~ msgstr "ノーマライズ"
+
+#~ msgid "[AudioEventFXProperties]Offline"
+#~ msgstr "オフライン"
+
+#~ msgid "[AudioEventInserts]Process Volume after Event Effects"
+#~ msgstr "イベントエフェクト後にボリュームを処理"
+
+#~ msgid "[AudioEventFXProperties]Render"
+#~ msgstr "レンダー"
+
+#~ msgid "[AudioEventFXProperties]Restore"
+#~ msgstr "復元"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Run $APPNAMEFREE - the feature limited FREE version"
+#~ msgstr "$APPNAMEFREE を実行 - 機能制限付き無償版"
+
+#~ msgid "[AudioEventFXProperties]Show/Hide Event Effects"
+#~ msgstr "イベントエフェクトを表示/隠す"
+
+#~ msgid "[AudioEventProperties]Speedup"
+#~ msgstr "スピードアップ"
+
+#~ msgid "[AudioEventProperties]Start"
+#~ msgstr "スタート"
+
+#~ msgid "[AudioEventInserts]Tail"
+#~ msgstr "テイル"
+
+#~ msgid "[AudioEventProperties]Threshold"
+#~ msgstr "スレッショルド"
+
+#~ msgid "[AudioEventProperties]Transpose"
+#~ msgstr "トランスポーズ"
+
+#~ msgid "[UserLicenseDialog.ActivationPage]Try the full version for a time limited demo period"
+#~ msgstr "期間限定でフルバージョンを試用"
+
+#~ msgid "[AudioEventProperties]Tune"
+#~ msgstr "チューン"
+
 #~ msgid "[RecordPanel.Horizontal]@cmd[Record Mode|Note Repeat]"
 #~ msgstr "@cmd[Record Mode|Note Repeat]"
 
@@ -7834,10 +7959,10 @@ msgstr "x"
 #~ msgid "[ProjectTrackInspector]Dynamic Range"
 #~ msgstr "ダイナミックレンジ"
 
-#~ msgid "[LicenseServerLogin]E-Mail"
+#~ msgid "[LicenseServerLogin]Email"
 #~ msgstr "メールアドレス"
 
-#~ msgid "[LicenseServerLogin]E-Mail or username"
+#~ msgid "[LicenseServerLogin]Email or username"
 #~ msgstr "メールまたはユーザー名"
 
 #~ msgid "[ProjectTrackControlsContent]Edit Song"
@@ -7930,7 +8055,7 @@ msgstr "x"
 #~ msgid "[ProjectTrackInspector]Pk R"
 #~ msgstr "Pk R"
 
-#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An E-mail will be sent to you with a link to activate your account."
+#~ msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
 #~ msgstr "連絡先情報を入力し、登録してください。アカウントのアクティベート用リンクを記載したメールが送信されます。"
 
 #~ msgid "[ProgressDialogView]Please wait..."
