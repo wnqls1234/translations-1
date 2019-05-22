@@ -54,7 +54,7 @@ msgstr "Orta"
 
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]None"
-msgstr "Hiç"
+msgstr "Yok"
 
 #: .\gui\spectrum\spectrumpainter.cpp
 msgid "[SpectrumDisplay]Note"
@@ -63,6 +63,10 @@ msgstr "Nota"
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Octave"
 msgstr "Oktav"
+
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr "Peak Hold"
 
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
@@ -104,11 +108,10 @@ msgstr "Üçüncü Oktav"
 msgid "[SpectrumDisplay]Time"
 msgstr "Zaman"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "VU Hold"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "Waterfall"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "VU Hold"
 

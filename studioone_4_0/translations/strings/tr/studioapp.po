@@ -24,9 +24,13 @@ msgstr "Projeye Ekle"
 msgid "[Command]Add to Project"
 msgstr "Projeye Ekle"
 
+#: .\appoptions.cpp
+msgid "[Options]Advanced"
+msgstr "Gelişmiş"
+
 #: .\studioapp.cpp
 msgid "[StudioApp]Artist Profile"
-msgstr "Artist Profili"
+msgstr "Sanatçı Profili"
 
 #: .\appoptions.cpp
 msgid "[Options]Audio"
@@ -39,6 +43,10 @@ msgstr "Ses Dosyaları"
 #: .\appoptions.cpp
 msgid "[Options]Automation"
 msgstr "Otomasyon"
+
+#: .\appoptions.cpp
+msgid "[Options]Basic"
+msgstr "Temel"
 
 #: .\sidebar.cpp
 msgid "[Command]Browser"
@@ -234,7 +242,7 @@ msgstr "Çoklu Enstrümanlar"
 
 #: .\sidebar.cpp
 msgid "[Sidebar]Multitrack Files"
-msgstr "Çoklu İz (Multitrack) Dosyaları"
+msgstr "Çoklu İz Dosyaları"
 
 #: .\sidebar.filetypes.cpp
 msgid "[FileType]Musical Files"
@@ -300,10 +308,6 @@ msgstr "Projeler"
 msgid "[SystemInfo]RAM"
 msgstr "RAM"
 
-#: .\studioapp.cpp
-msgid "[StudioApp]Recent Files"
-msgstr "Geçmiş Dosyalar"
-
 #: .\melodyneextension.cpp
 msgid "[StudioApp]Remove Melodyne"
 msgstr "Melodyne'ı Kaldır"
@@ -318,7 +322,7 @@ msgstr "VocALign'ı Kaldır"
 
 #: .\documenthandler.cpp
 msgid "[Command]Save As Template"
-msgstr "Şablon olarak Sakla"
+msgstr "Şablon olarak Kaydet"
 
 #: .\soundsethandler.cpp
 msgid "[StudioApp]Scanning Sound Sets..."
@@ -515,4 +519,7 @@ msgstr "Görünüm"
 #: .\projectdocument.cpp .\songdocument.cpp
 msgid "[StudioApp]Workspace"
 msgstr "Çalışma Alanı"
+
+#~ msgid "[StudioApp]Recent Files"
+#~ msgstr "Geçmiş Dosyalar"
 

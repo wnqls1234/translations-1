@@ -28,10 +28,6 @@ msgstr "Ürün Aktive Ediliyor"
 msgid "[Command]Activation"
 msgstr "Aktivasyon"
 
-#: .\application\purchasehandler.cpp
-msgid "[Licenser]Activation failed."
-msgstr "Aktivasyon başarısız oldu"
-
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
 msgstr "Ek Lisans Bilgisi:\n"
@@ -141,6 +137,10 @@ msgstr "Çıkış Yap"
 msgid "[WebAPI]Signing in"
 msgstr "Giriş Yapılıyor"
 
+#: .\application\purchasehandler.cpp
+msgid "[Licenser]Some items failed to activate."
+msgstr "Bazı öeğeler aktive edilemedi."
+
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
 msgstr "Teşekkürler! $APPNAME bu bilgisayarda kullanılmak üzere aktive edildi."
@@ -192,4 +192,11 @@ msgstr "$APPNAME için olan Splice lisansınız geçerli değildir."
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."
 msgstr "Yetkilendirmenizin süresi geçmiş. Lütfen tekrar giriş yapın."
+
+#: .\application\purchasehandler.cpp
+msgid "[Licenser]Your purchased items have been activated."
+msgstr "Satın almış olduğunuz öğeler aktive edildi."
+
+#~ msgid "[Licenser]Activation failed."
+#~ msgstr "Aktivasyon başarısız oldu"
 

@@ -64,6 +64,10 @@ msgstr "Nuta"
 msgid "[SpectrumMeter]Octave"
 msgstr "Oktawa"
 
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr ""
+
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "Peak Hold L: %(1:1) dB - R: %(2:1) dB"
@@ -104,13 +108,12 @@ msgstr "Trzecia oktawa"
 msgid "[SpectrumDisplay]Time"
 msgstr "Czas"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "VU Hold"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "Wodospad"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "VU Hold"
 
 #~ msgid "[Sampler]%(1) programs"
 #~ msgstr "%(1) programów"

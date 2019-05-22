@@ -54,19 +54,19 @@ msgstr "Dönüştürülen %(1)"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Copy Event"
-msgstr "Olay Kopyala"
+msgstr "Klip Kopyala"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Copy Events"
-msgstr "Olayları Kopyala"
+msgstr "Klipleri Kopyala"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Delete Event"
-msgstr "Olayı Sil"
+msgstr "Klipi Sil"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Delete Events"
-msgstr "Olayları Sil"
+msgstr "Klipleri Sil"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Delete Point"
@@ -83,6 +83,10 @@ msgstr "Azaltılmış"
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Dorian"
 msgstr "Dorian"
+
+#: .\music\beatlistparam.cpp
+msgid "[Resolution]Dotted"
+msgstr "Noktalı"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Edit Value"
@@ -106,11 +110,11 @@ msgstr "Harmonik Minor"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Insert Event"
-msgstr "Olay (Event) Ekle"
+msgstr "Klip Ekle"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Insert Events"
-msgstr "Olaylar Ekle"
+msgstr "Klipler Ekle"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Insert Point"
@@ -178,7 +182,7 @@ msgstr "Akoru Değiştir"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Modify Event"
-msgstr "Olayı Düzenle"
+msgstr "Klipi Düzenle"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Accent Strength"
@@ -230,11 +234,11 @@ msgstr "Mono"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Move Event"
-msgstr "Olayı Taşı"
+msgstr "Klipi Taşı"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Move Events"
-msgstr "Olayları Taşı"
+msgstr "Klipleri Taşı"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Move Point"
@@ -250,7 +254,7 @@ msgstr "Müzik Dosyası"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Mute Event"
-msgstr "Olayı Sustur"
+msgstr "Klipi Sustur"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Natural Minor"
@@ -288,6 +292,10 @@ msgstr "Power Akor"
 msgid "[ActionDescriptions]Quantize"
 msgstr "Quantize"
 
+#: .\music\beatlistparam.cpp
+msgid "[Resolution]Quintuplet"
+msgstr "Quintuplet"
+
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Remove Pattern"
 msgstr "Kalıbı Kaldır"
@@ -310,11 +318,11 @@ msgstr "Kalıbı Yeniden Düzenle"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Resize Event"
-msgstr "Olayı yeniden boyutlandır"
+msgstr "Klipi yeniden boyutlandır"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Resize Events"
-msgstr "Olayları yeniden boyutlandır"
+msgstr "Klipleri yeniden boyutlandır"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Samples"
@@ -323,6 +331,10 @@ msgstr "Örnekler"
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Seconds"
 msgstr "Saniye"
+
+#: .\music\beatlistparam.cpp
+msgid "[Resolution]Septuplet"
+msgstr "Septuplet"
 
 #: .\time\tempoenvelopefunctions.cpp
 msgid "[Tempo]Set BPM Range"
@@ -334,15 +346,19 @@ msgstr "Bazı dosyalar dönüştürülemedi."
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Split Event"
-msgstr "Olayı böl"
+msgstr "Klipi böl"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Split Events"
-msgstr "Olayları Böl"
+msgstr "Klipleri Böl"
 
 #: .\public\mediaformatter.cpp
 msgid "[Media]Stereo"
 msgstr "Stereo"
+
+#: .\music\beatlistparam.cpp
+msgid "[Resolution]Straight"
+msgstr "Düzelt"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
@@ -359,6 +375,10 @@ msgstr "Lineer Zaman"
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"
 msgstr "Transpoze"
+
+#: .\music\beatlistparam.cpp
+msgid "[Resolution]Triplet"
+msgstr "Triplet"
 
 #: .\audiofile\audiocodecs\waveaudiocodec.cpp
 msgid "[FileType]Wave File"

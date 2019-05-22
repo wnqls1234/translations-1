@@ -64,6 +64,10 @@ msgstr "Nota"
 msgid "[SpectrumMeter]Octave"
 msgstr "Oitava"
 
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr "Manter Pico"
+
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "Manter Pico L: %(1:1) dB - R: %(2:1) dB"
@@ -104,13 +108,12 @@ msgstr "Terço de Oitava"
 msgid "[SpectrumDisplay]Time"
 msgstr "Tempo"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "Manter VU"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "Cascata"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "Manter VU"
 
 #~ msgid "[Sampler]%(1) programs"
 #~ msgstr "Programas %(1)"
@@ -156,3 +159,4 @@ msgstr "Cascata"
 
 #~ msgid "[KeySwitchList]Title"
 #~ msgstr "Título"
+

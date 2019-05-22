@@ -28,10 +28,6 @@ msgstr "Produkt wird aktiviert"
 msgid "[Command]Activation"
 msgstr "Aktivierung"
 
-#: .\application\purchasehandler.cpp
-msgid "[Licenser]Activation failed."
-msgstr "Aktivierung fehlgeschlagen."
-
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
 msgstr "Zusätzliche Lizenzinformationen:\n"
@@ -141,6 +137,10 @@ msgstr "Abmelden"
 msgid "[WebAPI]Signing in"
 msgstr "Anmeldung"
 
+#: .\application\purchasehandler.cpp
+msgid "[Licenser]Some items failed to activate."
+msgstr "Einige Artikel konnten nicht aktiviert werden."
+
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
 msgstr "Vielen Dank! $APPNAME wurde auf diesem Computer freigeschaltet."
@@ -192,4 +192,11 @@ msgstr "Ihre Splice-Lizenz für $APPNAME ist ungültig."
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."
 msgstr "Ihre Autorisierung ist abgelaufen. Bitte melden Sie sich erneut an."
+
+#: .\application\purchasehandler.cpp
+msgid "[Licenser]Your purchased items have been activated."
+msgstr "Ihre gekauften Artikel wurden aktiviert."
+
+#~ msgid "[Licenser]Activation failed."
+#~ msgstr "Aktivierung fehlgeschlagen."
 

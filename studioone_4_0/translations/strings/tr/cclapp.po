@@ -328,6 +328,10 @@ msgstr "Devredışı bırak"
 msgid "[Documents]Discard"
 msgstr "Vazgeç"
 
+#: .\documents\recentdocuments.cpp
+msgid "[Documents]Do you really want to clear the list of recent files?\n\nThis action can not be undone."
+msgstr "Son kullanılan dosya listesini sıfırlamak istediğinize eminmisiniz ? \n\nBu işlem geri alınamaz."
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "Geri alma geçmişini gerçekten silmek istiyormusunuz ? \n\n Bu işlem geri alınamaz."
@@ -537,6 +541,10 @@ msgstr "Dosya bilgisi"
 msgid "[PlugInSelector]Flat"
 msgstr "Düz"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Folder"
+msgstr "Klasör"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Folder"
 msgstr "Klasör"
@@ -579,7 +587,7 @@ msgstr "İkon"
 
 #: .\presets\presettrader.cpp
 msgid "[Command]Import Preset"
-msgstr "Preset aktar"
+msgstr "Preset Aktar"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]Import Preset..."
@@ -604,6 +612,10 @@ msgstr "%(1) aktarılıyor..."
 #: .\presets\presettrader.cpp
 msgid "[Presets]Importing Preset"
 msgstr "Preset aktarılıyor"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Incremental version"
+msgstr "Ardışık artan sürüm"
 
 #: .\editing\editor.cpp
 msgid "[Command]Invert Selection"
@@ -701,6 +713,10 @@ msgstr "%(1) Taşınıyor"
 msgid "[FileOperations]Moving files"
 msgstr "Dosyalar taşınıyor"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Name"
+msgstr "İsim"
+
 #: .\editing\editor.cpp .\navigation\navigatorbase.cpp
 msgid "[Command]Navigation"
 msgstr "Navigasyon"
@@ -771,7 +787,7 @@ msgstr "Farklı sürüm bulunamadı."
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]None"
-msgstr "Mevcut değil"
+msgstr "Yok"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]One preset file was imported."
@@ -886,13 +902,13 @@ msgstr "Son"
 msgid "[Command]Recent File"
 msgstr "Son dosya"
 
-#: .\documents\documentblocks.cpp
+#: .\documents\recentdocuments.cpp
 msgid "[Documents]Recent Files"
 msgstr "Son dosyalar"
 
 #: .\editing\tasks\edittaskcollection.cpp
 msgid "[EditTask]Recent items"
-msgstr "Son kalemler"
+msgstr "Son işlemler"
 
 #: .\actions\actionjournal.cpp
 msgid "[Action]Redo"
@@ -1028,7 +1044,7 @@ msgstr "Kaydet"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Save As"
-msgstr "Yeni ad ile kaydet"
+msgstr "Farklı kaydet"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Save New Version"
@@ -1152,27 +1168,27 @@ msgstr "Toplam %(2) adımın %(1) adımı"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store %(1)..."
-msgstr "%(1) Sakla..."
+msgstr "Kaydet %(1) ..."
 
 #: .\presets\presetcomponent.cpp .\presets\presetdrag.cpp
 msgid "[Presets]Store Preset"
-msgstr "Preseti sakla"
+msgstr "Preseti Kaydet"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Store Preset"
-msgstr "Preseti sakla"
+msgstr "Preseti Kaydet"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store Preset..."
-msgstr "Preseti sakla..."
+msgstr "Preseti Kaydet..."
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store as Default Preset"
-msgstr "Varsayılan preset olarak sakla"
+msgstr "Varsayılan preset olarak kaydet"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Store as Default Preset"
-msgstr "Varsayılan preset olarak sakla"
+msgstr "Varsayılan preset olarak kaydet"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]The file \"%(1)\" could not be moved to trash.\n\nDo you want to permanently delete it?"
@@ -1208,7 +1224,7 @@ msgstr "Orijinal dosya versiyon olarak tutulacaktır."
 
 #: .\documents\documenttemplates.cpp
 msgid "[Documents]The template could not be saved!"
-msgstr "Bu şablon saklanamadı!"
+msgstr "Bu şablon kaydedilemedi!"
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]These %(1) files could not be imported:"
@@ -1286,6 +1302,10 @@ msgstr "Araç çubuğu"
 msgid "[SliderMode]Touch"
 msgstr "Temas"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Type"
+msgstr "Tip"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Type"
 msgstr "Tip"
@@ -1341,6 +1361,10 @@ msgstr "Kullanıcı verisi"
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Interface"
 msgstr "Kullanıcı arabirimi"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Vendor"
+msgstr "Satıcı"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"

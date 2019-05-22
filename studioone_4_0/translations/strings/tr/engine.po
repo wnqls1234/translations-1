@@ -54,7 +54,7 @@ msgstr "(Parça Girin)"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Leave Part)"
-msgstr "(Parçayı terket)"
+msgstr "(Parçadan Vazgeç)"
 
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer](Muted)"
@@ -70,11 +70,11 @@ msgstr "(Paylaşılan Kopya)"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles](not used)"
-msgstr "(kullanılmıyor)"
+msgstr "(Kullanılmıyor)"
 
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes](not used)"
-msgstr "(kullanılmıyor)"
+msgstr "(Kullanılmıyor)"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]1 file is missing."
@@ -83,10 +83,6 @@ msgstr "1 dosya eksik"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]1 file was found in %(1)"
 msgstr "%(1) de 1 dosya bulundu"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]A Group with this name already exists."
-msgstr "Bu isimde bir gurup mevcut"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Activate Layer"
@@ -100,9 +96,17 @@ msgstr "Katmanı aktive et"
 msgid "[Command]Activate Layer"
 msgstr "Katmanı aktive et"
 
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Next Layer"
+msgstr "Bir sonraki katmanı etkinleştir"
+
 #: .\music\musicpartactions.cpp
 msgid "[Engine:MusicActions]Activate Pattern"
 msgstr "Kalıbı Etkinleştir"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Previous Layer"
+msgstr "Bir önceki katmanı etkinleştir"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\musicediting\musicenvelopeeditor.cpp
@@ -124,7 +128,7 @@ msgstr "Bus Kanalı Ekle"
 
 #: .\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add Event FX"
-msgstr "Event FX Ekle"
+msgstr "KlipFX Ekle"
 
 #: .\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Add FX on %(1):"
@@ -164,7 +168,7 @@ msgstr "Yollama(Send) Ekle:"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Add Track"
-msgstr "Track Ekle"
+msgstr "İz Ekle"
 
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Add VCA Channel"
@@ -221,6 +225,10 @@ msgstr "Aranjör İzi"
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Assign Channel To Folder"
 msgstr "Fader i Klasöre Ata"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Assign Instrument to %(1):"
+msgstr "Enstrümanları %(1) e ata:"
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -303,7 +311,7 @@ msgstr "Seçimi Aktar"
 
 #: .\application\audioedit\audiobouncetask.cpp
 msgid "[AudioEdit]Bounce To New Track"
-msgstr "Yeni Track e Aktar"
+msgstr "Yeni İze Aktar"
 
 #: .\base\model\arrangertrack.cpp
 msgid "[ArrangerSections]Bridge"
@@ -323,11 +331,11 @@ msgstr "Korumalı içerik ile miksdown yapılamaz."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"
-msgstr "Olayların Sırasını Değiştir"
+msgstr "Kliplerin Sırasını Değiştir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Time Format"
-msgstr "Olayların Zaman Formatını Değiştir"
+msgstr "Kliplerin Zaman Formatını Değiştir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Follow Chord Track"
@@ -351,7 +359,7 @@ msgstr "Timestretch/Pitchshift Metodunu Değiştir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Track Time Format"
-msgstr "Track Zaman Formatını Değiştir"
+msgstr "İz Zaman Formatını Değiştir"
 
 #: .\editing\tracklistinspector.cpp
 msgid "[Engine]Channel"
@@ -423,11 +431,11 @@ msgstr "Otomasyonu Renklendir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Colorize Event"
-msgstr "Olayı Renklendir"
+msgstr "Klipi Renklendir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Colorize Events"
-msgstr "Olayları Renklendir"
+msgstr "Klipi Renklendir"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Combine"
@@ -479,19 +487,19 @@ msgstr "%(1)'i %(2)'ye Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Event"
-msgstr "Olayı Kopyala"
+msgstr "Klipi Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Event Shared"
-msgstr "Paylaşılan Olayı Kopyala"
+msgstr "Paylaşılan Klipi Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events"
-msgstr "Olayları Kopyala"
+msgstr "Klipleri Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Copy Events Shared"
-msgstr "Paylaşılan Olayları Kopyala"
+msgstr "Paylaşılan Klipleri Kopyala"
 
 #: .\pool\mediapoolcomponent.cpp
 msgid "[Command]Copy External Files"
@@ -591,7 +599,7 @@ msgstr "Alanlar Oluştur"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Create Ranges on Tracks"
-msgstr "Trackler Üzerinde Alanlar Oluştur"
+msgstr "İzler Üzerinde Alanlar Oluştur"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Create Sections from Markers"
@@ -627,11 +635,11 @@ msgstr "Büküm İşaretini Sil"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Delete Event"
-msgstr "Olayı Sil"
+msgstr "Klipi Sil"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Delete Events"
-msgstr "Olayları Sil"
+msgstr "Klipleri Sil"
 
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Delete File permanently"
@@ -675,7 +683,7 @@ msgstr "Kayıtlı Dosyalar Siliniyor"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Deselect All on Tracks"
-msgstr "Tüm Track larda Seçimleri Kaldır"
+msgstr "Tüm İzlerde Seçimleri Kaldır"
 
 #: .\application\audioedit\audiochordtasks.cpp
 msgid "[AudioEdit]Detect Chords"
@@ -703,15 +711,15 @@ msgstr "Devre Dışı Bırak"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Disable Event FX"
-msgstr "Olay Efektlerini Devre Dışı Bırak"
+msgstr "Klip Efektlerini Devre Dışı Bırak"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Selected Tracks"
-msgstr "Seçili Track leri devre dışı bırak"
+msgstr "Seçili İzleri devre dışı bırak"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Disable Track"
-msgstr "Tracki Devre Dışı Bırak"
+msgstr "İzi Devre Dışı Bırak"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Display: Off"
@@ -859,11 +867,11 @@ msgstr "Kopyala"
 
 #: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
 msgid "[Command]Duplicate"
-msgstr "Kopya"
+msgstr "Kopyala"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Duplicate (complete)"
-msgstr "Kopya (Tüm)"
+msgstr "Tümünü Kopayala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layer"
@@ -911,34 +919,35 @@ msgstr "Adımları Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Track"
-msgstr "Track Kopyala"
+msgstr "İz Kopyala"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Track"
-msgstr "Track Kopyala"
+msgstr "İz Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Track (complete)"
-msgstr "Track Kopyala (Tüm)"
+msgstr "İz Kopyala (Tüm)"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Tracks"
-msgstr "Track leri Kopyala"
+msgstr "İzleri Kopyala"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Edit]Duplicate Tracks"
-msgstr "Track leri Kopyala"
+msgstr "İzleri Kopyala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Tracks (complete)"
-msgstr "Track leri Kopyala (Tüm)"
+msgstr "İzleri Kopyala (Tüm)"
 
 #: .\musicediting\patternbankcomponent.cpp
 msgid "[Command]Duplicate Variation"
 msgstr "Variasyonları Kopyala"
 
 #: .\audioediting\audiobendeditlayer.cpp .\editing\chordeditlayer.cpp
-#: .\editing\tracklistcomponent.cpp .\musicediting\patterneditcomponent.cpp
+#: .\editing\eventsnapper.cpp .\editing\tracklistcomponent.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Edit"
 msgstr "Düzenle"
 
@@ -984,7 +993,7 @@ msgstr "Adım Vurgusunu Düzenle"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Edit Track"
-msgstr "Track Düzenle"
+msgstr "İz Düzenle"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Automation]Edit Value"
@@ -1001,15 +1010,15 @@ msgstr "Etkinleştir"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Enable Event FX"
-msgstr "Olay Efektlerini Etkinleştir"
+msgstr "Klip Efektlerini Etkinleştir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Selected Tracks"
-msgstr "Seçili Track leri etkinleştir."
+msgstr "Seçili İzleri etkinleştir."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Enable Track"
-msgstr "Track Etkinleştir"
+msgstr "İzi Etkinleştir"
 
 #: .\base\model\markertrack.cpp
 msgid "[Marker]End"
@@ -1029,19 +1038,19 @@ msgstr "Sil"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Events]Event"
-msgstr "Olay"
+msgstr "Klip"
 
 #: .\editing\eventinspector.cpp
 msgid "[EventInspector]Event Color"
-msgstr "Olay Rengi"
+msgstr "Klip Rengi"
 
 #: .\audioediting\audioeditextension.cpp
 msgid "[Engine]Event FX"
-msgstr "Olay FX"
+msgstr "Klip FX"
 
 #: .\editing\tracklist.cpp
 msgid "[TrackInfo]Events: %(1)"
-msgstr "Olaylar: %(1)"
+msgstr "Klipler: %(1)"
 
 #: .\musicediting\drumpitchscaleview.cpp
 msgid "[PitchEdit]Exchange"
@@ -1061,11 +1070,11 @@ msgstr "Zarfları Genişlet"
 
 #: .\editing\foldertrackcomponent.cpp
 msgid "[Track]Expand Folder Track"
-msgstr "Klasör Track'ini Genişlet"
+msgstr "Klasör İzini Genişlet"
 
 #: .\editing\foldertrackcomponent.cpp
 msgid "[Command]Expand Folder Track"
-msgstr "Klasör Track'ini Genişlet"
+msgstr "Klasör İzini Genişlet"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Expand Layers"
@@ -1085,7 +1094,7 @@ msgstr "Audioloop'u dışa aktar"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Mixdown"
-msgstr "Mixdown'u Dışa Aktar"
+msgstr "Miksdown'u Dışa Aktar"
 
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Export Musicloop"
@@ -1102,6 +1111,10 @@ msgstr "Seçimi Dışarı Aktar"
 #: .\song\songcontroller.cpp
 msgid "[Command]Export Stems"
 msgstr "Stem'leri Dışa Aktar"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Export Video"
+msgstr "Video Dışa Aktar"
 
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Exporting..."
@@ -1129,7 +1142,7 @@ msgstr "Akor İzine Çıkar"
 
 #: .\videoediting\songvideo.cpp
 msgid "[Video]Extracted Audio Track"
-msgstr "Çıkartılan Ses Track'i"
+msgstr "Çıkarılmış Ses İzi"
 
 #: .\videoediting\audioextractor.cpp
 msgid "[Video]Extracting Audio"
@@ -1159,6 +1172,10 @@ msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
 msgid "[StemRenderer]Failed to export audio file."
 msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Failed to write video."
+msgstr "Video'ya yazılamadı"
+
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]File not found!"
 msgstr "Dosya Bulunamadı!"
@@ -1185,19 +1202,19 @@ msgstr "Bitiriliyor"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event"
-msgstr "Birinci Olay"
+msgstr "Birinci Klip"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Event Extend"
-msgstr "Birinci Olay Uzatma"
+msgstr "İlk Klipi Genişlet"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Track"
-msgstr "Birinci Track (İz)"
+msgstr "Birinci İz"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]First Track Extend"
-msgstr "Birinci Track Uzatma"
+msgstr "Birinci İzi Uzatma"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Fit Timeline to Contents"
@@ -1221,7 +1238,7 @@ msgstr "Format"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Events]General operations for events"
-msgstr "Olaylar için genel operasyonlar"
+msgstr "Klipler için genel operasyonlar"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Goto Next Marker"
@@ -1239,25 +1256,25 @@ msgstr "Önceki İşarete Git"
 msgid "[Command]Goto Previous Section"
 msgstr "Önceki Bölüme Git"
 
-#: .\base\model\editgroups.cpp
-msgid "[EditGroups]Group"
-msgstr "Gurup"
-
 #: .\editing\tracklistinspector.cpp
 msgid "[Engine]Group"
 msgstr "Gurup"
 
 #: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Group Assignment"
+msgstr "Gurup Ataması"
+
+#: .\editing\editgroupscomponent.cpp
 msgid "[EditGroups]Group Selected Tracks"
-msgstr "Seçili Track'leri gurupla"
+msgstr "Seçili İzleri gurupla"
 
 #: .\editing\editgroupscomponent.cpp
 msgid "[Command]Group Selected Tracks"
-msgstr "Seçili Track'leri gurupla"
+msgstr "Seçili İzleri gurupla"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Group Tracks"
-msgstr "Track'leri gurupla"
+msgstr "İzleri gurupla"
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]Half Lane Resolution"
@@ -1297,7 +1314,7 @@ msgstr "Katman Sakla"
 
 #: .\editing\trackcontroller.cpp
 msgid "[Track]Hide Track"
-msgstr "Track Sakla"
+msgstr "İzi Sakla"
 
 #: .\musicediting\drumpitchlistmanager.cpp
 msgid "[DrumPitchNameSetup]Hide Unused"
@@ -1321,7 +1338,7 @@ msgstr "İçe Dosyalar Aktar"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Import Files into Pool:"
-msgstr "Havuza Dosyalar Aktar"
+msgstr "Havuza Dosya Aktar"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit]Import Tempo"
@@ -1470,11 +1487,11 @@ msgstr "Geniş"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Last Event"
-msgstr "Son Olay"
+msgstr "Son Klip"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Last Event Extend"
-msgstr "Son Olay Genişlet"
+msgstr "Son Klipi Genişlet"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Last Track"
@@ -1516,6 +1533,10 @@ msgstr "Lineer"
 msgid "[SynthDrag]Load"
 msgstr "Yükle"
 
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Load Instrument Preset"
+msgstr "Enstrüman preseti yükle"
+
 #: .\music\musicpatternclip.cpp
 msgid "[MusicPatternClip]Loading Pattern: %(1)"
 msgstr "Yüklenen Kalıp: %(1)"
@@ -1542,7 +1563,7 @@ msgstr "Dosyayı Bul..."
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Locate Missing Devices"
-msgstr "Eksik Cihazları Bul"
+msgstr "Eksik Aygıtları Bul"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Locate Missing Files"
@@ -1571,6 +1592,30 @@ msgstr "Bulunan dosya: %(1)"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Location"
 msgstr "Lokasyon"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Event"
+msgstr "Klibi Kitle"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Events"
+msgstr "Klipleri Kitle"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Track"
+msgstr "İzi Kitle"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Tracks"
+msgstr "İzleri Kitle"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't drag to this track"
+msgstr "Kilitli: bu ize taşınamaz"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't move this event"
+msgstr "Kilitli: bu klip hareket ettirilemez"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Logarithmic"
@@ -1641,7 +1686,7 @@ msgstr "Melodik Kalıp"
 
 #: .\application\musicedit\musicmergetask.cpp
 msgid "[MusicPartEdit]Merge Events"
-msgstr "Olayları Birleştir"
+msgstr "Klipleri Birleştir"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]Merge VCA Automation"
@@ -1673,7 +1718,7 @@ msgstr "Eksik Enstrüman: %(1)"
 
 #: .\application\eventedit\mixdowntask.cpp
 msgid "[Edit]Mixdown Selection"
-msgstr "Seçilenleri Mixdown et"
+msgstr "Seçilenleri Miksdown et"
 
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
@@ -1761,11 +1806,11 @@ msgstr "Taşı Bük İşaret"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Event"
-msgstr "Taşı Olay"
+msgstr "Klipi Taşı"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Events"
-msgstr "Taşı Olaylar"
+msgstr "Klipleri Taşı"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Move Layer"
@@ -1833,11 +1878,11 @@ msgstr "Mute"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Mute Event"
-msgstr "Olayı Mute Et"
+msgstr "Klipi Sustur"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Mute Events"
-msgstr "Olayları Mute et"
+msgstr "Klipleri Sustur"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Name"
@@ -1865,11 +1910,11 @@ msgstr "Yeni Çeşitleme"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Next Event"
-msgstr "Sonraki Olay"
+msgstr "Sonraki Klip"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Next Event Extend"
-msgstr "Sonraki Olay Genişlet"
+msgstr "Sonraki Klipe Genişlet"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Next Mode"
@@ -1921,11 +1966,7 @@ msgstr "Hiç bir iz takip için ayarlı değil"
 
 #: .\automationediting\automationtrackcomponent.cpp
 msgid "[Automation]None"
-msgstr "Hiç"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]None"
-msgstr "Hiç"
+msgstr "Yok"
 
 #: .\audioediting\audioinspector.cpp
 msgid "[AudioPlayMode]Normal"
@@ -1973,7 +2014,7 @@ msgstr "İttir"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Off"
-msgstr "Off"
+msgstr "Kapat"
 
 #: .\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Off"
@@ -1981,7 +2022,7 @@ msgstr "Off"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Only clicked event"
-msgstr "Sadece tıklanan olay"
+msgstr "Sadece tıklanan klip"
 
 #: .\videoediting\videodraghandler.cpp
 msgid "[VideoEdit]Only extract Audio"
@@ -1997,7 +2038,7 @@ msgstr "Akor İzi Aç"
 
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Open Event FX Editor"
-msgstr "Olay FX editörünü Aç"
+msgstr "Klip FX Düzenleyicisini Aç"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Open Marker Track"
@@ -2005,7 +2046,7 @@ msgstr "İşaretçi İzi Aç"
 
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Operations specific to audio events"
-msgstr "Operasyon sadece ses olaylarına özel"
+msgstr "Operasyon sadece ses kliplerine özel"
 
 #: .\musicediting\musicparttask.cpp
 msgid "[MusicPartEdit]Operations specific to instrument parts"
@@ -2081,6 +2122,10 @@ msgstr "Perde"
 msgid "[MediaPreview]Play"
 msgstr "Oynat"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Play Selected Range"
+msgstr "Seçili alanı çal"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
 msgstr "Havuz"
@@ -2095,11 +2140,11 @@ msgstr "Önzileme yaratılamadı!"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Previous Event"
-msgstr "Önceki Olay"
+msgstr "Önceki Klip"
 
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Previous Event Extend"
-msgstr "Önceki Olay Genişlet"
+msgstr "Önceki Klipe Genişlet"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Previous Mode"
@@ -2137,9 +2182,21 @@ msgstr "Quantize"
 msgid "[Events]Quantize"
 msgstr "Quantize"
 
-#: .\editing\quantizepanel.cpp
+#: .\editing\quantizepanel.h
 msgid "[EditAddIn]Quantize"
 msgstr "Quantize"
+
+#: .\editing\quantizepanel.cpp
+msgid "[EditAddIn]Quantize (Arrangement)"
+msgstr "Quantize (Aranjman)"
+
+#: .\audioediting\audioeditor.cpp
+msgid "[EditAddIn]Quantize (Audio Editor)"
+msgstr "Quantize (Ses Düzenleyici)"
+
+#: .\musicediting\musiceditor.cpp
+msgid "[EditAddIn]Quantize (Music Editor)"
+msgstr "Quantize (Müzik Editörü)"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Quantize 50%"
@@ -2150,12 +2207,60 @@ msgid "[Command]Read"
 msgstr "Otomasyon Transferi"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker"
+msgstr "Etiketi Çağır"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 1"
 msgstr "1. İşareti Çağır"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 10"
+msgstr "10. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 11"
+msgstr "11. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 12"
+msgstr "12. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 13"
+msgstr "13. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 14"
+msgstr "14. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 15"
+msgstr "15. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 16"
+msgstr "16. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 17"
+msgstr "17. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 18"
+msgstr "18. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 19"
+msgstr "19. Etiketi Çağır"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 2"
 msgstr "2. İşareti Çağır"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 20"
+msgstr "20. Etiketi Çağır"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 3"
@@ -2256,7 +2361,7 @@ msgstr "Aranjör Bölümünğ Kaldır"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Remove Arranger Section"
-msgstr "Aranjör Bölümünğ Kaldır"
+msgstr "Aranjör Bölümünü Kaldır"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Remove Automation"
@@ -2369,27 +2474,19 @@ msgstr "Otomasyonu Yeniden Adlandır"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Event"
-msgstr "Olayı Yeniden Adlandır"
+msgstr "Klipi Yeniden Adlandır"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Events"
-msgstr "Olayları Yeniden Adlandır"
+msgstr "Klipleri Yeniden Adlandır"
 
 #: .\pool\mediaclipoperations.cpp
 msgid "[MediaClipOperations]Rename Events"
-msgstr "Olayları Yeniden Adlandır"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group"
-msgstr "Gurubu Yeniden Adlandır"
+msgstr "Klipleri Yeniden Adlandır"
 
 #: .\editing\editgroupscomponent.cpp
 msgid "[Command]Rename Group"
 msgstr "Gurubu Yeniden Adlandır"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group..."
-msgstr "Gurubu Yeniden Adlandır..."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Layer"
@@ -2425,15 +2522,19 @@ msgstr "Click'i Render et"
 
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
-msgstr "Olay FX'i Render et"
+msgstr "Klip FX'i Render et"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Render Event FX"
-msgstr "Olay FX'i Render et"
+msgstr "Klip FX'i Render et"
 
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
 msgstr "Enstüman İzlerini render et"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Rendering Audio..."
+msgstr "Sesi Render Et"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
@@ -2449,7 +2550,7 @@ msgstr "Disyalar Render ediliyor"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Note Events"
-msgstr "Nota olayları Render ediliyor"
+msgstr "Nota klipleri Render ediliyor"
 
 #: .\musicediting\patternbankcomponent.cpp
 msgid "[PatternSequence]Reorder %(1)"
@@ -2473,7 +2574,7 @@ msgstr "Değiştir"
 
 #: .\editing\dragoneventhandler.cpp .\editing\eventdraghandler.cpp
 msgid "[Edit]Replace Event"
-msgstr "Olayı Değiştir"
+msgstr "Klipleri Yenisi ile Değiştir"
 
 #: .\editing\arrangerfunctions.cpp
 msgid "[Edit]Replace Partially"
@@ -2509,11 +2610,11 @@ msgstr "Sıralamayı Sıfırla"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Resize Event"
-msgstr "Olayın Boyunu Değiştir"
+msgstr "Klipin Boyunu Değiştir"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Resize Events"
-msgstr "Olayların Boyunu Değiştir"
+msgstr "Kliplerin Boyunu Değiştir"
 
 #: .\musicediting\patternbankcomponent.cpp
 msgid "[PatternSequence]Resolution"
@@ -2525,15 +2626,15 @@ msgstr "Çözülüm"
 
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Restore Event FX"
-msgstr "Olay FX'ini eski haline getir"
+msgstr "Klip FX'ini eski haline getir"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Restore Event FX"
-msgstr "Olay FX'ini eski haline getir"
+msgstr "Klip FX'ini eski haline getir"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Restore Timing"
-msgstr "Zamanlamayı Sıfırla"
+msgstr "Ölçüyü eski haline getir"
 
 #: .\application\audioedit\audioreversetask.cpp
 msgid "[AudioEdit]Reverse Audio"
@@ -2575,17 +2676,21 @@ msgstr "Saniyeler"
 msgid "[Command]Select All on Tracks"
 msgstr "Tüm izlerde seç"
 
+#: .\editing\chordsoundmanager.cpp
+msgid "[ChordSounds]Select Chord Sound"
+msgstr "Akor Sesi Seçin"
+
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select Events in Range"
-msgstr "Alandaki Tüm Olayları Seç"
+msgstr "Bölgedeki Tüm KlipleriSeç"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Select Events in Section"
-msgstr "Bölümdeki Tüm Olayları Seç"
+msgstr "Alandaki Tüm Klipleri Seç"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Select Events in Section"
-msgstr "Bölümdeki Tüm Olayları Seç"
+msgstr "Alandaki Tüm Klipleri Seç"
 
 #: .\editing\layereditlayer.cpp
 msgid "[Layer]Select Layer Content"
@@ -2629,11 +2734,11 @@ msgstr "Tüm \"%(1)\" Akorlarını Seç"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select from Event to End"
-msgstr "Olaydan Sona Kadar Seç"
+msgstr "Klipten sonuna kadar seç"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select from Start to Event"
-msgstr "Olaydan Başa Kadar Seç"
+msgstr "Başlangıçtan Klipe Kadar Seç"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Select on Track"
@@ -2661,7 +2766,7 @@ msgstr "Düzenleme Gurubu Yanımla"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Event FX Tail"
-msgstr "Olay Efekt Kuyruğunu Belirle"
+msgstr "Klip Efekt Kuyruğunu Tanımla"
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]Set Every 2nd Step"
@@ -2705,7 +2810,7 @@ msgstr "Video Offset Belirler"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Volume after Event FX"
-msgstr "Olay Efektinden sonraki Seviyeyi Tanımla"
+msgstr "Klip Efektinden sonraki Seviyeyi Tanımla"
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]Shift Lane"
@@ -2742,7 +2847,7 @@ msgstr "Büküm İşaretini Göster"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Show Channel Editor"
-msgstr "Kanal Editörünü Göster"
+msgstr "Kanal Düzenleyicisini Göster"
 
 #: .\base\model\chordfunctions.cpp
 msgid "[Edit]Show Chords"
@@ -2755,7 +2860,7 @@ msgstr "Varsayılanı Göster"
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Show Device"
-msgstr "Cihazı Göster"
+msgstr "Aygıtı Göster"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Show Envelopes"
@@ -2763,7 +2868,7 @@ msgstr "Zarfları Göster"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Show Instrument Editor"
-msgstr "Enstrüman Editörünü Göster"
+msgstr "Enstrüman Düzenleyicisini Göster"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Show Media Folder in Explorer"
@@ -2787,7 +2892,7 @@ msgstr "Konsolda Göster"
 
 #: .\song\songcontroller.cpp
 msgid "[Command]Show in Explorer/Finder"
-msgstr "Explorer/Finder'da Göster"
+msgstr "Explorer/Finder içinde göster"
 
 #: .\musicediting\patterncontrollane.cpp
 msgid "[MusicPatternPartEditor]Show the \"%(1)\" Automation"
@@ -2819,11 +2924,27 @@ msgstr "Küçük"
 
 #: .\editing\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Event Hotspots"
-msgstr "Olay Hotspot'larına Snap"
+msgstr "Klip Hotspot'larına Snap"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Event Hotspots"
+msgstr "Klip Hotspot'larına Snap"
 
 #: .\editing\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Events"
-msgstr "Olaylara Snap"
+msgstr "Kliplere Snap"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Events"
+msgstr "Kliplere Snap"
+
+#: .\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Zero Crossings"
+msgstr "Sıfır geçiş noktalarına yapıştır"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Zero Crossings"
+msgstr "Sıfır geçiş noktalarına yapıştır"
 
 #: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
@@ -2872,11 +2993,11 @@ msgstr "Şarkı Ayarları"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Split Event"
-msgstr "Olay Bölme"
+msgstr "Klip Bölme"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Split Events"
-msgstr "Olayları Bölme"
+msgstr "Klipleri Böl"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Split Loop"
@@ -2941,11 +3062,11 @@ msgstr "Stop"
 
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[EditAddIn]Strip Silence"
-msgstr "Sessizlik Doldur"
+msgstr "Sessizlik Ekle"
 
 #: .\application\audioedit\stripsilencetask.cpp
 msgid "[AudioEdit]Strip Silence"
-msgstr "Sessizlik Doldur"
+msgstr "Sessizlik Ekle"
 
 #: .\editing\tracklist.cpp
 msgid "[TrackInfo]Sub Tracks: %(1)"
@@ -2957,7 +3078,7 @@ msgstr "Sync tempo"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Synchronize Editor to Arrangement"
-msgstr "Editörü Aranjmana Senkron Et"
+msgstr "Düzenleyiciyi Aranjmana Senkron Et"
 
 #: .\song\songdocument.cpp
 msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
@@ -2974,6 +3095,10 @@ msgstr "Take #%(1:3) (%(2))"
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Uzunluk: %(2)"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+msgstr "Ses codec'i güncel örnekleme frekansını desteklemiyor. Frekans %(1) kHz'e dönüştürülecek"
 
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
@@ -3049,7 +3174,15 @@ msgstr "Minik"
 
 #: .\editing\trackeditor.cpp
 msgid "[Command]Toggle Detached Editor"
-msgstr "Bağımsız Editörü Aç/Kapa"
+msgstr "Bağımsız Düzenleyiciyi Aç/Kapa"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Edit Lock"
+msgstr "Düzenleme kildini aç/kapa"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Lock"
+msgstr "Kilidi aç/kapa"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Toggle Read"
@@ -3058,6 +3191,10 @@ msgstr "Okumayı Aç/Kapa"
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Toggle Ripple Edit"
 msgstr "Dalgalanma Düzenlemesini Değiştir"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Time Lock"
+msgstr "Time Lock'u aç/kapa"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Touch"
@@ -3142,6 +3279,10 @@ msgstr "Render Edilmiş Sese Dönüştür"
 msgid "[Command]Transform to Rendered Audio"
 msgstr "Render Edilmiş Sese Dönüştür"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Transport"
+msgstr "Transport"
+
 #: .\base\model\chordfunctions.cpp
 msgid "[Edit]Transpose Chord"
 msgstr "Akoru Transpoze et"
@@ -3156,11 +3297,11 @@ msgstr "Akorları Transpoze Et"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Transpose Event"
-msgstr "Olayı Transpoze Et"
+msgstr "Klipi Transpoze Et"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Transpose Events"
-msgstr "Olayları Transpoze Et"
+msgstr "Klipleri Transpoze Et"
 
 #: .\application\audioedit\audiocrossfadetask.cpp
 msgid "[AudioEdit]Trim End to Cursor"
@@ -3199,12 +3340,28 @@ msgid "[VideoClip]Unknown Format!"
 msgstr "Bilinmeyen Format!"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Event"
+msgstr "Klip'in kildini aç"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Events"
+msgstr "Kliplerin kilidini aç"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Track"
+msgstr "İzin kilidini aç"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Tracks"
+msgstr "İzlerin kilidini aç"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Event"
-msgstr "Olayı Sessizlikten çıkar"
+msgstr "Klipleri Sessizlikten çıkar"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Events"
-msgstr "Olayları Sessizlikten çıkar"
+msgstr "Klipleri Sessizlikten çıkar"
 
 #: .\editing\layereditlayer.cpp
 msgid "[Layer]Unpack Layers to Tracks"
@@ -3245,6 +3402,10 @@ msgstr "Kullanılmış"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Used by: "
 msgstr "Şu tarafından kullanılmış:"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Using different codecs might affect the export speed."
+msgstr "Farklı codec'ler kullanmak dışa aktarım hızını etkileyebilir."
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Velocity"
@@ -3300,6 +3461,10 @@ msgstr "Yaz"
 msgid "[AutomationWriter]Write Automation"
 msgstr "Otomasyon Yaz"
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Writing Video File..."
+msgstr "Video Dosyası Yazılıyor..."
+
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
 msgstr "Çok Büyük"
@@ -3347,4 +3512,19 @@ msgstr "%(1) kez kullanıldı"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) kez kullanıldı"
+
+#~ msgid "[EditGroups]A Group with this name already exists."
+#~ msgstr "Bu isimde bir gurup mevcut"
+
+#~ msgid "[EditGroups]Group"
+#~ msgstr "Gurup"
+
+#~ msgid "[EditGroups]None"
+#~ msgstr "Yok"
+
+#~ msgid "[EditGroups]Rename Group"
+#~ msgstr "Gurubu Yeniden Adlandır"
+
+#~ msgid "[EditGroups]Rename Group..."
+#~ msgstr "Gurubu Yeniden Adlandır..."
 

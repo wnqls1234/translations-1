@@ -328,6 +328,10 @@ msgstr "Désactiver"
 msgid "[Documents]Discard"
 msgstr "Supprimer"
 
+#: .\documents\recentdocuments.cpp
+msgid "[Documents]Do you really want to clear the list of recent files?\n\nThis action can not be undone."
+msgstr "Souhaitez-vous vraiment effacer la liste des fichiers récents?\n\nCette action ne peut pas être annulée."
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "Voulez-vous vraiment effacer l'historique d'annulation?\n\nCette action ne peut pas être annulée."
@@ -537,6 +541,10 @@ msgstr "Informations sur le fichier"
 msgid "[PlugInSelector]Flat"
 msgstr "Vrac"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Folder"
+msgstr "Dossier"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Folder"
 msgstr "Dossier"
@@ -604,6 +612,10 @@ msgstr "Importation de %(1)..."
 #: .\presets\presettrader.cpp
 msgid "[Presets]Importing Preset"
 msgstr "Importation de preset"
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Incremental version"
+msgstr "Version incrémentale"
 
 #: .\editing\editor.cpp
 msgid "[Command]Invert Selection"
@@ -700,6 +712,10 @@ msgstr "Déplacement de %(1)"
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving files"
 msgstr "Déplacement de fichiers"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Name"
+msgstr "Nom"
 
 #: .\editing\editor.cpp .\navigation\navigatorbase.cpp
 msgid "[Command]Navigation"
@@ -886,7 +902,7 @@ msgstr "Récents"
 msgid "[Command]Recent File"
 msgstr "Fichier récent"
 
-#: .\documents\documentblocks.cpp
+#: .\documents\recentdocuments.cpp
 msgid "[Documents]Recent Files"
 msgstr "Fichiers récents"
 
@@ -1286,6 +1302,10 @@ msgstr "Barre d'outils"
 msgid "[SliderMode]Touch"
 msgstr "Toucher"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Type"
+msgstr "Type"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Type"
 msgstr "Type"
@@ -1341,6 +1361,10 @@ msgstr "Données utilisateur"
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Interface"
 msgstr "Interface utilisateur"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Vendor"
+msgstr "Vendeur"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"

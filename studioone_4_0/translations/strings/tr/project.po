@@ -6,7 +6,7 @@ msgstr ""
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher](Unknown Artist)"
-msgstr "(Bilinmeyen Artist)"
+msgstr "(Bilinmeyen Sanatçı)"
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[AudioFilePublisher](Unknown Title)"
@@ -18,7 +18,7 @@ msgstr "Boş CD bulundu, yakma işlemine başlayabilirsiniz"
 
 #: .\editing\projectdraghandler.cpp
 msgid "[ProjectEditHandler]Add Event to Track"
-msgstr "İze Olay Ekle"
+msgstr "İze Klip Ekle"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Add Marker"
@@ -34,7 +34,7 @@ msgstr "Aranjör"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Artist / Performer"
-msgstr "Artist / Performer"
+msgstr "Sanatçı / İcracı"
 
 #: .\editing\projectedittasks.cpp
 msgid "[ProjectEdit]Bounce Track"
@@ -110,7 +110,7 @@ msgstr "Loudness'i tespit et"
 
 #: .\project\projectdocument.cpp
 msgid "[Project]Devices"
-msgstr "Cihazlar"
+msgstr "Aygıtlar"
 
 #: .\publish\audiofilepublisher.cpp
 msgid "[Command]Digital Release"
@@ -186,11 +186,11 @@ msgstr "DPP içeri aktarma"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Import File"
-msgstr "Dosya içe al"
+msgstr "İçe Dosya Aktar"
 
 #: .\project\projectcomponent.cpp
 msgid "[Command]Import File"
-msgstr "Dosya içe al"
+msgstr "İçe Dosya Aktar"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Index"
@@ -222,7 +222,7 @@ msgstr "Uzunluk: %(1) Duraklama: %(2)"
 
 #: .\project\projectcomponent.cpp
 msgid "[Command]Locate Missing Devices"
-msgstr "Eksik Cihazları Bul"
+msgstr "Eksik Aygıtları Bul"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Lyrics"
@@ -242,7 +242,7 @@ msgstr "İşaret"
 
 #: .\publish\projectburner.cpp
 msgid "[ProjectBurner]Mixdown Speed: %float(1:1)"
-msgstr "Mixdown Hızı: %float(1:1)"
+msgstr "Miksdown Hızı: %float(1:1)"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Modify Attribute"
@@ -258,15 +258,15 @@ msgstr "Sadece Bitiş İşaretini Taşı"
 
 #: .\editing\projectedithandler.cpp
 msgid "[ProjectEditHandler]Move Event and Resize Track"
-msgstr "Olayı Taşı ve İzi Yeniden Boyutlandır"
+msgstr "Klipi Taşı ve İzi Yeniden Boyutlandır"
 
 #: .\editing\projectedithandler.cpp
 msgid "[ProjectEditHandler]Move Event and Track Start"
-msgstr "İz Başlangıcını ve Olayı Taşı"
+msgstr "İz Başlangıcını ve Klipi Taşı"
 
 #: .\editing\projectedithandler.cpp
 msgid "[ProjectEditHandler]Move Event only"
-msgstr "Sadece Olayı Taşı"
+msgstr "Sadece KlipiTaşı"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Move Marker"
@@ -290,7 +290,7 @@ msgstr "İz taşı"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]No Device"
-msgstr "Cihaz Yok"
+msgstr "Aygıt Yok"
 
 #: .\publish\audiodiscpublisher.cpp
 msgid "[AudioDiscPublisher]Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
@@ -310,7 +310,7 @@ msgstr "Bekle"
 
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]Please ensure that no files or devices are missing!"
-msgstr "Hiçbir dosya veya cihazın eksik olmadığından emin olun!"
+msgstr "Hiçbir dosya veya aygıtın eksik olmadığından emin olun!"
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]Please erase the CD or insert a blank one"
@@ -388,7 +388,7 @@ msgstr "İz beklemesini ayarla"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Event at Cursor"
-msgstr "Olayı İmleç Pozisyonundan Böl"
+msgstr "Klipi İmleç Pozisyonundan Böl"
 
 #: .\base\projectfunctions.cpp
 msgid "[ProjectFunctions]Split Track"
@@ -400,11 +400,11 @@ msgstr "İzi böl"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Command]Split Track and Event"
-msgstr "İzi ve Olayı Böl"
+msgstr "İzi ve Klipi Böl"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Track and Event at Cursor"
-msgstr "İzi ve Olayı İmleç Pozisyonundan Böl"
+msgstr "İzi ve Klipi İmleç Pozisyonundan Böl"
 
 #: .\editing\projecteditcomponent.cpp
 msgid "[Project]Split Track at Cursor"
@@ -428,7 +428,7 @@ msgstr "ISRC kodu düzgün formatlanmamış.\n\nKod 12 haneli ve sadece alfanüm
 
 #: .\publish\burnerdialog.cpp
 msgid "[BurnerDialog]The device could not be opened"
-msgstr "Cihaz açılamadı"
+msgstr "Aygıt açılamadı"
 
 #: .\project\songupdater.cpp
 msgid "[SongUpdater]The following files failed to update:"

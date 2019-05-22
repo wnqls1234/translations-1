@@ -8,6 +8,10 @@ msgstr ""
 msgid "[CommandEditor](modified)"
 msgstr "(verändert)"
 
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]<Unnamed>"
+msgstr "<Unbenannt>"
+
 #: .\keyevent.cpp
 msgid "[VirtualKey]Alt"
 msgstr "Alt"
@@ -125,8 +129,8 @@ msgid "[ListView]Details"
 msgstr "Details"
 
 #: .\controls\commandbar\commandbarview.cpp
-msgid "[CommandBar]Do you want to remove %(1)?"
-msgstr "Möchten Sie %(1) löschen?"
+msgid "[CommandBar]Do you want to remove \"%(1)\"?"
+msgstr "Möchten Sie \"%(1)\" entfernen?"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down"
@@ -151,6 +155,10 @@ msgstr "Nach unten überspringen"
 #: .\itemviews\itemview.cpp
 msgid "[Command]Edit"
 msgstr "Bearbeiten"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Edit Menu"
+msgstr "Menü bearbeiten"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]End"
@@ -201,8 +209,56 @@ msgid "[VirtualKey]F12"
 msgstr "F12"
 
 #: .\keyevent.cpp
+msgid "[VirtualKey]F13"
+msgstr "F13"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F14"
+msgstr "F14"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F15"
+msgstr "F15"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F16"
+msgstr "F16"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F17"
+msgstr "F17"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F18"
+msgstr "F18"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F19"
+msgstr "F19"
+
+#: .\keyevent.cpp
 msgid "[VirtualKey]F2"
 msgstr "F2"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F20"
+msgstr "F20"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F21"
+msgstr "F21"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F22"
+msgstr "F22"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F23"
+msgstr "F23"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F24"
+msgstr "F24"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]F3"
@@ -333,6 +389,14 @@ msgid "[ListView]List"
 msgstr "Liste"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Menu"
+msgstr "Menü"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Menu Item"
+msgstr "Menüeintrag"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Move to"
 msgstr "Verschieben nach"
 
@@ -349,8 +413,24 @@ msgid "[CommandBar]New Group"
 msgstr "Neue Gruppe"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Menu Button"
+msgstr "Neue Menüschaltfläche"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Menu Item"
+msgstr "Neuer Menüeintrag"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Page"
 msgstr "Neue Seite"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Separator"
+msgstr "Neuer Trenner"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Submenu"
+msgstr "Neues Untermenü"
 
 #: .\layout\workspace.cpp
 msgid "[Command]Next Perspective"
@@ -525,8 +605,20 @@ msgid "[CommandBar]Remove Image"
 msgstr "Bild entfernen"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Menu Item"
+msgstr "Menüeintrag entfernen"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Page"
 msgstr "Seite löschen"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Separator"
+msgstr "Trenner entfernen"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Submenu"
+msgstr "Untermenü entfernen"
 
 #: .\itemviews\headerview.cpp
 msgid "[HeaderView]Reset All Columns"
@@ -579,6 +671,10 @@ msgstr "Alles auswählen"
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Select Image"
 msgstr "Bild auswählen"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Separator"
+msgstr "Trenner"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Shift"
@@ -679,6 +775,9 @@ msgstr "Ja"
 #: .\dialogs\useroptionmodel.cpp
 msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
 msgstr "Sie haben die Einstellungen geändert. Möchten Sie diese Änderungen jetzt anwenden?"
+
+#~ msgid "[CommandBar]Do you want to remove %(1)?"
+#~ msgstr "Möchten Sie %(1) löschen?"
 
 #~ msgid "[CommandBar]Compact"
 #~ msgstr "Kompaktansicht"

@@ -8,6 +8,10 @@ msgstr ""
 msgid "[CommandEditor](modified)"
 msgstr "(已修正)"
 
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]<Unnamed>"
+msgstr "<Unnamed>"
+
 #: .\keyevent.cpp
 msgid "[VirtualKey]Alt"
 msgstr "Alt"
@@ -125,8 +129,8 @@ msgid "[ListView]Details"
 msgstr "详细资料"
 
 #: .\controls\commandbar\commandbarview.cpp
-msgid "[CommandBar]Do you want to remove %(1)?"
-msgstr "是否移除 %(1)?"
+msgid "[CommandBar]Do you want to remove \"%(1)\"?"
+msgstr "是否确定移除 \"%(1)\"?"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down"
@@ -151,6 +155,10 @@ msgstr "向下跳过"
 #: .\itemviews\itemview.cpp
 msgid "[Command]Edit"
 msgstr "编辑"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Edit Menu"
+msgstr "编辑菜单"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]End"
@@ -201,8 +209,56 @@ msgid "[VirtualKey]F12"
 msgstr "F12"
 
 #: .\keyevent.cpp
+msgid "[VirtualKey]F13"
+msgstr "F13"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F14"
+msgstr "F14"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F15"
+msgstr "F15"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F16"
+msgstr "F16"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F17"
+msgstr "F17"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F18"
+msgstr "F18"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F19"
+msgstr "F19"
+
+#: .\keyevent.cpp
 msgid "[VirtualKey]F2"
 msgstr "F2"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F20"
+msgstr "F20"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F21"
+msgstr "F21"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F22"
+msgstr "F22"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F23"
+msgstr "F23"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]F24"
+msgstr "F24"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]F3"
@@ -333,6 +389,14 @@ msgid "[ListView]List"
 msgstr "列表"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Menu"
+msgstr "目录"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Menu Item"
+msgstr "目录项"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Move to"
 msgstr "移动至"
 
@@ -349,8 +413,24 @@ msgid "[CommandBar]New Group"
 msgstr "新编组"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Menu Button"
+msgstr "新菜单钮"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Menu Item"
+msgstr "新菜单项"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Page"
 msgstr "新页面"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Separator"
+msgstr "新分隔符"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]New Submenu"
+msgstr "新子菜单"
 
 #: .\layout\workspace.cpp
 msgid "[Command]Next Perspective"
@@ -525,8 +605,20 @@ msgid "[CommandBar]Remove Image"
 msgstr "移除图像"
 
 #: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Menu Item"
+msgstr "移除菜单项"
+
+#: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Page"
 msgstr "移除页面"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Separator"
+msgstr "移除分离器"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Remove Submenu"
+msgstr "移除子菜单"
 
 #: .\itemviews\headerview.cpp
 msgid "[HeaderView]Reset All Columns"
@@ -579,6 +671,10 @@ msgstr "全选"
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Select Image"
 msgstr "选择图像"
+
+#: .\controls\commandbar\commandbarview.cpp
+msgid "[CommandBar]Separator"
+msgstr "分离器"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Shift"
@@ -679,6 +775,9 @@ msgstr "是的"
 #: .\dialogs\useroptionmodel.cpp
 msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
 msgstr "设置已改变, 是否应用改变?"
+
+#~ msgid "[CommandBar]Do you want to remove %(1)?"
+#~ msgstr "是否移除 %(1)?"
 
 #~ msgid "[CommandBar]Compact"
 #~ msgstr "精简"

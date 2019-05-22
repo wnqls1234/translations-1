@@ -328,6 +328,10 @@ msgstr "Deaktivieren"
 msgid "[Documents]Discard"
 msgstr "Verwerfen"
 
+#: .\documents\recentdocuments.cpp
+msgid "[Documents]Do you really want to clear the list of recent files?\n\nThis action can not be undone."
+msgstr "Möchten Sie die Dateiliste wirklich zurücksetzen?\n\nDiese Aktion kann nicht rückgängig gemacht werden."
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "Möchten Sie die Bearbeitungsschritte wirklich löschen?\n\nDiese Aktion kann nicht rückgängig gemacht werden."
@@ -537,6 +541,10 @@ msgstr "Dateiinformation"
 msgid "[PlugInSelector]Flat"
 msgstr "Flach"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Folder"
+msgstr "Ordner"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Folder"
 msgstr "Ordner"
@@ -604,6 +612,10 @@ msgstr "Importiere %(1)..."
 #: .\presets\presettrader.cpp
 msgid "[Presets]Importing Preset"
 msgstr "Importiere Preset..."
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Incremental version"
+msgstr "Fortlaufende Version"
 
 #: .\editing\editor.cpp
 msgid "[Command]Invert Selection"
@@ -700,6 +712,10 @@ msgstr "Verschiebe %(1)"
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving files"
 msgstr "Verschiebe Dateien"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Name"
+msgstr "Name"
 
 #: .\editing\editor.cpp .\navigation\navigatorbase.cpp
 msgid "[Command]Navigation"
@@ -803,7 +819,7 @@ msgstr "Optionen"
 
 #: .\documents\documentversions.cpp
 msgid "[Documents]Original"
-msgstr "Ursprungstext"
+msgstr "Original"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Packages"
@@ -886,7 +902,7 @@ msgstr "Zuletzt verwendet"
 msgid "[Command]Recent File"
 msgstr "Zuletzt geöffnete Datei"
 
-#: .\documents\documentblocks.cpp
+#: .\documents\recentdocuments.cpp
 msgid "[Documents]Recent Files"
 msgstr "Zuletzt geöffnete Dateien"
 
@@ -1286,6 +1302,10 @@ msgstr "Werkzeugleiste"
 msgid "[SliderMode]Touch"
 msgstr "Berührung"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Type"
+msgstr "Typ"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Type"
 msgstr "Typ"
@@ -1341,6 +1361,10 @@ msgstr "Benutzerdaten"
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Interface"
 msgstr "Grafische Oberfläche"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Vendor"
+msgstr "Hersteller"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"

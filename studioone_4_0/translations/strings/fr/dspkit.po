@@ -64,6 +64,10 @@ msgstr "Note"
 msgid "[SpectrumMeter]Octave"
 msgstr "Octave"
 
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr "Maint. des crêtes"
+
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "Maintien de crête G: %(1:1) dB - D: %(2:1) dB"
@@ -104,13 +108,12 @@ msgstr "Tiers d'octave"
 msgid "[SpectrumDisplay]Time"
 msgstr "Temps"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "Maintien des crêtes"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "Waterfall"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "Maintien des crêtes"
 
 #~ msgid "[Sampler]%(1) programs"
 #~ msgstr "%(1) programmes"
@@ -156,3 +159,4 @@ msgstr "Waterfall"
 
 #~ msgid "[KeySwitchList]Title"
 #~ msgstr "Intitulé"
+

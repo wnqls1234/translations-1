@@ -64,9 +64,13 @@ msgstr "48V右"
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "设备名称已经存在."
 
-#: .\audiosynths\combinator\synthcombinatorgraph.cpp
-msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
-msgstr "备注项目可以被安插进3个或更多的工具中"
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]A group with this name already exists."
+msgstr "此名称组已存在。"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]ADAT"
+msgstr "ADAT"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Activate"
@@ -148,6 +152,14 @@ msgstr "添加效果通道"
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "通道\"%(1)\"添加效果器"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Add Group"
+msgstr "添加组"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Add I/O Channels"
+msgstr "添加输入/输出轨道"
+
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
 msgstr "添加插件"
@@ -184,6 +196,10 @@ msgstr "触后"
 msgid "[Command]Aftertouch"
 msgstr "触后"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]All"
+msgstr "所有"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "所有"
@@ -199,6 +215,10 @@ msgstr "关闭所有备注"
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "出现一个无效信号。"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]Analog"
+msgstr "模拟"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -223,6 +243,10 @@ msgstr "分配当前参数"
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Parameter"
 msgstr "分配参数"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Assign in Ascending Order"
+msgstr "按升序分配"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assigned"
@@ -353,6 +377,26 @@ msgstr "通道"
 #: .\macrocontrol\channelmacrocontrol.cpp
 msgid "[ChannelMacroControls]Channel"
 msgstr "通道"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Color"
+msgstr "轨道颜色"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Channel Components"
+msgstr "轨道组件"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Count"
+msgstr "轨道数"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Format"
+msgstr "轨道格式"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Label"
+msgstr "轨道标签"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Channel Split"
@@ -515,6 +559,10 @@ msgstr "检测设备 %(1)"
 msgid "[DeviceFolder]Device"
 msgstr "设备"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Device %(1)"
+msgstr "设备 %(1)"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr "已接收%(1) 设备信息"
@@ -572,6 +620,14 @@ msgstr "断开连接 %(1) 从 %(2) 宏观控制%(3)"
 msgid "[UCMixerConnector]Disconnected from %(1)."
 msgstr "已断开%(1)连接"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Dissolve Group"
+msgstr "溶解组"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Do you want to reset to your default I/O Setup?"
+msgstr "是否确定重置出厂输入/输出设置？"
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "双精度 (64位)"
@@ -615,6 +671,10 @@ msgstr "编辑..."
 #: .\base\processgraph.cpp
 msgid "[ProcessGraph]Edit..."
 msgstr "编辑..."
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Editing"
+msgstr "编辑中"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Effect"
@@ -752,6 +812,14 @@ msgstr "时间跳转"
 msgid "[Command]Goto Time"
 msgstr "时间跳转"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Group"
+msgstr "编组"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Group"
+msgstr "编组"
+
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Hardware Monitoring"
 msgstr "硬件监听"
@@ -772,9 +840,17 @@ msgstr "隐藏相关轨道"
 msgid "[MixerConsole]Hide Related Channels"
 msgstr "隐藏相关轨道"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]High"
 msgstr "高"
+
+#: .\audiomixer\audioioassignment.cpp
+msgid "[FileType]I/O Configuration"
+msgstr "输入/输出配置"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]I/O Type"
+msgstr "输入/输出类型"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -796,6 +872,10 @@ msgstr "输入"
 msgid "[Hardware]Input Controls"
 msgstr "输入控制"
 
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Input Gain"
+msgstr "输入增益"
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Input Mode"
 msgstr "输入模式"
@@ -812,6 +892,7 @@ msgstr "插入"
 msgid "[AudioFXGraph]Insert FX Chain"
 msgstr "插入FX Chain"
 
+#: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Insert Note Event Splitter"
 msgstr "插入备注事件分离器"
@@ -826,6 +907,10 @@ msgstr "插入分离器"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
+msgstr "插入"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Inserts"
 msgstr "插入"
 
 #: .\audiosynths\audiosynthfolder.cpp
@@ -891,6 +976,10 @@ msgstr "键盘"
 msgid "[SurfaceControl]Knob"
 msgstr "旋钮"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Label"
+msgstr "标签"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
 msgstr "大"
@@ -935,7 +1024,7 @@ msgstr "加载设备: %(1)"
 msgid "[CueMixSlot]Lock"
 msgstr "锁定"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Low"
 msgstr "低"
 
@@ -951,11 +1040,11 @@ msgstr "没有找到设备%(1)的MIDI端口!"
 msgid "[AudioMixer]Main"
 msgstr "主要的"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Maximum"
 msgstr "最大"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Medium"
 msgstr "中等"
 
@@ -967,9 +1056,17 @@ msgstr "消息"
 msgid "[FileType]Metronome Preset"
 msgstr "节拍器预设"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Minimum"
 msgstr "最小"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing"
+msgstr "丢失"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing Files"
+msgstr "丢失文件"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
@@ -1030,6 +1127,10 @@ msgstr "静音"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mute"
+msgstr "静音"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Mute"
 msgstr "静音"
 
 #: .\audioeffects\audiofxgraph.cpp
@@ -1110,6 +1211,10 @@ msgstr "无丢失的设备."
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]None"
+msgstr "无"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]None"
 msgstr "无"
 
 #: .\studio\portlist.cpp
@@ -1220,6 +1325,10 @@ msgstr "声像"
 msgid "[CueMixSlot]Pan"
 msgstr "声像"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Pan"
+msgstr "声像"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Parameter"
 msgstr "参数"
@@ -1248,9 +1357,17 @@ msgstr "从循环开头播放"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "请连接即插即用式MIDI设备, 连接完成后此消息自动消失..."
 
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity"
+msgstr "极性"
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity"
 msgstr "极性"
+
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity Right"
+msgstr "右侧极性"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity Right"
@@ -1267,6 +1384,10 @@ msgstr "没找到端口!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "推子后"
+
+#: .\audiomixer\audiochannelmeter.cpp
+msgid "[AudioChannelMeter]Pre-Fader Metering"
+msgstr "推子前测量"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain"
@@ -1336,6 +1457,10 @@ msgstr "最近触摸的"
 msgid "[Command]Recently Touched"
 msgstr "最近触摸的"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Record"
+msgstr "录音"
+
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Record"
 msgstr "录音"
@@ -1388,6 +1513,10 @@ msgstr "移除"
 msgid "[SurfaceControl]Remove"
 msgstr "移除"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove \"%(1)\""
+msgstr "移除 \"%(1)\""
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Remove %(1)"
 msgstr "移除 %(1)"
@@ -1399,6 +1528,10 @@ msgstr "移除 %(1)"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Remove %(1) Automation"
 msgstr "移除%(1)自动控制"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove Added Sounds"
+msgstr "移除已添加声音"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
@@ -1452,6 +1585,14 @@ msgstr "移除标记事件拆分"
 msgid "[AudioFXGraph]Remove Splitter"
 msgstr "移除拆分"
 
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused"
+msgstr "移除未使用"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused Instruments"
+msgstr "移除未使用乐器"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Rename %(1)"
 msgstr "重命名 %(1)"
@@ -1475,6 +1616,14 @@ msgstr "重命名音轨"
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "设备重命名"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group"
+msgstr "组重命名"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group..."
+msgstr "组重命名..."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename..."
@@ -1548,6 +1697,10 @@ msgstr "倒带"
 msgid "[Command]Rewind Bar"
 msgstr "小节倒带"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]S/PDIF"
+msgstr "S/PDIF"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
 msgstr "保存设备: %(1)"
@@ -1592,6 +1745,14 @@ msgstr "选择场景 4"
 msgid "[Command]Select Scene 5"
 msgstr "选择场景 5"
 
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Select Sidechain Source"
+msgstr "选择侧链源"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Destination"
+msgstr "发送目的地"
+
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
 msgstr "发送电平"
@@ -1605,6 +1766,10 @@ msgid "[AudioSendSlot]Send Pan"
 msgstr "发送声像"
 
 #: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Prefader"
+msgstr "发送推子前"
+
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slot"
 msgstr "发送位置"
 
@@ -1615,6 +1780,10 @@ msgstr "发送多个位置"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "发送到"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Sends"
+msgstr "发送"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Set '%(1)'"
@@ -1631,6 +1800,10 @@ msgstr "设置音轨颜色"
 #: .\audiosynths\audiosynthdirectinput.cpp
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr "设置直接输入"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Set Edit Group"
+msgstr "设置编辑编组"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Set Gate %(1)"
@@ -1676,6 +1849,10 @@ msgstr "倒放Shift Loop"
 msgid "[MixerConsole]Show"
 msgstr "显示"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Audio Device Controls"
+msgstr "显示音频设备控制"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel"
 msgstr "显示通道"
@@ -1684,6 +1861,10 @@ msgstr "显示通道"
 msgid "[Command]Show Channel Editor"
 msgstr "显示通道编辑器"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Channel Notes"
+msgstr "显示轨道标记"
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Show Current Parameter"
 msgstr "显示当前参数"
@@ -1691,6 +1872,18 @@ msgstr "显示当前参数"
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Show Destination"
 msgstr "显示目标"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Group Assignment"
+msgstr "显示分组"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show I/O Connections"
+msgstr "显示输入/输出连接"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Input Controls"
+msgstr "显示输入控制"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Instrument Editor"
@@ -1704,6 +1897,10 @@ msgstr "显示相关轨道"
 msgid "[MixerConsole]Show Related Channels"
 msgstr "显示相关轨道"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Sends/Cue mix"
+msgstr "显示发送/混合记号"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
 msgstr "显示音轨"
@@ -1712,6 +1909,10 @@ msgstr "显示音轨"
 msgid "[MixerConsole]Show Track"
 msgstr "显示音轨"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show VCA Connections"
+msgstr "显示VCA连接"
+
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Show in Console"
 msgstr "控制台中显示"
@@ -1719,6 +1920,10 @@ msgstr "控制台中显示"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show in Console"
 msgstr "控制台中显示"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechain Active"
+msgstr "启用侧链"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
@@ -1827,6 +2032,54 @@ msgstr "编组"
 #: .\audiosynths\combinator\combinatorsynthfolder.cpp
 msgid "[SynthCombinator]Sub Instrument"
 msgstr "替代乐器"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend All Groups"
+msgstr "暂停所有组"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group"
+msgstr "暂停组"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 1"
+msgstr "暂停组 1"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 10"
+msgstr "暂停组 10"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 2"
+msgstr "暂停组 2"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 3"
+msgstr "暂停组 3"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 4"
+msgstr "暂停组 4"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 5"
+msgstr "暂停组 5"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 6"
+msgstr "暂停组 6"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 7"
+msgstr "暂停组 7"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 8"
+msgstr "暂停组 8"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 9"
+msgstr "暂停组 9"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Swap Macro Controls"
@@ -1973,9 +2226,25 @@ msgstr "取消分配"
 msgid "[SurfaceEditor]Unassign"
 msgstr "取消分配"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused"
+msgstr "未使用的"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused Files"
+msgstr "未使用的文件"
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
 msgstr "整个播放和录音期间将使用外部的MIDI设备或乐器, 连接后, 如果键盘设备使用了同一端口, 请务必注意是否出现重叠的MIDI事件."
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used"
+msgstr "已使用"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used Files"
+msgstr "已使用的文件"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -2005,6 +2274,10 @@ msgstr "音量"
 msgid "[CueMixSlot]Volume"
 msgstr "音量"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Volume"
+msgstr "音量"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "写入"
@@ -2012,6 +2285,9 @@ msgstr "写入"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI配置已改变, 也许即插即用式MIDI设备尚未正确连接.\n\n是否重新连接外部设备?"
+
+#~ msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
+#~ msgstr "备注项目可以被安插进3个或更多的工具中"
 
 #~ msgid "[Command]Device"
 #~ msgstr "设备"

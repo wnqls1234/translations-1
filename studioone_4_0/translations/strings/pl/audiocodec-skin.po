@@ -1,6 +1,5 @@
 msgid ""
 msgstr ""
-"Last-Translator:  <translator name>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +13,35 @@ msgid "[FlacEncoderOption]8: slowest, most compression"
 msgstr "8: najwolniej, największa kompresja"
 
 #: .\skin.xml
+msgid "[CoreAudioEncoderOption]AAC"
+msgstr ""
+
+#: .\skin.xml
+msgid "[CoreAudioEncoderResolution]AAC"
+msgstr ""
+
+#: .\skin.xml
+msgid "[M4AEncoderOption]AAC"
+msgstr ""
+
+#: .\skin.xml
+msgid "[M4AEncoderResolution]AAC"
+msgstr ""
+
+#: .\skin.xml
 msgid "[CoreAudioEncoderOption]ALAC"
+msgstr "ALAC"
+
+#: .\skin.xml
+msgid "[CoreAudioEncoderResolution]ALAC"
+msgstr "ALAC"
+
+#: .\skin.xml
+msgid "[M4AEncoderOption]ALAC"
+msgstr "ALAC"
+
+#: .\skin.xml
+msgid "[M4AEncoderResolution]ALAC"
 msgstr "ALAC"
 
 #: .\skin.xml
@@ -22,11 +49,31 @@ msgid "[OggEncoderResolution]Average bitrate:"
 msgstr "Średnie bitrate:"
 
 #: .\skin.xml
+msgid "[CoreAudioEncoderOption]Bitrate:"
+msgstr "Bitrate:"
+
+#: .\skin.xml
+msgid "[CoreAudioEncoderResolution]Bitrate:"
+msgstr "Bitrate:"
+
+#: .\skin.xml
+msgid "[M4AEncoderOption]Bitrate:"
+msgstr "Bitrate:"
+
+#: .\skin.xml
+msgid "[M4AEncoderResolution]Bitrate:"
+msgstr "Bitrate:"
+
+#: .\skin.xml
 msgid "[FlacEncoderOption]Compression Level:"
 msgstr "Poziom kompresji:"
 
 #: .\skin.xml
 msgid "[CoreAudioEncoderOption]Linear PCM"
+msgstr "Linear PCM"
+
+#: .\skin.xml
+msgid "[CoreAudioEncoderResolution]Linear PCM"
 msgstr "Linear PCM"
 
 #: .\skin.xml
@@ -54,6 +101,18 @@ msgid "[CoreAudioEncoderOption]Resolution:"
 msgstr "Rozdzielczość:"
 
 #: .\skin.xml
+msgid "[CoreAudioEncoderResolution]Resolution:"
+msgstr "Rozdzielczość:"
+
+#: .\skin.xml
+msgid "[M4AEncoderOption]Resolution:"
+msgstr "Rozdzielczość:"
+
+#: .\skin.xml
+msgid "[M4AEncoderResolution]Resolution:"
+msgstr "Rozdzielczość:"
+
+#: .\skin.xml
 msgid "[FlacEncoderOption]Sample Rate:"
 msgstr "Częstotliwość:"
 
@@ -66,5 +125,10 @@ msgid "[CoreAudioEncoderOption]Sample Rate:"
 msgstr "Częstotliwość:"
 
 #: .\skin.xml
+msgid "[M4AEncoderOption]Sample Rate:"
+msgstr "Częstotliwość:"
+
+#: .\skin.xml
 msgid "[OggEncoderResolution]Variable bitrate"
 msgstr "Zmienne bitrate"
+

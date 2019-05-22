@@ -84,10 +84,6 @@ msgstr "1つのファイルが見つかりません。"
 msgid "[LocateFiles]1 file was found in %(1)"
 msgstr "1つのファイルが %(1) に見つかりました"
 
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]A Group with this name already exists."
-msgstr "この名前のグループはすでに存在します。"
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Activate Layer"
 msgstr "レイヤーを有効化"
@@ -100,9 +96,17 @@ msgstr "レイヤーを有効化"
 msgid "[Command]Activate Layer"
 msgstr "レイヤーを有効化"
 
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Next Layer"
+msgstr "次のレイヤーを有効化"
+
 #: .\music\musicpartactions.cpp
 msgid "[Engine:MusicActions]Activate Pattern"
 msgstr "パターンを有効化"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Previous Layer"
+msgstr "前のレイヤーを有効化"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\musicediting\musicenvelopeeditor.cpp
@@ -221,6 +225,10 @@ msgstr "アレンジトラック"
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Assign Channel To Folder"
 msgstr "チャンネルをフォルダーにアサイン"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Assign Instrument to %(1):"
+msgstr "インストゥルメントを %(1) にアサイン: "
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -938,7 +946,8 @@ msgid "[Command]Duplicate Variation"
 msgstr "バリエーションを複製"
 
 #: .\audioediting\audiobendeditlayer.cpp .\editing\chordeditlayer.cpp
-#: .\editing\tracklistcomponent.cpp .\musicediting\patterneditcomponent.cpp
+#: .\editing\eventsnapper.cpp .\editing\tracklistcomponent.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Edit"
 msgstr "編集"
 
@@ -1103,6 +1112,10 @@ msgstr "選択をエクスポート"
 msgid "[Command]Export Stems"
 msgstr "ステムをエクスポート"
 
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Export Video"
+msgstr "ビデオをエクスポート"
+
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Exporting..."
 msgstr "エクスポートしています..."
@@ -1158,6 +1171,10 @@ msgstr "オーディオファイルのエクスポートに失敗しました。
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Failed to export audio file."
 msgstr "オーディオファイルのエクスポートに失敗しました。"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Failed to write video."
+msgstr "ビデオの書き込みに失敗しました。"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]File not found!"
@@ -1239,13 +1256,13 @@ msgstr "前のマーカーへ移動"
 msgid "[Command]Goto Previous Section"
 msgstr "前のセクションへ移動"
 
-#: .\base\model\editgroups.cpp
-msgid "[EditGroups]Group"
-msgstr "グループ化"
-
 #: .\editing\tracklistinspector.cpp
 msgid "[Engine]Group"
 msgstr "グループ"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Group Assignment"
+msgstr "グループアサイン"
 
 #: .\editing\editgroupscomponent.cpp
 msgid "[EditGroups]Group Selected Tracks"
@@ -1516,6 +1533,10 @@ msgstr "リニア"
 msgid "[SynthDrag]Load"
 msgstr "ロード"
 
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Load Instrument Preset"
+msgstr "インストゥルメントプリセットをロード"
+
 #: .\music\musicpatternclip.cpp
 msgid "[MusicPatternClip]Loading Pattern: %(1)"
 msgstr "パターンを読み込んでいます: %(1)"
@@ -1571,6 +1592,30 @@ msgstr "検索されたファイル: %(1)"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Location"
 msgstr "ロケーション"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Event"
+msgstr "1つのイベントをロック"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Events"
+msgstr "複数のイベントをロック"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Track"
+msgstr "1つのトラックをロック"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Tracks"
+msgstr "複数のトラックをロック"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't drag to this track"
+msgstr "ロック済: このトラックにドラッグできません"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't move this event"
+msgstr "ロック済: このイベントは移動できません"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Logarithmic"
@@ -1923,10 +1968,6 @@ msgstr "追従するトラックが設定されていません"
 msgid "[Automation]None"
 msgstr "なし"
 
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]None"
-msgstr "なし"
-
 #: .\audioediting\audioinspector.cpp
 msgid "[AudioPlayMode]Normal"
 msgstr "標準"
@@ -2081,6 +2122,10 @@ msgstr "ピッチ"
 msgid "[MediaPreview]Play"
 msgstr "再生"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Play Selected Range"
+msgstr "選択した範囲を再生"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
 msgstr "プール"
@@ -2137,9 +2182,21 @@ msgstr "クオンタイズ"
 msgid "[Events]Quantize"
 msgstr "クオンタイズ"
 
-#: .\editing\quantizepanel.cpp
+#: .\editing\quantizepanel.h
 msgid "[EditAddIn]Quantize"
 msgstr "クオンタイズ"
+
+#: .\editing\quantizepanel.cpp
+msgid "[EditAddIn]Quantize (Arrangement)"
+msgstr "クオンタイズ (アレンジメント)"
+
+#: .\audioediting\audioeditor.cpp
+msgid "[EditAddIn]Quantize (Audio Editor)"
+msgstr "クオンタイズ (オーディオエディター)"
+
+#: .\musicediting\musiceditor.cpp
+msgid "[EditAddIn]Quantize (Music Editor)"
+msgstr "クオンタイズ (音楽エディター)"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Quantize 50%"
@@ -2150,12 +2207,60 @@ msgid "[Command]Read"
 msgstr "読み取る"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker"
+msgstr "マーカーを呼び出す"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 1"
 msgstr "マーカー1を呼び出す"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 10"
+msgstr "マーカー10を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 11"
+msgstr "マーカー11を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 12"
+msgstr "マーカー12を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 13"
+msgstr "マーカー13を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 14"
+msgstr "マーカー14を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 15"
+msgstr "マーカー15を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 16"
+msgstr "マーカー16を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 17"
+msgstr "マーカー17を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 18"
+msgstr "マーカー18を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 19"
+msgstr "マーカー19を呼び出す"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 2"
 msgstr "マーカー2を呼び出す"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 20"
+msgstr "マーカー20を呼び出す"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 3"
@@ -2380,16 +2485,8 @@ msgid "[MediaClipOperations]Rename Events"
 msgstr "イベント名を変更"
 
 #: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group"
-msgstr "グループ名を変更"
-
-#: .\editing\editgroupscomponent.cpp
 msgid "[Command]Rename Group"
 msgstr "グループ名を変更"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group..."
-msgstr "グループ名を変更..."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Layer"
@@ -2434,6 +2531,10 @@ msgstr "イベントFXをレンダー"
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
 msgstr "インストゥルメントトラックをレンダー"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Rendering Audio..."
+msgstr "オーディオをレンダリングしています…"
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
@@ -2574,6 +2675,10 @@ msgstr "秒"
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "トラック上のすべてを選択"
+
+#: .\editing\chordsoundmanager.cpp
+msgid "[ChordSounds]Select Chord Sound"
+msgstr "コードサウンドを選択"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select Events in Range"
@@ -2822,8 +2927,24 @@ msgid "[TimeSnapper]Snap To Event Hotspots"
 msgstr "イベントホットスポットにスナップ"
 
 #: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Event Hotspots"
+msgstr "イベントホットスポットにスナップ"
+
+#: .\editing\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Events"
 msgstr "イベントにスナップ"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Events"
+msgstr "イベントにスナップ"
+
+#: .\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Zero Crossings"
+msgstr "ゼロ公差にスナップ"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Zero Crossings"
+msgstr "ゼロ公差にスナップ"
 
 #: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
@@ -2975,6 +3096,10 @@ msgstr "テイク #%(1:3) （%(2)）"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "テンポ: %(1)  長さ: %(2)"
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+msgstr "このオーディオコーデックは現行のサンプルレートに対応していません。レートは %(1) kHz に変換されます。"
+
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
 msgstr "録音に使用されているドライブの残量が足りません。"
@@ -3051,6 +3176,14 @@ msgstr "極小"
 msgid "[Command]Toggle Detached Editor"
 msgstr "独立したエディターを切り替え"
 
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Edit Lock"
+msgstr "編集ロックを切り替える"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Lock"
+msgstr "ロックを切り替える"
+
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Toggle Read"
 msgstr "リードを切り替え"
@@ -3058,6 +3191,10 @@ msgstr "リードを切り替え"
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Toggle Ripple Edit"
 msgstr "リップル編集を切り替え"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Time Lock"
+msgstr "時間ロックを切り替える"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Touch"
@@ -3142,6 +3279,10 @@ msgstr "レンダリングされたオーディオに変換"
 msgid "[Command]Transform to Rendered Audio"
 msgstr "レンダリングされたオーディオに変換"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Transport"
+msgstr "トランスポート"
+
 #: .\base\model\chordfunctions.cpp
 msgid "[Edit]Transpose Chord"
 msgstr "コードをトランスポーズ"
@@ -3199,6 +3340,22 @@ msgid "[VideoClip]Unknown Format!"
 msgstr "不明なフォーマットです。"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Event"
+msgstr "1つのイベントのロックを解除"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Events"
+msgstr "複数のイベントのロックを解除"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Track"
+msgstr "1つのトラックのロックを解除"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Tracks"
+msgstr "複数のトラックのロックを解除"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Event"
 msgstr "イベントのミュートを解除"
 
@@ -3245,6 +3402,10 @@ msgstr "使用中"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Used by: "
 msgstr "使用元: "
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Using different codecs might affect the export speed."
+msgstr "別のコーデックを使用するとエクスポート速度に影響する場合があります。"
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Velocity"
@@ -3300,6 +3461,10 @@ msgstr "書き込む"
 msgid "[AutomationWriter]Write Automation"
 msgstr "オートメーションを書き込む"
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Writing Video File..."
+msgstr "ビデオファイルを書き込んでいます…"
+
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
 msgstr "特大"
@@ -3347,6 +3512,24 @@ msgstr "%(1) 回使用"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) 回使用"
+
+#~ msgid "[BEGIN_XSTRINGS (EditAddIn)]Quantize"
+#~ msgstr "クオンタイズ"
+
+#~ msgid "[EditGroups]A Group with this name already exists."
+#~ msgstr "この名前のグループはすでに存在します。"
+
+#~ msgid "[EditGroups]Group"
+#~ msgstr "グループ化"
+
+#~ msgid "[EditGroups]None"
+#~ msgstr "なし"
+
+#~ msgid "[EditGroups]Rename Group"
+#~ msgstr "グループ名を変更"
+
+#~ msgid "[EditGroups]Rename Group..."
+#~ msgstr "グループ名を変更..."
 
 #~ msgid "[RecordMode]Loop Record Note Erase"
 #~ msgstr "ノートイレースをループ録音"

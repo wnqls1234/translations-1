@@ -64,6 +64,10 @@ msgstr "ノート"
 msgid "[SpectrumMeter]Octave"
 msgstr "オクターブ"
 
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr "ピークホールド"
+
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "ピークホールド L: %(1:1) dB - R: %(2:1) dB"
@@ -104,13 +108,12 @@ msgstr "1/3 オクターブ"
 msgid "[SpectrumDisplay]Time"
 msgstr "時間"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "VUホールド"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "ウォーターフォール"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "VUホールド"
 
 #~ msgid "[Sampler]%(1) programs"
 #~ msgstr "%(1) プログラム"
@@ -156,3 +159,4 @@ msgstr "ウォーターフォール"
 
 #~ msgid "[KeySwitchList]Title"
 #~ msgstr "タイトル"
+

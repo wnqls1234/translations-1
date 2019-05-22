@@ -328,6 +328,10 @@ msgstr "禁用"
 msgid "[Documents]Discard"
 msgstr "放弃"
 
+#: .\documents\recentdocuments.cpp
+msgid "[Documents]Do you really want to clear the list of recent files?\n\nThis action can not be undone."
+msgstr "您是否真的要清楚最近文件列表？\n\n此操作不可撤回."
+
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
 msgstr "确认要删除撤销记录吗?\n\n此操作无法恢复."
@@ -537,6 +541,10 @@ msgstr "文件信息"
 msgid "[PlugInSelector]Flat"
 msgstr "平铺"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Folder"
+msgstr "文件夹"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Folder"
 msgstr "文件夹"
@@ -604,6 +612,10 @@ msgstr "正在导入: %(1)..."
 #: .\presets\presettrader.cpp
 msgid "[Presets]Importing Preset"
 msgstr "正在导入预置..."
+
+#: .\documents\documentmanager.cpp
+msgid "[Documents]Incremental version"
+msgstr "增量版本"
 
 #: .\editing\editor.cpp
 msgid "[Command]Invert Selection"
@@ -700,6 +712,10 @@ msgstr "正在移动%(1)"
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]Moving files"
 msgstr "正在移动文件"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Name"
+msgstr "名称"
 
 #: .\editing\editor.cpp .\navigation\navigatorbase.cpp
 msgid "[Command]Navigation"
@@ -886,7 +902,7 @@ msgstr "最近的"
 msgid "[Command]Recent File"
 msgstr "最近使用的文件"
 
-#: .\documents\documentblocks.cpp
+#: .\documents\recentdocuments.cpp
 msgid "[Documents]Recent Files"
 msgstr "最近使用的文件"
 
@@ -1286,6 +1302,10 @@ msgstr "工具栏"
 msgid "[SliderMode]Touch"
 msgstr "触摸"
 
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Type"
+msgstr "类型"
+
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Type"
 msgstr "类型"
@@ -1341,6 +1361,10 @@ msgstr "用户数据"
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Interface"
 msgstr "用户界面"
+
+#: .\browser\pluginmanagement.cpp
+msgid "[PlugInManagement]Vendor"
+msgstr "厂商"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"

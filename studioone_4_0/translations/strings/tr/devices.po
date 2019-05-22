@@ -62,11 +62,15 @@ msgstr "48V Sağ"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]A device with this name already exists."
-msgstr "Bu isimde bir cihaz zaten mevcut."
+msgstr "Bu isimde bir aygıt zaten mevcut."
 
-#: .\audiosynths\combinator\synthcombinatorgraph.cpp
-msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
-msgstr "3 veya daha fazla enstrüman için note event bölücü eklenebilir"
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]A group with this name already exists."
+msgstr "Bu isimde bir gurup mevcut"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]ADAT"
+msgstr "ADAT"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Activate"
@@ -86,7 +90,7 @@ msgstr "Tümü etkinleştiriliyor: %(1)"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Activate All Devices"
-msgstr "Tüm Cihazları Etkinleştir"
+msgstr "Tüm Aygıtları Etkinleştir"
 
 #: .\application\ultimatestudioenvironment.cpp
 msgid "[Command]Activate All Inserts"
@@ -94,7 +98,7 @@ msgstr "Tüm Insert leri aktive edin"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Activate Devices"
-msgstr "Cihazları Etkinleştir"
+msgstr "Aygıtları Etkinleştir"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Activate Output of '%(1)'"
@@ -130,11 +134,11 @@ msgstr "Kanal Ekle"
 
 #: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Add Device"
-msgstr "Cihaz Ekle"
+msgstr "Aygıt Ekle"
 
 #: .\surfaces\editor\mappinghandler.cpp
 msgid "[MappingHandler]Add Device"
-msgstr "Cihaz Ekle"
+msgstr "Aygıt Ekle"
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Add FX Channel"
@@ -147,6 +151,14 @@ msgstr "FX Kanalı ekle"
 #: .\framework\audio\insertfxdraghandler.cpp
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "\"%(1)\". kanala FX ekle"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Add Group"
+msgstr "Gurup Ekle"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Add I/O Channels"
+msgstr "Giriş/Çıkış Kanalları Ekle"
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -184,6 +196,10 @@ msgstr "Aftertouch"
 msgid "[Command]Aftertouch"
 msgstr "Aftertouch"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]All"
+msgstr "Tümü"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Tümü"
@@ -199,6 +215,10 @@ msgstr "Tüm Notalar Off"
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Geçersiz bir sinyal oluştur."
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]Analog"
+msgstr "Analog"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -224,6 +244,10 @@ msgstr "Şimdiki Parametreyi Ata"
 msgid "[SurfaceEditor]Assign Parameter"
 msgstr "Parametre Ata"
 
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Assign in Ascending Order"
+msgstr "Artan sırada ata"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assigned"
 msgstr "Atandı"
@@ -247,7 +271,7 @@ msgstr "Ses Kanalları"
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 #: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 msgid "[Command]Audio Device"
-msgstr "Ses Cihazı"
+msgstr "Ses Aygıtı"
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
@@ -354,6 +378,26 @@ msgstr "Kanal"
 msgid "[ChannelMacroControls]Channel"
 msgstr "Kanal"
 
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Color"
+msgstr "Kanal Rengi"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Channel Components"
+msgstr "Kanal Bileşenleri"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Count"
+msgstr "Kanal Sayısı"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Format"
+msgstr "Kanal Formatı"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Label"
+msgstr "Kanal Etiketi"
+
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Channel Split"
 msgstr "Kanal Ayır"
@@ -445,7 +489,7 @@ msgstr "Kontrol yüzeyi yöneticisi"
 
 #: .\editor\paramselector.cpp
 msgid "[ParamSelector]Controller"
-msgstr "KOntroller"
+msgstr "Kontroller"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Copy %(1)"
@@ -473,7 +517,7 @@ msgstr "Cue Miks: Açık"
 
 #: .\transport\transportoptions.cpp
 msgid "[Command]Cursor follows Edit Position"
-msgstr "İmleç Edit Pozisyonunu takip eder"
+msgstr "İmleç Düzenleme Pozisyonunu takip eder"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]DAW Post DSP"
@@ -489,11 +533,11 @@ msgstr "Tümünü Devre Dışı Bırak: %(1)"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Deactivate All Devices"
-msgstr "Tüm Cihazları Devre Dışı Bırak"
+msgstr "Tüm Aygıtları Devre Dışı Bırak"
 
 #: .\editor\performancemonitor.cpp
 msgid "[PerformanceMonitor]Deactivate Devices"
-msgstr "Cihazları Devre Dışı Bırak"
+msgstr "Aygıtları Devre Dışı Bırak"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Deactivate Output of '%(1)'"
@@ -509,11 +553,15 @@ msgstr "Açıklama"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
-msgstr "Algılanan cihaz %(1)"
+msgstr "Algılanan aygıt %(1)"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Device"
-msgstr "Cihaz"
+msgstr "Aygıt"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Device %(1)"
+msgstr "Aygıt %(1)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
@@ -572,6 +620,14 @@ msgstr "Makro Kontrol %(3) te %(1) i %(2) den çıkar"
 msgid "[UCMixerConnector]Disconnected from %(1)."
 msgstr "%(1) den çıkarıldı"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Dissolve Group"
+msgstr "Gurubu Dağıt"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Do you want to reset to your default I/O Setup?"
+msgstr "Tüm varsayılan Giriş/Çıkış ayarlarını başlangıç değerlerine getirmek istediğinize eminmisiniz?"
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Double (64 Bit)"
@@ -590,11 +646,11 @@ msgstr "Otomasyonu Düzenle: %(1)"
 
 #: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]Edit Device"
-msgstr "Cihaz Düzenle"
+msgstr "Aygıt Düzenle"
 
 #: .\surfaces\editor\mappinghandler.cpp
 msgid "[Command]Edit Device"
-msgstr "Cihaz Düzenle"
+msgstr "Aygıt Düzenle"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Edit Macro Transformation '%(1)'"
@@ -615,6 +671,10 @@ msgstr "Düzenle..."
 #: .\base\processgraph.cpp
 msgid "[ProcessGraph]Edit..."
 msgstr "Düzenle..."
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Editing"
+msgstr "Düzenleniyor"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Effect"
@@ -662,7 +722,7 @@ msgstr "Etkinleştir Çal Başlat İşaret"
 
 #: .\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Event FX"
-msgstr "Event FX"
+msgstr "Klip FX"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Expand"
@@ -670,7 +730,7 @@ msgstr "Genişletme"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]External Devices"
-msgstr "Harici Cihazlar"
+msgstr "Harici Aygıtlar"
 
 #: .\audiosynths\audiosyntheditfunctions.cpp
 msgid "[ActionDescriptions]Extract '%(1)'"
@@ -718,11 +778,11 @@ msgstr "Kapı %f(1:1)"
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "Bilinmeyen cihazlar için Genel MIDI Kontrol yüzeyi. Bu model cihaz MIDI öğrenme özelliğine sahiptir."
+msgstr "Bilinmeyen aygıtlar için Genel MIDI Kontrol yüzeyi. Bu model aygıt MIDI öğrenme özelliğine sahiptir."
 
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "Bilinmeyen cihazlar için Genel MIDI Klavye. Bu model cihaz MIDI öğrenme özelliğine sahiptir. Yollama kapısını bağlamak opsiyoneldir."
+msgstr "Bilinmeyen aygıtlar için Genel MIDI Klavye. Bu model aygıt MIDI öğrenme özelliğine sahiptir. Yollama kapısını bağlamak opsiyoneldir."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -738,11 +798,11 @@ msgstr "Genel Solo"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop End"
-msgstr "Loop sonuna git"
+msgstr "Loop sonuna Git"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Goto Loop Start"
-msgstr "Loop başına git"
+msgstr "Loop başına Git"
 
 #: .\transport\transportpanel.cpp
 msgid "[Transport]Goto Time"
@@ -750,7 +810,15 @@ msgstr "Zamana git"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Goto Time"
-msgstr "Zamana git"
+msgstr "İstenen Zamana Git"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Group"
+msgstr "Gurup"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Group"
+msgstr "Gurup"
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Hardware Monitoring"
@@ -772,9 +840,17 @@ msgstr "İlgili Kanalları Sakla"
 msgid "[MixerConsole]Hide Related Channels"
 msgstr "İlgili Kanalları Sakla"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]High"
 msgstr "Yüksek"
+
+#: .\audiomixer\audioioassignment.cpp
+msgid "[FileType]I/O Configuration"
+msgstr "G/Ç konfigürasyonu"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]I/O Type"
+msgstr "G/Ç Tipi"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -796,6 +872,10 @@ msgstr "Giriş"
 msgid "[Hardware]Input Controls"
 msgstr "Giriş Kontrolleri"
 
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Input Gain"
+msgstr "Giriş Kazancı"
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Input Mode"
 msgstr "Giriş Modu"
@@ -812,9 +892,10 @@ msgstr "Insert"
 msgid "[AudioFXGraph]Insert FX Chain"
 msgstr "FX Zincir İlave et"
 
+#: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Insert Note Event Splitter"
-msgstr "Nove Event Bölme ilave et"
+msgstr "Nota klipi bölücü ekle"
 
 #: .\editor\devicebrowser.cpp
 msgid "[Command]Insert Selected Instrument"
@@ -826,6 +907,10 @@ msgstr "Bölüşü İlave Et"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
+msgstr "Inserts"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Inserts"
 msgstr "Inserts"
 
 #: .\audiosynths\audiosynthfolder.cpp
@@ -891,6 +976,10 @@ msgstr "Klavye"
 msgid "[SurfaceControl]Knob"
 msgstr "Düğme"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Label"
+msgstr "Etiket"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
 msgstr "Büyük"
@@ -935,7 +1024,7 @@ msgstr "Yüklenen Aygıt: %(1)"
 msgid "[CueMixSlot]Lock"
 msgstr "Kitle"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Low"
 msgstr "Düşük"
 
@@ -951,11 +1040,11 @@ msgstr "%(1) aygıtı için MIDI kapısı bulunamadı!"
 msgid "[AudioMixer]Main"
 msgstr "Ana"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Maximum"
 msgstr "Maksimum"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Medium"
 msgstr "Orta"
 
@@ -967,9 +1056,17 @@ msgstr "Mesaj"
 msgid "[FileType]Metronome Preset"
 msgstr "Metronom Preseti"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Minimum"
 msgstr "Minimum"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing"
+msgstr "Eksik"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing Files"
+msgstr "Eksik Dosyalar"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
@@ -1030,6 +1127,10 @@ msgstr "Mute"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mute"
+msgstr "Mute"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Mute"
 msgstr "Mute"
 
 #: .\audioeffects\audiofxgraph.cpp
@@ -1110,11 +1211,15 @@ msgstr "Eksik olan aygıt yok."
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]None"
-msgstr "Hiç"
+msgstr "Yok"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]None"
+msgstr "Yok"
 
 #: .\studio\portlist.cpp
 msgid "[PortList]None"
-msgstr "Hiç"
+msgstr "Yok"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Normal"
@@ -1150,7 +1255,7 @@ msgstr "İttir"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Back"
-msgstr "Gerii İttir"
+msgstr "Geri İttir"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Bar"
@@ -1166,7 +1271,7 @@ msgstr "Aşağı ittir"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Down Fine"
-msgstr "Aşağı hassas ittir"
+msgstr "Aşağı hafif ittir"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Up"
@@ -1174,7 +1279,7 @@ msgstr "Yukarı ittir"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge Up Fine"
-msgstr "Yukarı hassas ittir"
+msgstr "Yukarı hafif ittir"
 
 #: .\hardware\remotefxfolder.cpp
 msgid "[Hardware]Onboard DSP"
@@ -1220,6 +1325,10 @@ msgstr "Pan"
 msgid "[CueMixSlot]Pan"
 msgstr "Pan"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Pan"
+msgstr "Pan"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Parameter"
 msgstr "Parametre"
@@ -1246,11 +1355,19 @@ msgstr "Loop u başlangıçtan çal"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "Şimdi çıkarılabilir MIDI cihazlarınızı bağlayıp işlem bittiğinde bu mesajı geçin..."
+msgstr "Şimdi çıkarılabilir MIDI aygıtlarınızı bağlayıp işlem bittiğinde bu mesajı geçin..."
+
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity"
+msgstr "Polarite"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity"
 msgstr "Polarite"
+
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity Right"
+msgstr "Sağ Polarite"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity Right"
@@ -1267,6 +1384,10 @@ msgstr "Kapı bulunamadı!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Fader Sonrası"
+
+#: .\audiomixer\audiochannelmeter.cpp
+msgid "[AudioChannelMeter]Pre-Fader Metering"
+msgstr "Fader Öncesi Ölçüm"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain"
@@ -1306,7 +1427,7 @@ msgstr "Quantize"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Querying device information for %(1)..."
-msgstr "%(1) için cihaz bilgisi taranıyor..."
+msgstr "%(1) için aygıt bilgisi taranıyor..."
 
 #: .\surfaces\editor\controlcomponent.cpp
 msgid "[SurfaceControl]RGB"
@@ -1335,6 +1456,10 @@ msgstr "Yakın Zamanda Dokunulan"
 #: .\base\automationhandler.cpp
 msgid "[Command]Recently Touched"
 msgstr "Yakın Zamanda Dokunulan"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Record"
+msgstr "Kayıt"
 
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Record"
@@ -1388,6 +1513,10 @@ msgstr "Kaldır"
 msgid "[SurfaceControl]Remove"
 msgstr "Kaldır"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove \"%(1)\""
+msgstr "\"%(1)\" i kaldır"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Remove %(1)"
 msgstr "%(1)'i Çıkar"
@@ -1399,6 +1528,10 @@ msgstr "%(1)'i Çıkar"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Remove %(1) Automation"
 msgstr "%(1) Otomasyonu kaldır"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove Added Sounds"
+msgstr "Eklenen Sesleri Çıkar"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
@@ -1446,11 +1579,19 @@ msgstr "%(1) Makro Hedefini Kaldır"
 
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Remove Note Event Splitter"
-msgstr "Nota Olayı Bölücüsünü Kaldır"
+msgstr "Nota klipi Bölücüsünü Kaldır"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Remove Splitter"
 msgstr "Splitter'i Kaldır"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused"
+msgstr "Kullanılmayanı Çıkar"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused Instruments"
+msgstr "Kullanılmayan Enstrümanları Çıkar"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Rename %(1)"
@@ -1475,6 +1616,14 @@ msgstr "Kanalların Adını Değiştir"
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Aygıtı yeniden adlandır"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group"
+msgstr "Gurubu Yeniden Adlandır"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group..."
+msgstr "Gurubu Yeniden Adlandır..."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename..."
@@ -1522,7 +1671,7 @@ msgstr "Sıfırla"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Restart requested by Audio Device!"
-msgstr "Ses Cihazı tarafından tekrar başlatma istendi!"
+msgstr "Ses aygıtı tarafından tekrar başlatma istendi!"
 
 #: .\audiomixer\hardwareintegration\hardwarestoragemanager.cpp
 msgid "[Command]Restore Audio Device Settings"
@@ -1548,13 +1697,17 @@ msgstr "Geri Sar"
 msgid "[Command]Rewind Bar"
 msgstr "Bar olarak Geri Sar"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]S/PDIF"
+msgstr "S/PDIF"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
-msgstr "Saklanan aygıt: %(1)"
+msgstr "Kaydedilen aygıt: %(1)"
 
 #: .\studio\environment.cpp
 msgid "[Environment]Saving Device: %(1)"
-msgstr "Saklanan aygıt: %(1)"
+msgstr "Kaydedilen aygıt: %(1)"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Screen"
@@ -1574,23 +1727,31 @@ msgstr "Miks FX seç"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 1"
-msgstr "Sahne 1 Seç"
+msgstr "1. Sahneyi Seç"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 2"
-msgstr "Sahne 2 Seç"
+msgstr "2. Sahneyi Seç"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 3"
-msgstr "Sahne 3 Seç"
+msgstr "3. Sahneyi Seç"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 4"
-msgstr "Sahne 4 Seç"
+msgstr "4. Sahneyi Seç"
 
 #: .\mixerconsole\channelfilter.cpp
 msgid "[Command]Select Scene 5"
-msgstr "Sahne 5 Seç"
+msgstr "5. Sahneyi Seç"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Select Sidechain Source"
+msgstr "Sidechain Kaynağı Seçin"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Destination"
+msgstr "Hedefi Yolla"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
@@ -1605,6 +1766,10 @@ msgid "[AudioSendSlot]Send Pan"
 msgstr "Send Pan"
 
 #: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Prefader"
+msgstr "Prefader Yolla"
+
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slot"
 msgstr "Send (Yollama) Gözü"
 
@@ -1615,6 +1780,10 @@ msgstr "Send (Yollama) Gözleri"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Send To"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Sends"
+msgstr "Yollamalar"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Set '%(1)'"
@@ -1631,6 +1800,10 @@ msgstr "Kanalın Rengini Tanımla"
 #: .\audiosynths\audiosynthdirectinput.cpp
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr "Doğrudan Girişi Tanımla"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Set Edit Group"
+msgstr "Düzenleme Gurubu Yanımla"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Set Gate %(1)"
@@ -1676,13 +1849,21 @@ msgstr "Geriye Shift Loop"
 msgid "[MixerConsole]Show"
 msgstr "Göster"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Audio Device Controls"
+msgstr "Ses aygıt kontrollerini Göster"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel"
 msgstr "Kanal Göster"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel Editor"
-msgstr "Kanal Düzenleyici Göster"
+msgstr "Kanal Düzenleyicisini Göster"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Channel Notes"
+msgstr "Kanal notalarını göster"
 
 #: .\base\automationhandler.cpp
 msgid "[Command]Show Current Parameter"
@@ -1692,9 +1873,21 @@ msgstr "Güncel Parametreyi Göster"
 msgid "[AudioSendSlot]Show Destination"
 msgstr "Hedefi Göster"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Group Assignment"
+msgstr "Gurup Atamalarını Göster"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show I/O Connections"
+msgstr "G/Ç bağlantılarını göster"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Input Controls"
+msgstr "Giriş Kontrollerini Göster"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Instrument Editor"
-msgstr "Enstrüman Editörünü Göster"
+msgstr "Enstrüman Düzenleyicisini Göster"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Related Channels"
@@ -1704,6 +1897,10 @@ msgstr "İlgili Kanalları Göster"
 msgid "[MixerConsole]Show Related Channels"
 msgstr "İlgili Kanalları Göster"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Sends/Cue mix"
+msgstr "Yollama / Cue Miks Göster"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
 msgstr "Kanal Göster"
@@ -1712,6 +1909,10 @@ msgstr "Kanal Göster"
 msgid "[MixerConsole]Show Track"
 msgstr "Kanal Göster"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show VCA Connections"
+msgstr "VCA bağlantılarını Göster"
+
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Show in Console"
 msgstr "Konsolda Göster"
@@ -1719,6 +1920,10 @@ msgstr "Konsolda Göster"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show in Console"
 msgstr "Konsolda Göster"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechain Active"
+msgstr "Sidechain aktif"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
@@ -1794,7 +1999,7 @@ msgstr "Ses Seviyesini Böl"
 
 #: .\transport\transportpanel.cpp
 msgid "[Command]Start"
-msgstr "Başla"
+msgstr "Başlat"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Starting Audio Engine..."
@@ -1802,7 +2007,7 @@ msgstr "Ses Motoru Başlatılıyor..."
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Starting External Devices..."
-msgstr "Harici Cihazlar Başlatılıyor..."
+msgstr "Harici Aygıtlar Başlatılıyor..."
 
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Starting Hardware Integration..."
@@ -1818,7 +2023,7 @@ msgstr "Dur"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Store FX Chain..."
-msgstr "FX Zinciri Sakla..."
+msgstr "FX Zinciri Kaydet..."
 
 #: .\audiomixer\audiochanneldescription.cpp
 msgid "[AudioMixer]Sub"
@@ -1828,13 +2033,61 @@ msgstr "Alt"
 msgid "[SynthCombinator]Sub Instrument"
 msgstr "Alt Enstrüman"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend All Groups"
+msgstr "Tüm Gurupları Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group"
+msgstr "Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 1"
+msgstr "1. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 10"
+msgstr "10. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 2"
+msgstr "2. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 3"
+msgstr "3. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 4"
+msgstr "4. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 5"
+msgstr "5. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 6"
+msgstr "6. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 7"
+msgstr "7. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 8"
+msgstr "8. Gurubu Askıya Al"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 9"
+msgstr "9. Gurubu Askıya Al"
+
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Swap Macro Controls"
 msgstr "Makro Kontrolleri Değiş Tokuş Et"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]Switching to Audio Device %(1)..."
-msgstr "Şu Ses Cihazına geçiliyor: %(1) "
+msgstr "Şu Ses Aygıtına geçiliyor: %(1) "
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Talkback"
@@ -1862,7 +2115,7 @@ msgstr "Text Görünüsü"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "\"%(1)\" aygıt modeli artık kullanılmıyor. Kullanıcı cihazları arasından kaldırılsın mı?"
+msgstr "\"%(1)\" aygıt modeli artık kullanılmıyor. Kullanıcı aygıtları arasından kaldırılsın mı?"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -1870,7 +2123,7 @@ msgstr "%(1) ses aygıtı başlatılamadı. Lütfen donanımınızın ayarların
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "%(1) ses cihazı daha önce başlatılamamış. Tekrar denemek istermisiniz ?"
+msgstr "%(1) ses aygıtı daha önce başlatılamamış. Tekrar denemek istermisiniz ?"
 
 #: .\audio\watchdogcomponent.cpp
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
@@ -1882,11 +2135,11 @@ msgstr "Varsayılan ses çıkışı özel olarak kullanıldığından video oyna
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
-msgstr "Bu cihaz şu anda kaldırılamıyor !"
+msgstr "Bu aygıt şu anda kaldırılamıyor !"
 
 #: .\music\setup\musicdevicedialog.cpp
 msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "Kapı şu anda zaten kullanılıyor. Aynı kapıya birden fazla cihaz bağlanması MIDI işaretlerinin kopyalanarak iletilmesine sebepolabilir."
+msgstr "Kapı şu anda zaten kullanılıyor. Aynı kapıya birden fazla aygıt bağlanması MIDI işaretlerinin kopyalanarak iletilmesine sebep olabilir."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -1973,9 +2226,25 @@ msgstr "Atamaları Kaldırma"
 msgid "[SurfaceEditor]Unassign"
 msgstr "Atamaları Kaldırma"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused"
+msgstr "Kullanılmıyor"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused Files"
+msgstr "Kullanılmayan dosyalar"
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "Kontroller hareketlerini kayıt ve harici MIDI enstrümanlarını çalmak için kullanılır. Giriş kapıları kullanılırken başka bir klavye cihazı aynı kapıya bağlı ise çift notalardan kaçınmaya dikkat edin."
+msgstr "Kontroller hareketlerini kayıt ve harici MIDI enstrümanlarını çalmak için kullanılır. Giriş kapıları kullanılırken başka bir klavye aygıtı aynı kapıya bağlı ise çift notalardan kaçınmaya dikkat edin."
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used"
+msgstr "Kullanılmış"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used Files"
+msgstr "Kullanılan Dosyalar"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -2005,11 +2274,18 @@ msgstr "Ses Seviyesi"
 msgid "[CueMixSlot]Volume"
 msgstr "Ses Seviyesi"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Volume"
+msgstr "Ses Seviyesi"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Yaz"
 
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "MIDI konfigürasyonunuz değişti. Bunu sebebi sökülebilir cihazların şu an takılı olmamasından kaynaklanabilir.\n\nHarici cihazları tekrar takmak istermisiniz ?"
+msgstr "MIDI konfigürasyonunuz değişti. Bunu sebebi sökülebilir aygıtlarınızın şu an takılı olmamasından kaynaklanabilir.\n\nHarici aygıtları tekrar takmak istermisiniz ?"
+
+#~ msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
+#~ msgstr "3 veya daha fazla enstrüman için note klip bölücü eklenebilir"
 

@@ -90,7 +90,7 @@ msgstr "Konsol"
 
 #: .\menubar.xml
 msgid "[Menu]Controls"
-msgstr "KOntroller"
+msgstr "Kontroller"
 
 #: .\menubar.xml
 msgid "[Menu]Copy"
@@ -174,7 +174,7 @@ msgstr "İzi Düzenle"
 
 #: .\menubar.xml
 msgid "[Menu]Editor"
-msgstr "Editör"
+msgstr "Düzenleyici"
 
 #: .\menubar.xml
 msgid "[Menu]Enable Play Start Marker"
@@ -186,15 +186,19 @@ msgstr "İzi Aktif et"
 
 #: .\menubar.xml
 msgid "[Menu]Event"
-msgstr "Olay"
+msgstr "Klip"
 
 #: .\menubar.xml
 msgid "[Menu]Export Mixdown"
-msgstr "Mixdown'u Dışarı Aktar"
+msgstr "Miksdown'u Dışarı Aktar"
 
 #: .\menubar.xml
 msgid "[Menu]Export Stems"
 msgstr "Stem'leri Dışarı aktar"
+
+#: .\menubar.xml
+msgid "[Menu]Export Video"
+msgstr "Video Dışa Aktar"
 
 #: .\menubar.xml
 msgid "[Menu]FaderPort User Guide"
@@ -218,7 +222,7 @@ msgstr "İşarete Git"
 
 #: .\menubar.xml
 msgid "[Menu]Goto Next Event"
-msgstr "Bir Sonraki Olaya Git"
+msgstr "Bir Sonraki Klipe Git"
 
 #: .\menubar.xml
 msgid "[Menu]Goto Next Marker"
@@ -230,7 +234,7 @@ msgstr "Bir Sonraki İze Git"
 
 #: .\menubar.xml
 msgid "[Menu]Goto Previous Event"
-msgstr "Bir Önceki Olaya Git"
+msgstr "Bir Önceki Klipe Git"
 
 #: .\menubar.xml
 msgid "[Menu]Goto Previous Marker"
@@ -262,7 +266,7 @@ msgstr "Plug-In Gecikmesini Görmezden Gel"
 
 #: .\menubar.xml
 msgid "[Menu]Import File"
-msgstr "Dosya İçeri Aktar"
+msgstr "İçe Dosya Aktar"
 
 #: .\menubar.xml
 msgid "[Menu]Import Song Data"
@@ -298,7 +302,7 @@ msgstr "Katmanlar"
 
 #: .\menubar.xml
 msgid "[Menu]Locate Missing Devices"
-msgstr "Eksik Cihazları Bul"
+msgstr "Eksik Aygıtları Bul"
 
 #: .\menubar.xml
 msgid "[Menu]Locate Missing Files"
@@ -438,7 +442,7 @@ msgstr "Ayarlar Klasörünü Aç"
 
 #: .\menubar.xml
 msgid "[Menu]Options"
-msgstr "Opsiyonlar"
+msgstr "Seçenekler"
 
 #: .\menubar.xml
 msgid "[Menu]Paste"
@@ -451,6 +455,10 @@ msgstr "Orijinal Yerine Yapıştır"
 #: .\menubar.xml
 msgid "[Menu]Performance Monitor"
 msgstr "Performans Monitörü"
+
+#: .\menubar.xml
+msgid "[Menu]Plug-In Manager"
+msgstr "Plıg-In Yöneticisi"
 
 #: .\menubar.xml
 msgid "[Menu]Preferences"
@@ -538,23 +546,23 @@ msgstr "Evir"
 
 #: .\menubar.xml
 msgid "[Menu]Save"
-msgstr "Sakla"
+msgstr "Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]Save As"
-msgstr "Olarak Sakla"
+msgstr "Farklı Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]Save As Template"
-msgstr "Sablon Olarak Sakla"
+msgstr "Sablon Olarak Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]Save New Version"
-msgstr "Yeni Versiyon Olarak Sakla"
+msgstr "Yeni Versiyon Olarak Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]Save to New Folder"
-msgstr "Yeni Klasöre Sakla"
+msgstr "Yeni Klasöre Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]Scratch Pad"
@@ -578,19 +586,19 @@ msgstr "Tüm İzlerdekini Seç"
 
 #: .\menubar.xml
 msgid "[Menu]Select Events in Range"
-msgstr "Alan İçindeki Olayları Seç"
+msgstr "Bölge İçindeki Klipleri Seç"
 
 #: .\menubar.xml
 msgid "[Menu]Select Muted Events"
-msgstr "Sessize alınmış olayları seç"
+msgstr "Sessize alınmış klipleri seç"
 
 #: .\menubar.xml
 msgid "[Menu]Select from Event to End"
-msgstr "Olaydan Sona kadar Seç"
+msgstr "Klipten sonuna kadar seç"
 
 #: .\menubar.xml
 msgid "[Menu]Select from Start to Event"
-msgstr "Başlangıçtan Olaya Kadar Seç"
+msgstr "Başlangıçtan Klipe Kadar Seç"
 
 #: .\menubar.xml
 msgid "[Menu]Send to Notion"
@@ -610,7 +618,7 @@ msgstr "Otomasyonu Göster"
 
 #: .\menubar.xml
 msgid "[Menu]Show Channel Editor"
-msgstr "Kanal Editörünü Göster"
+msgstr "Kanal Düzenleyicisini Göster"
 
 #: .\menubar.xml
 msgid "[Menu]Show Cloud"
@@ -630,7 +638,7 @@ msgstr "Ana Sayfayı Göster"
 
 #: .\menubar.xml
 msgid "[Menu]Show Instrument Editor"
-msgstr "Enstrüman Editörünü Göster"
+msgstr "Enstrüman Düzenleyicisini Göster"
 
 #: .\menubar.xml
 msgid "[Menu]Show Instruments"
@@ -698,7 +706,7 @@ msgstr "Dur"
 
 #: .\menubar.xml
 msgid "[Menu]Store Zoom State"
-msgstr "Zoom Durumunu Sakla"
+msgstr "Zoom Durumunu Kaydet"
 
 #: .\menubar.xml
 msgid "[Menu]System Information"
@@ -714,7 +722,7 @@ msgstr "Bağımsız Konsolu Aç/Kapa"
 
 #: .\menubar.xml
 msgid "[Menu]Toggle Detached Editor"
-msgstr "Bağımsız Editörü Aç/Kapa"
+msgstr "Ayrılmış Düzenleyiciyi Aç/Kapa"
 
 #: .\menubar.xml
 msgid "[Menu]Toggle Floating Windows"

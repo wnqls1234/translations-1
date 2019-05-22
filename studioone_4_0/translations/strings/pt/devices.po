@@ -64,9 +64,13 @@ msgstr "48V Direito"
 msgid "[DeviceFolder]A device with this name already exists."
 msgstr "Já existe um dispositivo com este nome."
 
-#: .\audiosynths\combinator\synthcombinatorgraph.cpp
-msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
-msgstr "Um divisor de evento nota pode ser inserido para 3 ou mais instrumentos."
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]A group with this name already exists."
+msgstr "Já existe um Grupo com esse nome."
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]ADAT"
+msgstr "ADAT"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Activate"
@@ -148,6 +152,14 @@ msgstr "Adicionar Canal FX"
 msgid "[AudioFX]Add FX on Channel \"%(1)\""
 msgstr "Adicionar FX no Canal \"%(1)\""
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Add Group"
+msgstr "Adicionar Grupo"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Add I/O Channels"
+msgstr "Adicionar Canais E/S"
+
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
 msgstr "Adicionar Inserção"
@@ -184,6 +196,10 @@ msgstr "Aftertouch"
 msgid "[Command]Aftertouch"
 msgstr "Aftertouch"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]All"
+msgstr "Todos"
+
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]All"
 msgstr "Todos"
@@ -199,6 +215,10 @@ msgstr "Todas as Notas Desl."
 #: .\audiomixer\audiorenderengine.cpp
 msgid "[AudioRenderEngine]An invalid signal occured."
 msgstr "Ocorreu um sinal inválido."
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]Analog"
+msgstr "Análogo"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -223,6 +243,10 @@ msgstr "Atribuir parâmetro atual"
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Assign Parameter"
 msgstr "Atribuir parâmetro"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Assign in Ascending Order"
+msgstr "Atribuir em Ordem Ascendente"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assigned"
@@ -353,6 +377,26 @@ msgstr "Canal"
 #: .\macrocontrol\channelmacrocontrol.cpp
 msgid "[ChannelMacroControls]Channel"
 msgstr "Canal"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Color"
+msgstr "Cor do Canal"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Channel Components"
+msgstr "Componentes do Canal"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Count"
+msgstr "Contagem de Canais"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Format"
+msgstr "Formato do Canal"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Channel Label"
+msgstr "Etiqueta do Canal"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Channel Split"
@@ -515,6 +559,10 @@ msgstr "Dispositivo Detectado %(1)"
 msgid "[DeviceFolder]Device"
 msgstr "Dispositivo"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Device %(1)"
+msgstr "Dispositivo %(1)"
+
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
 msgstr "Informação de Dispositivo recebida para %(1)."
@@ -572,6 +620,14 @@ msgstr "Desconectar Controle Macro %(3) %(1) de %(2)"
 msgid "[UCMixerConnector]Disconnected from %(1)."
 msgstr "Desconectado de %(1)."
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Dissolve Group"
+msgstr "Dissolver Grupo"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Do you want to reset to your default I/O Setup?"
+msgstr "Deseja retornar à configuração inicial de E/S?"
+
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
 msgstr "Duplo (64 Bits)"
@@ -615,6 +671,10 @@ msgstr "Editar..."
 #: .\base\processgraph.cpp
 msgid "[ProcessGraph]Edit..."
 msgstr "Editar..."
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Editing"
+msgstr "Editando"
 
 #: .\audioeffects\audiofxfolder.cpp
 msgid "[AudioFX]Effect"
@@ -752,6 +812,14 @@ msgstr "Ir para Tempo"
 msgid "[Command]Goto Time"
 msgstr "Ir para Tempo"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Group"
+msgstr "Grupo"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Group"
+msgstr "Grupo"
+
 #: .\hardware\hardwaremixermanager.cpp
 msgid "[Hardware]Hardware Monitoring"
 msgstr "Monitoração por Hardware"
@@ -772,9 +840,17 @@ msgstr "Esconder Canais Relacionados"
 msgid "[MixerConsole]Hide Related Channels"
 msgstr "Esconder Canais Relacionados"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]High"
 msgstr "Alta"
+
+#: .\audiomixer\audioioassignment.cpp
+msgid "[FileType]I/O Configuration"
+msgstr "Configuração E/S"
+
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]I/O Type"
+msgstr "Tipo de E/S"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -796,6 +872,10 @@ msgstr "Entrada"
 msgid "[Hardware]Input Controls"
 msgstr "Controles de Entrada"
 
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Input Gain"
+msgstr "Ganho de Entrada"
+
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Input Mode"
 msgstr "Modo de Entrada"
@@ -812,6 +892,7 @@ msgstr "Inserção"
 msgid "[AudioFXGraph]Insert FX Chain"
 msgstr "Inserir Cadeia de Efeitos"
 
+#: .\audiosynths\combinator\synthcombinatorcomponent.cpp
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Insert Note Event Splitter"
 msgstr "Inserir Divisor de Evento Nota"
@@ -826,6 +907,10 @@ msgstr "Inserir Divisor"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Inserts"
+msgstr "Inserts"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Inserts"
 msgstr "Inserts"
 
 #: .\audiosynths\audiosynthfolder.cpp
@@ -891,6 +976,10 @@ msgstr "Teclado"
 msgid "[SurfaceControl]Knob"
 msgstr "Potenciômetro"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOMatrix]Label"
+msgstr "Etiqueta"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
 msgstr "Largo"
@@ -935,7 +1024,7 @@ msgstr "Carregando Dispositivo: %(1)"
 msgid "[CueMixSlot]Lock"
 msgstr "Bloquear"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Low"
 msgstr "Baixa"
 
@@ -951,11 +1040,11 @@ msgstr "Porta MIDI não encontrada para o Dispositivo %(1)!"
 msgid "[AudioMixer]Main"
 msgstr "Principal"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Maximum"
 msgstr "Máxima"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Medium"
 msgstr "Média"
 
@@ -967,9 +1056,17 @@ msgstr "Mensagem"
 msgid "[FileType]Metronome Preset"
 msgstr "Padrão do Metrônomo"
 
-#: .\audio\audiosetup.cpp
+#: .\audio\audioengine.cpp
 msgid "[DropoutProtection]Minimum"
 msgstr "Mínima"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing"
+msgstr "Não Encontrado"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Missing Files"
+msgstr "Arquivos não Encontrados"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
@@ -1030,6 +1127,10 @@ msgstr "Silenciar"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Command]Mute"
+msgstr "Silenciar"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Mute"
 msgstr "Silenciar"
 
 #: .\audioeffects\audiofxgraph.cpp
@@ -1110,6 +1211,10 @@ msgstr "Não há dispositivos perdidos."
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]None"
+msgstr "Nada"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]None"
 msgstr "Nada"
 
 #: .\studio\portlist.cpp
@@ -1220,6 +1325,10 @@ msgstr "Pan"
 msgid "[CueMixSlot]Pan"
 msgstr "Pan"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Pan"
+msgstr "Pan"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Parameter"
 msgstr "Parâmetro"
@@ -1248,9 +1357,17 @@ msgstr "Reproduzir do Início do Loop"
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "Insira seus dispositívos MIDI removíveis agora e feche esta mensagem quando finalizado..."
 
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity"
+msgstr "Polaridade"
+
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity"
 msgstr "Polaridade"
+
+#: .\audiomixer\audiochannelinputfx.cpp
+msgid "[AudioChannelInputFX]Polarity Right"
+msgstr "Polaridade Direita"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Polarity Right"
@@ -1267,6 +1384,10 @@ msgstr "Porta não encontrada!"
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
 msgstr "Pós-Fader"
+
+#: .\audiomixer\audiochannelmeter.cpp
+msgid "[AudioChannelMeter]Pre-Fader Metering"
+msgstr "Medição Pré-Fader"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain"
@@ -1336,6 +1457,10 @@ msgstr "Tocado Recentemente"
 msgid "[Command]Recently Touched"
 msgstr "Tocado Recentemente"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Record"
+msgstr "Gravação"
+
 #: .\mixer\mixercontrollable.cpp
 msgid "[Channel]Record"
 msgstr "Gravação"
@@ -1388,6 +1513,10 @@ msgstr "Remover"
 msgid "[SurfaceControl]Remove"
 msgstr "Remover"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove \"%(1)\""
+msgstr "Remover \"%(1)\""
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Remove %(1)"
 msgstr "Remover %(1)"
@@ -1399,6 +1528,10 @@ msgstr "Remover %(1)"
 #: .\macrocontrol\macrocontrolset.cpp
 msgid "[MacroControls]Remove %(1) Automation"
 msgstr "Remoção de %(1) Automação"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Remove Added Sounds"
+msgstr "Remover Sons Adicionados"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
@@ -1452,6 +1585,14 @@ msgstr "Remover Divisor de Evento de Nota"
 msgid "[AudioFXGraph]Remove Splitter"
 msgstr "Remover Divisor"
 
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused"
+msgstr "Remover Não Utilizados"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Remove Unused Instruments"
+msgstr "Remover Instrumentos Não Utilizados"
+
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Rename %(1)"
 msgstr "Renomear %(1)"
@@ -1475,6 +1616,14 @@ msgstr "Renomear Canais"
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename Device"
 msgstr "Renomear Dispositivo"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group"
+msgstr "Renomear Grupo"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Rename Group..."
+msgstr "Renomear Grupo..."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Rename..."
@@ -1548,6 +1697,10 @@ msgstr "Retroceder"
 msgid "[Command]Rewind Bar"
 msgstr "Compasso Atrás"
 
+#: .\audiomixer\setup\audioiomatrix.cpp
+msgid "[AudioIOType]S/PDIF"
+msgstr "S/PDIF"
+
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
 msgstr "Salvando Dispositivo: %(1)"
@@ -1592,6 +1745,14 @@ msgstr "Selecionar Cena 4"
 msgid "[Command]Select Scene 5"
 msgstr "Selecionar Cena 5"
 
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Select Sidechain Source"
+msgstr "Selecione Fonte de Sidechain"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Destination"
+msgstr "Destino de Envio"
+
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
 msgstr "Nível de Envio"
@@ -1605,6 +1766,10 @@ msgid "[AudioSendSlot]Send Pan"
 msgstr "Pan do Envio"
 
 #: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Prefader"
+msgstr "Envio Pré-Fader"
+
+#: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slot"
 msgstr "Slot de Envio"
 
@@ -1615,6 +1780,10 @@ msgstr "Slots de Envio"
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
 msgstr "Enviar Para"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Sends"
+msgstr "Envios"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Set '%(1)'"
@@ -1631,6 +1800,10 @@ msgstr "Escolher Cor do Canal"
 #: .\audiosynths\audiosynthdirectinput.cpp
 msgid "[AudioSynthDirectInput]Set Direct Input"
 msgstr "Escolher Entrada Direta"
+
+#: .\base\deviceeditfunctions.cpp
+msgid "[ActionDescriptions]Set Edit Group"
+msgstr "Configurar Grupo de Edição"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Set Gate %(1)"
@@ -1676,6 +1849,10 @@ msgstr "Deslocar Loop para Trás"
 msgid "[MixerConsole]Show"
 msgstr "Mostrar"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Audio Device Controls"
+msgstr "Exibir controles do dispositivo de áudio"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Channel"
 msgstr "Exibir Canal"
@@ -1684,6 +1861,10 @@ msgstr "Exibir Canal"
 msgid "[Command]Show Channel Editor"
 msgstr "Exibir Editor de Canal"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Channel Notes"
+msgstr "Exibir notas do canal"
+
 #: .\base\automationhandler.cpp
 msgid "[Command]Show Current Parameter"
 msgstr "Exibir Parâmetro Atual"
@@ -1691,6 +1872,18 @@ msgstr "Exibir Parâmetro Atual"
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Show Destination"
 msgstr "Exibir Destino"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Group Assignment"
+msgstr "Exibir Atribuição de Grupo"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show I/O Connections"
+msgstr "Exibir conexões E/S"
+
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Input Controls"
+msgstr "Exibir Controles de Entrada"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Instrument Editor"
@@ -1704,6 +1897,10 @@ msgstr "Exibir Canais Relacionados"
 msgid "[MixerConsole]Show Related Channels"
 msgstr "Exibir Canais Relacionados"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show Sends/Cue mix"
+msgstr "Exibir Envios/Mixagem guia"
+
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
 msgstr "Exibir Pista"
@@ -1712,6 +1909,10 @@ msgstr "Exibir Pista"
 msgid "[MixerConsole]Show Track"
 msgstr "Exibir Pista"
 
+#: .\mixerconsole\channelguicomponent.cpp
+msgid "[Command]Show VCA Connections"
+msgstr "Exibir Conexões VCA"
+
 #: .\audiosynths\combinator\synthcombinatorgraph.cpp
 msgid "[SynthCombinator]Show in Console"
 msgstr "Exibir no Console"
@@ -1719,6 +1920,10 @@ msgstr "Exibir no Console"
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Show in Console"
 msgstr "Exibir no Console"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechain Active"
+msgstr "Sidechain Ativo"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
@@ -1827,6 +2032,54 @@ msgstr "Sub"
 #: .\audiosynths\combinator\combinatorsynthfolder.cpp
 msgid "[SynthCombinator]Sub Instrument"
 msgstr "Sub Instrumento"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend All Groups"
+msgstr "Suspender Todos os Grupos"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group"
+msgstr "Suspender Grupo"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 1"
+msgstr "Suspender Grupo 1"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 10"
+msgstr "Suspender Grupo 10"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 2"
+msgstr "Suspender Grupo 2"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 3"
+msgstr "Suspender Grupo 3"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 4"
+msgstr "Suspender Grupo 4"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 5"
+msgstr "Suspender Grupo 5"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 6"
+msgstr "Suspender Grupo 6"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 7"
+msgstr "Suspender Grupo 7"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 8"
+msgstr "Suspender Grupo 8"
+
+#: .\mixer\editgroupmanager.cpp
+msgid "[Command]Suspend Group 9"
+msgstr "Suspender Grupo 9"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Swap Macro Controls"
@@ -1973,9 +2226,25 @@ msgstr "Desfazer atribuição"
 msgid "[SurfaceEditor]Unassign"
 msgstr "Desfazer atribuição"
 
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused"
+msgstr "Não Utilizado"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Unused Files"
+msgstr "Arquivos Não Utilizados"
+
 #: .\music\setup\musicdeviceadddialog.cpp
 msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
 msgstr "Utilize para tocar um instrumento MIDI externo e gravar movimentos de controlador. Quando conectar a porta de recebimento, tenha cuidado para evitar eventos duplos no caso da mesma porta ser utilizada por um dispositivo do tipo Teclado."
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used"
+msgstr "Utilizado"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Used Files"
+msgstr "Arquivos Utilizados"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -2005,6 +2274,10 @@ msgstr "Volume"
 msgid "[CueMixSlot]Volume"
 msgstr "Volume"
 
+#: .\mixer\editgroupmanager.cpp
+msgid "[EditGroups]Volume"
+msgstr "Volume"
+
 #: .\base\automationunit.cpp
 msgid "[Automation]Write"
 msgstr "Escrita"
@@ -2012,6 +2285,9 @@ msgstr "Escrita"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
+
+#~ msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
+#~ msgstr "Um divisor de evento nota pode ser inserido para 3 ou mais instrumentos."
 
 #~ msgid "[Command]Device"
 #~ msgstr "Dispositivo"

@@ -29,6 +29,18 @@ msgid "[SelectDialog]0"
 msgstr "0"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]1/1"
+msgstr "1/1"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/1"
+msgstr "1/1"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/1"
+msgstr "1/1"
+
+#: .\skin.xml
 msgid "[LengthDialog]1/16"
 msgstr "1/16"
 
@@ -37,7 +49,31 @@ msgid "[SelectDialog]1/16"
 msgstr "1/16"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]1/16"
+msgstr "1/16"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/16"
+msgstr "1/16"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/16"
+msgstr "1/16"
+
+#: .\skin.xml
 msgid "[LengthDialog]1/2"
+msgstr "1/2"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]1/2"
+msgstr "1/2"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/2"
+msgstr "1/2"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/2"
 msgstr "1/2"
 
 #: .\skin.xml
@@ -45,11 +81,59 @@ msgid "[LengthDialog]1/32"
 msgstr "1/32"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]1/32"
+msgstr "1/32"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/32"
+msgstr "1/32"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/32"
+msgstr "1/32"
+
+#: .\skin.xml
 msgid "[LengthDialog]1/4"
 msgstr "1/4"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]1/4"
+msgstr "1/4"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/4"
+msgstr "1/4"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/4"
+msgstr "1/4"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]1/64"
+msgstr "1/64"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/64"
+msgstr "1/64"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/64"
+msgstr "1/64"
+
+#: .\skin.xml
 msgid "[LengthDialog]1/8"
+msgstr "1/8"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]1/8"
+msgstr "1/8"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]1/8"
+msgstr "1/8"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]1/8"
 msgstr "1/8"
 
 #: .\skin.xml
@@ -73,12 +157,36 @@ msgid "[TransposeDialog]Add/Subtract"
 msgstr "加算/減算"
 
 #: .\skin.xml
+msgid "[DistributeNotesDialog]Amount"
+msgstr "アマウント"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]Amount"
+msgstr "アマウント"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Apply Scale"
+msgstr "スケールを適用"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Apply Scale"
+msgstr "スケールを適用"
+
+#: .\skin.xml
 msgid "[SelectDialog]Beat"
 msgstr "拍"
 
 #: .\skin.xml
 msgid "[SelectDialog]Beat grid"
 msgstr "拍グリッド"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Custom pitch range"
+msgstr "カスタムピッチ範囲"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Custom pitch range"
+msgstr "カスタムピッチ範囲"
 
 #: .\skin.xml
 msgid "[DeleteNotesDialog]Delete Notes"
@@ -89,12 +197,20 @@ msgid "[DeleteNotesDialog]Delete double notes"
 msgstr "重複音を削除"
 
 #: .\skin.xml
+msgid "[ThinOutNotesDialog]Delete notes randomly"
+msgstr "ノートをランダムに削除"
+
+#: .\skin.xml
 msgid "[DeleteNotesDialog]Delete notes shorter than"
 msgstr "次より短いノートを削除"
 
 #: .\skin.xml
 msgid "[SelectDialog]Deselect matching notes"
 msgstr "合致するノートの選択を解除"
+
+#: .\skin.xml
+msgid "[DistributeNotesDialog]Distribute Notes"
+msgstr "ノートを分配"
 
 #: .\skin.xml
 msgid "[StretchDialog]Double Tempo"
@@ -111,6 +227,22 @@ msgstr "イベント長を次のイベントに並ぶまで拡大または縮小
 #: .\skin.xml
 msgid "[SelectDialog]Event count"
 msgstr "イベント数"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Fill between selected notes"
+msgstr "選択されたノート間を埋める"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Fill loop range"
+msgstr "ループ範囲を埋める"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Fill whole part"
+msgstr "パート全体を埋める"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Fill with Notes"
+msgstr "ノートで埋める"
 
 #: .\skin.xml
 msgid "[StretchDialog]Free"
@@ -137,12 +269,24 @@ msgid "[HumanizeDialog]From Velocity"
 msgstr "ベロシティから"
 
 #: .\skin.xml
+msgid "[ThinOutNotesDialog]Grid"
+msgstr "グリッド"
+
+#: .\skin.xml
 msgid "[StretchDialog]Half Tempo"
 msgstr "ハーフテンポ"
 
 #: .\skin.xml
 msgid "[HumanizeDialog]Humanize"
 msgstr "ヒューマナイズ"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Include dotted notes"
+msgstr "付点音符を含める"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Insert Range"
+msgstr "インサート範囲"
 
 #: .\skin.xml
 msgid "[SelectDialog]Interval"
@@ -165,6 +309,30 @@ msgid "[DeleteNotesDialog]Minimum note length"
 msgstr "最小ノート長"
 
 #: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror Notes"
+msgstr "ノートをミラー"
+
+#: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror notes horizontally"
+msgstr "ノートを左右にミラー"
+
+#: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror notes vertically"
+msgstr "ノートを上下にミラー"
+
+#: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror on custom note"
+msgstr "カスタムノートをミラー"
+
+#: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror on first note"
+msgstr "最初のノートをミラー"
+
+#: .\skin.xml
+msgid "[MirrorNotesDialog]Mirror on middle"
+msgstr "中央のノートをミラー"
+
+#: .\skin.xml
 msgid "[VelocityDialog]Multiply"
 msgstr "乗算"
 
@@ -175,6 +343,18 @@ msgstr "次で乗算:"
 #: .\skin.xml
 msgid "[SelectDialog]Note length"
 msgstr "ノート長"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Note length"
+msgstr "ノート長"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Only insert notes into free steps"
+msgstr "空のステップにのみノートをインサート"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Options"
+msgstr "オプション"
 
 #: .\skin.xml
 msgid "[LengthDialog]Overlap"
@@ -189,8 +369,56 @@ msgid "[SelectDialog]Pitch"
 msgstr "ピッチ"
 
 #: .\skin.xml
+msgid "[RandomizeNotesDialog]Pitch"
+msgstr "ピッチ"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Pitch"
+msgstr "ピッチ"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quantize Notes"
+msgstr "ノートをクオンタイズ"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quantize grid"
+msgstr "クオンタイズグリッド"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quantize note end"
+msgstr "ノートエンドをクオンタイズ"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quantize note start"
+msgstr "ノートスタートをクオンタイズ"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quantize type"
+msgstr "クオンタイズタイプ"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Quintuplet"
+msgstr "5連符"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Randomize Notes"
+msgstr "ノートをランダマイズ"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Range"
+msgstr "範囲"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Range"
+msgstr "範囲"
+
+#: .\skin.xml
 msgid "[LengthDialog]Reduce event length until overlaps are removed"
 msgstr "オーバーラップが削除されるまでイベント長を縮小"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Rhythm"
+msgstr "リズム"
 
 #: .\skin.xml
 msgid "[SelectDialog]Select Notes"
@@ -229,6 +457,10 @@ msgid "[SelectDialog]Selection tolerance (+/-)"
 msgstr "選択肢の許容範囲 (+/-)"
 
 #: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Septuplet"
+msgstr "7連符"
+
+#: .\skin.xml
 msgid "[VelocityDialog]Set all to"
 msgstr "すべてを次に設定:"
 
@@ -249,6 +481,14 @@ msgid "[HumanizeDialog]Shift Note start to"
 msgstr "次へノートスタートをシフト"
 
 #: .\skin.xml
+msgid "[RandomizeNotesDialog]Shuffle notes"
+msgstr "ノートをシャッフル"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]Simplify"
+msgstr "簡約化"
+
+#: .\skin.xml
 msgid "[SelectDialog]Start"
 msgstr "スタート"
 
@@ -261,12 +501,36 @@ msgid "[SelectDialog]Start selection at n-th position"
 msgstr "X番目の位置で選択範囲をスタート"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]Step length"
+msgstr "ステップ長"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Straight"
+msgstr "ストレート"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Strength"
+msgstr "強度"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Strength"
+msgstr "強度"
+
+#: .\skin.xml
 msgid "[StretchDialog]Stretch"
 msgstr "ストレッチ"
 
 #: .\skin.xml
 msgid "[LengthDialog]Subtract"
 msgstr "減算"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Swing"
+msgstr "スウィング"
+
+#: .\skin.xml
+msgid "[ThinOutNotesDialog]Thin out Notes"
+msgstr "ノートを間引く"
 
 #: .\skin.xml
 msgid "[SelectDialog]To"
@@ -297,6 +561,30 @@ msgid "[TransposeDialog]Transpose"
 msgstr "トランスポーズ"
 
 #: .\skin.xml
+msgid "[FillWithNotesDialog]Triplet"
+msgstr "3連符"
+
+#: .\skin.xml
+msgid "[QuantizeNotesCustomDialog]Triplet"
+msgstr "3連符"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Use original pitch range"
+msgstr "元のピッチ範囲を使用"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Use original pitches only"
+msgstr "元のピッチのみ使用"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Use pitch range of existing notes"
+msgstr "既存のノートのピッチ範囲を使用"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Use pitches of existing notes only"
+msgstr "既存のノートのピッチのみ使用"
+
+#: .\skin.xml
 msgid "[VelocityDialog]Value"
 msgstr "値"
 
@@ -318,6 +606,14 @@ msgstr "ベロシティ"
 
 #: .\skin.xml
 msgid "[SelectDialog]Velocity"
+msgstr "ベロシティ"
+
+#: .\skin.xml
+msgid "[RandomizeNotesDialog]Velocity"
+msgstr "ベロシティ"
+
+#: .\skin.xml
+msgid "[FillWithNotesDialog]Velocity"
 msgstr "ベロシティ"
 
 #~ msgid "[VelocityDialog]Compress"

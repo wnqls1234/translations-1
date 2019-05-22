@@ -16,6 +16,14 @@ msgstr "Está seguro que desea revertir todos los cambios?"
 msgid "Arguments"
 msgstr "Argumentos"
 
+#: .\main.js
+msgid "Arrangement"
+msgstr "Arreglo"
+
+#: .\main.js
+msgid "Audio Editor"
+msgstr "Editor de audio"
+
 #: .\editor.js
 msgid "Command"
 msgstr "Comando"
@@ -32,7 +40,19 @@ msgstr "Descripción"
 msgid "Do you want to delete the selected macros?"
 msgstr "Desea borrar los macros seleccionados?"
 
+#: .\organizer.js
+msgid "Do you want to rename the macro file as well?"
+msgstr "Quiere renombrar el archivo macro también?"
+
 #: .\panel.js
+msgid "Duplicate Macro"
+msgstr "Duplicar Macro"
+
+#: .\panel.js
+msgid "Edit Macro..."
+msgstr "Editar Macro..."
+
+#: .\panel.js .\renamer.js
 msgid "Edit Names"
 msgstr "Editar nombres"
 
@@ -66,22 +86,45 @@ msgstr "Organizador de Macros"
 
 #: .\gadget.js
 msgid "Macro Toolbar inspired by the Studio One beta testers"
-msgstr ""
-"Barra de herramientas de Macros inspirada por los beta testers de Studio One "
+msgstr "Barra de herramientas de Macros inspirada por los beta testers de Studio One "
+
+#: .\panel.js
+msgid "Macro not found:"
+msgstr "No se encontró el Macro:"
 
 #: .\editor.js .\gadget.js .\manager.js .\panel.js
 msgid "Macros"
 msgstr "Macros"
+
+#: .\translation.js
+msgid "[Macros]Macros (Arrangement)"
+msgstr "Macros (Arreglo)"
+
+#: .\translation.js
+msgid "[Macros]Macros (Audio Editor)"
+msgstr "Macros (Editor de audio)"
+
+#: .\translation.js
+msgid "[Macros]Macros (Music Editor)"
+msgstr "Macros (Editor de música)"
+
+#: .\main.js
+msgid "Music Editor"
+msgstr "Editor de música"
 
 #: .\organizer.js .\panel.js
 msgid "Name"
 msgstr "Nombre"
 
 #: .\panel.js
+msgid "New Macro..."
+msgstr "Nueva Macro..."
+
+#: .\panel.js
 msgid "Pages"
 msgstr "Páginas"
 
-#: .\panel.js
+#: .\panel.js .\renamer.js
 msgid "Reload Names"
 msgstr "Recargar nombres"
 
@@ -119,3 +162,4 @@ msgstr "Macro de usuario"
 
 #~ msgid "Loading Macro failed:"
 #~ msgstr "Falló carga de macro:"
+

@@ -64,6 +64,10 @@ msgstr "标记"
 msgid "[SpectrumMeter]Octave"
 msgstr "八度"
 
+#: .\gui\level\levelcomponent.cpp
+msgid "[LevelMeterComponent]Peak Hold"
+msgstr "峰值保持"
+
 #: .\gui\level\levelmeterdisplay.cpp
 msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "峰值保持 L: %(1:1) dB - R: %(2:1) dB"
@@ -104,13 +108,12 @@ msgstr "1/3倍频程"
 msgid "[SpectrumDisplay]Time"
 msgstr "时间"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]VU Hold"
-msgstr "VU控制"
-
 #: .\gui\spectrum\spectrumcomponent.cpp
 msgid "[SpectrumMeter]Waterfall"
 msgstr "光谱瀑布"
+
+#~ msgid "[LevelMeterComponent]VU Hold"
+#~ msgstr "VU控制"
 
 #~ msgid "[Sampler]%(1) programs"
 #~ msgstr "%(1) 项目"
@@ -156,3 +159,4 @@ msgstr "光谱瀑布"
 
 #~ msgid "[KeySwitchList]Title"
 #~ msgstr "标题"
+

@@ -84,10 +84,6 @@ msgstr "1 archivo está perdido."
 msgid "[LocateFiles]1 file was found in %(1)"
 msgstr "1 archivo fue encontrado en %(1)"
 
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]A Group with this name already exists."
-msgstr "Ya existe un grupo con este nombre."
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Activate Layer"
 msgstr "Activar capa"
@@ -100,9 +96,17 @@ msgstr "Activar capa"
 msgid "[Command]Activate Layer"
 msgstr "Activar capa"
 
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Next Layer"
+msgstr "Activar capa siguiente"
+
 #: .\music\musicpartactions.cpp
 msgid "[Engine:MusicActions]Activate Pattern"
 msgstr "Activar patrón"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Previous Layer"
+msgstr "Activar capa anterior"
 
 #: .\automationediting\automationtrackcomponent.cpp
 #: .\musicediting\musicenvelopeeditor.cpp
@@ -221,6 +225,10 @@ msgstr "Pista del Arreglo"
 #: .\audioediting\foldertrackaudiobus.cpp
 msgid "[Engine]Assign Channel To Folder"
 msgstr "Asignar canal a carpeta"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Assign Instrument to %(1):"
+msgstr "Asignar instrumento a %(1):"
 
 #: .\base\media\mediaattachment.cpp
 msgid "[MediaPool]Attachment"
@@ -938,7 +946,8 @@ msgid "[Command]Duplicate Variation"
 msgstr "Duplicar variación"
 
 #: .\audioediting\audiobendeditlayer.cpp .\editing\chordeditlayer.cpp
-#: .\editing\tracklistcomponent.cpp .\musicediting\patterneditcomponent.cpp
+#: .\editing\eventsnapper.cpp .\editing\tracklistcomponent.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Edit"
 msgstr "Editar"
 
@@ -1103,6 +1112,10 @@ msgstr "Exportar selección"
 msgid "[Command]Export Stems"
 msgstr "Exportar Stems"
 
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Export Video"
+msgstr "Exportar vídeo"
+
 #: .\song\songrenderer.cpp
 msgid "[SongRenderer]Exporting..."
 msgstr "Exportando..."
@@ -1158,6 +1171,10 @@ msgstr "Falló al exportar archivo de audio."
 #: .\song\stemrenderer.cpp
 msgid "[StemRenderer]Failed to export audio file."
 msgstr "Falló al exportar archivo de audio."
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Failed to write video."
+msgstr "No se pudo escribir el vídeo."
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]File not found!"
@@ -1239,13 +1256,13 @@ msgstr "Ir al marcador anterior"
 msgid "[Command]Goto Previous Section"
 msgstr "Ir a la sección anterior"
 
-#: .\base\model\editgroups.cpp
-msgid "[EditGroups]Group"
-msgstr "Agrupar"
-
 #: .\editing\tracklistinspector.cpp
 msgid "[Engine]Group"
 msgstr "Grupo"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Group Assignment"
+msgstr "Asignación de grupo"
 
 #: .\editing\editgroupscomponent.cpp
 msgid "[EditGroups]Group Selected Tracks"
@@ -1516,6 +1533,10 @@ msgstr "Lineal"
 msgid "[SynthDrag]Load"
 msgstr "Cargar"
 
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Load Instrument Preset"
+msgstr "Cargar preset de instrumento"
+
 #: .\music\musicpatternclip.cpp
 msgid "[MusicPatternClip]Loading Pattern: %(1)"
 msgstr "Cargando patrón: %(1)"
@@ -1571,6 +1592,30 @@ msgstr "Archivo localizado: %(1)"
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Location"
 msgstr "Ubicación"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Event"
+msgstr "Bloquear evento"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Events"
+msgstr "Bloquear eventos"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Track"
+msgstr "Bloquear pista"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Lock Tracks"
+msgstr "Bloquear pistas"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't drag to this track"
+msgstr "Bloqueado: imposible arrastrar a esta pista"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Locked: can't move this event"
+msgstr "Bloqueado: imposible mover este evento"
 
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Logarithmic"
@@ -1923,10 +1968,6 @@ msgstr "Ninguna apista ajustada a seguir"
 msgid "[Automation]None"
 msgstr "Ninguno"
 
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]None"
-msgstr "Ninguno"
-
 #: .\audioediting\audioinspector.cpp
 msgid "[AudioPlayMode]Normal"
 msgstr "Normal"
@@ -2081,6 +2122,10 @@ msgstr "Pitch"
 msgid "[MediaPreview]Play"
 msgstr "Reproducir"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Play Selected Range"
+msgstr "Reproducir el rango seleccionado"
+
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
 msgstr "Pool"
@@ -2137,9 +2182,21 @@ msgstr "Cuantizar"
 msgid "[Events]Quantize"
 msgstr "Cuantizar"
 
-#: .\editing\quantizepanel.cpp
+#: .\editing\quantizepanel.h
 msgid "[EditAddIn]Quantize"
 msgstr "Cuantizar"
+
+#: .\editing\quantizepanel.cpp
+msgid "[EditAddIn]Quantize (Arrangement)"
+msgstr "Cuantizar (Arreglo)"
+
+#: .\audioediting\audioeditor.cpp
+msgid "[EditAddIn]Quantize (Audio Editor)"
+msgstr "Cuantizar (Editor de audio)"
+
+#: .\musicediting\musiceditor.cpp
+msgid "[EditAddIn]Quantize (Music Editor)"
+msgstr "Cuantizar (Editor de música)"
 
 #: .\application\audioedit\audiobendtasks.cpp
 msgid "[AudioEdit]Quantize 50%"
@@ -2150,12 +2207,60 @@ msgid "[Command]Read"
 msgstr "Leer"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker"
+msgstr "Recuperar marcador"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 1"
 msgstr "Rellamar marcador 1"
 
 #: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 10"
+msgstr "Recuperar marcador 10"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 11"
+msgstr "Recuperar marcador 11"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 12"
+msgstr "Recuperar marcador 12"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 13"
+msgstr "Recuperar marcador 13"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 14"
+msgstr "Recuperar marcador 14"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 15"
+msgstr "Recuperar marcador 15"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 16"
+msgstr "Recuperar marcador 16"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 17"
+msgstr "Recuperar marcador 17"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 18"
+msgstr "Recuperar marcador 18"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 19"
+msgstr "Recuperar marcador 19"
+
+#: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 2"
 msgstr "Rellamar marcador 2"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 20"
+msgstr "Recuperar marcador 20"
 
 #: .\song\songmarker.cpp
 msgid "[Command]Recall Marker 3"
@@ -2380,16 +2485,8 @@ msgid "[MediaClipOperations]Rename Events"
 msgstr "Renombrar eventos"
 
 #: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group"
-msgstr "Renombrar grupo"
-
-#: .\editing\editgroupscomponent.cpp
 msgid "[Command]Rename Group"
 msgstr "Renombrar grupo"
-
-#: .\editing\editgroupscomponent.cpp
-msgid "[EditGroups]Rename Group..."
-msgstr "Renombrar grupo..."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Rename Layer"
@@ -2434,6 +2531,10 @@ msgstr "Renderizar evento FX"
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
 msgstr "Renderizar pistas de instrumentos"
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Rendering Audio..."
+msgstr "Renderizando audio..."
 
 #: .\song\clickrenderer.cpp
 msgid "[ClickRenderer]Rendering Click"
@@ -2574,6 +2675,10 @@ msgstr "Segundos"
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "Seleccionar todo en las pistas"
+
+#: .\editing\chordsoundmanager.cpp
+msgid "[ChordSounds]Select Chord Sound"
+msgstr "Seleccionar sonido de acorde"
 
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Select Events in Range"
@@ -2822,8 +2927,24 @@ msgid "[TimeSnapper]Snap To Event Hotspots"
 msgstr "Snap (Hotspots de eventos)"
 
 #: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Event Hotspots"
+msgstr "Snap (Hotspots de eventos)"
+
+#: .\editing\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Events"
 msgstr "Snap (Eventos)"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Events"
+msgstr "Snap a eventos"
+
+#: .\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Zero Crossings"
+msgstr "Ajustarse a cruces al cero"
+
+#: .\editing\eventsnapper.cpp
+msgid "[Command]Snap To Zero Crossings"
+msgstr "Ajustarse a cruces al cero"
 
 #: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Solo"
@@ -2975,6 +3096,10 @@ msgstr "Toma #%(1:3) (%(2))"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Longitud: %(2)"
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+msgstr "El códec de audio no soporta la frecuencia de muestreo actual. La frecuencia se convertirá a  %(1) kHz."
+
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
 msgstr "El disco utilizado para la grabación esta lleno."
@@ -3051,6 +3176,14 @@ msgstr "Pequeña"
 msgid "[Command]Toggle Detached Editor"
 msgstr "Activar/Desactivar Editor desacoplado"
 
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Edit Lock"
+msgstr "Alternar bloqueo de edición"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Lock"
+msgstr "Alternar bloqueo"
+
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Toggle Read"
 msgstr "Habilitar/Deshabilitar lectura"
@@ -3058,6 +3191,10 @@ msgstr "Habilitar/Deshabilitar lectura"
 #: .\editing\tracklistcomponent.cpp
 msgid "[Command]Toggle Ripple Edit"
 msgstr "Conmutar edición de onda"
+
+#: .\application\eventedit\locktask.cpp
+msgid "[Edit]Toggle Time Lock"
+msgstr "Alternar bloqueo temporal"
 
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Touch"
@@ -3142,6 +3279,10 @@ msgstr "Transformar a audio renderizado"
 msgid "[Command]Transform to Rendered Audio"
 msgstr "Transformar a audio renderizado"
 
+#: .\editing\rangeplayer.cpp
+msgid "[Command]Transport"
+msgstr "Transporte"
+
 #: .\base\model\chordfunctions.cpp
 msgid "[Edit]Transpose Chord"
 msgstr "Transponer acorde"
@@ -3199,6 +3340,22 @@ msgid "[VideoClip]Unknown Format!"
 msgstr "Formato desconocido!"
 
 #: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Event"
+msgstr "Desbloquear evento"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Events"
+msgstr "Desbloquear eventos"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Track"
+msgstr "Desbloquear pista"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unlock Tracks"
+msgstr "Desbloquear pistas"
+
+#: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Unmute Event"
 msgstr "Quitar muteo a evento"
 
@@ -3245,6 +3402,10 @@ msgstr "Utilizado"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Used by: "
 msgstr "Utilizado por: "
+
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Using different codecs might affect the export speed."
+msgstr "El uso de distintos códecs podría afectar a la velocidad de exportación."
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Velocity"
@@ -3300,6 +3461,10 @@ msgstr "Escribir"
 msgid "[AutomationWriter]Write Automation"
 msgstr "Escribir automatización"
 
+#: .\videoediting\songvideorenderer.cpp
+msgid "[Video]Writing Video File..."
+msgstr "Escribiendo archivo de vídeo..."
+
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
 msgstr "Extra grande"
@@ -3347,6 +3512,24 @@ msgstr "utilizado %(1) veces"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "utilizado %(1) veces"
+
+#~ msgid "[BEGIN_XSTRINGS (EditAddIn)]Quantize"
+#~ msgstr "Cuantizar"
+
+#~ msgid "[EditGroups]A Group with this name already exists."
+#~ msgstr "Ya existe un grupo con este nombre."
+
+#~ msgid "[EditGroups]Group"
+#~ msgstr "Agrupar"
+
+#~ msgid "[EditGroups]None"
+#~ msgstr "Ninguno"
+
+#~ msgid "[EditGroups]Rename Group"
+#~ msgstr "Renombrar grupo"
+
+#~ msgid "[EditGroups]Rename Group..."
+#~ msgstr "Renombrar grupo..."
 
 #~ msgid "[RecordMode]Loop Record Note Erase"
 #~ msgstr "Borrar nota de loop de grabación"
