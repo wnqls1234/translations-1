@@ -92,6 +92,8 @@ print: Copying tables...
 @copyTable
 #define: $(table)=studioonemacros
 @copyTable
+#define: $(table)=audiobatchconverter
+@copyTable
 
 ; Windows only
 #define: $(table)=asioservice
