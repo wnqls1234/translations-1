@@ -24,7 +24,7 @@ msgstr "%(3) BPM - 范围 %(1) nach %(2)"
 msgid "[Events]Absolute"
 msgstr "绝对"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Adaptive"
 msgstr "适度"
 
@@ -36,11 +36,11 @@ msgstr "增加律动样式"
 msgid "[Command]Automation"
 msgstr "自动控制"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Autoscroll"
 msgstr "自动卷屏"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Bar"
 msgstr "小节"
 
@@ -76,11 +76,11 @@ msgstr "复制包络点"
 msgid "[TempoDragHandler]Copy Tempo"
 msgstr "复制速度"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Create Range from Cursor"
 msgstr "从光标处创建范围"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Create Range from Cursor to Hotspot"
 msgstr "从光标处到热点区创建范围"
 
@@ -88,11 +88,11 @@ msgstr "从光标处到热点区创建范围"
 msgid "[TempoEdit]Create Steps"
 msgstr "生成步骤"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Data Zoom In"
 msgstr "放大数据"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Data Zoom Out"
 msgstr "缩小数据"
 
@@ -100,7 +100,7 @@ msgstr "缩小数据"
 msgid "[Command]Delete"
 msgstr "删除"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Denominator"
 msgstr "分母"
 
@@ -112,41 +112,41 @@ msgstr "打点"
 msgid "[Events]Draw Automation"
 msgstr "绘制自动控制"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Draw Loop"
 msgstr "绘制循环"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Duplicate"
 msgstr "复写"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate"
 msgstr "复写"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Duplicate Shared"
 msgstr "复写共享"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate Shared"
 msgstr "复写共享"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate and Insert"
 msgstr "复写并插入"
 
-#: .\base\timeeditcomponent.cpp .\base\timelinecomponent.cpp
-#: .\base\timeselectioncomponent.cpp .\base\timesnapper.cpp
-#: .\events\eventeditcomponent.cpp
+#: .\events\eventeditcomponent.cpp .\timeedit\snaptimeprovider.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timelinecomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp .\timeedit\timesnapper.cpp
 msgid "[Command]Edit"
 msgstr "编辑"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Edit Time Signature"
 msgstr "编辑拍号"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr "启动播放开始标记"
 
@@ -170,15 +170,19 @@ msgstr "翻转"
 msgid "[Quantize]Follow Quantize"
 msgstr "跟随量化"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Frames"
 msgstr "帧"
 
-#: .\base\timeeditcomponent.cpp
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Global"
+msgstr "全局"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Goto Next Event"
 msgstr "跳到下一个事件"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Goto Previous Event"
 msgstr "跳到上一个事件"
 
@@ -202,7 +206,7 @@ msgstr "插入包络点"
 msgid "[Tempo]Insert Tempo"
 msgstr "插入速度"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Insert Time Signature"
 msgstr "插入拍号"
 
@@ -218,19 +222,19 @@ msgstr "延长尾事件"
 msgid "[EventEditHandler]Length: %(1)"
 msgstr "长度: %(1)"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Locate"
 msgstr "定位"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Mouse Cursor"
 msgstr "定位鼠标指针"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Selection"
 msgstr "定位区域"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Selection End"
 msgstr "定位区域结尾"
 
@@ -238,23 +242,23 @@ msgstr "定位区域结尾"
 msgid "[Events]Lock Values / Time"
 msgstr "锁定值 / 时间"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
 msgstr "激活循环"
 
-#: .\base\timeeditcomponent.cpp .\base\timerulerview.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timerulerview.cpp
 msgid "[Edit]Loop Follows Selection"
 msgstr "循环与选择保持一致"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Follows Selection"
 msgstr "循环与选择保持一致"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Selection"
 msgstr "循环区域"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Selection Snapped"
 msgstr "循环区域吸附"
 
@@ -266,11 +270,11 @@ msgstr "修改力度"
 msgid "[EventFigures]Move"
 msgstr "移动"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move Loop Range"
 msgstr "移动循环范围"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move Play Start Marker"
 msgstr "移动播放开始标记"
 
@@ -278,27 +282,27 @@ msgstr "移动播放开始标记"
 msgid "[Envelopes]Move Points"
 msgstr "移动包络点"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range"
 msgstr "移动范围"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Back"
 msgstr "撤掉移动范围"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Down"
 msgstr "向下移动范围"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Up"
 msgstr "向上移动范围"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range to Hotspot"
 msgstr "移动范围至热点"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range to Hotspot Back"
 msgstr "撤销移动范围至热点"
 
@@ -306,15 +310,15 @@ msgstr "撤销移动范围至热点"
 msgid "[TempoDragHandler]Move tempo"
 msgstr "移动速度"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Edit]Move to Cursor"
+msgstr "移动到指针"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Move to Cursor"
 msgstr "移动到指针"
 
-#: .\base\timeeditmodel.cpp
-msgid "[TimeEditModel]Move to Cursor"
-msgstr "移动到指针"
-
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move, Zoom"
 msgstr "移动, 缩放"
 
@@ -322,13 +326,17 @@ msgstr "移动, 缩放"
 msgid "[MusicEdit]Musical Functions"
 msgstr "音乐功能"
 
-#: .\music\pitchnameeditor.cpp
-msgid "[PitchNameEditor]Name"
-msgstr "名称"
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Mute"
+msgstr "静音"
 
-#: .\base\timeeditcomponent.cpp .\events\eventeditcomponent.cpp
+#: .\events\eventeditcomponent.cpp .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Navigation"
 msgstr "导航"
+
+#: .\quantize\quantizelength.cpp
+msgid "[Quantize]Next Base"
+msgstr "下一个基准"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Next Event"
@@ -338,7 +346,7 @@ msgstr "下一事件"
 msgid "[Command]Next Event Extend"
 msgstr "延长下一事件"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Next Hotspot"
 msgstr "下一个热点"
 
@@ -346,39 +354,39 @@ msgstr "下一个热点"
 msgid "[MusicEditComponent]Note Length"
 msgstr "备注长度"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge"
 msgstr "微调"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "向后微调"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar"
 msgstr "微调小节"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "向后微调小节"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Down"
 msgstr "向下推进"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Down Fine"
 msgstr "细微向下推进"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Up"
 msgstr "向上推进"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Up Fine"
 msgstr "细微向上推进"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
 msgstr "分子"
 
@@ -394,11 +402,11 @@ msgstr "描绘事件"
 msgid "[NoteColorScheme]Part"
 msgstr "Part"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Paste at Original Position"
 msgstr "按原始位置粘贴"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Paste at Original Position"
 msgstr "按原始位置粘贴"
 
@@ -406,13 +414,17 @@ msgstr "按原始位置粘贴"
 msgid "[EventFigures]Phase offset"
 msgstr "相位差"
 
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Pitch"
+msgstr "音高"
+
 #: .\music\notecolorschemeparam.cpp
 msgid "[NoteColorScheme]Pitch"
 msgstr "音高"
 
-#: .\music\pitchnameeditor.cpp
-msgid "[PitchNameEditor]Pitch"
-msgstr "音高"
+#: .\quantize\quantizelength.cpp
+msgid "[Quantize]Previous Base"
+msgstr "上一个基准"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Previous Event"
@@ -422,12 +434,16 @@ msgstr "前一事件"
 msgid "[Command]Previous Event Extend"
 msgstr "延长前一事件"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Previous Hotspot"
 msgstr "前一个热点"
 
-#: .\base\timesnapper.cpp
-msgid "[TimeSnapper]Quantize"
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Process"
+msgstr "进程"
+
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Quantize"
 msgstr "量化"
 
 #: .\quantize\quantizecomponent.cpp
@@ -438,27 +454,35 @@ msgstr "量化"
 msgid "[Command]Quantize"
 msgstr "量化"
 
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Edit]Quantize"
+msgstr "量化"
+
+#: .\timeedit\timesnapper.cpp
+msgid "[TimeSnapper]Quantize"
+msgstr "量化"
+
 #: .\quantize\quantizegrid.cpp
 msgid "[FileType]Quantize Settings"
 msgstr "量化设置"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Quintole"
+msgid "[Quantize]Quintuplet"
 msgstr "五连音"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Range End to Cursor"
 msgstr "范围结束至光标处"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Range Start to Cursor"
 msgstr "范围由光标处开始"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Redo Zoom"
 msgstr "重做缩放"
 
-#: .\base\snaptimeprovider.cpp
+#: .\timeedit\snaptimeprovider.cpp
 msgid "[TimeSnapper]Relative Grid"
 msgstr "关联格子"
 
@@ -466,11 +490,11 @@ msgstr "关联格子"
 msgid "[Tempo]Remove Tempo"
 msgstr "移除速度"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Remove Time Signature"
 msgstr "移除拍号"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Restore Zoom State"
 msgstr "重置缩放状态"
 
@@ -482,17 +506,13 @@ msgstr "S曲线"
 msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
 msgstr "速度范围: 请设置小节的时间刻度"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Select All in Loop"
 msgstr "选择循环中的全部事件"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "全选-音轨"
-
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Select Base"
-msgstr "选择基础"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Select from Event to End"
@@ -507,22 +527,22 @@ msgid "[PitchScale]Select notes of this Pitch"
 msgstr "为这个Pitch选择音符"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Septole"
+msgid "[Quantize]Septuplet"
 msgstr "七连音"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Set Loop End"
 msgstr "设置循环结尾"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Set Loop End"
 msgstr "设置循环结尾"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Set Loop Start"
 msgstr "设置循环开始"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Set Loop Start"
 msgstr "设置循环开始"
 
@@ -554,83 +574,95 @@ msgstr "设置Program F"
 msgid "[Command]Set Program G"
 msgstr "设置Program G"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End"
 msgstr "设置范围结尾大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Back"
 msgstr "撤销设置范围结尾大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Down"
 msgstr "设置向下范围结尾大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Up"
 msgstr "设置向上范围结尾大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End to Hotspot"
 msgstr "设置范围结尾至热点大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End to Hotspot Back"
 msgstr "撤销设置范围结尾至热点大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start"
 msgstr "设置范围开始大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Back"
 msgstr "撤销设置范围开始大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Down"
 msgstr "设置向下范围开始大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Up"
 msgstr "设置向上范围开始大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start to Hotspot"
 msgstr "设置范围开始至热点大小"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start to Hotspot Back"
 msgstr "撤销设置范围开始至热点大小"
+
+#: .\timeedit\snaptimeprovider.cpp
+msgid "[Command]Snap Relative Grid"
+msgstr "切断相关格"
 
 #: .\events\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Events"
 msgstr "对齐到事件"
 
-#: .\base\snaptimeprovider.cpp
+#: .\timeedit\snaptimeprovider.cpp
 msgid "[TimeSnapper]Snap To Grid"
 msgstr "对齐到网格"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\snaptimeprovider.cpp
+msgid "[Command]Snap To Grid"
+msgstr "对齐到网格"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Snap to Cursor & Loop"
 msgstr "对齐到光标和循环"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Command]Snap to Cursor & Loop"
+msgstr "对齐到光标和循环"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Split"
 msgstr "分离"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
 msgstr "在指针处分割"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Split at Cursor"
 msgstr "在指针处分割"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Start/Stop"
 msgstr "开始/结束"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Store Zoom State"
 msgstr "存储缩放状态"
 
@@ -650,15 +682,19 @@ msgstr "拉伸"
 msgid "[Command]Tempo"
 msgstr "速度"
 
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Time"
+msgstr "时间"
+
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Time Locked"
 msgstr "时间已锁定"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"
 msgstr "时间标尺"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Timebase"
 msgstr "时基"
 
@@ -666,19 +702,19 @@ msgstr "时基"
 msgid "[Events]Toggle Chord Mode"
 msgstr "和弦模式切换"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Toggle Snap"
 msgstr "吸附切换"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[Command]Toggle Snap"
 msgstr "吸附切换"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Toggle Time-Linear Display"
 msgstr "触发时间线性显示"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Toggle Zoom"
 msgstr "缩放切换"
 
@@ -694,7 +730,7 @@ msgstr "变换自动控制"
 msgid "[Command]Transform Range"
 msgstr "变换范围"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Transport"
 msgstr "走带控制"
 
@@ -702,7 +738,7 @@ msgstr "走带控制"
 msgid "[Quantize]Triplet"
 msgstr "三连音"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
 msgstr "撤销缩放"
 
@@ -713,6 +749,10 @@ msgstr "解锁价值 / 时间"
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Values Locked"
 msgstr "数值已锁定"
+
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Velocity"
+msgstr "力度"
 
 #: .\music\notecolorschemeparam.cpp
 msgid "[NoteColorScheme]Velocity"
@@ -726,61 +766,79 @@ msgstr "速度重音"
 msgid "[NoteColorScheme]Velocity Bar"
 msgstr "速度条"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]View"
 msgstr "浏览"
 
-#: .\base\timeeditcomponent.cpp .\base\timelinecomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom"
 msgstr "缩放"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Zoom"
 msgstr "缩放"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full"
 msgstr "完整缩放"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full Horizontally"
 msgstr "水平放至最大"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In"
 msgstr "放大"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In Fine"
 msgstr "细微放大"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In Vertical"
 msgstr "垂直放大"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out"
 msgstr "缩小"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out Fine"
 msgstr "细微缩小"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out Vertical"
 msgstr "垂直缩小"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Loop"
 msgstr "缩放到循环"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection"
 msgstr "缩放到选区"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "水平缩放到选区"
+
+#~ msgid "[TimeEditModel]Move to Cursor"
+#~ msgstr "移动到指针"
+
+#~ msgid "[Command]Select Base"
+#~ msgstr "选择基础"
+
+#~ msgid "[PitchNameEditor]Name"
+#~ msgstr "名称"
+
+#~ msgid "[PitchNameEditor]Pitch"
+#~ msgstr "音高"
+
+#~ msgid "[Quantize]Quintole"
+#~ msgstr "五连音"
+
+#~ msgid "[Quantize]Septole"
+#~ msgstr "七连音"
 
 #~ msgid "[MusicalScale]Blues"
 #~ msgstr "布鲁斯音阶"

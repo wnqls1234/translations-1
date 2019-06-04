@@ -24,7 +24,7 @@ msgstr "%(3) BPM - %(1) から %(2) へスケール"
 msgid "[Events]Absolute"
 msgstr "絶対"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Adaptive"
 msgstr "順応"
 
@@ -36,11 +36,11 @@ msgstr "グルーヴパターンを追加"
 msgid "[Command]Automation"
 msgstr "オートメーション"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Autoscroll"
 msgstr "自動スクロール"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Bar"
 msgstr "小節"
 
@@ -76,11 +76,11 @@ msgstr "ポイントをコピー"
 msgid "[TempoDragHandler]Copy Tempo"
 msgstr "テンポをコピー"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Create Range from Cursor"
 msgstr "カーソルから範囲を作成"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Create Range from Cursor to Hotspot"
 msgstr "カーソルからホットスポットへ範囲を作成"
 
@@ -88,11 +88,11 @@ msgstr "カーソルからホットスポットへ範囲を作成"
 msgid "[TempoEdit]Create Steps"
 msgstr "ステップを作成"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Data Zoom In"
 msgstr "データズームイン"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Data Zoom Out"
 msgstr "データズームアウト"
 
@@ -100,7 +100,7 @@ msgstr "データズームアウト"
 msgid "[Command]Delete"
 msgstr "削除"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Denominator"
 msgstr "分母"
 
@@ -112,41 +112,41 @@ msgstr "付点あり"
 msgid "[Events]Draw Automation"
 msgstr "オートメーションを描画"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Draw Loop"
 msgstr "ループを描画"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Duplicate"
 msgstr "複製"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate"
 msgstr "複製"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Duplicate Shared"
 msgstr "共有を複製"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate Shared"
 msgstr "共有を複製"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Duplicate and Insert"
 msgstr "複製して挿入"
 
-#: .\base\timeeditcomponent.cpp .\base\timelinecomponent.cpp
-#: .\base\timeselectioncomponent.cpp .\base\timesnapper.cpp
-#: .\events\eventeditcomponent.cpp
+#: .\events\eventeditcomponent.cpp .\timeedit\snaptimeprovider.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timelinecomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp .\timeedit\timesnapper.cpp
 msgid "[Command]Edit"
 msgstr "編集"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Edit Time Signature"
 msgstr "拍子を編集"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Enable Play Start Marker"
 msgstr "再生スタートマーカーを有効化"
 
@@ -170,15 +170,19 @@ msgstr "フリップ"
 msgid "[Quantize]Follow Quantize"
 msgstr "クオンタイズに従う"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Frames"
 msgstr "フレーム"
 
-#: .\base\timeeditcomponent.cpp
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Global"
+msgstr "グローバル"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Goto Next Event"
 msgstr "次のイベントへ移動"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Goto Previous Event"
 msgstr "前のイベントへ移動"
 
@@ -202,7 +206,7 @@ msgstr "ポイントを挿入"
 msgid "[Tempo]Insert Tempo"
 msgstr "テンポを挿入"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Insert Time Signature"
 msgstr "拍子を挿入"
 
@@ -218,19 +222,19 @@ msgstr "最後のイベント拡張"
 msgid "[EventEditHandler]Length: %(1)"
 msgstr "長さ: %(1)"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Locate"
 msgstr "検索"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Mouse Cursor"
 msgstr "マウスカーソルを検索"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Selection"
 msgstr "選択を検索"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Locate Selection End"
 msgstr "選択エンドを検索"
 
@@ -238,23 +242,23 @@ msgstr "選択エンドを検索"
 msgid "[Events]Lock Values / Time"
 msgstr "値/時間をロック"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Loop Active"
 msgstr "ループ有効"
 
-#: .\base\timeeditcomponent.cpp .\base\timerulerview.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timerulerview.cpp
 msgid "[Edit]Loop Follows Selection"
 msgstr "選択したトラックでループを有効"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Follows Selection"
 msgstr "選択したトラックでループを有効"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Selection"
 msgstr "選択をループ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Loop Selection Snapped"
 msgstr "選択をループ"
 
@@ -266,11 +270,11 @@ msgstr "ベロシティを変更"
 msgid "[EventFigures]Move"
 msgstr "移動"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move Loop Range"
 msgstr "ループ範囲を移動"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move Play Start Marker"
 msgstr "再生スタートマーカーを移動"
 
@@ -278,27 +282,27 @@ msgstr "再生スタートマーカーを移動"
 msgid "[Envelopes]Move Points"
 msgstr "ポイントを移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range"
 msgstr "範囲を移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Back"
 msgstr "範囲を後ろへ移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Down"
 msgstr "範囲を下へ移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range Up"
 msgstr "範囲を上へ移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range to Hotspot"
 msgstr "範囲をホットスポットへ移動"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Move Range to Hotspot Back"
 msgstr "範囲をホットスポットへ後ろに移動"
 
@@ -306,15 +310,15 @@ msgstr "範囲をホットスポットへ後ろに移動"
 msgid "[TempoDragHandler]Move tempo"
 msgstr "テンポを移動"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Edit]Move to Cursor"
+msgstr "カーソルへ移動"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Move to Cursor"
 msgstr "カーソルへ移動"
 
-#: .\base\timeeditmodel.cpp
-msgid "[TimeEditModel]Move to Cursor"
-msgstr "カーソルへ移動"
-
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Move, Zoom"
 msgstr "移動、ズーム"
 
@@ -322,13 +326,17 @@ msgstr "移動、ズーム"
 msgid "[MusicEdit]Musical Functions"
 msgstr "音楽機能"
 
-#: .\music\pitchnameeditor.cpp
-msgid "[PitchNameEditor]Name"
-msgstr "名前"
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Mute"
+msgstr "ミュート"
 
-#: .\base\timeeditcomponent.cpp .\events\eventeditcomponent.cpp
+#: .\events\eventeditcomponent.cpp .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Navigation"
 msgstr "ナビゲーション"
+
+#: .\quantize\quantizelength.cpp
+msgid "[Quantize]Next Base"
+msgstr "次のベース"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Next Event"
@@ -338,7 +346,7 @@ msgstr "次のイベント"
 msgid "[Command]Next Event Extend"
 msgstr "次のイベント拡張"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Next Hotspot"
 msgstr "次のホットスポット"
 
@@ -346,39 +354,39 @@ msgstr "次のホットスポット"
 msgid "[MusicEditComponent]Note Length"
 msgstr "ノート長"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge"
 msgstr "ナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Back"
 msgstr "後ろへナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar"
 msgstr "小節単位でナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Bar Back"
 msgstr "小節単位で後ろへナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Down"
 msgstr "下にナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Down Fine"
 msgstr "下に細かくナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Up"
 msgstr "上にナッジ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Nudge Up Fine"
 msgstr "上に細かくナッジ"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Numerator"
 msgstr "分子"
 
@@ -394,11 +402,11 @@ msgstr "イベントをペイント"
 msgid "[NoteColorScheme]Part"
 msgstr "パート"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Paste at Original Position"
 msgstr "元の位置にペースト"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Paste at Original Position"
 msgstr "元の位置にペースト"
 
@@ -406,13 +414,17 @@ msgstr "元の位置にペースト"
 msgid "[EventFigures]Phase offset"
 msgstr "位相オフセット"
 
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Pitch"
+msgstr "ピッチ"
+
 #: .\music\notecolorschemeparam.cpp
 msgid "[NoteColorScheme]Pitch"
 msgstr "ピッチ"
 
-#: .\music\pitchnameeditor.cpp
-msgid "[PitchNameEditor]Pitch"
-msgstr "ピッチ"
+#: .\quantize\quantizelength.cpp
+msgid "[Quantize]Previous Base"
+msgstr "前のベース"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Previous Event"
@@ -422,12 +434,16 @@ msgstr "前のイベント"
 msgid "[Command]Previous Event Extend"
 msgstr "前のイベント拡張"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Previous Hotspot"
 msgstr "前のホットスポット"
 
-#: .\base\timesnapper.cpp
-msgid "[TimeSnapper]Quantize"
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Process"
+msgstr "プロセス"
+
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Quantize"
 msgstr "クオンタイズ"
 
 #: .\quantize\quantizecomponent.cpp
@@ -438,27 +454,35 @@ msgstr "クオンタイズ"
 msgid "[Command]Quantize"
 msgstr "クオンタイズ"
 
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Edit]Quantize"
+msgstr "クオンタイズ"
+
+#: .\timeedit\timesnapper.cpp
+msgid "[TimeSnapper]Quantize"
+msgstr "クオンタイズ"
+
 #: .\quantize\quantizegrid.cpp
 msgid "[FileType]Quantize Settings"
 msgstr "クオンタイズ設定"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Quintole"
+msgid "[Quantize]Quintuplet"
 msgstr "5連符"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Range End to Cursor"
 msgstr "エンドからカーソルまで範囲を設定"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Range Start to Cursor"
 msgstr "スタートからカーソルまで範囲を設定"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Redo Zoom"
 msgstr "ズームをやり直す"
 
-#: .\base\snaptimeprovider.cpp
+#: .\timeedit\snaptimeprovider.cpp
 msgid "[TimeSnapper]Relative Grid"
 msgstr "相対グリッド"
 
@@ -466,11 +490,11 @@ msgstr "相対グリッド"
 msgid "[Tempo]Remove Tempo"
 msgstr "テンポを削除"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Remove Time Signature"
 msgstr "拍子を削除"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Restore Zoom State"
 msgstr "ズームの状態を復元"
 
@@ -482,17 +506,13 @@ msgstr "Sカーブ"
 msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
 msgstr "テンポをスケール:時間ルーラーを小節に設定してください"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Select All in Loop"
 msgstr "ループ内のすべてを選択"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Select All on Tracks"
 msgstr "トラック上のすべてを選択"
-
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Select Base"
-msgstr "ベースを選択"
 
 #: .\events\eventeditcomponent.cpp
 msgid "[Command]Select from Event to End"
@@ -507,22 +527,22 @@ msgid "[PitchScale]Select notes of this Pitch"
 msgstr "このピッチの音を選択"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Septole"
+msgid "[Quantize]Septuplet"
 msgstr "7連符"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Set Loop End"
 msgstr "ループエンドを設定"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Set Loop End"
 msgstr "ループエンドを設定"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Set Loop Start"
 msgstr "ループスタートを設定"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Set Loop Start"
 msgstr "ループスタートを設定"
 
@@ -554,83 +574,95 @@ msgstr "プログラムFを設定"
 msgid "[Command]Set Program G"
 msgstr "プログラムGを設定"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End"
 msgstr "範囲エンドをサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Back"
 msgstr "範囲エンドを後ろにサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Down"
 msgstr "範囲エンドを下にサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End Up"
 msgstr "範囲エンドを上にサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End to Hotspot"
 msgstr "範囲エンドをホットスポットまでサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range End to Hotspot Back"
 msgstr "範囲エンドをホットスポットまで後ろにサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start"
 msgstr "範囲スタートをサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Back"
 msgstr "範囲スタートを後ろにサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Down"
 msgstr "範囲スタートを下にサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start Up"
 msgstr "範囲スタートを上にサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start to Hotspot"
 msgstr "範囲スタートをホットスポットまでサイズ変更"
 
-#: .\base\timeselectioncomponent.cpp
+#: .\timeedit\timeselectioncomponent.cpp
 msgid "[Command]Size Range Start to Hotspot Back"
 msgstr "範囲スタートをホットスポットまで後ろにサイズ変更"
+
+#: .\timeedit\snaptimeprovider.cpp
+msgid "[Command]Snap Relative Grid"
+msgstr "相対グリッドにスナップ"
 
 #: .\events\eventsnapper.cpp
 msgid "[TimeSnapper]Snap To Events"
 msgstr "イベントにスナップ"
 
-#: .\base\snaptimeprovider.cpp
+#: .\timeedit\snaptimeprovider.cpp
 msgid "[TimeSnapper]Snap To Grid"
 msgstr "グリッドにスナップ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\snaptimeprovider.cpp
+msgid "[Command]Snap To Grid"
+msgstr "グリッドにスナップ"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Snap to Cursor & Loop"
 msgstr "カーソルとループにスナップ"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
+msgid "[Command]Snap to Cursor & Loop"
+msgstr "カーソルとループにスナップ"
+
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Split"
 msgstr "分割"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
 msgstr "カーソル位置で分割"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Split at Cursor"
 msgstr "カーソル位置で分割"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Start/Stop"
 msgstr "スタート/停止"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Store Zoom State"
 msgstr "ズームの状態を保存"
 
@@ -650,15 +682,19 @@ msgstr "ストレッチ"
 msgid "[Command]Tempo"
 msgstr "テンポ"
 
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Time"
+msgstr "時間"
+
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Time Locked"
 msgstr "時間はロックされています"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Time Ruler"
 msgstr "時間ルーラー"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Timebase"
 msgstr "タイムベース"
 
@@ -666,19 +702,19 @@ msgstr "タイムベース"
 msgid "[Events]Toggle Chord Mode"
 msgstr "コードモードを切り替え"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Toggle Snap"
 msgstr "スナップを切り替え"
 
-#: .\base\timesnapper.cpp
+#: .\timeedit\timesnapper.cpp
 msgid "[Command]Toggle Snap"
 msgstr "スナップを切り替え"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Toggle Time-Linear Display"
 msgstr "タイムリニアディスプレイを切り替え"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Toggle Zoom"
 msgstr "ズームを切り替え"
 
@@ -694,7 +730,7 @@ msgstr "オートメーションを変形"
 msgid "[Command]Transform Range"
 msgstr "範囲を変換"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Transport"
 msgstr "トランスポート"
 
@@ -702,7 +738,7 @@ msgstr "トランスポート"
 msgid "[Quantize]Triplet"
 msgstr "3連符"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
 msgstr "ズームを取り消す"
 
@@ -713,6 +749,10 @@ msgstr "値/時間のロックを解除"
 #: .\envelopes\envelopeedithandler.cpp
 msgid "[Events]Values Locked"
 msgstr "値はロックされています"
+
+#: .\music\musicedittasks.cpp
+msgid "[MusicEdit]Velocity"
+msgstr "ベロシティ"
 
 #: .\music\notecolorschemeparam.cpp
 msgid "[NoteColorScheme]Velocity"
@@ -726,61 +766,79 @@ msgstr "ベロシティアクセント"
 msgid "[NoteColorScheme]Velocity Bar"
 msgstr "ベロシティバー"
 
-#: .\base\timeeditcomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]View"
 msgstr "表示"
 
-#: .\base\timeeditcomponent.cpp .\base\timelinecomponent.cpp
+#: .\timeedit\timeeditcomponent.cpp .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom"
 msgstr "ズーム"
 
-#: .\base\timerulerview.cpp
+#: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Zoom"
 msgstr "ズーム"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full"
 msgstr "フルズーム"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full Horizontally"
 msgstr "水平にフルズーム"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In"
 msgstr "ズームイン"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In Fine"
 msgstr "細かくズームイン"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In Vertical"
 msgstr "垂直ズームイン"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out"
 msgstr "ズームアウト"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out Fine"
 msgstr "細かくズームアウト"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Out Vertical"
 msgstr "垂直ズームアウト"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Loop"
 msgstr "ループへズーム"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection"
 msgstr "選択へズーム"
 
-#: .\base\timelinecomponent.cpp
+#: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
+
+#~ msgid "[TimeEditModel]Move to Cursor"
+#~ msgstr "カーソルへ移動"
+
+#~ msgid "[Command]Select Base"
+#~ msgstr "ベースを選択"
+
+#~ msgid "[PitchNameEditor]Name"
+#~ msgstr "名前"
+
+#~ msgid "[PitchNameEditor]Pitch"
+#~ msgstr "ピッチ"
+
+#~ msgid "[Quantize]Quintole"
+#~ msgstr "5連符"
+
+#~ msgid "[Quantize]Septole"
+#~ msgstr "7連符"
 
 #~ msgid "[MusicalScale]Blues"
 #~ msgstr "ブルース"
