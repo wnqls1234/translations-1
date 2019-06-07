@@ -70,7 +70,7 @@ msgstr "Grupa o tej nazwie już istnieje."
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOType]ADAT"
-msgstr ""
+msgstr "ADAT"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Activate"
@@ -154,11 +154,11 @@ msgstr "Dodaj FX na kanale \"%(1)\""
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[EditGroups]Add Group"
-msgstr ""
+msgstr "Dodaj grupę"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Add I/O Channels"
-msgstr ""
+msgstr "Dodaj kanały we./wy."
 
 #: .\audiomixer\setup\audiomixersetup.cpp
 msgid "[Command]Add Insert"
@@ -218,7 +218,7 @@ msgstr "Pojawił się nieprawidłowy sygnał"
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOType]Analog"
-msgstr ""
+msgstr "Analogowe"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
@@ -246,7 +246,7 @@ msgstr "Przypisz parametr"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Assign in Ascending Order"
-msgstr ""
+msgstr "Przypisz w porządku rosnącym"
 
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assigned"
@@ -380,23 +380,23 @@ msgstr "kanału"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Channel Color"
-msgstr ""
+msgstr "Kolor kanału"
 
 #: .\mixerconsole\channelguicomponent.cpp
 msgid "[Command]Channel Components"
-msgstr ""
+msgstr "Komponenty kanału"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Channel Count"
-msgstr ""
+msgstr "Liczba kanałów"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Channel Format"
-msgstr ""
+msgstr "Format kanału"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Channel Label"
-msgstr ""
+msgstr "Etykieta kanału"
 
 #: .\audioeffects\audiofxgraph.cpp
 msgid "[AudioFXGraph]Channel Split"
@@ -423,8 +423,7 @@ msgid "[AudioClick]Click Volume"
 msgstr "Głośność metronomu"
 
 #: .\audiomixer\audiorenderengine.cpp
-msgid ""
-"[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
 msgstr "Pojawił się przester. Sygnał przekroczył %float(1:2) dB."
 
 #: .\base\devicefolder.cpp
@@ -562,7 +561,7 @@ msgstr "Urządzenie"
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOMatrix]Device %(1)"
-msgstr ""
+msgstr "Urządzenie %(1)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Device information for %(1) received."
@@ -627,7 +626,7 @@ msgstr "Rozwiąż grupę"
 
 #: .\audiomixer\setup\audioiosetup.cpp
 msgid "[AudioIOSetup]Do you want to reset to your default I/O Setup?"
-msgstr ""
+msgstr "Czy chcesz zresetować do Twojej domyślnej konfiguracji we./wy.?"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Double (64 Bit)"
@@ -778,21 +777,12 @@ msgid "[MusicNoteRepeater]Gate %f(1:1)"
 msgstr "Bramka %f(1:1)"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. "
-"This device model features MIDI Learn."
-msgstr ""
-"Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn."
+msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
+msgstr "Ogólny kontroler DAW. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn."
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This "
-"device model features MIDI Learn. Connecting the send port is optional."
-msgstr ""
-"Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model "
-"urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest "
-"opcjonalne."
+msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
+msgstr "Ogólna klawiatura MIDI. Użyj w przypadku nieznanego sprzętu. Ten model urządzenia obsługuje funkcję MIDI Learn. Połączenia portu wysyłania jest opcjonalne."
 
 #: .\surfaces\editor\editcomponent.cpp
 msgid "[SurfaceEditor]Global"
@@ -856,11 +846,11 @@ msgstr "Wysoka"
 
 #: .\audiomixer\audioioassignment.cpp
 msgid "[FileType]I/O Configuration"
-msgstr ""
+msgstr "Konfiguracja we./wy."
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOMatrix]I/O Type"
-msgstr ""
+msgstr "Typ we/wy"
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]Idle"
@@ -884,7 +874,7 @@ msgstr "Kontrolki wejścia"
 
 #: .\audiomixer\audiochannelinputfx.cpp
 msgid "[AudioChannelInputFX]Input Gain"
-msgstr ""
+msgstr "Wzmocnienie wejścia"
 
 #: .\musicmixer\musicfxfolder.cpp
 msgid "[MusicFXFolder]Input Mode"
@@ -988,7 +978,7 @@ msgstr "Gałka"
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOMatrix]Label"
-msgstr ""
+msgstr "Etykieta"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Large"
@@ -1072,11 +1062,11 @@ msgstr "Minimalna"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Missing"
-msgstr ""
+msgstr "Brakujące"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Missing Files"
-msgstr ""
+msgstr "Brakujące pliki"
 
 #: .\audiomixer\audiomixfxcomponent.cpp
 msgid "[Devices]Mix FX"
@@ -1209,8 +1199,7 @@ msgstr "Brak urządzenia audio"
 
 #: .\surfaces\editor\placementeditor.cpp
 msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
-msgstr ""
-"Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
+msgstr "Brak zainstalowanych kontrolerów DAW, które mogłyby zostać pogrupowane."
 
 #: .\midi\miditimecode.cpp
 msgid "[MidiTimeCode]No Input"
@@ -1254,11 +1243,11 @@ msgstr "Zestaw efektów MIDI"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Note Repeat"
-msgstr "Powtarzaj nuty"
+msgstr "Powtarzanie nut"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Note Repeat"
-msgstr "Powtarzaj nuty"
+msgstr "Powtarzanie nut"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Nudge"
@@ -1365,9 +1354,7 @@ msgid "[Command]Play from Loop Start"
 msgstr "Odtwarzaj od początku pętli"
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss "
-"this message when finished..."
+msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
 msgstr "Podłącz urządzenia MIDI, a następnie zamknij ten komunikat..."
 
 #: .\audiomixer\audiochannelinputfx.cpp
@@ -1400,7 +1387,7 @@ msgstr "Za tłumikiem"
 
 #: .\audiomixer\audiochannelmeter.cpp
 msgid "[AudioChannelMeter]Pre-Fader Metering"
-msgstr ""
+msgstr "Miernik przed tłumikiem"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
 msgid "[Hardware]Preamp Gain"
@@ -1544,7 +1531,7 @@ msgstr "Usuń automatykę %(1)"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Remove Added Sounds"
-msgstr ""
+msgstr "Usuń dodane dźwięki"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Remove All"
@@ -1600,11 +1587,11 @@ msgstr "Usuń rozdzielacz"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Remove Unused"
-msgstr ""
+msgstr "Usuń nieużywane"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Remove Unused Instruments"
-msgstr ""
+msgstr "Usuń nieużywane instrumenty"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Rename %(1)"
@@ -1712,7 +1699,7 @@ msgstr "Przewiń takt do tyłu"
 
 #: .\audiomixer\setup\audioiomatrix.cpp
 msgid "[AudioIOType]S/PDIF"
-msgstr ""
+msgstr "S/PDIF"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Saving Device: %(1)"
@@ -1760,11 +1747,11 @@ msgstr "Wybierz scenę 5"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Select Sidechain Source"
-msgstr ""
+msgstr "Pokaż źródło kluczowania"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Destination"
-msgstr ""
+msgstr "Cel wysyłki"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Level"
@@ -1780,7 +1767,7 @@ msgstr "Panorama wysyłki"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Prefader"
-msgstr ""
+msgstr "Wysyłka przed tłumikiem"
 
 #: .\audiomixer\audiosendfolder.cpp
 msgid "[AudioSendSlot]Send Slot"
@@ -1888,15 +1875,15 @@ msgstr "Pokaż przeznaczenie"
 
 #: .\mixerconsole\channelguicomponent.cpp
 msgid "[Command]Show Group Assignment"
-msgstr ""
+msgstr "Pokaż przypisania grup"
 
 #: .\mixerconsole\channelguicomponent.cpp
 msgid "[Command]Show I/O Connections"
-msgstr "Pokaż połączenia I/O"
+msgstr "Pokaż połączenia we./wy."
 
 #: .\mixerconsole\channelguicomponent.cpp
 msgid "[Command]Show Input Controls"
-msgstr ""
+msgstr "Pokaż kontrolki wejścia"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Instrument Editor"
@@ -1912,7 +1899,7 @@ msgstr "Pokaż powiązane kanały"
 
 #: .\mixerconsole\channelguicomponent.cpp
 msgid "[Command]Show Sends/Cue mix"
-msgstr ""
+msgstr "Pokaż wysyłki/submiksy"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[Command]Show Track"
@@ -1936,7 +1923,7 @@ msgstr "Pokaż w konsolecie"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechain Active"
-msgstr ""
+msgstr "Kluczowanie jest aktywne"
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Sidechains"
@@ -1944,7 +1931,7 @@ msgstr "Kluczowanie"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Single"
-msgstr "Pojedynczy"
+msgstr "Stała nuta"
 
 #: .\audio\audiosetup.cpp
 msgid "[AudioSetup]Single (32 Bit)"
@@ -1952,32 +1939,30 @@ msgstr "Pojedyncza (32 bity)"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Single Base Pitch"
-msgstr "Bazowa wysokość trybu niezależnego"
+msgstr "Bazowa wysokość trybu stałej nuty"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Single Mode"
-msgstr "Niezależnie"
+msgstr "Stała nuta"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[Command]Single Mode"
-msgstr "Niezależnie"
+msgstr "Stała nuta"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Single Pitch Symbolic"
-msgstr "Symbole w trybie niezależnym"
+msgstr "Symbole w trybie stałej nuty"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Single Repeat Pitch"
-msgstr "Wysokość powtarzanie trybu niezależnego"
+msgstr "Wysokość powtarzanie trybu stałej nuty"
 
 #: .\mixerconsole\mixerconsole.cpp
 msgid "[MixerConsole]Small"
 msgstr "Mały"
 
 #: .\audiomixer\setup\audioiosetup.cpp
-msgid ""
-"[AudioIOSetup]Some channels are still in use! Do you want to remove them "
-"anyway?"
+msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
 msgstr "Niektóre kanały są nadal w użyciu! Czy chcesz je mimo to usunąć?"
 
 #: .\audiomixer\hardwareintegration\hardwarecontrols.cpp
@@ -2050,51 +2035,51 @@ msgstr "Pod-instrument"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend All Groups"
-msgstr ""
+msgstr "Zawieś wszystkie grupy"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group"
-msgstr ""
+msgstr "Zawieś grupę"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 1"
-msgstr ""
+msgstr "Zawieś grupę 1"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 10"
-msgstr ""
+msgstr "Zawieś grupę 10"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 2"
-msgstr ""
+msgstr "Zawieś grupę 2"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 3"
-msgstr ""
+msgstr "Zawieś grupę 3"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 4"
-msgstr ""
+msgstr "Zawieś grupę 4"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 5"
-msgstr ""
+msgstr "Zawieś grupę 5"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 6"
-msgstr ""
+msgstr "Zawieś grupę 6"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 7"
-msgstr ""
+msgstr "Zawieś grupę 7"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 8"
-msgstr ""
+msgstr "Zawieś grupę 8"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[Command]Suspend Group 9"
-msgstr ""
+msgstr "Zawieś grupę 9"
 
 #: .\macrocontrol\macrocontroledit.cpp
 msgid "[ActionDescriptions]Swap Macro Controls"
@@ -2129,56 +2114,32 @@ msgid "[SurfaceControl]Text Display"
 msgstr "Wyświetlany tekst"
 
 #: .\music\setup\musicdevicesetup.cpp
-msgid ""
-"[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want "
-"to remove it from User Devices?"
-msgstr ""
-"Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z "
-"urządzeń użytkownika?"
+msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
+msgstr "Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć z urządzeń użytkownika?"
 
 #: .\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) could not be initialized. Please check your "
-"hardware configuration and try again."
-msgstr ""
-"Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i "
-"spróbuj ponownie."
+msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
+msgstr "Nie można zainicjować urządzenia audio %(1). Sprawdź konfigurację sprzętu i spróbuj ponownie."
 
 #: .\audio\audioengine.cpp
-msgid ""
-"[Devices]The audio device %(1) has failed to start correctly before. Do you "
-"want to try it again?"
-msgstr ""
-"Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować "
-"jeszcze raz?"
+msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
+msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbować jeszcze raz?"
 
 #: .\audio\watchdogcomponent.cpp
-msgid ""
-"[Devices]The audio engine has been stopped, because the system became "
-"unresponsive due to an overload in the audio engine."
-msgstr ""
-"Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku "
-"przeciążenia."
+msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
+msgstr "Silnik audio został zatrzymany, ponieważ przestał odpowiadać w wyniku przeciążenia."
 
 #: .\video\videoplayer.cpp
-msgid ""
-"[VideoPlayer]The default audio output is used exclusively and cannot be "
-"opened for video playback."
-msgstr ""
-"Domyślne wyjście audio jest używane w trybie wyłączności i nie może zostać "
-"użyte do odtwarzania wideo."
+msgid "[VideoPlayer]The default audio output is used exclusively and cannot be opened for video playback."
+msgstr "Domyślne wyjście audio jest używane w trybie wyłączności i nie może zostać użyte do odtwarzania wideo."
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]This device can not be removed right now!"
 msgstr "Tego urządzenia nie można teraz usunąć!"
 
 #: .\music\setup\musicdevicedialog.cpp
-msgid ""
-"[MusicDeviceDialog]This port is already in use. Connecting multiple devices "
-"to the same port may lead to copied transmission of MIDI events."
-msgstr ""
-"Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu "
-"może prowadzić do skopiowania transmisji komunikatów MIDI."
+msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
+msgstr "Ten port jest już w użyciu. Podłączanie wielu urządzeń do tego samego portu może prowadzić do skopiowania transmisji komunikatów MIDI."
 
 #: .\midi\midimonitor.cpp
 msgid "[MidiMonitor]Time"
@@ -2267,21 +2228,15 @@ msgstr "Usuń przypisanie"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Unused"
-msgstr ""
+msgstr "Nieużywane"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Unused Files"
-msgstr ""
+msgstr "Nieużywane pliki"
 
 #: .\music\setup\musicdeviceadddialog.cpp
-msgid ""
-"[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record "
-"controller movements. When connecting the receive port, be careful to avoid "
-"doubled events if the same port is used by a Keyboard device."
-msgstr ""
-"Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów "
-"kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu "
-"odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
+msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
+msgstr "Użyj do grania na zewnętrznym instrumencie MIDI i nagrywania ruchów kontrolera. Aby uniknąć zdublowanych obiektów, podczas podłączania portu odbiorczego, sprawdź czy port nie jest używany przez klawiaturę."
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Used"
@@ -2289,7 +2244,7 @@ msgstr "Użycie"
 
 #: .\audiomixer\audioclick.cpp
 msgid "[AudioClick]Used Files"
-msgstr ""
+msgstr "Używane pliki"
 
 #: .\studio\missingdevices.cpp
 msgid "[Studio]Used by"
@@ -2328,30 +2283,6 @@ msgid "[Automation]Write"
 msgstr "Write"
 
 #: .\music\musicdevicemanager.cpp
-msgid ""
-"[MusicDevices]Your MIDI configuration has changed. This might be due to "
-"removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są "
-"teraz podłączone\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone\n\nCzy chcesz je teraz ponownie podłączyć?"
 
-#~ msgid ""
-#~ "[SynthCombinator]A note event splitter can be inserted for 3 or more "
-#~ "instruments"
-#~ msgstr "Rozdzielacz nut może być umieszczony dla 3 lub więcej instrumentów"
-
-#~ msgid "[Command]Device"
-#~ msgstr "Urządzenie"
-
-#~ msgid "[Automation]Edit %(1) Automation"
-#~ msgstr "Edytuj automatykę - %(1)"
-
-#~ msgid "[Automation]Remove %(1) Automation"
-#~ msgstr "Usuń automatykę %(1)"
-
-#~ msgid "[Command]Add Group Channel"
-#~ msgstr "Dodaj grupę kanałów"
