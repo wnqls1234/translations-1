@@ -36,6 +36,10 @@ msgstr "Rücktaste"
 msgid "[FileType]Bitmap File"
 msgstr "Bitmap-Datei"
 
+#: .\skin\coreskinmodel.cpp
+msgid "[FileType]Bitmap Font"
+msgstr "Bitmap-Font"
+
 #: .\dialogs\alert.cpp
 msgid "[Alert]Cancel"
 msgstr "Abbrechen"
@@ -453,12 +457,12 @@ msgid "[VirtualKey]NumPad+"
 msgstr "Num+"
 
 #: .\keyevent.cpp
-msgid "[VirtualKey]NumPad,"
-msgstr "Num,"
-
-#: .\keyevent.cpp
 msgid "[VirtualKey]NumPad-"
 msgstr "Num-"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]NumPad."
+msgstr "Num,"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad/"

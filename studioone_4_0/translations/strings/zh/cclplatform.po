@@ -3,18 +3,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: smartCAT.ai\n"
 
-#: .\cocoa\gui\fileselector.cocoa.mm
+#: .\cocoa\gui\fileselector.cocoa.mm .\cocoa\gui\fileselector.ios.mm
 msgid "[FileSelector]All Documents"
-msgstr "所有文件"
+msgstr "所有文档"
 
 #: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Files (*.*)"
 msgstr "所有文件 (*.*)"
 
-#: .\cocoa\gui\fileselector.cocoa.mm
+#: .\cocoa\gui\fileselector.cocoa.mm .\cocoa\gui\fileselector.ios.mm
 msgid "[FileSelector]All Readable Documents"
-msgstr "所有可读文件"
+msgstr "所有可读文档"
 
 #: .\win\gui\fileselector.win.cpp
 msgid "[FileSelector]All Supported Files"
@@ -28,14 +30,14 @@ msgid ""
 "\n"
 "%(1)"
 msgstr ""
-"程序中使用的插件出现异常错误!\n"
-"崩溃信息:\n"
+"此应用程序或其插件出现异常错误!\n"
+"故障转储信息位于:\n"
 "\n"
 "%(1)"
 
 #: .\win\direct2d\dxgiengine.cpp
 msgid "[Win32]Graphics hardware acceleration issue detected."
-msgstr "监测到图形硬件校准问题"
+msgstr "检测到图形硬件加速问题。"
 
 #: .\cocoa\gui\menu.cocoa.mm
 msgid "[MacMenu]Hide"

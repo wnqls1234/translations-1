@@ -8,6 +8,10 @@ msgstr ""
 msgid "[ChordSelectorParts]#9"
 msgstr "#9"
 
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]$APPCOMPANY Exchange and other services"
+msgstr ""
+
 #: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
 msgstr "Forum $APPCOMPANY"
@@ -16,9 +20,9 @@ msgstr "Forum $APPCOMPANY"
 msgid "[UserLicenseExpired]$APPCOMPANY Shop"
 msgstr "Sklep $APPCOMPANY"
 
-#: .\ccl\browser.xml
-msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
-msgstr "Sklep i inne usługi $APPCOMPANY"
+#: .\app\windowclasses.xml
+msgid "[WebPackageManager]$APPCOMPANY Shop"
+msgstr "Sklep $APPCOMPANY"
 
 #: .\app\licenser.xml
 msgid "[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
@@ -137,6 +141,10 @@ msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggleInvert]$title"
+msgstr "$title"
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewToggle2]$title"
 msgstr "$title"
 
@@ -185,6 +193,10 @@ msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggleInvert]$tooltip"
+msgstr "$tooltip"
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewToggle2]$tooltip"
 msgstr "$tooltip"
 
@@ -207,6 +219,14 @@ msgstr "$tooltip"
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]&#8226;"
 msgstr "&#8226;"
+
+#: .\ccl\browser.xml
+msgid "[BreadcrumbsDelegate]&gt;"
+msgstr "&gt;"
+
+#: .\ccl\browser.xml
+msgid "[DeluxeBreadcrumbsDelegate]&gt;"
+msgstr "&gt;"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]&gt;"
@@ -840,6 +860,10 @@ msgstr "A"
 msgid "[SynthCombinatorRouting]A note event splitter can be inserted for 3 or more instruments"
 msgstr "Rozdzielacz nut może być umieszczony dla 3 lub więcej instrumentów"
 
+#: .\app\windowclasses.xml
+msgid "[PackageManager]$APPNAME Packages"
+msgstr ""
+
 #: .\app\homepage.xml
 msgid "[Command]About"
 msgstr "O programie"
@@ -882,10 +906,6 @@ msgstr "Aktywuj"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Activate"
-msgstr "Aktywuj"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Activate"
 msgstr "Aktywuj"
 
 #: .\devices\audiofxeditor.xml
@@ -947,10 +967,6 @@ msgstr "Aktywuj warstwę"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Activate Offline"
 msgstr "Aktywacja offline"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Activate Purchased Items"
-msgstr "Aktywuj zakupione elementy"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationOptions]Activate my purchased version of $APPNAME"
@@ -1132,6 +1148,10 @@ msgstr "Wszystkie"
 msgid "[TrackExport]All"
 msgstr "Wszystkie"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]All"
+msgstr "Wszystkie"
+
 #: .\devices\devices.xml
 msgid "[MidiMonitor]All Notes Off"
 msgstr "Wszystkie nuty Off"
@@ -1139,6 +1159,10 @@ msgstr "Wszystkie nuty Off"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Analyze"
 msgstr "Analizuj"
+
+#: .\app\windowclasses.xml
+msgid "[Command]Application"
+msgstr "Aplikacja"
 
 #: .\engine\audioediting.xml
 msgid "[EditPanel.ApplyPart]Apply"
@@ -1344,12 +1368,12 @@ msgstr "Autopunch @cmd[Transport|Autopunch]"
 msgid "[AutoSaveOption]Auto Save Documents"
 msgstr "Auto-zapisywanie dokumentów"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Auto Tail"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Auto Tail"
 msgstr "Automatyczny ogon"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Auto Tail"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Auto Tail"
 msgstr "Automatyczny ogon"
 
 #: .\app\options.xml
@@ -2577,6 +2601,10 @@ msgid "[EditGroupSelector]Edit Group"
 msgstr "Grupa edycji"
 
 #: .\engine\eventinspector.xml
+msgid "[EventProperties]Edit Lock"
+msgstr "Blokada edycji"
+
+#: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Edit Lock"
 msgstr "Blokada edycji"
 
@@ -2598,10 +2626,6 @@ msgstr "Blokada edycji"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartMiniProperties.Table]Edit Lock"
-msgstr "Blokada edycji"
-
-#: .\engine\eventinspector.xml
-msgid "[ChordEventMiniProperties]Edit Lock"
 msgstr "Blokada edycji"
 
 #: .\devices\audiofxeditor.xml
@@ -2948,8 +2972,16 @@ msgstr "Zanikanie"
 msgid "[AudioEventPropertiesList]Fade-In"
 msgstr "Narastanie"
 
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Fade-In"
+msgstr "Narastanie"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Fade-Out"
+msgstr "Zanikanie"
+
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Fade-Out"
 msgstr "Zanikanie"
 
 #: .\app\options.xml
@@ -3016,12 +3048,12 @@ msgstr "Filtr"
 msgid "[MusicDeviceOptions]Filter"
 msgstr "Filtr"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Fixed Tail"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Fixed Tail"
 msgstr "Ustalony ogon"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Fixed Tail"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Fixed Tail"
 msgstr "Ustalony ogon"
 
 #: .\devices\audiofxeditor.xml
@@ -3104,6 +3136,10 @@ msgstr "Gadżety"
 msgid "[AudioEventPropertiesList]Gain"
 msgstr "Wzmocnienie"
 
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Gain"
+msgstr "Wzmocnienie"
+
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Gate"
 msgstr "Bramka"
@@ -3135,6 +3171,10 @@ msgstr "Gatunek"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]Genre"
 msgstr "Gatunek"
+
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]Get add-ons from $APPCOMPANY Shop"
+msgstr ""
 
 #: .\engine\song.xml
 msgid "[TrackList]Global Mute @cmd[Console|Global Mute]"
@@ -3311,10 +3351,6 @@ msgstr "Ikona"
 #: .\app\multitrack.xml
 msgid "[MultitrackPropertyEditor]Identifier"
 msgstr "Identyfikator"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
-msgstr "Jeżeli komputer nie jest podłączony do Internetu, należy pobrać plik licencji z konta $APPCOMPANY i wybrać go lub przeciągnąć w to okno."
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]If your computer is not connected to the Internet, please take the following steps to activate $APPNAME:"
@@ -3848,6 +3884,14 @@ msgstr "Połącz"
 msgid "[StripSilencePanel.EventsPart]Linked"
 msgstr "Połącz"
 
+#: .\engine\editor.xml
+msgid "[PatternInspector]Load"
+msgstr "Wczytaj"
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Load Pattern Preset"
+msgstr ""
+
 #: .\ccl\common.xml
 msgid "[ColorSchemePresetOption]Load Preset"
 msgstr "Wczytaj zestaw"
@@ -4056,12 +4100,12 @@ msgstr "Status pliku masteringu / Edytuj utwór"
 msgid "[StripSilencePanel.DetectionPart]Material"
 msgstr "Materiał"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Max Length"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Max Length"
 msgstr "Maksymalna długość"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Max Length"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Max Length"
 msgstr "Maksymalna długość"
 
 #: .\app\shared.xml
@@ -4175,6 +4219,10 @@ msgstr "Tryb"
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Modified:"
 msgstr "Zmodyfikowano:"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceKeyboardView]Modulation"
+msgstr "Modulacja"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Momentary"
@@ -4396,12 +4444,20 @@ msgstr "Nie wybrano ścieżki"
 msgid "[TrackExport]None"
 msgstr "Brak"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]None"
+msgstr "Brak"
+
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Normal"
 msgstr "Normalny"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Normalize"
+msgstr "Normalizacja"
+
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Normalize"
 msgstr "Normalizacja"
 
 #: .\engine\editor.xml
@@ -4644,6 +4700,10 @@ msgstr "Nakładanie"
 msgid "[TrackExport]Overlap"
 msgstr "Nakładanie"
 
+#: .\app\windowclasses.xml
+msgid "[Command]Packages"
+msgstr "Pakiety"
+
 #: .\app\options.xml
 msgid "[AutomationOption]Pan"
 msgstr "Panorama"
@@ -4686,6 +4746,10 @@ msgstr "Wklej"
 
 #: .\engine\editor.xml
 msgid "[Command]Pattern"
+msgstr "Schemat"
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Pattern"
 msgstr "Schemat"
 
 #: .\app\windowclasses.xml .\engine\editor.xml
@@ -4747,6 +4811,10 @@ msgstr "Pitch Bend"
 #: .\engine\editor.xml
 msgid "[PitchNameSetup]Pitch Names"
 msgstr "Nazwy wysokości nut"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceKeyboardView]Pitchbend"
+msgstr "Pitchbend"
 
 #: .\project\analyser.xml
 msgid "[Analyser]PkRMS"
@@ -4908,7 +4976,7 @@ msgstr "Odtwarzanie przed nagrywaniem @cmd[Transport|Preroll]"
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
 msgstr "Zachowaj stan ścieżki instrumentu"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "Zachowaj stan czasu rzeczywistego"
 
@@ -5380,6 +5448,14 @@ msgstr "Usuń instrument"
 msgid "[LayerAspectRow1]Remove Layer"
 msgstr "Usuń warstwę"
 
+#: .\ccl\pluginmanager.xml
+msgid "[PlugInManager]Remove Plug-In Settings"
+msgstr ""
+
+#: .\ccl\pluginmanager.xml
+msgid "[Command]Remove Plug-In Settings"
+msgstr ""
+
 #: .\devices\devices.xml
 msgid "[MacroControlSetup]Remove Targets"
 msgstr "Usuń parametry"
@@ -5700,6 +5776,10 @@ msgstr "Segmenty"
 msgid "[TrackExport]Select"
 msgstr "Zaznacz"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Select"
+msgstr "Zaznacz"
+
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Select Image"
 msgstr "Wybierz obraz"
@@ -5726,10 +5806,6 @@ msgstr "Wybierz kolor warstwy"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Select License File..."
-msgstr "Wybierz plik licencji..."
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Select License File..."
 msgstr "Wybierz plik licencji..."
 
 #: .\engine\inspector.xml
@@ -5880,9 +5956,21 @@ msgstr "Konfiguracja ogólna"
 msgid "[Command]Setup Meta Information"
 msgstr "Konfiguracja informacji"
 
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Shared Extensions"
+msgstr ""
+
 #: .\engine\editor.xml
 msgid "[Command]Shift Lane"
 msgstr "Przesuń pasek"
+
+#: .\app\windowclasses.xml
+msgid "[Command]Shop"
+msgstr ""
+
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]Shop"
+msgstr ""
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Short-Term"
@@ -5928,6 +6016,10 @@ msgstr "Pokaż urządzenia zdalne"
 msgid "[Command]Show Files"
 msgstr "Pokaż pliki"
 
+#: .\ccl\browser.xml
+msgid "[BrowserListView]Show Gallery"
+msgstr ""
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Groups (Channel List)"
 msgstr "Pokaż grupy (lista kanałów)"
@@ -5951,6 +6043,10 @@ msgstr "Pokaż instrumenty"
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Show Instruments and Note FX"
 msgstr "Pokaż instrumenty i efekty MIDI"
+
+#: .\ccl\browser.xml
+msgid "[BrowserListView]Show List"
+msgstr ""
 
 #: .\ccl\browser.xml
 msgid "[Command]Show Loops"
@@ -6000,16 +6096,16 @@ msgstr "Pokaż RMS na skali K-System 14"
 msgid "[Analyser]Show RMS on K-System 20 Scale"
 msgstr "Pokaż RMS na skali K-System 20"
 
+#: .\ccl\browser.xml
+msgid "[Command]Show Shop"
+msgstr ""
+
 #: .\app\toolbar.xml
 msgid "[Command]Show Song"
 msgstr "Pokaż utwór"
 
 #: .\ccl\browser.xml
-msgid "[PlugInBrowserHeader]Show Thumbnails"
-msgstr "Pokaż miniatury"
-
-#: .\ccl\browser.xml
-msgid "[CloudBrowserHeader]Show Thumbnails"
+msgid "[BrowserViewModeButtons]Show Thumbnails"
 msgstr "Pokaż miniatury"
 
 #: .\app\options.xml
@@ -6416,6 +6512,14 @@ msgstr "Zatrzymaj przy markerze"
 msgid "[MarkerMiniProperties.Table]Stop at Marker"
 msgstr "Zatrzymaj przy markerze"
 
+#: .\engine\editor.xml
+msgid "[PatternInspector]Store"
+msgstr ""
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Store Pattern Preset"
+msgstr ""
+
 #: .\ccl\common.xml
 msgid "[ColorSchemePresetOption]Store Preset"
 msgstr "Zapisz zestaw"
@@ -6476,7 +6580,7 @@ msgstr "Style"
 msgid "[StorePresetDialog]Subfolder"
 msgstr "Subfolder"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
 msgstr "Obsługa ponownego przekształcenia na ścieżkę audio z efektami insertowymi."
 
@@ -6504,12 +6608,12 @@ msgstr "Swing"
 msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "Swing"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "Przełącz pomiędzy automatycznym wykrywaniem ogona, a stałym ogonem o określonej długości."
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "Przełącz pomiędzy automatycznym wykrywaniem ogona, a stałym ogonem o określonej długości."
 
 #: .\engine\editor.xml
@@ -6600,10 +6704,6 @@ msgstr "Dziękujemy za zakupienie $APPNAME poprzez Mac App Store."
 msgid "[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "zakupienie $APPNAME poprzez Mac App Store."
 
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
-msgstr "Dziękujemy za zakup. Zakupione elementy są gotowe do aktywacji na tym komputerze."
-
 #: .\engine\videoplayer.xml
 msgid "[VideoCodecSelector]The source codecs are not supported by the selected file type."
 msgstr "Kodeki źródłowe nie są obsługiwane przez wybrany typ plików."
@@ -6645,6 +6745,10 @@ msgid "[BigTime]Time Display"
 msgstr "Wyświetl czas"
 
 #: .\engine\eventinspector.xml
+msgid "[EventProperties]Time Lock"
+msgstr "Blokada czasu"
+
+#: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Time Lock"
 msgstr "Blokada czasu"
 
@@ -6666,10 +6770,6 @@ msgstr "Blokada czasu"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartMiniProperties.Table]Time Lock"
-msgstr "Blokada czasu"
-
-#: .\engine\eventinspector.xml
-msgid "[ChordEventMiniProperties]Time Lock"
 msgstr "Blokada czasu"
 
 #: .\engine\songdialogs.xml
@@ -6783,6 +6883,10 @@ msgstr "Aby użyć tej funkcji wymagane jest posiadanie konta $APPCOMPANY. Najpi
 #: .\project\project.xml
 msgid "[Project]Toggle Track Height"
 msgstr "Zmień wysokość utworu"
+
+#: .\ccl\browser.xml
+msgid "[BrowserViewModeButtons]Toggle Tree Mode"
+msgstr ""
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
@@ -6904,7 +7008,7 @@ msgstr "Transfery"
 msgid "[TransferActivity]Transfers"
 msgstr "Transfery"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Transform Audio Track"
 msgstr "Przekształć ścieżkę audio"
 
@@ -7408,4 +7512,34 @@ msgstr "X"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "X"
+
+#~ msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
+#~ msgstr "Sklep i inne usługi $APPCOMPANY"
+
+#~ msgid "[PurchaseHandler]Activate"
+#~ msgstr "Aktywuj"
+
+#~ msgid "[PurchaseHandler]Activate Purchased Items"
+#~ msgstr "Aktywuj zakupione elementy"
+
+#~ msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+#~ msgstr "Jeżeli komputer nie jest podłączony do Internetu, należy pobrać plik licencji z konta $APPCOMPANY i wybrać go lub przeciągnąć w to okno."
+
+#~ msgid "[PurchaseHandler]Select License File..."
+#~ msgstr "Wybierz plik licencji..."
+
+#~ msgid "[PlugInBrowserHeader]Show Thumbnails"
+#~ msgstr "Pokaż miniatury"
+
+#~ msgid "[CloudBrowserHeader]Show Thumbnails"
+#~ msgstr "Pokaż miniatury"
+
+#~ msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+#~ msgstr "Dziękujemy za zakup. Zakupione elementy są gotowe do aktywacji na tym komputerze."
+
+#~ msgid "[ChordEventMiniProperties]Edit Lock"
+#~ msgstr "Blokada edycji"
+
+#~ msgid "[ChordEventMiniProperties]Time Lock"
+#~ msgstr "Blokada czasu"
 

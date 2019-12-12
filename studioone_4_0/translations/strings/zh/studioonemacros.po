@@ -3,6 +3,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: smartCAT.ai\n"
 
 #: .\panel.js
 msgid "Action"
@@ -10,7 +12,7 @@ msgstr "操作"
 
 #: .\panel.js
 msgid "Are you sure you want to revert all changes?"
-msgstr "确认要恢复所有改变吗?"
+msgstr "确认要还原所有更改吗?"
 
 #: .\editor.js
 msgid "Arguments"
@@ -18,7 +20,7 @@ msgstr "参数"
 
 #: .\main.js
 msgid "Arrangement"
-msgstr "排列"
+msgstr "编曲"
 
 #: .\main.js
 msgid "Audio Editor"
@@ -38,15 +40,15 @@ msgstr "描述"
 
 #: .\organizer.js
 msgid "Do you want to delete the selected macros?"
-msgstr "是否删除指定批量处理？"
+msgstr "是否删除指定宏？"
 
 #: .\organizer.js
 msgid "Do you want to rename the macro file as well?"
-msgstr "是否要重命名宏？"
+msgstr "是否要重命名宏文件？"
 
 #: .\panel.js
 msgid "Duplicate Macro"
-msgstr "双重宏"
+msgstr "创建宏副本"
 
 #: .\panel.js
 msgid "Edit Macro..."
@@ -58,7 +60,7 @@ msgstr "编辑名称"
 
 #: .\panel.js
 msgid "Export Macro Page"
-msgstr "输出宏观页面"
+msgstr "导出宏页面"
 
 #: .\panel.js
 msgid "Export..."
@@ -66,7 +68,7 @@ msgstr "导出..."
 
 #: .\organizer.js
 msgid "Group"
-msgstr "编组"
+msgstr "组"
 
 #: .\panel.js
 msgid "Help"
@@ -74,19 +76,19 @@ msgstr "帮助"
 
 #: .\panel.js
 msgid "Import Macro Page"
-msgstr "导入宏观页面"
+msgstr "导入宏页面"
 
 #: .\panel.js
 msgid "Import..."
-msgstr "正在导入..."
+msgstr "导入..."
 
 #: .\gadget.js .\panel.js
 msgid "Macro Organizer"
-msgstr "批量处理管理"
+msgstr "宏管理器"
 
 #: .\gadget.js
 msgid "Macro Toolbar inspired by the Studio One beta testers"
-msgstr "批量处理工具条由Studio One数据测试员研发"
+msgstr "宏工具栏灵感源于Studio One测试成员"
 
 #: .\panel.js
 msgid "Macro not found:"
@@ -94,19 +96,19 @@ msgstr "未找到宏："
 
 #: .\editor.js .\gadget.js .\manager.js .\panel.js
 msgid "Macros"
-msgstr "批量处理"
+msgstr "宏"
 
 #: .\translation.js
 msgid "[Macros]Macros (Arrangement)"
-msgstr "批量处理 (排列)"
+msgstr "宏 (编曲)"
 
 #: .\translation.js
 msgid "[Macros]Macros (Audio Editor)"
-msgstr "批量处理 (音频编辑器)"
+msgstr "宏 (音频编辑器)"
 
 #: .\translation.js
 msgid "[Macros]Macros (Music Editor)"
-msgstr "批量处理 (音乐编辑器)"
+msgstr "宏 (音乐编辑器)"
 
 #: .\main.js
 msgid "Music Editor"
@@ -126,11 +128,11 @@ msgstr "页面"
 
 #: .\panel.js .\renamer.js
 msgid "Reload Names"
-msgstr "重新装载名字"
+msgstr "重新加载名称"
 
 #: .\panel.js
 msgid "Reset Toolbar"
-msgstr "重新设置工具条"
+msgstr "重置工具栏"
 
 #: .\panel.js
 msgid "Setup"
@@ -138,27 +140,27 @@ msgstr "设置"
 
 #: .\elements.js
 msgid "Studio One Macro"
-msgstr "Studio One 批量处理"
+msgstr "Studio One宏"
 
 #: .\elements.js
 msgid "Studio One Macro Page"
-msgstr "Studio One 宏观页面"
+msgstr "Studio One宏页面"
 
 #: .\gadget.js
 msgid "Studio One Macro Toolbar"
-msgstr "Studio One 批量处理工具条"
+msgstr "Studio One宏工具栏"
 
 #: .\panel.js
 msgid "The file is empty or corrupt and could not be imported."
-msgstr "文件为空或已被损毁，无法进行导入。"
+msgstr "文件为空或已损坏，无法导入。"
 
 #: .\editor.js
 msgid "This command does not have any arguments."
-msgstr "此命令无参数."
+msgstr "此命令无参数。"
 
 #: .\organizer.js
 msgid "User Macro"
-msgstr "用户批量处理"
+msgstr "用户宏"
 
 #~ msgid "Loading Macro failed:"
 #~ msgstr "加载批量处理失败："

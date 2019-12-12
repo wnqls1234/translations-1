@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]\"%(1)\" does not support the selected file format."
-msgstr "\"%(1)\" は選択されているファイルフォーマットに対応していません。"
-
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
 msgstr "\"%(1)\" はすでにオートメーションされています"
@@ -40,14 +36,6 @@ msgstr "%(1) バリエーション"
 msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(2) つのファイルが %(1) に見つかりました"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Disabled)"
-msgstr "（無効）"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Empty)"
-msgstr "（空）"
-
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
 msgstr "（パートに入る）"
@@ -55,14 +43,6 @@ msgstr "（パートに入る）"
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Leave Part)"
 msgstr "（パートを出る）"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Muted)"
-msgstr "（ミュート）"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Protected)"
-msgstr "(保護)"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -178,6 +158,14 @@ msgstr "VCAチャンネルを追加"
 msgid "[Automation]Add..."
 msgstr "追加..."
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Adjust Chord Length"
+msgstr "コードの長さを調整"
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Adjust Length"
+msgstr "長さを調整"
+
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]All Patterns on Track"
 msgstr "トラック上のすべてのパターン"
@@ -193,10 +181,6 @@ msgstr "バウンス中にエラーが発生しました。"
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "分析しています..."
-
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Append Track"
-msgstr "トラックを追加"
 
 #: .\application\audioedit\audiobendaddin.cpp
 msgid "[Engine]Apply Audio Bend"
@@ -249,10 +233,6 @@ msgstr "オーディオベンド"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Bend"
 msgstr "オーディオベンド"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Audio Export"
-msgstr "オーディオエクスポート"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Audio Input follows Selection"
@@ -317,6 +297,10 @@ msgstr "新規トラックにバウンス"
 msgid "[ArrangerSections]Bridge"
 msgstr "ブリッジ"
 
+#: .\pool\mediapoolbrowser.cpp
+msgid "[Command]Browser"
+msgstr "ブラウザー"
+
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "プレビューを作成しています..."
@@ -324,10 +308,6 @@ msgstr "プレビューを作成しています..."
 #: .\audio\audiobouncer.cpp
 msgid "[AudioBouncer]Cannot bounce protected content."
 msgstr "保護されたコンテンツはバウンスできません。"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Cannot create mixdown with protected content."
-msgstr "保護されたコンテンツでミックスダウンを作成することはできません。"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"
@@ -368,10 +348,6 @@ msgstr "チャンネル"
 #: .\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Channel \"%(1)\""
 msgstr "チャンネル \"%(1)\""
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Channels"
-msgstr "チャンネル"
 
 #: .\editing\chordinspector.cpp
 msgid "[EditAddIn]Chord Selector"
@@ -454,6 +430,10 @@ msgid "[PoolNodes]Convert Files..."
 msgstr "ファイルを変換..."
 
 #: .\application\musicedit\musicpatternconverttask.cpp
+msgid "[MusicPartEdit]Convert Part to Pattern"
+msgstr "パートをパターンに変換"
+
+#: .\application\musicedit\musicpatternconverttask.cpp
 msgid "[MusicPartEdit]Convert Pattern to Part"
 msgstr "パターンをパートに変換"
 
@@ -477,7 +457,7 @@ msgstr "コピー"
 msgid "[MusicPatternPartEditor]Copy"
 msgstr "コピー"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Copy"
 msgstr "コピー"
 
@@ -545,10 +525,6 @@ msgstr "新規スクラッチパッドへコピー"
 msgid "[MediaPoolFunctions]Copying external files"
 msgstr "外部ファイルをコピーしています"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Could not import file!"
-msgstr "ファイルをインポートできませんでした。"
-
 #: .\base\documentrenamer.cpp
 msgid "[Documents]Could not rename %(1)!\n\nThe file is in use."
 msgstr "%(1) の名前を変更できませんでした。\r\n\r\nファイルは使用中です。"
@@ -613,15 +589,15 @@ msgstr "コンテンツにクロップ"
 msgid "[PoolBrowser]Date"
 msgstr "日付"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Default Size"
-msgstr "デフォルトサイズ"
+#: .\musicediting\patterncontrollane.cpp
+msgid "[MusicPatternPartEditor]Delay"
+msgstr "ディレイ"
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]Delete"
 msgstr "削除"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songmarker.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Delete"
 msgstr "削除"
 
@@ -644,10 +620,6 @@ msgstr "イベントを削除"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Delete File permanently"
 msgstr "ファイルを完全に削除"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Delete Marker"
-msgstr "マーカーを削除"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Delete Range"
@@ -701,10 +673,6 @@ msgstr "トランジェントを検出"
 msgid "[Automation]Device"
 msgstr "デバイス"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]Devices"
-msgstr "デバイス"
-
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "無効化"
@@ -737,10 +705,6 @@ msgstr "グループを解除"
 msgid "[Command]Dissolve Group"
 msgstr "グループを解除"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]Do not publish"
-msgstr "公開しない"
-
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to combine the instrument %(1)?"
 msgstr "インストゥルメント %(1) を結合しますか？"
@@ -753,21 +717,9 @@ msgstr "これらの外部ファイルをメディアフォルダーへコピー
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "キャッシュフォルダー内の使用されていないすべての一時オーディオファイルを削除しますか？"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported file?"
-msgstr "エクスポートされたファイルを削除しますか？"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported files?"
-msgstr "エクスポートされたファイルを削除しますか？"
-
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
 msgstr "前回の保存後に録音または作成されたファイルを削除しますか？"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Do you want to extract the audio to a new track?"
-msgstr "オーディオを新規トラックへ抽出しますか？"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to load the preset or combine the instrument %(1)?"
@@ -833,10 +785,6 @@ msgstr "解像度を2倍に"
 msgid "[Command]Double Resolution"
 msgstr "解像度を2倍に"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Double Size"
-msgstr "ダブルサイズ"
-
 #: .\web\webeventpainter.cpp
 msgid "[Engine]Download finished"
 msgstr "ダウンロードが完了しました"
@@ -865,13 +813,9 @@ msgstr "ドラムパターン"
 msgid "[MusicPatternPartEditor]Duplicate"
 msgstr "複製"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Duplicate"
 msgstr "複製"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Duplicate (complete)"
-msgstr "複製（完全）"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layer"
@@ -1092,10 +1036,6 @@ msgstr "指数関数"
 msgid "[Engine]Export Audioloop"
 msgstr "Audioloopをエクスポート"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Mixdown"
-msgstr "ミックスダウンをエクスポート"
-
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Export Musicloop"
 msgstr "Musicloopをエクスポート"
@@ -1108,26 +1048,6 @@ msgstr "パートをMIDIファイルにエクスポート"
 msgid "[Edit]Export Selection"
 msgstr "選択をエクスポート"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Stems"
-msgstr "ステムをエクスポート"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Export Video"
-msgstr "ビデオをエクスポート"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Exporting..."
-msgstr "エクスポートしています..."
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Exporting:"
-msgstr "エクスポートしています:"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Extract Audio"
-msgstr "オーディオを抽出"
-
 #: .\videoediting\videodraghandler.cpp
 msgid "[VideoEdit]Extract Audio to %(1):"
 msgstr "オーディオを %(1) に抽出:"
@@ -1139,10 +1059,6 @@ msgstr "コードトラックに抽出"
 #: .\application\musicedit\musicchordtasks.cpp
 msgid "[MusicPartEdit]Extract to Chord Track"
 msgstr "コードトラックに抽出"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Extracted Audio Track"
-msgstr "抽出されたオーディオトラック"
 
 #: .\videoediting\audioextractor.cpp
 msgid "[Video]Extracting Audio"
@@ -1163,18 +1079,6 @@ msgstr "フェードイン"
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fade-out"
 msgstr "フェードアウト"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Failed to export audio file."
-msgstr "オーディオファイルのエクスポートに失敗しました。"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Failed to export audio file."
-msgstr "オーディオファイルのエクスポートに失敗しました。"
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Failed to write video."
-msgstr "ビデオの書き込みに失敗しました。"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]File not found!"
@@ -1240,17 +1144,9 @@ msgstr "フォーマット"
 msgid "[Events]General operations for events"
 msgstr "イベントの一般操作"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Next Marker"
-msgstr "次のマーカーへ移動"
-
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Next Section"
 msgstr "次のセクションへ移動"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Previous Marker"
-msgstr "前のマーカーへ移動"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Previous Section"
@@ -1296,10 +1192,6 @@ msgstr "解像度を半分に"
 msgid "[Command]Half Resolution"
 msgstr "解像度を半分に"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Half Size"
-msgstr "ハーフサイズ"
-
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Hide"
 msgstr "隠す"
@@ -1328,10 +1220,6 @@ msgstr "イメージ"
 msgid "[ActionDescriptions]Import File"
 msgstr "ファイルをインポート"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Import File"
-msgstr "ファイルをインポート"
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Import Files"
 msgstr "ファイルをインポート"
@@ -1346,10 +1234,6 @@ msgstr "テンポをインポート"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
-msgstr "ビデオをインポート"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Import Video"
 msgstr "ビデオをインポート"
 
 #: .\videoediting\videodraghandler.cpp
@@ -1368,10 +1252,6 @@ msgstr "ビデオをインポートしてオーディオを %(1) へ抽出:"
 msgid "[VideoEdit]Import Video:"
 msgstr "ビデオをインポート:"
 
-#: .\pool\poolimportextension.cpp
-msgid "[Browser]Import to Pool"
-msgstr "プールへインポート"
-
 #: .\audio\audiocliphandler.cpp
 msgid "[AudioClipImporter]Importing..."
 msgstr "インポートしています..."
@@ -1387,10 +1267,6 @@ msgstr "挿入"
 #: .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Insert"
 msgstr "インサート"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Insert"
-msgstr "挿入"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Insert Arranger Section"
@@ -1419,14 +1295,6 @@ msgstr "インストゥルメントを %(1) に挿入:"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Insert Marker"
 msgstr "マーカーを挿入"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Insert Marker"
-msgstr "マーカーを挿入"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Insert Named"
-msgstr "名前の付いたマーカーを挿入"
 
 #: .\editing\tracklisteditmodel2.cpp
 msgid "[Events]Insert Points"
@@ -1537,6 +1405,10 @@ msgstr "ロード"
 msgid "[SynthDrag]Load Instrument Preset"
 msgstr "インストゥルメントプリセットをロード"
 
+#: .\musicediting\musicpatterneditor.cpp
+msgid "[PatternEditor]Load Pattern Preset"
+msgstr "パターンプリセットをロード"
+
 #: .\music\musicpatternclip.cpp
 msgid "[MusicPatternClip]Loading Pattern: %(1)"
 msgstr "パターンを読み込んでいます: %(1)"
@@ -1560,10 +1432,6 @@ msgstr "ファイルを検索..."
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Locate File..."
 msgstr "ファイルを検索..."
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Locate Missing Devices"
-msgstr "行方不明のデバイスを検索"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Locate Missing Files"
@@ -1660,14 +1528,6 @@ msgstr "マップ"
 msgid "[Engine:MediaMarker]Marker"
 msgstr "マーカー"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Marker"
-msgstr "マーカー"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Marker %(1)"
-msgstr "マーカー %(1)"
-
 #: .\base\model\markertrack.cpp
 msgid "[Engine]Marker Track"
 msgstr "マーカートラック"
@@ -1704,10 +1564,6 @@ msgstr "オーディオパートに結合"
 msgid "[Browser]Merge to Stereo File"
 msgstr "ステレオファイルに結合"
 
-#: .\song\songsetup.cpp
-msgid "[SongSetup]Meta Information"
-msgstr "メタ情報"
-
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]Minimal"
 msgstr "ミニマル"
@@ -1715,10 +1571,6 @@ msgstr "ミニマル"
 #: .\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "行方不明のインストゥルメント: %(1)"
-
-#: .\application\eventedit\mixdowntask.cpp
-msgid "[Edit]Mixdown Selection"
-msgstr "ミックスダウン選択"
 
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
@@ -1888,10 +1740,6 @@ msgstr "イベントをミュート"
 msgid "[PoolBrowser]Name"
 msgstr "名前"
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Name"
-msgstr "名前"
-
 #: .\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Narrow"
 msgstr "ナロー"
@@ -1935,10 +1783,6 @@ msgstr "次のトラック"
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Next Track Extend"
 msgstr "次のトラック拡張"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]No"
-msgstr "いいえ"
 
 #: .\application\musicloop\loopextension.cpp
 msgid "[Browser]No audio files with a name that ends in .L or .R found."
@@ -2000,14 +1844,6 @@ msgstr "未設定"
 msgid "[Command]Note Erase"
 msgstr "ノートイレース"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
-msgstr "エクスポートするものがありません。1つまたは複数のトラックを選択してループまたはマーカーを設定してください。"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
-msgstr "エクスポートするものがありません。まずループまたはマーカーを設定してください。"
-
 #: .\editing\eventeditmodel.cpp
 msgid "[Events]Nudge"
 msgstr "ナッジ"
@@ -2039,10 +1875,6 @@ msgstr "コードトラックを開く"
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Open Event FX Editor"
 msgstr "イベントFXエディターを開く"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Open Marker Track"
-msgstr "マーカートラックを開く"
 
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Operations specific to audio events"
@@ -2076,7 +1908,7 @@ msgstr "パラメーター"
 msgid "[MusicPatternPartEditor]Paste"
 msgstr "ペースト"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Paste"
 msgstr "ペースト"
 
@@ -2128,10 +1960,6 @@ msgstr "選択した範囲を再生"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
-msgstr "プール"
-
-#: .\song\songdocument.cpp
-msgid "[Engine]Pool"
 msgstr "プール"
 
 #: .\audio\audioeventtheme.cpp
@@ -2205,90 +2033,6 @@ msgstr "クオンタイズ 50%"
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Read"
 msgstr "読み取る"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker"
-msgstr "マーカーを呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 1"
-msgstr "マーカー1を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 10"
-msgstr "マーカー10を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 11"
-msgstr "マーカー11を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 12"
-msgstr "マーカー12を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 13"
-msgstr "マーカー13を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 14"
-msgstr "マーカー14を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 15"
-msgstr "マーカー15を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 16"
-msgstr "マーカー16を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 17"
-msgstr "マーカー17を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 18"
-msgstr "マーカー18を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 19"
-msgstr "マーカー19を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 2"
-msgstr "マーカー2を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 20"
-msgstr "マーカー20を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 3"
-msgstr "マーカー3を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 4"
-msgstr "マーカー4を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 5"
-msgstr "マーカー5を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 6"
-msgstr "マーカー6を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 7"
-msgstr "マーカー7を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 8"
-msgstr "マーカー8を呼び出す"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 9"
-msgstr "マーカー9を呼び出す"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
@@ -2392,6 +2136,10 @@ msgstr "コードを削除"
 msgid "[LocateFiles]Remove Clip from Pool"
 msgstr "プールからクリップを削除"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Remove Crossfades"
+msgstr "クロスフェードを削除"
+
 #: .\application\eventedit\removegapstask.cpp
 msgid "[Edit]Remove Gaps"
 msgstr "ギャップを削除"
@@ -2436,10 +2184,6 @@ msgstr "選択されているトラックとインストゥルメントを削除
 msgid "[ActionDescriptions]Remove Track"
 msgstr "トラックを削除"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Remove Track"
-msgstr "トラックを削除"
-
 #: .\application\musicedit\musictrackcomponent.cpp
 msgid "[TrackEdit]Remove Track and Instrument"
 msgstr "トラックとインストゥルメントを削除"
@@ -2458,10 +2202,6 @@ msgstr "使用されていないファイルを削除"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Remove Video"
-msgstr "ビデオを削除"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Remove Video"
 msgstr "ビデオを削除"
 
 #: .\pool\mediapoolnodes.cpp
@@ -2512,14 +2252,6 @@ msgstr "スクラッチパッド名を変更"
 msgid "[ScratchPad]Rename Scratch Pad"
 msgstr "スクラッチパッド名を変更"
 
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Render Click"
-msgstr "クリックをレンダー"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Render Click"
-msgstr "クリックをレンダー"
-
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
 msgstr "イベントFXをレンダー"
@@ -2531,14 +2263,6 @@ msgstr "イベントFXをレンダー"
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
 msgstr "インストゥルメントトラックをレンダー"
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Rendering Audio..."
-msgstr "オーディオをレンダリングしています…"
-
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Rendering Click"
-msgstr "クリックをレンダーしています"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Envelope: %(1)"
@@ -2792,21 +2516,9 @@ msgstr "キーを設定"
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "マーカータイプを設定"
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Set Markers"
-msgstr "マーカーを設定"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Set Start and End to Selection"
-msgstr "スタートとエンドを選択に設定"
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Track Delay"
 msgstr "トラックディレイを設定"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Set Video Offset"
-msgstr "ビデオオフセットを設定"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Volume after Event FX"
@@ -2890,7 +2602,7 @@ msgstr "コンソールに表示"
 msgid "[Command]Show in Console"
 msgstr "コンソールに表示"
 
-#: .\song\songcontroller.cpp
+#: .\pool\mediapoolbrowser.cpp
 msgid "[Command]Show in Explorer/Finder"
 msgstr "エクスプローラー/Finderに表示"
 
@@ -2970,26 +2682,13 @@ msgstr "選択したトラックでソロを有効"
 msgid "[Engine]Some files could not be exported."
 msgstr "いくつかのファイルをエクスポートできませんでした。"
 
-#: .\application\musicedit\musictrackcomponent.cpp .\song\songcontroller.cpp
-#: .\song\songmaster.cpp
+#: .\application\musicedit\musictrackcomponent.cpp
 msgid "[Command]Song"
 msgstr "ソング"
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[ScratchPad]Song"
 msgstr "ソング"
-
-#: .\song\songdocument.cpp
-msgid "[Engine]Song"
-msgstr "ソング"
-
-#: .\song\songcontroller.cpp
-msgid "[Song]Song Setup"
-msgstr "ソング設定"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Song Setup"
-msgstr "ソング設定"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Split Event"
@@ -3080,10 +2779,6 @@ msgstr "テンポを同期"
 msgid "[Command]Synchronize Editor to Arrangement"
 msgstr "エディターをアレンジに同期"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr "このソングには著作権で保護されている素材が含まれています。著作権者の了解なく素材を使用することはできません。"
-
 #: .\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Take"
 msgstr "テイク"
@@ -3096,10 +2791,6 @@ msgstr "テイク #%(1:3) （%(2)）"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "テンポ: %(1)  長さ: %(2)"
 
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
-msgstr "このオーディオコーデックは現行のサンプルレートに対応していません。レートは %(1) kHz に変換されます。"
-
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
 msgstr "録音に使用されているドライブの残量が足りません。"
@@ -3108,29 +2799,13 @@ msgstr "録音に使用されているドライブの残量が足りません。
 msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
 msgstr "録音に使用されているドライブの残量が足りません。"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]The file format will be reset to \"%(1)\"."
-msgstr "ファイルフォーマットは \"%(1)\" にリセットされます。"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]The following problems occured during export:"
-msgstr "次の問題がエクスポート中に生じました。"
-
 #: .\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "このファイルのフォーマットには対応していません。"
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The mastering file of this song is up-to-date."
-msgstr "このソングのマスタリングファイルは最新です。"
-
 #: .\base\rootsetup.cpp
 msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
 msgstr "サンプルレートはご使用のオーディオデバイス構成に合致しません。\r\n\r\n設定されているレート: %(1)\r\nデバイスのレート: %(2)"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The song will be saved first.\n"
-msgstr "まずソングが保存されます。\r\n"
 
 #: .\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
@@ -3206,7 +2881,6 @@ msgstr "タッチ"
 #: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
 #: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
 #: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
-#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "トラック"
 
@@ -3217,10 +2891,6 @@ msgstr "トラック"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Track"
-msgstr "トラック"
-
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Track"
 msgstr "トラック"
 
 #: .\editing\targettrackindicator.cpp
@@ -3234,14 +2904,6 @@ msgstr "トラック高さ %(1)"
 #: .\editing\tracklistfilter.cpp
 msgid "[TrackList]Track Scenes"
 msgstr "トラックシーン"
-
-#: .\song\songdocumentinfo.cpp
-msgid "[SongInfo]Tracks"
-msgstr "トラック"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Tracks"
-msgstr "トラック"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Transfer Automation"
@@ -3387,14 +3049,6 @@ msgstr "テイクを既存のレイヤーに展開"
 msgid "[Edit]Unpack Takes to new Layers"
 msgstr "テイクを新規レイヤーに展開"
 
-#: .\song\songmaster.cpp
-msgid "[Command]Update Mastering File"
-msgstr "マスタリングファイルを更新"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "このソングのマスタリングファイルを更新します:\n%(6)\n出力: %(1)\n長さ: %(3)\n解像度: %(4)\nリアルタイムプロセッシング: %(5)\nマスターエフェクトを含める: %(7)\nファイル名: %(2)"
-
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
 msgstr "使用中"
@@ -3402,10 +3056,6 @@ msgstr "使用中"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Used by: "
 msgstr "使用元: "
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Using different codecs might affect the export speed."
-msgstr "別のコーデックを使用するとエクスポート速度に影響する場合があります。"
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Velocity"
@@ -3423,25 +3073,8 @@ msgstr "バース"
 msgid "[Video]Video"
 msgstr "ビデオ"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video"
-msgstr "ビデオ"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Default"
-msgstr "ビデオサイズ デフォルト"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Double"
-msgstr "ビデオサイズ ダブル"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Half"
-msgstr "ビデオサイズ ハーフ"
-
 #: .\editing\arrangereditlayer.cpp .\editing\chordeditlayer.cpp
 #: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "表示"
 
@@ -3461,17 +3094,9 @@ msgstr "書き込む"
 msgid "[AutomationWriter]Write Automation"
 msgstr "オートメーションを書き込む"
 
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Writing Video File..."
-msgstr "ビデオファイルを書き込んでいます…"
-
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
 msgstr "特大"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]Yes"
-msgstr "はい"
 
 #: .\editing\tracklist.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
@@ -3512,6 +3137,306 @@ msgstr "%(1) 回使用"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) 回使用"
+
+#~ msgid "[Engine]\"%(1)\" does not support the selected file format."
+#~ msgstr "\"%(1)\" は選択されているファイルフォーマットに対応していません。"
+
+#~ msgid "[StemRenderer](Disabled)"
+#~ msgstr "（無効）"
+
+#~ msgid "[StemRenderer](Empty)"
+#~ msgstr "（空）"
+
+#~ msgid "[StemRenderer](Muted)"
+#~ msgstr "（ミュート）"
+
+#~ msgid "[StemRenderer](Protected)"
+#~ msgstr "(保護)"
+
+#~ msgid "[SongBrowser]Append Track"
+#~ msgstr "トラックを追加"
+
+#~ msgid "[SongRenderer]Audio Export"
+#~ msgstr "オーディオエクスポート"
+
+#~ msgid "[SongRenderer]Cannot create mixdown with protected content."
+#~ msgstr "保護されたコンテンツでミックスダウンを作成することはできません。"
+
+#~ msgid "[StemRenderer]Channels"
+#~ msgstr "チャンネル"
+
+#~ msgid "[Song]Could not import file!"
+#~ msgstr "ファイルをインポートできませんでした。"
+
+#~ msgid "[Video]Default Size"
+#~ msgstr "デフォルトサイズ"
+
+#~ msgid "[Marker]Delete Marker"
+#~ msgstr "マーカーを削除"
+
+#~ msgid "[Engine]Devices"
+#~ msgstr "デバイス"
+
+#~ msgid "[Engine]Do not publish"
+#~ msgstr "公開しない"
+
+#~ msgid "[SongRenderer]Do you want to delete the exported file?"
+#~ msgstr "エクスポートされたファイルを削除しますか？"
+
+#~ msgid "[SongRenderer]Do you want to delete the exported files?"
+#~ msgstr "エクスポートされたファイルを削除しますか？"
+
+#~ msgid "[Video]Do you want to extract the audio to a new track?"
+#~ msgstr "オーディオを新規トラックへ抽出しますか？"
+
+#~ msgid "[Video]Double Size"
+#~ msgstr "ダブルサイズ"
+
+#~ msgid "[Command]Duplicate (complete)"
+#~ msgstr "複製（完全）"
+
+#~ msgid "[Command]Export Mixdown"
+#~ msgstr "ミックスダウンをエクスポート"
+
+#~ msgid "[Command]Export Stems"
+#~ msgstr "ステムをエクスポート"
+
+#~ msgid "[Command]Export Video"
+#~ msgstr "ビデオをエクスポート"
+
+#~ msgid "[SongRenderer]Exporting..."
+#~ msgstr "エクスポートしています..."
+
+#~ msgid "[StemRenderer]Exporting:"
+#~ msgstr "エクスポートしています:"
+
+#~ msgid "[Command]Extract Audio"
+#~ msgstr "オーディオを抽出"
+
+#~ msgid "[Video]Extracted Audio Track"
+#~ msgstr "抽出されたオーディオトラック"
+
+#~ msgid "[SongRenderer]Failed to export audio file."
+#~ msgstr "オーディオファイルのエクスポートに失敗しました。"
+
+#~ msgid "[StemRenderer]Failed to export audio file."
+#~ msgstr "オーディオファイルのエクスポートに失敗しました。"
+
+#~ msgid "[Video]Failed to write video."
+#~ msgstr "ビデオの書き込みに失敗しました。"
+
+#~ msgid "[Command]Goto Next Marker"
+#~ msgstr "次のマーカーへ移動"
+
+#~ msgid "[Command]Goto Previous Marker"
+#~ msgstr "前のマーカーへ移動"
+
+#~ msgid "[Video]Half Size"
+#~ msgstr "ハーフサイズ"
+
+#~ msgid "[Command]Import File"
+#~ msgstr "ファイルをインポート"
+
+#~ msgid "[Command]Import Video"
+#~ msgstr "ビデオをインポート"
+
+#~ msgid "[Browser]Import to Pool"
+#~ msgstr "プールへインポート"
+
+#~ msgid "[Command]Insert"
+#~ msgstr "挿入"
+
+#~ msgid "[Marker]Insert Marker"
+#~ msgstr "マーカーを挿入"
+
+#~ msgid "[Command]Insert Named"
+#~ msgstr "名前の付いたマーカーを挿入"
+
+#~ msgid "[Command]Locate Missing Devices"
+#~ msgstr "行方不明のデバイスを検索"
+
+#~ msgid "[Command]Marker"
+#~ msgstr "マーカー"
+
+#~ msgid "[Marker]Marker %(1)"
+#~ msgstr "マーカー %(1)"
+
+#~ msgid "[SongSetup]Meta Information"
+#~ msgstr "メタ情報"
+
+#~ msgid "[Edit]Mixdown Selection"
+#~ msgstr "ミックスダウン選択"
+
+#~ msgid "[Marker]Name"
+#~ msgstr "名前"
+
+#~ msgid "[SongMaster]No"
+#~ msgstr "いいえ"
+
+#~ msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
+#~ msgstr "エクスポートするものがありません。1つまたは複数のトラックを選択してループまたはマーカーを設定してください。"
+
+#~ msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
+#~ msgstr "エクスポートするものがありません。まずループまたはマーカーを設定してください。"
+
+#~ msgid "[Command]Open Marker Track"
+#~ msgstr "マーカートラックを開く"
+
+#~ msgid "[Engine]Pool"
+#~ msgstr "プール"
+
+#~ msgid "[Command]Recall Marker"
+#~ msgstr "マーカーを呼び出す"
+
+#~ msgid "[Command]Recall Marker 1"
+#~ msgstr "マーカー1を呼び出す"
+
+#~ msgid "[Command]Recall Marker 10"
+#~ msgstr "マーカー10を呼び出す"
+
+#~ msgid "[Command]Recall Marker 11"
+#~ msgstr "マーカー11を呼び出す"
+
+#~ msgid "[Command]Recall Marker 12"
+#~ msgstr "マーカー12を呼び出す"
+
+#~ msgid "[Command]Recall Marker 13"
+#~ msgstr "マーカー13を呼び出す"
+
+#~ msgid "[Command]Recall Marker 14"
+#~ msgstr "マーカー14を呼び出す"
+
+#~ msgid "[Command]Recall Marker 15"
+#~ msgstr "マーカー15を呼び出す"
+
+#~ msgid "[Command]Recall Marker 16"
+#~ msgstr "マーカー16を呼び出す"
+
+#~ msgid "[Command]Recall Marker 17"
+#~ msgstr "マーカー17を呼び出す"
+
+#~ msgid "[Command]Recall Marker 18"
+#~ msgstr "マーカー18を呼び出す"
+
+#~ msgid "[Command]Recall Marker 19"
+#~ msgstr "マーカー19を呼び出す"
+
+#~ msgid "[Command]Recall Marker 2"
+#~ msgstr "マーカー2を呼び出す"
+
+#~ msgid "[Command]Recall Marker 20"
+#~ msgstr "マーカー20を呼び出す"
+
+#~ msgid "[Command]Recall Marker 3"
+#~ msgstr "マーカー3を呼び出す"
+
+#~ msgid "[Command]Recall Marker 4"
+#~ msgstr "マーカー4を呼び出す"
+
+#~ msgid "[Command]Recall Marker 5"
+#~ msgstr "マーカー5を呼び出す"
+
+#~ msgid "[Command]Recall Marker 6"
+#~ msgstr "マーカー6を呼び出す"
+
+#~ msgid "[Command]Recall Marker 7"
+#~ msgstr "マーカー7を呼び出す"
+
+#~ msgid "[Command]Recall Marker 8"
+#~ msgstr "マーカー8を呼び出す"
+
+#~ msgid "[Command]Recall Marker 9"
+#~ msgstr "マーカー9を呼び出す"
+
+#~ msgid "[Command]Remove Track"
+#~ msgstr "トラックを削除"
+
+#~ msgid "[Command]Remove Video"
+#~ msgstr "ビデオを削除"
+
+#~ msgid "[ClickRenderer]Render Click"
+#~ msgstr "クリックをレンダー"
+
+#~ msgid "[Command]Render Click"
+#~ msgstr "クリックをレンダー"
+
+#~ msgid "[Video]Rendering Audio..."
+#~ msgstr "オーディオをレンダリングしています…"
+
+#~ msgid "[ClickRenderer]Rendering Click"
+#~ msgstr "クリックをレンダーしています"
+
+#~ msgid "[Marker]Set Markers"
+#~ msgstr "マーカーを設定"
+
+#~ msgid "[Command]Set Start and End to Selection"
+#~ msgstr "スタートとエンドを選択に設定"
+
+#~ msgid "[Command]Set Video Offset"
+#~ msgstr "ビデオオフセットを設定"
+
+#~ msgid "[Engine]Song"
+#~ msgstr "ソング"
+
+#~ msgid "[Song]Song Setup"
+#~ msgstr "ソング設定"
+
+#~ msgid "[Command]Song Setup"
+#~ msgstr "ソング設定"
+
+#~ msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+#~ msgstr "このソングには著作権で保護されている素材が含まれています。著作権者の了解なく素材を使用することはできません。"
+
+#~ msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+#~ msgstr "このオーディオコーデックは現行のサンプルレートに対応していません。レートは %(1) kHz に変換されます。"
+
+#~ msgid "[Engine]The file format will be reset to \"%(1)\"."
+#~ msgstr "ファイルフォーマットは \"%(1)\" にリセットされます。"
+
+#~ msgid "[SongRenderer]The following problems occured during export:"
+#~ msgstr "次の問題がエクスポート中に生じました。"
+
+#~ msgid "[SongMaster]The mastering file of this song is up-to-date."
+#~ msgstr "このソングのマスタリングファイルは最新です。"
+
+#~ msgid "[SongMaster]The song will be saved first.\n"
+#~ msgstr "まずソングが保存されます。\r\n"
+
+#~ msgid "[SongBrowser]Track"
+#~ msgstr "トラック"
+
+#~ msgid "[SongInfo]Tracks"
+#~ msgstr "トラック"
+
+#~ msgid "[StemRenderer]Tracks"
+#~ msgstr "トラック"
+
+#~ msgid "[Command]Update Mastering File"
+#~ msgstr "マスタリングファイルを更新"
+
+#~ msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+#~ msgstr "このソングのマスタリングファイルを更新します:\n%(6)\n出力: %(1)\n長さ: %(3)\n解像度: %(4)\nリアルタイムプロセッシング: %(5)\nマスターエフェクトを含める: %(7)\nファイル名: %(2)"
+
+#~ msgid "[Video]Using different codecs might affect the export speed."
+#~ msgstr "別のコーデックを使用するとエクスポート速度に影響する場合があります。"
+
+#~ msgid "[Command]Video"
+#~ msgstr "ビデオ"
+
+#~ msgid "[Command]Video Size Default"
+#~ msgstr "ビデオサイズ デフォルト"
+
+#~ msgid "[Command]Video Size Double"
+#~ msgstr "ビデオサイズ ダブル"
+
+#~ msgid "[Command]Video Size Half"
+#~ msgstr "ビデオサイズ ハーフ"
+
+#~ msgid "[Video]Writing Video File..."
+#~ msgstr "ビデオファイルを書き込んでいます…"
+
+#~ msgid "[SongMaster]Yes"
+#~ msgstr "はい"
 
 #~ msgid "[BEGIN_XSTRINGS (EditAddIn)]Quantize"
 #~ msgstr "クオンタイズ"

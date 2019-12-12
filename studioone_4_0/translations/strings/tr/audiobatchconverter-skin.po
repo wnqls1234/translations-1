@@ -5,10 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\converter.xml
-msgid "[SearchBar](Not searchable)"
-msgstr "(Arama Yapılamaz)"
-
-#: .\converter.xml
 msgid "[ProcessSlotHeader]Activate"
 msgstr "Aktive Et"
 
@@ -71,10 +67,6 @@ msgstr "Kanallar"
 #: .\format.xml
 msgid "[FormatBasic]Channels"
 msgstr "Kanallar"
-
-#: .\converter.xml
-msgid "[SearchBar]Clear"
-msgstr "Temizle"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Click here to select..."
@@ -229,7 +221,8 @@ msgid "[AudioFilePreview]Loop Active @cmd[Transport|Toggle Loop]"
 msgstr "Loop Aktif @cmd[Transport|Loop Aç/Kapa]"
 
 #: .\format.xml
-msgid "[FileMerger]Merge all mono file from the list even if file names do not match"
+msgid ""
+"[FileMerger]Merge all mono file from the list even if file names do not match"
 msgstr "Dosya adları uymasa dahi listedeki tüm mono dosyaları birleştir"
 
 #: .\format.xml
@@ -333,20 +326,8 @@ msgid "[BrowseNavigator]Search @cmd.title[]"
 msgstr "Arama @cmd.title[]"
 
 #: .\converter.xml
-msgid "[SearchBar]Search for"
-msgstr "Şunu Ara"
-
-#: .\converter.xml
-msgid "[SearchBar]Search in"
-msgstr "Şurada Ara"
-
-#: .\converter.xml
 msgid "[SourceResultFilesSection]Show Peak / RMS / R128"
 msgstr "Peak / RMS / R128 Göster"
-
-#: .\converter.xml
-msgid "[BrowseNavigator]Show Thumbnails"
-msgstr "Küçük resimleri Göster"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Source Folder"
@@ -369,7 +350,7 @@ msgid "[AudioFilePreview]Stop @cmd[Transport|Stop]"
 msgstr "Dur @cmd[Transport|Dur]"
 
 #: .\gain.xml
-msgid "[Normalize]Target Loundness"
+msgid "[Normalize]Target Loudness"
 msgstr "Hedef Loudness"
 
 #: .\gain.xml
@@ -404,3 +385,17 @@ msgstr "Satıcı:"
 msgid "[AudioFilePreview]Volume"
 msgstr "Ses Seviyesi"
 
+#~ msgid "[SearchBar](Not searchable)"
+#~ msgstr "(Arama Yapılamaz)"
+
+#~ msgid "[SearchBar]Clear"
+#~ msgstr "Temizle"
+
+#~ msgid "[SearchBar]Search for"
+#~ msgstr "Şunu Ara"
+
+#~ msgid "[SearchBar]Search in"
+#~ msgstr "Şurada Ara"
+
+#~ msgid "[BrowseNavigator]Show Thumbnails"
+#~ msgstr "Küçük resimleri Göster"

@@ -16,9 +16,21 @@ msgstr "%(1) Son Kullanıcı Lisans Anlaşması"
 msgid "[Licenser]%(1) Terms of Service"
 msgstr "%(1) Servis Koşulları"
 
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activate"
+msgstr "Aktive Et"
+
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activate All"
+msgstr "Tümünü Aktive Et"
+
 #: .\application\purchasehandler.cpp
 msgid "[Command]Activate Purchased Items"
 msgstr "Satın Alınan Ürünleri Aktive Et"
+
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activated"
+msgstr ""
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Activating product"
@@ -65,23 +77,23 @@ msgstr "İndir"
 msgid "[WebAPI]Failed to connect to the server.\nPlease check your Internet connection and try again."
 msgstr "Sunucuya bağlanamadı.\nLütfen internet bağlantınızı kontrol edip tekrar deneyin."
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Invalid License File!"
+#: .\application\userlicense.cpp
+msgid "[FileType]Invalid License File!"
 msgstr "Geçersiz Lisans Dosyası!"
 
 #: .\application\userlicense.cpp
 msgid "[FileType]License File"
 msgstr "Lisans Dosyası"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]License too old. Please activate $APPNAME again."
+#: .\application\userlicense.cpp
+msgid "[FileType]License too old. Please activate $APPNAME again."
 msgstr "Eski lisans dosyası. Lütfen $APPNAME uygulamasını tekrar aktive edin."
 
 #: .\application\loginhandler.cpp
 msgid "[Command]Login"
 msgstr "Giriş"
 
-#: .\application\usercomponent.cpp
+#: .\application\licensehandler.cpp
 msgid "[Licenser]Manage Activations"
 msgstr "Aktivasyonları Düzenle"
 
@@ -100,10 +112,6 @@ msgstr "Lütfen $APPNAME uygulamasının satın aldığınız sürümünün Ür�
 #: .\application\loginhandler.cpp
 msgid "[Licenser]Please fill out the form completely."
 msgstr "Lütfen formu eksiksiz olarak doldurun."
-
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Please restart $APPNAME for the changes to take effect."
-msgstr "Değişikliklerin aktif olması için lütfen $APPNAME uygulamasını tekrar çalıştırın."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Registering product"
@@ -141,40 +149,40 @@ msgstr "Giriş Yapılıyor"
 msgid "[Licenser]Some items failed to activate."
 msgstr "Bazı öeğeler aktive edilemedi."
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+#: .\application\licensehandler.cpp
+msgid "[Licenser]Thank You! $APPNAME has been activated on this computer."
 msgstr "Teşekkürler! $APPNAME bu bilgisayarda kullanılmak üzere aktive edildi."
 
 #: .\application\loginhandler.cpp
 msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "Teşekkürler! Ürününüzü aktive edebilmenizi sağlayacak bir link içeren e-mail adresinize yollandı."
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has expired!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has expired!"
 msgstr "Lisansınızın geçerliliği sona ermiş!"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has not been issued for this computer!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has not been issued for this computer!"
 msgstr "Bu lisans bu bilgisayar için çıkarılmamış'"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has not been issued for this user!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has not been issued for this user!"
 msgstr "Bu lisans bu kullanıcı için çıkarılmamış!"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]The request failed (%(1))."
 msgstr "Talep başarısız oldu (%(1))."
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY Account."
-msgstr "Bu bilgisayar $APPNAME için de-aktive edilmiş. Aktivasyonlarnızı $APPCOMPANY hesabınızdan düzenleyebilirsiniz."
+#: .\application\licensehandler.cpp
+msgid "[Licenser]This computer has been de-activated for use with $APPNAME."
+msgstr "Bu bilgisayar $APPNAME için de-aktive edilmiş."
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "Bu kopya %(1)' lisanslıdır."
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+#: .\application\userlicense.cpp
+msgid "[FileType]This product key requires an additional license that could not be found on this computer."
 msgstr "Bu ürün anahtarı bu bilgisayarda bulunamayan ek bir lisans gerektirmektedir."
 
 #: .\application\usercomponent.cpp
@@ -184,6 +192,10 @@ msgstr "Kullanıcı lisansı bulunamadı. Lütfen yni bir Lisans Dosyası seçin
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "Kullanıcı Lisansı kontrol ediliyor..."
+
+#: .\application\licensehandler.cpp
+msgid "[Licenser]You can manage activations in your $APPCOMPANY Account."
+msgstr "Aktivasyonlarnızı $APPCOMPANY hesabınızdan düzenleyebilirsiniz."
 
 #: .\schemes\splice\splicelease.cpp
 msgid "[Licenser]Your Splice license for $APPNAME is invalid."
@@ -196,6 +208,33 @@ msgstr "Yetkilendirmenizin süresi geçmiş. Lütfen tekrar giriş yapın."
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]Your purchased items have been activated."
 msgstr "Satın almış olduğunuz öğeler aktive edildi."
+
+#~ msgid "[Licenser]Invalid License File!"
+#~ msgstr "Geçersiz Lisans Dosyası!"
+
+#~ msgid "[Licenser]License too old. Please activate $APPNAME again."
+#~ msgstr "Eski lisans dosyası. Lütfen $APPNAME uygulamasını tekrar aktive edin."
+
+#~ msgid "[Licenser]Please restart $APPNAME for the changes to take effect."
+#~ msgstr "Değişikliklerin aktif olması için lütfen $APPNAME uygulamasını tekrar çalıştırın."
+
+#~ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+#~ msgstr "Teşekkürler! $APPNAME bu bilgisayarda kullanılmak üzere aktive edildi."
+
+#~ msgid "[Licenser]The License has expired!"
+#~ msgstr "Lisansınızın geçerliliği sona ermiş!"
+
+#~ msgid "[Licenser]The License has not been issued for this computer!"
+#~ msgstr "Bu lisans bu bilgisayar için çıkarılmamış'"
+
+#~ msgid "[Licenser]The License has not been issued for this user!"
+#~ msgstr "Bu lisans bu kullanıcı için çıkarılmamış!"
+
+#~ msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY Account."
+#~ msgstr "Bu bilgisayar $APPNAME için de-aktive edilmiş. Aktivasyonlarnızı $APPCOMPANY hesabınızdan düzenleyebilirsiniz."
+
+#~ msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+#~ msgstr "Bu ürün anahtarı bu bilgisayarda bulunamayan ek bir lisans gerektirmektedir."
 
 #~ msgid "[Licenser]Activation failed."
 #~ msgstr "Aktivasyon başarısız oldu"

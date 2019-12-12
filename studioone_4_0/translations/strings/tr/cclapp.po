@@ -81,8 +81,8 @@ msgid "[TagStore]All tags are valid."
 msgstr "Tüm tagler geçerli."
 
 #: .\application.cpp
-msgid "[Application]An instance of %(1) is already running!"
-msgstr "%(1) in bir kopyası zaten çalışıyor."
+msgid "[Application]An instance of $APPNAME is already running."
+msgstr "$APPNAME in bir kopyası zaten çalışıyor."
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]An object with this name already exists."
@@ -256,6 +256,10 @@ msgstr "Kes"
 msgid "[Command]Cut"
 msgstr "Kes"
 
+#: .\options\mainoption.cpp
+msgid "[UserOption]Dark Mode"
+msgstr ""
+
 #: .\documents\documentversions.cpp
 msgid "[Documents]Date"
 msgstr "Tarih"
@@ -391,6 +395,10 @@ msgstr "Bu klasörü \"%(1)\" a taşımak istiyormusunuz ?"
 #: .\documents\autosaver.cpp
 msgid "[Autosave]Do you want to open the backup?"
 msgstr "Yedeği açmak istiyormusunuz?"
+
+#: .\presets\presetmanager.cpp
+msgid "[Presets]Do you want to remove all plug-in settings and perform a full rescan next time you start $APPNAME?"
+msgstr ""
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
@@ -642,6 +650,10 @@ msgid "[UserOption]Language will be changed next time you start $APPNAME."
 msgstr "$APPNAME i tekrar çalıştırdığınızda dil seçiminiz güncellenecektir."
 
 #: .\options\mainoption.cpp
+msgid "[UserOption]Light Mode"
+msgstr ""
+
+#: .\options\mainoption.cpp
 msgid "[KnobMode]Linear"
 msgstr "Lineer"
 
@@ -841,6 +853,10 @@ msgstr "Belgeyi son kullanılan dosya listesine iğnele"
 msgid "[UserOption]Please note that third-party plug-ins will appear smaller if they do not support scaling."
 msgstr "Ölçeklemeyi desteklemeyen plug-in'ler küçük görünecektir."
 
+#: .\application.cpp
+msgid "[Application]Please restart $APPNAME for the changes to take effect."
+msgstr "Değişikliklerin aktif olması için lütfen $APPNAME uygulamasını tekrar çalıştırın."
+
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
 msgstr "Lütfen bir dosya adı belirlerin"
@@ -937,6 +953,10 @@ msgstr "Uzakta"
 #: .\fileinfo\pathclassifier.cpp
 msgid "[FileInfo]Removable Drive"
 msgstr "Çıkartılabilir sürücü"
+
+#: .\presets\presetmanager.cpp
+msgid "[Command]Remove Plug-In Settings"
+msgstr ""
 
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Remove Tag"
@@ -1409,4 +1429,7 @@ msgstr "varsayılan"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "diğer"
+
+#~ msgid "[Application]An instance of %(1) is already running!"
+#~ msgstr "%(1) in bir kopyası zaten çalışıyor."
 

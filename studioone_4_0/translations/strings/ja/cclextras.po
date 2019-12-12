@@ -24,6 +24,10 @@ msgstr "%(2) 中 %(1)"
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
 msgstr "%(1) パッケージ（ %(2) 中）がシステム内に存在しています。"
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]%(2)/%(3) %(1)"
+msgstr "%(2)/%(3) %(1)"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
 msgstr "（デベロッパーモード）"
@@ -32,9 +36,17 @@ msgstr "（デベロッパーモード）"
 msgid "[ExtensionManager](disabled)"
 msgstr "（無効）"
 
+#: .\packages\extensionmanagerpackages.cpp
+msgid "[PackageActions]Abort Uninstall"
+msgstr "アンインストールを中止"
+
 #: .\extensions\contentinstaller.cpp .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
 msgstr "アプリケーション"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Available Packages"
+msgstr "利用可能なパッケージ"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
@@ -72,6 +84,10 @@ msgstr "プロダクトキーを取得"
 msgid "[WebFS]Cloud"
 msgstr "クラウド"
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Contains %(1) items"
+msgstr "%(1) アイテムを含む"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Copy"
 msgstr "コピー"
@@ -87,6 +103,14 @@ msgstr "現在のバージョン: %(1)"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Custom Installation"
 msgstr "カスタムインストール"
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Development Content"
+msgstr "開発コンテンツ"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Disable"
+msgstr "無効化"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Do you want to install the missing packages only?"
@@ -120,13 +144,33 @@ msgstr "$APPCOMPANY アカウントからダウンロード"
 msgid "[TransferManager]Downloading..."
 msgstr "ダウンロードしています..."
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Enable"
+msgstr "有効化"
+
 #: .\extensions\extensionmanager.cpp
 msgid "[Command]Extensions"
 msgstr "拡張"
 
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Factory Content"
+msgstr "ファクトリーコンテンツ"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Failed to uninstall %(1)!"
+msgstr "%(1) のアンインストールに失敗しました。"
+
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "失敗しました。"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]File Type"
+msgstr "ファイルタイプ"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]File Type"
+msgstr "ファイルタイプ"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Files are being transferred in background."
@@ -144,8 +188,16 @@ msgstr "ガジェット"
 msgid "[Command]Help"
 msgstr "ヘルプ"
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install"
+msgstr "インストール"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install All"
+msgstr "すべてをインストール"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install All"
 msgstr "すべてをインストール"
 
 #: .\extensions\extensionmanagerui.cpp
@@ -155,6 +207,10 @@ msgstr "拡張をインストール"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install Missing"
 msgstr "不明なファイルをインストール"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installable"
+msgstr "インストール可能"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Command]Installation"
@@ -168,6 +224,10 @@ msgstr "インストールファイル"
 msgid "[ExtensionManager]Installation canceled!"
 msgstr "インストールはキャンセルされました。"
 
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+msgstr "%(1) のインストールに失敗しました。"
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
 msgstr "インストールに失敗しました。"
@@ -175,6 +235,18 @@ msgstr "インストールに失敗しました。"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Installed"
 msgstr "インストール済"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installed"
+msgstr "インストール済"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Installed"
+msgstr "インストール済"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Installed Packages"
+msgstr "インストール済みパッケージ"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Installed version: %(1)"
@@ -200,6 +272,14 @@ msgstr "最小インストール"
 msgid "[Installer]My Purchased Items"
 msgstr "購入済みアイテム"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Name"
+msgstr "名前"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Name"
+msgstr "名前"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No Extensions installed."
 msgstr "拡張がインストールされていません。"
@@ -211,6 +291,14 @@ msgstr "ガジェットがインストールされていません"
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No updates found for your Extensions."
 msgstr "ご使用の拡張に対するアップデートは見つかりませんでした。"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Origin"
+msgstr "出処"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Other"
+msgstr "その他"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Package"
@@ -244,6 +332,10 @@ msgstr "再起動"
 msgid "[ExtensionManager]Scanning Extensions..."
 msgstr "拡張をスキャンしています..."
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Search"
+msgstr "検索"
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Signature Verification"
 msgstr "署名照合"
@@ -252,9 +344,21 @@ msgstr "署名照合"
 msgid "[Installer]Size"
 msgstr "サイズ"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]State"
+msgstr "状態"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Status"
 msgstr "ステータス"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Target directory is locked by %(1)."
+msgstr "ターゲットディレクトリは %(1) によりロックされています。"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]The installation file is not compatible with this application."
+msgstr "インストールファイルはこのアプリケーションに互換していません。"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]The installation file is not compatible with this platform."
@@ -262,6 +366,10 @@ msgstr "インストールファイルはこのプラットフォームに互換
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]The installed content will be available next time you start $APPNAME."
+msgstr "インストール済みコンテンツは $APPNAME の次回起動以降に使用できます。"
+
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
 msgstr "インストール済みコンテンツは $APPNAME の次回起動以降に使用できます。"
 
 #: .\extensions\appupdater.cpp
@@ -280,6 +388,30 @@ msgstr "新しいバージョンが存在します。"
 msgid "[Extensions]This file does not have a valid digital signature."
 msgstr "このファイルには有効なデジタル署名がありません。"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Type"
+msgstr "タイプ"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Type"
+msgstr "タイプ"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall"
+msgstr "アンインストール"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall All"
+msgstr "すべてアンインストール"
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Unknown"
+msgstr "不明"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Update"
+msgstr "更新"
+
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"
 msgstr "今すぐアップデート"
@@ -295,6 +427,10 @@ msgstr "アップロード先"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Uploading..."
 msgstr "アップロードしています..."
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]User Content"
+msgstr "ユーザーコンテンツ"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]View Release Notes"

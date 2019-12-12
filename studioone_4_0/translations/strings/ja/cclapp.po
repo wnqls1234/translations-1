@@ -81,8 +81,8 @@ msgid "[TagStore]All tags are valid."
 msgstr "すべてのタグは有効です。"
 
 #: .\application.cpp
-msgid "[Application]An instance of %(1) is already running!"
-msgstr "%(1) のインスタンスはすでに動作しています。"
+msgid "[Application]An instance of $APPNAME is already running."
+msgstr "$APPNAME のインスタンスはすでに動作しています。"
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]An object with this name already exists."
@@ -256,6 +256,10 @@ msgstr "カット"
 msgid "[Command]Cut"
 msgstr "カット"
 
+#: .\options\mainoption.cpp
+msgid "[UserOption]Dark Mode"
+msgstr "ダークモード"
+
 #: .\documents\documentversions.cpp
 msgid "[Documents]Date"
 msgstr "日付"
@@ -391,6 +395,10 @@ msgstr "このフォルダーを \"%(1)\" へ移動しますか？"
 #: .\documents\autosaver.cpp
 msgid "[Autosave]Do you want to open the backup?"
 msgstr "バックアップを開きますか？"
+
+#: .\presets\presetmanager.cpp
+msgid "[Presets]Do you want to remove all plug-in settings and perform a full rescan next time you start $APPNAME?"
+msgstr "すべてのプラグイン設定を削除して $APPNAME の次回起動時にフルスキャンを実行しますか？"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
@@ -642,6 +650,10 @@ msgid "[UserOption]Language will be changed next time you start $APPNAME."
 msgstr "言語は $APPNAME の次回起動時に変更されます。"
 
 #: .\options\mainoption.cpp
+msgid "[UserOption]Light Mode"
+msgstr "ライトモード"
+
+#: .\options\mainoption.cpp
 msgid "[KnobMode]Linear"
 msgstr "リニア"
 
@@ -841,6 +853,10 @@ msgstr "ドキュメントを最近使ったファイルリストに貼り付け
 msgid "[UserOption]Please note that third-party plug-ins will appear smaller if they do not support scaling."
 msgstr "スケーリングに対応していないサードパーティ製プラグインは小さめに表示されます。"
 
+#: .\application.cpp
+msgid "[Application]Please restart $APPNAME for the changes to take effect."
+msgstr "変更を有効にするには $APPNAME を再起動してください。"
+
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
 msgstr "ファイル名を入力してください。"
@@ -937,6 +953,10 @@ msgstr "リモート"
 #: .\fileinfo\pathclassifier.cpp
 msgid "[FileInfo]Removable Drive"
 msgstr "リムーバブルドライブ"
+
+#: .\presets\presetmanager.cpp
+msgid "[Command]Remove Plug-In Settings"
+msgstr "プラグイン設定を削除"
 
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Remove Tag"
@@ -1409,6 +1429,9 @@ msgstr "デフォルト"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "その他"
+
+#~ msgid "[Application]An instance of %(1) is already running!"
+#~ msgstr "%(1) のインスタンスはすでに動作しています。"
 
 #~ msgid "[UserOption]Please note that third party plug-ins will appear smaller if they do not support scaling."
 #~ msgstr "スケーリングに対応していないサードパーティ製プラグインは小さめに表示されます。"

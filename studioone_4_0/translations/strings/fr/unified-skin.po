@@ -20,6 +20,14 @@ msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous 
 msgid "[CommandEditorInplaceView]-"
 msgstr "-"
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "Activer"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "Activer les articles achetés"
+
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Assign"
 msgstr "Assigner"
@@ -80,6 +88,10 @@ msgstr "J'ai lu et j'accepte les dernières Conditions d'utilisation."
 msgid "[LicenseServerLogin]I would like to receive occasional updates from $APPCOMPANY via e-mail."
 msgstr "J'aimerais recevoir des mises à jour occasionnelles de $APPCOMPANY par e-mail."
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+msgstr "Si votre ordinateur n'est pas connecté à Internet, veuillez télécharger le fichier de licence séparément depuis votre compte $APPCOMPANY et le sélectionner ici ou faites-le glisser sur cette fenêtre."
+
 #: .\cclcommon.xml
 msgid "[CommandSchemeOption]Keyboard mapping scheme"
 msgstr "Plan d'affectation du clavier"
@@ -124,6 +136,10 @@ msgstr "Répéter le mot de passe"
 msgid "[CommandEditorOption]Search:"
 msgstr "Chercher:"
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]Select License File..."
+msgstr "Sélectionner le fichier de licence..."
+
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Show"
 msgstr "Afficher"
@@ -135,6 +151,10 @@ msgstr "Afficher"
 #: .\transfers.xml
 msgid "[TransferManager]Show when new transfer starts"
 msgstr "Afficher le début d'un nouveau transfert"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "Merci pour votre achat. Les articles que vous avez achetés sont prêts à être activés sur cet ordinateur."
 
 #: .\transfers.xml
 msgid "[TransferManager]Transfers"

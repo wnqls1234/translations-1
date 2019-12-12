@@ -220,13 +220,17 @@ msgstr "Ocorreu um sinal inválido."
 msgid "[AudioIOType]Analog"
 msgstr "Análogo"
 
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3)"
+msgstr "Atribuir \"%(1)\" a %(2) em %(3)"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3) page %(4)"
+msgstr "Atribuir \"%(1)\" a %(2) em %(3) página %(4)"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
 msgstr "Atribuir %(1) para %(2)"
-
-#: .\surfaces\editor\mappinghandler.cpp
-msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
-msgstr "Atribuir %(1) a %(2) em %(3)"
 
 #: .\music\padsection.cpp
 msgid "[PadSection]Assign Command..."
@@ -447,12 +451,12 @@ msgid "[MusicDeviceSetup]Configure..."
 msgstr "Configurar..."
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
-msgstr "Conexão de Controle Macro %(1) para %(2)"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control"
+msgstr "Conexão de Controle Macro \"%(1)\" para %(2)"
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
-msgstr "Conexão de Controle Macro %(1) para %(2) %(3)"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control %(3)"
+msgstr "Conexão de Controle Macro \"%(1)\" para %(2) %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -551,6 +555,10 @@ msgstr "Excluir"
 msgid "[MidiMonitor]Description"
 msgstr "Descrição"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Destination"
+msgstr "Destino"
+
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "Dispositivo Detectado %(1)"
@@ -613,8 +621,8 @@ msgid "[PerformanceMonitor]Disabled"
 msgstr "Desabilitado"
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
-msgstr "Desconectar Controle Macro %(3) %(1) de %(2)"
+msgid "[MacroControls]Disconnect \"%(1)\" from %(2) Control %(3)"
+msgstr "Desconectar Controle Macro %(3) \"%(1)\" de %(2)"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Disconnected from %(1)."
@@ -2285,6 +2293,18 @@ msgstr "Escrita"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
+
+#~ msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
+#~ msgstr "Atribuir %(1) a %(2) em %(3)"
+
+#~ msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
+#~ msgstr "Conexão de Controle Macro %(1) para %(2)"
+
+#~ msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+#~ msgstr "Conexão de Controle Macro %(1) para %(2) %(3)"
+
+#~ msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
+#~ msgstr "Desconectar Controle Macro %(3) %(1) de %(2)"
 
 #~ msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 #~ msgstr "Um divisor de evento nota pode ser inserido para 3 ou mais instrumentos."

@@ -36,6 +36,10 @@ msgstr "Backspace"
 msgid "[FileType]Bitmap File"
 msgstr "ビットマップファイル"
 
+#: .\skin\coreskinmodel.cpp
+msgid "[FileType]Bitmap Font"
+msgstr "ビットマップフォント"
+
 #: .\dialogs\alert.cpp
 msgid "[Alert]Cancel"
 msgstr "キャンセル"
@@ -453,12 +457,12 @@ msgid "[VirtualKey]NumPad+"
 msgstr "テンキーの+"
 
 #: .\keyevent.cpp
-msgid "[VirtualKey]NumPad,"
-msgstr "テンキーの,"
-
-#: .\keyevent.cpp
 msgid "[VirtualKey]NumPad-"
 msgstr "テンキーの-"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]NumPad."
+msgstr "テンキーの."
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad/"

@@ -220,13 +220,17 @@ msgstr "無効な信号が生じました。"
 msgid "[AudioIOType]Analog"
 msgstr "アナログ"
 
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3)"
+msgstr "\"%(1)\" を %(3) の %(2) へアサイン"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3) page %(4)"
+msgstr "\"%(1)\" を %(3) ページ %(4) の %(2)へアサイン"
+
 #: .\macrocontrol\macrocontrolsetup.cpp
 msgid "[MacroControlSetup]Assign %(1) to %(2)"
 msgstr "%(1) を %(2) にアサイン"
-
-#: .\surfaces\editor\mappinghandler.cpp
-msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
-msgstr "%(1) を %(3) の %(2) へアサイン"
 
 #: .\music\padsection.cpp
 msgid "[PadSection]Assign Command..."
@@ -447,12 +451,12 @@ msgid "[MusicDeviceSetup]Configure..."
 msgstr "設定..."
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
-msgstr "%(1) を %(2) マクロコントロールに接続"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control"
+msgstr "\"%(1)\" のインスタンスはすでに動作しています。"
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
-msgstr "%(1) を %(2) マクロコントロールに接続 %(3)"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control %(3)"
+msgstr "\"%(1)\" を %(2) マクロコントロールに接続 %(3)"
 
 #: .\base\deviceeditfunctions.cpp
 msgid "[ActionDescriptions]Connect Channel"
@@ -551,6 +555,10 @@ msgstr "削除"
 msgid "[MidiMonitor]Description"
 msgstr "説明"
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Destination"
+msgstr "対象"
+
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr "検出されたデバイス %(1)"
@@ -613,8 +621,8 @@ msgid "[PerformanceMonitor]Disabled"
 msgstr "無効化"
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
-msgstr "%(1) を %(2) マクロコントロール %(3) から接続解除"
+msgid "[MacroControls]Disconnect \"%(1)\" from %(2) Control %(3)"
+msgstr "\"%(1)\" を %(2) マクロコントロール %(3) から接続解除"
 
 #: .\hardware\ucmixerconnector.cpp
 msgid "[UCMixerConnector]Disconnected from %(1)."
@@ -2285,6 +2293,21 @@ msgstr "ライト"
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
 msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
+#~ msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
+#~ msgstr "%(1) を %(3) の %(2) へアサイン"
+
+#~ msgid "[MappingHandler]Assign %(1) to %(2) on %(3) page %(4)"
+#~ msgstr "%(1) を %(3) ページ %(4) の %(2)へアサイン"
+
+#~ msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
+#~ msgstr "%(1) を %(2) マクロコントロールに接続"
+
+#~ msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+#~ msgstr "%(1) を %(2) マクロコントロールに接続 %(3)"
+
+#~ msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
+#~ msgstr "%(1) を %(2) マクロコントロール %(3) から接続解除"
 
 #~ msgid "[SynthCombinator]A note event splitter can be inserted for 3 or more instruments"
 #~ msgstr "3以上のインストゥルメントにノートイベントスプリッターを挿入できます。"

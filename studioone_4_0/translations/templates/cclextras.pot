@@ -18,6 +18,10 @@ msgstr ""
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
 msgstr ""
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]%(2)/%(3) %(1)"
+msgstr ""
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
 msgstr ""
@@ -26,9 +30,17 @@ msgstr ""
 msgid "[ExtensionManager](disabled)"
 msgstr ""
 
+#: .\packages\extensionmanagerpackages.cpp
+msgid "[PackageActions]Abort Uninstall"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp
 #: .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
+msgstr ""
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Available Packages"
 msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
@@ -67,6 +79,10 @@ msgstr ""
 msgid "[WebFS]Cloud"
 msgstr ""
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Contains %(1) items"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Copy"
 msgstr ""
@@ -81,6 +97,14 @@ msgstr ""
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Custom Installation"
+msgstr ""
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Development Content"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Disable"
 msgstr ""
 
 #: .\extensions\contentinstaller.cpp
@@ -115,12 +139,32 @@ msgstr ""
 msgid "[TransferManager]Downloading..."
 msgstr ""
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Enable"
+msgstr ""
+
 #: .\extensions\extensionmanager.cpp
 msgid "[Command]Extensions"
 msgstr ""
 
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Factory Content"
+msgstr ""
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Failed to uninstall %(1)!"
+msgstr ""
+
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]File Type"
+msgstr ""
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]File Type"
 msgstr ""
 
 #: .\webfs\transfermanagerui.cpp
@@ -139,8 +183,16 @@ msgstr ""
 msgid "[Command]Help"
 msgstr ""
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install All"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install All"
 msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
@@ -149,6 +201,10 @@ msgstr ""
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install Missing"
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installable"
 msgstr ""
 
 #: .\extensions\contentinstaller.cpp
@@ -163,12 +219,28 @@ msgstr ""
 msgid "[ExtensionManager]Installation canceled!"
 msgstr ""
 
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+msgstr ""
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
 msgstr ""
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Installed"
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installed"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Installed"
+msgstr ""
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Installed Packages"
 msgstr ""
 
 #: .\extensions\appupdater.cpp
@@ -195,6 +267,14 @@ msgstr ""
 msgid "[Installer]My Purchased Items"
 msgstr ""
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Name"
+msgstr ""
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Name"
+msgstr ""
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No Extensions installed."
 msgstr ""
@@ -205,6 +285,14 @@ msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No updates found for your Extensions."
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Origin"
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Other"
 msgstr ""
 
 #: .\extensions\contentinstaller.cpp
@@ -239,6 +327,10 @@ msgstr ""
 msgid "[ExtensionManager]Scanning Extensions..."
 msgstr ""
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Search"
+msgstr ""
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Signature Verification"
 msgstr ""
@@ -247,8 +339,20 @@ msgstr ""
 msgid "[Installer]Size"
 msgstr ""
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]State"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Status"
+msgstr ""
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Target directory is locked by %(1)."
+msgstr ""
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]The installation file is not compatible with this application."
 msgstr ""
 
 #: .\extensions\extensiondescription.cpp
@@ -257,6 +361,10 @@ msgstr ""
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]The installed content will be available next time you start $APPNAME."
+msgstr ""
+
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
 msgstr ""
 
 #: .\extensions\appupdater.cpp
@@ -275,6 +383,30 @@ msgstr ""
 msgid "[Extensions]This file does not have a valid digital signature."
 msgstr ""
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Type"
+msgstr ""
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Type"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall All"
+msgstr ""
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Unknown"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Update"
+msgstr ""
+
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"
 msgstr ""
@@ -289,6 +421,10 @@ msgstr ""
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Uploading..."
+msgstr ""
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]User Content"
 msgstr ""
 
 #: .\extensions\appupdater.cpp

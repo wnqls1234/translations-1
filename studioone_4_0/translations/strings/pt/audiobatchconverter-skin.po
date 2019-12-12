@@ -5,10 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\converter.xml
-msgid "[SearchBar](Not searchable)"
-msgstr "(Não pesquisável)"
-
-#: .\converter.xml
 msgid "[ProcessSlotHeader]Activate"
 msgstr "Ativar"
 
@@ -71,10 +67,6 @@ msgstr "Canais"
 #: .\format.xml
 msgid "[FormatBasic]Channels"
 msgstr "Canais"
-
-#: .\converter.xml
-msgid "[SearchBar]Clear"
-msgstr "Limpar"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Click here to select..."
@@ -229,8 +221,11 @@ msgid "[AudioFilePreview]Loop Active @cmd[Transport|Toggle Loop]"
 msgstr "Loop Ativo @cmd[Transport|Toggle Loop]"
 
 #: .\format.xml
-msgid "[FileMerger]Merge all mono file from the list even if file names do not match"
-msgstr "Mesclar todos os aquivos mono da lista mesmo se os nomes de arquivo não corresponderem"
+msgid ""
+"[FileMerger]Merge all mono file from the list even if file names do not match"
+msgstr ""
+"Mesclar todos os aquivos mono da lista mesmo se os nomes de arquivo não "
+"corresponderem"
 
 #: .\format.xml
 msgid "[FileMerger]Merge mismatching files as well"
@@ -333,20 +328,8 @@ msgid "[BrowseNavigator]Search @cmd.title[]"
 msgstr "Pesquisar @cmd.title[]"
 
 #: .\converter.xml
-msgid "[SearchBar]Search for"
-msgstr "Procurar por"
-
-#: .\converter.xml
-msgid "[SearchBar]Search in"
-msgstr "Procurar em"
-
-#: .\converter.xml
 msgid "[SourceResultFilesSection]Show Peak / RMS / R128"
 msgstr "Exibir Pico / RMS / R128"
-
-#: .\converter.xml
-msgid "[BrowseNavigator]Show Thumbnails"
-msgstr "Exibir Miniaturas"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Source Folder"
@@ -369,7 +352,7 @@ msgid "[AudioFilePreview]Stop @cmd[Transport|Stop]"
 msgstr "Interromper @cmd[Transport|Stop]"
 
 #: .\gain.xml
-msgid "[Normalize]Target Loundness"
+msgid "[Normalize]Target Loudness"
 msgstr "Loudness Desejado"
 
 #: .\gain.xml
@@ -404,3 +387,17 @@ msgstr "Fabricante:"
 msgid "[AudioFilePreview]Volume"
 msgstr "Volume"
 
+#~ msgid "[SearchBar](Not searchable)"
+#~ msgstr "(Não pesquisável)"
+
+#~ msgid "[SearchBar]Clear"
+#~ msgstr "Limpar"
+
+#~ msgid "[SearchBar]Search for"
+#~ msgstr "Procurar por"
+
+#~ msgid "[SearchBar]Search in"
+#~ msgstr "Procurar em"
+
+#~ msgid "[BrowseNavigator]Show Thumbnails"
+#~ msgstr "Exibir Miniaturas"

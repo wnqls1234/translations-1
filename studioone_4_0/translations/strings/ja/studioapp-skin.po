@@ -8,6 +8,10 @@ msgstr ""
 msgid "[ChordSelectorParts]#9"
 msgstr "#9"
 
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]$APPCOMPANY Exchange and other services"
+msgstr "$APPCOMPANY Exchangeおよびその他のサービス"
+
 #: .\app\licenser.xml
 msgid "[UserLicenseExpired]$APPCOMPANY Forum"
 msgstr "$APPCOMPANY フォーラム"
@@ -16,9 +20,9 @@ msgstr "$APPCOMPANY フォーラム"
 msgid "[UserLicenseExpired]$APPCOMPANY Shop"
 msgstr "$APPCOMPANY ショップ"
 
-#: .\ccl\browser.xml
-msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
-msgstr "$APPCOMPANY ショップおよびその他のサービス"
+#: .\app\windowclasses.xml
+msgid "[WebPackageManager]$APPCOMPANY Shop"
+msgstr "$APPCOMPANY ショップ"
 
 #: .\app\licenser.xml
 msgid "[AppStoreWelcome.Intro]$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
@@ -137,6 +141,10 @@ msgid "[MutableMicroViewToggle]$title"
 msgstr "$title"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggleInvert]$title"
+msgstr "$title"
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewToggle2]$title"
 msgstr "$title"
 
@@ -185,6 +193,10 @@ msgid "[MutableMicroViewToggle]$tooltip"
 msgstr "$tooltip"
 
 #: .\app\microviews.xml
+msgid "[MutableMicroViewToggleInvert]$tooltip"
+msgstr "$tooltip"
+
+#: .\app\microviews.xml
 msgid "[MutableMicroViewToggle2]$tooltip"
 msgstr "$tooltip"
 
@@ -207,6 +219,14 @@ msgstr "$tooltip"
 #: .\engine\editor.xml
 msgid "[MusicEditorLeftPanel]&#8226;"
 msgstr "&#8226;"
+
+#: .\ccl\browser.xml
+msgid "[BreadcrumbsDelegate]&gt;"
+msgstr "&gt;"
+
+#: .\ccl\browser.xml
+msgid "[DeluxeBreadcrumbsDelegate]&gt;"
+msgstr "&gt;"
 
 #: .\engine\automation.xml
 msgid "[AutomationTrackDialog]&gt;"
@@ -840,6 +860,10 @@ msgstr "A"
 msgid "[SynthCombinatorRouting]A note event splitter can be inserted for 3 or more instruments"
 msgstr "3以上のインストゥルメントにノートイベントスプリッターを挿入できます。"
 
+#: .\app\windowclasses.xml
+msgid "[PackageManager]$APPNAME Packages"
+msgstr "$APPNAMEパッケージ"
+
 #: .\app\homepage.xml
 msgid "[Command]About"
 msgstr "情報"
@@ -882,10 +906,6 @@ msgstr "アクティベート"
 
 #: .\app\licenser.xml
 msgid "[ActivationMode.Retail]Activate"
-msgstr "アクティベート"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Activate"
 msgstr "アクティベート"
 
 #: .\devices\audiofxeditor.xml
@@ -947,10 +967,6 @@ msgstr "レイヤーを有効化"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationPage]Activate Offline"
 msgstr "オフラインでアクティベート"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Activate Purchased Items"
-msgstr "購入済みアイテムをアクティベート"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.ActivationOptions]Activate my purchased version of $APPNAME"
@@ -1132,6 +1148,10 @@ msgstr "すべて"
 msgid "[TrackExport]All"
 msgstr "すべて"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]All"
+msgstr "すべて"
+
 #: .\devices\devices.xml
 msgid "[MidiMonitor]All Notes Off"
 msgstr "オールノートオフ"
@@ -1139,6 +1159,10 @@ msgstr "オールノートオフ"
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.MarkerPart]Analyze"
 msgstr "分析"
+
+#: .\app\windowclasses.xml
+msgid "[Command]Application"
+msgstr "アプリケーション"
 
 #: .\engine\audioediting.xml
 msgid "[EditPanel.ApplyPart]Apply"
@@ -1344,12 +1368,12 @@ msgstr "@cmd[Transport|Autopunch] をオートパンチ"
 msgid "[AutoSaveOption]Auto Save Documents"
 msgstr "ドキュメントを自動保存"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Auto Tail"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Auto Tail"
 msgstr "自動テイル"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Auto Tail"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Auto Tail"
 msgstr "自動テイル"
 
 #: .\app\options.xml
@@ -2577,6 +2601,10 @@ msgid "[EditGroupSelector]Edit Group"
 msgstr "グループを編集"
 
 #: .\engine\eventinspector.xml
+msgid "[EventProperties]Edit Lock"
+msgstr "編集ロック"
+
+#: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Edit Lock"
 msgstr "編集ロック"
 
@@ -2598,10 +2626,6 @@ msgstr "編集ロック"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartMiniProperties.Table]Edit Lock"
-msgstr "編集ロック"
-
-#: .\engine\eventinspector.xml
-msgid "[ChordEventMiniProperties]Edit Lock"
 msgstr "編集ロック"
 
 #: .\devices\audiofxeditor.xml
@@ -2948,8 +2972,16 @@ msgstr "フェードアウト"
 msgid "[AudioEventPropertiesList]Fade-In"
 msgstr "フェードイン"
 
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Fade-In"
+msgstr "フェードイン"
+
 #: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Fade-Out"
+msgstr "フェードアウト"
+
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Fade-Out"
 msgstr "フェードアウト"
 
 #: .\app\options.xml
@@ -3016,12 +3048,12 @@ msgstr "フィルター"
 msgid "[MusicDeviceOptions]Filter"
 msgstr "フィルター"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Fixed Tail"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Fixed Tail"
 msgstr "固定テイル"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Fixed Tail"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Fixed Tail"
 msgstr "固定テイル"
 
 #: .\devices\audiofxeditor.xml
@@ -3104,6 +3136,10 @@ msgstr "ガジェット"
 msgid "[AudioEventPropertiesList]Gain"
 msgstr "ゲイン"
 
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Gain"
+msgstr "ゲイン"
+
 #: .\devices\musicdevices.xml
 msgid "[NoteRepeater]Gate"
 msgstr "ゲート"
@@ -3135,6 +3171,10 @@ msgstr "ジャンル"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]Genre"
 msgstr "ジャンル"
+
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]Get add-ons from $APPCOMPANY Shop"
+msgstr "$APPCOMPANY ショップからアドオンを入手"
 
 #: .\engine\song.xml
 msgid "[TrackList]Global Mute @cmd[Console|Global Mute]"
@@ -3311,10 +3351,6 @@ msgstr "アイコン"
 #: .\app\multitrack.xml
 msgid "[MultitrackPropertyEditor]Identifier"
 msgstr "識別子"
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
-msgstr "ご使用のコンピューターがインターネットに接続していない場合、別途 $APPCOMPANY アカウントからライセンスファイルをダウンロードし、ここで選択するか、このウィンドウにドラッグします。"
 
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]If your computer is not connected to the Internet, please take the following steps to activate $APPNAME:"
@@ -3848,6 +3884,14 @@ msgstr "リンク"
 msgid "[StripSilencePanel.EventsPart]Linked"
 msgstr "リンク"
 
+#: .\engine\editor.xml
+msgid "[PatternInspector]Load"
+msgstr "ロード"
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Load Pattern Preset"
+msgstr "パターンプリセットをロード"
+
 #: .\ccl\common.xml
 msgid "[ColorSchemePresetOption]Load Preset"
 msgstr "プリセットを読み込む"
@@ -4056,12 +4100,12 @@ msgstr "マスタリングファイルステータス/ソングを編集"
 msgid "[StripSilencePanel.DetectionPart]Material"
 msgstr "素材"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Max Length"
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Max Length"
 msgstr "最大長"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Max Length"
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Max Length"
 msgstr "最大長"
 
 #: .\app\shared.xml
@@ -4175,6 +4219,10 @@ msgstr "モード"
 #: .\engine\mediapool.xml .\engine\mediapreview.xml
 msgid "[PresetFileInfo]Modified:"
 msgstr "変更日:"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceKeyboardView]Modulation"
+msgstr "モジュレーション"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Momentary"
@@ -4396,12 +4444,20 @@ msgstr "トラックが選択されていません"
 msgid "[TrackExport]None"
 msgstr "なし"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]None"
+msgstr "なし"
+
 #: .\devices\audiofxeditor.xml
 msgid "[SplitterEditView]Normal"
 msgstr "標準"
 
 #: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Normalize"
+msgstr "ノーマライズ"
+
+#: .\project\project.xml
+msgid "[ProjectEventMiniProperties.Table]Normalize"
 msgstr "ノーマライズ"
 
 #: .\engine\editor.xml
@@ -4644,6 +4700,10 @@ msgstr "オーバーラップ"
 msgid "[TrackExport]Overlap"
 msgstr "オーバーラップ"
 
+#: .\app\windowclasses.xml
+msgid "[Command]Packages"
+msgstr "パッケージ"
+
 #: .\app\options.xml
 msgid "[AutomationOption]Pan"
 msgstr "パン"
@@ -4686,6 +4746,10 @@ msgstr "ペースト"
 
 #: .\engine\editor.xml
 msgid "[Command]Pattern"
+msgstr "パターン"
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Pattern"
 msgstr "パターン"
 
 #: .\app\windowclasses.xml .\engine\editor.xml
@@ -4747,6 +4811,10 @@ msgstr "ピッチベンド"
 #: .\engine\editor.xml
 msgid "[PitchNameSetup]Pitch Names"
 msgstr "音名"
+
+#: .\devices\surfaces.xml
+msgid "[SurfaceKeyboardView]Pitchbend"
+msgstr "ピッチベンド"
 
 #: .\project\analyser.xml
 msgid "[Analyser]PkRMS"
@@ -4908,7 +4976,7 @@ msgstr "プリロール @cmd[Transport|Preroll]"
 msgid "[MusicTransformDialog]Preserve Instrument Track State"
 msgstr "インストゥルメントトラック状態を維持"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Preserve Realtime State"
 msgstr "リアルタイム状態を維持"
 
@@ -5070,7 +5138,7 @@ msgstr "クオンタイズ"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Quantize Strength"
-msgstr "クオンタイズ強度"
+msgstr "クオンタイズ強さ"
 
 #: .\engine\editor.xml
 msgid "[EditorToolBar]Quantize Value"
@@ -5379,6 +5447,14 @@ msgstr "インストゥルメントを削除"
 #: .\engine\trackcontrols.xml
 msgid "[LayerAspectRow1]Remove Layer"
 msgstr "レイヤーを削除"
+
+#: .\ccl\pluginmanager.xml
+msgid "[PlugInManager]Remove Plug-In Settings"
+msgstr "プラグイン設定を削除"
+
+#: .\ccl\pluginmanager.xml
+msgid "[Command]Remove Plug-In Settings"
+msgstr "プラグイン設定を削除"
 
 #: .\devices\devices.xml
 msgid "[MacroControlSetup]Remove Targets"
@@ -5700,6 +5776,10 @@ msgstr "セグメント"
 msgid "[TrackExport]Select"
 msgstr "選択"
 
+#: .\project\audiofile.xml
+msgid "[AudioFilePublisher]Select"
+msgstr "選択"
+
 #: .\app\homepage.xml
 msgid "[ArtistProfile]Select Image"
 msgstr "イメージを選択"
@@ -5727,10 +5807,6 @@ msgstr "レイヤー色を選択"
 #: .\app\licenser.xml
 msgid "[UserLicenseDialog.OfflinePage]Select License File..."
 msgstr "ライセンスファイルを選択..."
-
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Select License File..."
-msgstr "ライセンスを選択..."
 
 #: .\engine\inspector.xml
 msgid "[TrackInspectorAutomationControls]Select Parameter"
@@ -5880,9 +5956,21 @@ msgstr "設定 一般"
 msgid "[Command]Setup Meta Information"
 msgstr "設定 メタ情報"
 
+#: .\ccl\extensionmanager.xml
+msgid "[ExtensionManager.FilterTabs]Shared Extensions"
+msgstr "共有済みエクステンション"
+
 #: .\engine\editor.xml
 msgid "[Command]Shift Lane"
 msgstr "レーンをシフト"
+
+#: .\app\windowclasses.xml
+msgid "[Command]Shop"
+msgstr "ショップ"
+
+#: .\ccl\browser.xml
+msgid "[BrowserHomeContent]Shop"
+msgstr "ショップ"
 
 #: .\project\analyser.xml
 msgid "[EBUDetailValues]Short-Term"
@@ -5928,6 +6016,10 @@ msgstr "外部デバイスを表示"
 msgid "[Command]Show Files"
 msgstr "ファイルを表示"
 
+#: .\ccl\browser.xml
+msgid "[BrowserListView]Show Gallery"
+msgstr "ギャラリーを表示"
+
 #: .\app\windowclasses.xml
 msgid "[Command]Show Groups (Channel List)"
 msgstr "グループを表示 (チャンネルリスト)"
@@ -5951,6 +6043,10 @@ msgstr "インストゥルメントを表示"
 #: .\ccl\browser.xml
 msgid "[BrowserHomeContent]Show Instruments and Note FX"
 msgstr "インストゥルメントとNote FXを表示"
+
+#: .\ccl\browser.xml
+msgid "[BrowserListView]Show List"
+msgstr "リストを表示"
 
 #: .\ccl\browser.xml
 msgid "[Command]Show Loops"
@@ -6000,16 +6096,16 @@ msgstr "RMSをK-System 14スケールで表示"
 msgid "[Analyser]Show RMS on K-System 20 Scale"
 msgstr "RMSをK-System 20スケールで表示"
 
+#: .\ccl\browser.xml
+msgid "[Command]Show Shop"
+msgstr "ショップを表示"
+
 #: .\app\toolbar.xml
 msgid "[Command]Show Song"
 msgstr "ソングを表示"
 
 #: .\ccl\browser.xml
-msgid "[PlugInBrowserHeader]Show Thumbnails"
-msgstr "サムネイルを表示"
-
-#: .\ccl\browser.xml
-msgid "[CloudBrowserHeader]Show Thumbnails"
+msgid "[BrowserViewModeButtons]Show Thumbnails"
 msgstr "サムネイルを表示"
 
 #: .\app\options.xml
@@ -6416,6 +6512,14 @@ msgstr "マーカーで停止"
 msgid "[MarkerMiniProperties.Table]Stop at Marker"
 msgstr "マーカーで停止"
 
+#: .\engine\editor.xml
+msgid "[PatternInspector]Store"
+msgstr "保存"
+
+#: .\engine\editor.xml
+msgid "[PatternInspector]Store Pattern Preset"
+msgstr "パターンプリセットを保存"
+
 #: .\ccl\common.xml
 msgid "[ColorSchemePresetOption]Store Preset"
 msgstr "プリセットを保存"
@@ -6446,7 +6550,7 @@ msgstr "ストレート"
 
 #: .\engine\audioediting.xml
 msgid "[AudioBendPanel.ActionPart]Strength"
-msgstr "強度"
+msgstr "強さ"
 
 #: .\engine\songdialogs.xml
 msgid "[NewSong]Stretch audio files to Song tempo"
@@ -6476,7 +6580,7 @@ msgstr "スタイル"
 msgid "[StorePresetDialog]Subfolder"
 msgstr "サブフォルダー"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Support retransformation to audio track with insert effects."
 msgstr "インサートエフェクトを持つオーディオトラックへの再変換に対応します。"
 
@@ -6504,12 +6608,12 @@ msgstr "スウィング"
 msgid "[QuantizeSetup.TypePart]Swing"
 msgstr "スウィング"
 
-#: .\engine\musicdialogs.xml
-msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+#: .\engine\audiotransform.xml
+msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "自動テイル検出と指定の長さの固定テイルの間で切り替えます。"
 
-#: .\engine\songdialogs.xml
-msgid "[AudioTransformDialog]Switch between automatic tail detection and fixed tail of given length."
+#: .\engine\musicdialogs.xml
+msgid "[MusicTransformDialog]Switch between automatic tail detection and fixed tail of given length."
 msgstr "自動テイル検出と指定の長さの固定テイルの間で切り替えます。"
 
 #: .\engine\editor.xml
@@ -6600,10 +6704,6 @@ msgstr "Mac App Storeにて $APPNAME をお買い上げいただきありがと�
 msgid "[AppStoreWelcome.Intro]Thank you for purchasing $APPNAME from the Mac App Store."
 msgstr "Mac App Storeにて $APPNAME をお買い上げいただきありがとうございました。"
 
-#: .\app\licenser.xml
-msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
-msgstr "ご購入いただきありがとうございました。購入済みアイテムをこのコンピューターでアクティベートできます。"
-
 #: .\engine\videoplayer.xml
 msgid "[VideoCodecSelector]The source codecs are not supported by the selected file type."
 msgstr "このソースコーデックは選択されているファイルタイプに対応していません。"
@@ -6645,6 +6745,10 @@ msgid "[BigTime]Time Display"
 msgstr "時間ディスプレイ"
 
 #: .\engine\eventinspector.xml
+msgid "[EventProperties]Time Lock"
+msgstr "時間ロック"
+
+#: .\engine\eventinspector.xml
 msgid "[AudioEventPropertiesList]Time Lock"
 msgstr "時間ロック"
 
@@ -6666,10 +6770,6 @@ msgstr "時間ロック"
 
 #: .\engine\eventinspector.xml
 msgid "[MusicPartMiniProperties.Table]Time Lock"
-msgstr "時間ロック"
-
-#: .\engine\eventinspector.xml
-msgid "[ChordEventMiniProperties]Time Lock"
 msgstr "時間ロック"
 
 #: .\engine\songdialogs.xml
@@ -6783,6 +6883,10 @@ msgstr "この機能を使用するには、$APPCOMPANY アカウントが必要
 #: .\project\project.xml
 msgid "[Project]Toggle Track Height"
 msgstr "トラック高さを切り替え"
+
+#: .\ccl\browser.xml
+msgid "[BrowserViewModeButtons]Toggle Tree Mode"
+msgstr "ツリーモードを切り替える"
 
 #: .\devices\transport.xml
 msgid "[PerformanceMonitor.Cache]Total"
@@ -6904,7 +7008,7 @@ msgstr "転送"
 msgid "[TransferActivity]Transfers"
 msgstr "転送"
 
-#: .\engine\songdialogs.xml
+#: .\engine\audiotransform.xml
 msgid "[AudioTransformDialog]Transform Audio Track"
 msgstr "オーディオトラックを変換"
 
@@ -7408,6 +7512,36 @@ msgstr "x"
 #: .\project\project.xml
 msgid "[DetailedInfoTable]x"
 msgstr "x"
+
+#~ msgid "[BrowserHomeContent]$APPCOMPANY Shop and other services"
+#~ msgstr "$APPCOMPANY ショップおよびその他のサービス"
+
+#~ msgid "[PurchaseHandler]Activate"
+#~ msgstr "アクティベート"
+
+#~ msgid "[PurchaseHandler]Activate Purchased Items"
+#~ msgstr "購入済みアイテムをアクティベート"
+
+#~ msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+#~ msgstr "ご使用のコンピューターがインターネットに接続していない場合、別途 $APPCOMPANY アカウントからライセンスファイルをダウンロードし、ここで選択するか、このウィンドウにドラッグします。"
+
+#~ msgid "[PurchaseHandler]Select License File..."
+#~ msgstr "ライセンスを選択..."
+
+#~ msgid "[PlugInBrowserHeader]Show Thumbnails"
+#~ msgstr "サムネイルを表示"
+
+#~ msgid "[CloudBrowserHeader]Show Thumbnails"
+#~ msgstr "サムネイルを表示"
+
+#~ msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+#~ msgstr "ご購入いただきありがとうございました。購入済みアイテムをこのコンピューターでアクティベートできます。"
+
+#~ msgid "[ChordEventMiniProperties]Edit Lock"
+#~ msgstr "編集ロック"
+
+#~ msgid "[ChordEventMiniProperties]Time Lock"
+#~ msgstr "時間ロック"
 
 #~ msgid "[PlugInSelectorMenuWide]$title"
 #~ msgstr "$title"

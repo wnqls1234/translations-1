@@ -20,6 +20,14 @@ msgstr "$APPNAME'in $APPCOMPANY hesabınıza erişim iznine ihtiyacı var. Lütf
 msgid "[CommandEditorInplaceView]-"
 msgstr "-"
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "Aktive Et"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "Satın Alınan Ürünleri Aktive Et"
+
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Assign"
 msgstr "Ata"
@@ -80,6 +88,10 @@ msgstr "En son kullanım Koşullarını okudum ve kabul ettim."
 msgid "[LicenseServerLogin]I would like to receive occasional updates from $APPCOMPANY via e-mail."
 msgstr "$APPCOMPANY 'den zaman zaman güncellemelerle ilgili e-mail almayı kabul ediyorum."
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+msgstr "Eğer bilgisayarınız internete bağlı değil ise başka bir bilgisayar kullanarak $APPCOMPANY hesabınızdan Lisans Dosyanızı indirip bu pencereye taşıyın veya seçin."
+
 #: .\cclcommon.xml
 msgid "[CommandSchemeOption]Keyboard mapping scheme"
 msgstr "Klavye Haritalama Düzeni"
@@ -124,6 +136,10 @@ msgstr "Şifreyi Tekrarla"
 msgid "[CommandEditorOption]Search:"
 msgstr "Arama:"
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]Select License File..."
+msgstr "Lisans Dosyası Seç..."
+
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Show"
 msgstr "Göster"
@@ -135,6 +151,10 @@ msgstr "Göster"
 #: .\transfers.xml
 msgid "[TransferManager]Show when new transfer starts"
 msgstr "Yeni bir transfer başladığında göster"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "Alışverişiniz için teşekkürler. Satın aldığınız ürünler bu bilgisayarda aktive edilmek için hazırlar."
 
 #: .\transfers.xml
 msgid "[TransferManager]Transfers"

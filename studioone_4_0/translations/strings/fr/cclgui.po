@@ -36,6 +36,10 @@ msgstr "Retour arrière"
 msgid "[FileType]Bitmap File"
 msgstr "Fichier Bitmap"
 
+#: .\skin\coreskinmodel.cpp
+msgid "[FileType]Bitmap Font"
+msgstr "Police Bitmap"
+
 #: .\dialogs\alert.cpp
 msgid "[Alert]Cancel"
 msgstr "Annuler"
@@ -453,12 +457,12 @@ msgid "[VirtualKey]NumPad+"
 msgstr "+ Pavé num."
 
 #: .\keyevent.cpp
-msgid "[VirtualKey]NumPad,"
-msgstr ", Pavé num."
-
-#: .\keyevent.cpp
 msgid "[VirtualKey]NumPad-"
 msgstr "- Pavé num."
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]NumPad."
+msgstr ". Pavé num."
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad/"

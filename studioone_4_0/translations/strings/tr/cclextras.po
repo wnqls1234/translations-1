@@ -24,6 +24,10 @@ msgstr "%(2) nin %(1)'i"
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
 msgstr "%(2)'den %(1)'i sisteminizde zaten kurulu."
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]%(2)/%(3) %(1)"
+msgstr "%(2)/%(3) %(1)"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
 msgstr "(Geliştirici Modu)"
@@ -32,9 +36,17 @@ msgstr "(Geliştirici Modu)"
 msgid "[ExtensionManager](disabled)"
 msgstr "(devre dışı)"
 
+#: .\packages\extensionmanagerpackages.cpp
+msgid "[PackageActions]Abort Uninstall"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
 msgstr "Uygulama"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Available Packages"
+msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
@@ -72,6 +84,10 @@ msgstr "Ürün anahtarını talep edin"
 msgid "[WebFS]Cloud"
 msgstr "Bulut"
 
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Contains %(1) items"
+msgstr ""
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Copy"
 msgstr "Kopya"
@@ -87,6 +103,14 @@ msgstr "Güncel sürüm: %(1)"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Custom Installation"
 msgstr "Özelleştirilmiş Kurulum"
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Development Content"
+msgstr ""
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Disable"
+msgstr "Devredışı bırak"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Do you want to install the missing packages only?"
@@ -120,13 +144,33 @@ msgstr "$APPCOMPANY hesabından indir"
 msgid "[TransferManager]Downloading..."
 msgstr "İndiriliyor..."
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Enable"
+msgstr "Etkinleştir"
+
 #: .\extensions\extensionmanager.cpp
 msgid "[Command]Extensions"
 msgstr "Genişletmeler"
 
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Factory Content"
+msgstr ""
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Failed to uninstall %(1)!"
+msgstr ""
+
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "Başırısız oldu !"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]File Type"
+msgstr "Dosya Tipi"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]File Type"
+msgstr "Dosya Tipi"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Files are being transferred in background."
@@ -144,8 +188,16 @@ msgstr "Araçlar"
 msgid "[Command]Help"
 msgstr "Yardım"
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install"
+msgstr "Kur"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install All"
+msgstr "Her şeyi kur"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install All"
 msgstr "Her şeyi kur"
 
 #: .\extensions\extensionmanagerui.cpp
@@ -155,6 +207,10 @@ msgstr "Genişletme kur"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install Missing"
 msgstr "Eksik olanları kur"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installable"
+msgstr ""
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Command]Installation"
@@ -168,6 +224,10 @@ msgstr "Kurulum dosyası"
 msgid "[ExtensionManager]Installation canceled!"
 msgstr "Kurulum iptal edildi!"
 
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+msgstr ""
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
 msgstr "Kurulum başarısız oldu!"
@@ -175,6 +235,18 @@ msgstr "Kurulum başarısız oldu!"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Installed"
 msgstr "Kuruldu"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installed"
+msgstr "Kuruldu"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Installed"
+msgstr "Kuruldu"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Installed Packages"
+msgstr ""
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Installed version: %(1)"
@@ -200,6 +272,14 @@ msgstr "Minimal kurulum"
 msgid "[Installer]My Purchased Items"
 msgstr "Satın aldıklarım"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Name"
+msgstr "İsim"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Name"
+msgstr "İsim"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No Extensions installed."
 msgstr "Hiçbir genişletme kurulu değil"
@@ -211,6 +291,14 @@ msgstr "Hiçbir araç kurulu değil"
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No updates found for your Extensions."
 msgstr "Genişletmeler için güncelleme bulunamadı."
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Origin"
+msgstr ""
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Other"
+msgstr "diğer"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Package"
@@ -244,6 +332,10 @@ msgstr "Tekrar başlat"
 msgid "[ExtensionManager]Scanning Extensions..."
 msgstr "Genişletmeler taranıyor..."
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Search"
+msgstr "Arama"
+
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Signature Verification"
 msgstr "İmza kontrolü"
@@ -252,9 +344,21 @@ msgstr "İmza kontrolü"
 msgid "[Installer]Size"
 msgstr "Boyut"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]State"
+msgstr "Durum"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Status"
 msgstr "Durum"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Target directory is locked by %(1)."
+msgstr ""
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]The installation file is not compatible with this application."
+msgstr ""
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]The installation file is not compatible with this platform."
@@ -262,6 +366,10 @@ msgstr "Kurulum dosyası mevcut platform ile uyumlu değil."
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]The installed content will be available next time you start $APPNAME."
+msgstr "Kurulan içerik bir sonraki başlatmada $APPNAME adı altında kullanımda olacaktır."
+
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
 msgstr "Kurulan içerik bir sonraki başlatmada $APPNAME adı altında kullanımda olacaktır."
 
 #: .\extensions\appupdater.cpp
@@ -280,6 +388,30 @@ msgstr "Daha güncel bir sürüm bulunmaktadır."
 msgid "[Extensions]This file does not have a valid digital signature."
 msgstr "Bu dosya geçerli dijital bir imzaya sahip değil."
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Type"
+msgstr "Tip"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Type"
+msgstr "Tip"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall"
+msgstr "Kaldır"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall All"
+msgstr ""
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Unknown"
+msgstr "Bilinmiyor"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Update"
+msgstr "Güncelle"
+
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"
 msgstr "Şimdi Güncelle"
@@ -295,6 +427,10 @@ msgstr "Yükleme"
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Uploading..."
 msgstr "Yükleniyor..."
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]User Content"
+msgstr ""
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]View Release Notes"

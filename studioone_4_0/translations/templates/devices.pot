@@ -214,12 +214,16 @@ msgstr ""
 msgid "[AudioIOType]Analog"
 msgstr ""
 
-#: .\macrocontrol\macrocontrolsetup.cpp
-msgid "[MacroControlSetup]Assign %(1) to %(2)"
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3)"
 msgstr ""
 
 #: .\surfaces\editor\mappinghandler.cpp
-msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
+msgid "[MappingHandler]Assign \"%(1)\" to %(2) on %(3) page %(4)"
+msgstr ""
+
+#: .\macrocontrol\macrocontrolsetup.cpp
+msgid "[MacroControlSetup]Assign %(1) to %(2)"
 msgstr ""
 
 #: .\music\padsection.cpp
@@ -441,11 +445,11 @@ msgid "[MusicDeviceSetup]Configure..."
 msgstr ""
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control"
 msgstr ""
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Connect %(1) to %(2) Macro Control %(3)"
+msgid "[MacroControls]Connect \"%(1)\" to %(2) Control %(3)"
 msgstr ""
 
 #: .\base\deviceeditfunctions.cpp
@@ -547,6 +551,10 @@ msgstr ""
 msgid "[MidiMonitor]Description"
 msgstr ""
 
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Destination"
+msgstr ""
+
 #: .\music\musicdevicemanager.cpp
 msgid "[MusicDevices]Detected Device %(1)"
 msgstr ""
@@ -610,7 +618,7 @@ msgid "[PerformanceMonitor]Disabled"
 msgstr ""
 
 #: .\macrocontrol\macrocontrolset.cpp
-msgid "[MacroControls]Disconnect %(1) from %(2) Macro Control %(3)"
+msgid "[MacroControls]Disconnect \"%(1)\" from %(2) Control %(3)"
 msgstr ""
 
 #: .\hardware\ucmixerconnector.cpp

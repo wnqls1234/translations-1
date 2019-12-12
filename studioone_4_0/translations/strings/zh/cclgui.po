@@ -6,7 +6,7 @@ msgstr ""
 
 #: .\dialogs\commandeditor.cpp
 msgid "[CommandEditor](modified)"
-msgstr "(已修正)"
+msgstr "(已修改)"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]<Unnamed>"
@@ -26,7 +26,7 @@ msgstr "分配"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Assign Command..."
-msgstr "指配命令..."
+msgstr "分配命令..."
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Backspace"
@@ -35,6 +35,10 @@ msgstr "BackSpace"
 #: .\graphics\imaging\bitmap.cpp
 msgid "[FileType]Bitmap File"
 msgstr "位图文件"
+
+#: .\skin\coreskinmodel.cpp
+msgid "[FileType]Bitmap Font"
+msgstr "位图字体"
 
 #: .\dialogs\alert.cpp
 msgid "[Alert]Cancel"
@@ -54,7 +58,7 @@ msgstr "正在取消..."
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Caps Lock"
-msgstr "大写键锁定"
+msgstr "Caps Lock"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Channel Down"
@@ -78,7 +82,7 @@ msgstr "命令"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Control"
-msgstr "控制"
+msgstr "Control"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Copy"
@@ -110,7 +114,7 @@ msgstr "默认"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Del"
-msgstr "删除"
+msgstr "Del"
 
 #: .\itemviews\itemview.cpp
 msgid "[Edit]Delete"
@@ -122,11 +126,11 @@ msgstr "删除"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Deselect All"
-msgstr "全部不选"
+msgstr "取消选择"
 
 #: .\itemviews\listview.cpp
 msgid "[ListView]Details"
-msgstr "详细资料"
+msgstr "详细信息"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Do you want to remove \"%(1)\"?"
@@ -134,7 +138,7 @@ msgstr "是否确定移除 \"%(1)\"?"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down"
-msgstr "↓"
+msgstr "向下"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Down Arrow"
@@ -142,11 +146,11 @@ msgstr "↓"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down Extend"
-msgstr "向下展开"
+msgstr "向下扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down Extend Add"
-msgstr "向下展开附加"
+msgstr "向下扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Down Skip"
@@ -174,7 +178,7 @@ msgstr "结束扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]End Extend Add"
-msgstr "结束扩展附加"
+msgstr "结束扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]End Skip"
@@ -182,11 +186,11 @@ msgstr "结束跳过"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Enter"
-msgstr "键入"
+msgstr "Enter"
 
 #: .\views\focusnavigator.cpp
 msgid "[Command]Enter"
-msgstr "键入"
+msgstr "进入"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Esc"
@@ -318,11 +322,11 @@ msgstr "前进"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Go to"
-msgstr "到"
+msgstr "跳转到"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Group"
-msgstr "编组"
+msgstr "组"
 
 #: .\help\helpmanager.cpp
 msgid "[HelpManager]Help file not found at:\n"
@@ -334,7 +338,7 @@ msgstr "主页"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Horizontal"
-msgstr "水平的"
+msgstr "水平"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Icon"
@@ -374,11 +378,11 @@ msgstr "←"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Left Extend"
-msgstr "左侧展开"
+msgstr "左侧扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Left Extend Add"
-msgstr "左侧展开添加"
+msgstr "左侧扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Left Skip"
@@ -390,11 +394,11 @@ msgstr "列表"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Menu"
-msgstr "目录"
+msgstr "菜单"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Menu Item"
-msgstr "目录项"
+msgstr "菜单项"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Move to"
@@ -406,103 +410,103 @@ msgstr "导航"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Button"
-msgstr "新按钮"
+msgstr "新建按钮"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Group"
-msgstr "新编组"
+msgstr "新建组"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Menu Button"
-msgstr "新菜单钮"
+msgstr "新建菜单钮"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Menu Item"
-msgstr "新菜单项"
+msgstr "新建菜单项"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Page"
-msgstr "新页面"
+msgstr "新建页面"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Separator"
-msgstr "新分隔符"
+msgstr "新建分隔符"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]New Submenu"
-msgstr "新子菜单"
+msgstr "新建子菜单"
 
 #: .\layout\workspace.cpp
 msgid "[Command]Next Perspective"
-msgstr "下一个透视"
+msgstr "下一个瞬变"
 
 #: .\dialogs\alert.cpp
 msgid "[Alert]No"
-msgstr "不"
+msgstr "否"
 
 #: .\help\helpmanager.cpp
 msgid "[HelpManager]No compatible PDF Viewer installed!"
-msgstr "尚未安装PDF阅读器!"
+msgstr "未安装兼容的PDF阅读器!"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad*"
-msgstr "Num*"
+msgstr "数字小键盘*"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad+"
-msgstr "Num+"
-
-#: .\keyevent.cpp
-msgid "[VirtualKey]NumPad,"
-msgstr "Num,"
+msgstr "数字小键盘+"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad-"
-msgstr "Num-"
+msgstr "数字小键盘-"
+
+#: .\keyevent.cpp
+msgid "[VirtualKey]NumPad."
+msgstr "数字小键盘."
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad/"
-msgstr "Num/"
+msgstr "数字小键盘/"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad0"
-msgstr "Num0"
+msgstr "数字小键盘0"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad1"
-msgstr "Num1"
+msgstr "数字小键盘1"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad2"
-msgstr "Num2"
+msgstr "数字小键盘2"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad3"
-msgstr "Num3"
+msgstr "数字小键盘3"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad4"
-msgstr "Num4"
+msgstr "数字小键盘4"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad5"
-msgstr "Num5"
+msgstr "数字小键盘5"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad6"
-msgstr "Num6"
+msgstr "数字小键盘6"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad7"
-msgstr "Num7"
+msgstr "数字小键盘7"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad8"
-msgstr "Num8"
+msgstr "数字小键盘8"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]NumPad9"
-msgstr "Num9"
+msgstr "数字小键盘9"
 
 #: .\dialogs\alert.cpp
 msgid "[Alert]OK"
@@ -534,11 +538,11 @@ msgstr "Page Down"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Down Extend"
-msgstr "展开下翻页"
+msgstr "下翻页扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Down Extend Add"
-msgstr "下翻页展开添加"
+msgstr "下翻页扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Down Skip"
@@ -554,11 +558,11 @@ msgstr "上翻页"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Up Extend"
-msgstr "上翻页展开"
+msgstr "上翻页扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Up Extend Add"
-msgstr "上翻页展开添加"
+msgstr "上翻页扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Page Up Skip"
@@ -578,7 +582,7 @@ msgstr "播放暂停"
 
 #: .\layout\workspace.cpp
 msgid "[Command]Previous Perspective"
-msgstr "上一个透视"
+msgstr "上一个瞬变"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Record"
@@ -586,7 +590,7 @@ msgstr "录音"
 
 #: .\system\webbrowserview.cpp
 msgid "[WebView]Reload Page"
-msgstr "刷新页面"
+msgstr "重载页面"
 
 #: .\itemviews\dropbox.cpp
 msgid "[DropBox]Remove %(1)"
@@ -598,7 +602,7 @@ msgstr "移除按钮"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Group"
-msgstr "移除编组"
+msgstr "移除组"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Image"
@@ -614,7 +618,7 @@ msgstr "移除页面"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Separator"
-msgstr "移除分离器"
+msgstr "移除分隔符"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Remove Submenu"
@@ -650,11 +654,11 @@ msgstr "→"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Right Extend"
-msgstr "右侧展开"
+msgstr "右侧扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Right Extend Add"
-msgstr "右侧展开添加"
+msgstr "右侧扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Right Skip"
@@ -662,7 +666,7 @@ msgstr "右侧跳过"
 
 #: .\graphics\shapes\svg\svgparser.cpp
 msgid "[FileType]Scalable Vector Graphics"
-msgstr "矢量图"
+msgstr "可缩放矢量图"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Select All"
@@ -674,7 +678,7 @@ msgstr "选择图像"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Separator"
-msgstr "分离器"
+msgstr "分隔符"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Shift"
@@ -682,19 +686,19 @@ msgstr "Shift"
 
 #: .\itemviews\headerview.cpp
 msgid "[HeaderView]Size All Columns to Fit"
-msgstr "尺寸以适应所有列"
+msgstr "调整所有列至适合大小"
 
 #: .\itemviews\headerview.cpp
 msgid "[HeaderView]Size Column to Fit"
-msgstr "到适合的大小列"
+msgstr "调整列至适合大小"
 
 #: .\skin\skinwizard.cpp
 msgid "[FileType]Skin File"
-msgstr "界面文件"
+msgstr "外观文件"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Space"
-msgstr "空格键"
+msgstr "Space"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Start"
@@ -702,11 +706,11 @@ msgstr "开始"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Start Extend"
-msgstr "开始展开"
+msgstr "开始扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Start Extend Add"
-msgstr "开始展开添加"
+msgstr "开始扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Start Skip"
@@ -738,11 +742,11 @@ msgstr "↑"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Up Extend"
-msgstr "向上展开"
+msgstr "向上扩展"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Up Extend Add"
-msgstr "向上展开添加"
+msgstr "向上扩展添加"
 
 #: .\itemviews\itemview.cpp
 msgid "[Command]Up Skip"
@@ -750,11 +754,11 @@ msgstr "向上跳过"
 
 #: .\controls\commandbar\commandbarview.cpp
 msgid "[CommandBar]Vertical"
-msgstr "垂直的"
+msgstr "垂直"
 
 #: .\layout\workspace.cpp .\windows\windowmanager.cpp
 msgid "[Command]View"
-msgstr "视图"
+msgstr "查看"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Volume Down"
@@ -766,15 +770,18 @@ msgstr "音量静音"
 
 #: .\keyevent.cpp
 msgid "[VirtualKey]Volume Up"
-msgstr "提升音量"
+msgstr "提高音量"
 
 #: .\dialogs\alert.cpp
 msgid "[Alert]Yes"
-msgstr "是的"
+msgstr "是"
 
 #: .\dialogs\useroptionmodel.cpp
 msgid "[UserOption]You have made changes to the setup. Do you want to apply the changes?"
-msgstr "设置已改变, 是否应用改变?"
+msgstr "设置已改变，是否应用改变?"
+
+#~ msgid "[VirtualKey]NumPad,"
+#~ msgstr "数字小键盘,"
 
 #~ msgid "[CommandBar]Do you want to remove %(1)?"
 #~ msgstr "是否移除 %(1)?"

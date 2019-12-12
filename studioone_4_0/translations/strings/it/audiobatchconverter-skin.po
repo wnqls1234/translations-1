@@ -5,10 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\converter.xml
-msgid "[SearchBar](Not searchable)"
-msgstr "(Non Ricercabile)"
-
-#: .\converter.xml
 msgid "[ProcessSlotHeader]Activate"
 msgstr "Attiva"
 
@@ -71,10 +67,6 @@ msgstr "Canali"
 #: .\format.xml
 msgid "[FormatBasic]Channels"
 msgstr "Canali"
-
-#: .\converter.xml
-msgid "[SearchBar]Clear"
-msgstr "Cancella"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Click here to select..."
@@ -229,8 +221,11 @@ msgid "[AudioFilePreview]Loop Active @cmd[Transport|Toggle Loop]"
 msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
 
 #: .\format.xml
-msgid "[FileMerger]Merge all mono file from the list even if file names do not match"
-msgstr "Unisci tutti i file mono dall'elenco anche se i nomi dei file non corrispondono"
+msgid ""
+"[FileMerger]Merge all mono file from the list even if file names do not match"
+msgstr ""
+"Unisci tutti i file mono dall'elenco anche se i nomi dei file non "
+"corrispondono"
 
 #: .\format.xml
 msgid "[FileMerger]Merge mismatching files as well"
@@ -333,20 +328,8 @@ msgid "[BrowseNavigator]Search @cmd.title[]"
 msgstr "Cerca @cmd.title[]"
 
 #: .\converter.xml
-msgid "[SearchBar]Search for"
-msgstr "Cerca"
-
-#: .\converter.xml
-msgid "[SearchBar]Search in"
-msgstr "Cerca in"
-
-#: .\converter.xml
 msgid "[SourceResultFilesSection]Show Peak / RMS / R128"
 msgstr "Mostra Picco / RMS / R128"
-
-#: .\converter.xml
-msgid "[BrowseNavigator]Show Thumbnails"
-msgstr "Mostra Miniature"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Source Folder"
@@ -369,8 +352,8 @@ msgid "[AudioFilePreview]Stop @cmd[Transport|Stop]"
 msgstr "Stop @cmd[Transport|Stop]"
 
 #: .\gain.xml
-msgid "[Normalize]Target Loundness"
-msgstr "Target Loundness"
+msgid "[Normalize]Target Loudness"
+msgstr "Target Loudness"
 
 #: .\gain.xml
 msgid "[Normalize]Target Peak"
@@ -404,3 +387,17 @@ msgstr "Fornitore:"
 msgid "[AudioFilePreview]Volume"
 msgstr "Volume"
 
+#~ msgid "[SearchBar](Not searchable)"
+#~ msgstr "(Non Ricercabile)"
+
+#~ msgid "[SearchBar]Clear"
+#~ msgstr "Cancella"
+
+#~ msgid "[SearchBar]Search for"
+#~ msgstr "Cerca"
+
+#~ msgid "[SearchBar]Search in"
+#~ msgstr "Cerca in"
+
+#~ msgid "[BrowseNavigator]Show Thumbnails"
+#~ msgstr "Mostra Miniature"

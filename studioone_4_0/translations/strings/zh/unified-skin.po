@@ -6,7 +6,7 @@ msgstr ""
 
 #: .\login.xml
 msgid "[LicenseServerLogin]$APPCOMPANY Login"
-msgstr "$APPCOMPANY 登陆"
+msgstr "$APPCOMPANY 登录"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]$APPCOMPANY Terms of Use"
@@ -14,11 +14,19 @@ msgstr "$APPCOMPANY 使用条款"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "$APPNAME 需要登陆您的 $APP公司 账号。请填写您的电子邮件/用户名。"
+msgstr "$APPNAME 需要访问您的 $APPCOMPANY 帐户。请在下方使用您的电子邮件/用户名登录。"
 
 #: .\cclcommon.xml
 msgid "[CommandEditorInplaceView]-"
 msgstr "-"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate"
+msgstr "激活"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Activate Purchased Items"
+msgstr "激活购买产品"
 
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Assign"
@@ -34,7 +42,7 @@ msgstr "分配并跳转到冲突处"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Back to Log in"
-msgstr "回到登陆页面"
+msgstr "返回登录"
 
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Cancel"
@@ -42,15 +50,15 @@ msgstr "取消"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Country"
-msgstr "国家"
+msgstr "国家/地区"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Create $APPCOMPANY Account"
-msgstr "创建 $APPCOMPANY 账户"
+msgstr "创建 $APPCOMPANY 帐户"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Don&apos;t have a $APPCOMPANY Account yet?"
-msgstr " 尚未拥有一个$APPCOMPANY 账户?"
+msgstr "尚未拥有一个$APPCOMPANY 帐户?"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Email"
@@ -62,7 +70,7 @@ msgstr "电子邮件或用户名"
 
 #: .\cclcommon.xml
 msgid "[CommandEditorOption]Enter key:"
-msgstr "按下某个键:"
+msgstr "按下键:"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]First Name"
@@ -79,6 +87,10 @@ msgstr " 本人已阅读并同意最新的使用条款。"
 #: .\login.xml
 msgid "[LicenseServerLogin]I would like to receive occasional updates from $APPCOMPANY via e-mail."
 msgstr "我愿意通过电子邮件接受来自 $APPCOMPANY 的不定期更新。"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
+msgstr "如果您的电脑未连接至网络，则请单独从您的$APPCOMPANY 帐户下载许可证文件并在此选择它，或将其拖曳至此窗口。"
 
 #: .\cclcommon.xml
 msgid "[CommandSchemeOption]Keyboard mapping scheme"
@@ -98,7 +110,7 @@ msgstr "姓"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Login"
-msgstr "登陆"
+msgstr "登录"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Password"
@@ -106,11 +118,11 @@ msgstr "密码"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
-msgstr "请键入您的联系方式以便注册。一封带有可激活账户链接的电子邮件将发送至您。"
+msgstr "请输入您的联系方式进行注册。一封带有激活帐户链接的电子邮件将发送至您的邮箱。"
 
 #: .\login.xml
 msgid "[LicenseServerLogin]Remember my credentials"
-msgstr "记住我的证书"
+msgstr "记住我的凭证"
 
 #: .\cclcommon.xml
 msgid "[CommandEditorOption]Remove"
@@ -124,6 +136,10 @@ msgstr "再次输入密码"
 msgid "[CommandEditorOption]Search:"
 msgstr "搜索:"
 
+#: .\purchase.xml
+msgid "[PurchaseHandler]Select License File..."
+msgstr "选择许可文件..."
+
 #: .\cclcommon.xml
 msgid "[CommandEditorConflictPopup]Show"
 msgstr "显示"
@@ -135,6 +151,10 @@ msgstr "显示"
 #: .\transfers.xml
 msgid "[TransferManager]Show when new transfer starts"
 msgstr "当新传输开始时显示"
+
+#: .\purchase.xml
+msgid "[PurchaseHandler]Thank you for your purchase. Your purchased items are ready to be activated on this computer."
+msgstr "感谢您的购买。您的购买产品现已可以在此台电脑上激活。"
 
 #: .\transfers.xml
 msgid "[TransferManager]Transfers"

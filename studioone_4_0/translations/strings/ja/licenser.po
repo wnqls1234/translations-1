@@ -16,9 +16,21 @@ msgstr "%(1) エンドユーザー使用許諾契約"
 msgid "[Licenser]%(1) Terms of Service"
 msgstr "%(1) サービス利用規約"
 
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activate"
+msgstr "アクティベート"
+
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activate All"
+msgstr "すべてをアクティベート"
+
 #: .\application\purchasehandler.cpp
 msgid "[Command]Activate Purchased Items"
 msgstr "購入済みアイテムをアクティベート"
+
+#: .\application\purchasedpackages.cpp
+msgid "[PackageActions]Activated"
+msgstr "アクティベート済み"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Activating product"
@@ -65,23 +77,23 @@ msgstr "ダウンロード"
 msgid "[WebAPI]Failed to connect to the server.\nPlease check your Internet connection and try again."
 msgstr "サーバーへの接続に失敗しました。\nインターネット接続を確認し、再試行してください。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Invalid License File!"
+#: .\application\userlicense.cpp
+msgid "[FileType]Invalid License File!"
 msgstr "無効なライセンスファイルです。"
 
 #: .\application\userlicense.cpp
 msgid "[FileType]License File"
 msgstr "ライセンスファイル"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]License too old. Please activate $APPNAME again."
+#: .\application\userlicense.cpp
+msgid "[FileType]License too old. Please activate $APPNAME again."
 msgstr "ライセンスが古すぎます。$APPNAME を再アクティベートしてください。"
 
 #: .\application\loginhandler.cpp
 msgid "[Command]Login"
 msgstr "ログイン"
 
-#: .\application\usercomponent.cpp
+#: .\application\licensehandler.cpp
 msgid "[Licenser]Manage Activations"
 msgstr "アクティベーションを管理"
 
@@ -100,10 +112,6 @@ msgstr "ご購入いただきましたバージョンの $APPNAME のプロダ�
 #: .\application\loginhandler.cpp
 msgid "[Licenser]Please fill out the form completely."
 msgstr "フォームに記入してください。"
-
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Please restart $APPNAME for the changes to take effect."
-msgstr "変更を有効にするには $APPNAME を再起動してください。"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Registering product"
@@ -141,40 +149,40 @@ msgstr "サインインしています"
 msgid "[Licenser]Some items failed to activate."
 msgstr "一部のアイテムのアクティベートに失敗しました。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+#: .\application\licensehandler.cpp
+msgid "[Licenser]Thank You! $APPNAME has been activated on this computer."
 msgstr "ありがとうございました。$APPNAME はこのコンピューターで実行できるようアクティベートされました。"
 
 #: .\application\loginhandler.cpp
 msgid "[Licenser]Thank You! An e-mail has been sent to you with a link to activate your account."
 msgstr "ありがとうございました。アカウントのアクティベート用リンクを記載したメールが送信されました。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has expired!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has expired!"
 msgstr "ライセンスの期限が切れています。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has not been issued for this computer!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has not been issued for this computer!"
 msgstr "ライセンスはこのコンピューターに対して発行されていません。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]The License has not been issued for this user!"
+#: .\application\userlicense.cpp
+msgid "[FileType]The License has not been issued for this user!"
 msgstr "ライセンスはこのユーザーに対して発行されていません。"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]The request failed (%(1))."
 msgstr "リクエストは失敗しました（%(1) ）。"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY Account."
-msgstr "このコンピューターは $APPNAME で使用するためのアクティベーションが解除されています。アクティベーションはお客様の $APPCOMPANY アカウントで管理できます。"
+#: .\application\licensehandler.cpp
+msgid "[Licenser]This computer has been de-activated for use with $APPNAME."
+msgstr "このコンピューターは $APPNAME で使用するためのアクティベーションが解除されています。"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]This copy is licensed to %(1)"
 msgstr "このコピーは %(1) に対してライセンスされています"
 
-#: .\application\usercomponent.cpp
-msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+#: .\application\userlicense.cpp
+msgid "[FileType]This product key requires an additional license that could not be found on this computer."
 msgstr "このプロダクトキーには追加ライセンスが必要ですが、このコンピューター上に見つかりません。"
 
 #: .\application\usercomponent.cpp
@@ -184,6 +192,10 @@ msgstr "ユーザーライセンスが見つかりません。新規ライセン
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Verifying User License..."
 msgstr "ユーザーライセンスを検証しています..."
+
+#: .\application\licensehandler.cpp
+msgid "[Licenser]You can manage activations in your $APPCOMPANY Account."
+msgstr "アクティベーションはお客様の $APPCOMPANY アカウントで管理できます。"
 
 #: .\schemes\splice\splicelease.cpp
 msgid "[Licenser]Your Splice license for $APPNAME is invalid."
@@ -196,6 +208,33 @@ msgstr "オーソライズの期限が切れています。再度ログインし
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]Your purchased items have been activated."
 msgstr "購入済みアイテムはアクティベートされました。"
+
+#~ msgid "[Licenser]Invalid License File!"
+#~ msgstr "無効なライセンスファイルです。"
+
+#~ msgid "[Licenser]License too old. Please activate $APPNAME again."
+#~ msgstr "ライセンスが古すぎます。$APPNAME を再アクティベートしてください。"
+
+#~ msgid "[Licenser]Please restart $APPNAME for the changes to take effect."
+#~ msgstr "変更を有効にするには $APPNAME を再起動してください。"
+
+#~ msgid "[Licenser]Thank You! $APPNAME has been activated to run on this computer."
+#~ msgstr "ありがとうございました。$APPNAME はこのコンピューターで実行できるようアクティベートされました。"
+
+#~ msgid "[Licenser]The License has expired!"
+#~ msgstr "ライセンスの期限が切れています。"
+
+#~ msgid "[Licenser]The License has not been issued for this computer!"
+#~ msgstr "ライセンスはこのコンピューターに対して発行されていません。"
+
+#~ msgid "[Licenser]The License has not been issued for this user!"
+#~ msgstr "ライセンスはこのユーザーに対して発行されていません。"
+
+#~ msgid "[Licenser]This computer has been de-activated for use with $APPNAME. You can manage activations in your $APPCOMPANY Account."
+#~ msgstr "このコンピューターは $APPNAME で使用するためのアクティベーションが解除されています。アクティベーションはお客様の $APPCOMPANY アカウントで管理できます。"
+
+#~ msgid "[Licenser]This product key requires an additional license that could not be found on this computer."
+#~ msgstr "このプロダクトキーには追加ライセンスが必要ですが、このコンピューター上に見つかりません。"
 
 #~ msgid "[Licenser]Activation failed."
 #~ msgstr "アップロードに失敗しました。"

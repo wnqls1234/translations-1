@@ -6,7 +6,7 @@ msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
-msgstr "%(1)已安装扩展包."
+msgstr "已安装%(1)个扩展。"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]%(1) is already installed!"
@@ -22,23 +22,35 @@ msgstr "%(1) / %(2)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
-msgstr "%(1) 分之 %(2) 的安装包已经存在于您的系统里。"
+msgstr "%(1)个（共%(2)个）包已经存在于您的系统里。"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]%(2)/%(3) %(1)"
+msgstr "%(2)/%(3) %(1)"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
-msgstr "[ExtensionManager](编辑模式)"
+msgstr "(开发者模式)"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](disabled)"
-msgstr "(不可用)"
+msgstr "(已禁用)"
+
+#: .\packages\extensionmanagerpackages.cpp
+msgid "[PackageActions]Abort Uninstall"
+msgstr "放弃卸载"
 
 #: .\extensions\contentinstaller.cpp .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
-msgstr "[Command]应用"
+msgstr "应用程序"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Available Packages"
+msgstr "可用软件包"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
-msgstr "[ExtensionManager]内置扩展包无法被安装或更新."
+msgstr "内置扩展无法安装或更新。"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Cancel"
@@ -58,19 +70,23 @@ msgstr "检查更新"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Check for Updates failed!"
-msgstr "查看升级失败！"
+msgstr "检查更新失败！"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Checking version of %(1)"
-msgstr "正在检查 %(1)版本"
+msgstr "正在检查%(1)的版本"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Claim Product Key"
-msgstr "请求产品序列号"
+msgstr "使用产品密钥"
 
 #: .\webfs\webfilenodes.cpp
 msgid "[WebFS]Cloud"
 msgstr "云"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Contains %(1) items"
+msgstr "包含%(1)项目"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Copy"
@@ -88,9 +104,17 @@ msgstr "当前版本： %(1)"
 msgid "[Installer]Custom Installation"
 msgstr "自定义安装"
 
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Development Content"
+msgstr "开发内容"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Disable"
+msgstr "禁用"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Do you want to install the missing packages only?"
-msgstr "是否只安装缺失安装包？"
+msgstr "是否只安装缺失的包？"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to install these updates now?"
@@ -98,11 +122,11 @@ msgstr "您是否愿意现在安装这些更新?"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to uninstall these Extensions?"
-msgstr "是否卸载扩展包"
+msgstr "是否卸载这些扩展?"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Do you want to uninstall this Extension?"
-msgstr "是否卸载扩展"
+msgstr "是否卸载此扩展?"
 
 #: .\webfs\downloaddraghandler.cpp
 msgid "[WebFS]Download"
@@ -114,23 +138,43 @@ msgstr "下载"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Download from $APPCOMPANY Account"
-msgstr "在 $APPCOMPANY 账户中下载"
+msgstr "在 $APPCOMPANY 帐户中下载"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Downloading..."
 msgstr "下载中..."
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Enable"
+msgstr "启用"
+
 #: .\extensions\extensionmanager.cpp
 msgid "[Command]Extensions"
-msgstr "扩展包"
+msgstr "扩展"
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Factory Content"
+msgstr "出厂内容"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Failed to uninstall %(1)!"
+msgstr "卸载失败%(1)！"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Failed!"
 msgstr "失败！"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]File Type"
+msgstr "文件类型"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]File Type"
+msgstr "文件类型"
+
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Files are being transferred in background."
-msgstr "文件将在后台进行传送。"
+msgstr "文件正在后台传输。"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Full Installation"
@@ -144,8 +188,16 @@ msgstr "小工具"
 msgid "[Command]Help"
 msgstr "帮助"
 
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install"
+msgstr "安装"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install All"
+msgstr "安装全部"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Install All"
 msgstr "安装全部"
 
 #: .\extensions\extensionmanagerui.cpp
@@ -155,6 +207,10 @@ msgstr "安装扩展"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Install Missing"
 msgstr "安装缺失部分"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installable"
+msgstr "无法安装"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Command]Installation"
@@ -166,7 +222,11 @@ msgstr "安装文件"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Installation canceled!"
-msgstr "取消安装"
+msgstr "已取消安装！"
+
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+msgstr "安装失败，原因为"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
@@ -175,6 +235,18 @@ msgstr "安装失败！"
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Installed"
 msgstr "已安装"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Installed"
+msgstr "已安装"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Installed"
+msgstr "已安装"
+
+#: .\packages\packagemanager.cpp
+msgid "[PackageManager]Installed Packages"
+msgstr "已安装软件包"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Installed version: %(1)"
@@ -186,23 +258,31 @@ msgstr "无效的安装文件！"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]License"
-msgstr "许可"
+msgstr "许可证"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Migrating Extension %(1)..."
-msgstr "迁移扩展 %(1)…"
+msgstr "正在迁移扩展 %(1)…"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Minimal Installation"
-msgstr "最小化安装"
+msgstr "最小安装"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]My Purchased Items"
 msgstr "已购买项目"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Name"
+msgstr "名称"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Name"
+msgstr "名称"
+
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No Extensions installed."
-msgstr "扩展包未安装."
+msgstr "未安装扩展。"
 
 #: .\gadgets\gadgetmanager.cpp
 msgid "[GadgetManager]No Gadgets installed"
@@ -210,19 +290,27 @@ msgstr "小工具未安装"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]No updates found for your Extensions."
-msgstr "您的扩展包没有可安装更新."
+msgstr "您的扩展无可安装更新。"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Origin"
+msgstr "来源"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Other"
+msgstr "其他"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Package"
-msgstr "包装"
+msgstr "包"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Queued"
-msgstr "队列"
+msgstr "已排队"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Recommended Installation"
-msgstr "推荐的安装"
+msgstr "推荐安装"
 
 #: .\web\webelements.cpp
 msgid "[Feed]Refresh"
@@ -234,7 +322,7 @@ msgstr "从历史中删除"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Removing Extension %(1)..."
-msgstr "删除扩展 %(1)..."
+msgstr "正在删除扩展 %(1)..."
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Restart"
@@ -242,7 +330,11 @@ msgstr "重启"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Scanning Extensions..."
-msgstr "扫描扩展包..."
+msgstr "正在扫描扩展..."
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Search"
+msgstr "搜索"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Signature Verification"
@@ -252,25 +344,41 @@ msgstr "签名验证"
 msgid "[Installer]Size"
 msgstr "大小"
 
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]State"
+msgstr "状态"
+
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Status"
 msgstr "状态"
 
 #: .\extensions\extensiondescription.cpp
+msgid "[Extensions]Target directory is locked by %(1)."
+msgstr "目标目录被%(1)锁定。"
+
+#: .\extensions\extensiondescription.cpp
+msgid "[Extensions]The installation file is not compatible with this application."
+msgstr "安装文件无法与该应用兼容。"
+
+#: .\extensions\extensiondescription.cpp
 msgid "[Extensions]The installation file is not compatible with this platform."
-msgstr "安装软件与平台不兼容。"
+msgstr "安装文件与平台不兼容。"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]The installed content will be available next time you start $APPNAME."
-msgstr "安装内容将在下次开启$APPNAME时启用。"
+msgstr "安装的内容将在下次启动$APPNAME时可用。"
+
+#: .\packages\unifiedpackageinstaller.cpp
+msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
+msgstr "安装的内容将在下次启动$APPNAME时可用。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"
-msgstr "无法定义此版本！"
+msgstr "无法识别此版本！"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]There are updates available for your Extensions."
-msgstr "您的扩展包有可安装更新."
+msgstr "您的扩展有可安装更新。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]There is a new version available."
@@ -278,7 +386,31 @@ msgstr "有新版本可下载。"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]This file does not have a valid digital signature."
-msgstr "未找到此文件的有效数字签名"
+msgstr "未找到此文件的有效数字签名。"
+
+#: .\packages\packagefilter.cpp
+msgid "[PackageFilter]Type"
+msgstr "类型"
+
+#: .\packages\packagesorter.cpp
+msgid "[PackageSorter]Type"
+msgstr "类型"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall"
+msgstr "卸载"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Uninstall All"
+msgstr "全部卸载"
+
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]Unknown"
+msgstr "未知"
+
+#: .\packages\unifiedpackageaction.cpp
+msgid "[PackageActions]Update"
+msgstr "更新"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"
@@ -286,7 +418,7 @@ msgstr "立即更新"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Updating Extension %(1)..."
-msgstr "更新扩展 %(1)..."
+msgstr "正在更新扩展 %(1)..."
 
 #: .\webfs\webfsbrowserextension.cpp
 msgid "[WebFS]Upload To"
@@ -296,25 +428,29 @@ msgstr "上传到"
 msgid "[TransferManager]Uploading..."
 msgstr "上传中..."
 
+#: .\packages\unifiedpackagesource.cpp
+msgid "[PackageSource]User Content"
+msgstr "用户内容"
+
 #: .\extensions\appupdater.cpp
 msgid "[Updater]View Release Notes"
-msgstr "浏览发布的Note"
+msgstr "查看发布说明"
 
 #: .\extensions\appupdater.cpp
 msgid "[Command]View Release Notes"
-msgstr "浏览发布的Note"
+msgstr "查看发布说明"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
-msgstr "等待卸载"
+msgstr "正在等待卸载"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for update"
-msgstr "等待更新"
+msgstr "正在等待更新"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]You need a newer version of $APPNAME."
-msgstr "需要更新版本的$APPNAME."
+msgstr "需要更新版本的$APPNAME。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."

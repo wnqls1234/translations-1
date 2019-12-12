@@ -3,6 +3,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: smartCAT.ai\n"
 
 #: .\toolhelp.js
 msgid "Add Chord"
@@ -10,11 +12,11 @@ msgstr "添加和弦"
 
 #: .\toolhelp.js
 msgid "Add Marker"
-msgstr "添加记录"
+msgstr "添加标记"
 
 #: .\toolhelp.js
 msgid "Add Point"
-msgstr "添加包络点"
+msgstr "添加点"
 
 #: .\toolhelp.js
 msgid "Add Ranges to Track"
@@ -27,15 +29,15 @@ msgstr "光标工具"
 
 #: .\toolhelp.js
 msgid "Bend"
-msgstr "标记"
+msgstr "弯音"
 
 #: .\toolhelp.js
 msgid "Bend Curve"
-msgstr "弯曲曲线"
+msgstr "弯音曲线"
 
 #: .\audiobendtool.js .\toolhelp.js
 msgid "Bend Tool"
-msgstr "标记工具"
+msgstr "弯音工具"
 
 #: .\toolhelp.js
 msgid "Chord Selector"
@@ -63,11 +65,11 @@ msgstr "删除音符"
 
 #: .\toolhelp.js
 msgid "Delete Objects"
-msgstr "删除素材"
+msgstr "删除对象"
 
 #: .\toolhelp.js
 msgid "Delete Point"
-msgstr "删除包络点"
+msgstr "删除点"
 
 #: .\envelopeactions.js .\toolhelp.js
 msgid "Distort"
@@ -79,7 +81,7 @@ msgstr "对称失真"
 
 #: .\toolhelp.js
 msgid "Drag"
-msgstr "拖拉"
+msgstr "拖曳"
 
 #: .\toolhelp.js
 msgid "Draw"
@@ -87,19 +89,19 @@ msgstr "绘制"
 
 #: .\toolhelp.js
 msgid "Draw Part"
-msgstr "拖拉部分"
+msgstr "拖曳部分"
 
 #: .\toolhelp.js
 msgid "Draw Selection"
-msgstr "绘制选区"
+msgstr "绘制所选"
 
 #: .\toolhelp.js
 msgid "Draw Selection (add)"
-msgstr "绘制选区 (添加)"
+msgstr "绘制所选 (添加)"
 
 #: .\toolhelp.js
 msgid "Draw Selection Freely"
-msgstr "自由拖动选择"
+msgstr "自由绘制所选"
 
 #: .\toolhelp.js
 msgid "Draw Tempo Change"
@@ -111,7 +113,7 @@ msgstr "编辑淡化长度"
 
 #: .\toolhelp.js
 msgid "Edit Fade Length & Type"
-msgstr "编辑淡化长度的类型"
+msgstr "编辑淡化长度和类型"
 
 #: .\toolhelp.js
 msgid "Edit Fade Type"
@@ -119,7 +121,7 @@ msgstr "编辑淡化类型"
 
 #: .\toolhelp.js
 msgid "Edit Level"
-msgstr "编辑音量"
+msgstr "编辑电平"
 
 #: .\toolhelp.js
 msgid "Edit Tempo"
@@ -135,7 +137,7 @@ msgstr "编辑速度变化位置"
 
 #: .\toolhelp.js
 msgid "Edit Value"
-msgstr "编辑数值"
+msgstr "编辑值"
 
 #: .\toolhelp.js
 msgid "Edit Velocity"
@@ -175,7 +177,7 @@ msgstr "聆听工具"
 
 #: .\eventactions.js .\toolhelp.js
 msgid "Merge Events"
-msgstr "整合事件"
+msgstr "合并事件"
 
 #: .\envelopeactions.js .\toolhelp.js
 msgid "Move"
@@ -183,7 +185,7 @@ msgstr "移动"
 
 #: .\toolhelp.js
 msgid "Move Crossfade"
-msgstr "移除淡出淡入效果"
+msgstr "移动交叉淡化"
 
 #: .\toolhelp.js
 msgid "Move Event"
@@ -195,11 +197,11 @@ msgstr "移动标记"
 
 #: .\toolhelp.js
 msgid "Move Note"
-msgstr "移除标记"
+msgstr "移动音符"
 
 #: .\toolhelp.js
 msgid "Move Points"
-msgstr "移动包络点"
+msgstr "移动点"
 
 #: .\toolhelp.js
 msgid "Move Track"
@@ -211,7 +213,7 @@ msgstr "静音"
 
 #: .\mutetool.js
 msgid "Mute Events"
-msgstr "静音事件"
+msgstr "事件静音"
 
 #: .\mutetool.js .\toolhelp.js
 msgid "Mute Tool"
@@ -235,7 +237,7 @@ msgstr "播放"
 
 #: .\toolhelp.js
 msgid "Play in Loop"
-msgstr "在Loop中播放"
+msgstr "循环播放"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Range Tool"
@@ -251,7 +253,7 @@ msgstr "替代轨道上的范围"
 
 #: .\toolhelp.js
 msgid "Replace With Next Layer"
-msgstr "使用下一图层替代"
+msgstr "替换为下一层"
 
 #: .\toolhelp.js
 msgid "Reset"
@@ -267,35 +269,35 @@ msgstr "重置淡化长度"
 
 #: .\toolhelp.js
 msgid "Reset Level"
-msgstr "重置音量"
+msgstr "重置电平"
 
 #: .\toolhelp.js
 msgid "Reset Point"
-msgstr "重置包络点"
+msgstr "重置点"
 
 #: .\toolhelp.js
 msgid "Resize Event"
-msgstr "重置事件"
+msgstr "调整事件大小"
 
 #: .\envelopeactions.js .\toolhelp.js
 msgid "Resize Frame"
-msgstr "重置帧"
+msgstr "调整帧大小"
 
 #: .\toolhelp.js
 msgid "Resize Part"
-msgstr "重置片段"
+msgstr "调整片段大小"
 
 #: .\toolhelp.js
 msgid "Resize Range"
-msgstr "重置范围"
+msgstr "调整范围大小"
 
 #: .\toolhelp.js
 msgid "Resize Track"
-msgstr "重置音轨"
+msgstr "调整音轨大小"
 
 #: .\toolhelp.js
 msgid "Resize adjacent Events"
-msgstr "重置临近事件"
+msgstr "调整相邻事件大小"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Saw"
@@ -303,7 +305,7 @@ msgstr "锯齿"
 
 #: .\toolhelp.js
 msgid "Scale Time"
-msgstr "时间刻度"
+msgstr "缩放时间"
 
 #: .\toolhelp.js
 msgid "Select"
@@ -311,23 +313,23 @@ msgstr "选择"
 
 #: .\toolsets.js
 msgid "Select Alternative Tool"
-msgstr "选择可替换工具"
+msgstr "选择替换工具"
 
 #: .\toolhelp.js
 msgid "Select Event Range"
-msgstr "选择项目范围"
+msgstr "选择事件范围"
 
 #: .\toolhelp.js
 msgid "Select Objects"
-msgstr "选择素材"
+msgstr "选择对象"
 
 #: .\toolhelp.js
 msgid "Select Points up to End"
-msgstr "选择节点至结束"
+msgstr "选择至结束的点"
 
 #: .\toolhelp.js
 msgid "Select Range to Copy to Track"
-msgstr "选择范围，复制至音轨"
+msgstr "选择范围以复制至音轨"
 
 #: .\toolhelp.js
 msgid "Select all Chords"
@@ -355,7 +357,7 @@ msgstr "设置音轨暂停"
 
 #: .\toolhelp.js
 msgid "Shift Root"
-msgstr "移动root"
+msgstr "移动根"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Sine"
@@ -363,23 +365,23 @@ msgstr "正弦"
 
 #: .\envelopeactions.js .\toolhelp.js
 msgid "Skew"
-msgstr "歪斜"
+msgstr "偏斜"
 
 #: .\toolhelp.js
 msgid "Slip Event"
-msgstr "事件微调"
+msgstr "滑动事件"
 
 #: .\toolhelp.js
 msgid "Split Deep"
-msgstr "分割深度"
+msgstr "深度拆分"
 
 #: .\toolhelp.js
 msgid "Split Events"
-msgstr "分割事件"
+msgstr "拆分事件"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Split Tool"
-msgstr "分割工具"
+msgstr "拆分工具"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Square"
@@ -391,15 +393,15 @@ msgstr "伸直曲线"
 
 #: .\envelopeactions.js .\toolhelp.js
 msgid "Stretch"
-msgstr "拉伸"
+msgstr "伸缩"
 
 #: .\toolhelp.js
 msgid "Stretch Event"
-msgstr "拉伸事件"
+msgstr "伸缩事件"
 
 #: .\toolhelp.js
 msgid "Stretch Symmetrically"
-msgstr "对称拉伸"
+msgstr "对称伸缩"
 
 #: .\mutetool.js
 msgid "Toggle Mute"
@@ -411,11 +413,11 @@ msgstr "切换选择"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Transform"
-msgstr "变形"
+msgstr "变换"
 
 #: .\toolhelp.js
 msgid "Transformation"
-msgstr "变形"
+msgstr "变换"
 
 #: .\toolhelp.js .\toolsets.js
 msgid "Triangle"
@@ -443,7 +445,7 @@ msgstr "放大"
 
 #: .\toolhelp.js
 msgid "x: Resize Note"
-msgstr "x: 重置标记"
+msgstr "x: 调整音符大小"
 
 #: .\toolhelp.js
 msgid "y: Edit Velocity"

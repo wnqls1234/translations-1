@@ -81,8 +81,8 @@ msgid "[TagStore]All tags are valid."
 msgstr "Toutes les balises sont valides."
 
 #: .\application.cpp
-msgid "[Application]An instance of %(1) is already running!"
-msgstr "Une occurrence de %(1) est déjà ouverte!"
+msgid "[Application]An instance of $APPNAME is already running."
+msgstr "Une occurrence de $APPNAME est déjà ouverte!"
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]An object with this name already exists."
@@ -256,6 +256,10 @@ msgstr "Couper"
 msgid "[Command]Cut"
 msgstr "Couper"
 
+#: .\options\mainoption.cpp
+msgid "[UserOption]Dark Mode"
+msgstr "Mode sombre"
+
 #: .\documents\documentversions.cpp
 msgid "[Documents]Date"
 msgstr "Date"
@@ -391,6 +395,10 @@ msgstr "Voulez-vous déplacer ce dossier dans \"%(1)\"?"
 #: .\documents\autosaver.cpp
 msgid "[Autosave]Do you want to open the backup?"
 msgstr "Voulez-vous ouvrir la copie de sauvegarde?"
+
+#: .\presets\presetmanager.cpp
+msgid "[Presets]Do you want to remove all plug-in settings and perform a full rescan next time you start $APPNAME?"
+msgstr "Voulez-vous supprimer tous les réglages de plug-ins et effectuer une nouvelle analyse complète au prochain démarrage de $APPNAME ?"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
@@ -642,6 +650,10 @@ msgid "[UserOption]Language will be changed next time you start $APPNAME."
 msgstr "La langue changera au prochain démarrage de $APPNAME."
 
 #: .\options\mainoption.cpp
+msgid "[UserOption]Light Mode"
+msgstr "Mode clair"
+
+#: .\options\mainoption.cpp
 msgid "[KnobMode]Linear"
 msgstr "Linéaire"
 
@@ -841,6 +853,10 @@ msgstr "Attacher le document à la liste Fichiers récents"
 msgid "[UserOption]Please note that third-party plug-ins will appear smaller if they do not support scaling."
 msgstr "Sachez que les plug-ins d'autres marques peuvent apparaître plus petits s'ils ne prennent pas en charge la mise à l'échelle."
 
+#: .\application.cpp
+msgid "[Application]Please restart $APPNAME for the changes to take effect."
+msgstr "Veuillez faire redémarrer $APPNAME pour que les changements entrent en vigueur."
+
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
 msgstr "Veuillez donner un nom au fichier."
@@ -937,6 +953,10 @@ msgstr "Distant"
 #: .\fileinfo\pathclassifier.cpp
 msgid "[FileInfo]Removable Drive"
 msgstr "Support amovible"
+
+#: .\presets\presetmanager.cpp
+msgid "[Command]Remove Plug-In Settings"
+msgstr "Supprimer les réglages de plug-ins"
 
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Remove Tag"
@@ -1409,6 +1429,9 @@ msgstr "Par défaut"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "autre"
+
+#~ msgid "[Application]An instance of %(1) is already running!"
+#~ msgstr "Une occurrence de %(1) est déjà ouverte!"
 
 #~ msgid "[UserOption]Please note that third party plug-ins will appear smaller if they do not support scaling."
 #~ msgstr "Veuillez noter que les plug-ins de tierce partie apparaîtront plus petits s'ils n'acceptent pas la mise à l'échelle."

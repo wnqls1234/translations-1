@@ -7,25 +7,26 @@ msgstr ""
 "Last-Translator: MiTi-Studio <tibetprincess@163.com>\n"
 "Language-Team: MiTi Studio <tibetprincess@163.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: smartCAT.ai\n"
+"Language: zh_CN\n"
 
 #: .\gear\gearburner.cpp
 msgid "[CDBurner]Burning Aborted by User"
-msgstr "用户终止刻录"
+msgstr "用户中止了刻录"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Busy"
-msgstr "设备忙"
+msgstr "忙碌"
 
 #: .\plugversion.h
 msgid "[CDBurner]CD Burning Support"
-msgstr "支持CD刻录"
+msgstr "CD刻录支持"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Checking Device"
-msgstr "检测设备"
+msgstr "正在检测设备"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Closing..."
@@ -38,12 +39,7 @@ msgid ""
 "Image: %(1)\n"
 "DDPID File: %(2)\n"
 "Location: %(3)"
-msgstr ""
-"是否创建一个DDP图像?\n"
-"\n"
-"图像: %(1)\n"
-"DDPID文件: %(2)\n"
-"L位置: %(3)"
+msgstr "是否要创建DDP映像?\n\n映像: %(1)\nDDPID文件: %(2)\nL位置: %(3)"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Erasing"
@@ -51,7 +47,7 @@ msgstr "正在擦除"
 
 #: .\gear\geareraser.cpp
 msgid "[CDBurner]Erasing Aborted by User"
-msgstr "用户终止擦除"
+msgstr "用户中止了擦除"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Erasing..."
@@ -59,7 +55,7 @@ msgstr "正在擦除..."
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Finalizing"
-msgstr "确定"
+msgstr "正在完成"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Finishing..."
@@ -71,51 +67,51 @@ msgstr "正在格式化"
 
 #: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]Generating DDP image files..."
-msgstr "正在搜集DDP图像文件..."
+msgstr "正在生成DDP映像文件..."
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Idle"
-msgstr "空置"
+msgstr "空闲"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Illegal"
-msgstr "违例"
+msgstr "不合规"
 
 #: .\base\mediainfo.cpp
 msgid "[CDBurner]Media is not readable"
-msgstr "媒质不可读"
+msgstr "媒体不可读"
 
 #: .\base\mediainfo.cpp
 msgid "[CDBurner]No media in disc drive"
-msgstr "光驱中无媒质"
+msgstr "光驱中无媒体"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Physicalizing"
-msgstr "物理化"
+msgstr "正在物理化"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing track"
-msgstr "音轨预备"
+msgstr "正在准备音轨"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Preparing..."
-msgstr "预备..."
+msgstr "正在准备..."
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading"
-msgstr "读取"
+msgstr "正在读取"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Reading Disc Info"
-msgstr "读取光盘信息"
+msgstr "正在读取光盘信息"
 
 #: .\cdburnmain.cpp
 msgid "[CDBurner]Support for Audio CD Burning"
-msgstr "支持CD音频刻录"
+msgstr "CD音频刻录支持"
 
 #: .\mac\imagewriter.cpp
 msgid "[DDPImageMaker]There was an error during the DDP image creation!"
-msgstr "创建DDP图像时产生错误!"
+msgstr "创建DDP映像时产生错误!"
 
 #: .\base\mediainfo.cpp
 msgid "[CDBurner]Unknown media"
@@ -123,7 +119,7 @@ msgstr "未知媒体"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Verifying"
-msgstr "验证"
+msgstr "正在验证"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Verifying..."
@@ -135,12 +131,13 @@ msgstr "写入速度"
 
 #: .\gear\geardevice.cpp
 msgid "[GearDevice]Writing"
-msgstr "写入"
+msgstr "正在写入"
 
 #: .\gear\gearimagewriter.cpp
 msgid "[GearDevice]Writing "
-msgstr "写入"
+msgstr "正在写入"
 
 #: .\mac\burner.cpp
 msgid "[ProjectBurner]Writing track"
-msgstr "写入音轨"
+msgstr "正在写入音轨"
+

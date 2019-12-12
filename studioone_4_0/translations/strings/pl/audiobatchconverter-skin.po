@@ -5,10 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\converter.xml
-msgid "[SearchBar](Not searchable)"
-msgstr "(nie można wyszukać)"
-
-#: .\converter.xml
 msgid "[ProcessSlotHeader]Activate"
 msgstr "Aktywuj"
 
@@ -71,10 +67,6 @@ msgstr "Kanały"
 #: .\format.xml
 msgid "[FormatBasic]Channels"
 msgstr "Kanały"
-
-#: .\converter.xml
-msgid "[SearchBar]Clear"
-msgstr "Wyczyść"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Click here to select..."
@@ -229,7 +221,8 @@ msgid "[AudioFilePreview]Loop Active @cmd[Transport|Toggle Loop]"
 msgstr "Aktywuj pętlę @cmd[Transport|Toggle Loop]"
 
 #: .\format.xml
-msgid "[FileMerger]Merge all mono file from the list even if file names do not match"
+msgid ""
+"[FileMerger]Merge all mono file from the list even if file names do not match"
 msgstr "Scal wszystkie pliki mono z listy nawet, gdy nazwy się nie zgadzają"
 
 #: .\format.xml
@@ -333,20 +326,8 @@ msgid "[BrowseNavigator]Search @cmd.title[]"
 msgstr "Szukaj @cmd.title[]"
 
 #: .\converter.xml
-msgid "[SearchBar]Search for"
-msgstr "Szukaj"
-
-#: .\converter.xml
-msgid "[SearchBar]Search in"
-msgstr "Szukaj w"
-
-#: .\converter.xml
 msgid "[SourceResultFilesSection]Show Peak / RMS / R128"
 msgstr "Wartość szczytowa / RMS / R128"
-
-#: .\converter.xml
-msgid "[BrowseNavigator]Show Thumbnails"
-msgstr "Pokaż miniatury"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Source Folder"
@@ -369,7 +350,7 @@ msgid "[AudioFilePreview]Stop @cmd[Transport|Stop]"
 msgstr "Stop @cmd[Transport|Stop]"
 
 #: .\gain.xml
-msgid "[Normalize]Target Loundness"
+msgid "[Normalize]Target Loudness"
 msgstr "Docelowa głośność"
 
 #: .\gain.xml
@@ -404,3 +385,17 @@ msgstr "Dostawca:"
 msgid "[AudioFilePreview]Volume"
 msgstr "Głośność"
 
+#~ msgid "[SearchBar](Not searchable)"
+#~ msgstr "(nie można wyszukać)"
+
+#~ msgid "[SearchBar]Clear"
+#~ msgstr "Wyczyść"
+
+#~ msgid "[SearchBar]Search for"
+#~ msgstr "Szukaj"
+
+#~ msgid "[SearchBar]Search in"
+#~ msgstr "Szukaj w"
+
+#~ msgid "[BrowseNavigator]Show Thumbnails"
+#~ msgstr "Pokaż miniatury"

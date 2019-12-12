@@ -81,8 +81,8 @@ msgid "[TagStore]All tags are valid."
 msgstr "Wszystkie tagi są poprawne."
 
 #: .\application.cpp
-msgid "[Application]An instance of %(1) is already running!"
-msgstr "%(1) jest już uruchomiony!"
+msgid "[Application]An instance of $APPNAME is already running."
+msgstr "$APPNAME jest już uruchomiony!"
 
 #: .\fileinfo\filerenamer.cpp
 msgid "[FileRenamer]An object with this name already exists."
@@ -256,6 +256,10 @@ msgstr "Wytnij"
 msgid "[Command]Cut"
 msgstr "Wytnij"
 
+#: .\options\mainoption.cpp
+msgid "[UserOption]Dark Mode"
+msgstr ""
+
 #: .\documents\documentversions.cpp
 msgid "[Documents]Date"
 msgstr "Data"
@@ -391,6 +395,10 @@ msgstr "Czy na pewno chcesz przenieść ten folder do \"%(1)\"?"
 #: .\documents\autosaver.cpp
 msgid "[Autosave]Do you want to open the backup?"
 msgstr "Czy chcesz otworzyć kopię zapasową?"
+
+#: .\presets\presetmanager.cpp
+msgid "[Presets]Do you want to remove all plug-in settings and perform a full rescan next time you start $APPNAME?"
+msgstr ""
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
@@ -642,6 +650,10 @@ msgid "[UserOption]Language will be changed next time you start $APPNAME."
 msgstr "Język zostanie zmieniony przy następnym uruchomieniu  $APPNAME."
 
 #: .\options\mainoption.cpp
+msgid "[UserOption]Light Mode"
+msgstr ""
+
+#: .\options\mainoption.cpp
 msgid "[KnobMode]Linear"
 msgstr "Linearnie"
 
@@ -841,6 +853,10 @@ msgstr "Przypnij dokument do listy ostatnio otwieranych plików"
 msgid "[UserOption]Please note that third-party plug-ins will appear smaller if they do not support scaling."
 msgstr "Zwróć uwagę, że interfejs wtyczek innych producentów może być mniejszy, jeżeli te nie obsługują skalowania."
 
+#: .\application.cpp
+msgid "[Application]Please restart $APPNAME for the changes to take effect."
+msgstr "Uruchom ponownie $APPNAME, aby wprowadzić zmiany."
+
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
 msgstr "Podaj nazwę pliku."
@@ -937,6 +953,10 @@ msgstr "Zdalne"
 #: .\fileinfo\pathclassifier.cpp
 msgid "[FileInfo]Removable Drive"
 msgstr "Dysk wymienny"
+
+#: .\presets\presetmanager.cpp
+msgid "[Command]Remove Plug-In Settings"
+msgstr ""
 
 #: .\datastore\tagstorecomponent.cpp
 msgid "[TagStore]Remove Tag"
@@ -1409,4 +1429,7 @@ msgstr "domyślne"
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
 msgstr "pozostałe"
+
+#~ msgid "[Application]An instance of %(1) is already running!"
+#~ msgstr "%(1) jest już uruchomiony!"
 

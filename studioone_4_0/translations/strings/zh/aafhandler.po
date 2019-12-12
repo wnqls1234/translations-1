@@ -3,6 +3,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: smartCAT.ai\n"
 
 #: .\aafhandler.cpp
 msgid "[FileType]AAF File"
@@ -10,23 +12,23 @@ msgstr "AAF文件"
 
 #: .\aafhandler.cpp
 msgid "[AAF]An audio event has modifications and needs to be bounced."
-msgstr "一个音频事件已被更改并需反弹。"
+msgstr "一个音频事件包含更改，需要混缩。"
 
 #: .\aafhandler.cpp
 msgid "[AAF]An audio image is not ready."
-msgstr "音频图像尚未就绪。"
+msgstr "音频映像未就绪。"
 
 #: .\aafhandler.cpp
 msgid "[AAF]An audio part needs to be bounced."
-msgstr "一个音频部分需要反弹。"
+msgstr "一个音频片段需要混缩。"
 
 #: .\aafhandler.cpp
 msgid "[AAF]An event has unrendered Event FX."
-msgstr "一个事件并未被Event FX着色。"
+msgstr "一个事件包含未渲染的事件特效。"
 
 #: .\aafhandler.cpp
 msgid "[AAF]Audio files from content packages can not be exported."
-msgstr "内容包转内的音频文件无法被导出。"
+msgstr "内容包内的音频文件无法导出。"
 
 #: .\aafwriter.cpp
 msgid "[AAF]Converting %(1)"
@@ -38,7 +40,7 @@ msgstr "正在嵌入 %(1)"
 
 #: .\aafwriter.cpp
 msgid "[AAF]Step %(1) of %(2)"
-msgstr "步骤%(1) - %(2)"
+msgstr "步骤%(1)/%(2)"
 
 #: .\aafhandler.cpp
 msgid "[AAF]The AAF export has the following issues:"

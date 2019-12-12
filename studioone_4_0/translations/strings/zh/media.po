@@ -3,6 +3,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: smartCAT.ai\n"
 
 #: .\audiofile\audiocodecs\aiffaudiocodec.cpp
 msgid "[FileType]AIFC File"
@@ -18,11 +20,11 @@ msgstr "添加模式"
 
 #: .\audiofile\audiocodecs\aiffaudiocodec.cpp
 msgid "[FileType]Apple Impulse File"
-msgstr "苹果脉冲文件"
+msgstr "Apple脉冲响应文件"
 
 #: .\audiofile\audiocodecs\audioloopinfo.cpp
 msgid "[FileType]Audioloop"
-msgstr "音频loop"
+msgstr "Audioloop"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Augmented"
@@ -34,7 +36,7 @@ msgstr "小节"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Beat-Linear"
-msgstr "节拍线性"
+msgstr "节拍-线性"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Bend Points"
@@ -70,11 +72,11 @@ msgstr "删除事件"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Delete Point"
-msgstr "删除节点"
+msgstr "删除点"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Delete Points"
-msgstr "删除节点"
+msgstr "删除点"
 
 #: .\music\chordclassifier.cpp
 msgid "[Chords]Diminished"
@@ -86,11 +88,11 @@ msgstr "多利亚音阶"
 
 #: .\music\beatlistparam.cpp
 msgid "[Resolution]Dotted"
-msgstr "打点"
+msgstr "符点"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Edit Value"
-msgstr "编辑数值"
+msgstr "编辑值"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Frames"
@@ -102,7 +104,7 @@ msgstr "冻结量化"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Freeze Velocity"
-msgstr "冻结重力"
+msgstr "冻结力度"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Harmonic Minor"
@@ -118,11 +120,11 @@ msgstr "插入事件"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Insert Point"
-msgstr "插入节点"
+msgstr "插入点"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Insert Points"
-msgstr "插入节点"
+msgstr "插入点"
 
 #: .\time\mediatimeactions.cpp
 msgid "[MediaTimeAction]Insert Tempo"
@@ -182,11 +184,11 @@ msgstr "更改和弦"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Modify Event"
-msgstr "修正事件"
+msgstr "更改事件"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Accent Strength"
-msgstr "更改模式重点长度"
+msgstr "更改模式重音强度"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Pattern Gate"
@@ -206,7 +208,7 @@ msgstr "更改模式类型"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Probability"
-msgstr "更改可能性"
+msgstr "更改概率"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Repeat"
@@ -214,19 +216,19 @@ msgstr "更改重复"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Step Count"
-msgstr "更改步骤统计"
+msgstr "更改步数"
 
 #: .\time\mediatimeactions.cpp
 msgid "[MediaTimeAction]Modify Tempo"
-msgstr "修正速度"
+msgstr "更改速度"
 
 #: .\time\tempomanipulator.cpp
 msgid "[TempoManipulator]Modify Tempo"
-msgstr "修正速度"
+msgstr "更改速度"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Modify Velocity"
-msgstr "修正力度"
+msgstr "更改力度"
 
 #: .\public\mediaformatter.cpp
 msgid "[Media]Mono"
@@ -242,11 +244,11 @@ msgstr "移动事件"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Move Point"
-msgstr "移动节点"
+msgstr "移动点"
 
 #: .\envelopes\envelopeactions.cpp
 msgid "[EnvelopeActions]Move Points"
-msgstr "移动节点"
+msgstr "移动点"
 
 #: .\music\musicperformance.cpp
 msgid "[FileType]Music File"
@@ -254,7 +256,7 @@ msgstr "音乐文件"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Mute Event"
-msgstr "静音事件"
+msgstr "事件静音"
 
 #: .\music\musicalscale.cpp
 msgid "[MusicalScale]Natural Minor"
@@ -318,11 +320,11 @@ msgstr "录制模式"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Resize Event"
-msgstr "重置事件"
+msgstr "调整事件大小"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Resize Events"
-msgstr "重置事件"
+msgstr "调整事件大小"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Samples"
@@ -342,15 +344,15 @@ msgstr "设置 BPM 范围"
 
 #: .\audiofile\audiofileconverter.cpp
 msgid "[AudioFileConverter]Some files could not be converted."
-msgstr "某些文件无法转换."
+msgstr "某些文件无法转换。"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Split Event"
-msgstr "分离事件"
+msgstr "拆分事件"
 
 #: .\events\eventfunctions.cpp
 msgid "[EventFunctions]Split Events"
-msgstr "分离事件"
+msgstr "拆分事件"
 
 #: .\public\mediaformatter.cpp
 msgid "[Media]Stereo"
@@ -358,7 +360,7 @@ msgstr "立体声"
 
 #: .\music\beatlistparam.cpp
 msgid "[Resolution]Straight"
-msgstr "二连音"
+msgstr "直线"
 
 #: .\envelopes\envelopefunctions.cpp
 msgid "[Events]Straighten Curve"
@@ -370,11 +372,11 @@ msgstr "速度"
 
 #: .\time\mediatimeparams.cpp
 msgid "[MediaTime]Time-Linear"
-msgstr "时间线性"
+msgstr "时间-线性"
 
 #: .\music\musicactions.cpp
 msgid "[ActionDescriptions]Transpose"
-msgstr "走带控制"
+msgstr "移调"
 
 #: .\music\beatlistparam.cpp
 msgid "[Resolution]Triplet"

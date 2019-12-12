@@ -4,10 +4,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]\"%(1)\" does not support the selected file format."
-msgstr "\"%(1)\" seçilen dosya formatını desteklemiyor."
-
 #: .\automationediting\paramdraghandler.cpp
 msgid "[Automation]\"%(1)\" is already automated"
 msgstr "\"%(1)\" zaten otomasyonlu"
@@ -40,14 +36,6 @@ msgstr "%(1) variyasyon"
 msgid "[LocateFiles]%(2) files were found in %(1)"
 msgstr "%(1) de %(2) dosya dulundu"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Disabled)"
-msgstr "(Devre dışı)"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Empty)"
-msgstr "(Boş)"
-
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Enter Part)"
 msgstr "(Parça Girin)"
@@ -55,14 +43,6 @@ msgstr "(Parça Girin)"
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Leave Part)"
 msgstr "(Parçadan Vazgeç)"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Muted)"
-msgstr "(Muted)"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Protected)"
-msgstr "Korumalı"
 
 #: .\editing\eventdraghandler.cpp
 msgid "[Edit](Shared Copy)"
@@ -178,6 +158,14 @@ msgstr "VCA Kanal ekle"
 msgid "[Automation]Add..."
 msgstr "Ekle..."
 
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Adjust Chord Length"
+msgstr ""
+
+#: .\musicediting\patterneditviews.cpp
+msgid "[MusicPatternPartEditor]Adjust Length"
+msgstr ""
+
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]All Patterns on Track"
 msgstr "Tüm Kalıplar İz'in Üzerine"
@@ -193,10 +181,6 @@ msgstr "Bounce sırasında bir hata oluştu."
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Analyzing..."
 msgstr "Analiz ediliyor..."
-
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Append Track"
-msgstr "İz'in sonuna ekle"
 
 #: .\application\audioedit\audiobendaddin.cpp
 msgid "[Engine]Apply Audio Bend"
@@ -249,10 +233,6 @@ msgstr "Ses Bükme"
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Audio Bend"
 msgstr "Ses Bükme"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Audio Export"
-msgstr "Ses Dışarı Aktarma"
 
 #: .\editing\monitorfollower.cpp
 msgid "[Command]Audio Input follows Selection"
@@ -317,6 +297,10 @@ msgstr "Yeni İze Aktar"
 msgid "[ArrangerSections]Bridge"
 msgstr "Köprü"
 
+#: .\pool\mediapoolbrowser.cpp
+msgid "[Command]Browser"
+msgstr "Seçici"
+
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]Building Preview..."
 msgstr "Ön İzleme Oluşturuluyor..."
@@ -324,10 +308,6 @@ msgstr "Ön İzleme Oluşturuluyor..."
 #: .\audio\audiobouncer.cpp
 msgid "[AudioBouncer]Cannot bounce protected content."
 msgstr "Korumalı içerik bounce edilemez."
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Cannot create mixdown with protected content."
-msgstr "Korumalı içerik ile miksdown yapılamaz."
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Change Event Order"
@@ -368,10 +348,6 @@ msgstr "Kanal"
 #: .\audioediting\audiofxdraghandler.cpp
 msgid "[AudioFX]Channel \"%(1)\""
 msgstr "Kanal \"%(1)\""
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Channels"
-msgstr "Kanallar"
 
 #: .\editing\chordinspector.cpp
 msgid "[EditAddIn]Chord Selector"
@@ -454,6 +430,10 @@ msgid "[PoolNodes]Convert Files..."
 msgstr "Dosyaları Dönüştür..."
 
 #: .\application\musicedit\musicpatternconverttask.cpp
+msgid "[MusicPartEdit]Convert Part to Pattern"
+msgstr ""
+
+#: .\application\musicedit\musicpatternconverttask.cpp
 msgid "[MusicPartEdit]Convert Pattern to Part"
 msgstr "Kalıbı Bölüme Dönüştür"
 
@@ -477,7 +457,7 @@ msgstr "Kopya"
 msgid "[MusicPatternPartEditor]Copy"
 msgstr "Kopya"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Copy"
 msgstr "Kopyala"
 
@@ -545,10 +525,6 @@ msgstr "Yeni Not Defterine Kopyala"
 msgid "[MediaPoolFunctions]Copying external files"
 msgstr "Harici dosyalar kopyalanıyor"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Could not import file!"
-msgstr "Dosya içe aktarılamadı!"
-
 #: .\base\documentrenamer.cpp
 msgid "[Documents]Could not rename %(1)!\n\nThe file is in use."
 msgstr "%(1) dosyasının adı değiştirilemedi!\n\nDosya kullanılıyor."
@@ -613,15 +589,15 @@ msgstr "İşeriklere Kadar Kırp"
 msgid "[PoolBrowser]Date"
 msgstr "Tarih"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Default Size"
-msgstr "Varsayılan Boyut"
+#: .\musicediting\patterncontrollane.cpp
+msgid "[MusicPatternPartEditor]Delay"
+msgstr "Cecikme"
 
 #: .\musicediting\patterneditcomponent.cpp
 msgid "[MusicPatternPartEditor]Delete"
 msgstr "Sil"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songmarker.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Delete"
 msgstr "Sil"
 
@@ -644,10 +620,6 @@ msgstr "Klipleri Sil"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Delete File permanently"
 msgstr "Dosyayı Tümü İle Sil"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Delete Marker"
-msgstr "İşareti Sil"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Edit]Delete Range"
@@ -701,10 +673,6 @@ msgstr "Transient leri Bul"
 msgid "[Automation]Device"
 msgstr "Aygıt"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]Devices"
-msgstr "Aygıtlar"
-
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Disable"
 msgstr "Devre Dışı Bırak"
@@ -737,10 +705,6 @@ msgstr "Gurubu Dağıt"
 msgid "[Command]Dissolve Group"
 msgstr "Gurubu Dağıt"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]Do not publish"
-msgstr "Yayınlama"
-
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to combine the instrument %(1)?"
 msgstr "%(1) enstrümanını birleştirmek istiyormusunuz?"
@@ -753,21 +717,9 @@ msgstr "Harici dosyaları Medya Klasörüne kopyalamak istiyormusunuz ?"
 msgid "[AudioCache]Do you want to delete all unused temporary audio files in cache folder?"
 msgstr "Arabellek klasöründe kullanılmayan tüm geçici ses dosyalarını silmek istiyormusunuz?"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported file?"
-msgstr "Dışa aktarılan dosyayı silmek istiyormusunuz?"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported files?"
-msgstr "Dışa aktarılan dosyaları silmek istiyormusunuz?"
-
 #: .\pool\mediapoolfunctions.cpp
 msgid "[MediaPoolFunctions]Do you want to delete the files that were recorded or created since the last time you saved?"
 msgstr "Enson saklama yaptığınızdan bu yana kayıt edilen veya oluşturulan dosyaları silmek istiyormusunuz?"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Do you want to extract the audio to a new track?"
-msgstr "Sesleri yeni bir kanala ayıklamak istiyormusunuz?"
 
 #: .\musicediting\synthdraghandler.cpp
 msgid "[SynthDrag]Do you want to load the preset or combine the instrument %(1)?"
@@ -833,10 +785,6 @@ msgstr "İki Kat hassasiyet"
 msgid "[Command]Double Resolution"
 msgstr "İki Kat hassasiyet"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Double Size"
-msgstr "Çift kat boyut"
-
 #: .\web\webeventpainter.cpp
 msgid "[Engine]Download finished"
 msgstr "İndirme tamamlandı"
@@ -865,13 +813,9 @@ msgstr "Drum Kalıbı"
 msgid "[MusicPatternPartEditor]Duplicate"
 msgstr "Kopyala"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Duplicate"
 msgstr "Kopyala"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Duplicate (complete)"
-msgstr "Tümünü Kopayala"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Duplicate Layer"
@@ -1092,10 +1036,6 @@ msgstr "Exponansiyel"
 msgid "[Engine]Export Audioloop"
 msgstr "Audioloop'u dışa aktar"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Mixdown"
-msgstr "Miksdown'u Dışa Aktar"
-
 #: .\application\musicloop\loopedittasks.cpp
 msgid "[Engine]Export Musicloop"
 msgstr "MusicLoop'u Dışa Aktar"
@@ -1108,26 +1048,6 @@ msgstr "Partları MIDI dosyasına aktar"
 msgid "[Edit]Export Selection"
 msgstr "Seçimi Dışarı Aktar"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Stems"
-msgstr "Stem'leri Dışa Aktar"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Export Video"
-msgstr "Video Dışa Aktar"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Exporting..."
-msgstr "Dışa Aktarılıyor..."
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Exporting:"
-msgstr "Dışa Aktarılıyor:"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Extract Audio"
-msgstr "Sesi Çıkar"
-
 #: .\videoediting\videodraghandler.cpp
 msgid "[VideoEdit]Extract Audio to %(1):"
 msgstr "Sesi %(1) e çıkar"
@@ -1139,10 +1059,6 @@ msgstr "Akor İzine Çıkar"
 #: .\application\musicedit\musicchordtasks.cpp
 msgid "[MusicPartEdit]Extract to Chord Track"
 msgstr "Akor İzine Çıkar"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Extracted Audio Track"
-msgstr "Çıkarılmış Ses İzi"
 
 #: .\videoediting\audioextractor.cpp
 msgid "[Video]Extracting Audio"
@@ -1163,18 +1079,6 @@ msgstr "Fade-in"
 #: .\audioediting\audioedithandler.cpp
 msgid "[AudioEditHandler]Fade-out"
 msgstr "Fade-out"
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Failed to export audio file."
-msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Failed to export audio file."
-msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Failed to write video."
-msgstr "Video'ya yazılamadı"
 
 #: .\audio\audioeventtheme.cpp
 msgid "[Engine]File not found!"
@@ -1240,17 +1144,9 @@ msgstr "Format"
 msgid "[Events]General operations for events"
 msgstr "Klipler için genel operasyonlar"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Next Marker"
-msgstr "Sonraki İşarete Git"
-
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Next Section"
 msgstr "Sonraki Bölüme Git"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Previous Marker"
-msgstr "Önceki İşarete Git"
 
 #: .\editing\arrangereditlayer.cpp
 msgid "[Command]Goto Previous Section"
@@ -1296,10 +1192,6 @@ msgstr "Yarı Hassasiyet"
 msgid "[Command]Half Resolution"
 msgstr "Yarı Hassasiyet"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Video]Half Size"
-msgstr "Yarı Boyut"
-
 #: .\editing\trackcontroller.cpp
 msgid "[Command]Hide"
 msgstr "Sakla"
@@ -1328,10 +1220,6 @@ msgstr "Görüntü"
 msgid "[ActionDescriptions]Import File"
 msgstr "İçe Dosya Aktar"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Import File"
-msgstr "İçe Dosya Aktar"
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Import Files"
 msgstr "İçe Dosyalar Aktar"
@@ -1346,10 +1234,6 @@ msgstr "Temo İçeri Aktar"
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Import Video"
-msgstr "İçe Video Aktar"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Import Video"
 msgstr "İçe Video Aktar"
 
 #: .\videoediting\videodraghandler.cpp
@@ -1368,10 +1252,6 @@ msgstr "İçe Video Aktar ve Sesi %(1)'e çıkar"
 msgid "[VideoEdit]Import Video:"
 msgstr "İçe Video Aktar:"
 
-#: .\pool\poolimportextension.cpp
-msgid "[Browser]Import to Pool"
-msgstr "Havuza aktar"
-
 #: .\audio\audiocliphandler.cpp
 msgid "[AudioClipImporter]Importing..."
 msgstr "İçe Aktarılıyor..."
@@ -1387,10 +1267,6 @@ msgstr "Ekle"
 #: .\musicediting\patterneditviews.cpp
 msgid "[MusicPatternPartEditor]Insert"
 msgstr "Insert"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Insert"
-msgstr "Ekle"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Insert Arranger Section"
@@ -1419,14 +1295,6 @@ msgstr "%(1)'e Enstrüman Ekle"
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Insert Marker"
 msgstr "İşaret Ekle"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Insert Marker"
-msgstr "İşaret Ekle"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Insert Named"
-msgstr "İsim Ekle"
 
 #: .\editing\tracklisteditmodel2.cpp
 msgid "[Events]Insert Points"
@@ -1537,6 +1405,10 @@ msgstr "Yükle"
 msgid "[SynthDrag]Load Instrument Preset"
 msgstr "Enstrüman preseti yükle"
 
+#: .\musicediting\musicpatterneditor.cpp
+msgid "[PatternEditor]Load Pattern Preset"
+msgstr ""
+
 #: .\music\musicpatternclip.cpp
 msgid "[MusicPatternClip]Loading Pattern: %(1)"
 msgstr "Yüklenen Kalıp: %(1)"
@@ -1560,10 +1432,6 @@ msgstr "Dosyayı Bul..."
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]Locate File..."
 msgstr "Dosyayı Bul..."
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Locate Missing Devices"
-msgstr "Eksik Aygıtları Bul"
 
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Locate Missing Files"
@@ -1660,14 +1528,6 @@ msgstr "Harita"
 msgid "[Engine:MediaMarker]Marker"
 msgstr "İşaret"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Marker"
-msgstr "İşaret"
-
-#: .\song\songmarker.cpp
-msgid "[Marker]Marker %(1)"
-msgstr "İşaret %(1)"
-
 #: .\base\model\markertrack.cpp
 msgid "[Engine]Marker Track"
 msgstr "İşaret İzi"
@@ -1704,10 +1564,6 @@ msgstr "Ses Parçalarını Birleştir"
 msgid "[Browser]Merge to Stereo File"
 msgstr "Stereo Dosyaya Birleştir"
 
-#: .\song\songsetup.cpp
-msgid "[SongSetup]Meta Information"
-msgstr "Meta Bilgileri"
-
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]Minimal"
 msgstr "Minimal"
@@ -1715,10 +1571,6 @@ msgstr "Minimal"
 #: .\application\musicloop\musicloopdraghandler.cpp
 msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
 msgstr "Eksik Enstrüman: %(1)"
-
-#: .\application\eventedit\mixdowntask.cpp
-msgid "[Edit]Mixdown Selection"
-msgstr "Seçilenleri Miksdown et"
 
 #: .\automationediting\automationdialog.cpp
 msgid "[Automation]Mode"
@@ -1888,10 +1740,6 @@ msgstr "Klipleri Sustur"
 msgid "[PoolBrowser]Name"
 msgstr "İsim"
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Name"
-msgstr "İsim"
-
 #: .\editing\mediatrackcontroller.cpp
 msgid "[MediaTrack]Narrow"
 msgstr "Dar"
@@ -1935,10 +1783,6 @@ msgstr "Sonraki İz"
 #: .\editing\eventeditmodel.cpp
 msgid "[Command]Next Track Extend"
 msgstr "Sonraki İz Genişlet"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]No"
-msgstr "Hayır"
 
 #: .\application\musicloop\loopextension.cpp
 msgid "[Browser]No audio files with a name that ends in .L or .R found."
@@ -2000,14 +1844,6 @@ msgstr "Ayarlı Değil"
 msgid "[Command]Note Erase"
 msgstr "Note Silme"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
-msgstr "Dışa aktaracak birşey yok. Lütfen bir veya daha fazla iz seçip loop veya işaretleri ayarlayın."
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
-msgstr "Dışa aktaracak birşey yok. Lütfen öncelikle loop veya işaretleri ayarlayın."
-
 #: .\editing\eventeditmodel.cpp
 msgid "[Events]Nudge"
 msgstr "İttir"
@@ -2039,10 +1875,6 @@ msgstr "Akor İzi Aç"
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Open Event FX Editor"
 msgstr "Klip FX Düzenleyicisini Aç"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Open Marker Track"
-msgstr "İşaretçi İzi Aç"
 
 #: .\audioediting\audioedittask.cpp
 msgid "[AudioEdit]Operations specific to audio events"
@@ -2076,7 +1908,7 @@ msgstr "Parametre"
 msgid "[MusicPatternPartEditor]Paste"
 msgstr "Yapıştır"
 
-#: .\musicediting\patterneditcomponent.cpp .\song\songcontroller.cpp
+#: .\musicediting\patterneditcomponent.cpp
 msgid "[Command]Paste"
 msgstr "Yapıştır"
 
@@ -2128,10 +1960,6 @@ msgstr "Seçili alanı çal"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Pool"
-msgstr "Havuz"
-
-#: .\song\songdocument.cpp
-msgid "[Engine]Pool"
 msgstr "Havuz"
 
 #: .\audio\audioeventtheme.cpp
@@ -2205,90 +2033,6 @@ msgstr "Quantize 50%"
 #: .\automationediting\automationtracklistcomponent.cpp
 msgid "[Command]Read"
 msgstr "Otomasyon Transferi"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker"
-msgstr "Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 1"
-msgstr "1. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 10"
-msgstr "10. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 11"
-msgstr "11. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 12"
-msgstr "12. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 13"
-msgstr "13. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 14"
-msgstr "14. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 15"
-msgstr "15. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 16"
-msgstr "16. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 17"
-msgstr "17. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 18"
-msgstr "18. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 19"
-msgstr "19. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 2"
-msgstr "2. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 20"
-msgstr "20. Etiketi Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 3"
-msgstr "3. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 4"
-msgstr "4. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 5"
-msgstr "5. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 6"
-msgstr "6. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 7"
-msgstr "7. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 8"
-msgstr "8. İşareti Çağır"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Recall Marker 9"
-msgstr "9. İşareti Çağır"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Reconnect Automation"
@@ -2392,6 +2136,10 @@ msgstr "Akorları Kaldır"
 msgid "[LocateFiles]Remove Clip from Pool"
 msgstr "Havuzdan Klip'i Kaldır"
 
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Remove Crossfades"
+msgstr ""
+
 #: .\application\eventedit\removegapstask.cpp
 msgid "[Edit]Remove Gaps"
 msgstr "Boşlukları Kaldır"
@@ -2436,10 +2184,6 @@ msgstr "Seçili İzleri ve Enstrümanları Kaldır"
 msgid "[ActionDescriptions]Remove Track"
 msgstr "İzi Kaldır"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Remove Track"
-msgstr "İzi Kaldır"
-
 #: .\application\musicedit\musictrackcomponent.cpp
 msgid "[TrackEdit]Remove Track and Instrument"
 msgstr "İzi ve Enstrümanı Kaldır"
@@ -2458,10 +2202,6 @@ msgstr "Kullanılmayan Dosyaları Kaldır..."
 
 #: .\video\videofunctions.cpp
 msgid "[Video]Remove Video"
-msgstr "Video'yu kaldır"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Remove Video"
 msgstr "Video'yu kaldır"
 
 #: .\pool\mediapoolnodes.cpp
@@ -2512,14 +2252,6 @@ msgstr "Not Defterini Yeniden Adlandır"
 msgid "[ScratchPad]Rename Scratch Pad"
 msgstr "Not Defterini Yeniden Adlandır"
 
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Render Click"
-msgstr "Click'i Render et"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Render Click"
-msgstr "Click'i Render et"
-
 #: .\application\audioedit\audioeventfxtasks.cpp
 msgid "[AudioEdit]Render Event FX"
 msgstr "Klip FX'i Render et"
@@ -2531,14 +2263,6 @@ msgstr "Klip FX'i Render et"
 #: .\application\musicedit\musicfxrendertask.cpp
 msgid "[TrackEdit]Render Instrument Tracks"
 msgstr "Enstüman İzlerini render et"
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Rendering Audio..."
-msgstr "Sesi Render Et"
-
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Rendering Click"
-msgstr "Click Render ediliyor"
 
 #: .\music\musicrender.cpp
 msgid "[MusicRenderer]Rendering Envelope: %(1)"
@@ -2792,21 +2516,9 @@ msgstr "Anahtar İşaretini Tanımla"
 msgid "[ActionDescriptions]Set Marker Type"
 msgstr "İşaret Türü Tanımla"
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Set Markers"
-msgstr "İşaret Tanımla"
-
-#: .\song\songmarker.cpp
-msgid "[Command]Set Start and End to Selection"
-msgstr "Başlangıç ve Bitişi Seçili Bölgeye Ayarla"
-
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Set Track Delay"
 msgstr "İz Gecikmesini Belirler"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Set Video Offset"
-msgstr "Video Offset Belirler"
 
 #: .\audio\eventeffects\audiofxfunctions.cpp
 msgid "[Engine]Set Volume after Event FX"
@@ -2890,7 +2602,7 @@ msgstr "Konsolda Göster"
 msgid "[Command]Show in Console"
 msgstr "Konsolda Göster"
 
-#: .\song\songcontroller.cpp
+#: .\pool\mediapoolbrowser.cpp
 msgid "[Command]Show in Explorer/Finder"
 msgstr "Explorer/Finder içinde göster"
 
@@ -2970,26 +2682,13 @@ msgstr "Solo Seçimi Takip Eder"
 msgid "[Engine]Some files could not be exported."
 msgstr "Bası dosyalar dışa aktarılamadı."
 
-#: .\application\musicedit\musictrackcomponent.cpp .\song\songcontroller.cpp
-#: .\song\songmaster.cpp
+#: .\application\musicedit\musictrackcomponent.cpp
 msgid "[Command]Song"
 msgstr "Şarkı"
 
 #: .\editing\scratchpadcomponent.cpp
 msgid "[ScratchPad]Song"
 msgstr "Şarkı"
-
-#: .\song\songdocument.cpp
-msgid "[Engine]Song"
-msgstr "Şarkı"
-
-#: .\song\songcontroller.cpp
-msgid "[Song]Song Setup"
-msgstr "Şarkı Ayarları"
-
-#: .\song\songcontroller.cpp
-msgid "[Command]Song Setup"
-msgstr "Şarkı Ayarları"
 
 #: .\base\model\actiondescriptions.cpp
 msgid "[ActionDescriptions]Split Event"
@@ -3080,10 +2779,6 @@ msgstr "Sync tempo"
 msgid "[Command]Synchronize Editor to Arrangement"
 msgstr "Düzenleyiciyi Aranjmana Senkron Et"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr "BU ŞARKI TELİF HAKLI MATERYALLER İÇERMEKTEDİR. TELİF HAKKI SAHİBİNİN İZNİ OLMAKSIZIN HİÇ BİR MATERYAL KULLANILMAMALIDIR."
-
 #: .\base\media\mediamarker.cpp
 msgid "[Engine:MediaMarker]Take"
 msgstr "Take"
@@ -3096,10 +2791,6 @@ msgstr "Take #%(1:3) (%(2))"
 msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Uzunluk: %(2)"
 
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
-msgstr "Ses codec'i güncel örnekleme frekansını desteklemiyor. Frekans %(1) kHz'e dönüştürülecek"
-
 #: .\audio\audiotrackrecorder.cpp
 msgid "[Record]The drive used for recording is full."
 msgstr "Kayıt için kullanılan sürücü dolu."
@@ -3108,29 +2799,13 @@ msgstr "Kayıt için kullanılan sürücü dolu."
 msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
 msgstr "Kayıt için kullanılan sürücü dolu."
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]The file format will be reset to \"%(1)\"."
-msgstr "Dosya formatı  \"%(1)\" 'a geri döndürülecektir."
-
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]The following problems occured during export:"
-msgstr "Dışarı aktarım sırasında şu sorunlar ortaya çıktı:"
-
 #: .\base\media\mediapool.cpp
 msgid "[MediaPool]The format of this file is not supported."
 msgstr "Bu dosya formatı desteklenmiyor."
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The mastering file of this song is up-to-date."
-msgstr "Bu şarkınınmastering dosyası güncel."
-
 #: .\base\rootsetup.cpp
 msgid "[RootSetup]The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
 msgstr "Örnekleme frekansı ses kartınızın konfigüresyonu ile uyumsuz.\n\nSeçtiğiniz değer: %(1)\nSes kartının değeri: %(2)"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The song will be saved first.\n"
-msgstr "Şarkı önce kayıt edilecek.\n"
 
 #: .\music\musictrackinfo.cpp
 msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
@@ -3206,7 +2881,6 @@ msgstr "Dokun"
 #: .\editing\layereditlayer.cpp .\editing\monitorfollower.cpp
 #: .\editing\trackcontroller.cpp .\editing\tracklayercomponent.cpp
 #: .\editing\tracklistcomponent.cpp .\editing\tracklistfilter.cpp
-#: .\song\songcontroller.cpp
 msgid "[Command]Track"
 msgstr "İz"
 
@@ -3217,10 +2891,6 @@ msgstr "İz"
 
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Track"
-msgstr "İz"
-
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Track"
 msgstr "İz"
 
 #: .\editing\targettrackindicator.cpp
@@ -3234,14 +2904,6 @@ msgstr "İz Yüksekliği %(1)"
 #: .\editing\tracklistfilter.cpp
 msgid "[TrackList]Track Scenes"
 msgstr "İz Sahneleri"
-
-#: .\song\songdocumentinfo.cpp
-msgid "[SongInfo]Tracks"
-msgstr "İzler"
-
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Tracks"
-msgstr "İzler"
 
 #: .\automation\automationfunctions.cpp
 msgid "[Engine:AutomationFunctions]Transfer Automation"
@@ -3387,14 +3049,6 @@ msgstr "Take'leri varolan Katmanlara Aç"
 msgid "[Edit]Unpack Takes to new Layers"
 msgstr "Take'leri yeni Katmanlara Aç"
 
-#: .\song\songmaster.cpp
-msgid "[Command]Update Mastering File"
-msgstr "Mastering dosyasını güncelle"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "Şu şarkının matering dosyaları güncelleniyor:\n%(6)\nÇıkış: %(1)\nSüre: %(3)\nHassasiyet: %(4)\nGerçek Zamanlı İşlem: %(5)\nMaster Efektler Dahil Edilsin mi: %(7)\nDosya Adı: %(2)"
-
 #: .\pool\mediapoolbrowser.cpp
 msgid "[PoolBrowser]Used"
 msgstr "Kullanılmış"
@@ -3402,10 +3056,6 @@ msgstr "Kullanılmış"
 #: .\pool\locatefilescomponent.cpp
 msgid "[LocateFiles]Used by: "
 msgstr "Şu tarafından kullanılmış:"
-
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Using different codecs might affect the export speed."
-msgstr "Farklı codec'ler kullanmak dışa aktarım hızını etkileyebilir."
 
 #: .\musicediting\musicenvelopeeditor.cpp
 msgid "[Automation]Velocity"
@@ -3423,25 +3073,8 @@ msgstr "Verse"
 msgid "[Video]Video"
 msgstr "Video"
 
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video"
-msgstr "Video"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Default"
-msgstr "Video Boyut Varsayılan"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Double"
-msgstr "Video Boyut Çift"
-
-#: .\videoediting\songvideo.cpp
-msgid "[Command]Video Size Half"
-msgstr "Video Boyut Yarı"
-
 #: .\editing\arrangereditlayer.cpp .\editing\chordeditlayer.cpp
 #: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
-#: .\song\songmarker.cpp
 msgid "[Command]View"
 msgstr "Görünüm"
 
@@ -3461,17 +3094,9 @@ msgstr "Yaz"
 msgid "[AutomationWriter]Write Automation"
 msgstr "Otomasyon Yaz"
 
-#: .\videoediting\songvideorenderer.cpp
-msgid "[Video]Writing Video File..."
-msgstr "Video Dosyası Yazılıyor..."
-
 #: .\editing\tracklist.cpp
 msgid "[TrackHeights]X-Large"
 msgstr "Çok Büyük"
-
-#: .\song\songmaster.cpp
-msgid "[SongMaster]Yes"
-msgstr "Evet"
 
 #: .\editing\tracklist.cpp .\editing\tracklistcomponent.cpp
 msgid "[Command]Zoom"
@@ -3512,6 +3137,306 @@ msgstr "%(1) kez kullanıldı"
 #: .\pool\mediapoolnodes.cpp
 msgid "[PoolNodes]used %(1) times"
 msgstr "%(1) kez kullanıldı"
+
+#~ msgid "[Engine]\"%(1)\" does not support the selected file format."
+#~ msgstr "\"%(1)\" seçilen dosya formatını desteklemiyor."
+
+#~ msgid "[StemRenderer](Disabled)"
+#~ msgstr "(Devre dışı)"
+
+#~ msgid "[StemRenderer](Empty)"
+#~ msgstr "(Boş)"
+
+#~ msgid "[StemRenderer](Muted)"
+#~ msgstr "(Muted)"
+
+#~ msgid "[StemRenderer](Protected)"
+#~ msgstr "Korumalı"
+
+#~ msgid "[SongBrowser]Append Track"
+#~ msgstr "İz'in sonuna ekle"
+
+#~ msgid "[SongRenderer]Audio Export"
+#~ msgstr "Ses Dışarı Aktarma"
+
+#~ msgid "[SongRenderer]Cannot create mixdown with protected content."
+#~ msgstr "Korumalı içerik ile miksdown yapılamaz."
+
+#~ msgid "[StemRenderer]Channels"
+#~ msgstr "Kanallar"
+
+#~ msgid "[Song]Could not import file!"
+#~ msgstr "Dosya içe aktarılamadı!"
+
+#~ msgid "[Video]Default Size"
+#~ msgstr "Varsayılan Boyut"
+
+#~ msgid "[Marker]Delete Marker"
+#~ msgstr "İşareti Sil"
+
+#~ msgid "[Engine]Devices"
+#~ msgstr "Aygıtlar"
+
+#~ msgid "[Engine]Do not publish"
+#~ msgstr "Yayınlama"
+
+#~ msgid "[SongRenderer]Do you want to delete the exported file?"
+#~ msgstr "Dışa aktarılan dosyayı silmek istiyormusunuz?"
+
+#~ msgid "[SongRenderer]Do you want to delete the exported files?"
+#~ msgstr "Dışa aktarılan dosyaları silmek istiyormusunuz?"
+
+#~ msgid "[Video]Do you want to extract the audio to a new track?"
+#~ msgstr "Sesleri yeni bir kanala ayıklamak istiyormusunuz?"
+
+#~ msgid "[Video]Double Size"
+#~ msgstr "Çift kat boyut"
+
+#~ msgid "[Command]Duplicate (complete)"
+#~ msgstr "Tümünü Kopayala"
+
+#~ msgid "[Command]Export Mixdown"
+#~ msgstr "Miksdown'u Dışa Aktar"
+
+#~ msgid "[Command]Export Stems"
+#~ msgstr "Stem'leri Dışa Aktar"
+
+#~ msgid "[Command]Export Video"
+#~ msgstr "Video Dışa Aktar"
+
+#~ msgid "[SongRenderer]Exporting..."
+#~ msgstr "Dışa Aktarılıyor..."
+
+#~ msgid "[StemRenderer]Exporting:"
+#~ msgstr "Dışa Aktarılıyor:"
+
+#~ msgid "[Command]Extract Audio"
+#~ msgstr "Sesi Çıkar"
+
+#~ msgid "[Video]Extracted Audio Track"
+#~ msgstr "Çıkarılmış Ses İzi"
+
+#~ msgid "[SongRenderer]Failed to export audio file."
+#~ msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
+
+#~ msgid "[StemRenderer]Failed to export audio file."
+#~ msgstr "Ses dosyasının dışa aktarımı başarısız oldu."
+
+#~ msgid "[Video]Failed to write video."
+#~ msgstr "Video'ya yazılamadı"
+
+#~ msgid "[Command]Goto Next Marker"
+#~ msgstr "Sonraki İşarete Git"
+
+#~ msgid "[Command]Goto Previous Marker"
+#~ msgstr "Önceki İşarete Git"
+
+#~ msgid "[Video]Half Size"
+#~ msgstr "Yarı Boyut"
+
+#~ msgid "[Command]Import File"
+#~ msgstr "İçe Dosya Aktar"
+
+#~ msgid "[Command]Import Video"
+#~ msgstr "İçe Video Aktar"
+
+#~ msgid "[Browser]Import to Pool"
+#~ msgstr "Havuza aktar"
+
+#~ msgid "[Command]Insert"
+#~ msgstr "Ekle"
+
+#~ msgid "[Marker]Insert Marker"
+#~ msgstr "İşaret Ekle"
+
+#~ msgid "[Command]Insert Named"
+#~ msgstr "İsim Ekle"
+
+#~ msgid "[Command]Locate Missing Devices"
+#~ msgstr "Eksik Aygıtları Bul"
+
+#~ msgid "[Command]Marker"
+#~ msgstr "İşaret"
+
+#~ msgid "[Marker]Marker %(1)"
+#~ msgstr "İşaret %(1)"
+
+#~ msgid "[SongSetup]Meta Information"
+#~ msgstr "Meta Bilgileri"
+
+#~ msgid "[Edit]Mixdown Selection"
+#~ msgstr "Seçilenleri Miksdown et"
+
+#~ msgid "[Marker]Name"
+#~ msgstr "İsim"
+
+#~ msgid "[SongMaster]No"
+#~ msgstr "Hayır"
+
+#~ msgid "[StemRenderer]Nothing to export. Please select one or more tracks and set Loop or Markers."
+#~ msgstr "Dışa aktaracak birşey yok. Lütfen bir veya daha fazla iz seçip loop veya işaretleri ayarlayın."
+
+#~ msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
+#~ msgstr "Dışa aktaracak birşey yok. Lütfen öncelikle loop veya işaretleri ayarlayın."
+
+#~ msgid "[Command]Open Marker Track"
+#~ msgstr "İşaretçi İzi Aç"
+
+#~ msgid "[Engine]Pool"
+#~ msgstr "Havuz"
+
+#~ msgid "[Command]Recall Marker"
+#~ msgstr "Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 1"
+#~ msgstr "1. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 10"
+#~ msgstr "10. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 11"
+#~ msgstr "11. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 12"
+#~ msgstr "12. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 13"
+#~ msgstr "13. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 14"
+#~ msgstr "14. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 15"
+#~ msgstr "15. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 16"
+#~ msgstr "16. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 17"
+#~ msgstr "17. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 18"
+#~ msgstr "18. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 19"
+#~ msgstr "19. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 2"
+#~ msgstr "2. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 20"
+#~ msgstr "20. Etiketi Çağır"
+
+#~ msgid "[Command]Recall Marker 3"
+#~ msgstr "3. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 4"
+#~ msgstr "4. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 5"
+#~ msgstr "5. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 6"
+#~ msgstr "6. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 7"
+#~ msgstr "7. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 8"
+#~ msgstr "8. İşareti Çağır"
+
+#~ msgid "[Command]Recall Marker 9"
+#~ msgstr "9. İşareti Çağır"
+
+#~ msgid "[Command]Remove Track"
+#~ msgstr "İzi Kaldır"
+
+#~ msgid "[Command]Remove Video"
+#~ msgstr "Video'yu kaldır"
+
+#~ msgid "[ClickRenderer]Render Click"
+#~ msgstr "Click'i Render et"
+
+#~ msgid "[Command]Render Click"
+#~ msgstr "Click'i Render et"
+
+#~ msgid "[Video]Rendering Audio..."
+#~ msgstr "Sesi Render Et"
+
+#~ msgid "[ClickRenderer]Rendering Click"
+#~ msgstr "Click Render ediliyor"
+
+#~ msgid "[Marker]Set Markers"
+#~ msgstr "İşaret Tanımla"
+
+#~ msgid "[Command]Set Start and End to Selection"
+#~ msgstr "Başlangıç ve Bitişi Seçili Bölgeye Ayarla"
+
+#~ msgid "[Command]Set Video Offset"
+#~ msgstr "Video Offset Belirler"
+
+#~ msgid "[Engine]Song"
+#~ msgstr "Şarkı"
+
+#~ msgid "[Song]Song Setup"
+#~ msgstr "Şarkı Ayarları"
+
+#~ msgid "[Command]Song Setup"
+#~ msgstr "Şarkı Ayarları"
+
+#~ msgid "[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+#~ msgstr "BU ŞARKI TELİF HAKLI MATERYALLER İÇERMEKTEDİR. TELİF HAKKI SAHİBİNİN İZNİ OLMAKSIZIN HİÇ BİR MATERYAL KULLANILMAMALIDIR."
+
+#~ msgid "[Video]The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+#~ msgstr "Ses codec'i güncel örnekleme frekansını desteklemiyor. Frekans %(1) kHz'e dönüştürülecek"
+
+#~ msgid "[Engine]The file format will be reset to \"%(1)\"."
+#~ msgstr "Dosya formatı  \"%(1)\" 'a geri döndürülecektir."
+
+#~ msgid "[SongRenderer]The following problems occured during export:"
+#~ msgstr "Dışarı aktarım sırasında şu sorunlar ortaya çıktı:"
+
+#~ msgid "[SongMaster]The mastering file of this song is up-to-date."
+#~ msgstr "Bu şarkınınmastering dosyası güncel."
+
+#~ msgid "[SongMaster]The song will be saved first.\n"
+#~ msgstr "Şarkı önce kayıt edilecek.\n"
+
+#~ msgid "[SongBrowser]Track"
+#~ msgstr "İz"
+
+#~ msgid "[SongInfo]Tracks"
+#~ msgstr "İzler"
+
+#~ msgid "[StemRenderer]Tracks"
+#~ msgstr "İzler"
+
+#~ msgid "[Command]Update Mastering File"
+#~ msgstr "Mastering dosyasını güncelle"
+
+#~ msgid "[SongMaster]Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+#~ msgstr "Şu şarkının matering dosyaları güncelleniyor:\n%(6)\nÇıkış: %(1)\nSüre: %(3)\nHassasiyet: %(4)\nGerçek Zamanlı İşlem: %(5)\nMaster Efektler Dahil Edilsin mi: %(7)\nDosya Adı: %(2)"
+
+#~ msgid "[Video]Using different codecs might affect the export speed."
+#~ msgstr "Farklı codec'ler kullanmak dışa aktarım hızını etkileyebilir."
+
+#~ msgid "[Command]Video"
+#~ msgstr "Video"
+
+#~ msgid "[Command]Video Size Default"
+#~ msgstr "Video Boyut Varsayılan"
+
+#~ msgid "[Command]Video Size Double"
+#~ msgstr "Video Boyut Çift"
+
+#~ msgid "[Command]Video Size Half"
+#~ msgstr "Video Boyut Yarı"
+
+#~ msgid "[Video]Writing Video File..."
+#~ msgstr "Video Dosyası Yazılıyor..."
+
+#~ msgid "[SongMaster]Yes"
+#~ msgstr "Evet"
 
 #~ msgid "[EditGroups]A Group with this name already exists."
 #~ msgstr "Bu isimde bir gurup mevcut"

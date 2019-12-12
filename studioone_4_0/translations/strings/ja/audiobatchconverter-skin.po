@@ -5,10 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\converter.xml
-msgid "[SearchBar](Not searchable)"
-msgstr "（検索できません）"
-
-#: .\converter.xml
 msgid "[ProcessSlotHeader]Activate"
 msgstr "アクティベート"
 
@@ -71,10 +67,6 @@ msgstr "チャンネル"
 #: .\format.xml
 msgid "[FormatBasic]Channels"
 msgstr "チャンネル"
-
-#: .\converter.xml
-msgid "[SearchBar]Clear"
-msgstr "クリア"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Click here to select..."
@@ -229,7 +221,8 @@ msgid "[AudioFilePreview]Loop Active @cmd[Transport|Toggle Loop]"
 msgstr "ループ有効 @cmd[Transport|Toggle Loop]"
 
 #: .\format.xml
-msgid "[FileMerger]Merge all mono file from the list even if file names do not match"
+msgid ""
+"[FileMerger]Merge all mono file from the list even if file names do not match"
 msgstr "ファイル名が一致しなくてもリストのすべてのモノファイルを結合"
 
 #: .\format.xml
@@ -333,20 +326,8 @@ msgid "[BrowseNavigator]Search @cmd.title[]"
 msgstr "@cmd.title[] を検索"
 
 #: .\converter.xml
-msgid "[SearchBar]Search for"
-msgstr "次を検索"
-
-#: .\converter.xml
-msgid "[SearchBar]Search in"
-msgstr "次から検索"
-
-#: .\converter.xml
 msgid "[SourceResultFilesSection]Show Peak / RMS / R128"
 msgstr "ピーク/RMS/R128を表示"
-
-#: .\converter.xml
-msgid "[BrowseNavigator]Show Thumbnails"
-msgstr "サムネイルを表示"
 
 #: .\converter.xml
 msgid "[ProcessRackSection]Source Folder"
@@ -369,7 +350,7 @@ msgid "[AudioFilePreview]Stop @cmd[Transport|Stop]"
 msgstr "停止 @cmd[Transport|Stop]"
 
 #: .\gain.xml
-msgid "[Normalize]Target Loundness"
+msgid "[Normalize]Target Loudness"
 msgstr "対象ラウドネス"
 
 #: .\gain.xml
@@ -404,3 +385,17 @@ msgstr "ベンダー:"
 msgid "[AudioFilePreview]Volume"
 msgstr "ボリューム"
 
+#~ msgid "[SearchBar](Not searchable)"
+#~ msgstr "（検索できません）"
+
+#~ msgid "[SearchBar]Clear"
+#~ msgstr "クリア"
+
+#~ msgid "[SearchBar]Search for"
+#~ msgstr "次を検索"
+
+#~ msgid "[SearchBar]Search in"
+#~ msgstr "次から検索"
+
+#~ msgid "[BrowseNavigator]Show Thumbnails"
+#~ msgstr "サムネイルを表示"
