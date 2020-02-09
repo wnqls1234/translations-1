@@ -579,7 +579,7 @@ msgstr "도움말"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Hide"
-msgstr "隠す"
+msgstr "숨기기"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]High DPI Mode will be changed next time you start $APPNAME."
@@ -1044,7 +1044,7 @@ msgstr "復元"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Restore Version"
-msgstr "バージョンを復元"
+msgstr "버전 복원"
 
 #: .\documents\documentversions.cpp
 msgid "[Documents]Restoring version \"%(1)\".\n\nDo you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
@@ -1056,15 +1056,15 @@ msgstr "元に戻す"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Revert"
-msgstr "元に戻す"
+msgstr "취소"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Save"
-msgstr "保存"
+msgstr "저장"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Save As"
-msgstr "別名で保存"
+msgstr "다른 이름으로 저장"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Save New Version"
@@ -1072,11 +1072,11 @@ msgstr "新規バージョンを保存"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Save New Version"
-msgstr "新規バージョンを保存"
+msgstr "새로운 버전으로저장"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Save to New Folder"
-msgstr "新規フォルダーに保存"
+msgstr "새로운 폴더에 저장"
 
 #: .\documents\packagedocument.cpp
 msgid "[Documents]Saving %(1)..."
@@ -1112,7 +1112,7 @@ msgstr "次のロケーションにスクリプトフォルダーが見つかり
 
 #: .\browser\searchcomponent.cpp
 msgid "[Command]Search"
-msgstr "検索"
+msgstr "검색"
 
 #: .\options\pathlist.cpp
 msgid "[PathList]Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
@@ -1124,7 +1124,7 @@ msgstr "すべてを選択"
 
 #: .\editing\editor.cpp
 msgid "[Command]Select All"
-msgstr "すべてを選択"
+msgstr "모두 선택"
 
 #: .\editing\tools\selecttool.cpp
 msgid "[Tools]Select Tool"
@@ -1160,7 +1160,7 @@ msgstr "エクスプローラーに表示"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Command]Show in Explorer/Finder"
-msgstr "エクスプローラー/Finderに表示"
+msgstr "탐색기 / Finder에 표시"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Show in Finder"
@@ -1196,7 +1196,7 @@ msgstr "プリセットを保存"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Store Preset"
-msgstr "プリセットを保存"
+msgstr "프리셋 보존"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store Preset..."
@@ -1208,7 +1208,7 @@ msgstr "デフォルトプリセットとして保存"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Store as Default Preset"
-msgstr "デフォルトプリセットとして保存"
+msgstr "기본 설정으로 저장"
 
 #: .\fileinfo\fileoperations.cpp
 msgid "[FileOperations]The file \"%(1)\" could not be moved to trash.\n\nDo you want to permanently delete it?"
@@ -1280,43 +1280,43 @@ msgstr "제목"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 1"
-msgstr "ツール1"
+msgstr "도구 1"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 2"
-msgstr "ツール2"
+msgstr "도구2"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 3"
-msgstr "ツール3"
+msgstr "도구3"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 4"
-msgstr "ツール4"
+msgstr "도구4"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 5"
-msgstr "ツール5"
+msgstr "도구5"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 6"
-msgstr "ツール6"
+msgstr "도구6"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 7"
-msgstr "ツール7"
+msgstr "도구7"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 8"
-msgstr "ツール8"
+msgstr "도구8"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Tool 9"
-msgstr "ツール9"
+msgstr "도구9"
 
 #: .\editing\tools\toolbar.cpp
 msgid "[Command]Toolbar"
-msgstr "ツールバー"
+msgstr "도구 모음"
 
 #: .\options\mainoption.cpp
 msgid "[SliderMode]Touch"
@@ -1340,7 +1340,7 @@ msgstr "取り消す"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Undo"
-msgstr "取り消す"
+msgstr "취소"
 
 #: .\editing\editor.cpp
 msgid "[Edit]Undo"
@@ -1364,7 +1364,7 @@ msgstr "上"
 
 #: .\presets\presetmanager.cpp
 msgid "[Command]Update Plug-Ins"
-msgstr "プラグインを更新"
+msgstr "플러그인 업데이트"
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]Updated tags in %(1)\n"
@@ -1404,7 +1404,7 @@ msgstr "ボリューム"
 
 #: .\application.cpp
 msgid "[Command]Website"
-msgstr "ウェブサイト"
+msgstr "웹사이트"
 
 #: .\application.cpp
 msgid "[Application]Welcome to %(1)!"
@@ -1420,7 +1420,7 @@ msgstr "変更は $APPNAME の次回起動時に適用されます。"
 
 #: .\editing\scaleview.cpp
 msgid "[Scale]Zoom"
-msgstr "ズーム"
+msgstr "줌"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]default"
