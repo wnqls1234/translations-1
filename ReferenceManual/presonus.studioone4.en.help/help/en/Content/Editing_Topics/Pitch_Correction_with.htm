@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Studio_One_Help_New" data-mc-search-type="Stem" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Editing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>&#160;Pitch Correction with Melodyne Integration</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="kanchor182"></a><a name="_Toc303512110"></a>Pitch Correction with Melodyne Integration</h2>
+                                                <p data-mc-conditions="General.Online"><span class="GeneralProductName">Studio One</span> features a unique pitch-correction solution: It tightly integrates with Celemony’s Melodyne, a high-quality commercial pitch-correction software. This is accomplished with new co-developed technology and it is only possible with <span class="GeneralProductName">Studio One</span>. <span class="GeneralProductName">Studio One</span> Professional includes a fully licensed copy of Melodyne Essential 4, while <span class="GeneralProductName">Studio One</span> Artist features the Melodyne Trial version. If you already own any version of Melodyne, update to version 1.3 or later for the integrated support to function in <span class="GeneralProductName">Studio One</span>.</p>
+                                                <p data-mc-conditions="General.Online">For deeper  information on using  Melodyne, please refer to the Melodyne documentation and to the helpful online materials, such as tutorial videos and FAQs, found at the <a href="file:///C:/Users/jon/Documents/Studio One Docs/S1 v2 material/Documentation/Studio One v2 ref manual/from bruce/www.celemony.com"><a href="http://helpcenter.celemony.com/hc-2/">Celemony Help Center</a>.</a></p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Edit with Melodyne </h3>
+                                                <p data-mc-conditions="General.Online">Any Audio Event can be edited with Melodyne. To do so, select the Event and press [Ctrl]/[Cmd]+[M] on the keyboard, or [Right]/[Ctrl]-click on an Audio Event and select Edit With Melodyne from the contextual menu. Melodyne is inserted in the Event FX Device Rack for the Event, and the integrated Melodyne view  opens, found in the same location as the Audio and Music Editors. </p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/MelodyneEditing_585x273.png" style="width: 585;height: 273;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The audio in the Event is analyzed automatically, and the detected notes are displayed, ready for editing. Note that the Melodyne view can be maximized and detached in the same way as the Audio and Music Editors. </p>
+                                                <p data-mc-conditions="General.Online">When the Melodyne Event Effect is active (meaning the Event FX have not been rendered), double-clicking on the Audio Event  opens the Melodyne view. To switch to the Audio Editor, press [F2] on the keyboard, or click on the [Edit] button. </p>
+                                                <h3 data-mc-conditions="General.Online">Detection Algorithms</h3>
+                                                <p data-mc-conditions="General.Online">Melodyne offers a selection of detection algorithms to choose from. These let you optimize the detection process to suit the material you're working with. Melodic mode is best for monophonic melody lines (such as vocals). Percussive mode is best for non-pitched, percussive signals.</p>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">Melodyne Essential 4, bundled with <span class="GeneralProductName">Studio One</span> Professional, also offers Universal mode, which lets you perform pitch and rhythm manipulations on polyphonic material (such as guitar or keyboard parts, or whole mixed songs).</p>
+                                                <p data-mc-conditions="General.Online">You can choose detection modes in the Algorithm menu within the Melodyne editing window.</p>
+                                                <p data-mc-conditions="General.Online">For more information on the detection algorithms in Melodyne, visit the <a href="http://helpcenter.celemony.com/hc-2/">Celemony Help Center</a>.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Real Time and Render</h3>
+                                                <p data-mc-conditions="General.Online">As with other Event FX, Melodyne runs in real time by default. This allows immediate auditioning of the material being edited alongside the rest of the mix. However, it is probably best to render the edits once you are finished in order to reclaim CPU resources. To do so, click on the [Render] button for the Event FX Insert Device Rack in the Event Inspector for the Audio Event. </p>
+                                                <p data-mc-conditions="General.Online">As with other Event FX, the state prior to rendering is stored, allowing you to return for further editing. Melodyne can also be removed entirely from the Audio Event by removing it from the Event FX Insert Device Rack for the Event, in which case all edits are lost. </p>
+                                                <h3 data-mc-conditions="General.Online">Applying Detected Tempo to the Tempo Track</h3>
+                                                <p data-mc-conditions="General.Online">Melodyne extracts tempo information from the audio you feed it, creating a deatiled "map" of tempo changes over time. The tempo map can be applied to the Tempo Track in&#160;<span class="GeneralProductName">Studio One</span>. By doing this, parts you add in the future can tightly follow this new, fluid tempo, and the editing tools can easily snap to logical rhythmic subdivisions, even as the tempo changes. </p>
+                                                <p data-mc-conditions="General.Online">To make a tempo map with Melodyne and apply it to the Tempo Track, do the following:</p>
+                                                <ol>
+                                                    <li value="1" data-mc-conditions="General.Online">Set the Arrange view timebase to "Bars."</li>
+                                                    <li value="2" data-mc-conditions="General.Online">Ensure that the Inspector panel is visible. To show it, click the "I" button, to the left of the timeline.</li>
+                                                    <li value="3" data-mc-conditions="General.Online">Select an audio Event that contains tempo information you wish to detect.</li>
+                                                    <li value="4" data-mc-conditions="General.Online">In the Inspector, set Timestretch to "Don't Follow" mode.</li>
+                                                    <li value="5" data-mc-conditions="General.Online">Trim the beginning of the Event so that it coincides with the first downbeat in the audio.</li>
+                                                    <li value="6" data-mc-conditions="General.Online">Move the Event so that its beginning sits at the first beat of a bar.</li>
+                                                    <li value="7" data-mc-conditions="General.Online">Enable Melodyne by navigating to <span class="Italic">Audio/Edit with&#160;Melodyne</span>, or by [Right]/[Ctrl]-clicking the event and choosing <span class="Italic">Audio/Edit with Melodyne</span> from the pop-up menu. You can also do this by pressing [Ctrl]/[Cmd]+[M] on your keyboard.</li>
+                                                    <li value="8" data-mc-conditions="General.Online">In the Melodyne sub-window that appears, do the following:<ol><li value="1" data-mc-conditions="General.Online">Open the Algorithm menu and choose Universal (or one of the Polyphonic modes, if you have purchased and installed Melodyne Editor or Studio)</li><li value="2" data-mc-conditions="General.Online">Click the "Note Assignment Mode" button, and click the "Tempo Options" button to show the tempo map.</li><li value="3" data-mc-conditions="General.Online">Verify that the detected time signature and tempo seem accurate (and edit them, if necessary). </li><li value="4" data-mc-conditions="General.Online">Click and drag the first beat marker in the tempo map (marked "1") to align it with the first downbeat of your audio.</li><li value="5" data-mc-conditions="General.Online">Click the "Edit Mode" button to close the tempo map. This embeds the detected tempo information in your audio Event.</li></ol></li>
+                                                    <li value="9" data-mc-conditions="General.Online">In the Arrange view in <span class="GeneralProductName">Studio One</span>, drag your Event into the Tempo Track to apply the detected tempo to your Song.</li>
+                                                </ol>
+                                                <p data-mc-conditions="General.Online">For more information on the tempo features in Melodyne, visit the <a href="http://helpcenter.celemony.com/hc-2/">Celemony Help Center</a>.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Drag Audio to Instrument Track</h3>
+                                                <p data-mc-conditions="General.Online">When an Audio Event is edited with Melodyne, the notes resulting from analysis appear on the waveform, as with Music Loops. In this state, it is possible to drag the Audio Event to an Instrument Track lane in the Arrangement to extract the notes, resulting in an Instrument Part that perfectly matches the audio performance. The notes and velocity for the Instrument Part are derived from the Melodyne analysis and editing. </p>
+                                                <p data-mc-conditions="General.Online">This makes it possible, for instance, to sing a melody and then drag it to an Instrument Track for a virtual instrument to play, rather than trying to figure out how to play it on a keyboard controller. You might also wish to replace or enhance an acoustic instrument performance with a virtual instrument. These techniques and many more are now possible with a single drag-and-drop.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster"><span class="GeneralProductName">Studio One</span> Version <span class="GeneralVersionNumber">4.5</span></p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © <span class="GeneralYear">2019</span>&#160;<span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="Closed" data-mc-alt2="Open" />CONTACT US</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Studio_One_Help_New" data-mc-search-type="Stem" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Built-in Virtual Instruments">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Presence XT Editor</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <h2 data-mc-conditions="General.Online"><a name="Presence"></a>Presence XT Editor</h2>
+                                                <p data-mc-conditions="General.Online">By default, Presence XT&#160;is a sample player, which lets you play (and tweak) sounds from existing libraries. If you want to create your own sample-based instruments, you can purchase and install the Presence&#160;XT Editor Add-on, available from the <a href="http://shop.presonus.com/">PreSonus Shop</a>. This option upgrades Presence XT to full sampler functionality, with powerful scripting and layering features.</p>
+                                                <p data-mc-conditions="General.Online">This editing function can also be used to deeply change and further optimize programs from imported sound libraries (such as those in EXS&#160;or Giga format), or Presence XT libraries created by other users. Commercial Presence XT libraries (such as those included with <span class="GeneralProductName">Studio One</span> or bought separately) are protected, and cannot be edited.</p>
+                                                <h4 data-mc-conditions="General.Online">Purchasing the Presence XT&#160;Editor Add-on</h4>
+                                                <p data-mc-conditions="General.Online">To purchase this Add-on, head to the <a href="https://shop.presonus.com/products/software/studio-one-add-ons">Studio One Add-ons</a> section of the PreSonus Shop. Add the option to your cart, and complete the purchase. You are now ready to install.</p>
+                                                <h5 data-mc-conditions="General.Online">Installing from Within <span class="GeneralProductName">Studio One</span></h5>
+                                                <p data-mc-conditions="General.Online">To install this option from within <span class="GeneralProductName">Studio One</span>, ensure that your <span class="GeneralProductName">Studio One</span> machine is connected to the internet, then navigate to <span class="Italic">Studio One/Studio One Installation...</span> Click the box next to the option in your "My Purchased Items" list to select it, then click [Install] to complete the installation.</p>
+                                                <h5 data-mc-conditions="General.Online">Installing from the Web</h5>
+                                                <p data-mc-conditions="General.Online">To install this option using our web site, download the installer from your <a href="http://my.presonus.com/">my.presonus.com</a> account (in the Add-ons section of the My Products page). If you wish to install the option on a different computer than the one you used to download the file, move the installer file to the desired computer. Then, double-click the installer file and follow the instructions as prompted to complete the installation. </p>
+                                                <h4 data-mc-conditions="General.Online">Editor Overview</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Presence XT Edit_440x308.png" style="width: 440;height: 308;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Once you've installed the Presence XT Editor Add-on, when you open a Presence XT window, you'll see a new button, marked "Editor." Press this button to open the editing interface. To return to the normal view, click the [Player] button. You'll notice there are four main sections in the editing interface:</p>
+                                                <h5 data-mc-conditions="General.Online">Program</h5>
+                                                <p data-mc-conditions="General.Online">This area shows you the saved name and disk size of the program you're editing. If you click the menu button next to the [Program] button, a pop-up menu appears. Choose from the following functions:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">New Program</span> Resets Presence XT to a default state, with a blank program loaded. If you've begun to create a program and have not yet saved it, you'll receive a warning, telling you that your samples and parameter settings will be lost if you go through with creating a new program.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Pack Program</span> Lets you package your program, with all its samples and settings, into a single file, for easy storage and sharing. Packed programs are created with a ".soundx"&#160;file extension.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Set Program Password</span> Lets you set a password that Presence XT prompts for if a person attempts to edit this program. This lets you keep a program from being edited, even when sharing it with others.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">To the right of the program area, you'll see three buttons that control the editor display. They look like this:</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/PresenceEditorWindowControls.png" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The first button shows or hides an information drawer at the top of the editor window. Here, you can edit the program's name, set its category, and add a description and information about yourself, as author of the program. The information you enter here is shown in the Player view when your program is loaded, so we recommend you always fill in these fields.</p>
+                                                <p data-mc-conditions="General.Online">The second and third buttons arrange the Layers and Zones areas either side-by-side, or vertically stacked, according to your preference.</p>
+                                                <p data-mc-conditions="General.Online">Finally, you'll see the [Script] button, which opens the scripting view, in which you can write scripts in JavaScript, for greater creative control and interface flexibility in your programs. For more information on working with JavaScript in Presence XT, see <a href="#Scriptin">Scripting</a>.</p>
+                                                <h5 data-mc-conditions="General.Online">Layer </h5>
+                                                <p data-mc-conditions="General.Online">This area deals with Layers, which are entire sample sets, arranged in Zones (as discussed below) across the range of MIDI key and velocity values. These layers can be combined to create fuller sounds and textures, or to set up one or more MIDI-switchable variations&#160;for a given sound. </p>
+                                                <p data-mc-conditions="General.Online">For example, a layer could be a single variation, such as "Pizzicato,"&#160;in a string sound (made up of many layers), with multiple sample zones spread across the keyboard, horizontally. Or, a layer could be a single drum instrument, such as a snare drum, containing multiple velocity zones, stacked vertically on a single MIDI&#160;note. For more information on working with the layer functions, see <a href="#Layers">Layers</a>.</p>
+                                                <h5 data-mc-conditions="General.Online">Zones </h5>
+                                                <p data-mc-conditions="General.Online">This area deals with Zones, which are areas in which a single sample is placed across the range of MIDI&#160;key and velocity values. These sample zones are the pieces that make up a layer (as discussed above), letting you decide exactly how your samples are placed, played, and processed.</p>
+                                                <p data-mc-conditions="General.Online">For example, a high-quality piano sound may have a group of separate samples for every note on the piano, arranged to be played at low, mid, or high velocity. In the Zones area, you can make decisions like this with your own samples, setting up the range of the keyboard and key velocity in which each sample plays, along with many other options. For more information on working with zones, see <a href="#Zones">Zones</a>.</p>
+                                                <h5 data-mc-conditions="General.Online">Parameters</h5>
+                                                <p data-mc-conditions="General.Online">This area gives you access to a wide variety of modulation, tonal, and behavioral options for each layer and the zones within them. The parameters available in this area can pertain to the program as a whole, to the currently selected layer, or the currently selected zone. </p>
+                                                <p data-mc-conditions="General.Online">Clicking the [Program], [Layer], or [Zones] button changes the focus of the Parameters area to address each of those categories, as needed. You can also switch the mode of the parameters area between these three settings by clicking the [Parameters] button.  You can easily keep track of which mode you're in, because the Parameters area is color-coded:&#160;Program mode is blue, Layers is red, and Zones is turquoise.</p>
+                                                <p data-mc-conditions="General.Online">For more information, see <a href="#Paramete">Parameters</a>.</p>
+                                                <h4 data-mc-conditions="General.Online">Creating a New Program</h4>
+                                                <p data-mc-conditions="General.Online">To get started creating a new program, open an instance of Presence XT and click the [Editor] button to open the editing interface. A blank preset is shown by default. It has a single layer, and no samples yet placed in zones. You can then begin dragging samples from the Browser into the Zones area on the Presence XT window. </p>
+                                                <p data-mc-conditions="General.Online">Looking at the Zones area, you can see the samples you add to your new program. By default, they are displayed in a list-style view, showing the sample name and a variety of available parameters for each. If you click the [Grid] button, you'll see the samples displayed along a grid that represents the full range of MIDI&#160;notes (horizontally) and velocity values (vertically). You can get back to the list view at any time by clicking the [List] button.</p>
+                                                <p data-mc-conditions="General.Online">The first sample you add defaults to playing on MIDI&#160;note C-1, the second defaults to C#-1, and so on, in ascending order. This can be helpful when creating drum programs or heavily multisampled sounds, where each key may have a sample of its own. If you intend for a sample to cover a larger span of keys, you can specify the desired span using the Key Low and Key High parameters for each sample (if looking at zones in list view) or by dragging the edges of each sample to the beginning and end of the desired range (if looking at zones in grid view).</p>
+                                                <p data-mc-conditions="General.Online">Once you have the start to a new sound in place, you'll probably want to save the preset, to preserve your work. To do this, follow the instructions shown in <a href="../Mixing_Topics/Effects_Signal_Routing.htm#Creating">Creating and Managing Effects Presets</a>. </p>
+                                                <p data-mc-conditions="General.Online">For more detailed information on the available functions and parameters to help you develop sounds, see the following sections:&#160;<a href="#Layers">Layers</a>, <a href="#Zones">Zones</a>, and <a href="#Paramete">Parameters.</a></p>
+                                                <h4><a name="Layers"></a>Layers</h4>
+                                                <p>
+                                                    <img src="../Resources/Images/StudioOneImages/Presence XT Layers_434x124.png" style="width: 434;height: 124;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Layers area of the Presence XT&#160;editor window is used to establish sound layering in your program. Layers are entire sound sets, with samples placed in zones, and most of the necessary sample-by-sample decisions already made (such as key and velocity ranges, processing details, and so on). You can add multiple layers to your program, to create hybrid sounds that play together, or provide MIDI-selectable variations on a given sound, such as different bowing and plucking styles in a violin sound. </p>
+                                                <p data-mc-conditions="General.Online">If you're just getting started creating a new program and you want to import samples and get them placed and configured, you'll be doing most of that work in the Zones area of the Presence XT&#160;window. See <a href="#Zones">Zones</a> for more info to get you started. </p>
+                                                <p data-mc-conditions="General.Online">Once you've added and configured your first set of samples in the Zones area, you've put together your first layer. If you look at the Layer area in the Presence XT editor window, you'll see "Layer 1"&#160;listed, along with a set of editable parameters for that layer. For more info on parameters available when editing layers, see <a href="#Layer">Layer Parameters</a>.</p>
+                                                <h5 data-mc-conditions="General.Online">Managing Layers</h5>
+                                                <p data-mc-conditions="General.Online"> To add a new layer, [Right]/[Ctrl]-click in the layers list or click the menu button next to the [Layers] button. Choose "Add Layer"&#160;from the pop-up menu. A new layer is created and added to the layers list. This pop-up menu also offers the following options:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Remove Layer </span>Removes the currently selected layer from the program. This also removes all samples placed in zones within that layer.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Duplicate Layer</span> Creates a duplicate of the currently selected layer, with all sample placements and parameters the same.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Merge Layers</span> Combines the sample placements and related parameter settings for all selected layers, into one new layer.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Copy Page Parameters</span> Copies the parameter settings shown on the current visible page for the currently selected layer, so that they can be pasted to a different layer.</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Paste Page Parameters</span> Pastes the copied parameter settings to the currently selected layer.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">If you select more than one layer at a time, you'll see all of the zones in all selected layers shown in the Zones area below, whether in list or grid mode.</p>
+                                                <h5 data-mc-conditions="General.Online"><a name="Layer"></a>Layer Parameters</h5>
+                                                <p data-mc-conditions="General.Online">Each layer in your program has several pages of parameters available for editing, to help you shape the sound to your liking. By default, the Main page of parameters is shown. When navigating through a layer's parameters, you can use the cursor keys on your keyboard to move between them, as well as up or down from layer to layer. To edit a selected parameter, press [Enter] on your keyboard, then edit the parameter, and press [Enter] again to lock in the new value.</p>
+                                                <p data-mc-conditions="General.Online">The Main page contains the following parameters for each layer:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Title </span>Lets you set the title for the layer.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Variation </span>Lets you designate a layer as a key-switched variation of the sampled sound set (such as different styles of picking or strumming on a guitar sound). If enabled, this layer becomes active when the MIDI&#160;note specified in the Trigger parameter (described below)&#160;is played. When another variation is activated by its own MIDI&#160;key trigger, this layer stops playing. To designate one variation as the default, leave its Variation box unchecked, but still provide a note for the variation in the Trigger column.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Trigger </span>Lets you specify the MIDI&#160;note that activates this layer, if it has been enabled as a Variation.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Note Off Trigger</span> Enable this to trigger sounds within this layer only when a MIDI note ends. This is most useful for adding release sounds to a sample program, such as piano hammers falling back into place after a note is played.</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Gain </span>Sets overall gain for an entire layer.</li>
+                                                    <li value="6" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Pan </span>Shifts overall pan placement for an entire layer, relative to the pan settings for each zone in that layer.</li>
+                                                    <li value="7" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Zone Shift</span> Moves all zones contained within a layer up or down the MIDI&#160;key range. When you do this, the range of playable notes for each zone is moved up or down, and the base note for each zone shifts with it.</li>
+                                                    <li value="8" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Tune </span>Adjusts tuning of all samples contained in a layer.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">If you click the menu button next to the button currently marked "Main,"&#160;you can access the following sets of modulation and processing parameters for each layer:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">LFO 1 &amp;&#160;2</span> These settings mirror the LFO&#160;settings in the Player view of Presence XT, setting LFO&#160;parameters for all zones in a layer. </li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Amp Env &amp;&#160;Env 2</span> These settings mirror the Envelope settings in the Player view, setting envelope parameters for all zones in a layer.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Filter </span>These settings mirror the Filter settings in the Player view, setting filter parameters for all zones in a layer.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Other </span>These settings mirror the Glide Time, Velocity Strength, and Velocity Curve controls in the Player view, setting configuration options for all zones in a layer.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">When you make changes to parameters in these pages, those changes are applied to all zones in that layer. If any affected zones have differing settings for those parameters, their values are shifted in a relative fashion as you change the corresponding layer parameter.</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Zones"></a>Zones</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Presence XT Zones List_434x192.png" style="width: 434;height: 192;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Zones area is where you do most of the work when sound designing with Presence XT. You drag samples here from the Browser for inclusion in your program, and then you set the parameters for each sample zone. This lets you place the sample in the desired area of the MIDI&#160;key and velocity range and make all the necessary decisions about sample behavior, modulation, and processing.</p>
+                                                <p data-mc-conditions="General.Online">By default, the sample zones you create by adding samples are shown in a list. This shows the name and  parameters for each sample. You can search for a zone by name within the currently selected layer by typing into the Search bar above the Zones display.</p>
+                                                <h5 data-mc-conditions="General.Online">Managing Zones</h5>
+                                                <p data-mc-conditions="General.Online">You add zones to a layer by selecting that layer and dragging samples into the Zones area. If you click the menu button next to the [Zones] button, a pop-up menu appears with the following functions:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Apply Parameters from File</span> Updates zone parameters to match those found in source file (such as root note, tuning, and loop mode).</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Remove Zone</span> Removes the currently selected zone from the program.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Copy Page Parameters</span> Copies the parameter settings shown on the current visible page for the currently selected zone, so that they can be pasted to a different layer.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Paste Page Parameters</span> Pastes the copied parameter settings to the currently selected zone.</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Refresh Selected Zone(s)</span> Lets you re-import samples in the selected zones, if the original samples have been changed or edited since you originally imported them.</li>
+                                                    <li value="6" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Show in Finder/Explorer</span> Opens an Explorer (Windows) or Finder (Mac OS) window, showing you the location of the currently selected sample.</li>
+                                                </ul>
+                                                <h5 data-mc-conditions="General.Online">Zones Area Options</h5>
+                                                <p data-mc-conditions="General.Online">There are a set of buttons at the top of the Zones area that change how you see and interact with it.</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">List</span> Shows the zones in the currently selected layer in a list view, along with pages of parameters for fine editing of each zone. For info on the available parameters, see <a href="#Zone">Zone Parameters</a>.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Grid</span> Shows the zones in the currently selected layer as regions in a grid that represents the span of MIDI notes (horizontally) and MIDI&#160;velocity values (vertically). For more information on placing samples in grid mode, see <a href="#Zones2">Zones in Grid View</a>.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Input Triggers Selection</span> Enable this option to select zones by playing keys on a MIDI&#160;keyboard. When a key is played, all zones that play within its note range are selected in the zones list.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Audition Focus Zone</span> Enable this option to audition a sample whenever its zone is selected when looking at <a href="#Zones2">zones in grid view</a>.</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Rel.</span>&#160;Enable this option to enter relative editing mode. When this mode is off, if you select multiple zones and change a parameter value in one of the zones, that parameter is set to the chosen value in all selected zones. When this mode is enabled, if more than one zone is selected, and you change a parameter in one zone, that parameter is changed in all selected zones, but in a relative fashion, up or down from the current setting.</li>
+                                                </ul>
+                                                <h5 data-mc-conditions="General.Online"><a name="Zone"></a>Zone Parameters</h5>
+                                                <p data-mc-conditions="General.Online">Looking at zones in list view, you see the list of samples in the currently selected layer, and several columns of parameters with values for each zone. By default, the Main page of parameters is shown. </p>
+                                                <p data-mc-conditions="General.Online">When navigating through the parameters for a zone, you can use the cursor keys on your keyboard to move between them, as well as up and down, from zone to zone. To edit a selected parameter, press [Enter] on your keyboard, then edit the parameter, and press [Enter] again to lock in the new value.</p>
+                                                <p data-mc-conditions="General.Online">The following parameters are available in the Main parameter page:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Root</span> Sets the root note for the current sample zone. Generally, it's best to set this to the actual note at which the sample plays, ensuring that it plays at the proper pitch when triggered by MIDI&#160;notes.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Tune</span> Fine-tunes the pitch of the sample, in cents.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Fix</span> Lets you set a defined pitch at which the sample plays, regardless of what MIDI&#160;note triggers it. This can be helpful for percussion kits or other non-pitched sample sets, where MIDI&#160;notes should not transpose a sample from its intended pitch.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Key Low &amp;&#160;Key High</span> Lets you set the low and high limits of the MIDI&#160;note range in which a sample zone should play.</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Fade K-Low &amp;&#160;Fade K-High</span> Lets you specify the degree to which a zone fades down in volume as you play notes closer to the top or bottom of its note range. This can be helpful when you want a smooth transition between two zones, each blending into the other.</li>
+                                                    <li value="6" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Velo Low &amp; Velo High</span> Lets you set the low and high limits of the MIDI velocity range in which a sample zone should play.</li>
+                                                    <li value="7" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Fade V-Low &amp;&#160;Fade V-High</span>Lets you specify the degree to which a zone fades down in volume as you play notes closer to the top or bottom of its velocity range. </li>
+                                                    <li value="8" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Start &amp;&#160;End</span> Lets you specify the point within a sample that playback begins and ends.</li>
+                                                    <li value="9" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Loop Mode</span> Lets you choose the loop mode for a zone. Off disables looping, Sustain enables looping while a MIDI&#160;note is held, and Release enables looping when a MIDI&#160;note is released, and the release portion of the sound is playing.</li>
+                                                    <li value="10" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Loop Start &amp;&#160;Loop End</span> Lets you specify the start and end of the looping range of the sample (if applicable).</li>
+                                                    <li value="11" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Loop XFade</span> Lets you specify a length of fade to apply at the transition point between the end of a loop and its subsequent beginning. This is often helpful when working with sustained sounds, which may need some smoothing.</li>
+                                                    <li value="12" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Gain</span> Lets you set gain for an individual zone.</li>
+                                                    <li value="13" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Pan</span> Lets you pan a zone across the stereo field.</li>
+                                                    <li value="14" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Round Robin</span> By default, samples that are placed in overlapping zones play concurrently when a note in the proper range and velocity is played. When you select Round Robin values for overlapping zones, they switch places with successive plays of a note, according to the order of the numbers you specify. This can help to introduce natural-sounding variations from note to note, especially in sounds made from samples of live instruments. Type "random"&#160;into this field for any set of overlapping key zones, and those samples will play in random order as keys are struck, rather than numerical.</li>
+                                                    <li value="15" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Play</span> Lets you specify the play mode for a zone. Normal is the default mode, with zones playing and stopping according to the length of incoming MIDI&#160;notes. One-Shot plays the whole specified range of a sample when a note is played. Toggle mode lets long or looped samples play indefinitely, until the same note is played again.</li>
+                                                    <li value="16" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Path</span> Shows the disk path in your file system where the sample for each zone is stored.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">If you click the menu button next to the button currently marked "Main,"&#160;you can access the following sets of modulation and processing parameters for each zone:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">LFO 1 &amp;&#160;2</span> These settings mirror the LFO&#160;settings in the Player view of Presence XT, setting LFO&#160;parameters for a zone. </li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Amp Env &amp;&#160;Env 2</span> These settings mirror the Envelope settings in the Player view, setting envelope parameters for a zone.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Filter </span>These settings mirror the Filter settings in the Player view, setting filter parameters for a zone.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Other </span>These settings mirror the Glide Time, Velocity Strength, and Velocity Curve controls in the Player view, setting configuration options for a zone.<span class="GeneralVersionNumber">4.5</span></li>
+                                                </ul>
+                                                <h5 data-mc-conditions="General.Online"><a name="Zones2"></a>Zones in Grid View</h5>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Presence XT Zones Grid_434x192.png" style="width: 434;height: 192;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">When you look at zones in grid view, you see them as labeled regions, filling a certain space within the range of MIDI notes (horizontally) and velocity values (vertically). You can click and drag the top, bottom, and side edges of each zone to select the desired range in which that zone will play. If you select multiple zones (by holding [Shift] or [Cmd]/[Ctrl] and clicking the desired zones), you can edit their ranges or move them as a group.</p>
+                                                <p data-mc-conditions="General.Online">If you click one of the "keys"&#160;in the keyboard display at the bottom of the grid, all zones triggered by that note are selected.</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Paramete"></a>Parameters</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Presence XT Parameters_433x105.png" style="width: 433;height: 105;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">[Screenshot] PresenceEditorParameters - Parameters area of the editor window</p>
+                                                <p data-mc-conditions="General.Online">There are a great many available layer and zone parameters that you can access in the Layer and Zones areas of the editor window. While editing in this "spreadsheet" style can be fast and precise, sometimes it can be helpful to use the type of knobs, buttons, and displays you're used to in the Player mode to help set and visualize these parameters. The Parameters area of the editor window lets you set many of the available parameters in this way.</p>
+                                                <p data-mc-conditions="General.Online">The Parameters area can show controls for the program as a whole (all layers and zones, together), or for one or more selected layers (and the zones they contain), or for one or more selected zones. You can choose to display parameters for each by clicking the [Program], [Layer], or [Zones] button, or cycle through them by clicking the [Parameters] button. You can easily keep track of which mode you're in, because the Parameters area is color-coded:&#160;Program mode is blue, Layers is red, and Zones is turquoise.</p>
+                                                <p data-mc-conditions="General.Online">Whatever mode is selected, parameters  pertaining to modulation, filter, and mode-specific settings for that level in the program are shown </p>
+                                                <h6 data-mc-conditions="General.Online">Zone Waveform Display</h6>
+                                                <p data-mc-conditions="General.Online">When the Parameters area is in Zones mode, a [Wave] button appears. Clicking this brings up a waveform display for the sample in the selected zone. Click and drag along the top edge to set the loop range for the displayed sample. Click and drag at the beginning or end of the sample to move the play start or end point for the displayed sample.</p>
+                                                <p>While loop editing is possible in this fashion, it lacks the control and accuracy of a dedicated wave editor. As a result, clicks and pops may appear when changing loop start and end points in this display. Adding a loop crossfade may solve this problem. This waveform display is mainly meant for monitoring or reference. If in-depth loop editing is required, a dedicated wave editor software should be used. </p>
+                                                <p data-mc-conditions="General.Online">If you want to replace the sample in a zone with a new sample, simply select the zone, and drag the new sample onto the waveform display. This retains any parameter settings you made for the previous sample.</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Scriptin"></a>Scripting</h4>
+                                                <p data-mc-conditions="General.Online">Presence XT offers powerful scripting functions, based on JavaScript. We chose this language because it is well supported and documented, and known by many. Scripting can be used to affect many functions in a program, most notably to assign macro knobs and buttons to your choice of parameters. Once script controls are assigned here, these controls appear in the central display in the Player mode of the Presence XT window. </p>
+                                                <p data-mc-conditions="General.Online">You may have seen these sorts of controls in some of the included Presence XT programs. Scripting is the way to make this happen.</p>
+                                                <p data-mc-conditions="General.Online">To access scripting for a program, click the [Script] button in the editor view.&#160;This brings up a window in which you can enter your JavaScript code, with some helpful structure added by default. To return to the editor view, press the [Edit] button. There are two buttons at the top of the Script view, that look like this:</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/PresenceScriptWindowControls.png" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The first button shows or hides a drawer that displays the eight scriptable control knobs and buttons for the program. By default, it looks blank. To enable a control, click the dot-shaped button in its lower left corner. To rename a control, click the pencil-shaped button that appears when you hover the mouse cursor over the control. The functions that these controls relate to are set in the script that you create.</p>
+                                                <p data-mc-conditions="General.Online">The second button opens our documentation for the JavaScript structure you can use to script within Presence XT. It goes through the various entry points, objects, and parameters that you can use to interface with Presence XT's engine.</p>
+                                                <p data-mc-conditions="General.Online">Between this information and the wide range of info resources available on the internet, you can soon dig into scripting for your programs, unlocking many useful functions.</p>
+                                                <p data-mc-conditions="General.Online">You can click the [Reset] button to return the code window to its default (blank) state, or press [Apply] to apply your script and try out its functions.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster"><span class="GeneralProductName">Studio One</span> Version <span class="GeneralVersionNumber">4.5</span></p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © <span class="GeneralYear">2019</span>&#160;<span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="Closed" data-mc-alt2="Open" />CONTACT US</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

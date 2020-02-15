@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="ja" lang="ja" class="_Skins_Studio_One_Help_New" data-mc-search-type="NGram" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="編集">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>編集ビューでのイベント編集</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="戻る" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="ロゴ"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="検索" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" title="すべてのファイル" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">すべてのファイル</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="検索" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <main id="main" class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">現在の位置： </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="_Toc303512109"></a>編集ビューでのイベント編集</h2>
+                                                <p data-mc-conditions="General.Online">多くの場合、編集動作では、編集するイベントを詳しく表示させる必要があります。これらの編集動作をアレンジビューで実行するには、ズームインして拡大表示し、編集後ズームアウトして再び元に戻す必要がありますが、ズームインした状態ではソング構成を把握するのが難しくなります。編集ビューを使用すれば、この不都合を解消することができます。選択されているイベントの編集ビューを開くには、編集ボタンをクリックするか、コンピューターキーボードのF2を押すか、イベントをダブルクリックします。エディターは、［表示］メニューの［エディター］を選択しても開くことができます。共通の編集ビューのほか、オーディオイベントではオーディオエディターが、インストゥルメントパートでは音楽エディターがそれぞれ開きます。</p>
+                                                <p data-mc-conditions="General.Online">編集ビューには、現在選択されているイベントがタイムライン上に表示されます。このタイムラインは、アレンジビューのタイムラインとは一致していません。デフォルトでは、編集ビューのタイムラインは、アレンジビューのデフォルトのタイムラインよりも拡大されて表示されています。編集ビューが開いている状態で、アレンジby－でイベントをダブルクリックすると、編集ビューがズームしてイベント全体が表示されます。</p>
+                                                <p data-mc-conditions="General.Online">エディターは、エディター右上の［取り外す/組み込む］ボタンをクリックすることでサイズ変更可能な別ウィンドウとして開くことができます。トラックは、どれもエディター左上のトラックのドロップダウンメニューから選択できます。</p>
+                                                <p data-mc-conditions="General.Online">［アクション］ボタン（オーディオエディターと音楽エディターの両方にある）は、イベントを右クリック/Ctrl-クリックすると表示される機能やオーディオ/音楽機能のサブメニューへのクイックアクセスを提供します。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="kanchor75"></a>オーディオエディター </h3>
+                                                <p data-mc-conditions="General.Online">オーディオエディターはアレンジビューから独立して動作し、独自のタイムベース設定が用意されています。エディター内に表示されるオプションは<a href="Arrange_View_Mouse_Tools.htm">アレンジ</a>ビューのオプションと同じで、ツールとイベントへの効果も同じです。スナップとタイムベースの各設定はアレンジビューとエディター間で共有されず、それぞれ独立しています。［イベントホットスポットにスナップ］オプションは、エディターの［スナップ］ドロップダウンメニューにあり、ベンドマーカーなどのホットスポットにツールとイベントをスナップできます。ドロップダウンメニューには［ゼロ公差にスナップ］オプションもあります。これは、イベントを移動または分割する際にオーディオデータの先頭に不自然なクリックが生じるのを防ぐのに役立ちます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/EditViewWaveform_603x179.png" style="width: 603;height: 179;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">オーディオエディター内の波形レーン左に表示されているレベルスケールは、クリックして左右にドラッグすることで調整できます。これにより、波形の振幅の表示サイズを変更できます。この機能は、比較的音量の低いオーディオを編集する際に便利です。このエリアを右クリック/Ctrl-クリックすると、スケールの単位をパーセンテージとdBの間で選択できます。このズームレベルは、［タイムズーム］スライダーコントロール右の［データズーム］パラメーターを操作しても調整できます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ツール</h4>
+                                                <p data-mc-conditions="General.Online"><a href="Arrange_View_Mouse_Tools.htm">アレンジ</a>ビューのツールはすべてオーディオエディターで使用できます。各ツールの機能は、アレンジビューでの機能と同じです。（ペイントツールはオーディオエディターでは使用できません。）</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="kanchor76"></a>音楽エディター </h3>
+                                                <p data-mc-conditions="General.Online">インストゥルメントパートにはノートが含まれています。ノートとは、演奏データを表示化したもので、イベントの一種です。ノートは、マウスツール、キーコマンド、特定の［イベント］メニューコマンドを使用して、移動、カット、コピー、ペースト、複製、描画することができます。他のイベントと同じように、複数のノートを選択して同時に編集することができます。</p>
+                                                <p data-mc-conditions="General.Online">パート内またはトラック上のすべてのノートをすばやく編集するには、Ctrl/Cmd+Aを使用して音楽エディター内の任意のパートに含まれるすべてのノートを選択するか、Ctrl/Cmd+Shift+Aを使用してトラック上のすべてのパート内のすべてのノートを選択します。［編集］メニューの［選択］セクションを開き、選択操作を選択することもできます。</p>
+                                                <p data-mc-conditions="General.Online">［タイムズーム］コントロールを動かして水平に、［データズーム］コントロールを動かして垂直に、それぞれ音楽エディター内をズームインまたはズームアウトできます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online"><a name="Timebase_Quantize_and_Scale"></a>タイムベース、クオンタイズ、音階</h4>
+                                                <p data-mc-conditions="General.Online">音楽エディターには、オーディオエディターに似た独自の設定があります。クオンタイズは時間単位（水平位置）のスナップに影響しますが、音階はノート単位（垂直位置）のスナップに影響します。音階設定では、さまざまな音階内の特定のノート値にスナップさせることができます。スイッチをクリックして［音階］機能を有効にしてから、各セレクターから先頭のノートと音階を選択して設定します。選択された音階に含まれるノートが、［音階］セレクターのキーボードディスプレイと［音階］セレクター上の1オクターブキーボードディスプレイ内およびに表示されます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">矢印ツール</h4>
+                                                <p data-mc-conditions="General.Online">矢印ツールを使用した音楽エディターでのノート操作は、アレンジビューでのイベント操作と基本的に同じです。<a href="Events.htm">イベント</a>と同じように、複数のノートを選択して同時に編集することができます。</p>
+                                                <h5 data-mc-conditions="General.Online">ノートを移動する</h5>
+                                                <p data-mc-conditions="General.Online">矢印ツールを使用してノートを移動するには、ノートをクリックし、左右上下にドラッグします。ノートを左右にドラッグすると、編集ビューの現在のタイムベースとタイムラインのズームに応じて、ノートがタイムライン上を前後に移動します。ノートを上下にドラッグすると、ノートがトランスポーズ（ノートのピッチが変更）されます。トランスポーズの間隔は、音楽エディターの左に縦方向に表示されているキーボードディスプレイを使用して決定できます。</p>
+                                                <h5 data-mc-conditions="General.Online">ノートを作成する</h5>
+                                                <p data-mc-conditions="General.Online">矢印ツールを使用してノートを作成するには、編集ビューの空のスペースをダブルクリックします。指定の位置にノートが作成され、その長さは現在選択されている［クオンタイズ］値により決まります。ノートを削除するには、矢印ツールでノートをダブルクリックします。</p>
+                                                <h5 data-mc-conditions="General.Online">ノートのサイズを変更する</h5>
+                                                <p data-mc-conditions="General.Online">矢印ツールを使用してノートのサイズを変更するには、マウスをノートの左端または右端に合わせ、サイズ変更ツールを表示させます。ツールが表示されたら、左右にクリック&amp;ドラッグしてノートのサイズを変更します。イベント同様、ノートのサイズ変更は、取り消しとやり直しが行えます。パートのサイズ変更は、カーソルをパートの先頭または末尾近くに重ねてサイズ変更ツールを表示させても行えます。</p>
+                                                <p data-mc-conditions="General.Online">ノートの長さを変更し、同時にそれに合うよう前または次のノートのサイズを変更するには、カーソルをノート先頭または末尾近くにマウスオーバーし、Alt/Optionを押したまま［隣り合うノートのサイズを変更］モードを有効にしてサイズ変更したいノートをクリック&amp;ドラッグします。</p>
+                                                <p data-mc-conditions="General.Online">音楽エディター内で複数選択されているノートのサイズを矢印ツールを使用して変更する場合、修飾キーを使用するとさらに3つの操作が行えます。複数のノートを選択してから、1つのノートの末端をクリックして右に少しだけドラッグします。ノートのドラッグ中にコンピューターキーボードの特定のキーを押すと、次が生じます。</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">Ctrl/Cmd+ドラッグで、全てのノートの長さが、クリックしたノートの長さに一致するようスナップします。</li>
+                                                    <li value="2">Alt+ドラッグで、ノートがタイムグリッド全体にわたってストレッチされます。どちらかの一番端のノートの外縁をドラッグすると、無限にストレッチできます。いずれかのノートの内縁をドラッグすると、最終的には中央のノートが一番端のノートの上に来るようになります。</li>
+                                                    <li value="3">Alt+Ctrl/Cmd+ドラッグで、全てのノートが同時に終わるようになります。</li>
+                                                </ul>
+                                                <h5 data-mc-conditions="General.Online">トラックを複製する</h5>
+                                                <p data-mc-conditions="General.Online">矢印ツールを使用して選択されているノートを複製するには、コンピューターキーボードのAlt/Optionキーを押したままノートを左右にクリック&amp;ドラッグします。任意の位置でマウスボタンから指を離すと、選択対象がこの位置に複製されます。</p>
+                                                <h5 data-mc-conditions="General.Online">矢印ツールについてのヒント</h5>
+                                                <p data-mc-conditions="General.Online">矢印ツールが選択されている状態で一時的にペイントツールに切り替えるには、Ctrl/Cmdキーを押し続けます。</p>
+                                                <p data-mc-conditions="General.Online">複数のパートがエディター内に表示されている場合、編集に対して有効となるのはそのうちのいずれか1つだけです。たとえば、［すべてを選択］操作を行う場合、現在有効なパート内のノートのみが選択されます。パートを有効化するには、パート内のいずれかのノートまたは空のスペースをクリックします。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">分割ツール</h4>
+                                                <p data-mc-conditions="General.Online">音楽エディターの分割ツールでは、1つのノートを2つに分割できます。任意のノート1つをクリックするとその位置でノートが分割されます。複数のノートを選択してから分割すると、選択されているすべてのノートが分割されます。Altを押したままこのツールを使用してクリックすると、選択されているノートだけでなくパート自体も分割され、1つのパートが2つのパートへと分割されます。</p>
+                                                <p data-mc-conditions="General.Online">分割ツールが選択されている状態で一時的に矢印ツールに切り替えるには、Ctrl/Cmdキーを押し続けます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ペイントツール</h4>
+                                                <p data-mc-conditions="General.Online">音楽エディターのペイントツールは、インストゥルメントパート内にノートを描画するのに使用します。ペイントツールでの描画は、<a href="#Timebase_Quantize_and_Scale">クオンタイズと音階</a>設定に従ってスナップします。ペイントツールが選択された状態でマウスカーソルを音楽エディター上に合わせると、キーボードディスプレイ上に現在のカーソル位置のノート値がハイライト表示されます。</p>
+                                                <p data-mc-conditions="General.Online">キーボードディスプレイは、キーボードディスプレイ上のドラムマップボタンをクリックすることでドラムマップディスプレイに切り替えることができます。ドラムマップディスプレイではバーチャルキーボードが取り除かれ、各ノート位置に対するサンプル名の表示スペースが広げられます。</p>
+                                                <p data-mc-conditions="General.Online">ドラムマップのピッチ名は、［ピッチ名を編集］ボタンをクリックしてポップアップメニューを開き、各ピッチに対してピッチ名を入力することで編集できます。このマップは、プリセット保存ボタンをクリックして保存し、後から呼び出すことができます。ロードするには、リストからマップを選択します。（General MIDIドラムマップが表示されます。）</p>
+                                                <p data-mc-conditions="General.Online">ペイントツールでノートを描画するには、任意の位置をクリックします。1回クリックすると、現在のクオンタイズ設定の値と同じ長さの新規ノートが作成されます。右へクリック&amp;ドラッグすると、ノートの長さを変更できます。<span class="span_6">矢印ツール</span>同様、ペイントツールが選択された状態でマウスカーソルを既存のノートの端に合わせてノートのサイズを変更できます。ノートを削除するには、ペイントツールを使用してクリックします。</p>
+                                                <p data-mc-conditions="General.Online">ペイントツールでノートを描画中にノートのベロシティーを編集するには、ノートを上下にクリック&amp;ドラッグします。ペイントツールを使用して1つのノートのベロシティーを編集するには、コンピューターキーボードのAlt/Optionキーを押したままノートを上下にクリック&amp;ドラッグします。</p>
+                                                <p data-mc-conditions="General.Online">音楽エディターのパートオートメーションレーン内でノート（1つまたは複数）のベロシティーを編集することもできます。詳しくは、「<a href="../Automation_Topics/Chapter-Automation.htm">オートメーション</a>」章の「<a href="../Automation_Topics/Instrument_Part_Automation.htm">インストゥルメントパートオートメーション</a>」セクションをご参照ください。</p>
+                                                <p data-mc-conditions="General.Online">ペイントツールが選択された状態で、コンピューターキーボードのAltキーを押し続けると、ライン描画モードに切り替わります。このモードでは、音楽エディターにノートイベントのラインを描画し、オートメーションエンベロープにラインを描画できます。オートメーションエンベロープについては後で説明しています。この機能は、Ctrl/Cmdを押して一時的にペイントツールが有効になっている場合にも機能します。</p>
+                                                <p data-mc-conditions="General.Online">ペイントツールを使用して編集ビューで新規パートを作成するには、エディターのタイムラインの空のエリアでクリック&amp;ドラッグします。パートの先頭または末尾の上にカーソルを重ねてサイズ変更ツールを表示させることで、ペイントツールが選択されている状態でパートのサイズを変更できます。</p>
+                                                <p data-mc-conditions="General.Online">ペイントツールを使用中に一時的に矢印ツールを選択するには、コンピューターキーボードのCtrl/Cmdキーを押したままにします。</p>
+                                                <h5 data-mc-conditions="General.Online">ノートベロシティの変形ツール</h5>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/TransformVelocity_269x289.png" style="width: 269;height: 289;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">複数のノートに対してベロシティを一度に編集したい場合、変形ツールが非常に便利です。オートメーションカーブの縮尺とシェイピングに使用する<a href="../Automation_Topics/Editing_Automation_Envelopes.htm#Transfor">アレンジビューの変形ツール</a>に似た方法で、音楽エディターの変形ツールでは、ノートベロシティデータの縮尺とシェイピングが行えます。</p>
+                                                <p data-mc-conditions="General.Online">変形ツールを使用するには、音楽ツールのペイントツール端の三角形をクリックし、ポップアップリストから［変形ツール］を選択します。このツールを使用して、選択されているノートの下のベロシティディスプレイ内でベロシティ値範囲を選択します。選択された値はその後、選択範囲の一番上または一番下にあるハンドルをドラッグすることでスムーズに縮尺を変更できます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SlantedVelocityChange_324x90.png" style="width: 324;height: 90;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">変形選択範囲の四隅のハンドルをドラッグして、上図のようにベロシティをスロープを使用して縮尺することもできます。これにより、一定の範囲のノートにわたってベロシティにスムーズな変更を簡単に加えることができます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">消しゴムツール</h4>
+                                                <p data-mc-conditions="General.Online">音楽エディターの消しゴムツールは、ノートを削除するのに使用します。消しゴムツールが選択された状態で、ノートをクリックして削除します。複数のノートが選択されている状態で、いずれかのノートを消しゴムツールでクリックすると、選択されているすべてのノートが削除されます。消しゴムツールで空のスペースをクリック&amp;ドラッグして、触れたノートすべてを削除できます。</p>
+                                                <p data-mc-conditions="General.Online">消しゴムツールが選択された状態でコンピューターキーボードのCtrl/Cmdキーを押すと、矢印ツールに一時的に切り替わります。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ミュートツール</h4>
+                                                <p data-mc-conditions="General.Online">音楽エディターのミュートツールは、アレンジビューと同じように使用します。ミュートツールが選択された状態で、ノートをクリックしてミュートし、ミュートしているノートをクリックしてミュートを解除します。ミュートツールでクリック&amp;ドラッグして、選択範囲内のすべてのノートをミュートできます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ノートをカット、コピー、ペースト、複製する</h4>
+                                                <p data-mc-conditions="General.Online">ノートは、この章の「<a href="Common_Editing_Actions.htm">共通の編集操作</a>」セクションで説明したアレンジビューのイベントと同じように、カット、コピー、ペースト、複製することができます。ノートをカットまたはコピーしてから、アレンジの選択されているインストゥルメントトラックへ直接ペースト（またはドラッグ&amp;ドロップ）することも可能です。これを行うと、選択されたノートを含む新規のインストゥルメントパートが作成されます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ノート、インストゥルメントパート、トラックをトランスポーズする</h4>
+                                                <p data-mc-conditions="General.Online">ノートのトランスポーズ（複数のノートをまとめて指定する音程で変更すること）は、音楽データの柔軟性を利用した一般的な動作です。ノート、インストゥルメントパート全体、インストゥルメントトラックに含まれるものすべてをいつでもトランスポーズすることができます。</p>
+                                                <p data-mc-conditions="General.Online">インストゥルメントパート内のノートまたはノートのグループをトランスポーズするには、パートをダブルクリックして音楽エディターを開き、次を行います。</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">トランスポーズしたいノートすべてを選択します。</li>
+                                                    <li value="2">［音楽機能］サブメニュー（［イベント］メニュー、［アクション］ボタン、または編集ビュー内で右クリック/Ctrl-クリック）で［トランスポーズ］を選択します。</li>
+                                                    <li value="3">プリセットのいずれかを選択するか、選択されているノートに適用されるトランスポーズをフェーダーを使用してセミトーン単位で（またはテキストフィールドにセミトーン値を入力して）設定します。正の値ではノートが上へ、負の値ではノートが下にトランスポーズされます。</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">インストゥルメントパート全体をトランスポーズするには：</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">トランスポーズしたいパートをアレンジビューで選択します。</li>
+                                                    <li value="2">
+                                                        <p>［音楽機能］サブメニュー（［イベント］メニュー、［アクション］ボタン、または編集ビュー内で右クリック/Ctrl-クリック）で［トランスポーズ］を選択します。</p>
+                                                    </li>
+                                                    <li value="3">プリセットのいずれかを選択するか、選択されているパートに適用されるトランスポーズをフェーダーを使用してセミトーン単位で（またはテキストフィールドにセミトーン値を入力して）設定します。正の値ではパートが上へ、負の値ではパートが下にトランスポーズされます。</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">ノートまたはパートをトランスポーズすると、変更が反映され、ノート表示が移動します。この場合、表示されているノートが聞こえるノートとなります。</p>
+                                                <p data-mc-conditions="General.Online">インストゥルメントトラックの内容すべてをトランスポーズするには：</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">トランスポーズしたいインストゥルメントトラックを選択します。</li>
+                                                    <li value="2">コンピューターキーボードのF4を押してインスペクターを開きます。</li>
+                                                    <li value="3">トラックに適用されるトランスポーズを［トランスポーズ］フィールドに値をセミトーン単位で入力します。</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">インスペクター経由でトラックをトランスポーズする場合、変更はグラフィック表示に反映されません。このトラック上のすべてのパート内のノートの位置には影響しません。この場合、表示されているノートが聞こえるノートとは限りません。このパラメーターは、キーボードで演奏する際に聞こえるノートにも影響します。</p>
+                                                <p data-mc-conditions="General.Online">［すべてを次に設定］をオンにしてから音価を選択して［OK］を押すことで、トランスポーズ機能を使用して選択されているすべてのノート（または選択されているパート内のすべてのノート）を同じ値に設定することもできます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online"><a name="Quantizing"></a>インストゥルメントパートをクオンタイズする</h4>
+                                                <p data-mc-conditions="General.Online">インストゥルメントパートをクオンタイズすると、設定した時間単位でタイムライン上のノートの位置を修正できます。実際はクオンタイズはタイミング合わせに使用されることが一般的ですが、クリエイティブに使用することもできます。</p>
+                                                <p data-mc-conditions="General.Online">クオンタイズの結果は、［クオンタイズ］パネルの設定により決まります。［クオンタイズ］パネルでは、クオンタイズに関する設定を詳細に調整できます。詳しくは、「<a href="The_Grid.htm#Quantize_Panel">クオンタイズレベル</a>」のセクションをご参照ください。</p>
+                                                <p data-mc-conditions="General.Online">オーディオイベント同様、インストゥルメントパートを［クオンタイズ］パネルの［グルーヴ］セクションにドラッグすることで、インストゥルメントパートからグルーヴを抽出することができます。インストゥルメントパートまたはオーディオイベントは、その後その抽出されたグルーヴにクオンタイズされます。</p>
+                                                <p data-mc-conditions="General.Online">録音中にノートのクオンタイズを有効にするには、［表示］メニューの［録音パネル］を選択して（またはAlt/Option+Shift+Rを押して）録音パネルを開いてから、［入力クオンタイズ］ボタンをクリックします。入力クオンタイズは、演奏後、その演奏をそのまま使用したい場合には取り消すことができます。</p>
+                                                <p data-mc-conditions="General.Online">現在のクオンタイズ設定に従って、1つのノートを複数のノートに分割することができます。任意数のノートを選択してから、［音楽機能］メニューから［イベントを分割］を選択します。ノートが小節線からの位置に応じて分割されます。分割は、ノートのスタートラインから次の小節線まで実行されます。［イベントを分割］がインストゥルメントパート全体やオーディオイベント全体に適用される可能性もあります。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">クオンタイズ、タイミングを復元</h4>
+                                                <p data-mc-conditions="General.Online">インストゥルメントパート全体をクオンタイズするには、アレンジビューでパートを選択し、コンピューターキーボードのQキーを押すか、［音楽機能］メニューから［クオンタイズ］を選択します。各ノートまたは複数のノートをクオンタイズするには、音楽エディターでノートを選択してから上記の手順でクオンタイズを適用します。</p>
+                                                <p data-mc-conditions="General.Online">また、ノートが音楽エディターで選択されている状態で、［自動］がオンの場合に［クオンタイズ］値を変更すると（エディターツールバーのクオンタイズ値の横の「IQ」ボタンで切り替え）、選択されているノートが新しいクオンタイズ値で自動クオンタイズされます。</p>
+                                                <p data-mc-conditions="General.Online">さらに、ノートの終端をクオンタイズすることもできます。［音楽機能］メニューで［エンドをクオンタイズ］を選択し、ノートオフ時間を調整します。</p>
+                                                <p data-mc-conditions="General.Online">クオンタイズされたインストゥルメントパートまたはノートを元のタイミングに戻すには、パートまたはノートを選択し、コンピューターキーボードのShift+Qキーを押すか、［音楽機能］メニューから［タイミングを復元］を選択します。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">クオンタイズをフリーズする</h4>
+                                                <p data-mc-conditions="General.Online">ノートのクオンタイズを恒久化し、このクオンタイズ位置に従って新たにクオンタイズできるようにすると、場合によっては非常に便利です。これを行うには、ノートを選択し、［音楽機能］メニューから［クオンタイズをフリーズ］を選択します。クオンタイズされた位置がオリジナルの位置となるため、これらのノートには［タイミングを復元］を適用できません。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">ヒューマナイズ</h4>
+                                                <p data-mc-conditions="General.Online">すべてのノートを厳密にクオンタイズしてリズムぴったりに合わせてしまうと、音楽が精彩に欠けた機械的なものになってしまいます。［ヒューマナイズ］機能は、一般的な人間の演奏パターンをもとに作成されたルールに基づき、ノートの開始および終了のタイミングとベロシティをわずかに変化させます。より人間の演奏に近いサウンドになるよう、バリエーションを加えます。</p>
+                                                <p data-mc-conditions="General.Online">この機能を使用するには、ノートを選択してから、<span class="Italic">［編集］&gt;［音楽機能］&gt;［ヒューマナイズ］</span>を選択します。適用結果を直接コントロールすることはできませんのでご注意ください。［ヒューマナイズ（低）］を選択することもできます。このオプションは、［ヒューマナイズ］と同じようにノートを変化させますが、よりヒューマナイズ効果が穏やかなパターンが適用されます。</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">音楽エディターのインスペクター</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/MusicEditorInspector_157x313.png" style="width: 157;height: 313;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">ノートを選択すると、ノートのスタート位置とエンド位置、ピッチ、ベロシティー、ミュート状態が音楽エディターインスペクターに表示されます。これらのパラメーターは、インスペクター内で直接編集することができます。インスペクターを使用してノートを編集すると、選択されているノートすべてに影響し、値は各ノートの元の設定に相対して変化します。例外は、インスペクターを使用して複数のノートに対してベロシティが指定されている場合で、前のベロシティ値に関係なくすべてのノートが新規値にスナップします。</p>
+                                                <p data-mc-conditions="General.Online">スタート位置とエンド位置、ピッチ、ベロシティーを編集する最も簡単な方法は、マウスカーソルをパラメーターに合わせ、マウスホイールを使用して上下にスクロールする方法です。また、選択されているノートのベロシティーを編集する場合、音楽エディターのインスペクターパネルのベロシティー値をクリック&amp;ドラッグする方法もあります。マウスボタンから指を離すと、ベロシティー値が選択されているノートすべてに適用されます。デフォルトでは、ベロシティパラメーターによって現在設定されている値が、ペイントツールで作成される新規ノートすべてに適用されます。</p>
+                                                <p data-mc-conditions="General.Online">［ノートを試聴］オプションをオンにすると、選択されている、作成された、動かされた、現在のインストゥルメントで再生された各ノートのピッチを聞くことができます。</p>
+                                                <p data-mc-conditions="General.Online">アレンジビューにあるものによく似たボタンを使用して、ミュート、ソロ、音楽エディターインスペクターから現在のトラックのデバイスエディターを開くこともできます。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">マルチトラック音楽編集</h3>
+                                                <p data-mc-conditions="General.Online">複数のインストゥルメントトラックを同時に音楽エディターに表示させて編集することができます。複数のトラックを音楽エディターに表示させるには、Shiftを押したまま、アレンジ内のさまざまなトラック上のインストゥルメントパートを選択します。Shiftを押したままアレンジ内のパートを選択することで、パートをさらに追加することができます。</p>
+                                                <p data-mc-conditions="General.Online">アレンジ内のパートをダブルクリックすると、そのトラックだけが音楽エディターに表示されます。Alt+ダブルクリックすると、パートに含まれるノートすべてが表示されるよう、音楽エディターが上下左右に最大ズームレベルまで自動サイズ変更されます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/InstrumentDataEditView_606x162.png" style="width: 606;height: 162;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">音楽エディターには独自のトラックリストもあり、音楽エディターツールバーの一番左のトラックリストアイコンから開くことができます。このトラックリストでは、トラック名の左のボタンでトラックの表示/非表示を、トラック名の右の鉛筆の形をした編集ボタンでトラックを編集可能に切り替えます。トラックが表示されている場合、編集可能でなければ、トラックのノートを選択できない状態で表示されるため、誤って変更を加えてしまう心配がありません。</p>
+                                                <p data-mc-conditions="General.Online">複数のパートが表示されている場合、各パートのノートはそれぞれのトラック色で色分けされ、通常どおりトラックを通して試聴することができます。選択されているノートは赤色で表示されます。また、複数のパートが表示されている場合、右クリック/Ctrl-クリックでコンテキストメニュー［ノートを転送］を選択し、あるパートから別のパートへノートを転送させることができます。選択されているノートが元のパートから削除され（ノート転送リストにチェックマークが表示されます）、選択されているパートへと移動します。</p>
+                                                <h4 data-mc-conditions="General.Online">ドラムエディター</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SO4 - Drum Editor (Vel Color) - EN_606x218.png" style="width: 606;height: 218;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">一般的なピアノロールスタイルのノート編集は、長さがさまざまに異なることの多いメロディやハーモニーに最適です。ドラムプログラミングと編集では異なる問題が出てきます。パーカッシブなサウンドはあらかじめ指定された時間で終了する独自の振幅エンベロープを含んでいることがよくあり、そのため各ノートの先頭が最も重要な部分となります。この種類のコンテンツを扱う際にさらに分かりやすくなるよう、Studio Oneには専用のドラムエディタービューが搭載されています。このビューには、ドラムノートが「トリガー」として表示され、各ノートの先頭にマークが付けられます。</p>
+                                                <p data-mc-conditions="General.Online">ドラムエディターを表示するには、音楽エディターパネル最上部のドラムの形をしたボタンをクリックします。キーボードの形をしたボタンをクリックして、いつでも標準ビューに戻ることができます。ドラムエディタービューでは、通常どおりノートを追加、削除、加工することができますが、一部便利な違いがあります。</p>
+                                                <h5 data-mc-conditions="General.Online">Impact XTとのタイトな統合</h5>
+                                                <p data-mc-conditions="General.Online">ドラムエディターはあらゆるインストゥルメントパート上で使用できますが、Impact XTとは特別な関係にあります。ドラムエディターにImpact XTパートを表示させると、フルレンジのノートではなく、現在ロードされているサウンドがグリッドの列として表示されます。名前が表示され色分けされるため、プログラミングと編集が簡単になります。使用されていないノートは全て非表示になります。</p>
+                                                <h5 data-mc-conditions="General.Online">ペンシルツールでノートを入力</h5>
+                                                <p data-mc-conditions="General.Online">標準ビューでペンシルツールを使用して複数のノートを入力する場合、スタートするノートをクリックしてからドラッグしてその長さを設定します。ドラムエディターでは、ノート長は表示されないため、グリッド上をクリック&amp;ドラッグして、現在のクオンタイズ値で設定された分割で複数の新規ノートを入力します。これにより、ドラムパターン、フィル、ロールをよりスムーズに作成できます。</p>
+                                                <h5 data-mc-conditions="General.Online">インストゥルメントを編集</h5>
+                                                <p data-mc-conditions="General.Online">ドラムエディターをImpact XT以外のインストゥルメントで使用する場合、音名がフルで表示され、編集グリッド内にそれぞれ独自の列で表示されます。使用する予定のないノートを除外させたい場合、あるいは該当するサウンドに合わせて音名を変更したい場合は、音楽エディターパネル最上部近くにあるレンチの形をしたボタンをクリックしてインストゥルメントリストの編集を有効にします。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SO4 - Drum Editor Instrument List_171x259.png" style="width: 171;height: 259;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">ノートの順序を編集するには各ノート列の左の二重線をクリック&amp;ドラッグします。ノートを非表示にするには、列内の丸ボタンをクリックして灰色表示にします。音名を変更するには、名前ディスプレイ内をクリックしてから新しい名前を入力します。インストゥルメントリストの編集が完了したら、レンチの形をしたボタンをもう一度クリックして変更内容を確認します。</p>
+                                                <h5 data-mc-conditions="General.Online">ドラムマップをインポート</h5>
+                                                <p data-mc-conditions="General.Online">Impact XT以外のドラムインストゥルメント（またはドラムサンプルライブラリ）を扱う場合、「ドラムマップ」として知られるピッチ名のリストをドラムエディターにインポートできます。こうすることで、インストゥルメントまたはライブラリプリセットが対応する各ノートに名前を自動アサインでき、Impact XTを扱う場合と同様にプログラミングが簡単になります。</p>
+                                                <p data-mc-conditions="General.Online">ドラムマップは多数の商用インストゥルメントやライブラリに対して <a href="http://exchange.presonus.com/">http://exchange.presonus.com</a> からダウンロード可能です。ドラムマップをドラムエディターにインポートするには、音楽エディターパネル最上部近くのレンチの形をしたボタンをクリックしてから、ドラムマップファイルを左列のピッチ名のリストにドラッグします。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">ノートチェイスとカット</h3>
+                                                <p data-mc-conditions="General.Online"><span class="Italic">［Studio One］&gt;［オプション］&gt;［詳細］&gt;［MIDI］</span>（Mac OS X：<span class="Italic">［環境設定］&gt;［詳細］&gt;［MIDI］</span>）メニューには、［長いノートをチェイス］と［長いノートをパートエンドでカット］の2つのオプションがあります。</p>
+                                                <p data-mc-conditions="General.Online">［長いノートをチェイス］は、長いノートのノートオン位置より後に再生が始まる場合でもStudio Oneにそのノートを再生させ、再生ポジションをノートオンとして扱いたい場合にオンにします。 これは、ノートオンが小節1にあり、それ以降ソング全体を通して鳴り続ける長いシンセドローンパートを扱う場合などに非常に便利です。</p>
+                                                <p data-mc-conditions="General.Online">［長いノートをパートエンドでカット］は、関連するインストゥルメントパートがノートのノートオフ位置より前で停止した場合、ノートの再生を停止させたいという場合にオンにします。</p>
+                                                <h3 data-mc-conditions="General.Online">ノートを選択</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SelectNotes_302x303.png" style="width: 302;height: 303;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">ご使用のポインティングデバイスによるノートの選択はインストゥルメントパートで変更を行う際に効果的ですが、わずかな自動化が役立つこともあります。ノート選択機能では、一定のパラメーター（「一番高いノートのみ」や「一定範囲のベロシティのノートのみ」など）に基づいてパート内の特定のノートを選択することができます。</p>
+                                                <p data-mc-conditions="General.Online">この機能を使用するには、音楽エディターの［アクション］ボタンをクリックして［ノートを選択］を選択します。表示されるウィンドウで、次のアクションから選択できます。</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="Emphasis">最高音を選択</span>：パート内の指定の時間に存在する最高音を選択します。</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="Emphasis">最低音を選択</span>：パート内の指定の時間に存在する最低音を選択します。</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="Emphasis">範囲を選択...</span>：<span class="Emphasis">ピッチ</span>、<span class="Emphasis">ベロシティ</span>、<span class="Emphasis">ノート長</span>の範囲内に含まれるノートを選択します。基準を選択してから、スライダーで選択肢の範囲を設定します。</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="Emphasis">音程で選択...</span>：拍グリッド上の位置またはノート間の数値関係に応じて音程に基づいてノートを選択します。<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">拍</span>：グリッドへの関係に基づいてノートを選択するにはこのモードを選択します。<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">拍グリッド</span>：ノート選択が計算されるリズム値を設定します。</li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">選択肢の音程</span>：ノート選択間の拍数（拍グリッドで設定される値）を設定します。</li><li value="3" data-mc-conditions="General.Online"><span class="Emphasis">スタートオフセット</span>：最初のノート選択を行う前にスキップする拍数を設定します。</li><li value="4" data-mc-conditions="General.Online"><span class="Emphasis">選択肢の許容範囲</span>：グリッドに厳密には従わないノートを選択できるよう、ノート選択の計算で認められる「スロープ」の量を設定します。</li></ul></li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">イベント数</span>：ノートの数値関係に基づいてノートを選択するにはこのモードを選択します。<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">X番目毎に選択</span>：ノート選択間の間隔を数値で設定します。たとえば、設定値に「2」を選択すると、ノートが1つおきに選択されます。グリッドに関連していなくてもかまいません。ノート内に空間がある場合、選択間のカウントは次のノートがスタートすると継続されます。</li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">X番目の位置で選択範囲をスタート</span>：最初のノート選択を行う前にスキップするノート数を設定します。</li><li value="3" data-mc-conditions="General.Online"><span class="Emphasis">選択肢の許容範囲</span>：グリッドに厳密には従わないノートを選択できるよう、ノート選択の計算で認められる「スロープ」の量を設定します。</li></ul></li><li value="3"><span class="Emphasis">合致するノートを選択</span>：選択されているパラメーター範囲に含まれるノートを選択するにはこのモードを選択します。</li><li value="4"><span class="Emphasis">合致するノートの選択を解除</span>：選択されているパラメーター範囲に含まれるノートの選択を解除するにはこのモードを選択します。ノートがひとつも選択されていない場合、このモードを使用すると選択されているパラメーター範囲外にある任意のノートが選択されます。</li></ul></li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">&#160;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster">Studio Oneバージョン4.5</p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © 2019&#160;PreSonus Audio Electronics, Inc</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="印刷" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="閉じた" data-mc-alt2="開く" />お問い合わせ</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Studio_One_Help_New" data-mc-search-type="Stem" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Recording">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>&#160;Cue Mixes and Low-Latency Monitoring </title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="kanchor179"></a>Cue Mixes and Low-Latency Monitoring </h2>
+                                                <p data-mc-conditions="General.Online"><span class="GeneralProductName">Studio One</span> features a powerful <a href="../Setup_Topics/Set_Up_Your_Audio_Device.htm#Audio">Native Low-Latency Monitoring</a> system that provides low-latency monitoring for audio recording and virtual instruments, without compromises in system performance. Hardware Low-Latency Monitoring is also available when using a compatible DSP-enabled audio interface. In this section, we will discuss how to take advantage of these features to create  low-latency cue mixes for monitoring while recording or composing. </p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Creating a Cue Mix Output </h3>
+                                                <p data-mc-conditions="General.Online">In <span class="GeneralProductName">Studio One</span>, it is possible to quickly and easily create multiple cue mixes. A cue mix is separate from the main mix and is usually provided to musicians for monitoring purposes during recording. </p>
+                                                <p data-mc-conditions="General.Online">For instance, when recording vocals, the engineer and vocalist  often need to hear different mixes. Many vocalists want to hear  their vocal boosted in the mix, possibly with some reverb to make it sound natural, while the engineer might want to focus on how the performance balances with the rest of the mix. The cue mix functionality in <span class="GeneralProductName">Studio One</span> makes this task easy.</p>
+                                                <p data-mc-conditions="General.Online">The first step in building a cue mix is to create an additional Output Channel. To do this, open the <span class="Italic">Song/Song Setup/Audio I/O Setup</span> window in a Song, switch to the Outputs tab, and add a new Stereo Output Channel. Next, specify that this output is a Cue Mix output by clicking on the Channel’s Cue Mix checkbox. You can create as many cue mixes as your audio interface has available stereo outputs. </p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Song Setup - IO Setup_588x370.png" style="width: 588;height: 370;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Now that you have created a Cue Mix output, you can see special Send objects (called Cue Mix objects)&#160;in the Channels of the Console. In the Small Console view, Cue Mix objects appear in the right column when a Channel is expanded. In the Large Console view, Cue Mix objects appear below the Send Device Rack on each applicable Channel. </p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/ConsoleCueMix_604x494.png" style="width: 604;height: 494;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Each Cue Mix object features an Activate button, horizontal level and pan faders, and a Lock to Channel button. </p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Mixing the Cue Mix </h3>
+                                                <p data-mc-conditions="General.Online">Cue mixes are built using Cue Mix objects. By default, the level and pan values are locked to the channel level and pan faders. This means that each Cue Mix is identical to the main mix in the Console. Changing the level or pan in the Cue Mix object  unlocks both settings, allowing independent control of level and pan for each Channel in each Cue Mix. Thus, the level and pan for Channels in a Cue Mix can be completely different from the related level and pan in the main mix. </p>
+                                                <p data-mc-conditions="General.Online">At any time, you can lock the cue-mix level and pan back to the channel settings by clicking on the Lock to Channel button. To completely remove any Channel from a cue mix, simply deactivate the Cue Mix object for that Channel. </p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Monitoring Live Input in a Cue Mix </h3>
+                                                <p data-mc-conditions="General.Online">Cue mixes are normally used in a recording situation in which one or more live inputs need to be monitored. This is where the Cue Mix feature in <span class="GeneralProductName">Studio One</span> is very useful. Monitoring with very low latency can be achieved using the <a href="../Setup_Topics/Set_Up_Your_Audio_Device.htm#Audio">Native Low-Latency Monitoring</a> system in <span class="GeneralProductName">Studio One</span>. </p>
+                                                <p data-mc-conditions="General.Online">You can also achieve low-latency cue mixes by using <a href="../Setup_Topics/Set_Up_Your_Audio_Device.htm#Audio">Hardware Low-Latency Monitoring</a> with a compatible audio interface that provides that feature, such as a <span class="GeneralCompanyNameShort">PreSonus</span> Studio 192, Studio 1810, or Studio 1824 interface.  These interfaces feature internal hardware mixers that provide low-latency monitoring. While these mixers are easy to use, <span class="GeneralProductName">Studio One</span> makes it even easier by allowing you to control the mixers from within the software. </p>
+                                                <p data-mc-conditions="General.Online">Let’s return to our example of recording live vocals. For a vocalist to be comfortable and perform well, it is important that the performance sound as natural and as polished as possible. Vocalists need to hear themselves well, with no audible delay of their voices in the mix. Adding some reverb provides a little ambiance so the voice is not dry and lifeless. </p>
+                                                <p data-mc-conditions="General.Online">Here’s how this scenario would look in <span class="GeneralProductName">Studio One</span>: </p>
+                                                <ol data-mc-conditions="General.Online">
+                                                    <li value="1">Set up a Cue Mix output for the vocalist. </li>
+                                                    <li value="2">Record-enable and monitor-enable the vocal Track. </li>
+                                                    <li value="3">Engage the Enable Low-Latency Monitoring (or "Z") button below the level fader on the Cue Mix output being used by the vocal channel. This enables  Native or Hardware Low-Latency Monitoring for that Cue Mix output (depending on what is in use).<ul data-mc-conditions="General.Online"><li value="1"><span class="SetOffFirstLevel">Note:</span>&#160;Channels that are able to be monitored using Native or Hardware Low-Latency Monitoring display a "Z" mark at the bottom of their channel strip.</li></ul></li>
+                                                    <li value="4">Create a Send on the vocal channel to an FX Channel with your favorite reverb effect. </li>
+                                                    <li value="5">The vocalist hears the live low-latency input, as well as the rest of the cue mix, including the output of the reverb. Adjust the level of the vocal and other Channels in the Cue Mix to the vocalist’s liking, and you’re ready to record. </li>
+                                                </ol>
+                                                <p data-mc-conditions="General.Online">In a few seconds, you can ensure that vocalists hear their voices with low latency, in a custom mix that includes effects. Simultaneously, you can listen to a completely independent main mix, allowing you to focus on engineering while the artist focuses on the performance. </p>
+                                                <p data-mc-conditions="General.Online">Note that when monitoring with Hardware Low-Latency Monitoring engaged, you do not hear Insert FX on that channel, as you are monitoring the signal before it is processed in software. If you need to hear Insert FX, use Native Low-Latency Monitoring instead. To do this, navigate to <span class="Italic"><span class="GeneralProductName">Studio One</span>/Options/Audio Setup/Processing</span> (Mac OS X: <span class="Italic">Preferences/Audio Setup/Processing</span>) and enable the "Use native low latency monitoring instead of hardware monitoring" option.</p>
+                                                <h3 data-mc-conditions="General.Online">Low-Latency Monitoring on the Main Output</h3>
+                                                <p data-mc-conditions="General.Online">The Main output always acts as a Cue Mix, and any Audio or Instrument Channels routed to it can be monitored using Native or Hardware Low-Latency Monitoring (if enabled). To engage Native or Hardware Low-Latency Monitoring for the Main output, enable the "Enable Low-Latency Monitoring" (or "Z")&#160;button, found below its volume fader. When enabled, the "Z" button is green (when using Native Low-Latency Monitoring)&#160;or blue (when using Hardware Low-Latency Monitoring).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster"><span class="GeneralProductName">Studio One</span> Version <span class="GeneralVersionNumber">4.5</span></p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © <span class="GeneralYear">2019</span>&#160;<span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="Closed" data-mc-alt2="Open" />CONTACT US</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

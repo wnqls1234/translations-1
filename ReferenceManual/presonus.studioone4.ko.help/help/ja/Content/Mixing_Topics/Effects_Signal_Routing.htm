@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="ja" lang="ja" class="_Skins_Studio_One_Help_New" data-mc-search-type="NGram" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ミキシング">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>エフェクト信号のルーティング</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="戻る" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="ロゴ"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="検索" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" title="すべてのファイル" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">すべてのファイル</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="検索" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <main id="main" class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">現在の位置： </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="_Toc303512136"></a>エフェクト信号のルーティング</h2>
+                                                <p data-mc-conditions="General.Online">エフェクト処理は、ミキシングに不可欠です。エフェクトはインサートまたはセンドを通じてオーディオに適用されます。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="kanchor151"></a>インサート </h3>
+                                                <p data-mc-conditions="General.Online">インサートは1つのチャンネルまたはバスに直接エフェクトを適用する場合に使用されます。インサートエフェクトは、チャンネルまたはバス内のオーディオの信号経路に挿入します。</p>
+                                                <h4 data-mc-conditions="General.Online">インサートを追加する</h4>
+                                                <p data-mc-conditions="General.Online">インサートデバイスラックにはチャンネルのすべてのインサートエフェクトが含まれています。また、インサートデバイスラックはコンソールに表示させることができます。チャンネルにインサートエフェクトを追加するには、ブラウザーからコンソールのチャンネルのインサートデバイスラックにエフェクトをドラッグ&amp;ドロップするか、アレンジビューのトラックまたはトラックレーンに直接エフェクトをクリック&amp;ドラッグします。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/ChannelWithEffects_128x391.png" style="width: 128;height: 391;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">ブラウザーに表示されている一部のオーディオエフェクトには、横にナビゲーション矢印が付いています。この矢印をクリックすると、エフェクトのプリセットが表示されます。チャンネルのインサートデバイスラックにプリセットをクリック&amp;ドラッグすると、ロードされているプリセットとともにエフェクトが追加されます。</p>
+                                                <p data-mc-conditions="General.Online">または、インサートデバイスラックの一番上にある［インサートを追加］ボタンをクリックし、ポップアップメニューからチャンネルにインサートエフェクトを追加することもできます。プラグインメニューは<a href="../The_Browser_Topics/Chapter-The_Browser.htm" class="MCXref xref">ブラウザー</a>の小型版のように機能し、並べ替えオプションや<a href="../The_Browser_Topics/Instruments_and_Effects_Tabs.htm#Favorite" class="MCXref xref">お気に入りと最近使ったプラグイン</a>リストへのアクセスを提供します。リスト内はキーボードの矢印キーを使って移動できます。検索バー内をクリックして検索したいプラグイン名を入力します。</p>
+                                                <p>また、ベーシックメニューからプラグインのブラウズを選択することもできます。プラグインメニューのスタイルを変更するには、<a href="../Setup_Topics/Advanced_Options.htm#Console" class="MCXref xref">コンソール</a>［詳細］オプションを開き、ポップアップメニューから［プラグインメニュー］スタイルを選択します。</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Editing_Inserts"></a>インサートを編集する</h4>
+                                                <p data-mc-conditions="General.Online">インサートを編集するには、インサートデバイスラック内のインサートをダブルクリックするか、メニュー矢印をクリック（またはインサート上の任意の位置を右クリック/Ctrl-クリック）してからポップアップメニューで［編集］を選択します。インサートエフェクトのユーザーインターフェースが開き、エフェクトパラメーターを編集できます。</p>
+                                                <p data-mc-conditions="General.Online">オーディオエフェクトが同一のチャンネルにインサートされている場合、それらのプラグインすべてがプラグインのGUIのヘッダー部分の一番上にあるタブに表示されます。これにより、同一のインサートデバイスラックと信号経路内のエフェクト間の切り替えがすばやく簡単になります。</p>
+                                                <p data-mc-conditions="General.Online">サードパーティー製エフェクトのユーザーインターフェースは製品によって大きく異なります。詳しくは、各エフェクトの取扱説明書をご参照ください。Studio Oneの内蔵エフェクトについては、「<a href="../Built-In_Effects_Topics/Chapter-Built_In_Effects.htm">内蔵エフェクト</a>」章で詳しく説明しています。</p>
+                                                <h4 data-mc-conditions="General.Online">インサートを並べ替える</h4>
+                                                <p data-mc-conditions="General.Online">インサートは、挿入された順番に応じてオーディオの信号経路に影響を及ぼします。インサートをクリック&amp;ドラッグして他のインサートの上下や間に移動すると、挿入順序の並べ替えができます。最良のサウンドや特殊なエフェクトを見つけ出すには、さまざまな信号経路を試してみることも有効です。</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Navigating_Inserts"></a>インサートを切り替える</h4>
+                                                <p data-mc-conditions="General.Online">デフォルトでは、開いているインサートエフェクトのユーザーインターフェースは1つのウィンドウにのみ表示されます。これにより、画面が見やすく保たれ、ウィンドウの切り替えが最小限で済みます。同一チャンネル内の複数のインサートエフェクトをすばやく切り替えるには、プラグインヘッダーGUIの一番上でエフェクトタブを選択します。</p>
+                                                <p data-mc-conditions="General.Online">または、キーボードのF11キーを押して選択中のオーディオトラックのエフェクトエディターを開き、Ctrl/Cmdキーを押しながらPage UpまたはPage Downキーを押すと、チャンネルのデバイスラック上でエフェクトが切り替わります。</p>
+                                                <p data-mc-conditions="General.Online">インサートは、プラグインGUIの一番上のインサートリスト内のある位置から別の位置へとドラッグして並べ替えることもできます。</p>
+                                                <p data-mc-conditions="General.Online">インサートエフェクトウィンドウの右上にある［ピン］ボタンをクリックすると、閉じるよう操作するまで、別のウィンドウにインサートのインターフェースを開いておくことができます。あるインサートエフェクトを固定表示しておくと、他のインサートエフェクトは新しいインサートエフェクトウィンドウに表示されます。任意の数のインサートエフェクトウィンドウを固定表示して同時に開いておくことができます。</p>
+                                                <h4 data-mc-conditions="General.Online">別のチャンネルにインサートをコピーする</h4>
+                                                <p data-mc-conditions="General.Online">別のチャンネルにインサートエフェクトを設定ごとコピーすると便利な場合がよくあります。これを行うには、インサートデバイスラック内で目的のインサートエフェクトをクリックしてから、別のチャンネルまたは別のチャンネルのインサートデバイスラックに直接ドラッグします。コンソールの表示領域の左右の端までインサートエフェクトをドラッグすると、コンソールが左右にスクロールし、表示領域の外側にあったチャンネルが表示されます。</p>
+                                                <p data-mc-conditions="General.Online">プラグインGUIのヘッダー部分にあるコピーボタンをクリックしてから、同一プラグインの別のインスタンスに切り替え、［ペースト］をクリックして1つのインスタンスからもう1つのインスタンスへ設定をコピーすることもできます。</p>
+                                                <p data-mc-conditions="General.Online">インサートエフェクトをセンドデバイスラックにドラッグして、エフェクト（とその設定もそのまま）がインサートされた新規FXチャンネルを作成し、そのセンドを新規のFXチャンネルにルーティングできます。</p>
+                                                <h5 data-mc-conditions="General.Online">別のチャンネルにインサートを移動する</h5>
+                                                <p data-mc-conditions="General.Online">インサートを別のチャンネルにコピーするのではなく移動させたい場合、Altを押したままインサートをあるチャンネルから別のチャンネルにドラッグします。</p>
+                                                <h4 data-mc-conditions="General.Online">比較</h4>
+                                                <p data-mc-conditions="General.Online">プラグインGUIのヘッダー部分の［比較］ボタンでは、プラグインの現在の設定と、ソングまたはプロジェクトを前回保存した際に保存された設定とを比較できます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/PlugInNativeUI.png" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">これにより、プラグインに変更を加えて既存の設定と比較し、既存の設定へすばやく戻すことができます。</p>
+                                                <h4 data-mc-conditions="General.Online">インサートをバイパス、使用停止、無効化する</h4>
+                                                <p data-mc-conditions="General.Online">インサートデバイスをバイパスしたり、使用停止にしたり、無効化したりすることができます。インサートをバイパスした場合は、オーディオ信号はそのインサートを迂回し、インサートが使用しているCPUやRAMは使用中のままになります。インサートエフェクトを使用停止にすると、そのインサートは完全にオフになり、CPUリソースが解放されますが、プロセス自体はRAMに残り、プラグインのオンとオフを即時に切り替えて比較することができます。インサートが無効の場合、CPUとRAMの両方の負荷が解放されますが、このプロセスがインサートのバイパスや無効化ほど即時的ではなくなります。インサートのバイパスは自動化が可能ですが、使用停止や無効化はそうではありません。</p>
+                                                <p data-mc-conditions="General.Online">インサートエフェクトをバイパスするには、エフェクトのGUIのヘッダー部分またはエフェクトのGUI内部の左上にある［バイパス］ボタンをクリックします。このボタンの位置はエフェクトによって異なります。</p>
+                                                <p data-mc-conditions="General.Online">インサートエフェクトを使用停止にするには、インサートデバイスラック内のインサートエフェクトの［アクティベート］ボタンをクリックします。［アクティベート］ボタンは、各インサートエフェクトウィンドウの左上にもあります。インサートエフェクトを使用停止にすると、関連するすべての処理が停止します。これにより、そのインサートエフェクトのために使われていたコンピューターのプロセッシングリソースが解放されます。</p>
+                                                <p data-mc-conditions="General.Online">インサートデバイスラック内のすべてのインサートエフェクトをオンまたはオフにするには、インサートデバイスラックの一番上にある［すべてをアクティベート］ボタンをクリックします。</p>
+                                                <p data-mc-conditions="General.Online">インサートエフェクトを無効化するには、インサートリスト内を右クリック/Ctrl-クリックしてコンテキストメニューで［無効化］を選択します。インサートを無効化してしまうと、再び有効化するまでアクティベートすることはできません。これを行うには、インサートを右クリック/Ctrl-クリックしてコンテキストメニューで［有効化］を選択します。</p>
+                                                <h5 data-mc-conditions="General.Online">複数のチャンネルにわたってインサートをアクティベートする</h5>
+                                                <p data-mc-conditions="General.Online">2つ以上のチャンネルが選択されている場合、選択されているチャンネル上のインサートに対する［アクティベート］ボタンを押しても、その他の選択されているチャンネル上の同じスロットにあるインサートのアクティブ状態を切り替えることができます。選択されているチャンネルに対するインサートリスト最上部の［すべてをアクティベート］ボタンを押すと、選択されているその他すべてのチャンネルのインサートが必要に応じて有効になったり無効になったりします。</p>
+                                                <h4 data-mc-conditions="General.Online">すべての有効なインサートのオンとオフを切り替える</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/ActivateAllInserts.png" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">ソング内の全チャンネルにわたってすべてのインサートを一時的に無効にしたい場合、アレンジビュー左下の［すべてのインサートを有効化］ボタンを押します。このボタンをもう一度押すと、すべてのインサートが直前のアクティベーション状態に戻ります。こうして、ソングのサウンドをインサートエフェクトありなしで即座に比較できます。さらに、拡大したパフォーマンスモニターウィンドウのプラグイン名横のチェックボックスを使用してインサートエフェクトやインストゥルメントを無効にすることができます。</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Removing"></a>インサートを削除する</h4>
+                                                <p data-mc-conditions="General.Online">インサートデバイスラックからインサートエフェクトを1つ削除するには、次のいずれかを行います。</p>
+                                                <ul class="ul_1" data-mc-conditions="General.Online">
+                                                    <li class="ListParagraph_1" value="1">インサートデバイスラック内のインサートエフェクトのメニュー矢印をクリック（またはデバイス上の任意の位置を右クリック/Ctrl-クリック）して、ポップアップメニューから［削除］を選択します。</li>
+                                                    <li class="ListParagraph_1" value="2">インサートデバイスラック内のインサートエフェクトをクリックしてから、コンソールのゴミ箱パネルにドラッグします。</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">インサートデバイスラックの一番上にあるメニュー矢印をクリックし、［すべてを削除］を選択すると、一度にすべてのインサートをインサートデバイスラックから削除できます。削除したインサートエフェクトはゴミ箱に移動されるので、いつでも元の状態と位置に復元できます。</p>
+                                                <h3 data-mc-conditions="General.Online">Mix Engine FX（Studio One Professionalのみ）</h3>
+                                                <p data-mc-conditions="General.Online">Mix Engine FXはStudio Oneのプラグイン形式で、曲の複数のチャンネルに影響するタスク（コンソールエミュレーションなど）に特化しています。 コンソールエミュレーションの場合、ほとんどのシステムでは、特殊な「チャンネル」プラグインをソング内の各チャンネルに、「バス」プラグインを任意のバスにそれぞれインサートする必要があります。これにより、新しいソングを設定する時間が増え、ミックス全体に必要な変更は複数のチャンネルとバスプラグインにわたって実行する必要があるため、プロセスの管理が複雑になります。</p>
+                                                <p data-mc-conditions="General.Online">Mix Engine FXはこれらおよびその他の同様のプロセスをまとめます。マスターバス上のMix Engine FXスロットまたはその他のバスに互換プラグインをドロップするだけです。そのバスに供給するすべてのチャンネルはソースでMix Engine FXプラグインの影響を受け（「チャンネル」プラグインに代わる）、すべてのパラメーターは中央のプラグインインターフェースからコントロールされます（「バス」プラグインに代わる）。</p>
+                                                <p data-mc-conditions="General.Online">連動する複数のプラグインに頼るほとんどのソリューションとは異なり、Mix Engine FXはくりっくひとつでバイパスでき、ミックス全体をとおしてドライとウェットの信号間のA/B比較が可能です。この手法のもうひとつの利点は、チャンネル間の処理です。Mix Engine FXはそこに流入するすべてのチャンネルを「認識」しているため、チャンネル間コンソールスタイルのクロストークのようなエフェクトが可能になります。</p>
+                                                <p data-mc-conditions="General.Online">各バスには一度にひとつのMix Engine FXプラグインをインサートできます。</p>
+                                                <p data-mc-conditions="General.Online">Mix Engine FXについてさらに詳しくは、「<a href="../Built-In_Effects_Topics/Mix_Engine_FX.htm">Mix Engine FX</a>」をご参照ください。</p>
+                                                <h4 data-mc-conditions="General.S1ProfessionalOnly"><a name="Hardware_Inserts"></a>ハードウェアインサート</h4>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">Pipeline XTプラグインを使用すれば、外部ハードウェアプロセッサーをコンソールのオーディオチャンネルにインサートすることができます（Studio One Professionalのみ）。Pipeline XTプラグインは、エフェクトブラウザーの［PreSonus］フォルダーにあります（［フォルダー］、［ベンダー］、［カテゴリー］のいずれかのタブ）。</p>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">Pipeline XTプラグインはハードウェアプロセッサーにオーディオを送った後、オーディオインターフェースの指定のインプットとアウトプットを通じてハードウェアプロセッサーからオーディオを送り返します。処理に伴う往復遅延は自動的に補正されます。どのインサートデバイスラックにもPipeline XTインスタンスを1つインサートできます。</p>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">Pipelineについて詳しくは、このマニュアルの「<a href="../Built-In_Effects_Topics/Pipeline_XT_(Studio_One_Professional).htm">Pipeline</a>」セクションをご参照ください。</p>
+                                                <h4 data-mc-conditions="General.S1ProfessionalOnly"><a name="Channel"></a>チャンネルエディターとマクロコントロール</h4>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">コンソール内の各チャンネルには、「チャンネルエディター」と呼ばれるエフェクトに関連するオプションとコントロールのセットがあります。これで、操作が簡単なマクロコントロールを使用して制御できる複雑なインサートエフェクトの組み合わせを作成できます。詳しくは「<a href="Channel_Editor.htm">チャンネルエディター</a>」セクションをご参照ください。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">センドを設定する</h3>
+                                                <p data-mc-conditions="General.Online">センドは、あるチャンネルからFXチャンネルなどの別のソースにプリフェーダーまたはポストフェーダーでオーディオ出力を送るために使用します。</p>
+                                                <h4 data-mc-conditions="General.Online">FXチャンネルへのセンドを作成する</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/ChannelSends_102x281.png" style="width: 102;height: 281;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">新しいFXチャンネルと、既存のチャンネルからこのFXチャンネルへのセンドを一度に作成するには、ブラウザーからチャンネルのセンドデバイスラックにエフェクトをクリック&amp;ドラッグします。これにより、チャンネルに新しいFXチャンネルへのセンドが作成され、選択したエフェクトがインサートデバイスラックにロードされます。これはFXチェーンでも機能します。</p>
+                                                <p data-mc-conditions="General.Online">F11を押すと現在選択されているチャンネルのFXビューが開き、Shift+F11を押すと選択されているインストゥルメントトラックのインストゥルメントウィンドウが開きます。</p>
+                                                <p data-mc-conditions="General.Online">または、コンソールの空白部分にオーディオエフェクトをドラッグしてもFXチャンネルが作成され、インサートデバイスラックにエフェクトがロードされます。あるチャンネルから既存のFXチャンネルにオーディオを送るには、センドデバイスラックの［センドを追加］ボタンをクリックし、リストからFXチャンネルを選択します。</p>
+                                                <p data-mc-conditions="General.Online">オーディオエフェクトまたはFXチェーンをトラックのセンドスロットにドラッグすると、そのプラグインまたはFXチェーンと同じ名前の新規FXチャンネルが作成されます。</p>
+                                                <p data-mc-conditions="General.Online">または、コンソールの空のスペースかチャンネルを右クリック/Ctrl-クリックしてFXチャンネルを作成し、［FXチャンネルを追加］を選択します。こうすると、コンソールにインサートなしのFXチャンネルが追加され、センドからこのFXチャンネルにオーディオを送ることができます。</p>
+                                                <p data-mc-conditions="General.Online">FXチャンネルはデフォルトではコンソールのメインアウトチャンネルにルーティングされますが、必要に応じて設定済みの他の任意のハードウェア出力やバスチャンネルにルーティングすることもできます。</p>
+                                                <p data-mc-conditions="General.Online">センドの送り先となっているチャンネルのインサートデバイスラックにあるエフェクトをすばやく表示するには、センドをダブルクリックします。後は通常の場合と同様に、<a href="#Navigating_Inserts">インサートエフェクトメニュー内を移動</a>できます。</p>
+                                                <h4 data-mc-conditions="General.Online">センドレベルとプリ/ポストフェーダー</h4>
+                                                <p data-mc-conditions="General.Online">チャンネルにセンドを追加すると、チャンネルのセンドデバイスラックにセンドが表示されます。センドには、［アクティベート］ボタン、横向きのレベルフェーダーとパンフェーダー、［プリフェーダーオン/オフ］ボタンがあります。［アクティベート］ボタンをクリックするとセンドのオンとオフを切り替えることができます。この操作がセンドの送り先チャンネルに影響を及ぼすことはありません。</p>
+                                                <p data-mc-conditions="General.Online">レベルフェーダーをクリックして横方向にドラッグすると、-∞から+10 dBの範囲でセンドのレベルを調整できます。パンフェーダーをクリック&amp;ドラッグすると、センドの送り先に向かうソース素材のバランスを調整できます。［プリフェーダーオン/オフ］ボタンをクリックすると、センドソースをプリフェーダーとポストフェーダーで切り替えられます。プリフェーダーにすると、センドレベルはチャンネルのフェーダーと無関係になり、フェーダーの位置の影響を受けません。</p>
+                                                <p data-mc-conditions="General.Online">センドソースの信号は常にポストインサートです。</p>
+                                                <h4 data-mc-conditions="General.Online"><a name="Sidechai"></a><a name="kanchor152"></a>サイドチェーン</h4>
+                                                <p data-mc-conditions="General.Online">一部のエフェクトは、オーディオソースからの入力信号を受信して、自身の動作を直接変化させることができます。これは「サイドチェーン」と呼ばれ、キーイング、ダッキング、ディエッシングなどの処理に役立ちます。サイドチェーンを行うには、センドを使ってオーディオをインサートエフェクトの特別なサイドチェーンインプットに送ります。</p>
+                                                <p>任意のインサートエフェクトのサイドチェーンインプットにオーディオを送ることができます。そのエフェクトでサイドチェーンがオンになっているかどうかは関係ありません。または、サイドチェーン接続をターゲットのインサートエフェクト内にアサインすることができます。サイドチェーン有効化ボタンの横の矢印ボタンをクリックしてから、ポップアップメニューで1つまたは複数のチャンネルを選択します。エフェクトでサイドチェーン機能を使うには、サイドチェーンをオンにする必要があります。</p>
+                                                <p data-mc-conditions="General.Online">サイドチェーンの例として、特定のオーディオ信号によってゲートがトリガーされる場合を考えてみましょう。この場合、ゲートはサイドチェーンからのオーディオ信号に直接反応して開閉します。ゲートのインサート先チャンネルのプログラム信号に反応するのではありません。CompressorやGateなど、Studio Oneの一部の内蔵エフェクトはサイドチェーンに対応しています。詳しくは、「<a href="../Built-In_Effects_Topics/Chapter-Built_In_Effects.htm">内蔵エフェクト</a>」章をご参照ください。</p>
+                                                <h4 data-mc-conditions="General.Online">信号をバスに送る</h4>
+                                                <p data-mc-conditions="General.Online">センドを使ってバスチャンネルにオーディオを送ることができます。方法は、センドを使ってFXチャンネルにオーディオを送る場合と同じです。FXチャンネルの代わりにバスチャンネルを選択する点だけ異なります。これは、特に1つのチャンネルを複数の場所にルーティングするのに使用できます。サウンドのレイヤーを作成するのに便利です。</p>
+                                                <h4 data-mc-conditions="General.Online">別のチャンネルにセンドをコピーする</h4>
+                                                <p data-mc-conditions="General.Online">チャンネル間でセンドをコピーすることができます。方法はインサートの場合と同じです。これを行うには、センドデバイスラックから別のセンドデバイスラックにセンドをクリック&amp;ドラッグします。これにより、元のトラックにアサインされている同一のFXチャンネルへのセンドが作成されます。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Navigate"></a>エフェクトプリセットを操作する</h3>
+                                                <p data-mc-conditions="General.Online">エフェクトのプリセットを表示するには、プラグイン編集ウィンドウのプラグインセレクターをクリックして、ポップアップリストをブラウズします。プリセットを選択するには、リスト内のプリセットを1回クリックします。プリセットリストは開いたままになり、試聴中にプリセットを簡単に切り替えることができます。リストを閉じるには、プリセットリスト以外の場所をクリックします。1操作でプリセットを選択してリストを閉じるには、選択するプリセットをダブルクリックします。</p>
+                                                <p data-mc-conditions="General.Online">プリセットリストが開くと、矢印キーでプリセットを順に選択できます。プリセットを有効にしてリストを開いたままにするには、Spaceキーを押します。プリセットを有効にしてリストを閉じるには、Returnキーを押します。</p>
+                                                <h4 data-mc-conditions="General.Online">エフェクトプリセットを作成、管理する</h4>
+                                                <p data-mc-conditions="General.Online">各プラグイン編集ウィンドウの左上のエリアにはプリセットメニューボタンがあり、プリセットを作成、ロード、インポート、エクスポートできます。プリセットメニューボタンをクリックして、以下のプリセット管理機能から選択します。</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">プリセットを保存...</span>：現在のエフェクト設定をプリセットとしてブラウザー内のライブラリに保存します。プリセットに対するタイトルと説明を入力したり、プリセットリスト内にプリセット保存用のサブフォルダーを指定したりできます。</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">プリセットを置換</span>：現在ロードされているプリセットが、前回のロード以降に行った新しい設定で更新されます。</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">デフォルトプリセットとして保存...</span>：現在のプラグインの新規インスタンスをソングに追加すると、現在のプリセットがデフォルトでロードされます。</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">プリセットファイルをロード...</span> エクスポートされたプリセットファイルがファイルシステムから現在のソングにロードされます。</li>
+                                                    <li value="5" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">プリセットをインポート...</span> エクスポートされたプリセットファイルがファイルシステムから現在のソングにロードされ、のちの使用に備えてプリセットをStudio Oneライブラリにインポートされます。</li>
+                                                    <li value="6" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">プリセットをエクスポート...</span> 提供用または保存用に現在の設定をプリセットファイルとしてエクスポートします。</li>
+                                                    <li value="7" data-mc-conditions="General.Online"><span class="SetOffFirstLevel">ブラウザーに表示</span>：現在ロードされているプリセットをブラウザーに開きます。</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">他の方法として、コンソールからブラウザーにインサートエフェクトやインストゥルメントをドラッグ&amp;ドロップしても、エフェクトまたはインストゥルメントのプリセットを保存できます。ファイルブラウザーにドラッグすると、そのフォルダ階層にプリセットが保存されます。エフェクトブラウザーまたはインストゥルメントブラウザーにドラッグすると、ユーザーデータの保存場所（<span class="Italic">［Studio One］&gt;［オプション］&gt;［ロケーション］</span>メニュー（Mac OS X：<span class="Italic">［環境設定］&gt;［ロケーション］</span>）で指定されている場所）にプリセットが保存され、ブラウザーとエフェクトやインストゥルメントのプリセットドロップダウンリストに表示されるようになります。</p>
+                                                <h3 data-mc-conditions="General.Online"><a name="FX_Chain"></a><a name="kanchor153"></a>FXチェーン</h3>
+                                                <p data-mc-conditions="General.Online">お気に入りのエフェクトを組み合わせて使用することがワークフローに不可欠となる場合があります。たとえば、通常、ボーカルトラックにはコンプレッサーとEQ、コーラスを適用します。FXチェーンを使用すれば、チャンネルでインサートのセットアップをそのまま保存できるので、エフェクトチェーン全体またはすべての設定を即座に呼び出すことができます。</p>
+                                                <p data-mc-conditions="General.Online">FXチェーンを作成するには：</p>
+                                                <ol class="ul_1" data-mc-conditions="General.Online">
+                                                    <li class="ListParagraph_1" value="1">チャンネルのインサートエフェクトを設定します。</li>
+                                                    <li class="ListParagraph_1" value="2">インサートデバイスラック上部にあるインサートラベルの横のメニュー矢印をクリックし、ポップアップメニューから［FXチェーンを保存］を選択します。</li>
+                                                    <li class="ListParagraph_1" value="3">FXチェーンに一意の名前を付け、［OK］をクリックするかコンピューターキーボードのEnterキーを押します。</li>
+                                                </ol>
+                                                <p data-mc-conditions="General.Online">または、エフェクトブラウザーにインサートデバイスラックのヘッダーをドラッグ&amp;ドロップすると、チャンネル名の付いたFXチェーンが即座に作成されます。または、ファイルブラウザーにインサートデバイスラックのヘッダーをドラッグ&amp;ドロップすると、チャンネル名の付いたFXチェーンがエクスポートされます。トラックに現在アサインされているすべてのデバイスを別のトラックに複製するには、インサートデバイスラックのヘッダーをソーストラックから選択したトラックへとドラッグ&amp;ドロップします。</p>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">FXチェーンは、<a href="Channel_Editor.htm#Routing">チャンネルエディター</a>ウィンドウのルーティングビューで設定した並列処理を取り込みます。カスタムの<a href="Channel_Editor.htm#Macro&#160;Co">マクロコントロール</a>を含む複雑なマルチエフェクト設定を保存して簡単に呼び出すことができます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/BrowserFXChains_311x356.png" style="width: 311;height: 356;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">FXチェーンは<a href="../The_Browser_Topics/Instruments_and_Effects_Tabs.htm#Browsing_for_Audio_Effects">オーディオエフェクトブラウザー</a>の［FXチェーン］フォルダーにあります。チャンネルのインサートデバイスラックにFXチェーンをインサートするには、ブラウザーからチャンネルにFXチェーンをドラッグします。デバイスラック内のエフェクトを置き換えるには、置き換えるデバイスの上にFXチェーンをドラッグします。FXチェーンをプラグインの間またはデバイスラックの空きスペースにドラッグすると、既存のデバイスアサインに影響することなくFXチェーンをインサートできます。</p>
+                                                <p data-mc-conditions="General.Online">オーディオエフェクトブラウザーでFXチェーン名の横のメニュー矢印をクリックすると、個々のエフェクトの表示と選択ができます。個々のエフェクトも各プリセットも、チャンネルのインサートデバイスラックにドラッグできます。</p>
+                                                <p data-mc-conditions="General.Online">また、インサートデバイスラックからFXチェーンにアクセスすることもできます。これを行うには、ラック上部のメニュー矢印をクリックし、リストからFXチェーンを選択します。これにより、選択したFXチェーンがインサートデバイスラックにロードされます。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Busing"></a>バス送り </h3>
+                                                <p data-mc-conditions="General.Online">ミキシングではバスが非常に役立ちます。ドラムバスにすべてのドラムトラックを直接送るなど、複数のチャンネルをバスに直接送ることで、共通要素ごとにミックスを整理できます。センドは、複数のバスに1つのチャンネルを送り、1つの信号をミックスのさまざまな要素に重ねる場合によく使用されます。</p>
+                                                <p data-mc-conditions="General.Online">新しいバスを作成するには、コンソールの空白部分かチャンネル上で右クリック/Ctrl-クリックして［バスチャンネルを追加］を選択します。任意の数のチャンネルを選択してから選択されているチャンネルのいずれかを右クリック/Ctrl-クリックして［選択されているトラックのバスを追加］を選択して新規バスを作成し、選択されているチャンネルをこの新規バスにルーティングします。</p>
+                                                <p data-mc-conditions="General.Online">バスがアサインできたら、そのバスを右クリック/Ctrl-クリックして［ソースを隠す］を選択してそのバスにアサインされているコンソール内のトラックすべてを隠します。バスをもう一度右クリック/Ctrl-クリックして［ソースを表示］を選択すると、ソーストラックが再び表示されます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/BusChannels_316x287.png" style="width: 316;height: 287;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">これにより、コンソールのオーディオまたはインストゥルメントチャンネルのアウトプットまたはセンドの送り先にこのバスを選択できるようになります。デフォルトではバスは合算した信号をメインアウトに送りますが、サブアウトチャンネルに送ることもできます。バスにはセンドがあります。バスのセンドもStudio Oneの他のセンドと同じ方法で使うことができます。</p>
+                                                <p data-mc-conditions="General.Online">バスは無限にネストする（入れ子にする）ことができます（AをBに、BをCに、CをDに…）。フィードバック防止がなされており、フィードバックループを生じるバスルーティングが作成できないようになっています（AからB、BからC、CからAなど）。</p>
+                                                <p data-mc-conditions="General.Online">バスを削除してすべてのソーストラックをメインアウトに再びルーティングするには、バスを右クリック/Ctrl-クリックして［削除］を選択します。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">ソロ保存モード</h3>
+                                                <p data-mc-conditions="General.Online">コンソールのチャンネルをソロ保存モードにすることができます。コンソールのいずれかのチャンネルをソロにすると、ソロ保存モードになっているすべてのチャンネルがソロになり、その他のチャンネルはミュートされます。チャンネルをソロ保存モードにするには、コンソールでチャンネルのソロボタンをShift+クリックします。ソロボタンはソロ保存がオンの場合緑になります。</p>
+                                                <p data-mc-conditions="General.Online">FXチャンネルはデフォルトでソロ保存モードになっています。これは、ソロにしたチャンネルのミックス内での聴こえ方にはエフェクトが大きく影響するためです。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster">Studio Oneバージョン4.5</p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © 2019&#160;PreSonus Audio Electronics, Inc</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="印刷" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="閉じた" data-mc-alt2="開く" />お問い合わせ</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Studio_One_Help_New" data-mc-search-type="Stem" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Editing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Edit View Event Editing</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="_Toc303512109"></a>Edit View Event Editing</h2>
+                                                <p data-mc-conditions="General.Online">In many cases, editing actions  require a close look at the Events being edited. To perform these edits in the Arrange view would require zooming in to a level that would make it difficult to retain your sense of the overall Song structure, then zooming back out after the edits are performed. Edit views allow you to avoid this inefficiency. To open the Edit view for the selected Event, click on the [Edit] button, press [F2] on the keyboard, or double-click on any Event. You can also open the Editor by selecting Editor from the View menu. While there is a common Edit view, Audio Events open in the Audio Editor, and Instrument Parts open in the Music Editor. </p>
+                                                <p data-mc-conditions="General.Online">The Edit view  displays the currently selected Event on a timeline that is independent of the Arrange view timeline. By default, the Edit view timeline is zoomed in further than the default Arrange view timeline. While the Edit view is open, double-clicking an Event in Arrange view  zooms the Edit view to contain the full Event.</p>
+                                                <p data-mc-conditions="General.Online">The Editor can be detached to its own sizable window by clicking on the Detach button at the upper right of the Editor. Any Track can be selected from the Track drop-down selector to the upper left of the Editor, under the toolbar.</p>
+                                                <p data-mc-conditions="General.Online">The [Action] button (available in both the Audio and Music Editors) gives you quick access to functions you might normally access by [Right]/[Ctrl]-clicking on an Event and exploring the Audio or Musical Functions sub-menus.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="kanchor167"></a>Audio Editor </h3>
+                                                <p data-mc-conditions="General.Online">The Audio Editor display operates independently of the Arrange view and has an independent Timebase setting. Most options that appear in the Editor are the same as in the <a href="Arrange_View_Mouse_Tools.htm">Arrange</a> view and  affect tools and Events in the same way. Note that the Snap and Timebase settings are not shared between the Arrange view and Editor; they remain independent. A Snap to Event Hotspots option is found in the Editor Snap dropdown menu; it allows tool and Event snapping to hotspots such as Bend Markers. The dropdown menu also includes a Snap to Zero Crossings option, which will help avoid an unnatural click at the beginning of the audio data when the Event is moved or split..</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/EditViewWaveform_603x179.png" style="width: 603;height: 179;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The displayed level scale to the left of the waveform lane in the Audio Editor can be adjusted by clicking on it and dragging left or right. This effectively zooms the waveform amplitude, which may be useful when editing audio with relatively low levels. [Right]/[Ctrl]-clicking in this area allows the selection of a percentage- or dB-based scale. You can also adjust this zoom level by manipulating the Data Zoom parameter, found to the right of the Time Zoom slider control.</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Tools </h4>
+                                                <p data-mc-conditions="General.Online">Most of the tools in the <a href="Arrange_View_Mouse_Tools.htm">Arrange</a> view are available in the Audio Editor and function there exactly as they do in the Arrange view. (Only the Paint tool is not available in the Audio Editor.)</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="kanchor168"></a>Music Editor </h3>
+                                                <p data-mc-conditions="General.Online">Instrument Parts contain notes, which represent musical performance data and are a type of Event. Notes can be moved, cut, copied, pasted, duplicated, and drawn using mouse tools, key commands, and certain Event menu commands. Multiple notes can be selected and edited together, as with other Events. </p>
+                                                <p data-mc-conditions="General.Online">For quick editing of all notes in a Part or on the Track, use [Ctrl]/[Cmd]+[A] to select all of the notes in the focused Part in the Music Editor, or [Ctrl]/[Cmd]+[Shift]+[A] to select all notes in all Parts on the Track. You can also access the full set of selection actions by navigating to the Select section of the Edit menu.</p>
+                                                <p data-mc-conditions="General.Online">You can zoom in or out horizontally in the Music Editor by moving the Time Zoom control, and zoom vertically with the Data Zoom control.</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Timebase, Quantize, and Scale </h4>
+                                                <p data-mc-conditions="General.Online">The Music Editor has independent settings similar to those in the Audio Editor. While Quantize affects the horizontal time-value snapping, the Music Editor also features Scale (vertical note-value) snapping. The Scale settings allow snapping to specific note values within different musical scales. Enable the Scale function by clicking its toggle switch, then select a scale by choosing the starting note and the musical scale in the respective selectors. The notes contained in the selected scale are marked on the Music Editor's keyboard display, as well as in the single-octave keyboard display above the Scale selector. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Arrow Tool </h4>
+                                                <p data-mc-conditions="General.Online">The Arrow tool in the Music Editor is used with notes in essentially the same way as the Arrow tool in the Arrange view is used with Events. Multiple notes can be selected and edited together in the same way as <a href="Events.htm">Events</a>.</p>
+                                                <h5 data-mc-conditions="General.Online">Moving Notes</h5>
+                                                <p data-mc-conditions="General.Online">To move a note using the Arrow tool, click anywhere on the note and drag left, right, up, or down. Dragging the note left or right  moves it backward and forward in time, relative to the current Edit view timebase and timeline zoom. Dragging the note up or down  transposes (change the pitch of) the note. The transposition interval can be determined by using the vertical keyboard display to the left of the Music Editor. </p>
+                                                <h5 data-mc-conditions="General.Online">Creating Notes</h5>
+                                                <p data-mc-conditions="General.Online">To create a note using the Arrow tool, double-click in any empty space in the Edit view. A note is created at the location you've specified, its length determined by the currently selected Quantize value. Double-click a note with the Arrow tool to delete it.</p>
+                                                <h5 data-mc-conditions="General.Online">Resizing Notes</h5>
+                                                <p data-mc-conditions="General.Online">To size any note using the Arrow tool, float the mouse to the left or right edge of the note to reveal the Sizing tool. When this tool appears, click-and-drag left or right to size the note. As with Events, notes can be sized and resized any number of times. A Part can also be sized in this way, by floating the cursor near the top of the Part's beginning or end, revealing the Sizing tool.</p>
+                                                <p data-mc-conditions="General.Online">To change the length of a note while simultaneously resizing the previous or following note to match, hover your cursor near the beginning or end of a note, press and hold [Alt]/[Option] to enable Resize Adjacent Notes mode, and click and drag the note to resize.</p>
+                                                <p data-mc-conditions="General.Online">When sizing multiple selected notes in the Music Editor with the Arrow tool, three additional behaviors are possible using modifier keys. Select multiple notes, then click on the end of one note and drag it to the right just a small amount. While still dragging that note, if you press certain keys on your computer keyboard the following will happen:</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">[Ctrl]/[Cmd] + drag will snap the length of all notes to match the length of the clicked note. </li>
+                                                    <li value="2">[Alt] + drag will stretch the notes across the time grid. If the outer edge of either of the outermost notes is dragged, the stretching can go on indefinitely. If an inner edge of any note is dragged, the middle notes will eventually end up on top of the outermost notes.</li>
+                                                    <li value="3">[Alt] + [Ctrl]/[Cmd] + drag will make all of the notes end at the same time. </li>
+                                                </ul>
+                                                <h5 data-mc-conditions="General.Online">Duplicating Notes</h5>
+                                                <p data-mc-conditions="General.Online">To duplicate selected notes using the Arrow tool, hold [Alt]/[Option] on the keyboard, click on the selection, and drag left or right. Release the mouse button when the desired position is reached, and the selection is duplicated to this position. </p>
+                                                <h5 data-mc-conditions="General.Online">More Arrow Tool Tips</h5>
+                                                <p data-mc-conditions="General.Online">To temporarily switch to the Paint tool while the Arrow tool is selected, press and hold [Ctrl]/[Cmd]. </p>
+                                                <p data-mc-conditions="General.Online">When multiple Parts are visible in the Editor, only one is actively available for editing at a time. For example, when doing a Select All operation, only notes in the currently active Part are selected. To activate a Part, click on any note or empty space within it.</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Split Tool</h4>
+                                                <p data-mc-conditions="General.Online">The Split tool in the Music Editor allows you to split notes so that they become two separate notes. Clicking on any note directly  splits the note at that position, while selecting multiple notes and then splitting,  splits all selected notes. Holding [Alt] when clicking with this tool  performs a split of any selected notes, as well as a split of the part itself, so that one part becomes two. </p>
+                                                <p data-mc-conditions="General.Online">To temporarily switch to the Arrow tool while the Split tool is selected, hold [Ctrl]/[Cmd].</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Paint Tool </h4>
+                                                <p data-mc-conditions="General.Online">The Paint tool in the Music Editor is used to draw notes in an Instrument Part. The Paint tool  snaps when drawing to certain vertical and horizontal positions based on the <a href="#_6.12.2.1_Timebase,_Quantize,">Quantize and Scale</a> settings. When the mouse cursor is floated over the Music Editor with the Paint tool selected, the note value for the current cursor position is highlighted on the keyboard display. </p>
+                                                <p data-mc-conditions="General.Online">Note that the Keyboard display can be switched to a Drum Map display by clicking on the Drum Map button above the Keyboard display. The Drum Map display essentially removes the virtual keyboard and allows more room to display sample names horizontally for each vertical note position. </p>
+                                                <p data-mc-conditions="General.Online">The pitch names in the Drum Map can be edited by clicking on the Edit Pitch Names button and then typing names for each pitch in the pop-up menu. You can then save the Map to recall at a later time by clicking on the Store Preset button. Select any Map from the list to load it. (A General MIDI Drum Map is provided.) </p>
+                                                <p data-mc-conditions="General.Online">To draw a note with the Paint tool, click at the desired position. If you click once, the new note  has a length equal to the time value of the current Quantize setting. If you click-and-drag to the right, you can make the note any length you desire. With the Paint tool selected, float the mouse cursor to the edge of any existing note to size the note, as with the <span class="span_6">Arrow tool</span>. To delete a note, click on it using the Paint tool. </p>
+                                                <p data-mc-conditions="General.Online">To edit the velocity of a note while drawing the note with the Paint tool, drag up and down after you click to draw the note. To edit the velocity of a single note, using the Paint tool, hold [Alt]/[Option] on the keyboard and click-and-drag up or down on the desired note. </p>
+                                                <p data-mc-conditions="General.Online">You can also edit the velocities of notes in the Part Automation lane of the Music Editor, which is discussed in the <a href="../Automation_Topics/Instrument_Part_Automation.htm">Instrument Part Automation</a> section of the <a href="../Automation_Topics/Chapter-Automation.htm">Automation</a> chapter. </p>
+                                                <p data-mc-conditions="General.Online">Press and hold [Alt] on the keyboard with the Paint tool selected to enter Line Drawing mode. In this mode, you can draw a line of note Events in the Music Editor, and you can draw lines in automation envelopes, as discussed later in this manual. This function also works when the Paint tool has been temporarily invoked by pressing [Ctrl]/Cmd].</p>
+                                                <p data-mc-conditions="General.Online">To create a new Part in the Edit view with the Paint tool, click and drag in any open area in the Editor timeline. You can resize Parts while the Paint tool is selected, by floating the cursor near the top of the start or end of the Part, which reveals the Sizing tool.</p>
+                                                <p data-mc-conditions="General.Online">To momentarily select the Arrow tool while using the Paint tool, hold [Ctrl]/[Cmd] on the keyboard. </p>
+                                                <h5 data-mc-conditions="General.Online">Transform Tool for Note Velocity</h5>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/TransformVelocity_269x289.png" style="width: 269;height: 289;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">If you want to edit velocity for many notes at once, you'll find the Transform Tool very useful. Similar to the way the <a href="../Automation_Topics/Editing_Automation_Envelopes.htm#Transfor">Transform Tool in Arrange view</a> is used for scaling and shaping automation curves, the Transform tool in the Music Editor lets you scale and shape note velocity data.</p>
+                                                <p data-mc-conditions="General.Online">To use the Transform Tool, click the triangle at the edge of the Paint tool in the Music Editor, and choose "Transform Tool"&#160;from the pop-up list. With this tool, select a range of velocity values in the Velocity display below your chosen notes. The selected values can then be scaled smoothly up or down by dragging the handles at the top or bottom of the selection.</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SlantedVelocityChange_324x90.png" style="width: 324;height: 90;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">You can also drag the handles at the corners of the Transform selection, to scale the selected velocities with a sloping action, as shown above. This makes it easy to create smooth changes in velocity across a range of notes.</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Eraser Tool </h4>
+                                                <p data-mc-conditions="General.Online">The Eraser tool in the Music Editor is used to delete notes. With the Eraser tool selected, click directly on any note to delete it. When multiple notes are selected, clicking any one of them with the Eraser tool deletes all selected notes. Click and drag with the Eraser tool (starting in empty space) to delete all notes you touch. </p>
+                                                <p data-mc-conditions="General.Online">You can temporarily switch to the Arrow tool while the Eraser tool is selected by holding [Ctrl]/[Cmd].</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Mute Tool </h4>
+                                                <p data-mc-conditions="General.Online">The Mute tool is used in the Music Editor much as it is used in the Arrange view. With the Mute tool selected, click on any note to mute it, and click on any muted note to unmute it. Click and drag with the Mute tool to mute all notes that fall within your selection. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Cut, Copy, Paste, and Duplicate Notes </h4>
+                                                <p data-mc-conditions="General.Online">You can cut, copy, paste, and duplicate notes exactly as you can with Events in the Arrange view, as describe in the <a href="Common_Editing_Actions.htm">Common Editing Actions</a> section of this chapter. It is also possible to cut or copy notes and then paste them (or simply drag-and-drop them) directly into the Arrangement onto a selected Instrument Track. Doing this creates a new Instrument Part containing the selected notes.</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Transposing Notes, Instrument Parts, and Tracks </h4>
+                                                <p data-mc-conditions="General.Online">Transposing notes, or changing a group of notes by a given interval, is a common action that takes advantage of the flexibility of musical data. It is possible at any time to transpose notes, a whole Instrument Part, or all of the contents of an Instrument Track. </p>
+                                                <p data-mc-conditions="General.Online">To transpose a note or group of notes within an Instrument Part, open the Music Editor by double-clicking on the desired Part, and do the following: </p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">Select all of the notes you wish to transpose. </li>
+                                                    <li value="2">Select Transpose from the Musical Functions sub-menu, which can be accessed from the Event menu, the [Action] button, or by [Right]/[Ctrl]-clicking within the Edit view.</li>
+                                                    <li value="3">Choose from one of the preset transpositions or use the horizontal fader to set the number of semitones by which the selected notes are transposed (or simply enter a semitone value into the text field). A positive number results in the notes being transposed up, and a negative number results in the notes being transposed down. </li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">To transpose an entire Instrument Part: </p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">Select the Part you wish to Transpose in the Arrange view. </li>
+                                                    <li value="2">
+                                                        <p>Select Transpose from the Musical Functions sub-menu, which can be accessed from the Event menu, the [Action] button, or by [Right]/[Ctrl]-clicking within the Edit view.</p>
+                                                    </li>
+                                                    <li value="3">Choose from one of the preset transpositions, or use the horizontal fader to set the number of semitones by which the selected Part is transposed (or simply enter a semitone value into the text field). A positive number results in the Part being transposed up, and a negative number results in the Part being transposed down. </li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">When transposing notes or Parts, the musical notes are moved graphically to represent the change. In this case, the notes displayed are the notes you hear. </p>
+                                                <p data-mc-conditions="General.Online">To transpose all of the contents of an Instrument Track: </p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1">Select the Instrument Track you wish to transpose. </li>
+                                                    <li value="2">Open the Inspector by pressing [F4] on the keyboard. </li>
+                                                    <li value="3">Enter a value in the Transpose field for the number of semitones by which the Track is transposed. </li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">When transposing a Track via the Inspector, the transposition is not reflected graphically. The positions of the notes in all Parts on the Track remain unaffected. In this case, the notes displayed may not be the notes you hear. This parameter also affects the notes you hear when you play your Keyboard. </p>
+                                                <p data-mc-conditions="General.Online">You can also use the Transpose function to set all selected notes (or all notes in a selected Part) to the same note value by enabling Set All To, then selecting your note value of choice, and pressing [OK].</p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Quantizing Instrument Parts </h4>
+                                                <p data-mc-conditions="General.Online">Quantizing Instrument Parts allows you to realign notes in time to match a given musical time subdivision or other grid more closely. In practice, quantizing is generally used to clean up musical timing to more closely match the intended timing, although it can also be used creatively. </p>
+                                                <p data-mc-conditions="General.Online">The results of quantizing are determined with the Quantize settings as found in the Quantize panel. The Quantize panel allows very precise over all quantize settings. Refer to the <a href="The_Grid.htm#_6.3.1_Quantize_Panel">Quantize Panel</a> section for more information.</p>
+                                                <p data-mc-conditions="General.Online">It is possible to extract a groove from an instrument part by dragging-and-dropping it into the Groove section of the Quantize panel, just as with an Audio Event. Any Instrument Part or Audio Event can then be quantized to that extracted groove. </p>
+                                                <p data-mc-conditions="General.Online">To enable quantizing notes while recording, open the Record Panel by selecting Record Panel in the View menu (or pressing [Alt]/[Option] + [Shift] +&#160;[R]), then Click on the Input Quantize button. Input quantization can be undone if you want to use the performance as it was played. </p>
+                                                <p data-mc-conditions="General.Online">It is possible to split a single note into multiple notes based on the current Quantize setting. Select any number of notes and choose Split Events from the Musical Functions menu. Notes are split based on their position relative to the bar line, with splitting occurring only up to the next bar line after the note start time. It is also possible to apply Split Events to whole Instrument Parts and Audio Events. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Quantize and Restore Timing </h4>
+                                                <p data-mc-conditions="General.Online">To quantize an entire Instrument Part, select the Part in the Arrange view and press [Q] on the keyboard or choose Quantize from the Musical Functions menu. To quantize an individual note or notes, select the notes in the Music Editor and then apply quantization, as before. </p>
+                                                <p data-mc-conditions="General.Online">Alternatively, if notes are selected in the Music Editor, and then the Quantize value is changed with Auto engaged (toggled with the small [IQ]&#160;button, next to the Quantize value in the Editor toolbar), the selected notes are automatically quantized using the newly selected Quantize value. </p>
+                                                <p data-mc-conditions="General.Online">Furthermore, you can quantize note ends, which  adjusts the Note Off time for any selected notes, by selecting Quantize End from the Musical Functions menu. </p>
+                                                <p data-mc-conditions="General.Online">To restore the original timing to quantized Instrument Parts or notes, select the Part or notes and press [Shift]+[Q] on the keyboard, or select Restore Timing in the Musical Functions menu. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Freeze Quantize </h4>
+                                                <p data-mc-conditions="General.Online">It is sometimes very helpful to make note quantization permanent so you can quantize again based on the current quantized positions, rather than the original note positions. To do this, select the notes and select Freeze Quantize from the Musical Functions menu. You cannot Restore Timing for these notes, as the newly quantized positions effectively become the original positions. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Humanize </h4>
+                                                <p data-mc-conditions="General.Online">Strictly quantizing every note so that rhythms are perfectly precise can cause music to sound lifeless and mechanical. The Humanize function alters note start and end times and velocity within a very small threshold, based on rules modeled on common human performance patterns. This provides just enough variation to make a performance sound more like a human played the parts. </p>
+                                                <p data-mc-conditions="General.Online">To use this function, select any notes and then choose Humanize from the <span class="Italic">Event/Musical Functions</span> menu. Note that the exact results cannot be directly controlled. You can also choose to Humanize Less, which alters the notes in a similar fashion as Humanize but based on rules designed to result in less-humanized performance patterns. </p>
+                                                <h4 class="Heading4" data-mc-conditions="General.Online">Music Editor Inspector</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/MusicEditorInspector_157x313.png" style="width: 157;height: 313;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">When a note is selected, its start and end positions are displayed in the Music Editor Inspector, as are its pitch, velocity, and mute status. Each of these parameters can be edited directly in the Inspector. When editing notes using the Inspector, all selected notes are affected, their values changing relative to the initial setting of each note. The one exception is that when Velocity is specified for multiple notes using the Inspector, all notes snap to the new value, regardless of their previous Velocity value.</p>
+                                                <p data-mc-conditions="General.Online">The simplest way to edit start and end positions, pitch, and velocity is to place the mouse cursor over the parameter and scroll the mouse wheel up or down. Another way to edit a selected note’s velocity is to click-and-drag the Velocity value in the Music Editor's Inspector pane. When you release the mouse button, the Velocity value is applied to all selected notes. The value currently set by the Velocity parameter is applied by default to any new notes created with the Paint Tool.</p>
+                                                <p data-mc-conditions="General.Online">Enable the Audition Notes option to hear the pitch of each note that is selected, created, or moved, played through the current instrument.</p>
+                                                <p data-mc-conditions="General.Online">You can also Mute, Solo, or open the Device Editor for the current Track from within the Music Editor Inspector, using buttons that look much like their counterparts in the Arrange view.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Multitrack Music Editing</h3>
+                                                <p data-mc-conditions="General.Online">It is possible to view and edit more than one Instrument Track at a time in the Music Editor. To quickly view more than one Track in the Music Editor, hold Shift and select Instrument Parts on different Tracks in the Arrangement. More Parts can be added at any time by holding Shift and selecting them in the Arrangement. </p>
+                                                <p data-mc-conditions="General.Online">Double-click on any Part in the Arrangement to quickly make its Track the only viewed Track in the Music Editor. [Alt] + double-click automatically zooms the Music Editor horizontally and vertically to show all the notes the Part contains, at the highest zoom level.</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/InstrumentDataEditView_606x162.png" style="width: 606;height: 162;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Music Editor also has its own Track List, opened via the Track List icon at the far left of the Music Editor Toolbar. In this Track List, you can show or hide Tracks via the Show/Hide button to the left of the Track name and can independently set each Track to Edit Active via the pencil-shaped Edit button to the far right of the Track name. If a Track is shown, and Edit Active is not engaged, the Track’s notes are not selectable, allowing it to be easily viewed as a reference without concern about altering it accidentally. </p>
+                                                <p data-mc-conditions="General.Online">When multiple Parts are displayed, the notes for each Part are colored with their Track colors and audition normally through their Tracks. Selected notes are displayed in red. Also, when multiple parts are displayed it is possible to transfer notes from one part to another using the [Right]/[Ctrl]-click contextual menu item Transfer Notes. This  removes the selected notes from the original Part, indicated with a checkmark in the Transfer Notes list, to the selected Part. </p>
+                                                <h4 data-mc-conditions="General.Online">Drum Editor</h4>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SO4 - Drum Editor (Vel Color) - EN_606x218.png" style="width: 606;height: 218;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Standard piano-roll-style note editing is ideal for melodic and harmonic content, in which notes tend to have differing lengths. Drum programming and editing present a different challenge. Percussive sounds often contain their own amplitude envelope that ends at a pre-determined time,  which makes the start of each note the most important part. For added clarity when working on this sort of content, <span class="GeneralProductName">Studio One</span> features a dedicated Drum Editor view that shows your drum notes as "triggers," marking the start of each note.</p>
+                                                <p data-mc-conditions="General.Online">To view the Drum Editor, click the drum-shaped button at the top of the Music Editor pane. You can return to the standard view at any time by clicking the keyboard-shaped button. While in the Drum Editor view, you can add, remove, and manipulate notes just as you normally can, with some useful differences.</p>
+                                                <h5 data-mc-conditions="General.Online">Tight Integration with Impact XT </h5>
+                                                <p data-mc-conditions="General.Online">While you can use the Drum Editor on any Instrument Part, it shares a special connection with Impact XT. When you view an Impact XT part in the Drum Editor, instead of seeing the full range of notes, you see each currently loaded sound as a row in the grid. with its name and color code visible, for easy programming and editing. Any unused notes are hidden.</p>
+                                                <h5 data-mc-conditions="General.Online">Enter Strings of Notes with the Pencil Tool </h5>
+                                                <p data-mc-conditions="General.Online">When you enter notes with the Pencil Tool in the standard view, you click to begin the note, then drag to set its length. In the Drum Editor, since note length is not shown, you can click and drag across the grid, entering multiple new notes at divisions set by the current Quantize value. This makes creating drum patterns, fills, and rolls a more fluid process.</p>
+                                                <h5 data-mc-conditions="General.Online">Edit Instrument List </h5>
+                                                <p data-mc-conditions="General.Online">When using the Drum Editor with an instrument other than Impact XT, you see the full range of musical note names, each with its own row in the editing grid. If you'd like to exclude certain notes that you don't plan to use, or change note names to match the corresponding sounds, click the wrench-shaped button near the top of the Music Editor pane to enable editing the Instrument List.</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SO4 - Drum Editor Instrument List_171x259.png" style="width: 171;height: 259;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">To edit the order of notes, click and drag the double line to the left of each note row. To hide a note, click the circular button in the row, turning it dark grey. To rename a note, click inside its name display, then enter your new name. When you're finished editing the Instrument List, click the wrench-shaped button again to lock in your changes.</p>
+                                                <h5 data-mc-conditions="General.Online">Import Drum Maps </h5>
+                                                <p data-mc-conditions="General.Online">When working with a drum instrument (or drum sample library) other than Impact XT, you can import a list of pitch names into the Drum Editor, known as a "Drum Map."&#160;This lets you auto-assign names to each available note that the instrument or library preset can respond to, for similar ease of programming as when working with Impact XT.</p>
+                                                <p data-mc-conditions="General.Online"> Drum maps can be downloaded for many commercially available instruments and libraries from <a href="http://exchange.presonus.com/">http://exchange.presonus.com</a>. To import a drum map in the Drum Editor, click the wrench-shaped button near the top of the Music Editor pane, then simply drag the drum map file onto the list of pitch names in the left column.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">Note Chase and Cut </h3>
+                                                <p data-mc-conditions="General.Online">In the<span class="Italic"> <span class="GeneralProductName">Studio One</span>/Options/Advanced/MIDI</span> (Mac OS&#160;X: <span class="Italic">Preferences/Advanced/MIDI</span>) menu, you can find two options: Chase Long Notes and Cut Long Notes at Part End. </p>
+                                                <p data-mc-conditions="General.Online">Chase Long Notes should be engaged if you would like <span class="GeneralProductName">Studio One</span> to play back a long note even if playback begins after that note's Note On position, effectively treating the playback position as the Note On. This is very useful when working with long, synthetic drone parts, for instance, which may have a Note On at bar 1 and then continue throughout the rest of the Song.</p>
+                                                <p data-mc-conditions="General.Online">Cut Long Notes at Part End should be engaged if you would like a note to stop playback if the related Instrument Part ends before that note's Note Off position.</p>
+                                                <h3 data-mc-conditions="General.Online">Select Notes</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SelectNotes_302x303.png" style="width: 302;height: 303;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Selecting notes with your pointing device is often an efficient way to make musical changes in Instrument Parts, but sometimes, a bit of automation may come in handy. The Select Notes function lets you select certain notes within a part based on a range of parameters, such as "just the highest notes," or "just notes within a certain range of velocity."</p>
+                                                <p data-mc-conditions="General.Online">To use this function, click the [Action] button in the music editor, and select Select Notes. In the window that appears, you can choose from the following actions:</p>
+                                                <ul>
+                                                    <li value="1" data-mc-conditions="General.Online"><span class="Emphasis">Select highest notes</span> Select the highest notes that exist at any given time in the Part.</li>
+                                                    <li value="2" data-mc-conditions="General.Online"><span class="Emphasis">Select lowest notes</span> Select the lowest notes that exist at any given time in the Part.</li>
+                                                    <li value="3" data-mc-conditions="General.Online"><span class="Emphasis">Select range... </span>Select the notes that fall within a range of <span class="Emphasis">Pitch</span>, <span class="Emphasis">Velocity</span>, or <span class="Emphasis">Note Length</span>. Select the criteria you want to focus on, then set the range of selection with the sliders.</li>
+                                                    <li value="4" data-mc-conditions="General.Online"><span class="Emphasis">Select at interval...</span> Select notes based on intervals according to position on the beat grid, or numeric relationships between notes:<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">Beat </span>Choose this mode to select notes according to their relationship to the grid:<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">Beat grid</span> Sets the rhythmic value at which note selection is calculated.</li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">Selection interval</span> Sets the number of beats (the value of which is set with Beat Grid)&#160;between note selections.</li><li value="3" data-mc-conditions="General.Online"><span class="Emphasis">Start offset</span> Sets the number of beats to skip before making the first set of note selections.</li><li value="4" data-mc-conditions="General.Online"><span class="Emphasis">Selection tolerance</span> sets the amount of "slope" allowed in calculating note selections, to allow for selecting notes that do not conform exactly to the grid.</li></ul></li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">Event count</span> Choose this mode to select notes based on their numerical relationships:<ul><li value="1" data-mc-conditions="General.Online"><span class="Emphasis">Select at every nth position</span> Sets the numeric spacing between note selections. For example, a setting of 2 selects notes at every second note. This does not necessarily relate to the grid. If there is a space in the notes, the count between selections continues when the next notes start. </li><li value="2" data-mc-conditions="General.Online"><span class="Emphasis">Start selection at nth position</span> Sets the number of note occurances to skip before making the first set of note selections.</li><li value="3" data-mc-conditions="General.Online"><span class="Emphasis">Selection tolerance </span>sets the amount of "slope" allowed in calculating note selections, to allow for selecting notes that do not conform exactly to the grid.</li></ul></li><li value="3"><span class="Emphasis">Select matching notes</span> Select this mode to select notes that fall within the chosen range of parameters.</li><li value="4"><span class="Emphasis">Deselect matching notes</span> Select this mode to deselect notes that fall within the chosen range of parameters, if those notes are currently selected. If no notes are selected, using mode selects any notes that fall outside the chosen range of parameters.</li></ul></li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">&#160;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster"><span class="GeneralProductName">Studio One</span> Version <span class="GeneralVersionNumber">4.5</span></p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © <span class="GeneralYear">2019</span>&#160;<span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="Closed" data-mc-alt2="Open" />CONTACT US</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

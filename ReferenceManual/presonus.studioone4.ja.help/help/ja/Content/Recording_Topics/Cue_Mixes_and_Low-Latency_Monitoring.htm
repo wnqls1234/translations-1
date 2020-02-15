@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="ja" lang="ja" class="_Skins_Studio_One_Help_New" data-mc-search-type="NGram" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="録音">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>&#160;キューミックスと低レーテンシーモニタリング</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="戻る" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="ロゴ"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="検索" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" title="すべてのファイル" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">すべてのファイル</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="検索" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <main id="main" class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">現在の位置： </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online"><a name="kanchor88"></a>キューミックスと低レーテンシーモニタリング</h2>
+                                                <p data-mc-conditions="General.Online">Studio Oneには、<a href="../Setup_Topics/Set_Up_Your_Audio_Device.htm#Audio">システムのパフォーマンスを犠牲にす</a>ることなくオーディオ録音とバーチャルインストゥルメントに低レーテンシーモニタリングを提供するパワフルなネイティブ低レーテンシーモニタリングシステムが搭載されています。 ハードウェア低レーテンシーモニタリングはまた、対応するDSP互換オーディオインターフェースを使用する際にも使用できます。このセクションでは、この機能を利用して、録音または作曲中のモニタリング用に低レーテンシーのキューミックスを作成する方法について説明します。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">キューミックス出力を作成する</h3>
+                                                <p data-mc-conditions="General.Online">Studio Oneでは、すばやく簡単に複数のキューミックスを作成できます。 キューミックスは、メインミックスから分離させ、通常、録音中のモニタリング用にミュージシャンに対して提供されます。</p>
+                                                <p data-mc-conditions="General.Online">たとえば、ボーカルを録音する際、エンジニアとボーカリストでは聴きたいミックスが異なります。ボーカリストは、自分の声がよりはっきり聞こえ、より自然な聞こえになるよう少しリバーブをかけたミックスを好みますが、エンジニアは、ミックス内でのバランスにより重点を置いたミックスを好みます。Studio Oneのキューミックス機能により、このタスクが簡単になります。</p>
+                                                <p data-mc-conditions="General.Online">キューミックスを構築するには、まず、追加の出力チャンネルを作成します。ソングから<span class="Italic">［ソング］&gt;［ソング設定］&gt;［オーディオI/O設定］</span>ウィンドウを開き、［出力］タブへと切り替え、新規ステレオ出力チャンネルを追加します。次に、この出力チャンネルのキューミックスチェックボックスをクリックし、キューミックス出力として指定します。オーディオインターフェースで使用できるステレオ出力の数だけ任意数のキューミックスを作成できます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Song Setup - IO Setup_588x370.png" style="width: 588;height: 370;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">キューミックス出力が作成されると、コンソールのチャンネル内に特殊なセンドオブジェクト（キューミックスオブジェクト）が表示されます。コンソールビューを小さく表示すると、キューミックスオブジェクトはチャンネル展開時に右列に表示されます。コンソールビューを大きく表示すると、キューミックスオブジェクトは各チャンネルの［センド］デバイスラック下に表示されます。</p>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/ConsoleCueMix_604x494.png" style="width: 604;height: 494;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">各キューミックスオブジェクトには、有効ボタン、レベルとパンのフェーダー、チャンネルにロックするボタンがあります。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">キューミックスをミックスする</h3>
+                                                <p data-mc-conditions="General.Online">キューミックスは、キューミックスオブジェクトを使用して作成されます。デフォルトでは、レベルとパンの値はチャンネルのレベルとパンのフェーダーに合わせてロックされています。つまり、各キューミックスは、コンソールのメインミックスと同じになります。キューミックスオブジェクトのレベルまたはパンを変更すると、両方の設定のロックが解除され、各チャンネルのレベルとパンを各キューミックスで独自にコントロールできるようになります。つまり、キューミックスのチャンネルのレベルとパンを、メインミックスのレベルとパンとまったく異なる値に設定することができます。</p>
+                                                <p data-mc-conditions="General.Online">チャンネルロックボタンをクリックすれば、いつでもキューミックスのレベルとパンをチャンネルの設定に戻すことができます。キューミックスからチャンネルを完全に削除するには、キューミックスオブジェクトをそのチャンネルに対して無効に切り替えます。</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online">ライブ入力をキューミックスでモニターする</h3>
+                                                <p data-mc-conditions="General.Online">キューミックスは、通常、1つまたは複数のライブ入力をモニターする必要のある録音シチュエーションで使用されます。Studio Oneのキューミックス機能が活躍するのはこのような場面です。超低レーテンシーでのモニタリングは、Studio Oneの<a href="../Setup_Topics/Set_Up_Your_Audio_Device.htm#Audio">ネイティブ低レーテンシーモニタリング</a>システムを使用して実現できます。</p>
+                                                <p data-mc-conditions="General.Online">また、ハードウェア低レーテンシーモニタリングをPreSonus Studio 192、Studio 1810、Studio 1824インターフェースなど、この機能を提供する互換オーディオインターフェースと使用することで、低レーテンシーキューミックスも実現できます。 これらのインターフェースには、低レーテンシーモニタリングを提供する内蔵ハードウェアミキサーが搭載されています。これらのミキサーの操作は簡単ですが、Studio Oneを使用すればミキサーをソフトウェアからコントロールできるようになり、操作がより簡単になります。</p>
+                                                <p data-mc-conditions="General.Online">ボーカル録音の例に戻りましょう。ボーカリストがよりよいパフォーマンスを発揮するには、パフォーマンスができるだけ自然かつ洗練されたサウンドであることが重要です。ボーカリスト自身が自分の歌声をはっきりと聞き取ることができ、ミックス内で歌声の遅れがないようにする必要があります。リバーブを加えることで雰囲気を加え、歌声が無味乾燥で精彩に欠けたものにならないようにします。</p>
+                                                <p data-mc-conditions="General.Online">Studio Oneでは次の手順で行います。</p>
+                                                <ol data-mc-conditions="General.Online">
+                                                    <li value="1">ボーカリストに対してキューミックス出力を設定します。</li>
+                                                    <li value="2">ボーカルトラックを録音可能およびモニター可能にします。</li>
+                                                    <li value="3">ボーカルチャンネルで使用されているキューミックス出力のレベルフェーダー下の［低レーテンシーモニタリングを有効］ボタン（または「Z」）を押します。これで、（何が使用されているかに応じて）そのキューミックス出力に対してネイティブまたはハードウェア低レーテンシーモニタリングが有効になります。<ul data-mc-conditions="General.Online"><li value="1"><span class="SetOffFirstLevel">注意：</span>ネイティブまたはハードウェア低レーテンシーモニタリングを使用してモニタリング可能なチャンネルには、チャンネルストリップの一番下に「Z」マークが表示されます。</li></ul></li>
+                                                    <li value="4">好みのリバーブエフェクトを使用したFXチャンネルへのセンドをボーカルチャンネルに作成します。</li>
+                                                    <li value="5">これで、低レーテンシーライブ入力と、リバーブの出力を含むキューミックスの残りの両方がボーカリストに聞こえるようになります。キューミックスのボーカルと他のチャンネルのレベルをボーカリストの好みに合わせて調整すれば、録音準備は完了です。</li>
+                                                </ol>
+                                                <p data-mc-conditions="General.Online">わずかな手間で、ボーカリストは自分の歌声をエフェクトを含むカスタムミックスで聞くことができます。同時に、エンジニアはまったく独自のメインミックスを聴くことができるため、エンジニアは作業に、アーティストは演奏に集中することができます。</p>
+                                                <p data-mc-conditions="General.Online">ハードウェア低レーテンシーモニタリングがオンの状態でモニターすると、ソフトウェアでの処理前の信号をモニターしている状態となるため、そのチャンネルのInsert FXは聞こえません。Insert FXを聴く必要がある場合、代わりにネイティブ低レーテンシーモニタリングを使用してください。これを行うには、<span class="Italic">［Studio One］&gt;［オプション］&gt;［オーディオ設定］&gt;［プロセッシング］</span>（Mac OS X：<span class="Italic">［環境設定］&gt;［オーディオ設定］&gt;［プロセッシング］</span>）を開き、［ハードウェアモニタリングの代わりにネイティブ低レーテンシーモニタリングを使用］オプションを有効にします。</p>
+                                                <h3 data-mc-conditions="General.Online">メイン出力での低レーテンシーモニタリング</h3>
+                                                <p data-mc-conditions="General.Online">メイン出力は常にキューミックスとして機能し、この出力にルーティングされているオーディオ/インストゥルメントチャンネルはすべてネイティブまたはハードウェア低レーテンシーモニタリングを使用してモニターできます。メイン出力に対してネイティブまたはハードウェア低レーテンシーモニタリングを有効にするには、ボリュームフェーダー下にある［低レーテンシーモニタリングを有効］ボタン（または「Z」）を押します。有効な場合、「Z」ボタンが緑（ネイティブ低レーテンシーモニタリング使用時）または青（ハードウェア低レーテンシーモニタリング使用時）になります。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster">Studio Oneバージョン4.5</p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © 2019&#160;PreSonus Audio Electronics, Inc</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="印刷" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="閉じた" data-mc-alt2="開く" />お問い合わせ</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Studio_One_Help_New" data-mc-search-type="Stem" data-mc-help-system-file-name="StudioOne4ReferenceManual.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Built-In Effects">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Metering, Analysis, and Signal Generation</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Simple.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Introduction.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="sideContent">
+                                                    <ul class="nocontent menu _Skins_ContextMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Studio_One_4_5_Reference_Manual.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                    </ul>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <h2 class="Heading2" data-mc-conditions="General.Online">Metering, Analysis, and Signal Generation</h2>
+                                                <p data-mc-conditions="General.Online">Some of the following metering and analysis plug-ins can switch between Peak/RMS and a range of K-System level metering modes. If available, you can [Right]/[Ctrl]-click a plug-in's Peak/RMS&#160;meter to open a list of alternate metering modes to choose from.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Phase"></a><a name="kanchor56"></a>Phase Meter</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/PhaseMeter.png" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Phase meter is helpful when checking stereo-playback issues and mono compatibility. There are two components to this meter: a large goniometer at the center of the plug-in window and a correlation meter at the very bottom.</p>
+                                                <p data-mc-conditions="General.Online">The goniometer displays left versus right channel amplitude on several axes. A line in the following directions of the Goniometer display would mean:</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">M-Axis</span> Mono signal</li>
+                                                    <li value="2"><span class="SetOffFirstLevel">+/-S Axis</span> Mono with one channel totally out-of-phase</li>
+                                                    <li value="3"><span class="SetOffFirstLevel">L/R Axes</span> Mono on one channel (left or right)</li>
+                                                    <li value="4"><span class="SetOffFirstLevel">M/S Axes</span> Channels in a Mid-Side (MS) encoded or recorded signal</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">The correlation meter shows the average amount of in-phase and out-of-phase audio signal. Correlation meter parameters are:</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">+1</span> Mono signal</li>
+                                                    <li value="2"><span class="SetOffFirstLevel">-1</span> Reversed-phase mono signal</li>
+                                                    <li value="3"><span class="SetOffFirstLevel">0</span> Independent signals (true stereo or dual mono)</li>
+                                                </ul>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Spectrum"></a><a name="kanchor57"></a>Spectrum Meter </h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/SpectrumMeter_602x270.png" style="width: 602;height: 270;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Spectrum Meter is helpful when determining the frequency content of an audio signal. For instance, you might know that a drum loop needs some EQ, but you might not be sure what frequencies to bring up or down. Or there might be an annoying ring in a guitar part that you want to get rid of but you do not know the frequency of the ring. Spectrum Meter can help diagnose these problems, and many others. </p>
+                                                <p data-mc-conditions="General.Online">Spectrum Meter is fully adjustable using the following parameters at the bottom of the plug-in window: </p>
+                                                <p class="Bold_Mini_Header" data-mc-conditions="General.Online">Channels </p>
+                                                <p data-mc-conditions="General.Online">When Spectrum Meter is inserted on a stereo Track, you can choose from the following channels to be analyzed in the meter: </p>
+                                                <ul class="ul_6" data-mc-conditions="General.Online">
+                                                    <li class="li_3" value="1"><span class="SetOffFirstLevel">L</span> Left channel only </li>
+                                                    <li class="li_3" value="2"><span class="SetOffFirstLevel">R</span> Right channel only </li>
+                                                    <li class="li_3" value="3"><span class="SetOffFirstLevel">L+R</span> Sum of left and right channels </li>
+                                                    <li class="li_3" value="4"><span class="SetOffFirstLevel">L-R</span> Difference between left and right channels </li>
+                                                </ul>
+                                                <p class="Bold_Mini_Header" data-mc-conditions="General.Online">Analysis</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">Oct-Band</span> Octave Band displays frequency content divided into octaves, useful for determining broad balance across the frequency spectrum. </li>
+                                                    <li value="2"><span class="SetOffFirstLevel">3rd-Oct-Band</span> Third-Octave Band displays frequency content divided into 1/3 of an octave, useful for determining balance with good precision across the frequency spectrum. </li>
+                                                    <li value="3"><span class="SetOffFirstLevel">12th-Oct-Band</span> The bands in the 12th-octave meter correspond to the 12 musical tones in an octave, each in its appropriate place on a piano-like keyboard. This allows for easy reading of the pitch or note value of a given signal.</li>
+                                                    <li value="4"><span class="SetOffFirstLevel">FFT</span> A Fast Fourier Transform, or FFT, displays frequency content divided into many bands. It’s useful for accurate metering of a specific range of the frequency spectrum. <ul><li class="li_3" value="1">When FFT is selected, you can select the FFT window size (FFT size = time vs. frequency resolution). You can choose from 16,384; 8,192; 4,096; and 2,048. The default setting is 16,384. </li><li class="li_3" value="2">As FFT measurements are divided into bands, exact frequencies across the entire spectrum are not measured.</li><li class="li_3" value="3">When using the FFT display, a -3 dB/octave line is displayed in addition to the frequency and level crosshair. This line represents compensation for the shrinking frequency-width of the FFT bands toward the higher end of the spectrum, which leads to a lower energy content. A well-balanced mix should somewhat approximate the slope of this line. </li></ul></li>
+                                                    <li value="5"><span class="SetOffFirstLevel">Waterfall &amp;&#160;Sonogram</span> Two modes that graph changes in frequency content and dynamics over time. </li>
+                                                    <li value="6"><span class="SetOffFirstLevel">Segments </span>Closely resembles the output of an FFT&#160;display. However, the X/Y&#160;grid is split up in uniform segments, rather than varying in resolution depending on frequency. Switchable amplitude segment sizes of 0.5, 1, and 2 dB.</li>
+                                                </ul>
+                                                <p class="Bold_Mini_Header" data-mc-conditions="General.Online">Level Range </p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">Min. Level</span> Minimum amplitude to be displayed for all frequencies. Variable from -144 dB to 6 dB less than the maximum level. </li>
+                                                    <li value="2"><span class="SetOffFirstLevel">Max. Level</span> Maximum amplitude to be displayed for all frequencies. Variable from 0 dB to 6 dB more than the minimum level. </li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online"><span class="SetOffFirstLevel">Note:</span>&#160;You can also quickly change the Level Range by clicking and dragging vertically within the meter.</p>
+                                                <p class="Bold_Mini_Header" data-mc-conditions="General.Online">Frequency Range </p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="span_5"><span class="SetOffFirstLevel">Min</span> Freq.</span> Minimum frequency to be displayed. Variable from 20 Hz to within 10 Hz of the maximum frequency. </li>
+                                                    <li value="2"><span class="span_5"><span class="SetOffFirstLevel">Max</span> Freq.</span> Maximum frequency to be displayed. Variable from 20 kHz to within 10 Hz of the minimum frequency. </li>
+                                                </ul>
+                                                <p class="p_8" data-mc-conditions="General.Online">The Min and Max Level/Freq values can be changed by typing in a new value, or by clicking-and-dragging up or down on the value. </p>
+                                                <p class="Bold_Mini_Header" data-mc-conditions="General.Online">Sidechain Input</p>
+                                                <p data-mc-conditions="General.Online">To enable the sidechain feature, click the Sidechain button. This brings up a second spectrum display below the main display, showing the frequency content of any signal you route to the Spectrum Analyzer's sidechain. This lets you compare the frequency response of two different signals simultaneously, such as a rough mix and a reference track. For more information on routing signals to effect sidechains, see <a href="../Mixing_Topics/Effects_Signal_Routing.htm#Sidechai">Sidechaining</a>, in the <a href="../Mixing_Topics/Effects_Signal_Routing.htm">Effects Signal Routing</a> section.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Tuner"></a><a name="kanchor58"></a>Tuner </h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Plug-ins/Tuner_586x109.png" style="width: 586;height: 109;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Tuner proves invaluable when inserted on guitar, bass, and other instruments that require frequent tuning. The Tuner features a switchable standard/strobe display, with exact Frequency and Difference readouts in the upper left and right-hand corners. A Calibration knob enables calibrating the Tuner to a center frequency from 415 Hz to 465 Hz. Click on the [Strobe Mode] button to enable the strobe display, in which the rotation speed is a measure of the amount you need to tune. </p>
+                                                <p data-mc-conditions="General.Online">There is a center-note indicator with an arrow to either side. When the left arrow is displayed, the signal is tuned below the closest note; when the right arrow is displayed, the signal is tuned above the closest note. When both arrows are displayed, the signal is perfectly tuned.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Level"></a><a name="kanchor59"></a>Level Meter</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Plug-ins/LevelMeter_470x151.png" style="width: 470;height: 151;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Level Meter plug-in is a level meter that can be sized as a horizontal or vertical display type. The following parameters are available in the Level Meter:</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">Conf</span> Choose from Peak/RMS, K-20, K-14, and K-12 modes, and set RMS and Hold Lengths</li>
+                                                    <li value="2"><span class="SetOffFirstLevel">Corr</span> Engage to display phase correlation.</li>
+                                                    <li value="3"><span class="SetOffFirstLevel">TP</span> Enable to display True Peak metering.</li>
+                                                </ul>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Scope"></a><a name="kanchor60"></a>Scope</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Scope-Updated-5-17-15_584x298.png" style="width: 584;height: 298;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">The Scope provides the functions an engineer would expect from a digital oscilloscope and is useful for debugging problems in the studio, such as analyzing crosstalk and noise levels.</p>
+                                                <p data-mc-conditions="General.Online">There are three signal channels and one math channel. Each channel can either show the left or right signal of the Insert Channel, or sidechain input, while the math channel can show the difference between two of the signal channels. (B and C can be inverted to sum instead, or to do a polarity flip.)</p>
+                                                <p data-mc-conditions="General.Online">Each of the channels can be scaled and offset in the Y&#160;axis, and scaling is shown as percent of full scale per division. (Full scale is 1.f, equivalent to 0 dB.) All channels can be activated/deactivated by clicking on the colored channel letter.</p>
+                                                <p data-mc-conditions="General.Online">The time (<span class="span_1">x </span>axis) can also be scaled and offset. This setting is for all channels. The units follow the samples/seconds switch on the left, and offset is shown with a green vertical line.</p>
+                                                <p data-mc-conditions="General.Online">The scope is triggered from one of the following sources:</p>
+                                                <ul class="ul_3" data-mc-conditions="General.Online">
+                                                    <li value="1"><span class="SetOffFirstLevel">Slope</span> Triggers when the signal level on a selected signal channel (not the math channel) crosses a threshold level (which is adjusted by the Level control) in the right direction.</li>
+                                                    <li value="2"><span class="SetOffFirstLevel">Transients</span> This uses the same audio channel, and the Slope and Level controls still apply, but the transient level is usually much more narrow: somewhere above 0% and typically around 1.5%.</li>
+                                                    <li value="3"><span class="SetOffFirstLevel">External Signals</span> Notes sent to the scope MIDI input or not sent at all (free).</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online">Engaging Oneshot turns triggering off after the first received trigger. Retrig  waits for one new trigger in case you get the wrong signal or change the signal.</p>
+                                                <p data-mc-conditions="General.Online">The Scope display is latching, meaning that a  signal is shown only on the second trigger. Note that the scope does not clear its buffer on stop, so there may be unwanted signal shown until another display trigger occurs.</p>
+                                                <p data-mc-conditions="General.Online">The Hold control adjusts the length of time shown for a trigger signal, and during this period, no new signal  triggers the scope. This is adjusted in percent of the display width and is also shown in the selected time unit and as a green vertical line. The display is clipped on a new trigger.</p>
+                                                <p data-mc-conditions="General.Online">Finally, there is a crosshair for measuring the signals. It has a tool-tip readout using the units displayed in relation to the selected channel. Use this for measuring distances/differences for the selection, where dB levels are rectified signal levels, so you can compare positive and negative peak levels.</p>
+                                                <h3 class="Heading3" data-mc-conditions="General.Online"><a name="Tone"></a><a name="kanchor61"></a>Tone Generator</h3>
+                                                <p data-mc-conditions="General.Online">
+                                                    <img src="../Resources/Images/StudioOneImages/Plug-ins/ToneGenerator_584x97.png" style="width: 584;height: 97;" />
+                                                </p>
+                                                <p data-mc-conditions="General.Online">Tone Generator is capable of generating noise, frequency sweeps, and other signal types commonly used for signal-path testing and calibration. The Scope would commonly be used in conjunction with Tone Generator to analyze return signals at the end of the signal path being tested or calibrated. </p>
+                                                <p data-mc-conditions="General.Online">The following parameters are available in Tone Generator:</p>
+                                                <ul class="ul_1" data-mc-conditions="General.Online">
+                                                    <li class="ListParagraph_1" value="1"><span class="SetOffFirstLevel">Waveform</span> Choose from sine, saw, rectangle, pink noise, and white noise.
+            	<ul><li class="ListParagraph_3" value="1"><span class="SetOffFirstLevel">Anti-Alias</span> The saw and rectangle waveforms have Anti-Aliasing engaged by default in order to prevent aliasing artifacts from appearing.</li></ul></li>
+                                                    <li class="ListParagraph_1" value="2"><span class="SetOffFirstLevel">Frequency</span> Set the tone frequency from 1 Hz to 22 kHz.</li>
+                                                    <li class="ListParagraph_4" value="3"><span class="SetOffFirstLevel">Modulation</span>
+                                                        <ul class="ul_4">
+                                                            <li class="ListParagraph_3" value="1"><span class="SetOffFirstLevel">Wobble</span> Engage this to make the tone frequency move from the set frequency to the modulation Target Frequency, according to the Modulation settings.</li>
+                                                            <li class="ListParagraph_3" value="2"><span class="SetOffFirstLevel">Log Sweep</span> Engage to make the frequency sweep logarithmic instead of linear.</li>
+                                                            <li class="ListParagraph_3" value="3"><span class="SetOffFirstLevel">Length</span> Set the length in time of the sweep from Frequency to Target Frequency; range is from 10 ms to 59.9 s.</li>
+                                                            <li class="ListParagraph_3" value="4"><span class="SetOffFirstLevel">Phase Shift</span> Set the phase shift that occurs over the chosen Length of time, from 0 to 180.</li>
+                                                            <li class="ListParagraph_3" value="5"><span class="SetOffFirstLevel">Target Frequency</span> The end frequency to which the tone is swept during modulation.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="ListParagraph_1" value="4"><span class="SetOffFirstLevel">Off/Gated/On</span> Default is Off. Gated allows the output to be turned on via a note played on a Keyboard (set the output of an Instrument Track to Tone Generator), and On simply turns on the output.</li>
+                                                    <li class="ListParagraph_1" value="5"><span class="SetOffFirstLevel">Level</span> The output level of Tone Generator, from -144 dB to +24 dB. (Use caution!)</li>
+                                                </ul>
+                                                <h3 class="Heading3" data-mc-conditions="General.S1ProfessionalOnly"><a name="IR"></a><a name="kanchor62"></a>IR Maker</h3>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">
+                                                    <img src="../Resources/Images/StudioOneImages/Plug-ins/IRMaker_551x300.png" style="width: 551;height: 300;" />
+                                                </p>
+                                                <p data-mc-conditions="General.S1ProfessionalOnly">IR Maker is a utility plug-in that allows you to capture your own impulse responses for use with OpenAIR and with the cabinet section of Ampire XT. The following describes general guidelines on how to use IR Maker to create impulses:</p>
+                                                <ol data-mc-conditions="General.S1ProfessionalOnly">
+                                                    <li class="ListParagraph_1" value="1" data-mc-conditions="General.S1ProfessionalOnly">In the <span class="Italic">Song/Song Setup/Audio IO Setup</span> menu, create an Output Channel configured with the physical output on your interface that the IR Maker sweep signal  routes through. That output might be connected to a speaker in the space for which you want to capture an IR, or to the Effects Return on an amplifier connected to a cabinet for capturing a guitar cabinet IR.&#160;</li>
+                                                    <li class="ListParagraph_1" value="2" data-mc-conditions="General.S1ProfessionalOnly">Then, create an Input Channel  in <span class="Italic">Song/Audio IO Setup</span>, configured with the physical input on your interface that IR Maker  gets the return signal from. A microphone, or the output of a hardware processor,  connects to this input when capturing the IR.</li>
+                                                    <li class="ListParagraph_1" value="3" data-mc-conditions="General.S1ProfessionalOnly">Now create an Audio Track in a Song, set its input and output to the Input and Output you just created, and insert IR Maker on the Track.&#160;</li>
+                                                    <li class="ListParagraph_1" value="4" data-mc-conditions="General.S1ProfessionalOnly">Signal-path latency is important. That latency may vary because of the distance of the mic from the source, for instance, and may be a part of the impulse response to be captured. So, it is easiest to detect the signal path latency with a loopback from interface output to interface input. To do this, you need to route the physical output directly into the physical input, creating a loopback for the I/O you created before.  Then, press Detect in the Latency Compensation section. If the latency box still shows zero after testing, then something is wrong with your audio setup (levels, audio I/O ports, monitors, cables, interface settings, etc.). </li>
+                                                    <li class="ListParagraph_1" value="5" data-mc-conditions="General.S1ProfessionalOnly">After detecting latency in the signal path, disconnect the loopback from before. Connect the output to the device that  receives/outputs the IR Sweep signal (a speaker in a room, a guitar amplifier Effects Return, etc.), and the input to the device that  captures the IR (a microphone in a room or in front of a guitar cabinet, or the output of a hardware device). </li>
+                                                    <li class="ListParagraph_1" value="6" data-mc-conditions="General.S1ProfessionalOnly">The file Output Path is structured as a base part (the path to the folder where your IRs reside), a device part (the subfolder for that cabinet, space, etc.), and an IR base-name (mic/mic-position). </li>
+                                                    <li class="ListParagraph_1" value="7" data-mc-conditions="General.S1ProfessionalOnly">Select the Sweep Length (longer = higher-frequency resolution and less noise). In general, 60 seconds should be enough for high fidelity. IR Length can always be shortened later to save CPU resources but it should be long enough to contain the whole response. As a default for cabinets, we recommend using 0.1 s. Shorter Sweep and IR Lengths get calculated much faster. </li>
+                                                    <li class="ListParagraph_1" value="8" data-mc-conditions="General.S1ProfessionalOnly">Normalizing ensures maximum loudness in IR but can be done later, and can destroy loudness relationships between different devices.</li>
+                                                    <li class="ListParagraph_1" value="9" data-mc-conditions="General.S1ProfessionalOnly">Usually you need to trigger the sweeping several times to adjust the levels. It helps to show Input and Output Channels in the mixer to watch the metering closely.</li>
+                                                    <li class="ListParagraph_1" value="10" data-mc-conditions="General.S1ProfessionalOnly">Check the Open checkbox to have your computer's file browser open the newly created impulse response after calculation. You can then drag that onto a new Track to view the IR and make any edits you desire, such as fades; or drag the IR into OpenAIR or Ampire XT for immediate use. </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="FooterTable">
+                                        <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                            <col class="TableStyle-Simple-Column-Column1" />
+                                            <tbody>
+                                                <tr class="TableStyle-Simple-Body-Row1">
+                                                    <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                        <p class="FooterTopicMasterLeftPadding">&#160;</p>
+                                                    </td>
+                                                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                        <p class="FooterTopicMaster"><span class="GeneralProductName">Studio One</span> Version <span class="GeneralVersionNumber">4.5</span></p>
+                                                        <p class="FooterTopicMasterLastLine">Copyright © <span class="GeneralYear">2019</span>&#160;<span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="button needs-pie print-button" type="button" title="Print">
+                                            <img src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                        </button>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownFooter"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot dropDownHotspotFooter MCDropDownHotSpot_ MCDropDownHotSpot_Footer MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="7" width="16" alt="Closed" data-mc-alt2="Open" />CONTACT US</a></span>
+                                            <div class="MCDropDownBody dropDownBody dropDownBodyFooterTopicMaster">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                                                    <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <col class="TableStyle-Simple-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Simple-Body-Row1">
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMasterLastLineLeftPadding">
+                                                                    <img src="../Resources/Images/ContactIcon.png" alt="" />
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                                                <p class="FooterTopicMaster"><span class="GeneralCompanyName">PreSonus Audio Electronics, Inc</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralStreetAddress">18011 Grand Bay Court</span>
+                                                                </p>
+                                                                <p class="FooterTopicMaster"><span class="GeneralCityStateZip">Baton&#160;Rouge, LA 70809</span>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
