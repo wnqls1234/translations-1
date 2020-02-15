@@ -6,11 +6,11 @@ msgstr ""
 
 #: .\application\contenthandler.cpp
 msgid "[Licenser]$APPCOMPANY Account"
-msgstr "$APPCOMPANY アカウント"
+msgstr "$APPCOMPANY 계정"
 
 #: .\application\eulacomponent.cpp
 msgid "[Licenser]%(1) End User License Agreement"
-msgstr "%(1) エンドユーザー使用許諾契約"
+msgstr "%(1) 최종 사용자 사용권 계약"
 
 #: .\application\eulacomponent.cpp
 msgid "[Licenser]%(1) Terms of Service"
@@ -22,44 +22,44 @@ msgstr "활성화"
 
 #: .\application\purchasedpackages.cpp
 msgid "[PackageActions]Activate All"
-msgstr "すべてをアクティベート"
+msgstr "모두 활성화"
 
 #: .\application\purchasehandler.cpp
 msgid "[Command]Activate Purchased Items"
-msgstr "購入済みアイテムをアクティベート"
+msgstr "구입한 항목 활성화"
 
 #: .\application\purchasedpackages.cpp
 msgid "[PackageActions]Activated"
-msgstr "アクティベート済み"
+msgstr "활성화됨"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Activating product"
-msgstr "製品をアクティベートしています"
+msgstr "제품을 활성화합니다"
 
 #: .\application\usercomponent.cpp
 msgid "[Command]Activation"
-msgstr "アクティベーション"
+msgstr "활성화"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Additional License Information:\n"
-msgstr "その他のライセンス情報:\r\n"
+msgstr "기타 라이센스 정보:\r\n"
 
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]All installed items are activated."
-msgstr "インストール済みアイテムはすべてアクティベートされています。"
+msgstr "설치된 항목은 모두 활성화되어 있습니다."
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]An error occured at the server (Status %(1))."
-msgstr "サーバーにエラーが発生しました（ステータス %(1) ）。"
+msgstr "서버에 오류가 발생했습니다（상태 %(1) ）。"
 
 #: .\application\loginhandler.cpp .\application\purchasehandler.cpp
 #: .\application\usercomponent.cpp
 msgid "[Command]Application"
-msgstr "응용 프로그램"
+msgstr ""
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Authorization"
-msgstr "オーソライズ"
+msgstr "권한 부여"
 
 #: .\application\usercomponent.cpp
 msgid "[Licenser]Copy to Clipboard"
@@ -71,11 +71,11 @@ msgstr "購入製品を $APPCOMPANY アカウントから今すぐダウンロ�
 
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]Download"
-msgstr "ダウンロード"
+msgstr "다운로드"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "サーバーへの接続に失敗しました。\nインターネット接続を確認し、再試行してください。"
+msgstr "서버에 연결하는 데 실패했습니다. \n 인터넷 연결을 확인하고 다시 시도하십시오."
 
 #: .\application\userlicense.cpp
 msgid "[FileType]Invalid License File!"
@@ -91,7 +91,7 @@ msgstr "ライセンスが古すぎます。$APPNAME を再アクティベート
 
 #: .\application\loginhandler.cpp
 msgid "[Command]Login"
-msgstr "ログイン"
+msgstr "로그인"
 
 #: .\application\licensehandler.cpp
 msgid "[Licenser]Manage Activations"
@@ -115,15 +115,15 @@ msgstr "フォームに記入してください。"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Registering product"
-msgstr "製品を登録しています"
+msgstr "제품을 등록하고 있습니다"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Registration"
-msgstr "登録"
+msgstr "등록"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Retrieving product list"
-msgstr "製品一覧を検索しています"
+msgstr "제품 목록을 검색합니다"
 
 #: .\application\loginhandler.cpp
 msgid "[Licenser]Select Country"
@@ -143,7 +143,7 @@ msgstr "サインアウト"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Signing in"
-msgstr "サインインしています"
+msgstr "로그인하고 있습니다"
 
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]Some items failed to activate."
@@ -171,7 +171,7 @@ msgstr "ライセンスはこのユーザーに対して発行されていませ
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]The request failed (%(1))."
-msgstr "リクエストは失敗しました（%(1) ）。"
+msgstr "요청이 실패했습니다（%(1) ）。"
 
 #: .\application\licensehandler.cpp
 msgid "[Licenser]This computer has been de-activated for use with $APPNAME."
@@ -203,7 +203,7 @@ msgstr "お客様の$APPNAME用Spliceライセンスは無効です。"
 
 #: .\web\licenseserver.cpp
 msgid "[WebAPI]Your authorization has expired. Please log in again."
-msgstr "オーソライズの期限が切れています。再度ログインしてください。"
+msgstr "권한이 만료되었습니다. 다시 로그인하십시오."
 
 #: .\application\purchasehandler.cpp
 msgid "[Licenser]Your purchased items have been activated."
@@ -237,5 +237,5 @@ msgstr "購入済みアイテムはアクティベートされました。"
 #~ msgstr "このプロダクトキーには追加ライセンスが必要ですが、このコンピューター上に見つかりません。"
 
 #~ msgid "[Licenser]Activation failed."
-#~ msgstr "アップロードに失敗しました。"
+#~ msgstr "활성화 실패."
 

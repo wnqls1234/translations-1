@@ -6,31 +6,31 @@ msgstr ""
 
 #: .\quantize\quantizecomponent.cpp
 msgid "[Quantize]%(1) Bar"
-msgstr "%(1) 小節"
+msgstr "%(1) 마디"
 
 #: .\quantize\quantizecomponent.cpp
 msgid "[Quantize]%(1) Bars"
-msgstr "%(1) 小節"
+msgstr "%(1) 마디"
 
 #: .\music\musiceditmodel.cpp
 msgid "[MusicEditComponent]%(1):  Length: %(2) | Velocity: %(3)"
-msgstr "%(1):  長さ: %(2) | ベロシティー: %(3)"
+msgstr "%(1):  길이: %(2) | 벨로시티: %(3)"
 
 #: .\tempo\tempoedithandler.cpp
 msgid "[TempoEdit]%(3) BPM - Scale %(1) to %(2)"
-msgstr "%(3) BPM - %(1) から %(2) へスケール"
+msgstr "%(3) BPM - %(1) 에서 %(2) 에 스케일"
 
 #: .\music\musicedithandler.cpp
 msgid "[Events]Absolute"
-msgstr "絶対"
+msgstr "절대"
 
 #: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Adaptive"
-msgstr "順応"
+msgstr "순응"
 
 #: .\quantize\quantizedraghandler.cpp
 msgid "[QuantizeDragHandler]Add Groove Pattern"
-msgstr "グルーヴパターンを追加"
+msgstr "그루브 패턴 추가"
 
 #: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
 msgid "[Command]Automation"
@@ -416,11 +416,11 @@ msgstr "位相オフセット"
 
 #: .\music\musicedittasks.cpp
 msgid "[MusicEdit]Pitch"
-msgstr "ピッチ"
+msgstr "피치"
 
 #: .\music\notecolorschemeparam.cpp
 msgid "[NoteColorScheme]Pitch"
-msgstr "ピッチ"
+msgstr "피치"
 
 #: .\quantize\quantizelength.cpp
 msgid "[Quantize]Previous Base"
@@ -444,23 +444,23 @@ msgstr "프로세스"
 
 #: .\music\musicedittasks.cpp
 msgid "[MusicEdit]Quantize"
-msgstr "クオンタイズ"
+msgstr "퀀타이즈"
 
 #: .\quantize\quantizecomponent.cpp
 msgid "[Quantize]Quantize"
-msgstr "クオンタイズ"
+msgstr ""
 
 #: .\quantize\quantizecomponent.cpp
 msgid "[Command]Quantize"
-msgstr "クオンタイズ"
+msgstr "퀀타이즈"
 
 #: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Quantize"
-msgstr "クオンタイズ"
+msgstr "퀀타이즈"
 
 #: .\timeedit\timesnapper.cpp
 msgid "[TimeSnapper]Quantize"
-msgstr "クオンタイズ"
+msgstr "퀀타이즈"
 
 #: .\quantize\quantizegrid.cpp
 msgid "[FileType]Quantize Settings"
@@ -504,7 +504,7 @@ msgstr "Sカーブ"
 
 #: .\tempo\tempoedithandler.cpp
 msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
-msgstr "テンポをスケール:時間ルーラーを小節に設定してください"
+msgstr "템포를 스케일: 시간 룰러를 소절로 설정하십시오."
 
 #: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Select All in Loop"
@@ -652,11 +652,11 @@ msgstr "分割"
 
 #: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Split at Cursor"
-msgstr "カーソル位置で分割"
+msgstr "커서 위치에서 분할"
 
 #: .\timeedit\timeeditcomponent.cpp
 msgid "[Command]Split at Cursor"
-msgstr "カーソル位置で分割"
+msgstr "커서 위치에서 분할"
 
 #: .\timeedit\timerulerview.cpp
 msgid "[TimeRulerView]Start/Stop"
@@ -664,19 +664,19 @@ msgstr "スタート/停止"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Store Zoom State"
-msgstr "ズームの状態を保存"
+msgstr "줌 상태를 저장"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Straight"
-msgstr "ストレート"
+msgstr "스트레이트"
 
 #: .\envelopes\envelopeeditlayer.cpp
 msgid "[Command]Straighten Curve"
-msgstr "カーブを直線に"
+msgstr "곡선을 직선으로"
 
 #: .\events\eventedithandler.cpp
 msgid "[EventFigures]Stretch"
-msgstr "ストレッチ"
+msgstr "스트레치"
 
 #: .\tempo\tempoeditcomponent.cpp
 msgid "[Command]Tempo"
@@ -696,7 +696,7 @@ msgstr "時間ルーラー"
 
 #: .\timeedit\timeeditcomponent.cpp
 msgid "[Edit]Timebase"
-msgstr "タイムベース"
+msgstr "타임베이스"
 
 #: .\music\musicedithandler.cpp
 msgid "[Events]Toggle Chord Mode"
@@ -736,7 +736,7 @@ msgstr "트랜스포트"
 
 #: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
 msgid "[Quantize]Triplet"
-msgstr "3連符"
+msgstr "셋잇단 음표"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Undo Zoom"
@@ -780,15 +780,15 @@ msgstr "줌"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full"
-msgstr "フルズーム"
+msgstr "풀 줌"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom Full Horizontally"
-msgstr "水平にフルズーム"
+msgstr "수평으로 풀 줌"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In"
-msgstr "ズームイン"
+msgstr "줌 인"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom In Fine"
@@ -820,15 +820,15 @@ msgstr "細かく垂直ズームアウト"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Loop"
-msgstr "ループへズーム"
+msgstr "선택으로 루프"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection"
-msgstr "選択へズーム"
+msgstr "선택으로 줌"
 
 #: .\timeedit\timelinecomponent.cpp
 msgid "[Command]Zoom to Selection Horizontally"
-msgstr "選択へ水平ズーム"
+msgstr "선택으로 수평 줌"
 
 #~ msgid "[TimeEditModel]Move to Cursor"
 #~ msgstr "カーソルへ移動"
@@ -840,7 +840,7 @@ msgstr "選択へ水平ズーム"
 #~ msgstr "이름"
 
 #~ msgid "[PitchNameEditor]Pitch"
-#~ msgstr "ピッチ"
+#~ msgstr "피치"
 
 #~ msgid "[Quantize]Quintole"
 #~ msgstr "5連符"

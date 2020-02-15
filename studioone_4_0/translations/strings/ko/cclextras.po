@@ -6,23 +6,23 @@ msgstr ""
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]%(1) Extensions installed."
-msgstr "%(1) つの拡張がインストールされています。"
+msgstr "%(1) 개의 확장이 설치되어 있습니다."
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]%(1) is already installed!"
-msgstr "%(1) はすでにインストールされています。"
+msgstr "%(1) 은 이미 설치되어 있습니다."
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]%(1) is not compatible with $APPNAME!"
-msgstr "%(1) は $APPNAME に互換していません。"
+msgstr "%(1) 은 $APPNAME 와 호환되지 않습니다."
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]%(1) of %(2)"
-msgstr "%(2) 中 %(1)"
+msgstr "%(2) 중 %(1)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]%(1) of %(2) packages already exist on your system."
-msgstr "%(1) パッケージ（ %(2) 中）がシステム内に存在しています。"
+msgstr "%(1) 패키지（ %(2) 중）가 시스템에 존재합니다."
 
 #: .\packages\packagemanager.cpp
 msgid "[PackageManager]%(2)/%(3) %(1)"
@@ -30,15 +30,15 @@ msgstr "%(2)/%(3) %(1)"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](Developer Mode)"
-msgstr "（デベロッパーモード）"
+msgstr "디벨로퍼 모드"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager](disabled)"
-msgstr "（無効）"
+msgstr "(무효)"
 
 #: .\packages\extensionmanagerpackages.cpp
 msgid "[PackageActions]Abort Uninstall"
-msgstr "アンインストールを中止"
+msgstr "제거 중지"
 
 #: .\extensions\contentinstaller.cpp .\extensions\extensionmanager.cpp
 msgid "[Command]Application"
@@ -54,7 +54,7 @@ msgstr "内蔵拡張をアンインストールまたはアップデートでき
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Cancel"
-msgstr "취소"
+msgstr ""
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Canceled!"
@@ -62,7 +62,7 @@ msgstr "キャンセルされました。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Check for Updates"
-msgstr "アップデートを確認"
+msgstr "업데이트 확인"
 
 #: .\extensions\appupdater.cpp
 msgid "[Command]Check for Updates"
@@ -70,11 +70,11 @@ msgstr "업데이트 확인"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Check for Updates failed!"
-msgstr "アップデートの確認に失敗しました。"
+msgstr "업데이트 확인 실패"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Checking version of %(1)"
-msgstr "%(1) のバージョンを確認しています"
+msgstr "%(1) 의 버전을 확인합니다"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Claim Product Key"
@@ -82,7 +82,7 @@ msgstr "プロダクトキーを取得"
 
 #: .\webfs\webfilenodes.cpp
 msgid "[WebFS]Cloud"
-msgstr "クラウド"
+msgstr "클라우드"
 
 #: .\packages\packagemanager.cpp
 msgid "[PackageManager]Contains %(1) items"
@@ -98,7 +98,7 @@ msgstr "をコピーしています..."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Current version: %(1)"
-msgstr "現在のバージョン: %(1)"
+msgstr "현재 버전: %(1)"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Custom Installation"
@@ -130,11 +130,11 @@ msgstr "この拡張をアンインストールしますか？"
 
 #: .\webfs\downloaddraghandler.cpp
 msgid "[WebFS]Download"
-msgstr "ダウンロード"
+msgstr "다운로드"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Download"
-msgstr "ダウンロード"
+msgstr "다운로드"
 
 #: .\extensions\contentinstaller.cpp
 msgid "[Installer]Download from $APPCOMPANY Account"
@@ -226,7 +226,7 @@ msgstr "インストールはキャンセルされました。"
 
 #: .\packages\unifiedpackageinstaller.cpp
 msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
-msgstr "%(1) のインストールに失敗しました。"
+msgstr "%(1) 의 설치에 실패했습니다."
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Installation failed!"
@@ -250,7 +250,7 @@ msgstr "インストール済みパッケージ"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Installed version: %(1)"
-msgstr "インストールされているバージョン: %(1)"
+msgstr "설치되어있는 버전: %(1)"
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]Invalid Installation File!"
@@ -370,11 +370,11 @@ msgstr "インストール済みコンテンツは $APPNAME の次回起動以�
 
 #: .\packages\unifiedpackageinstaller.cpp
 msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
-msgstr "インストール済みコンテンツは $APPNAME の次回起動以降に使用できます。"
+msgstr "설치된 컨텐츠는 $APPNAME 를 시작한 이후에 사용할 수 있습니다."
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]The version could not be identified!"
-msgstr "バージョンを識別できませんでした。"
+msgstr "버전을 확인할 수 없습니다."
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]There are updates available for your Extensions."
@@ -382,7 +382,7 @@ msgstr "ご使用の拡張に対するアップデートがあります。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]There is a new version available."
-msgstr "新しいバージョンが存在します。"
+msgstr "새로운 버전이 존재합니다."
 
 #: .\extensions\extensiondescription.cpp
 msgid "[Extensions]This file does not have a valid digital signature."
@@ -398,7 +398,7 @@ msgstr "타입"
 
 #: .\packages\unifiedpackageaction.cpp
 msgid "[PackageActions]Uninstall"
-msgstr "アンインストール"
+msgstr "제거"
 
 #: .\packages\unifiedpackageaction.cpp
 msgid "[PackageActions]Uninstall All"
@@ -414,7 +414,7 @@ msgstr "업데이트"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Update Now"
-msgstr "今すぐアップデート"
+msgstr "지금 업데이트"
 
 #: .\extensions\extensionmanager.cpp
 msgid "[ExtensionManager]Updating Extension %(1)..."
@@ -422,7 +422,7 @@ msgstr "拡張 %(1) をアップデートしています..."
 
 #: .\webfs\webfsbrowserextension.cpp
 msgid "[WebFS]Upload To"
-msgstr "アップロード先"
+msgstr "업로드 시기"
 
 #: .\webfs\transfermanagerui.cpp
 msgid "[TransferManager]Uploading..."
@@ -434,11 +434,11 @@ msgstr "ユーザーコンテンツ"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]View Release Notes"
-msgstr "リリースノートを表示"
+msgstr "릴리즈 노트 표시"
 
 #: .\extensions\appupdater.cpp
 msgid "[Command]View Release Notes"
-msgstr "릴리스 노트 보기"
+msgstr "릴리즈 노트 표시"
 
 #: .\extensions\extensionmanagerui.cpp
 msgid "[ExtensionManager]Waiting for uninstall"
@@ -454,10 +454,10 @@ msgstr "新しいバージョンの $APPNAME が必要です。"
 
 #: .\extensions\appupdater.cpp
 msgid "[Updater]Your version is up-to-date."
-msgstr "ご使用のバージョンは最新です。"
+msgstr "사용 버전은 최신입니다."
 
 #~ msgid "[ExtensionManager]%(1) is already installed!"
-#~ msgstr "%(1) はすでにインストールされています。"
+#~ msgstr "%(1) 은 이미 설치되어 있습니다."
 
 #~ msgid "[ExtensionManager]Installation failed!"
 #~ msgstr "インストールに失敗しました。"
@@ -472,7 +472,7 @@ msgstr "ご使用のバージョンは最新です。"
 #~ msgstr "このファイルには有効なデジタル署名がありません。"
 
 #~ msgid "[Installer]$APPCOMPANY Account"
-#~ msgstr "$APPCOMPANY アカウント"
+#~ msgstr "$APPCOMPANY 계정"
 
 #~ msgid "[TransferManager]KB/sec"
 #~ msgstr "KB/秒"

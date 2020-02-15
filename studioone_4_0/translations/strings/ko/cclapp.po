@@ -22,11 +22,11 @@ msgstr "%(1) 개의 프리셋 파일을 가져왔습니다."
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector](Unknown Vendor)"
-msgstr "（알 수 없는 밴더）"
+msgstr "(알 수 없는 회사)"
 
 #: .\presets\presetbrowser.cpp
 msgid "[PresetBrowser](no presets)"
-msgstr "（프리셋 없음）"
+msgstr "(프리셋 없음)"
 
 #: .\documents\autosaver.cpp
 msgid "[Autosave]A backup of the original file has been found."
@@ -162,7 +162,7 @@ msgstr "미싱 파일 태그 청소"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Clear Recent Files"
-msgstr "최근에 사용한 파일을 클리어"
+msgstr "최근 사용한 파일 기록 지우기"
 
 #: .\documents\recentdocuments.cpp
 msgid "[Documents]Clear Recent Files"
@@ -334,7 +334,7 @@ msgstr "파기"
 
 #: .\documents\recentdocuments.cpp
 msgid "[Documents]Do you really want to clear the list of recent files?\n\nThis action can not be undone."
-msgstr "最近使ったファイルのリストを消去しますか？\n\nこの操作は取り消せません。"
+msgstr "최근에 사용한 파일 목록을 삭제 하시겠습니까?\n\n이 작업은 취소 할 수 없습니다."
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you really want to delete the Undo History?\n\nThis action can not be undone."
@@ -402,7 +402,7 @@ msgstr "すべてのプラグイン設定を削除して $APPNAME の次回起�
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Do you want to remove the reference to it from the Recent list?"
-msgstr "リストから参照を削除しますか？"
+msgstr "목록에서 참조를 삭제 하시겠습니까?"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Do you want to remove these folders?"
@@ -422,7 +422,7 @@ msgstr "ブラックリストに登録されているプラグインを $APPNAME
 
 #: .\application.cpp
 msgid "[Application]Do you want to restart $APPNAME now?"
-msgstr "今すぐ $APPNAME を再起動しますか？"
+msgstr "지금 $APPNAME 을 다시 시작 하시겠습니까?"
 
 #: .\options\commandoption.cpp
 msgid "[UserOption]Do you want to revert the keyboard mapping scheme to \"%(1)\"?"
@@ -446,7 +446,7 @@ msgstr "ドキュメント"
 
 #: .\browser\filexportdraghandler.cpp
 msgid "[FileExport]Download"
-msgstr "ダウンロード"
+msgstr "다운로드"
 
 #: .\browser\filexportdraghandler.cpp
 msgid "[FileExport]Download to \"%(1)\""
@@ -523,19 +523,19 @@ msgstr "ここで抽出"
 
 #: .\application.cpp
 msgid "[Application]Failed to load Application Theme!"
-msgstr "アプリケーションテーマの読み込みに失敗しました。"
+msgstr "응용 프로그램 테마 가져오기에 실패했습니다."
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Favorite"
-msgstr "お気に入り"
+msgstr "즐겨 찾기"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Favorites"
-msgstr "お気に入り"
+msgstr "즐겨 찾기"
 
 #: .\application.cpp .\documents\documentmanager.cpp
 msgid "[Command]File"
-msgstr "파일"
+msgstr ""
 
 #: .\etc\batchoperation.cpp
 msgid "[FileOperations]File %(1) of %(2)"
@@ -547,7 +547,7 @@ msgstr "ファイル情報"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Flat"
-msgstr "全体"
+msgstr "전체"
 
 #: .\browser\pluginmanagement.cpp
 msgid "[PlugInManagement]Folder"
@@ -571,7 +571,7 @@ msgstr "계속하기"
 
 #: .\options\useroption.cpp
 msgid "[UserOption]General"
-msgstr "一般"
+msgstr "일반"
 
 #: .\application.cpp
 msgid "[Command]Help"
@@ -591,7 +591,7 @@ msgstr "홈"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]Icon"
-msgstr "アイコン"
+msgstr "아이콘"
 
 #: .\presets\presettrader.cpp
 msgid "[Command]Import Preset"
@@ -683,7 +683,7 @@ msgstr "ローカル"
 
 #: .\options\mainoption.cpp .\options\useroption.cpp
 msgid "[UserOption]Locations"
-msgstr "ロケーション"
+msgstr "로케이션"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Merge"
@@ -791,7 +791,7 @@ msgstr "\"%(1)\" の他のバージョンは保存されていません。"
 
 #: .\editing\tasks\edittaskcollection.cpp
 msgid "[EditTask]No recent items"
-msgstr "最近使った項目なし"
+msgstr "최근 사용한 항목 없음"
 
 #: .\documents\documentblocks.cpp
 msgid "[Documents]No versions found."
@@ -847,7 +847,7 @@ msgstr "붙혀넣기"
 
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Pin document to Recent Files list"
-msgstr "ドキュメントを最近使ったファイルリストに貼り付ける"
+msgstr "문서를 최근 사용한 문서 목록에 붙여 넣기"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]Please note that third-party plug-ins will appear smaller if they do not support scaling."
@@ -855,7 +855,7 @@ msgstr "スケーリングに対応していないサードパーティ製プラ
 
 #: .\application.cpp
 msgid "[Application]Please restart $APPNAME for the changes to take effect."
-msgstr "変更を有効にするには $APPNAME を再起動してください。"
+msgstr "변경 사항을 적용하려면 $APPNAME 를 다시 시작하십시오."
 
 #: .\documents\documentdialog.cpp
 msgid "[Documents]Please supply a filename."
@@ -863,7 +863,7 @@ msgstr "ファイル名を入力してください。"
 
 #: .\application.cpp
 msgid "[Application]Plug-In folder not found at:\n"
-msgstr "次のロケーションにプラグインフォルダーが見つかりません:\r\n"
+msgstr "다음 위치에 플러그인 폴더를 찾을 수 없습니다:\r\n"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Plug-ins"
@@ -912,23 +912,23 @@ msgstr "프리셋 인덱스  재작성"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Recent"
-msgstr "最近使った項目"
+msgstr "최근 사용한 항목"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Recent File"
-msgstr "최근  파일"
+msgstr "최근 사용한 파일"
 
 #: .\documents\recentdocuments.cpp
 msgid "[Documents]Recent Files"
-msgstr "最近使ったファイル"
+msgstr "최근 사용한 파일"
 
 #: .\editing\tasks\edittaskcollection.cpp
 msgid "[EditTask]Recent items"
-msgstr "最近使った項目"
+msgstr "최근 사용한 항목"
 
 #: .\actions\actionjournal.cpp
 msgid "[Action]Redo"
-msgstr "やり直す"
+msgstr "되살리기"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Redo"
@@ -964,7 +964,7 @@ msgstr "タグを削除"
 
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Remove from Recent Files list"
-msgstr "最近使ったファイルリストから削除"
+msgstr "최근 사용한 파일 목록에서 삭제"
 
 #: .\browser\pluginnodes.cpp
 msgid "[Browser]Rename"
@@ -1088,11 +1088,11 @@ msgstr "保存中: %(1)..."
 
 #: .\application.cpp
 msgid "[Application]Scanning Languages..."
-msgstr "言語をスキャンしています..."
+msgstr "언어를 검색하고 있습니다 ..."
 
 #: .\application.cpp
 msgid "[Application]Scanning Plug-Ins..."
-msgstr "プラグインをスキャンしています..."
+msgstr "플러그인을 검색하고 있습니다 ..."
 
 #: .\presets\presetmanager.cpp
 msgid "[Presets]Scanning Plug-Ins..."
@@ -1104,11 +1104,11 @@ msgstr "プリセットをスキャンしています..."
 
 #: .\application.cpp
 msgid "[Application]Scanning Scripts..."
-msgstr "スクリプトをスキャンしています..."
+msgstr "스크립트를 검색하고 있습니다 ..."
 
 #: .\application.cpp
 msgid "[Application]Script folder not found at:\n"
-msgstr "次のロケーションにスクリプトフォルダーが見つかりません:\r\n"
+msgstr "다음 위치에 스크립트 폴더를 찾을 수 없습니다:\r\n"
 
 #: .\browser\searchcomponent.cpp
 msgid "[Command]Search"
@@ -1192,7 +1192,7 @@ msgstr "%(1)を保存..."
 
 #: .\presets\presetcomponent.cpp .\presets\presetdrag.cpp
 msgid "[Presets]Store Preset"
-msgstr "プリセットを保存"
+msgstr "프리셋 저장"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Command]Store Preset"
@@ -1200,7 +1200,7 @@ msgstr "프리셋 보존"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store Preset..."
-msgstr "プリセットを保存..."
+msgstr "프리셋 저장..."
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]Store as Default Preset"
@@ -1244,35 +1244,35 @@ msgstr "その場合、元のファイルはバージョンとして保存され
 
 #: .\documents\documenttemplates.cpp
 msgid "[Documents]The template could not be saved!"
-msgstr "テンプレートを保存できませんでした。"
+msgstr "템플릿을 저장할 수 없습니다."
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]These %(1) files could not be imported:"
-msgstr "%(1) のファイルをインポートできませんでした。"
+msgstr "%(1) 파일은 임포트 할 수 없습니다."
 
 #: .\actions\trashbinpanel.cpp
 msgid "[TrashBin]These items could not be restored!"
-msgstr "これらのアイテムを復元できませんでした。"
+msgstr "이러한 아이템은 복원할 수 없습니다."
 
 #: .\presets\presettrader.cpp
 msgid "[Presets]This file could not be imported:"
-msgstr "このファイルをインポートできませんでした:"
+msgstr "이 파일을 가져올 수 없습니다 :"
 
 #: .\documents\packagedocument.cpp
 msgid "[Documents]This file is not compatible because it has been created with a newer version of $APPNAME.\n\nThis version: %(1)\nGenerator: %(2)"
-msgstr "このファイルは新しいバージョンの $APPNAME で作成されているため、互換性がありません。\n\nこのバージョン: %(1)\nジェネレーター: %(2)"
+msgstr "이 파일은 새 버전의 $ APPNAME에서 작성되어 있기 때문에 호환성이 없습니다. \n\n 이 버전: %(1)\n생성기: %(2)"
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]This file type already exists."
-msgstr "このファイルタイプはすでに存在します。"
+msgstr "이 파일 형식은 이미 존재합니다."
 
 #: .\options\filetypeselector.cpp
 msgid "[FileType]This file type is invalid."
-msgstr "このファイルタイプは無効です。"
+msgstr "이 파일 형식은 잘못되었습니다."
 
 #: .\actions\trashbinpanel.cpp
 msgid "[TrashBin]This item could not be restored!"
-msgstr "このアイテムを復元できませんでした。"
+msgstr "이 항목을 복원 할 수 없습니다."
 
 #: .\documents\documentversions.cpp
 msgid "[Documents]Title"
@@ -1320,7 +1320,7 @@ msgstr "도구 모음"
 
 #: .\options\mainoption.cpp
 msgid "[SliderMode]Touch"
-msgstr "タッチ"
+msgstr "터치"
 
 #: .\browser\pluginmanagement.cpp
 msgid "[PlugInManagement]Type"
@@ -1336,31 +1336,31 @@ msgstr "타입"
 
 #: .\actions\actionjournal.cpp
 msgid "[Action]Undo"
-msgstr "取り消す"
+msgstr "되돌리기"
 
 #: .\documents\documentmanager.cpp
 msgid "[Command]Undo"
-msgstr "취소"
+msgstr "실행 취소"
 
 #: .\editing\editor.cpp
 msgid "[Edit]Undo"
-msgstr "取り消す"
+msgstr "실행 취소"
 
 #: .\fileinfo\pathclassifier.cpp
 msgid "[FileInfo]Unknown"
-msgstr "不明"
+msgstr "알 수 없음"
 
 #: .\documents\documentblocks.cpp
 msgid "[Documents]Unpin document from Recent Files list"
-msgstr "ドキュメントを最近使ったファイルリストから外す"
+msgstr "문서를 최근 사용한 파일 목록에서 제외합니다"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Untitled"
-msgstr "名称未設定"
+msgstr "제목 없음"
 
 #: .\browser\browser.cpp
 msgid "[Browser]Up"
-msgstr "上"
+msgstr "위"
 
 #: .\presets\presetmanager.cpp
 msgid "[Command]Update Plug-Ins"
@@ -1368,27 +1368,27 @@ msgstr "플러그인 업데이트"
 
 #: .\datastore\tagstore.cpp
 msgid "[TagStore]Updated tags in %(1)\n"
-msgstr "%(1) で更新されたタグ\n"
+msgstr "%(1) 에서 업데이트 된 태그 \n"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]Use %(1) Format"
-msgstr "%(1) フォーマットを使用"
+msgstr "%(1) 포맷을 사용"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Data"
-msgstr "ユーザーデータ"
+msgstr "유저 데이터"
 
 #: .\options\mainoption.cpp
 msgid "[UserOption]User Interface"
-msgstr "ユーザーインターフェース"
+msgstr "유저 인터페이스"
 
 #: .\browser\pluginmanagement.cpp
 msgid "[PlugInManagement]Vendor"
-msgstr "벤더"
+msgstr "제공"
 
 #: .\browser\pluginselector.cpp
 msgid "[PlugInSelector]Vendor"
-msgstr "벤더"
+msgstr "제공"
 
 #: .\editing\addins\editaddindescription.cpp
 msgid "[Command]View"
@@ -1396,11 +1396,11 @@ msgstr "보기"
 
 #: .\browser\pluginbrowser.cpp
 msgid "[Presets]Visible"
-msgstr "表示"
+msgstr "표시"
 
 #: .\browser\filesystemnodes.cpp
 msgid "[Browser]Volumes"
-msgstr "ボリューム"
+msgstr "볼륨"
 
 #: .\application.cpp
 msgid "[Command]Website"
@@ -1408,15 +1408,15 @@ msgstr "웹사이트"
 
 #: .\application.cpp
 msgid "[Application]Welcome to %(1)!"
-msgstr "%(1) へようこそ！"
+msgstr "%(1) 에 오신것을 환영합니다！"
 
 #: .\documents\documentmanager.cpp
 msgid "[Documents]You do not have write permissions at this file location."
-msgstr "このファイルロケーションに書き込む権限がありません。"
+msgstr "이 파일 위치에 대한 쓰기 권한이 없습니다."
 
 #: .\options\serviceoption.cpp
 msgid "[UserOption]Your changes will be applied next time you start $APPNAME."
-msgstr "変更は $APPNAME の次回起動時に適用されます。"
+msgstr "변경은 $APPNAME 을 시작할 때 적용됩니다."
 
 #: .\editing\scaleview.cpp
 msgid "[Scale]Zoom"
@@ -1424,14 +1424,14 @@ msgstr "줌"
 
 #: .\presets\presetcomponent.cpp
 msgid "[Presets]default"
-msgstr "デフォルト"
+msgstr "기본값"
 
 #: .\datastore\tagnodes.cpp
 msgid "[TagStore]other"
-msgstr "その他"
+msgstr "그 외"
 
 #~ msgid "[Application]An instance of %(1) is already running!"
-#~ msgstr "%(1) のインスタンスはすでに動作しています。"
+#~ msgstr "%(1) 의 인스턴스가 이미 실행되고 있습니다."
 
 #~ msgid "[UserOption]Please note that third party plug-ins will appear smaller if they do not support scaling."
 #~ msgstr "スケーリングに対応していないサードパーティ製プラグインは小さめに表示されます。"
