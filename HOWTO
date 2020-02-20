@@ -1,22 +1,28 @@
-PreSonus Software Localization Guide
+PreSonus 소프트웨어 현지화 가이드
 Copyright (c)2016 PreSonus Software Ltd. All Rights Reserved.
 
-INTRODUCTION
+소개
 
-PreSonus software products like Studio One can be localized for several locales via language packs. A language pack is basically a ZIP archive containing all resources for a certain language like strings used in menus and in the application windows and dialogs.
+Studio One 같은 PreSonus의 소프트웨어 제품은 여러 언어 팩을 통해 지역화 할 수 있습니다. 언어 팩은 기본적으로 메뉴에 응용 프로그램 창 및 대화 상자에 사용되는 문자열과 같은 특정 언어에 대한 모든 자원을 포함하는 ZIP 아카이브입니다.
 
-String tables are based on the GNU gettext file formats. For more information on GNU gettext please refer to http://www.gnu.org/software/gettext/. Additionally, there are some text resources which need to be translated separately.
+문자열 테이블은 GNU gettext 파일 형식을 기반으로합니다. GNU gettext에 대한 자세한 내용은 http://www.gnu.org/software/gettext/를 참조하십시오. 또한 별도로 번역해야하는 일부 텍스트 리소스가 있습니다.
 
-GETTING STARTED
 
-The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at is the "translations/strings/<language-code>" folder. It contains all .po files for the given language that make up the main part of the translation effort.
 
-For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "translations/resources/devices" and the EULA in "translations/eula".
+시작하기
 
-LOCALIZATION TOOLS
+새 언어의 파일 및 폴더 구조는 PreSonus에 의해 번역 저장소에 설정됩니다. 가장 먼저 살펴볼 곳은 "translations / strings / <language-code>"폴더입니다. 여기에는 번역 작업의 주요 부분을 구성하는 지정된 언어에 대한 모든 .po 파일이 포함됩니다.
 
-You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the CCL Localizer application provided by PreSonus. Besides translation editing, it also enables you to build language packs on your local system for testing purpose.
+Studio One의 경우 현재 약 4000 개의 문자열이 번역되어야합니다. 또한, "translations/resources/devices"에 있는 장치 설명과 "translations/eula"에 있는 EULA를 번역해야 합니다.
 
-DEPLOYMENT
 
-Language packs for our products are hosted on PreSonus Exchange (http://studioone.presonus.com/exchange/). The final step of preparing the installation file for your language pack extension will be done by PreSonus.
+
+현지화 도구
+
+.po 파일 형식과 호환되는 모든 소프트웨어는 현지화 도구를 사용할 수 있습니다. 아직 선호하는 번역 작업 흐름이없는 경우에는,  PreSonus에서 제공하는 CCL Localizer 응용 프로그램을 사용하는 것이 좋습니다. 번역 편집 외에도 테스트 목적으로 로컬 시스템에서 언어 팩을 작성할 수 있습니다.
+
+
+
+전개
+
+제품 언어팩은 PreSonus Exchange (http://studioone.presonus.com/exchange/)에서 호스팅됩니다. 언어 팩 확장을위한 설치 파일 준비의 마지막 단계는 PreSonus에 의해 수행됩니다.
