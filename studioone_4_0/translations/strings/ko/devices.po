@@ -279,7 +279,7 @@ msgstr "오디오 장치"
 
 #: .\audioeffects\audiofxpresethandler.cpp
 msgid "[FileType]Audio Effect Preset"
-msgstr "オーディオエフェクトプリセット"
+msgstr "오디오 이펙트 프리셋"
 
 #: .\audioeffects\audiofxmanager.cpp
 msgid "[AudioEffectManager]Audio Effects"
@@ -674,11 +674,11 @@ msgstr "複数のパラメーターを編集"
 
 #: .\base\devicefolder.cpp
 msgid "[DeviceFolder]Edit..."
-msgstr "編集..."
+msgstr "편집..."
 
 #: .\base\processgraph.cpp
 msgid "[ProcessGraph]Edit..."
-msgstr "編集..."
+msgstr "편집..."
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[EditGroups]Editing"
@@ -940,7 +940,7 @@ msgstr "인스트루먼트 채널"
 
 #: .\audiosynths\audiosynthpresethandler.cpp
 msgid "[FileType]Instrument+FX Preset"
-msgstr "インストゥルメント+FXプリセット"
+msgstr "악기 + FX 프리셋"
 
 #: .\audiomixer\channels\audiosynthchannel.cpp
 #: .\mixerconsole\channelclassifier.cpp
@@ -1119,7 +1119,7 @@ msgstr "マクロターゲット '%(1)' を移動"
 
 #: .\audiosynths\combinator\synthcombinatorplugin.cpp
 msgid "[FileType]Multi Effect Preset"
-msgstr "マルチエフェクトプリセット"
+msgstr "멀티 이펙트 프리셋"
 
 #: .\audiosynths\audiosynthfolder.cpp
 msgid "[AudioSynth]Multi Instrument"
@@ -1235,7 +1235,7 @@ msgstr "표준"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Not connected"
-msgstr "接続されていません"
+msgstr "연결되어 있지 않습니다"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Note Erase"
@@ -1247,7 +1247,7 @@ msgstr "Note FX"
 
 #: .\musicmixer\musiceffect.cpp
 msgid "[FileType]Note FX Preset"
-msgstr "Note FXプリセット"
+msgstr "Note FX 프리셋"
 
 #: .\music\musicnoterepeater.cpp
 msgid "[MusicNoteRepeater]Note Repeat"
@@ -1363,7 +1363,7 @@ msgstr "ループスタートから再生"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "取り外し可能なMIDIデバイスを今すぐ接続し、完了したらこのメッセージを閉じてください..."
+msgstr "분리 가능한 MIDI 장치를 지금 연결하고 완료되면이 메시지를 닫습니다..."
 
 #: .\audiomixer\audiochannelinputfx.cpp
 msgid "[AudioChannelInputFX]Polarity"
@@ -1387,7 +1387,7 @@ msgstr "ポート"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Port not found!"
-msgstr "ポートは見つかりませんでした。"
+msgstr "포트를 찾을 수 없습니다."
 
 #: .\audiomixer\audioinsertfolder.cpp
 msgid "[AudioInsert]Post Fader"
@@ -1451,7 +1451,7 @@ msgstr "リアルタイム"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Receive From"
-msgstr "受信元"
+msgstr "수신자"
 
 #: .\base\automationhandler.cpp
 msgid "[Command]Recent Parameters"
@@ -1787,7 +1787,7 @@ msgstr "センドスロット"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]Send To"
-msgstr "送信先"
+msgstr "송신 대상"
 
 #: .\mixer\editgroupmanager.cpp
 msgid "[EditGroups]Sends"
@@ -2123,7 +2123,7 @@ msgstr "テキストディスプレイ"
 
 #: .\music\setup\musicdevicesetup.cpp
 msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "デバイスモデル \"%(1)\" はもう使用されていません。ユーザーデバイスから削除しますか？"
+msgstr "디바이스 모델 \"%(1)\" 은 더 이상 사용되지 않습니다. 유저 디바이스에서 삭제 하시겠습니까?"
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -2131,7 +2131,7 @@ msgstr "オーディオデバイス %(1) を初期化できませんでした。
 
 #: .\audio\audioengine.cpp
 msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "オーディオデバイス %(1) は前回正しく起動できませんでした。再試行しますか？"
+msgstr "오디오 장치 %(1) 를 마지막으로 올바르게 시작하지 못 했습니다. 다시 시도 하시겠습니까?"
 
 #: .\audio\watchdogcomponent.cpp
 msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
